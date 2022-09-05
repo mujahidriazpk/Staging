@@ -4,7 +4,7 @@ require($_SERVER['DOCUMENT_ROOT'].'wp-load.php');
 global $wpdb;
 if(isset($_POST['mode']) && $_POST['mode']=='mail'){
 	//mail("mujahidriazpk@gmail.com","test","this is a message");
-	$to = 'mujahidriazpk@gmail.com';
+	$to = 'mujahidriazpk1@gmail.com';
 $subject = 'The subject'.rand(5);
 $body = 'The email body content';
 $headers = array('Content-Type: text/html; charset=UTF-8');
