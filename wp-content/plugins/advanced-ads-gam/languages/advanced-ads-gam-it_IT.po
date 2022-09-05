@@ -1,0 +1,339 @@
+# Translation of Google Ad Manager in Italian
+# This file is distributed under the same license as the Google Ad Manager package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-08-31 07:47:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: it\n"
+"Project-Id-Version: Google Ad Manager\n"
+
+#: admin/views/gam-network-id.php:69
+msgid "We found more than %d ads in your account. The connection might time out."
+msgstr "Abbiamo trovato più di %d annunci nel tuo account. La connessione potrebbe scadere."
+
+#: admin/views/gam-connect.php:37
+msgid "Processing authorization"
+msgstr "Processo di autorizzazione"
+
+#: admin/views/gam-network-id.php:69
+msgid "Please reach out to us for alternative solutions."
+msgstr "Contattateci per soluzioni alternative."
+
+#: admin/views/gam-network-id.php:66
+msgid "Please enable the API option in your Ad Manager account and reload this page."
+msgstr "Abilita l'opzione API nel tuo account Ad Manager e ricarica questa pagina."
+
+#: admin/views/gam-network-id.php:67
+msgid "Manual"
+msgstr "Manuale"
+
+#: admin/views/ad-parameters.php:74
+msgid "Fluid sizes cannot be aligned left or right. Please choose another option for Position."
+msgstr "Le dimensioni fluide non possono essere allineate a sinistra o a destra. Scegli un'altra opzione per Posizione."
+
+#: admin/views/ad-parameters.php:49 admin/views/gam-network-id.php:73
+msgid "%1$sPlease re-activate %2$syour license%3$s to update the ad unit list.%4$s"
+msgstr "%1$sRiattiva %2$sla tua licenza%3$s per aggiornare l'elenco delle unità pubblicitarie.%4$s"
+
+#: admin/views/gam-network-id.php:41
+msgid "%1$sPlease activate %2$syour license%3$s to connect your account.%4$s"
+msgstr "%1$sAttiva %2$sla tua licenza%3$s per connettere il tuo account.%4$s"
+
+#: admin/views/ad-sizes/responsive-sizes.php:10
+msgid "Automatically filter out ad sizes that are too large for the available space in the frontend"
+msgstr "Filtra automaticamente le dimensioni degli annunci troppo grandi per lo spazio disponibile nel frontend"
+
+#: admin/views/ad-sizes/table-row.php:11
+msgid "delete"
+msgstr "elimina"
+
+#: admin/views/ad-sizes/table-row.php:10
+msgid "add"
+msgstr "aggiungi"
+
+#: admin/views/ad-sizes/table-row.php:4 admin/views/ad-sizes/table.php:5
+msgid "min. screen width"
+msgstr "min. larghezza schermo"
+
+#: admin/views/gam-network-id.php:63
+msgid "Place your first ad"
+msgstr "Inserisci il tuo primo annuncio"
+
+#: admin/views/key-value.php:148
+msgid "Add"
+msgstr "Aggiungi"
+
+#: admin/views/key-value.php:52
+msgid "Key-value targeting"
+msgstr "Valori chiave di targeting"
+
+#: admin/views/ad-parameters.php:66
+msgid "This ad unit does not have any ad sizes"
+msgstr "Questa unità pubblicitaria non ha dimensioni annuncio"
+
+#: admin/views/ad-parameters.php:61
+msgid "Ad sizes"
+msgstr "Dimensioni annuncio"
+
+#: admin/views/ads-list.php:73
+msgid "Update ad"
+msgstr "Aggiorna annuncio"
+
+#: admin/views/ads-list.php:72
+msgid "The selected ad unit has changed in your GAM account. Please re-save this ad to apply the new changes."
+msgstr "L&rsquo;unità pubblicitaria selezionata è cambiata nel tuo account GAM. Salva nuovamente questo annuncio per applicare le nuove modifiche."
+
+#: admin/class-advanced-ads-gam-admin.php:295 admin/views/key-value.php:94
+msgid "Any terms, including categories and tags. Enabled on single pages."
+msgstr "Qualsiasi termine, comprese categorie e tag. Abilitato su singole pagine."
+
+#: admin/class-advanced-ads-gam-admin.php:294 admin/views/key-value.php:90
+msgid "Any terms, including categories and tags. Enabled on single and archive pages."
+msgstr "Qualsiasi termine, comprese categorie e tag. Abilitato su pagine singole e di archivio."
+
+#: admin/class-advanced-ads-gam-admin.php:293 admin/views/key-value.php:58
+#: admin/views/key-value.php:79 admin/views/key-value.php:145
+msgid "Value"
+msgstr "Valore"
+
+#: admin/class-advanced-ads-gam-admin.php:292 admin/views/key-value.php:57
+#: admin/views/key-value.php:75 admin/views/key-value.php:142
+msgid "Key"
+msgstr "Chiave"
+
+#: admin/class-advanced-ads-gam-admin.php:291 admin/views/key-value.php:56
+#: admin/views/key-value.php:71 admin/views/key-value.php:130
+msgid "Type"
+msgstr "Tipo"
+
+#: admin/class-advanced-ads-gam-admin.php:195
+#: admin/class-advanced-ads-gam-admin.php:216
+#: admin/class-advanced-ads-gam-admin.php:219
+msgid "Connect to GAM"
+msgstr "Connettiti a GAM"
+
+#: admin/class-advanced-ads-gam-admin.php:174
+msgid "send also on archive pages"
+msgstr "invia anche su pagine di archivio"
+
+#: admin/class-advanced-ads-gam-admin.php:173
+msgid "Any terms on single pages, including categories and tags."
+msgstr "Qualsiasi termine su singole pagine, comprese categorie e tag."
+
+#: admin/class-advanced-ads-gam-admin.php:172
+msgid "Categories/Tags/Terms"
+msgstr "Categorie/tag /termini"
+
+#: admin/class-advanced-ads-gam-admin.php:168
+msgid "Taxonomy of archive pages."
+msgstr "Tassonomia delle pagine di archivio."
+
+#: admin/class-advanced-ads-gam-admin.php:167
+msgid "Taxonomy"
+msgstr "Tassonomia"
+
+#: admin/class-advanced-ads-gam-admin.php:163
+msgid "Enter the user meta name as a value."
+msgstr "Immettere il nome del meta utente come valore."
+
+#: admin/class-advanced-ads-gam-admin.php:162
+msgid "User meta"
+msgstr "Meta utente"
+
+#: admin/class-advanced-ads-gam-admin.php:158
+msgid "Enter the post meta name as a value."
+msgstr "Inserisci il nome del meta articolo come valore."
+
+#: admin/class-advanced-ads-gam-admin.php:157
+msgid "Post meta"
+msgstr "Meta articolo"
+
+#: admin/class-advanced-ads-gam-admin.php:153
+msgid "ID of the Advanced Ads placement."
+msgstr "ID del posizionamento Advanced Ads."
+
+#: admin/class-advanced-ads-gam-admin.php:152
+msgid "Placement ID"
+msgstr "ID posizionamento"
+
+#: admin/class-advanced-ads-gam-admin.php:148
+msgid "ID of the current post or page."
+msgstr "ID della pagina o articolo corrente."
+
+#: admin/class-advanced-ads-gam-admin.php:147
+msgid "Page ID"
+msgstr "ID pagina"
+
+#: admin/class-advanced-ads-gam-admin.php:136
+msgid "Page type"
+msgstr "Tipo di pagina"
+
+#: admin/class-advanced-ads-gam-admin.php:131
+msgid "Page slug"
+msgstr "Slug pagina"
+
+#: admin/class-advanced-ads-gam-admin.php:126
+msgid "Post types"
+msgstr "Tipo di articolo"
+
+#: admin/class-advanced-ads-gam-admin.php:120
+msgid "Custom key"
+msgstr "Chiave personalizzata"
+
+#: includes/class-advanced-ads-network-gam.php:356
+msgid "one day ago"
+msgid_plural "%s days ago"
+msgstr[0] "un giorno fa"
+msgstr[1] "%s giorni fa"
+
+#: includes/class-advanced-ads-network-gam.php:353
+msgid "less than 24 hours ago"
+msgstr "meno di 24 ore fa"
+
+#: includes/class-advanced-ads-network-gam.php:351
+msgid "less than an hour ago"
+msgstr "meno di un&rsquo;ora fa"
+
+#: includes/class-advanced-ads-network-gam.php:349
+msgid "just now"
+msgstr "proprio adesso"
+
+#: includes/class-advanced-ads-network-gam.php:345
+msgid "unknown"
+msgstr "sconosciuto"
+
+#: includes/class-advanced-ads-network-gam.php:343
+msgid "Last updated:"
+msgstr "Ultimo aggiornamento:"
+
+#: includes/class-advanced-ads-network-gam.php:316
+#: admin/views/key-value.php:120
+msgid "Remove"
+msgstr "Rimuovi"
+
+#. Name of the plugin
+msgid "Advanced Ads – Google Ad Manager Integration"
+msgstr "Advanced Ads – Google Ad Manager Integration"
+
+#. URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/google-ad-manager/"
+msgstr "https://wpadvancedads.com/add-ons/google-ad-manager/"
+
+#: admin/views/gam-connect.php:48
+msgid "Please select the network account"
+msgstr "Seleziona l&rsquo;account di rete"
+
+#. Description of the plugin
+msgid "Google Ad Manager Integration for WordPress"
+msgstr "Integrazione di Google Ad Manager per WordPress"
+
+#: includes/class-advanced-ads-network-gam.php:100
+msgid "Collapse empty elements"
+msgstr "Comprimi gli elementi vuoti"
+
+#: includes/class-advanced-ads-network-gam.php:89
+msgid "Ad Manager account"
+msgstr "Account Ad Manager"
+
+#: advanced-ads-gam.php:61
+msgid "<strong>Advanced Ads – Google Ad Manager Integration</strong> is an extension for the free Advanced Ads plugin."
+msgstr "<strong>Advanced Ads – Google Ad Manager Integration</strong> è una estensione gratuita per il plugin Advanced Ads."
+
+#: advanced-ads-gam.php:58
+msgid "Install Now"
+msgstr "Installa ora"
+
+#: advanced-ads-gam.php:56
+msgid "Activate Now"
+msgstr "Attiva ora"
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#. Author of the plugin
+msgid "Thomas Maier"
+msgstr "Thomas Maier"
+
+#: admin/views/gam-network-id.php:36
+msgid "Connect your Google Ad Manager account"
+msgstr "Collega il tuo account Google Ad Manager"
+
+#: admin/views/gam-network-id.php:35 admin/views/gam-network-id.php:38
+msgid "Connect account"
+msgstr "Collega il tuo account"
+
+#: admin/views/gam-network-id.php:26
+msgid "Test account"
+msgstr "Test account"
+
+#: admin/views/gam-network-id.php:17
+msgid "Revoke access"
+msgstr "Revoca accesso"
+
+#: admin/views/ads-list-table-body.php:12
+msgid "Your account looks empty"
+msgstr "Il tuo account sembra vuoto"
+
+#: admin/views/gam-connect.php:52
+msgid "Select account"
+msgstr "Seleziona account"
+
+#: admin/views/gam-empty-div.php:11
+msgid "Fill space when ad is loaded"
+msgstr "Riempi lo spazio quando viene caricato l&rsquo;annuncio"
+
+#: admin/views/gam-empty-div.php:10
+msgid "Collapse if empty"
+msgstr "Comprimi se vuoto"
+
+#: admin/views/gam-empty-div.php:9
+msgid "Do not collapse"
+msgstr "Non comprimere"
+
+#: admin/views/ads-list.php:35 admin/views/ads-list.php:40
+msgid "You need to connect to a Google Ad Manager account"
+msgstr "Devi connetterti a un account Google Ad Manager"
+
+#: admin/views/ads-list.php:24 admin/views/ads-list.php:48
+#: admin/views/ads-list.php:61
+msgid "Ad Unit Code"
+msgstr "Codice unità pubblicitaria"
+
+#: admin/views/ads-list.php:23 admin/views/ads-list.php:47
+#: admin/views/ads-list.php:60
+msgid "Description"
+msgstr "Descrizione"
+
+#: admin/views/ads-list.php:22 admin/views/ads-list.php:46
+#: admin/views/ads-list.php:59
+msgid "Name"
+msgstr "Nome"
+
+#: admin/class-advanced-ads-gam-admin.php:1211
+msgid "Google Ad Manager Integration"
+msgstr "Integrazione di Google Ad Manager"
+
+#: admin/class-advanced-ads-gam-admin.php:430
+msgid "No Ad Manager network found in this Google account"
+msgstr "Nessuna rete Ad Manager trovata in questo account Google"
+
+#: admin/class-advanced-ads-gam-admin.php:373
+msgid "Invalid response received while renewing access token for \"%s\""
+msgstr "Risposta non valida ricevuta durante il rinnovo del token di accesso per \"%s\""
+
+#: admin/class-advanced-ads-gam-admin.php:354
+msgid "Error while renewing access token for \"%s\""
+msgstr "Errore durante il rinnovo del token di accesso per \"%s\""
+
+#: includes/class-advanced-ads-gam-ad-type.php:27
+msgid "Use ad units from your Google Ad Manager account"
+msgstr "Utilizza le unità pubblicitarie dal tuo account Google Ad Manager"
+
+#: includes/class-advanced-ads-gam-ad-type.php:26
+msgid "Google Ad Manager"
+msgstr "Google Ad Manager"

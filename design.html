@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Design Test</title>
+<style type="text/css">
+body{margin-top:0;margin-bottom:0; }
+.module {
+	height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+ height: calc(var(--vh, 1vh) * 100);
+	margin: 0 auto;
+	max-width: 100%;
+}
+.module__item {
+	float:left;
+	width:100%;
+	overflow:hidden;
+	border-left:solid 1px #000;
+	
+	border-right:solid 1px #000;
+	box-shadow:#000 2px;
+}
+.module__item.header {
+	overflow:visible;
+}
+.header {
+	height: 2.8% !important;
+	border-bottom:solid 1px #000;
+}
+.details {
+	height: 23.2% !important;
+	border-bottom:solid 1px #000;
+}
+.bidding {
+	height:6% !important;
+	border-bottom:solid 1px #000;
+	display:flex;
+}
+.black {
+	height: 12% !important;
+	border-bottom:solid 1px #000;
+}
+.ads {
+	height: 56% !important;
+	border-bottom:solid 1px #000;
+}
+</style>
+</head>
+
+<body>
+<div id="page" class="hfeed site module lang_en">
+  <nav class="navbar navbar-inverse navbar-top-area module__item header"> 
+    Header Section
+  </nav>
+  <div id="main" class="site-main module__item details"> 
+    Product Detail Section
+  </div>
+  <div class="module__item bidding">Bidding information Section</div>
+  <div class="module__item black">Black Board section</div>
+  <div class="container content-wrap ad_section_main module__item ads">Ads Section</div>
+</div>
+</body>
+</html>

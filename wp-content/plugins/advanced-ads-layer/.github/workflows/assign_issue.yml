@@ -1,0 +1,19 @@
+name: Auto Assign to Advanced Ads Project
+
+on:
+  issues:
+    types: [ opened ]
+
+env:
+  MY_GITHUB_TOKEN: ${{ secrets.WEBGILDE_GITHUB_TOKEN }}
+
+jobs:
+  assign_one_project:
+    runs-on: ubuntu-latest
+    name: Assign to Advanced Ads Project
+    steps:
+      - name: Assign NEW issues to Advanced Ads Project
+        uses: srggrs/assign-one-project-github-action@1.2.1
+        with:
+          project: 'https://github.com/orgs/webgilde/projects/1'
+          column_name: 'Backlog'

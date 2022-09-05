@@ -1,0 +1,2624 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Subscription\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2019-05-08 08:25:46+00:00\n"
+"PO-Revision-Date: 2019-05-08 10:26+0200\n"
+"Last-Translator: Fernando Tellado <fernando@tellado.es>\n"
+"Language-Team: Yithemes <plugins@yithemes.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: includes/admin/class.ywsbs-activities-list-table.php:38
+msgid "Activity"
+msgstr "Actividad"
+
+#: includes/admin/class.ywsbs-activities-list-table.php:39
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:50
+#: templates/myaccount/my-subscriptions-view.php:27
+#: templates/myaccount/subscriptions-related.php:31
+#: templates/myaccount/view-subscription.php:172
+#: templates/myaccount/view-subscription.php:189
+#: templates/myaccount/view-subscription.php:221
+msgid "Status"
+msgstr "Estado"
+
+#: includes/admin/class.ywsbs-activities-list-table.php:40
+#: includes/class.yith-wc-subscription-admin.php:196
+#: includes/class.yith-wc-subscription-admin.php:222
+#: includes/class.yith-wc-subscription-admin.php:911
+#: includes/class.ywsbs-susbscription-helper.php:104
+#: includes/class.ywsbs-susbscription-helper.php:110
+msgid "Subscription"
+msgstr "Suscripción"
+
+#: includes/admin/class.ywsbs-activities-list-table.php:41
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:53
+msgid "Order"
+msgstr "Pedido"
+
+#: includes/admin/class.ywsbs-activities-list-table.php:42
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/admin/class.ywsbs-activities-list-table.php:43
+#: templates/myaccount/view-subscription.php:171
+#: templates/myaccount/view-subscription.php:187
+#: templates/myaccount/view-subscription.php:208
+msgid "Date"
+msgstr "Fecha"
+
+#: includes/admin/class.ywsbs-activities-list-table.php:201
+msgid "All status"
+msgstr "Todos los estados"
+
+#: includes/admin/class.ywsbs-activities-list-table.php:223
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:471
+msgid "Filter"
+msgstr "Filtro"
+
+#: includes/admin/class.ywsbs-activities-list-table.php:269
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:616
+msgid "Search"
+msgstr "Buscar"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:30
+msgid "subscription"
+msgstr "suscripción"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:31
+msgid "subscriptions"
+msgstr "suscripciones"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:51
+#: templates/myaccount/view-subscription.php:170
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:52
+#: templates/myaccount/my-subscriptions-view.php:28
+#: templates/myaccount/subscriptions-related.php:32
+msgid "Recurring"
+msgstr "Periódico"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:54
+msgid "User"
+msgstr "Usuario"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:55
+msgid "Started"
+msgstr "Fecha Inicio"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:56
+msgid "Payment Due"
+msgstr "Vencimiento del pago"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:57
+#: plugin-options/metabox/ywsbs_metabox.php:47
+msgid "End Date"
+msgstr "Fecha fin"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:58
+msgid "Expires"
+msgstr "Caduca"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:59
+msgid "Renewals"
+msgstr "Renovaciones"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:60
+msgid "Payment Method"
+msgstr "Método de pago"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:61
+msgid "Failed attempts"
+msgstr "Intentos fallidos"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:293
+msgid "Never"
+msgstr "Nunca"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:366
+#: templates/admin/metabox/metabox_subscription_info_content.php:86
+#: templates/admin/metabox/metabox_subscription_info_content.php:154
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:371
+msgid "Restore this item from the Trash"
+msgstr "Restaurar este elemento de la papelera"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:371
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:533
+msgid "Restore"
+msgstr "Restaurar"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:373
+msgid "Move this item to the Trash"
+msgstr "Mover este elemento a la papelera"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:373
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:514
+msgid "Trash"
+msgstr "Papelera"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:376
+msgid "Delete this item permanently"
+msgstr "Borrar este elemento permanentemente"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:376
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:534
+msgid "Delete Permanently"
+msgstr "Borrar Permanentemente"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:410
+msgid "Show All Customers"
+msgstr "Mostrar todos los clientes"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:426
+msgid "All statuses"
+msgstr "Todos los estados"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:450
+msgid "All Payment Methods"
+msgstr "Todos los métodos de pago"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:498
+msgid "All"
+msgstr "Todos"
+
+#: includes/admin/class.ywsbs-subscriptions-list-table.php:539
+msgid "Move to Trash"
+msgstr "Mover a la papelera"
+
+#: includes/class.yith-wc-activity.php:107
+msgctxt "new subscription has been created"
+msgid "New Subscription"
+msgstr "Nueva suscripción"
+
+#: includes/class.yith-wc-activity.php:108
+msgctxt "new order has been created for the subscription"
+msgid "Renewal Order"
+msgstr "Pedido renovado"
+
+#: includes/class.yith-wc-activity.php:111
+msgctxt "subscription cancelled by shop manager or customer"
+msgid "Cancelled Subscription"
+msgstr "Suscripción cancelada"
+
+#: includes/class.yith-wc-activity.php:112
+msgctxt "subscription cancelled by system"
+msgid "Auto Cancelled Subscription"
+msgstr "Suscripción cancelada automáticamente"
+
+#: includes/class.yith-wc-activity.php:113
+msgctxt "subscription expired"
+msgid "Subscription Expired"
+msgstr "Suscripción caducada"
+
+#: includes/class.yith-wc-activity.php:114
+msgctxt "subscription switched"
+msgid "Subscription Switched to another subscription"
+msgstr "Suscripción cambiada por otra suscripción"
+
+#: includes/class.yith-wc-activity.php:115
+msgctxt "subscription resumed by shop manager or customer"
+msgid "Subscription Resumed"
+msgstr "Suscripción reanudada"
+
+#: includes/class.yith-wc-activity.php:116
+msgctxt "subscription resumed for expired pause"
+msgid "Subscription Automatic Resumed"
+msgstr "Suscripción automáticamente reanudada"
+
+#: includes/class.yith-wc-activity.php:117
+msgctxt "subscription paused by shop manager or customer"
+msgid "Subscription Paused"
+msgstr "Suscripción pausada"
+
+#: includes/class.yith-wc-activity.php:118
+msgctxt "subscription suspended automatically due to non-payment"
+msgid "Subscription Suspended"
+msgstr "Suscripción interrumpida"
+
+#: includes/class.yith-wc-activity.php:119
+msgctxt "subscription failed payment"
+msgid "Failed Payment"
+msgstr "Pago fallido"
+
+#: includes/class.yith-wc-activity.php:120
+msgctxt "subscription was trashed"
+msgid "Subscription Trashed"
+msgstr "Suscripción enviada a la papelera"
+
+#: includes/class.yith-wc-activity.php:121
+msgctxt "subscription was changed"
+msgid "Subscription Changed"
+msgstr "Suscripción cambiada"
+
+#: includes/class.yith-wc-subscription-admin.php:197
+msgid "Create a subscription for this product"
+msgstr "Crea una suscripción para este producto"
+
+#: includes/class.yith-wc-subscription-admin.php:222
+msgid "Sell this variable product as a subscription product."
+msgstr "Vende este producto variable como un producto de suscripción."
+
+#: includes/class.yith-wc-subscription-admin.php:240
+msgid "One time shipping"
+msgstr "Envío de una sola vez"
+
+#: includes/class.yith-wc-subscription-admin.php:241
+msgid "Check it if you want recurring payments without shipping."
+msgstr "Márcalo si quieres pagos periódicos sin envío."
+
+#: includes/class.yith-wc-subscription-admin.php:275
+#: includes/class.yith-wc-subscription-admin.php:436
+msgid "Subscription Settings"
+msgstr "Ajustes de suscripción"
+
+#: includes/class.yith-wc-subscription-admin.php:278
+#: includes/class.yith-wc-subscription-admin.php:439
+msgid "Price is per"
+msgstr "El precio es por"
+
+#: includes/class.yith-wc-subscription-admin.php:289
+msgid "Add the duration of the subscription"
+msgstr "Añade la duración de la suscripción"
+
+#: includes/class.yith-wc-subscription-admin.php:295
+msgid "Max: "
+msgstr "Máx: "
+
+#: includes/class.yith-wc-subscription-admin.php:299
+#: includes/class.yith-wc-subscription-admin.php:451
+#, fuzzy
+#| msgid "Max Lenght:"
+msgid "Max Length:"
+msgstr "Duración máx:"
+
+#: includes/class.yith-wc-subscription-admin.php:303
+msgid "Leave it empty for unlimited subscription"
+msgstr "Déjalo vacío para suscripción ilimitada"
+
+#: includes/class.yith-wc-subscription-admin.php:307
+#: includes/class.yith-wc-subscription-admin.php:458
+msgid "Trial period"
+msgstr "Periodo de prueba"
+
+#: includes/class.yith-wc-subscription-admin.php:323
+#: includes/class.yith-wc-subscription-admin.php:469
+msgid "Sign-up fee (%s)"
+msgstr "Cuota de inscripción (%s)"
+
+#: includes/class.yith-wc-subscription-admin.php:333
+#: includes/class.yith-wc-subscription-admin.php:475
+msgid "Max Number of pauses"
+msgstr "Máximo número de pausas"
+
+#: includes/class.yith-wc-subscription-admin.php:336
+#: includes/class.yith-wc-subscription-admin.php:476
+msgid "Leave empty if you do not want to allow pauses"
+msgstr "Déjalo vacío si no quieres permitir pausas"
+
+#: includes/class.yith-wc-subscription-admin.php:344
+#: includes/class.yith-wc-subscription-admin.php:482
+msgid "Max duration of pauses"
+msgstr "Máxima duración de las pausas"
+
+#: includes/class.yith-wc-subscription-admin.php:346
+#: includes/class.yith-wc-subscription-admin.php:486
+#: includes/functions.yith-wc-subscription.php:85
+#: plugin-options/general-options.php:101
+#: plugin-options/general-options.php:154
+msgid "days"
+msgstr "días"
+
+#: includes/class.yith-wc-subscription-admin.php:452
+msgid "Leave empty for unlimited subscription"
+msgstr "Déjalo vacío para suscripción ilimitada"
+
+#: includes/class.yith-wc-subscription-admin.php:454
+msgid "(Max: <span class=\"max-l\">%d</span>)"
+msgstr "(Máx: <span class=\"max-l\">%d</span>)"
+
+#: includes/class.yith-wc-subscription-admin.php:490
+msgid "Allow switch to this variation"
+msgstr "Permitir el cambio para esta variación"
+
+#: includes/class.yith-wc-subscription-admin.php:496
+msgid "Priority"
+msgstr "Prioridad"
+
+#: includes/class.yith-wc-subscription-admin.php:497
+msgid ""
+"This field allows you to set a hierarchy in the subscription variations. For "
+"example, if you switch from a variation with a lower priority to another "
+"with higher priority, the switching process is regarded as an upgrade."
+msgstr ""
+"Este campo te permite establecer una jerarquía en las variaciones de "
+"suscripción. Por ejemplo, si cambias de una variación con una prioridad más "
+"baja a otra con una prioridad más alta, el proceso de cambio se considera "
+"como una actualización."
+
+#: includes/class.yith-wc-subscription-admin.php:504
+msgid "Change duration"
+msgstr "Cambiar duración"
+
+#: includes/class.yith-wc-subscription-admin.php:507
+msgid ""
+"This field allows you to change the duration of the\r\n"
+"                     subscription considering also the time the customer has "
+"benefitted of the subscription"
+msgstr ""
+"Este campo te permite cambiar la duración de la\r\n"
+"                     suscripción considerando también el tiempo que el "
+"cliente se ha beneficiado de la suscripción"
+
+#: includes/class.yith-wc-subscription-admin.php:512
+msgid "Permit catch up payment when upgrading"
+msgstr "Permitir ponerse al día de los pagos al subir de nivel"
+
+#: includes/class.yith-wc-subscription-admin.php:515
+msgid ""
+"This field allows users\r\n"
+"                    to catch up with payments of the previous subscription"
+msgstr ""
+"Este campo permite a los usuarios\r\n"
+"                    ponerse al día con los pagos de las suscripciones previas"
+
+#: includes/class.yith-wc-subscription-admin.php:657
+msgid ""
+"Copy billing information to shipping information? This will remove any "
+"currently entered shipping information."
+msgstr ""
+"¿Copiar la información de facturación a la información de envío? Esto "
+"borrará cualquier otra información de envío introducida."
+
+#: includes/class.yith-wc-subscription-admin.php:658
+msgid ""
+"Load the customer's billing information? This will remove any currently "
+"entered billing information."
+msgstr ""
+"¿Cargar la información de facturación del cliente? Esto borrará cualquier "
+"información de facturación introducida."
+
+#: includes/class.yith-wc-subscription-admin.php:659
+msgid "User is not registered"
+msgstr "El usuario no está registrado"
+
+#: includes/class.yith-wc-subscription-admin.php:663
+msgid ""
+"Load the customer's shipping information? This will remove any currently "
+"entered shipping information."
+msgstr ""
+"¿Cargar la información de envío del cliente? Esto borrará cualquier "
+"información de envío introducida."
+
+#: includes/class.yith-wc-subscription-admin.php:749
+#: includes/class.yith-wc-subscription-privacy.php:105
+#: includes/compatibility/yith-woocommerce-product-vendors.php:162
+#: templates/admin/subscriptions-tab.php:2
+msgid "Subscriptions"
+msgstr "Suscripciones"
+
+#: includes/class.yith-wc-subscription-admin.php:750
+#: includes/compatibility/yith-woocommerce-product-vendors.php:163
+#: templates/admin/activities-tab.php:2
+msgid "Activities"
+msgstr "Actividades"
+
+#: includes/class.yith-wc-subscription-admin.php:751
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/class.yith-wc-subscription-admin.php:755
+msgid "Privacy"
+msgstr "Privacidad"
+
+#: includes/class.yith-wc-subscription-admin.php:964
+#: includes/compatibility/yith-woocommerce-membership.php:70
+msgid "Membership Status"
+msgstr "Estado de la suscripción"
+
+#: includes/class.yith-wc-subscription-admin.php:966
+msgid "Failed Attempts"
+msgstr "Intentos fallidos"
+
+#: includes/class.yith-wc-subscription-cart.php:253
+msgid "(Subscription total for %s %s: %s)"
+msgstr "(Suscripción total para %s %s: %s)"
+
+#: includes/class.yith-wc-subscription-coupons.php:80
+msgid "Subscription Signup % Discount"
+msgstr "% descuento en la cuota de suscripción"
+
+#: includes/class.yith-wc-subscription-coupons.php:81
+msgid "Subscription Signup Discount"
+msgstr "Descuento en la cuota de suscripción"
+
+#: includes/class.yith-wc-subscription-coupons.php:82
+msgid "Subscription Recurring % Discount"
+msgstr "% descuento periódico en la suscripción"
+
+#: includes/class.yith-wc-subscription-coupons.php:83
+msgid "Subscription Recurring Discount"
+msgstr "Descuento periódico en la suscripción"
+
+#: includes/class.yith-wc-subscription-coupons.php:247
+msgid ""
+"Sorry, this coupon can be used only if there is a subscription in the cart"
+msgstr ""
+"Lo sentimos, este cupón sólo puede usarse si hay una suscripción en el "
+"carrito"
+
+#: includes/class.yith-wc-subscription-coupons.php:254
+msgid ""
+"Sorry, this coupon can be used only if there is a subscription with signup "
+"fees"
+msgstr ""
+"Lo sentimos, este cupón sólo puede usarse si hay una suscripción con cuota "
+"de inscripción"
+
+#: includes/class.yith-wc-subscription-cron.php:247
+msgid "The subscription has been cancelled because it has expired"
+msgstr "La suscripción ha sido cancelada porque ha caducado"
+
+#: includes/class.yith-wc-subscription-cron.php:408
+msgid "The subscription is overdue because the payment has not been received"
+msgstr "La suscripción está atrasada porque el pago no se ha recibido"
+
+#: includes/class.yith-wc-subscription-cron.php:414
+msgid "The subscription is suspended because the payment has not been received"
+msgstr "La suscripción se ha interrumpido porque el pago no ha sido recibido"
+
+#: includes/class.yith-wc-subscription-cron.php:418
+msgid "The subscription is cancelled because the payment has not been received"
+msgstr "La suscripción ha sido cancelada porque el pago no ha sido recibido"
+
+#: includes/class.yith-wc-subscription-cron.php:455
+msgid "The subscription is suspended because the overdue period has finished."
+msgstr ""
+"La suscripción se ha interrumpido porque el periodo de demora ha finalizado."
+
+#: includes/class.yith-wc-subscription-cron.php:459
+msgid ""
+"The subscription has been cancelled because the overdue period has finished."
+msgstr ""
+"La suscripción se ha cancelado porque el periodo de demora ha finalizado."
+
+#: includes/class.yith-wc-subscription-cron.php:493
+msgid ""
+"The subscription has been cancelled because the suspension period has "
+"finished."
+msgstr ""
+"La suscripción se ha cancelado porque el periodo de interrupción ha "
+"finalizado."
+
+#: includes/class.yith-wc-subscription-cron.php:529
+msgid ""
+"The subscription was been trashed after the specific duration because was in "
+"pending status."
+msgstr ""
+"La suscripción se ha enviado a la papelera después de la duración específica "
+"porque estaba en estado pendiente."
+
+#: includes/class.yith-wc-subscription-cron.php:565
+msgid ""
+"The subscription was been trashed after the specific duration because was in "
+"cancelled status."
+msgstr ""
+"La suscripción se ha enviado a la papelera después de la duración específica "
+"porque estaba en estado pendiente."
+
+#: includes/class.yith-wc-subscription-my-account.php:120
+msgid ""
+"Only the shipping address used for this subscription will be updated for "
+"future recurring payments"
+msgstr ""
+"La dirección de envío utilizada para esta suscripción solo se actualizará "
+"para futuros pagos periódicos"
+
+#: includes/class.yith-wc-subscription-my-account.php:127
+#: includes/class.yith-wc-subscription.php:621
+msgid "Update this address also for my active subscriptions"
+msgstr "Actualizar esta dirección también para mis suscripciones activas"
+
+#: includes/class.yith-wc-subscription-my-account.php:254
+msgid "This subscription cannot be updated. Contact us for info"
+msgstr ""
+"Esta suscripción no se puede actualizar. Contacta con nosotros para más info"
+
+#: includes/class.yith-wc-subscription-my-account.php:258
+msgid "You seem to have already purchased this subscription "
+msgstr "Parece que ya has comprado esta suscripción "
+
+#: includes/class.yith-wc-subscription-my-account.php:278
+#: includes/class.yith-wc-subscription.php:735
+#: includes/class.yith-wc-subscription.php:771
+msgid "This subscription cannot be switched. Contact us for info"
+msgstr ""
+"Esta suscripción no puede cambiarse. Contacta con nosotros para más info"
+
+#: includes/class.yith-wc-subscription-order.php:131
+msgid "Renew Now"
+msgstr "Renovar ahora"
+
+#: includes/class.yith-wc-subscription-order.php:661
+msgid ""
+"A new subscription <a href=\"%s\">#%s</a> has been created from this order"
+msgstr ""
+"Se ha creado una nueva suscripción <a href=\"%s\">#%s</a> desde este pedido"
+
+#: includes/class.yith-wc-subscription-order.php:703
+msgid ""
+"The subscription %s created from this orders has been cancelled because the "
+"order item was cancelled"
+msgstr ""
+"La suscripción %s creada desde estos pedidos ha sido cancelada porque el "
+"artículo del pedido fue cancelado"
+
+#: includes/class.yith-wc-subscription-order.php:863
+msgid "Error %d: unable to create the order. Please try again."
+msgstr "Error %d: imposible crear el pedido. Por favor, inténtalo de nuevo."
+
+#: includes/class.yith-wc-subscription-order.php:946
+msgid ""
+"This order has been created to renew subscription <a href=\"%s\">#%s</a>"
+msgstr ""
+"Este pedido se ha creado para renovar la suscripción <a href=\"%s\">#%s</a>"
+
+#: includes/class.yith-wc-subscription-order.php:953
+msgid "The order %d has been created for the subscription"
+msgstr "El pedido %d se ha creado para la suscripción"
+
+#: includes/class.yith-wc-subscription-order.php:1016
+msgid "The subscription cannot be cancelled"
+msgstr "La suscripción no se puede cancelar"
+
+#: includes/class.yith-wc-subscription-privacy-dpa.php:19
+msgctxt "Privacy Policy Content"
+msgid "YITH WooCommerce Subscription Premium"
+msgstr "YITH WooCommerce Subscription Premium"
+
+#: includes/class.yith-wc-subscription-privacy-dpa.php:34
+msgid ""
+"When you buy a subscription product the following information will be stored:"
+msgstr ""
+"Cuando compras un producto de suscripción se almacena la siguiente "
+"información:"
+
+#: includes/class.yith-wc-subscription-privacy-dpa.php:36
+msgid ""
+"Your name, address, email and phone number, and billing address which will "
+"be used to populate the order and the recurring order."
+msgstr ""
+"Tu nombre, dirección, correo electrónico y número de teléfono, y la "
+"dirección de facturación que se utilizará para completar el pedido y el "
+"pedido periódico."
+
+#: includes/class.yith-wc-subscription-privacy-dpa.php:37
+msgid ""
+"Shipping address: we'll ask you to enter this so we can send you the current "
+"order and the recurring orders."
+msgstr ""
+"Dirección de envío: te pediremos que introduzcas esto para poder enviarte el "
+"pedido actual y los pedidos periódicos."
+
+#: includes/class.yith-wc-subscription-privacy-dpa.php:38
+msgid ""
+"Location, IP address and browser type: we'll use this for purposes like "
+"estimating taxes and shipping."
+msgstr ""
+"Ubicación, dirección IP y tipo de navegador: usaremos esto para cuestiones "
+"como estimar impuestos y envío."
+
+#: includes/class.yith-wc-subscription-privacy-dpa.php:40
+msgid "We'll use this information for purposes, such as, to:"
+msgstr "Usaremos esta información para cuestiones tales como:"
+
+#: includes/class.yith-wc-subscription-privacy-dpa.php:42
+msgid "Send you information about your subscription"
+msgstr "Enviarte información sobre tu cuenta y pedido"
+
+#: includes/class.yith-wc-subscription-privacy-dpa.php:44
+msgid ""
+"We generally store information about you for as long as we need the "
+"information for the purposes for which we collect and use it, and as long as "
+"we are not legally required to continue to keep it."
+msgstr ""
+"Por lo general, almacenamos información sobre ti durante el tiempo que "
+"necesitemos la información para los fines para los que la recopilamos y "
+"usamos, y siempre que no estemos legalmente obligados a seguir conservándola."
+
+#: includes/class.yith-wc-subscription-privacy-dpa.php:45
+msgid ""
+"For example, if a subscription is cancelled, this is definitely removed "
+"after xxx months. This includes your name, email address and billing and "
+"shipping addresses of that subscription."
+msgstr ""
+"Por ejemplo, si se cancela una suscripción, se eliminará definitivamente "
+"después de XXX meses. Esto incluye tu nombre, dirección de correo "
+"electrónico y direcciones de facturación y envío de esa suscripción."
+
+#: includes/class.yith-wc-subscription-privacy-dpa.php:48
+msgid ""
+"Members of our team have access to the information you provide us. For "
+"example, both Administrators and Shop Managers can access:"
+msgstr ""
+"Los miembros de nuestro equipo tienen acceso a la información que nos "
+"ofreces. Por ejemplo, los administradores y gestores de tienda pueden "
+"acceder:"
+
+#: includes/class.yith-wc-subscription-privacy-dpa.php:50
+msgid ""
+"Subscription information like what was purchased, when it was purchased and "
+"where it should be sent, and customer information like your name, email "
+"address, and billing and shipping information."
+msgstr ""
+"Información de suscripción como lo que se compró, cuándo se compró y dónde "
+"se debe enviar, y la información del cliente como su nombre, dirección de "
+"correo electrónico, y la información de facturación y envío."
+
+#: includes/class.yith-wc-subscription-privacy-dpa.php:52
+msgid ""
+"Our team members have access to this information to help fulfill orders, "
+"process refunds and support you."
+msgstr ""
+"Los miembros de nuestro equipo tienen acceso a esta información para ayudar "
+"a completar pedidos, procesar reembolsos y darte soporte."
+
+#: includes/class.yith-wc-subscription-privacy.php:62
+#: includes/class.yith-wc-subscription-privacy.php:78
+msgid "Customer Subscriptions"
+msgstr "Suscripciones del cliente"
+
+#. Translators: %s Order number.
+#: includes/class.yith-wc-subscription-privacy.php:149
+msgid "Removed personal data from subscription %s."
+msgstr "Datos personales eliminados de la suscripción %s."
+
+#. Translators: %s Order number.
+#: includes/class.yith-wc-subscription-privacy.php:153
+msgid "Personal data within subscription %s has been retained."
+msgstr "Los datos personales de la suscripción %s se han conservado."
+
+#: includes/class.yith-wc-subscription-privacy.php:229
+msgid "Subscription Number"
+msgstr "Número de suscripción"
+
+#: includes/class.yith-wc-subscription-privacy.php:230
+#: includes/emails/class.yith-wc-subscription-status.php:31
+msgid "Subscription Status"
+msgstr "Estado de la suscripción"
+
+#: includes/class.yith-wc-subscription-privacy.php:231
+msgid "Subscription Creation Date"
+msgstr "Fecha de creación de la suscripción"
+
+#: includes/class.yith-wc-subscription-privacy.php:232
+msgid "Subscription Total"
+msgstr "Total de suscripción"
+
+#: includes/class.yith-wc-subscription-privacy.php:233
+msgid "Items Purchased"
+msgstr "Productos comprados"
+
+#: includes/class.yith-wc-subscription-privacy.php:234
+msgid "IP Address"
+msgstr "Dirección IP"
+
+#: includes/class.yith-wc-subscription-privacy.php:235
+msgid "Browser User Agent"
+msgstr "Agente de usuario del navegador"
+
+#: includes/class.yith-wc-subscription-privacy.php:236
+#: templates/myaccount/view-subscription.php:300
+msgid "Billing Address"
+msgstr "Dirección de facturación"
+
+#: includes/class.yith-wc-subscription-privacy.php:237
+#: templates/myaccount/view-subscription.php:308
+msgid "Shipping Address"
+msgstr "Dirección de envío"
+
+#: includes/class.yith-wc-subscription-privacy.php:238
+msgid "Phone Number"
+msgstr "Número de télefono"
+
+#: includes/class.yith-wc-subscription-privacy.php:239
+msgid "Email Address"
+msgstr "Dirección de correo electrónico"
+
+#: includes/class.yith-wc-subscription.php:178
+msgid "Add to cart"
+msgstr "Añadir al carrito"
+
+#: includes/class.yith-wc-subscription.php:267
+#: includes/class.yith-wc-subscription.php:323
+msgid " for "
+msgstr " para "
+
+#: includes/class.yith-wc-subscription.php:271
+msgid "<span class=\"ywsbs-price-detail\"> +"
+msgstr "<span class=\"ywsbs-price-detail\"> +"
+
+#: includes/class.yith-wc-subscription.php:274
+#: includes/class.yith-wc-subscription.php:282
+#: includes/class.yith-wc-subscription.php:330
+#: includes/class.yith-wc-subscription.php:338
+msgid " and "
+msgstr " y "
+
+#: includes/class.yith-wc-subscription.php:275
+#: includes/class.yith-wc-subscription.php:331
+msgid " a sign-up fee of "
+msgstr " una cuota de inscripción de "
+
+#: includes/class.yith-wc-subscription.php:283
+#: includes/class.yith-wc-subscription.php:339
+msgid " a free trial of "
+msgstr " una prueba gratuita de "
+
+#: includes/class.yith-wc-subscription.php:327
+msgid "<span class=\"ywsbs-price-detail\"> + "
+msgstr "<span class=\"ywsbs-price-detail\"> + "
+
+#: includes/class.yith-wc-subscription.php:432
+msgid ""
+"A subscription has been removed from your cart. You cannot purchase "
+"different subscriptions at the same time."
+msgstr ""
+"Se ha eliminado una suscripción de tu carrito. No puedes comprar diferentes "
+"suscripciones al mismo tiempo."
+
+#: includes/class.yith-wc-subscription.php:614
+msgid ""
+"Both the shipping address used for the subscription and your default "
+"shipping address for future purchases will be updated."
+msgstr ""
+"Se actualizará la dirección de envío utilizada para la suscripción y también "
+"tu dirección de envío por defecto para futuras compras."
+
+#: includes/class.yith-wc-subscription.php:676
+#: templates/emails/email-subscription-status.php:23
+#: templates/emails/ywsbs_customer_subscription_before_expired.php:18
+#: templates/emails/ywsbs_customer_subscription_cancelled.php:20
+#: templates/emails/ywsbs_customer_subscription_expired.php:19
+#: templates/emails/ywsbs_customer_subscription_paused.php:19
+#: templates/emails/ywsbs_customer_subscription_payment_done.php:26
+#: templates/emails/ywsbs_customer_subscription_payment_failed.php:21
+#: templates/emails/ywsbs_customer_subscription_renew_reminder.php:18
+#: templates/emails/ywsbs_customer_subscription_request_payment.php:24
+#: templates/emails/ywsbs_customer_subscription_resumed.php:20
+#: templates/emails/ywsbs_customer_subscription_suspended.php:23
+msgid "Subscription #%s"
+msgstr "Subscripción #%s"
+
+#: includes/class.yith-wc-subscription.php:797
+msgid ""
+"This subscription cannot be cancelled. You cannot switch to related "
+"subscriptions"
+msgstr ""
+"Esta suscripción no puede cancelarse. No puedes cambiar a suscripciones "
+"relacionadas"
+
+#: includes/class.yith-wc-subscription.php:806
+msgid "Subscription cancelled due to switch"
+msgstr "Suscripción cancelada debido al cambio"
+
+#: includes/class.yith-wc-subscription.php:823
+msgid ""
+"This subscription cannot be cancelled. You cannot switch to a related "
+"subscription"
+msgstr ""
+"Esta suscripción no puede cancelarse. No puedes cambiar a una suscripción "
+"relacionada"
+
+#: includes/class.yith-wc-subscription.php:832
+msgid "Expiration date of this subscription changed due to downgrade"
+msgstr ""
+"La fecha de caducidad de esta suscripción ha cambiado debido al cambio a un "
+"nivel inferior"
+
+#: includes/class.yith-wc-subscription.php:834
+msgid "Subscription will be forced to expire due to downgrade"
+msgstr ""
+"La suscripción será forzada a caducar debido al cambio a un nivel inferior"
+
+#: includes/class.yith-wc-subscription.php:842
+msgid ""
+"This order has been cancelled because subscription #%d has been downgraded"
+msgstr ""
+"Este pedido ha sido cancelado porque la suscripción  #%d ha sido bajada de "
+"nivel"
+
+#: includes/class.yith-wc-subscription.php:878
+msgid "This subscription cannot be activated"
+msgstr "Esta suscripción no se puede activar"
+
+#: includes/class.yith-wc-subscription.php:883
+#: includes/class.yith-wc-subscription.php:971
+msgid "This subscription is now active"
+msgstr "Esta suscripción ahora está activa"
+
+#: includes/class.yith-wc-subscription.php:889
+msgid "This subscription cannot be in status overdue"
+msgstr "Esta suscripción no puede estar en estado atrasado"
+
+#: includes/class.yith-wc-subscription.php:893
+msgid "This subscription is now in overdue status"
+msgstr "Esta suscripción está ahora en estado atrasada"
+
+#: includes/class.yith-wc-subscription.php:898
+msgid "This subscription cannot be in status suspended"
+msgstr "Esta suscripción no puede estar en estado interrumpido"
+
+#: includes/class.yith-wc-subscription.php:902
+msgid "This subscription is now suspended"
+msgstr "Esta suscripción ahora está interrumpida"
+
+#: includes/class.yith-wc-subscription.php:907
+#: includes/class.yith-wc-subscription.php:912
+#: includes/class.yith-wc-subscription.php:926
+#: includes/class.yith-wc-subscription.php:931
+msgid "This subscription cannot be cancelled"
+msgstr "Esta suscripción no puede cancelarse"
+
+#: includes/class.yith-wc-subscription.php:920
+#: includes/class.yith-wc-subscription.php:938
+msgid "This subscription is now cancelled"
+msgstr "Esta suscripción ahora está cancelada"
+
+#: includes/class.yith-wc-subscription.php:943
+#: includes/class.yith-wc-subscription.php:948
+msgid "This subscription cannot be paused"
+msgstr "Esta suscripción no puede pausarse"
+
+#: includes/class.yith-wc-subscription.php:955
+msgid "This subscription is now paused"
+msgstr "Esta suscripción ahora está pausada"
+
+#: includes/class.yith-wc-subscription.php:961
+#: includes/class.yith-wc-subscription.php:965
+msgid "This subscription cannot be resumed"
+msgstr "Esta suscripción no puede ser reanudada"
+
+#: includes/class.ywsbs-susbscription-helper.php:102
+msgctxt "Post Type General Name"
+msgid "Subscriptions"
+msgstr "Suscripciones"
+
+#: includes/class.ywsbs-susbscription-helper.php:103
+msgctxt "Post Type Singular Name"
+msgid "Subscription"
+msgstr "Suscripción"
+
+#: includes/class.ywsbs-susbscription-helper.php:105
+msgid "Parent Item:"
+msgstr "Elemento padre:"
+
+#: includes/class.ywsbs-susbscription-helper.php:106
+msgid "All Subscriptions"
+msgstr "Todas las suscripciones"
+
+#: includes/class.ywsbs-susbscription-helper.php:107
+msgid "View Subscriptions"
+msgstr "Ver suscripciones"
+
+#: includes/class.ywsbs-susbscription-helper.php:108
+#: includes/class.ywsbs-susbscription-helper.php:109
+msgid "Add New Subscription"
+msgstr "Añadir nueva suscripción"
+
+#: includes/class.ywsbs-susbscription-helper.php:111
+msgid "Update Subscription"
+msgstr "Actualizar suscripción"
+
+#: includes/class.ywsbs-susbscription-helper.php:112
+msgid "Search Subscription"
+msgstr "Buscar suscripción"
+
+#: includes/class.ywsbs-susbscription-helper.php:113
+msgid "Not found"
+msgstr "No encontrado"
+
+#: includes/class.ywsbs-susbscription-helper.php:114
+msgid "Not found in Trash"
+msgstr "No encontrado en la papelera"
+
+#: includes/class.ywsbs-susbscription-helper.php:118
+msgid "ywsbs_subscription"
+msgstr "ywsbs_subscription"
+
+#: includes/class.ywsbs-susbscription-helper.php:253
+msgid "Changed recurring period from: %s to %s"
+msgstr "Cambiado el periodo recurrente de %s a %s"
+
+#: includes/class.ywsbs-susbscription-helper.php:266
+msgid "Changed %s from: %s to %s"
+msgstr "Cambiado %s de. %s a %s"
+
+#: includes/class.ywsbs-susbscription-helper.php:326
+msgid "Subscription Info"
+msgstr "Info de la suscripción"
+
+#: includes/class.ywsbs-susbscription-helper.php:343
+msgid "Subscription Action"
+msgstr "Acción de suscripción"
+
+#: includes/class.ywsbs-susbscription-helper.php:358
+msgid "Subscription Activities"
+msgstr "Actividades de suscripción"
+
+#: includes/class.ywsbs-susbscription-helper.php:374
+msgid "Subscription Product"
+msgstr "Producto de suscripción"
+
+#: includes/class.ywsbs-susbscription-helper.php:395
+#: plugin-options/metabox/ywsbs_metabox.php:14
+msgid "Subscription Schedule"
+msgstr "Programación de la suscripción"
+
+#: includes/class.ywsbs-susbscription-helper.php:550
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#: includes/class.ywsbs-susbscription-helper.php:551
+#: plugin-options/metabox/ywsbs_metabox.php:25
+msgid "Payment Due Date"
+msgstr "Fecha de vencimiento del pago"
+
+#: includes/class.ywsbs-susbscription-helper.php:552
+msgid "Expired date"
+msgstr "Fecha de caducidad"
+
+#: includes/class.ywsbs-susbscription.php:187
+msgid "Subscription successfully created."
+msgstr "Suscripción creada satisfactoriamente."
+
+#: includes/class.ywsbs-susbscription.php:277
+msgid "Payment received for #%s"
+msgstr "Pago recibido para #%s"
+
+#: includes/class.ywsbs-susbscription.php:279
+msgid "Payment received for #%s no status changed"
+msgstr "El pago recibido para #%s no ha cambiado su estado"
+
+#: includes/class.ywsbs-susbscription.php:352
+msgid "Payment received for #%s. Next payment due date set."
+msgstr "Pago recibido para #%s. Establecida la siguiente fecha de pago."
+
+#: includes/class.ywsbs-susbscription.php:403
+msgid "Subscription is now active. %s "
+msgstr "La suscripción ahora está activa. %s "
+
+#: includes/class.ywsbs-susbscription.php:419
+msgid "Subscription is now active. %s"
+msgstr "La suscripción ahora está activa. %s"
+
+#: includes/class.ywsbs-susbscription.php:443
+msgid "Subscription paused. %s"
+msgstr "La suscripción está pausada. %s"
+
+#: includes/class.ywsbs-susbscription.php:464
+msgid "Subscription resumed. Payment due on %s. %s"
+msgstr "Suscripción reanudada. Pago vencido el %s. %s"
+
+#: includes/class.ywsbs-susbscription.php:472
+msgid "Overdue subscription."
+msgstr "Suscripción atrasada."
+
+#: includes/class.ywsbs-susbscription.php:484
+msgid "Started a trial period of %s %s"
+msgstr "Comenzado un periodo de prueba de %s %s"
+
+#: includes/class.ywsbs-susbscription.php:498
+msgid "The subscription has been cancelled. %s"
+msgstr "La suscripción ha sido cancelada. %s"
+
+#: includes/class.ywsbs-susbscription.php:512
+msgid "The subscription has been NOW cancelled. %s"
+msgstr "La suscripción ha sido cancelada AHORA. %s"
+
+#: includes/class.ywsbs-susbscription.php:517
+msgid "Subscription expired."
+msgstr "Suscripción caducada."
+
+#: includes/class.ywsbs-susbscription.php:522
+msgid "Subscription suspended."
+msgstr "Suscripción interrumpida."
+
+#: includes/class.ywsbs-susbscription.php:1016
+msgid "%s from %s to %s"
+msgstr "%s de %s a %s"
+
+#: includes/class.ywsbs-susbscription.php:1019
+msgid "Changed %s "
+msgstr "Cambiado %s "
+
+#: includes/class.ywsbs-susbscription.php:1116
+msgid ""
+"This order has been cancelled because subscription #%d has been cancelled"
+msgstr "Este pedido se ha cancelado porque la suscripción #%d se ha cancelado"
+
+#: includes/class.ywsbs-susbscription.php:1513
+msgid "Failed payment for order %d"
+msgstr "Pago fallido del pedido %d"
+
+#: includes/class.ywsbs-susbscription.php:1529
+msgid "Subscription suspended. Order %s. Subscription %s"
+msgstr "Suscripción interrumpida. Pedido %s. Suscripción %s"
+
+#: includes/compatibility/yith-woocommerce-product-vendors.php:324
+msgid "This order has been created to renew subscription"
+msgstr "Este pedido se ha creado para renovar la suscripción"
+
+#: includes/compatibility/yith-woocommerce-product-vendors.php:344
+msgctxt "[Part of]: A new subscription has been created from this order"
+msgid "A new subscription"
+msgstr "Una nueva suscripción"
+
+#: includes/compatibility/yith-woocommerce-product-vendors.php:346
+msgctxt "[Part of]: A new subscription has been created from this order"
+msgid "has been created from this order"
+msgstr "se ha creado a partir de este pedido"
+
+#: includes/emails/class.yith-wc-customer-subscription-before-expired.php:30
+msgid "Subscription is going to expire"
+msgstr "La suscripción va a caducar"
+
+#: includes/emails/class.yith-wc-customer-subscription-before-expired.php:31
+msgid "This email is sent to the customer when subscription is going to expire"
+msgstr ""
+"Este correo electrónico es enviado al cliente cuando la suscripción está a "
+"punto de caducar"
+
+#: includes/emails/class.yith-wc-customer-subscription-before-expired.php:33
+msgid "Your subscription is going to expire"
+msgstr "Tu suscripción va a caducar"
+
+#: includes/emails/class.yith-wc-customer-subscription-before-expired.php:34
+msgid "Your subscription in {site_title} is going to expire"
+msgstr "Tu suscripción de {site_title} va a caducar"
+
+#: includes/emails/class.yith-wc-customer-subscription-cancelled.php:30
+msgid "Subscription Cancelled"
+msgstr "Suscripción Cancelada"
+
+#: includes/emails/class.yith-wc-customer-subscription-cancelled.php:31
+msgid "This email is sent to the customer when subscription is cancelled"
+msgstr "Este email se envía al cliente cuando la suscripción se cancela"
+
+#: includes/emails/class.yith-wc-customer-subscription-cancelled.php:33
+msgid "Your subscription has been cancelled"
+msgstr "Tu suscripción se ha cancelado"
+
+#: includes/emails/class.yith-wc-customer-subscription-cancelled.php:34
+msgid "Your {site_title} subscription has been cancelled"
+msgstr "Tu suscripción de {site_title} se ha cancelado"
+
+#: includes/emails/class.yith-wc-customer-subscription-expired.php:30
+msgid "Subscription Expired"
+msgstr "Suscripción caducada"
+
+#: includes/emails/class.yith-wc-customer-subscription-expired.php:31
+msgid "This email is sent to the customer when subscription expires"
+msgstr "Este email se envía al cliente cuando la suscripción caduca"
+
+#: includes/emails/class.yith-wc-customer-subscription-expired.php:33
+msgid "Your subscription has expired"
+msgstr "Tu suscripción ha caducado"
+
+#: includes/emails/class.yith-wc-customer-subscription-expired.php:34
+msgid "Your {site_title} subscription has expired"
+msgstr "Tu suscripción de {site_title} ha caducado"
+
+#: includes/emails/class.yith-wc-customer-subscription-paused.php:30
+msgid "Subscription Paused"
+msgstr "Suscripción pausada"
+
+#: includes/emails/class.yith-wc-customer-subscription-paused.php:31
+msgid "This email is sent to the customer when subscription has been paused"
+msgstr "Este email se envía al cliente cuando la suscripción ha sido pausada"
+
+#: includes/emails/class.yith-wc-customer-subscription-paused.php:33
+msgid "Your subscription has been paused"
+msgstr "Tu suscripción ha sido pausada"
+
+#: includes/emails/class.yith-wc-customer-subscription-paused.php:34
+msgid "Your {site_title} subscription been paused"
+msgstr "Tu  suscripción de {site_title} ha sido pausada"
+
+#: includes/emails/class.yith-wc-customer-subscription-payment-done.php:30
+msgid "Subscription Payment Made"
+msgstr "Pago de suscripción realizado"
+
+#: includes/emails/class.yith-wc-customer-subscription-payment-done.php:31
+msgid ""
+"This email is sent to the customer when the shop owner receives the payment"
+msgstr ""
+"Este email se envía al cliente cuando el dueño de la tienda recibe el pago"
+
+#: includes/emails/class.yith-wc-customer-subscription-payment-done.php:33
+#: includes/emails/class.yith-wc-customer-subscription-payment-done.php:34
+msgid "Subscription payment received"
+msgstr "Pago de la suscripción recibido"
+
+#: includes/emails/class.yith-wc-customer-subscription-payment-failed.php:31
+msgid "Subscription Payment Failed"
+msgstr "Pago de la suscripción fallida"
+
+#: includes/emails/class.yith-wc-customer-subscription-payment-failed.php:32
+msgid "This email is sent to the customer when a payment is failed"
+msgstr ""
+"Este correo electrónico es enviado al cliente cuando un pago ha fallado"
+
+#: includes/emails/class.yith-wc-customer-subscription-payment-failed.php:34
+#: includes/emails/class.yith-wc-customer-subscription-payment-failed.php:35
+msgid "Subscription payment failed"
+msgstr "Pago de la suscripción fallido"
+
+#: includes/emails/class.yith-wc-customer-subscription-renew-reminder.php:31
+#: includes/emails/class.yith-wc-customer-subscription-renew-reminder.php:34
+msgid "Subscription Renew Reminder"
+msgstr "Recordatorio de renovación de la suscripción"
+
+#: includes/emails/class.yith-wc-customer-subscription-renew-reminder.php:32
+msgid "This email is sent to the customer as a reminder for the next payment"
+msgstr ""
+"Este correo electrónico es enviado al cliente como recordatorio para el "
+"próximo pago"
+
+#: includes/emails/class.yith-wc-customer-subscription-renew-reminder.php:35
+msgid "Reminder for the order renewal {order_number}"
+msgstr "Recordatorio para la renovación del pedido {order_number}"
+
+#: includes/emails/class.yith-wc-customer-subscription-renew-reminder.php:86
+#: templates/myaccount/view-subscription.php:71
+msgid "Renew"
+msgstr "Renovar"
+
+#: includes/emails/class.yith-wc-customer-subscription-renew-reminder.php:117
+#: includes/emails/class.yith-wc-customer-subscription.php:120
+#: includes/emails/class.yith-wc-subscription-status.php:128
+msgid "Enable/Disable"
+msgstr "Activar/Desactivar"
+
+#: includes/emails/class.yith-wc-customer-subscription-renew-reminder.php:119
+#: includes/emails/class.yith-wc-customer-subscription.php:122
+#: includes/emails/class.yith-wc-subscription-status.php:130
+msgid "Enable notification for this type of emails"
+msgstr "Activar notificación para este tipo de correos electrónicos"
+
+#: includes/emails/class.yith-wc-customer-subscription-renew-reminder.php:123
+#: includes/emails/class.yith-wc-customer-subscription.php:126
+msgid "Subject"
+msgstr "Asunto"
+
+#: includes/emails/class.yith-wc-customer-subscription-renew-reminder.php:125
+#: includes/emails/class.yith-wc-customer-subscription-renew-reminder.php:150
+#: includes/emails/class.yith-wc-customer-subscription.php:128
+#: includes/emails/class.yith-wc-customer-subscription.php:142
+#: includes/emails/class.yith-wc-subscription-status.php:146
+msgid "Defaults to <code>%s</code>"
+msgstr "Por defecto para <code>%s</code>"
+
+#: includes/emails/class.yith-wc-customer-subscription-renew-reminder.php:131
+#: includes/emails/class.yith-wc-customer-subscription.php:134
+msgid "Send to admin?"
+msgstr "¿Enviar al admin?"
+
+#: includes/emails/class.yith-wc-customer-subscription-renew-reminder.php:133
+#: includes/emails/class.yith-wc-customer-subscription.php:136
+msgid "Send a copy of this email to admin"
+msgstr "Enviar una copia de este email al admin"
+
+#: includes/emails/class.yith-wc-customer-subscription-renew-reminder.php:138
+msgid "Number of days before next subscription payment."
+msgstr "Número de días antes el siguiente pago de la suscripción."
+
+#: includes/emails/class.yith-wc-customer-subscription-renew-reminder.php:141
+msgid ""
+"Specify the number of days before next subscription payment to send this "
+"email."
+msgstr ""
+"Especifica el número de días antes del siguiente pago de la suscripción para "
+"enviar este correo electrónico."
+
+#: includes/emails/class.yith-wc-customer-subscription-renew-reminder.php:148
+#: includes/emails/class.yith-wc-customer-subscription.php:140
+#: includes/emails/class.yith-wc-subscription-status.php:144
+msgid "Email heading"
+msgstr "Encabezado del email"
+
+#: includes/emails/class.yith-wc-customer-subscription-request-payment.php:30
+msgid "Subscription Payment Request"
+msgstr "Solicitud de pago de suscripción"
+
+#: includes/emails/class.yith-wc-customer-subscription-request-payment.php:31
+msgid ""
+"This email is sent to the customer when they fail to pay within Due date"
+msgstr ""
+"Este email se envía al cliente cuando no ha conseguido enviar el pago dentro "
+"de la fecha de vencimiento"
+
+#: includes/emails/class.yith-wc-customer-subscription-request-payment.php:33
+msgid "Overdue payment"
+msgstr "Pago atrasado"
+
+#: includes/emails/class.yith-wc-customer-subscription-request-payment.php:34
+msgid "Payment for order renewal {order_number} is overdue"
+msgstr "El pago del pedido de renovación {order_number} está atrasado"
+
+#: includes/emails/class.yith-wc-customer-subscription-request-payment.php:79
+#: includes/functions.yith-wc-subscription.php:301
+msgid "suspended"
+msgstr "interrumpida"
+
+#: includes/emails/class.yith-wc-customer-subscription-request-payment.php:82
+#: includes/emails/class.yith-wc-customer-subscription-suspended.php:78
+#: includes/functions.yith-wc-subscription.php:299
+msgid "cancelled"
+msgstr "cancelado"
+
+#: includes/emails/class.yith-wc-customer-subscription-resumed.php:30
+msgid "Subscription Resumed"
+msgstr "Suscripción reanudada"
+
+#: includes/emails/class.yith-wc-customer-subscription-resumed.php:31
+msgid "This email is sent to the customer when subscription has been resumed"
+msgstr "Este email se envía al cliente cuando la suscripción se ha reanudado"
+
+#: includes/emails/class.yith-wc-customer-subscription-resumed.php:33
+msgid "Your subscription has been resumed"
+msgstr "Tu suscripción se ha reanudado"
+
+#: includes/emails/class.yith-wc-customer-subscription-resumed.php:34
+msgid "Your {site_title} subscription has been resumed"
+msgstr "Tu suscripción de {site_title} se ha reanudado"
+
+#: includes/emails/class.yith-wc-customer-subscription-suspended.php:30
+msgid "Subscription Suspended"
+msgstr "Suscripción interrumpida"
+
+#: includes/emails/class.yith-wc-customer-subscription-suspended.php:31
+msgid "This email is sent to the customer when subscription is suspended"
+msgstr ""
+"Este email se envía al cliente cuando la suscripción se ha interrumpido"
+
+#: includes/emails/class.yith-wc-customer-subscription-suspended.php:33
+msgid "Your subscription has been suspended"
+msgstr "Tu suscripción se ha interrumpido"
+
+#: includes/emails/class.yith-wc-customer-subscription-suspended.php:34
+msgid "Your {site_title} subscription has been suspended"
+msgstr "Tu suscripción de {site_title} ha sido interrumpida"
+
+#: includes/emails/class.yith-wc-subscription-status.php:32
+msgid ""
+"This email is sent to the administrator to inform about a customer pausing/"
+"resuming a subscription"
+msgstr ""
+"Este email se envía al administrador para informarle de que un cliente ha "
+"pausado/reanudado una suscripción"
+
+#: includes/emails/class.yith-wc-subscription-status.php:34
+msgid "A subscription status changed"
+msgstr "El estado de una suscripción ha cambiado"
+
+#: includes/emails/class.yith-wc-subscription-status.php:35
+msgid "Subscription #{subscription_id} is now {status}"
+msgstr "La subscripción #{subscription_id} está ahora {status}"
+
+#: includes/emails/class.yith-wc-subscription-status.php:135
+msgid "Recipient(s)"
+msgstr "Destinatario(s)"
+
+#: includes/emails/class.yith-wc-subscription-status.php:137
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+"Introduce los receptores (separados por comas) para este email. Por defecto "
+"para <code>%s</code>."
+
+#: includes/emails/class.yith-wc-subscription-status.php:152
+msgid "Send email for these status"
+msgstr "Enviar correo electrónico para estos estados"
+
+#: includes/emails/class.yith-wc-subscription-status.php:154
+msgid "Choose which status of subscription to send."
+msgstr "Escoge qué estado de suscripción enviar."
+
+#: includes/functions.yith-wc-subscription.php:86
+msgid "weeks"
+msgstr "semanas"
+
+#: includes/functions.yith-wc-subscription.php:87
+msgid "months"
+msgstr "meses"
+
+#: includes/functions.yith-wc-subscription.php:88
+msgid "years"
+msgstr "años"
+
+#: includes/functions.yith-wc-subscription.php:294
+msgid "active"
+msgstr "activa"
+
+#: includes/functions.yith-wc-subscription.php:295
+msgid "paused"
+msgstr "pausada"
+
+#: includes/functions.yith-wc-subscription.php:296
+msgid "pending"
+msgstr "pendiente"
+
+#: includes/functions.yith-wc-subscription.php:297
+msgid "overdue"
+msgstr "atrasada"
+
+#: includes/functions.yith-wc-subscription.php:298
+msgid "trial"
+msgstr "prueba"
+
+#: includes/functions.yith-wc-subscription.php:300
+msgid "expired"
+msgstr "caducada"
+
+#: includes/functions.yith-wc-subscription.php:320
+msgid "customer"
+msgstr "cliente"
+
+#: includes/functions.yith-wc-subscription.php:321
+msgid "administrator"
+msgstr "administrador"
+
+#: includes/functions.yith-wc-subscription.php:322
+msgid "gateway"
+msgstr "pasarela"
+
+#: includes/functions.yith-wc-subscription.php:497
+msgid "day"
+msgid_plural "days"
+msgstr[0] "día"
+msgstr[1] "días"
+
+#: includes/functions.yith-wc-subscription.php:500
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] "semana"
+msgstr[1] "semanas"
+
+#: includes/functions.yith-wc-subscription.php:503
+msgid "month"
+msgid_plural "months"
+msgstr[0] "mes"
+msgstr[1] "meses"
+
+#: includes/functions.yith-wc-subscription.php:506
+msgid "year"
+msgid_plural "years"
+msgstr[0] "año"
+msgstr[1] "años"
+
+#: includes/functions.yith-wc-subscription.php:857
+#: includes/functions.yith-wc-subscription.php:907
+msgid "First name"
+msgstr "Nombre"
+
+#: includes/functions.yith-wc-subscription.php:861
+#: includes/functions.yith-wc-subscription.php:911
+msgid "Last name"
+msgstr "Apellidos"
+
+#: includes/functions.yith-wc-subscription.php:865
+#: includes/functions.yith-wc-subscription.php:915
+msgid "Company"
+msgstr "Empresa"
+
+#: includes/functions.yith-wc-subscription.php:869
+#: includes/functions.yith-wc-subscription.php:919
+msgid "Address line 1"
+msgstr "Dirección"
+
+#: includes/functions.yith-wc-subscription.php:873
+#: includes/functions.yith-wc-subscription.php:923
+msgid "Address line 2"
+msgstr "Dirección (línea 2)"
+
+#: includes/functions.yith-wc-subscription.php:877
+#: includes/functions.yith-wc-subscription.php:927
+msgid "City"
+msgstr "Ciudad"
+
+#: includes/functions.yith-wc-subscription.php:881
+#: includes/functions.yith-wc-subscription.php:931
+msgid "Postcode / ZIP"
+msgstr "Código postal"
+
+#: includes/functions.yith-wc-subscription.php:885
+#: includes/functions.yith-wc-subscription.php:935
+msgid "Country"
+msgstr "País"
+
+#: includes/functions.yith-wc-subscription.php:889
+#: includes/functions.yith-wc-subscription.php:939
+msgid "Select a country&hellip;"
+msgstr "Elige un país$hellip;"
+
+#: includes/functions.yith-wc-subscription.php:892
+#: includes/functions.yith-wc-subscription.php:942
+msgid "State / County"
+msgstr "Provincia"
+
+#: includes/functions.yith-wc-subscription.php:897
+msgid "Email address"
+msgstr "Dirección de correo electrónico"
+
+#: includes/functions.yith-wc-subscription.php:900
+msgid "Phone"
+msgstr "Teléfono"
+
+#: includes/functions.yith-wc-subscription.php:1082
+msgid "New payment request denied because the order #%d is on %s status"
+msgstr ""
+"Nueva solicitud de pago denegada porque el pedido #%d está en el estado %s"
+
+#: includes/functions.yith-wc-subscription.php:1112
+msgid "%s Failed payment: %s"
+msgstr "%s Pago fallido: %s"
+
+#: includes/functions.yith-wc-subscription.php:1128
+msgid "%s - total failed attempts (%s) for order #%s"
+msgstr "%s - intentos fallidos totales (%s) para el pedido #%s"
+
+#: includes/functions.yith-wc-subscription.php:1142
+#: includes/functions.yith-wc-subscription.php:1144
+msgid "Subscription cancelled for max failed attempts."
+msgstr "Suscripción cancelada debido al máximo número de intentos fallidos."
+
+#: includes/functions.yith-wc-subscription.php:1145
+msgid ""
+"Subscription cancelled for max failed attempts. Subscription #%s. Order #%s"
+msgstr ""
+"Suscripción cancelada debido al máximo número de intentos fallidos. "
+"Suscripción #%s. Pedido #%s"
+
+#: includes/functions.yith-wc-subscription.php:1161
+msgid "success"
+msgstr "conseguido"
+
+#: includes/functions.yith-wc-subscription.php:1162
+msgid "info"
+msgstr "información"
+
+#: includes/gateways/paypal/class.yith-wc-subscription-paypal.php:246
+msgid "Order %s"
+msgstr "Pedido %s"
+
+#: includes/gateways/paypal/class.yith-wc-subscription-paypal.php:307
+msgid "Paypal Recurring payment was not cancelled "
+msgstr "El Pago periódico de PayPal no ha sido cancelado "
+
+#: includes/gateways/paypal/class.yith-wc-subscription-paypal.php:311
+msgid "Paypal Recurring payment cancelled"
+msgstr "Pago periódico de PayPal cancelado"
+
+#: includes/gateways/paypal/class.yith-wc-subscription-paypal.php:332
+msgid "Paypal Recurring payment was not resumed "
+msgstr "El pago periódico de PayPal no ha sido reanudado "
+
+#: includes/gateways/paypal/class.yith-wc-subscription-paypal.php:336
+msgid "Paypal Recurring payment resumed"
+msgstr "Pago periódico de PayPal reanudado"
+
+#: includes/gateways/paypal/class.yith-wc-subscription-paypal.php:358
+msgid "Paypal Recurring payment was not suspended "
+msgstr "El pago periódico de PayPal no ha sido interrumpido "
+
+#: includes/gateways/paypal/class.yith-wc-subscription-paypal.php:362
+msgid "Paypal Recurring payment paused"
+msgstr "Pago periódico de PayPal pausado"
+
+#: includes/gateways/paypal/class.yith-wc-subscription-paypal.php:403
+msgid "Subscription %s at %s"
+msgstr "Subscripción %s en %s"
+
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:216
+msgid "IPN subscription started"
+msgstr "La suscripción IPN ha comenzado"
+
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:288
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:305
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:338
+msgid "IPN subscription payment completed."
+msgstr "Pago IPN de la suscripción completado."
+
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:315
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:400
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:458
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:550
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:619
+msgid "Renew order creation failed"
+msgstr "Creación de renovación de pedido fallida"
+
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:381
+msgid "Paypal echeck payment"
+msgstr "Pago de PayPal echeck"
+
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:389
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:404
+msgid "YSBS - IPN Pending payment for echeck payment type"
+msgstr "YSBS - IPN pago pendiente de pago de tipo echeck"
+
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:392
+msgid ""
+"Subscription has been suspendend because in pending payment for echeck "
+"payment type"
+msgstr ""
+"La suscripción ha sido interrumpida porque el pago está pendiente de pago de "
+"tipo echeck"
+
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:394
+msgid ""
+"YSBS - Subscription has been suspendend because in pending payment for "
+"echeck payment type"
+msgstr ""
+"YSBS - La suscripción ha sido interrumpida porque el pago esta pendiente del "
+"pago de tipo echeck"
+
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:453
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:462
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:480
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:545
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:555
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:569
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:614
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:623
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:639
+msgid "YSBS - IPN Failed payment"
+msgstr "Pago YSBS - IPN fallido"
+
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:476
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:566
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:635
+msgid "Subscription has been suspendend for failed payment"
+msgstr "La suscripción ha sido interrumpida por pago fallido"
+
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:686
+msgid ""
+"Subscription cancelled max failed attemps: "
+"recurring_payment_suspended_due_to_max_failed_payment"
+msgstr ""
+"Suscripción cancelada debido a máximo de intentos fallidos alcanzado: "
+"recurring_payment_suspended_due_to_max_failed_payment"
+
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:687
+msgid ""
+"YSBS - Subscription cancelled max failed attemps: "
+"recurring_payment_suspended_due_to_max_failed_payment"
+msgstr ""
+"YSBS - Suscripción cancelada debido a máximo de intentos fallidos alcanzado: "
+"recurring_payment_suspended_due_to_max_failed_payment"
+
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:692
+msgid ""
+"Subscription has been suspendend because received PayPal IPN message: "
+"recurring_payment_suspended_due_to_max_failed_payment"
+msgstr ""
+"La suscripción ha sido suspendida debido a mensaje recibido de PayPal IPN: "
+"recurring_payment_suspended_due_to_max_failed_payment"
+
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:702
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:704
+msgid ""
+"YSBS - IPN message: recurring_payment_suspended_due_to_max_failed_payment"
+msgstr ""
+"YSBS - mensaje IPN: recurring_payment_suspended_due_to_max_failed_payment"
+
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:740
+msgid "Subscription cancelled by gateway"
+msgstr "Suscripción cancelada por la pasarela"
+
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:742
+msgid "YSBS - IPN subscription cancelled for the order."
+msgstr "Suscripción YSBS - IPN cancelada para el pedido."
+
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:817
+msgid "Validation error: PayPal amounts do not match (gross %s)."
+msgstr "Error de validación: Las cantidades de PayPal no coinciden (bruto %s)."
+
+#. translators: %s: payment status.
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:902
+msgid "Payment %s via IPN."
+msgstr "Pago %s a través de IPN."
+
+#. translators: %s: order link.
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:906
+msgid "Payment for order %s refunded"
+msgstr "El pago del pedido %s se ha reembolsado"
+
+#. translators: %1$s: order ID, %2$s: reason code.
+#: includes/gateways/paypal/includes/class.ywsbs-paypal-ipn-handler.php:908
+msgid "Order #%1$s has been marked as refunded - PayPal reason code: %2$s"
+msgstr ""
+"El pedido #%1$s se ha marcado como reembolsado - Código del motivo de "
+"PayPal: %2$s"
+
+#: includes/gateways/woocommerce-gateway-stripe/class.yith-wc-subscription-wc-stripe.php:121
+msgid "Sorry, any subscription is found for this order: %s"
+msgstr "Lo siento, ninguna suscripción encontrada para este pedido: %s"
+
+#. translators: minimum amount
+#: includes/gateways/woocommerce-gateway-stripe/class.yith-wc-subscription-wc-stripe.php:140
+msgid ""
+"Sorry, the minimum allowed order total is %1$s to use this payment method."
+msgstr ""
+"Lo sentimos, el total del pedido mínimo permitido para utilizar este método "
+"de pago es de%1$s ."
+
+#: includes/gateways/woocommerce-gateway-stripe/class.yith-wc-subscription-wc-stripe.php:151
+msgid "Customer not found"
+msgstr "Cliente no encontrado"
+
+#: init.php:79
+msgid ""
+"YITH WooCommerce Subscription is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Subscription está activo pero no es efectivo. Requiere "
+"WooCommerce para funcionar."
+
+#: plugin-options/general-options.php:8
+msgid "General settings"
+msgstr "Ajustes generales"
+
+#: plugin-options/general-options.php:14
+msgid "Enable Subscription"
+msgstr "Activar Subscription"
+
+#: plugin-options/general-options.php:23
+msgid "\"Add to cart\" label in subscription products"
+msgstr "Etiqueta de \"Añadir al carrito\" en los productos de suscripción"
+
+#: plugin-options/general-options.php:28
+msgid "Subscribe"
+msgstr "Suscríbete"
+
+#: plugin-options/general-options.php:32
+msgid "Allow customer to renew subscriptions when is cancelled or expired"
+msgstr ""
+"Permitir al cliente renovar suscripciones cuando se cancelen o caduquen"
+
+#: plugin-options/general-options.php:50
+msgid "Disable the reduction of stock in the renew order"
+msgstr "Desactivar la reducción del inventario en la renovación del pedido"
+
+#: plugin-options/general-options.php:59
+msgid "Delete subscription if the main order is cancelled"
+msgstr "Borrar suscripción si el pedido principal se cancela"
+
+#: plugin-options/general-options.php:68
+msgid "Enable Log"
+msgstr "Activar registro"
+
+#: plugin-options/general-options.php:83
+msgid "Overdue settings"
+msgstr "Ajustes de demora"
+
+#: plugin-options/general-options.php:91
+msgid "Enable Overdue time"
+msgstr "Activar tiempo de demora"
+
+#: plugin-options/general-options.php:100
+msgid "Overdue subscriptions"
+msgstr "Suscripciones con demora"
+
+#: plugin-options/general-options.php:109
+msgid "Overdue pending payment subscriptions after ........ hour(s)"
+msgstr ""
+"Las suscripciones están pendientes de pago con demora después de ........ "
+"hora(s)"
+
+#: plugin-options/general-options.php:110
+#: plugin-options/general-options.php:163
+#: plugin-options/general-options.php:194
+msgid "hours"
+msgstr "horas"
+
+#: plugin-options/general-options.php:126
+msgid "Suspension settings"
+msgstr "Ajustes de interrupción"
+
+#: plugin-options/general-options.php:133
+msgid "Suspend a subscription if a recurring payment fail"
+msgstr "Interrumpir una suscripción si falla un pago periódico"
+
+#: plugin-options/general-options.php:143
+msgid "Enable Suspended subscriptions"
+msgstr "Activar suscripciones interrumpidas"
+
+#: plugin-options/general-options.php:153
+msgid "Suspended subscriptions"
+msgstr "Suscripciones interrumpidas"
+
+#: plugin-options/general-options.php:162
+msgid "Suspend pending payment subscriptions after ........ hour(s)"
+msgstr ""
+"Interrumpir suscripciones pendientes de pago después de  ........ hora(s)"
+
+#: plugin-options/general-options.php:177
+msgid "Cancel settings"
+msgstr "Ajustes de cancelación"
+
+#: plugin-options/general-options.php:183
+msgid "Allow customer to cancel subscriptions"
+msgstr "Permitir a los clientes cancelar las suscripciones"
+
+#: plugin-options/general-options.php:193
+msgid "Cancel pending payment subscriptions after ........ hour(s)"
+msgstr ""
+"Cancelar las suscripciones pendiente de pago después de ........ hora(s)"
+
+#: plugin-options/general-options.php:209
+msgid "Price settings"
+msgstr "Ajustes de precio"
+
+#: plugin-options/general-options.php:215
+msgid "Show trial period"
+msgstr "Mostrar periodo de prueba"
+
+#: plugin-options/general-options.php:224
+msgid "Show fee info"
+msgstr "Mostrar información de cantidad"
+
+#: plugin-options/general-options.php:233
+msgid "Show total subscription length"
+msgstr "Mostrar la duración total de la suscripción"
+
+#: plugin-options/general-options.php:242
+msgid "Show subscription total"
+msgstr "Mostrar total de la suscripción"
+
+#: plugin-options/general-options.php:243
+msgid ""
+"Show subscription total on the checkout page if setting max length option."
+msgstr ""
+"Muestra el total de la suscripción en la página de pago si se establece una "
+"opción longitud máxima."
+
+#: plugin-options/general-options.php:256
+msgid "Renew order settings"
+msgstr "Renovar ajustes del pedido"
+
+#: plugin-options/general-options.php:262
+msgid "Show the Renew Now button on My Account > Orders "
+msgstr "Mostrar el botón “Renovar ahora” en “Mi cuenta > Pedidos” "
+
+#: plugin-options/general-options.php:263
+msgid ""
+"Permits to your customer to force the payment of a renew order if this has "
+"at least a failed attempt"
+msgstr ""
+"Permite al cliente forzar el pago de un pedido de renovación si tiene al "
+"menos un intento fallido"
+
+#: plugin-options/metabox/ywsbs_metabox.php:8
+msgid "Subscription Details"
+msgstr "Detalles de la suscripción"
+
+#: plugin-options/metabox/ywsbs_metabox.php:18
+msgid "Started Date"
+msgstr "Fecha de inicio"
+
+#: plugin-options/metabox/ywsbs_metabox.php:19
+msgid "Update Started Date as timestamp"
+msgstr "Actualizar fecha de inicio como marca de tiempo"
+
+#: plugin-options/metabox/ywsbs_metabox.php:26
+msgid "Update Payment Due Date as timestamp"
+msgstr "Actualizar fecha de vencimiento del pago como marca de tiempo"
+
+#: plugin-options/metabox/ywsbs_metabox.php:33
+msgid "Expired Date"
+msgstr "Fecha de caducidad"
+
+#: plugin-options/metabox/ywsbs_metabox.php:34
+#: plugin-options/metabox/ywsbs_metabox.php:48
+msgid "Update Expired Date as timestamp"
+msgstr "Actualizar la fecha de caducidad como marca de tiempo"
+
+#: plugin-options/metabox/ywsbs_metabox.php:40
+msgid "Cancelled Date"
+msgstr "Fecha cancelada"
+
+#: plugin-options/metabox/ywsbs_metabox.php:41
+msgid "Update Cancelled Date as timestamp"
+msgstr "Actualizar la fecha cancelada como marca de tiempo"
+
+#: plugin-options/privacy-options.php:8
+msgid "Privacy settings"
+msgstr "Ajustes de privacidad"
+
+#: plugin-options/privacy-options.php:14
+msgid "Account erasure requests"
+msgstr "Solicitudes de borrado de cuenta"
+
+#: plugin-options/privacy-options.php:15
+msgid "Remove personal data from subscriptions"
+msgstr "Eliminar datos personales de las suscripciones"
+
+#: plugin-options/privacy-options.php:16
+msgid ""
+"When handling an <a href=\"%s\">account erasure request</a>, should personal "
+"data within subscriptions be retained or removed?.\r\n"
+"<br>Note: All the subscriptions will change the status to cancelled if the "
+"personal data will be removed."
+msgstr ""
+"Cuando se gestiona una <a hrefa=\"%s\">solicitud de borrado de cuenta</a>, "
+"¿deben conservarse o eliminarse los datos personales dentro de las "
+"suscripciones?.\r\n"
+"<br>Nota: Todas las suscripciones cambiarán el estado a cancelado si se "
+"eliminan los datos personales."
+
+#: plugin-options/privacy-options.php:30
+msgid "Personal data retention"
+msgstr "Retención personal de datos"
+
+#: plugin-options/privacy-options.php:31
+msgid ""
+"Choose how long to retain personal data when it's no longer needed for "
+"processing. Leave the following options blank to retain this data "
+"indefinitely."
+msgstr ""
+"Elige cuánto tiempo tiempo conservar los datos personales cuando ya no sea "
+"necesario procesarlos. Deja las siguientes opciones en blanco para conservar "
+"estos datos indefinidamente."
+
+#: plugin-options/privacy-options.php:36
+msgid "Retain pending subscriptions"
+msgstr "Conservar las suscripciones pendientes"
+
+#: plugin-options/privacy-options.php:37
+msgid ""
+"Pending subscriptions are unpaid and may have been abandoned by the "
+"customer. They will be trashed after the specified duration."
+msgstr ""
+"Las suscripciones pendientes están sin pagar y puede que las haya abandonado "
+"el cliente. Se enviarán a la papelera después de la duración especificada."
+
+#: plugin-options/privacy-options.php:40 plugin-options/privacy-options.php:48
+msgid "N/A"
+msgstr "N/D"
+
+#: plugin-options/privacy-options.php:44
+msgid "Retain cancelled subscriptions"
+msgstr "Conservar las suscripciones pendientes"
+
+#: plugin-options/privacy-options.php:45
+msgid ""
+"Cancelled subscriptions are disable subscriptions that can't be reactivated "
+"by the customer. They will be trashed after the specified duration."
+msgstr ""
+"Las suscripciones canceladas son suscripciones desactivadas que el cliente "
+"no puede reactivar. Se enviarán a la papelera después de la duración "
+"especificada."
+
+#: templates/admin/different-site-url-notice.php:16
+msgid "YITH WooCommerce Subscription"
+msgstr "YITH WooCommerce Subscription"
+
+#: templates/admin/different-site-url-notice.php:19
+msgid ""
+"Your site address has changed. Automatic payments and emails to customers "
+"have been disabled to\r\n"
+"\t\tprevent transactions generated by testing or staging servers."
+msgstr ""
+"La dirección de tu sitio ha cambiado. Los pagos automáticos y los correos "
+"electrónicos a los clientes han sido desactivados\r\n"
+"\t\tpara prevenir transacciones generadas por servidores de prueba y ensayo."
+
+#: templates/admin/different-site-url-notice.php:21
+msgid ""
+"If you have moved this site to its permanent URL and you want to re-enable "
+"automatic payments and emails,\r\n"
+"\t\tplease, select one of the following options"
+msgstr ""
+"Si has movido este sitio a su URL permanente y quieres reactivar los pagos "
+"automáticos y los correos electrónicos,\r\n"
+"\t\tpor favor, selecciona una de las siguientes opciones"
+
+#: templates/admin/different-site-url-notice.php:25
+msgid "Hide this warning"
+msgstr "Ocultar este aviso"
+
+#: templates/admin/different-site-url-notice.php:26
+msgid "This is the main site URL"
+msgstr "Esta es la URL de la página web principal"
+
+#: templates/admin/metabox/metabox_subscription_action_content.php:14
+msgid "Actions"
+msgstr "Acciones"
+
+#: templates/admin/metabox/metabox_subscription_action_content.php:16
+msgid "Active Subscription"
+msgstr "Suscripción activa"
+
+#: templates/admin/metabox/metabox_subscription_action_content.php:20
+msgid "Overdue Subscription"
+msgstr "Suscripción atrasada"
+
+#: templates/admin/metabox/metabox_subscription_action_content.php:24
+msgid "Suspend Subscription"
+msgstr "Interrumpir suscripción"
+
+#: templates/admin/metabox/metabox_subscription_action_content.php:28
+msgid "Pause Subscription"
+msgstr "Pausar suscripción"
+
+#: templates/admin/metabox/metabox_subscription_action_content.php:32
+msgid "Resume Subscription"
+msgstr "Reanudar suscripción"
+
+#: templates/admin/metabox/metabox_subscription_action_content.php:37
+msgid "Cancel Subscription"
+msgstr "Cancelar suscripción"
+
+#: templates/admin/metabox/metabox_subscription_action_content.php:38
+msgid "Cancel Subscription Now"
+msgstr "Cancelar suscripción ahora"
+
+#: templates/admin/metabox/metabox_subscription_action_content.php:42
+msgid "Create a Renew Order Manually"
+msgstr "Crear una renovación de pedido manualmente"
+
+#: templates/admin/metabox/metabox_subscription_action_content.php:47
+msgid "Apply"
+msgstr "Aplicar"
+
+#: templates/admin/metabox/metabox_subscription_action_content.php:47
+msgid "Processing"
+msgstr "Procesando"
+
+#: templates/admin/metabox/metabox_subscription_activity_content.php:21
+msgid "added on %1$s at %2$s"
+msgstr "añadido el %1$s a las %2$s"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:21
+msgid "Subscription #%d details"
+msgstr "Detalles de la suscripción #%d"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:29
+msgid "<strong>Started date</strong>:"
+msgstr "<strong>Fecha de comienzo</strong>:"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:33
+msgid "<strong>Expired date</strong>:"
+msgstr "<strong>Fecha de caducidad</strong>:"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:37
+msgid "<strong>Payment due date</strong>:"
+msgstr "<strong>Fecha de vencimiento del pago</strong>:"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:42
+msgid "<strong>Cancelled date</strong>:"
+msgstr "<strong>Fecha de cancelación</strong>:"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:48
+msgid "<strong>End date</strong>:"
+msgstr "<strong>Fecha de fin</strong>:"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:54
+msgid "<strong>List of paid orders</strong>:"
+msgstr "<strong>Lista de pedidos pagados</strong>:"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:65
+msgid "<strong>Renew Order</strong>:"
+msgstr "<strong>Renovar pedido</strong>:"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:70
+msgid "<strong>Payment Method</strong>:"
+msgstr "<strong>Método de pago</strong>:"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:74
+msgid "<strong>Transaction ID</strong>:"
+msgstr "<strong>ID de transacción</strong>:"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:85
+msgid "Billing"
+msgstr "Facturación"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:89
+msgid "Load billing address"
+msgstr "Cargar dirección de facturación"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:100
+#: templates/admin/metabox/metabox_subscription_info_content.php:167
+#: templates/emails/email-subscription-customer-details.php:22
+msgid "Address:"
+msgstr "Dirección:"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:100
+msgid "No billing address set."
+msgstr "No se ha establecido una dirección de facturación."
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:153
+#: templates/admin/metabox/metabox_subscription_product.php:185
+msgid "Shipping"
+msgstr "Envío"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:156
+msgid "Load shipping address"
+msgstr "Cargar dirección de envío"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:157
+msgid "Copy billing address"
+msgstr "Copiar dirección de facturación"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:167
+msgid "No shipping address set."
+msgstr "No se ha definido la dirección de envío."
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:182
+msgid "Customer provided note:"
+msgstr "Nota del cliente:"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:210
+msgid "Customer provided note"
+msgstr "Nota del cliente"
+
+#: templates/admin/metabox/metabox_subscription_info_content.php:211
+msgid "Customer notes about the order"
+msgstr "Notas del cliente sobre el pedido"
+
+#: templates/admin/metabox/metabox_subscription_product.php:21
+msgid "Item"
+msgstr "Elemento"
+
+#: templates/admin/metabox/metabox_subscription_product.php:22
+msgid "Cost"
+msgstr "Coste"
+
+#: templates/admin/metabox/metabox_subscription_product.php:23
+msgid "Qty"
+msgstr "Qty"
+
+#: templates/admin/metabox/metabox_subscription_product.php:24
+#: templates/admin/metabox/metabox_subscription_product.php:211
+#: templates/myaccount/view-subscription.php:110
+#: templates/myaccount/view-subscription.php:173
+#: templates/myaccount/view-subscription.php:192
+#: templates/myaccount/view-subscription.php:224
+msgid "Total"
+msgstr "Total"
+
+#: templates/admin/metabox/metabox_subscription_product.php:25
+#: templates/admin/metabox/metabox_subscription_product.php:199
+msgid "Tax"
+msgstr "Tasa"
+
+#: templates/admin/metabox/metabox_subscription_product.php:41
+msgid "SKU:"
+msgstr "SKU:"
+
+#: templates/admin/metabox/metabox_subscription_product.php:45
+msgid "Variation ID:"
+msgstr "ID de la variación:"
+
+#. translators: %s: variation id
+#: templates/admin/metabox/metabox_subscription_product.php:51
+msgid "%s (No longer exists)"
+msgstr "%s (ya no existe)"
+
+#: templates/admin/metabox/metabox_subscription_product.php:86
+#: templates/emails/email-subscription-detail-table.php:62
+#: templates/emails/email-subscription-status.php:73
+#: templates/myaccount/view-subscription.php:159
+msgid "Total:"
+msgstr "Total:"
+
+#: templates/admin/metabox/metabox_subscription_product.php:103
+msgid "Total Tax:"
+msgstr "Total de impuestos:"
+
+#: templates/admin/metabox/metabox_subscription_product.php:117
+msgid "Edit item"
+msgstr "Editar elemento"
+
+#: templates/admin/metabox/metabox_subscription_product.php:136
+msgid "Shipping name"
+msgstr "Nombre del envío"
+
+#: templates/admin/metabox/metabox_subscription_product.php:228
+msgid "Recalculate"
+msgstr "Recalcular"
+
+#: templates/admin/metabox/metabox_subscription_product.php:231
+#: templates/myaccount/my-subscriptions-view.php:85
+#: templates/myaccount/subscriptions-related.php:77
+#: templates/myaccount/view-subscription.php:67
+#: templates/myaccount/view-subscription.php:241
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: templates/admin/metabox/metabox_subscription_product.php:233
+msgid "Save"
+msgstr "Guardar"
+
+#: templates/admin/metabox/metabox_subscription_product.php:238
+msgid "This payment method does not allow editing the subscription amount."
+msgstr "Este método de pago no permite editar la cantidad de la suscripción."
+
+#: templates/admin/metabox/metabox_subscription_product.php:238
+msgid "This subscription is no editable."
+msgstr "Esta suscripción no se puede editar."
+
+#: templates/admin/metabox/metabox_subscription_schedule.php:14
+msgid "Recurring period"
+msgstr "Periodo recurrente"
+
+#: templates/admin/metabox/metabox_subscription_schedule.php:34
+msgid "Schedule"
+msgstr "Programación"
+
+#: templates/emails/email-subscription-customer-details.php:18
+msgid "Customer's details"
+msgstr "Detalles de cliente"
+
+#: templates/emails/email-subscription-customer-details.php:29
+#: templates/myaccount/view-subscription.php:284
+msgid "Email:"
+msgstr "Email:"
+
+#: templates/emails/email-subscription-customer-details.php:35
+#: templates/myaccount/view-subscription.php:291
+msgid "Telephone:"
+msgstr "Teléfono:"
+
+#: templates/emails/email-subscription-detail-table.php:18
+#: templates/emails/email-subscription-status.php:29
+#: templates/myaccount/my-subscriptions-view.php:26
+#: templates/myaccount/subscriptions-related.php:30
+#: templates/myaccount/view-subscription.php:109
+msgid "Product"
+msgstr "Producto"
+
+#: templates/emails/email-subscription-detail-table.php:19
+#: templates/emails/email-subscription-status.php:30
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: templates/emails/email-subscription-detail-table.php:35
+#: templates/emails/email-subscription-status.php:46
+#: templates/myaccount/view-subscription.php:132
+msgid "Item Tax:"
+msgstr "Tasa de artículo:"
+
+#: templates/emails/email-subscription-detail-table.php:40
+#: templates/emails/email-subscription-status.php:51
+#: templates/myaccount/view-subscription.php:137
+msgid "Subtotal:"
+msgstr "Subtotal:"
+
+#: templates/emails/email-subscription-detail-table.php:47
+#: templates/emails/email-subscription-status.php:58
+#: templates/myaccount/view-subscription.php:144
+msgid "Shipping:"
+msgstr "Envío:"
+
+#: templates/emails/email-subscription-detail-table.php:48
+#: templates/emails/email-subscription-status.php:59
+#: templates/myaccount/view-subscription.php:145
+msgid "<small> via %s</small>"
+msgstr "<small> a través de %s</small>"
+
+#: templates/emails/email-subscription-detail-table.php:54
+#: templates/emails/email-subscription-status.php:65
+#: templates/myaccount/view-subscription.php:151
+msgid "Shipping Tax:"
+msgstr "Tasa de envío:"
+
+#: templates/emails/email-subscription-status.php:21
+msgid "The status of subscription #%d has changed to <strong>%s</strong>"
+msgstr "El estado de la suscripción #%d ha cambiado a <strong>%s</strong>"
+
+#: templates/emails/email-subscription-status.php:79
+#: templates/myaccount/view-subscription.php:166
+msgid "Related Orders"
+msgstr "Pedidos Relacionados"
+
+#: templates/emails/email-subscription-status.php:88
+msgid "<p>Order #%d</p>"
+msgstr "<p>Pedido #%d</p>"
+
+#: templates/emails/email-subscription-status.php:100
+msgid "order <a href=\"%s\">#%d</a>"
+msgstr "pedido <a href=“%s”>#%d</a>"
+
+#: templates/emails/ywsbs_customer_subscription_before_expired.php:16
+msgid "Subscription #%d is going to expire"
+msgstr "La suscripción #%d va a caducar"
+
+#: templates/emails/ywsbs_customer_subscription_cancelled.php:18
+msgid "Subscription #%d has been cancelled"
+msgstr "La suscripción #%d ha sido cancelada"
+
+#: templates/emails/ywsbs_customer_subscription_expired.php:17
+msgid "Subscription #%d has expired"
+msgstr "La suscripción #%d ha caducado"
+
+#: templates/emails/ywsbs_customer_subscription_paused.php:17
+msgid "Subscription #%d has been paused"
+msgstr "La suscripción #%d se ha pausado"
+
+#: templates/emails/ywsbs_customer_subscription_payment_done.php:20
+msgid ""
+"Your subscription renewal order is now being processed. Your order details "
+"are shown below for your reference:"
+msgstr ""
+"Tu pedido de renovación de suscripción ahora se está procesando. Los "
+"detalles de tu pedido se muestran debajo para tu referencia:"
+
+#: templates/emails/ywsbs_customer_subscription_payment_done.php:22
+#, fuzzy
+#| msgid ""
+#| "Your subscription renewal order is now being processed. Your order "
+#| "details are shown below for your reference:"
+msgid ""
+"Your subscription order is now being processed. Your order details are shown "
+"below for your reference:"
+msgstr ""
+"Tu pedido de renovación de suscripción ahora se está procesando. Los "
+"detalles de tu pedido se muestran debajo para tu referencia:"
+
+#: templates/emails/ywsbs_customer_subscription_payment_failed.php:17
+msgid ""
+"The payment to renew your subscription failed. Please, verify your available "
+"funds for the card specified during subscription and/or verify that your "
+"card is not expired."
+msgstr ""
+"El pago para renovar tu pedido ha fallado. Por favor, verifica tus fondos "
+"disponibles para la tarjeta especificada durante la suscripción y / o "
+"verifica que tu tarjeta no esté vencida."
+
+#: templates/emails/ywsbs_customer_subscription_renew_reminder.php:16
+msgid "Subscription #%d is going to renew on %s"
+msgstr "La suscripción #%d se renovará el %s"
+
+#: templates/emails/ywsbs_customer_subscription_request_payment.php:17
+msgid "Your recent subscription renewal order on %s is late for payment."
+msgstr ""
+"El pago de tu reciente pedido de renovación de la suscripción de %s está "
+"atrasado."
+
+#: templates/emails/ywsbs_customer_subscription_request_payment.php:19
+#: templates/emails/ywsbs_customer_subscription_suspended.php:19
+msgid ""
+"If you do not pay it by <strong>%s</strong>, your subscription #%d will be "
+"<strong>%s</strong>."
+msgstr ""
+"Si no la pagas antes del <strong>%s</strong>, tu suscripción #%d será "
+"<strong>%s</strong>."
+
+#: templates/emails/ywsbs_customer_subscription_request_payment.php:21
+msgid "To pay for this order, please, click on the following link:"
+msgstr "Para pagar este pedido, por favor, haz click en el siguiente enlace:"
+
+#: templates/emails/ywsbs_customer_subscription_request_payment.php:22
+#: templates/emails/ywsbs_customer_subscription_suspended.php:21
+msgid "pay now"
+msgstr "paga ahora"
+
+#: templates/emails/ywsbs_customer_subscription_resumed.php:17
+msgid "Subscription #%d has been resumed"
+msgstr "La suscripción #%d se ha reanudado"
+
+#: templates/emails/ywsbs_customer_subscription_suspended.php:18
+msgid "Subscription #%d has been suspended"
+msgstr "La suscripción #%d ha sido interrumpida"
+
+#: templates/emails/ywsbs_customer_subscription_suspended.php:20
+msgid "To pay for this order please use the following link:"
+msgstr "Para pagar este pedido, por favor, usa el siguiente enlace:"
+
+#: templates/myaccount/my-subscriptions-view.php:19
+msgid "My Subscriptions"
+msgstr "Mis suscripciones"
+
+#: templates/myaccount/my-subscriptions-view.php:21
+msgid "There is no active subscription for your account."
+msgstr "No hay suscripciones activas en tu cuenta."
+
+#: templates/myaccount/my-subscriptions-view.php:29
+#: templates/myaccount/subscriptions-related.php:33
+msgid "Start date"
+msgstr "Fecha de inicio"
+
+#: templates/myaccount/my-subscriptions-view.php:30
+#: templates/myaccount/subscriptions-related.php:34
+msgid "Next Payment Due Date"
+msgstr "Fecha de vencimiento del próximo pago"
+
+#: templates/myaccount/my-subscriptions-view.php:71
+#: templates/myaccount/subscriptions-related.php:72
+#: templates/myaccount/view-subscription.php:250
+msgid "View"
+msgstr "Ver"
+
+#: templates/myaccount/my-subscriptions-view.php:100
+#: templates/myaccount/subscriptions-related.php:90
+msgid "Do you really want to cancel subscription?"
+msgstr "¿De verdad quieres cancelar la suscripción?"
+
+#: templates/myaccount/my-subscriptions-view.php:102
+#: templates/myaccount/subscriptions-related.php:92
+#: templates/myaccount/view-subscription.php:322
+msgid "Yes, I want to cancel the subscription"
+msgstr "Sí, quiero cancelar la suscripción"
+
+#: templates/myaccount/my-subscriptions-view.php:103
+#: templates/myaccount/subscriptions-related.php:93
+#: templates/myaccount/view-subscription.php:323
+#: templates/myaccount/view-subscription.php:332
+#: templates/myaccount/view-subscription.php:341
+#: templates/myaccount/view-subscription.php:350
+msgid "Close"
+msgstr "Cerrar"
+
+#: templates/myaccount/subscriptions-related.php:22
+msgid "Related Subscriptions"
+msgstr "Suscripciones relacionadas"
+
+#: templates/myaccount/view-subscription.php:17
+msgid "You do not have permissions necessary to access to this page"
+msgstr "No tienes la autorización necesaria para acceder a esta página"
+
+#: templates/myaccount/view-subscription.php:25
+msgid "Subscription Detail"
+msgstr "Detalles de la suscripción"
+
+#: templates/myaccount/view-subscription.php:27
+msgid "Recurring: "
+msgstr "Periódico: "
+
+#: templates/myaccount/view-subscription.php:29
+msgid "Status: "
+msgstr "Estado: "
+
+#: templates/myaccount/view-subscription.php:33
+msgid "Start date: "
+msgstr "Fecha de inicio: "
+
+#: templates/myaccount/view-subscription.php:38
+msgid "Next Payment Due Date: "
+msgstr "Fecha de vencimiento del próximo pago: "
+
+#: templates/myaccount/view-subscription.php:42
+msgid "Pause expiry date: "
+msgstr "Fecha de caducidad de la pausa: "
+
+#: templates/myaccount/view-subscription.php:47
+msgid "Subscription expiry date: "
+msgstr "Fecha de caducidad de la suscripción: "
+
+#: templates/myaccount/view-subscription.php:52
+msgid "End Date: "
+msgstr "Fecha Fin: "
+
+#: templates/myaccount/view-subscription.php:59
+msgid "Pause"
+msgstr "Pausa"
+
+#: templates/myaccount/view-subscription.php:63
+msgid "Resume"
+msgstr "Reanudar"
+
+#: templates/myaccount/view-subscription.php:75
+msgid "Change shipping address"
+msgstr "Cambiar dirección de envío"
+
+#: templates/myaccount/view-subscription.php:80
+msgid "Upgrade/Downgrade your subscription"
+msgstr "Subir/Bajar de nivel tu suscripción"
+
+#: templates/myaccount/view-subscription.php:98
+msgid ""
+"Do you want to upgrade your subscription including also past installments?"
+msgstr ""
+"¿Quieres subir de nivel tu suscripción incluyendo también cuotas pasadas?"
+
+#: templates/myaccount/view-subscription.php:99
+msgid "Yes, <span class=\"price\"></span> will be added to amount"
+msgstr "Sí, se añadirá <span class=\"price\"></span> a la cantidad"
+
+#: templates/myaccount/view-subscription.php:100
+msgid "No"
+msgstr "No"
+
+#: templates/myaccount/view-subscription.php:103
+msgid "Switch"
+msgstr "Cambio"
+
+#: templates/myaccount/view-subscription.php:184
+#: templates/myaccount/view-subscription.php:203
+msgid "Order Number"
+msgstr "Número de pedido"
+
+#: templates/myaccount/view-subscription.php:185
+#: templates/myaccount/view-subscription.php:205
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#: templates/myaccount/view-subscription.php:190
+msgid "Deleted"
+msgstr "Eliminada"
+
+#: templates/myaccount/view-subscription.php:225
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] "%s por %s artículo"
+msgstr[1] "%s por %s artículos"
+
+#: templates/myaccount/view-subscription.php:234
+msgid "Pay"
+msgstr "Pago"
+
+#: templates/myaccount/view-subscription.php:274
+msgid "Customer Details"
+msgstr "Detalles de cliente"
+
+#: templates/myaccount/view-subscription.php:319
+msgid "Do you really want to cancel subscription No. #%s?"
+msgstr "¿De verdad quieres cancelar la suscripción No. #%s?"
+
+#: templates/myaccount/view-subscription.php:328
+msgid "Do you really want to pause subscription No. #%s?"
+msgstr "¿De verdad quieres pausar la suscripción No. #%s?"
+
+#: templates/myaccount/view-subscription.php:331
+msgid "Yes, I want to pause the subscription"
+msgstr "Sí, quiero pausar la suscripción"
+
+#: templates/myaccount/view-subscription.php:337
+msgid "Do you really want to resume subscription No. #%s?"
+msgstr "¿De verdad quieres reanudar la suscripción No. #%s?"
+
+#: templates/myaccount/view-subscription.php:340
+msgid "Yes, I want to resume the subscription"
+msgstr "Sí, quiero reanudar la suscripción"
+
+#: templates/myaccount/view-subscription.php:346
+msgid ""
+"Do you really want to renew the subscription? You will redirect to the "
+"checkout to renew it"
+msgstr ""
+"¿De verdad quieres renovar la suscripción? Se te redirigirá a la página de "
+"pago para renovarla"
+
+#: templates/myaccount/view-subscription.php:349
+msgid "Yes, I want to renew the subscription"
+msgstr "Sí, quiero renovar la suscripción"
+
+#. Plugin Name of the plugin/theme
+msgid "YITH WooCommerce Subscription Premium"
+msgstr "YITH WooCommerce Subscription Premium"
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-subscription/"
+msgstr "https://yithemes.com/themes/plugins/yith-woocommerce-subscription/"
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH WooCommerce Subscription</strong></code> allows enabling "
+"automatic recurring payments on your products. Once you buy a subscription-"
+"based product, the plugin will renew the payment automatically based on your "
+"own settings. Perfect for any kind of subscriptions, like magazines, "
+"software and so on. <a href=\"https://yithemes.com/\" target=\"_blank\">Get "
+"more plugins for your e-commerce shop on <strong>YITH</strong></a>."
+msgstr ""
+"<code><strong>YITH WooCommerce Subscription</strong></code> permite activar "
+"pagos periódicos automáticos en tus productos. Una vez que compres un "
+"producto basado en suscripciones, el plugin renovará el pago automáticamente "
+"en función de sus propios ajustes. Es perfecto para cualquier tipo de "
+"suscripciones, como revistas, software, etc. <a href=\"https:/yitem.com/\" "
+"target=\"_ blank\">Consigue más plugins para tu tienda e-Commerce en "
+"<strong>YITH</strong></a>."
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr "YITH"
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#~ msgid "Data"
+#~ msgstr "Datos"
+
+#~ msgctxt ""
+#~ msgid "Subscription Activated"
+#~ msgstr "Suscripción Activada"
+
+#~ msgctxt ""
+#~ msgid "Started Trial Period"
+#~ msgstr "Periodo de prueba comenzado"
+
+#~ msgid "Premium Version"
+#~ msgstr "Versión Premium"
+
+#~ msgid "Plugin Documentation"
+#~ msgstr "Documentación del Plugin"
+
+#~ msgid "Billing Details"
+#~ msgstr "Detalles de facturación"
+
+#~ msgid "Phone:"
+#~ msgstr "Teléfono:"
+
+#~ msgid "Shipping Details"
+#~ msgstr "Detalles de envío"
+
+#~ msgid "Shipping method:"
+#~ msgstr "Método de envío:"
+
+#~ msgid "Failed attemps"
+#~ msgstr "Intentos fallidos"
+
+#~ msgid "Failed Attemps"
+#~ msgstr "Intentos fallidos"
+
+#~ msgid ""
+#~ "Do you really want to cancel subscription No. #<span id=\"modal-"
+#~ "subscription-number\">"
+#~ msgstr ""
+#~ "¿De verdad quieres cancelar la suscripción No. #<span id=\"modal-"
+#~ "subscription-number\">?"
+
+#~ msgid ""
+#~ "Do you really want to pause subscription No. #<span id=\"modal-"
+#~ "subscription-number\">"
+#~ msgstr ""
+#~ "¿De verdad quieres pausar la suscripción No. #<span id=\"modal-"
+#~ "subscription-number\">?"
+
+#~ msgid ""
+#~ "Do you really want to resume the subscription No. #<span id=\"modal-"
+#~ "subscription-number\">"
+#~ msgstr ""
+#~ "¿De verdad quieres reanudar la suscripción No. #<span id=\"modal-"
+#~ "subscription-number\">?"
+
+#~ msgid ""
+#~ "This field allows you to set a hierarchy in the subscription variations.\n"
+#~ "                     The priority set the order of variations, for "
+#~ "example, if you switch from a variation with a low priority to another "
+#~ "one with hight priority the process of the swicth will be an upgrade."
+#~ msgstr ""
+#~ "Este campo te permite establecer una jerarquía en las variaciones de la "
+#~ "suscripción.\n"
+#~ "                     La prioridad establece el orden de las variaciones, "
+#~ "por ejemplo, si cambias de una variación con baja prioridad a otra con "
+#~ "alta prioridad, el proceso tendrá una mejora."
+
+#~ msgid "<strong>Payed Order List</strong>:"
+#~ msgstr "<strong>Lista de pedidos pagados</strong>:"
+
+#~ msgid ""
+#~ "YSBS - IPN subscription cancelled due to max number of failed payment "
+#~ "attempts"
+#~ msgstr ""
+#~ "Suscripción YSBS - IPN cancelada debido al máximo número de intentos de "
+#~ "pago fallidos"

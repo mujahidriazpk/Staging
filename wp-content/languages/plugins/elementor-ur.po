@@ -1,0 +1,3984 @@
+# Translation of Plugins - Elementor Website Builder - Stable (latest release) in Urdu
+# This file is distributed under the same license as the Plugins - Elementor Website Builder - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-12-10 20:36:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ur_PK\n"
+"Project-Id-Version: Plugins - Elementor Website Builder - Stable (latest release)\n"
+
+#: includes/settings/tools.php:134
+msgid "Not allowed to rollback versions"
+msgstr "پرانے ورژن پے جانے کی اجازت نہیں"
+
+#: includes/elements/column.php:418 includes/elements/section.php:709
+msgid "Luminosity"
+msgstr "روشنی"
+
+#: includes/elements/column.php:415 includes/elements/section.php:706
+msgid "Color Dodge"
+msgstr "کلر ڈاج"
+
+#: includes/elements/column.php:414 includes/elements/section.php:705
+msgid "Lighten"
+msgstr "ہلکا کریں"
+
+#: includes/elements/column.php:416 includes/elements/section.php:707
+msgid "Saturation"
+msgstr "سنترپتی"
+
+#: includes/elements/column.php:413 includes/elements/section.php:704
+msgid "Darken"
+msgstr "سیاہ کریں"
+
+#: includes/elements/column.php:412 includes/elements/section.php:703
+msgid "Overlay"
+msgstr "اوورلے"
+
+#: includes/elements/column.php:411 includes/elements/section.php:702
+msgid "Screen"
+msgstr "سکرین"
+
+#: includes/elements/column.php:410 includes/elements/section.php:701
+msgid "Multiply"
+msgstr "ملٹی پلائے"
+
+#: core/kits/documents/tabs/settings-page-transitions.php:19
+#: includes/managers/controls.php:935
+msgid "Page Transitions"
+msgstr "صفحہ کی ٹرانزیشنز"
+
+#: core/app/modules/import-export/module.php:105
+msgid "Invalid URL"
+msgstr "غلط یوآرایل۔"
+
+#: core/experiments/manager.php:250
+msgid "Font-Awesome Inline"
+msgstr "فانٹ آسم ان لائین"
+
+#: includes/controls/groups/background.php:625
+msgid "Only works for YouTube videos."
+msgstr "صرف یوٹیوب ویڈیوز کیلئے کام کرتا ہے۔"
+
+#: includes/controls/groups/background.php:623
+msgid "Privacy mode"
+msgstr "پرائیویسی وضع"
+
+#: core/admin/notices/elementor-dev-notice.php:83
+msgid "Install & Activate"
+msgstr "انسٹال کریں اور چالو کریں"
+
+#: core/admin/notices/elementor-dev-notice.php:78
+msgid "Get a sneak peek at our in progress development versions, and help us improve Elementor to perfection. Developer Edition releases contain experimental functionality for testing purposes."
+msgstr "ہماری ترقی میں پیش آنے والے ورژن پر ایک چپکے چپکے جھانکیں ، اور عنصر کو کمال تک پہنچانے میں ہماری مدد کریں۔ ڈیولپر ایڈیشن کی ریلیز میں جانچ کے مقاصد کے لئے تجرباتی فعالیت شامل ہے۔"
+
+#: core/admin/notices/elementor-dev-notice.php:77
+msgid "Elementor Developer Edition"
+msgstr "ایلیمنٹر ڈویلپر ایڈیشن"
+
+#: core/admin/admin.php:488
+msgid "Find an Expert"
+msgstr "ایک ماہر تلاش کریں"
+
+#: core/experiments/manager.php:478
+msgid "Inactive by default"
+msgstr "بطور ڈیفالٹ"
+
+#: core/experiments/manager.php:478
+msgid "Active by default"
+msgstr "بطور ڈیفالٹ فعال"
+
+#: core/experiments/manager.php:451
+msgid "Status: %s"
+msgstr "اسٹیٹس %s"
+
+#: core/experiments/manager.php:420
+msgid "To use an experiment on your site, simply click on the dropdown next to it and switch to Active. You can always deactivate them at any time."
+msgstr "اپنی سائٹ پر تجربہ استعمال کرنے کے ل simply ، اس کے ساتھ ہی نیچے والے ڈراپ ڈاؤن پر کلیک کریں اور ایکٹو پر سوئچ کریں۔ آپ انہیں کسی بھی وقت غیر فعال کرسکتے ہیں۔"
+
+#. translators: %1$s Link open tag, %2$s: Link close tag.
+#: core/experiments/manager.php:414
+msgid "Access new and experimental features from Elementor before they're officially released. As these features are still in development, they are likely to change, evolve or even be removed altogether. %1$sLearn More.%2$s"
+msgstr "ایلیمنٹر سے سرکاری طور پر جاری ہونے سے پہلے ان میں نئی اور تجرباتی خصوصیات تک رسائی حاصل کریں۔ چونکہ یہ خصوصیات ابھی بھی ترقی میں ہیں ، ان کے بدلے جانے ، تیار ہونے یا مکمل طور پر ختم کرنے کا امکان ہے۔ <a href=\"%s \"target=\"_blank\"> مزید جانیں۔ </a>"
+
+#: core/common/modules/finder/categories/settings.php:56
+#: core/experiments/manager.php:388 core/experiments/manager.php:409
+msgid "Experiments"
+msgstr "تجربات"
+
+#: core/experiments/manager.php:377
+msgid "The current version of Elementor doesn't have any experimental features . if you're feeling curious make sure to come back in future versions."
+msgstr "ایلیمنٹر کے حالیہ ورژن میں تجرباتی خصوصیات نہیں ہیں۔ اگر آپ تجسس محسوس کررہے ہیں تو مستقبل کے ورژن میں واپس آنا یقینی بنائیں۔"
+
+#: core/experiments/manager.php:374
+msgid "No available experiments"
+msgstr "دستیاب تجربات نہیں"
+
+#: core/experiments/manager.php:322
+msgid "Stable"
+msgstr "مستحکم"
+
+#: core/experiments/manager.php:321
+msgid "Release Candidate"
+msgstr "امیدوار کو رہا کریں"
+
+#: core/experiments/manager.php:320
+msgid "Beta"
+msgstr "بیٹا"
+
+#: core/experiments/manager.php:319
+msgid "Alpha"
+msgstr "الفا"
+
+#: includes/frontend.php:1261
+msgid "Share on Twitter"
+msgstr "ٹوئٹر پر پھیلائیں"
+
+#: includes/frontend.php:1260
+msgid "Share on Facebook"
+msgstr "فیس بک پر پھیلائیں"
+
+#: includes/controls/url.php:113
+msgid "Custom Attributes"
+msgstr "اپنی مرضی کے مطابق اوصاف"
+
+#: core/kits/views/panel.php:12 includes/editor-templates/panel.php:27
+#: includes/editor-templates/panel.php:159
+msgid "Need Help"
+msgstr "مدد چاہیے؟"
+
+#: includes/controls/groups/background.php:599
+msgid "Play Once"
+msgstr "ایک مرتبہ چلائیں"
+
+#: includes/controls/icons.php:89 includes/controls/icons.php:114
+#: includes/controls/icons.php:116
+msgid "Upload SVG"
+msgstr "SVG اپلوڈ کریں"
+
+#: includes/controls/media.php:194
+msgid "Choose Video"
+msgstr "ویڈیو منتخب کریں"
+
+#: includes/admin-templates/beta-tester.php:32
+msgid "Your Email"
+msgstr "آپ کا ای میل"
+
+#: includes/admin-templates/beta-tester.php:29
+msgid "Get Beta Updates"
+msgstr "تخلیقی ورژن کی اپڈیٹس حاصل کریں"
+
+#: includes/settings/settings.php:568
+msgid "We recommend you only enable this feature if you understand the security risks involved."
+msgstr "ہم تجویز کرتے ہیں کہ آپ اس خصوصیت کو فعال کرنے سے پہلے اس میں ملوث خطرے کو اچھی طرح سمجھ لیں"
+
+#: includes/template-library/sources/local.php:549
+msgid "Template not exist."
+msgstr "ٹیمپلیٹ موجود نہیں"
+
+#: includes/base/widget-base.php:981
+msgid "Deprecated"
+msgstr "ہہ خصوصیت اب موجود نہیں"
+
+#: includes/managers/icons.php:212
+msgid "All Icons"
+msgstr "تمام آئیکان"
+
+#: core/debug/classes/theme-missing.php:22
+msgid "Some of your theme files are missing."
+msgstr "آپ کی تھیم کی کچھ فائلیں غائب ہیں۔"
+
+#: includes/admin-templates/beta-tester.php:37 assets/js/beta-tester.js:424
+msgid "Sign Up"
+msgstr "سائن اپ"
+
+#: includes/controls/media.php:266 assets/js/editor.js:4015
+msgid "Upload"
+msgstr "اپلوڈ کریں"
+
+#: includes/controls/icons.php:88 includes/controls/icons.php:121
+#: includes/controls/icons.php:125 assets/js/editor.js:4747
+msgid "Icon Library"
+msgstr "آئیکون لائبریری"
+
+#: core/editor/editor.php:205
+msgid "Document not found."
+msgstr "دستاویز نہیں ملی۔"
+
+#: includes/widgets/common.php:957
+msgid "Vertical Orientation"
+msgstr "عمودی واقفیت۔"
+
+#: includes/widgets/common.php:879 includes/widgets/common.php:918
+#: includes/widgets/common.php:981 includes/widgets/common.php:1019
+msgid "Offset"
+msgstr "آفسیٹ"
+
+#: includes/widgets/common.php:841
+msgid "Fixed"
+msgstr "فکسڈ"
+
+#: core/experiments/manager.php:261 includes/widgets/common.php:822
+msgid "Please note!"
+msgstr "براہ مہربانی نوٹ کریں!"
+
+#: includes/settings/controls.php:236
+msgid "Super Admin"
+msgstr "سپر ایڈمن۔"
+
+#: includes/settings/settings.php:197
+msgid "Get Help"
+msgstr "مدد حاصل کرو"
+
+#: modules/safe-mode/module.php:391
+msgid "Having problems loading Elementor? Please enable Safe Mode to troubleshoot."
+msgstr "ایلیمینٹر کو لوڈ کرنے میں دشواری ہے؟ مسلہ حل کرنے کے لیے سیف موڈ فعال کریں"
+
+#: modules/safe-mode/module.php:289
+msgid "The issue was probably caused by one of your plugins or theme."
+msgstr "یہ مسلہ شاید کسی پلگ ان یا تھیم کی وجہ سے درپیش ہے"
+
+#: modules/safe-mode/module.php:302
+msgid "Still experiencing issues?"
+msgstr "ابھی بھی مسائل کا سامنا ہے؟"
+
+#: modules/safe-mode/module.php:286
+msgid "Editor successfully loaded?"
+msgstr "ایڈیٹر کامیابی سے لوڈ ہو چکا؟"
+
+#: includes/template-library/sources/local.php:1339
+msgctxt "Template Library"
+msgid "Filter by category"
+msgstr "زمرے سے فلٹر کریں"
+
+#: includes/controls/media.php:200 includes/widgets/video.php:201
+msgid "Choose File"
+msgstr "فائل منتخب کریں"
+
+#: includes/template-library/sources/local.php:312
+msgctxt "Template Library"
+msgid "All Categories"
+msgstr "تمام زمرے"
+
+#: core/common/modules/finder/categories/general.php:45
+msgctxt "Template Library"
+msgid "Saved Templates"
+msgstr "محفوظ شدہ ٹیمپلیٹس"
+
+#: includes/template-library/sources/local.php:311
+msgctxt "Template Library"
+msgid "Category"
+msgstr "زمرہ"
+
+#: core/app/app.php:39 core/app/app.php:40
+#: core/app/modules/site-editor/module.php:31
+#: core/common/modules/finder/categories/general.php:68
+#: includes/template-library/sources/local.php:1635
+#: assets/js/app-packages.js:10981 assets/js/editor.js:31625
+msgid "Theme Builder"
+msgstr "تھیم بلڈر"
+
+#: includes/widgets/google-maps.php:131
+msgid "Location"
+msgstr "مقام"
+
+#: includes/widgets/read-more.php:88
+msgid "Continue reading"
+msgstr "پڑھنا جاری رکھیں"
+
+#: includes/widgets/read-more.php:41 includes/widgets/read-more.php:84
+msgid "Read More"
+msgstr "مزید پڑھیں"
+
+#: modules/library/documents/not-supported.php:60
+msgid "Not Supported"
+msgstr "سہولت مہیا نہیں"
+
+#: core/common/modules/finder/categories/site.php:78
+msgid "Users"
+msgstr "صارفین"
+
+#: core/common/modules/finder/categories/site.php:72
+msgid "Plugins"
+msgstr "پلگ انز"
+
+#: core/common/modules/finder/categories/site.php:66
+msgid "Customizer"
+msgstr "مرضی کے مطابق بنائیں"
+
+#: includes/editor-templates/hotkeys.php:143 assets/js/editor.js:3174
+msgid "Keyboard Shortcuts"
+msgstr "کی بورڈ شارٹ کٹس"
+
+#: core/common/modules/finder/categories/site.php:54
+msgid "Menus"
+msgstr "مینوز"
+
+#: core/common/modules/finder/categories/site.php:48
+msgid "Dashboard"
+msgstr "ڈیش بورڈ"
+
+#: includes/editor-templates/hotkeys.php:18
+msgid "Undo"
+msgstr "کالعدم کریں"
+
+#: includes/editor-templates/hotkeys.php:26
+msgid "Redo"
+msgstr "دوبارہ کریں"
+
+#: core/common/modules/finder/categories/create.php:28
+#: assets/js/editor.js:29903
+msgid "Create"
+msgstr "بنائیں"
+
+#: includes/widgets/star-rating.php:147
+msgid "Outline"
+msgstr "آؤٹ لائن"
+
+#: core/common/modules/finder/categories/site.php:42
+msgid "Homepage"
+msgstr "ہوم پیج"
+
+#: includes/widgets/star-rating.php:88 includes/widgets/star-rating.php:108
+msgid "Rating"
+msgstr "درجہ بندی"
+
+#: core/common/modules/connect/admin.php:24
+#: core/common/modules/connect/admin.php:25
+#: core/common/modules/connect/apps/connect.php:11
+msgid "Connect"
+msgstr "منسلک کریں"
+
+#: includes/widgets/video.php:440
+msgid "Any Video"
+msgstr "کوئی بھی ویڈیو"
+
+#: includes/widgets/video.php:519
+msgid "Poster"
+msgstr "پوسٹر"
+
+#: includes/widgets/video.php:402
+msgid "Lazy Load"
+msgstr "لیزی لوڈ"
+
+#: includes/widgets/video.php:135 includes/widgets/video.php:157
+#: includes/widgets/video.php:178 includes/widgets/video.php:234
+msgid "Enter your URL"
+msgstr "اپنا یو آر ایل شامل کریں"
+
+#: includes/settings/settings.php:265
+msgid "Welcome to Elementor"
+msgstr "ایلیمینٹر میں خوش آمدید"
+
+#: includes/settings/settings.php:243
+msgid "Create Your First Post"
+msgstr "اپنی پہلی پوسٹ بنائیں"
+
+#: includes/settings/settings.php:240
+msgid "Create Your First Page"
+msgstr "اپنا پہلا صفحہ بنائیں"
+
+#: includes/settings/settings.php:188 includes/settings/settings.php:256
+msgid "Getting Started"
+msgstr "یہاں سے شروعات کریں"
+
+#: core/admin/admin-notices.php:273
+msgid "Congrats!"
+msgstr "مبارک ہو!"
+
+#: core/admin/admin-notices.php:284
+msgid "Hide Notification"
+msgstr "اطلاع چھپائیں"
+
+#: core/admin/admin-notices.php:278
+msgid "Happy To Help"
+msgstr "مدد کر کے خوشی ہوئی"
+
+#: includes/editor-templates/navigator.php:46
+msgid "Empty"
+msgstr "خالی"
+
+#: core/debug/inspector.php:49
+msgid "Debug Bar"
+msgstr "ڈی بگ بار"
+
+#: includes/controls/groups/css-filter.php:132
+msgctxt "Filter Control"
+msgid "Hue"
+msgstr "ہیو"
+
+#: includes/controls/url.php:68 modules/shapes/widgets/text-path.php:147
+msgid "Paste URL or type"
+msgstr "یوآرایل پیسٹ یا ٹائپ کریں"
+
+#: includes/editor-templates/library-layout.php:13
+#: includes/settings/settings.php:259 includes/settings/settings.php:260
+msgid "Skip"
+msgstr "چھوڑیں"
+
+#: includes/editor-templates/navigator.php:51
+msgid "Easy Navigation is Here!"
+msgstr "آسان نیویگیشن یہاں ہے!"
+
+#: includes/editor-templates/hotkeys.php:126
+#: includes/editor-templates/navigator.php:12
+#: includes/editor-templates/panel.php:69
+#: includes/editor-templates/panel.php:71 assets/js/editor-document.js:13174
+#: assets/js/editor.js:15103
+msgid "Navigator"
+msgstr "نیویگیٹر"
+
+#: core/document-types/page-base.php:41
+msgid "Single"
+msgstr "واحد"
+
+#: includes/widgets/video.php:374
+msgid "Logo"
+msgstr "لوگو"
+
+#: includes/editor-templates/hotkeys.php:35 assets/js/editor-document.js:12508
+#: assets/js/editor.js:14437
+msgid "Copy"
+msgstr "کاپی"
+
+#: includes/widgets/video.php:110
+msgid "Source"
+msgstr "ماخذ"
+
+#: includes/widgets/video.php:220
+msgid "URL"
+msgstr "یوآرایل"
+
+#: core/admin/admin.php:151 assets/js/admin.js:5182 assets/js/gutenberg.js:796
+msgid "Back to WordPress Editor"
+msgstr "ورڈپریس ایڈیٹر میں واپس جائیں"
+
+#. translators: %s: Document title.
+#: core/documents-manager.php:367
+msgid "Elementor %s"
+msgstr "ایلیمینٹر %s"
+
+#. translators: %s: Post type singular label.
+#. translators: %s: Template type label.
+#: core/common/modules/finder/categories/create.php:62
+#: includes/template-library/sources/local.php:1313
+msgid "Add New %s"
+msgstr "نیا شامل کریں %s"
+
+#. translators: %d: Number of rows.
+#: includes/utils.php:213
+msgid "%d row affected."
+msgid_plural "%d rows affected."
+msgstr[0] "%d قطار متاثر ہوئی"
+msgstr[1] "%d قطاریں متاثر ہوئیں"
+
+#: modules/page-templates/module.php:158
+msgctxt "Page Template"
+msgid "Elementor Full Width"
+msgstr "ایلیمینٹر مکمل چوڑائی"
+
+#: modules/page-templates/module.php:157
+msgctxt "Page Template"
+msgid "Elementor Canvas"
+msgstr "ایلیمینٹر کینوس"
+
+#: core/kits/documents/tabs/theme-style-images.php:95
+#: core/kits/documents/tabs/theme-style-images.php:166
+#: includes/elements/column.php:375 includes/elements/column.php:446
+#: includes/elements/section.php:651 includes/elements/section.php:752
+#: includes/widgets/image-box.php:312 includes/widgets/image-box.php:366
+#: includes/widgets/image.php:393 includes/widgets/image.php:427
+msgid "Opacity"
+msgstr "دھندلاپن"
+
+#: core/app/modules/kit-library/data/kits/controller.php:24
+#: core/app/modules/kit-library/data/kits/controller.php:43
+#: core/app/modules/kit-library/data/kits/endpoints/download-link.php:45
+#: core/app/modules/kit-library/data/kits/endpoints/favorites.php:66
+#: core/app/modules/kit-library/data/kits/endpoints/favorites.php:88
+#: core/app/modules/kit-library/data/taxonomies/controller.php:39
+#: core/base/module.php:130 core/base/module.php:143 includes/plugin.php:615
+#: includes/plugin.php:628
+#: assets/js/kit-library.d3688acfaab28676a99c.bundle.js:885
+#: assets/js/kit-library.d3688acfaab28676a99c.bundle.js:3498
+msgid "Something went wrong."
+msgstr "کچھ غلط ہو گیا ہے۔"
+
+#: includes/widgets/image.php:290
+msgid "Max Width"
+msgstr "زیادہ سے زیادہ چوڑائی"
+
+#: includes/widgets/common.php:612 includes/widgets/common.php:835
+#: includes/widgets/divider.php:736 includes/widgets/divider.php:876
+#: includes/widgets/image-carousel.php:401
+#: includes/widgets/image-carousel.php:464 includes/widgets/tabs.php:152
+msgid "Position"
+msgstr "مقام"
+
+#. translators: 1: Elementor, 2: Link to plugin review
+#: core/admin/admin.php:335
+msgid "Enjoyed %1$s? Please leave us a %2$s rating. We really appreciate your support!"
+msgstr "%1$s سے لطف اندوز ہوئے؟ براہ مہربانی ہمیں ایک %2$s درجہ بندی دیں. ہم واقعی آپ کی حمایت کی تعریف کرتے ہیں"
+
+#: core/common/modules/finder/categories/general.php:63
+msgid "Knowledge Base"
+msgstr "نالج بیس"
+
+#: modules/page-templates/module.php:335
+msgid "No header, no footer, just Elementor"
+msgstr "بنا ہیڈر اور فوٹر کے، صرف ایلیمینٹر"
+
+#: modules/page-templates/module.php:292
+msgid "Page Layout"
+msgstr "صفحہ کی ترتیب"
+
+#: modules/history/views/revisions-panel-template.php:70
+msgid "Current"
+msgstr "موجودہ"
+
+#: modules/page-templates/module.php:347
+msgid "This template includes the header, full-width content and footer"
+msgstr "اس ٹیمپلیٹ میں شامل ہیں۔ ہیڈر، مکمل چوڑائی، کانٹینٹ اور فوٹر"
+
+#: core/common/modules/ajax/module.php:161
+msgid "Action not found."
+msgstr "ایکشن نہیں ملا."
+
+#: core/common/modules/ajax/module.php:130
+msgid "Token Expired."
+msgstr "ٹوکن کی معیاد ختم ہو چکی."
+
+#: includes/template-library/manager.php:529
+msgid "Post not found."
+msgstr "پوسٹ نہیں ملی."
+
+#: core/role-manager/role-manager.php:127
+msgid "Role Excluded"
+msgstr "کردار نکال دیا گیا"
+
+#: includes/settings/settings.php:146 includes/settings/settings.php:147
+msgid "Custom Fonts"
+msgstr "کسٹم فانٹس"
+
+#: includes/settings/settings.php:301
+msgid "Add Your Custom Fonts"
+msgstr "اپنے کسٹم فانٹ شامل کریں"
+
+#: core/role-manager/role-manager.php:134
+msgid "No access to editor"
+msgstr "ایڈیٹر تک رسائی نہیں"
+
+#: core/role-manager/role-manager.php:91
+msgid "Manage What Your Users Can Edit In Elementor"
+msgstr "اس بات کا تعین کریں کہ صارف ایلیلمنٹر میں کیا ترمیم کر سکتے ہیں"
+
+#: core/base/document.php:163
+msgid "Document"
+msgstr "دستاویز"
+
+#: includes/frontend.php:1268 includes/widgets/video.php:943
+msgid "Play Video"
+msgstr "ویڈیو چلائیں"
+
+#: includes/template-library/sources/local.php:1179
+msgid "All"
+msgstr "تمام"
+
+#: includes/template-library/sources/local.php:219
+msgctxt "Template Library"
+msgid "My Templates"
+msgstr "میرے ٹیمپلیٹس"
+
+#: includes/admin-templates/new-template.php:97
+msgid "Create Template"
+msgstr "ٹیمپلیٹ بنائیں"
+
+#: includes/admin-templates/new-template.php:94
+msgid "Enter template name (optional)"
+msgstr "ٹیمپلیٹ کا نام لکھیں (اختیاری)"
+
+#: includes/admin-templates/new-template.php:91
+msgid "Name your template"
+msgstr "ٹیمپلیٹ کو نام دیں"
+
+#: includes/editor-templates/templates.php:100
+msgid "Search Templates:"
+msgstr "ٹیمپلیٹس تلاش کریں"
+
+#: core/document-types/page.php:41 modules/library/documents/page.php:60
+#: assets/js/editor.js:5615
+#: assets/js/kit-library.d3688acfaab28676a99c.bundle.js:1803
+msgid "Pages"
+msgstr "صفحات"
+
+#: includes/editor-templates/global.php:48
+msgid "This tag has no settings."
+msgstr "اس ٹیگ کی کوئی سیٹنگ موجود نہیں"
+
+#: core/document-types/page-base.php:175
+msgid "Featured Image"
+msgstr "نمایاں تصویر"
+
+#: includes/widgets/common.php:747 includes/widgets/icon-list.php:104
+#: includes/widgets/icon-list.php:196
+msgid "Inline"
+msgstr "لائن میں"
+
+#: includes/admin-templates/new-template.php:66
+msgid "Select the type of template you want to work on"
+msgstr "آپ جس قسم کی ٹیمپلیٹ پہ کام کرناچاہ رہے ہیں اسے منتخب کریں"
+
+#: includes/admin-templates/new-template.php:64
+msgid "Choose Template Type"
+msgstr "ٹیمپلیٹ کی قسم منتخب کریں"
+
+#: includes/editor-templates/templates.php:180
+msgid "More actions"
+msgstr "مزید اعمال"
+
+#: core/document-types/page-base.php:109
+msgid "Body Style"
+msgstr "باڈی کا سٹائل"
+
+#: core/common/modules/finder/categories/general.php:57
+#: core/role-manager/role-manager.php:31
+msgid "Role Manager"
+msgstr "کردار مینیجر"
+
+#: core/role-manager/role-manager.php:169
+msgid "Want to give access only to content?"
+msgstr "صرف مواد کو اختیار دینا چاہتے ہیں؟"
+
+#. translators: %s: Document title.
+#. translators: %s: Document title.
+#: core/base/document.php:1013 core/settings/page/model.php:126
+#: includes/editor-templates/panel.php:67
+msgid "%s Settings"
+msgstr "%s ترتیبات"
+
+#. translators: %s: Template type label.
+#: includes/template-library/sources/local.php:1306
+msgid "Create Your First %s"
+msgstr "اپنی پہلی %s بنائیں"
+
+#: includes/admin-templates/new-template.php:49
+msgid "Use templates to create the different pieces of your site, and reuse them with one click whenever needed."
+msgstr "اپنی ویب سائٹ کے مختلف حصوں کو بنانے کے لئے ٹیمپلیٹس کا استعمال کریں اور صرف ایک کلک کے ساتھ انہیں دوبارہ استعمال کریں"
+
+#: core/dynamic-tags/tag.php:109 includes/settings/settings.php:580
+msgid "Fallback"
+msgstr "فال بیک"
+
+#: includes/controls/groups/border.php:68
+msgctxt "Border Control"
+msgid "Groove"
+msgstr "ابھرا ہوا"
+
+#: includes/template-library/sources/local.php:1273
+msgid "Add templates and reuse them across your website. Easily export and import them to any other project, for an optimized workflow."
+msgstr "ٹیمپلیٹ شامل کریں اور اپنی ویب سائٹ پر انہیں دوبارہ استعمال کریں. انہیں با آسانی امپورٹ اور ایکسپورٹ کر کے دوسرے پراجیکٹس میں استعمال کریں."
+
+#: includes/settings/settings.php:302
+msgid "Custom Fonts allows you to add your self-hosted fonts and use them on your Elementor projects to create a unique brand language."
+msgstr "کسٹم فانٹ کی خصوصیت آپکو اس بات کی اجازت دیتی ہے کہ آپ اپنی مرضی کی سیلف ہوسٹڈ فانٹ شامل کر سکیں اور اپنے پراجیکٹ کو ایک منفرد برانڈ لینگویج کے ساتھ دیکھا سکیں"
+
+#: includes/widgets/counter.php:181
+msgid "Separator"
+msgstr "سیپریٹر"
+
+#: modules/landing-pages/module.php:257 assets/js/app-packages.js:6185
+msgid "Add New"
+msgstr "نیا شامل کریں"
+
+#: includes/widgets/image-carousel.php:137
+msgid "Set how many slides are scrolled per swipe."
+msgstr "اس بات کی تصدیق کریں کہ ایک سوائپ میں کتنے سلائڈز دکھائیں"
+
+#: core/admin/admin.php:386
+msgid "Create New Post"
+msgstr "نئی پوسٹ شامل کریں"
+
+#: includes/controls/groups/background.php:447
+msgid "Note: Attachment Fixed works only on desktop."
+msgstr "نوٹ: فکسڈ اٹیچمینٹ صرف ڈیسک ٹاپ پے کام کرتی ہے"
+
+#: includes/fonts.php:69
+msgid "Google Early Access"
+msgstr "گوگل ابتدائی رسائی"
+
+#: includes/editor-templates/templates.php:158
+msgid "Favorite"
+msgstr "پسندیدہ"
+
+#: includes/widgets/shortcode.php:106
+msgid "Enter your shortcode"
+msgstr "اپنا شارٹ کوڈ شامل کریں"
+
+#: includes/widgets/html.php:95
+msgid "Enter your code"
+msgstr "اپنا کوڈ شامل کریں"
+
+#: includes/widgets/alert.php:330 includes/widgets/alert.php:362
+msgid "Dismiss alert"
+msgstr "انتباہ ختم کریں"
+
+#: includes/widgets/alert.php:127 includes/widgets/icon-box.php:161
+#: includes/widgets/image-box.php:138
+msgid "Enter your description"
+msgstr "اپنی تفصیل درج کریں"
+
+#: includes/widgets/alert.php:114
+msgid "This is an Alert"
+msgstr "یہ ایک انتباہ ہے"
+
+#: includes/widgets/image.php:176
+msgid "Enter your image caption"
+msgstr "تصویر کا عنوان شامل کریں"
+
+#: includes/controls/popover-toggle.php:71
+#: includes/controls/popover-toggle.php:73
+msgid "Back to default"
+msgstr "پہلے سے تہہ شدہ پر واپس جائیں"
+
+#: core/admin/admin-notices.php:141
+msgid "Update Elementor Now"
+msgstr "ایلیمینٹر کو ابھی اپڈیٹ کریں"
+
+#: includes/widgets/accordion.php:177 includes/widgets/toggle.php:181
+msgid "Active Icon"
+msgstr "فعال آئکن"
+
+#: modules/history/revisions-manager.php:157
+msgid "Current Version"
+msgstr "موجودہ ورژن"
+
+#: includes/widgets/video.php:389
+msgid "Privacy Mode"
+msgstr "رازداری کا موڈ"
+
+#: includes/widgets/heading.php:117
+msgid "Add Your Heading Text Here"
+msgstr "یہاں آپ کے عنوان کا متن شامل کریں"
+
+#: includes/widgets/video.php:391
+msgid "When you turn on privacy mode, YouTube won't store information about visitors on your website unless they play the video."
+msgstr "جب آپ پرائیویسی موڈ آن کر دیں گے تو یوٹیوب تک تک آپکی ویب سائٹ کے صارفین کی معلومات محفوظ نہیں کرے گا جب تک صارف ویڈیو پلے نا کرے"
+
+#: core/common/modules/finder/template.php:19 assets/js/editor.js:6708
+#: assets/js/kit-library.d3688acfaab28676a99c.bundle.js:1500
+msgid "No Results Found"
+msgstr "کوئی نتیجہ نہیں ملا"
+
+#: includes/editor-templates/templates.php:246 assets/js/app-packages.js:3786
+#: assets/js/app.js:3744
+msgid "Select File"
+msgstr "فائل منتخب کریں"
+
+#: includes/editor-templates/templates.php:245
+msgid "or"
+msgstr "یا"
+
+#: includes/editor-templates/templates.php:243
+msgid "Import Template to Your Library"
+msgstr "ٹیمپلیٹ کو لائبریری میں برآمد کریں"
+
+#: includes/editor-templates/templates.php:234
+#: includes/editor-templates/templates.php:250
+#: includes/editor-templates/templates.php:263 includes/widgets/button.php:141
+#: includes/widgets/button.php:142
+msgid "Click here"
+msgstr "یہاں کلک کریں"
+
+#: includes/editor-templates/templates.php:233
+#: includes/editor-templates/templates.php:249
+#: includes/editor-templates/templates.php:262
+msgid "Want to learn more about the Elementor library?"
+msgstr "ایلیمینٹر لائبریری کے بارے میں مزید جاننا چاہتے ہیں؟"
+
+#: includes/editor-templates/templates.php:121
+msgid "Creation Date"
+msgstr "تخلیق کی تاریخ"
+
+#: includes/editor-templates/templates.php:117
+msgid "Created By"
+msgstr "نے بنایا"
+
+#: includes/editor-templates/templates.php:92
+msgid "My Favorites"
+msgstr "میرے پسندیدہ"
+
+#: includes/editor-templates/templates.php:70
+#: assets/js/kit-library.d3688acfaab28676a99c.bundle.js:3481
+msgid "Popular"
+msgstr "مقبول"
+
+#: includes/editor-templates/templates.php:68
+msgid "Trend"
+msgstr "رجحان"
+
+#: includes/editor-templates/templates.php:66
+#: assets/js/kit-library.d3688acfaab28676a99c.bundle.js:3478
+msgid "New"
+msgstr "نیا"
+
+#: includes/editor-templates/templates.php:10
+#: includes/editor-templates/templates.php:11
+msgid "Import Template"
+msgstr "ٹیمپلیٹ برآمد کریں"
+
+#: includes/editor-templates/hotkeys.php:67
+#: includes/editor-templates/repeater.php:21 assets/js/editor-document.js:12496
+#: assets/js/editor.js:14425 assets/js/editor.js:34099
+msgid "Duplicate"
+msgstr "نقل"
+
+#: includes/editor-templates/panel.php:129
+#: includes/editor-templates/panel.php:130
+msgid "Hide Panel"
+msgstr "پینل چھپائیں"
+
+#: includes/editor-templates/panel.php:119 assets/js/editor-document.js:13838
+#: assets/js/editor.js:16382
+msgid "Save as Template"
+msgstr "بطور ٹیمپلیٹ محفوظ کریں"
+
+#: includes/editor-templates/panel.php:100
+#: includes/editor-templates/panel.php:102
+msgid "Save Options"
+msgstr "اختیارات کو محفوظ کریں"
+
+#: includes/editor-templates/panel.php:95 assets/js/editor.js:12252
+msgid "Publish"
+msgstr "شائع کریں"
+
+#: includes/editor-templates/panel-elements.php:33
+msgid "Search Widget:"
+msgstr "ویجٹ تلاش کریں"
+
+#: core/admin/admin.php:470
+msgid "Blog"
+msgstr "بلاگ"
+
+#: core/admin/admin.php:432
+msgid "News & Updates"
+msgstr "خبریں اور تازہ ترین معلومات"
+
+#: core/admin/admin.php:414
+msgid "Recently Edited"
+msgstr "حال ہی میں ترمیم شدہ"
+
+#: core/admin/admin.php:355
+msgid "Elementor Overview"
+msgstr "ایلیمینٹر کا جائزہ"
+
+#: core/document-types/page-base.php:164
+msgid "Excerpt"
+msgstr "اقتباس"
+
+#. translators: 1: Editing date, 2: Author display name.
+#: core/base/document.php:1262
+msgid "Last edited on %1$s by %2$s"
+msgstr "آخری بار ترمیم کی گئی %1$s برائے %2$s"
+
+#: includes/controls/dimensions.php:142
+msgid "Unlinked values"
+msgstr "غیر منسلک اقدار"
+
+#: includes/editor-templates/repeater.php:14
+msgid "Drag & Drop"
+msgstr "ڈریگ اور ڈراپ"
+
+#. translators: 1: Saving date, 2: Author display name.
+#: core/base/document.php:1259
+msgid "Draft saved on %1$s by %2$s"
+msgstr "%1$s پرمسودہ محفوظ کیا گیا برائے %2$s"
+
+#: core/base/document.php:1254
+msgctxt "revision date format"
+msgid "M j, H:i"
+msgstr "M j, H:i"
+
+#. translators: %s: Document title.
+#: core/base/document.php:146
+msgid "Hurray! Your %s is live."
+msgstr "آہا! آپکی %s اب لائیو ہے"
+
+#: includes/editor-templates/templates.php:244
+msgid "Drag & drop your .JSON or .zip template file"
+msgstr "اپنی .JSON یا .zip ٹیمپلیٹ فائل یہاں گسیٹیں"
+
+#: includes/controls/groups/typography.php:179
+msgctxt "Typography Control"
+msgid "Line Through"
+msgstr "اندر سے گزری ہوئی لائین"
+
+#: includes/controls/groups/typography.php:178
+msgctxt "Typography Control"
+msgid "Overline"
+msgstr "اوپر سے گزری ہوئی لائین"
+
+#: includes/controls/groups/typography.php:177
+msgctxt "Typography Control"
+msgid "Underline"
+msgstr "خط کشیدہ"
+
+#: includes/controls/groups/typography.php:172
+msgctxt "Typography Control"
+msgid "Decoration"
+msgstr "سجاوٹ"
+
+#: core/admin/admin.php:421
+msgctxt "Dashboard Overview Widget Recently Date"
+msgid "M jS"
+msgstr "M jS"
+
+#: core/admin/admin.php:451
+msgid "(opens in a new window)"
+msgstr "(یہ لنک نئی ونڈو میں کھلتا ہے)"
+
+#: core/kits/views/panel.php:38 includes/controls/icons.php:82
+#: includes/controls/media.php:217 includes/controls/media.php:263
+#: includes/editor-templates/repeater.php:27
+#: assets/js/kit-library.d3688acfaab28676a99c.bundle.js:710
+msgid "Remove"
+msgstr "حذف کریں"
+
+#: includes/editor-templates/panel.php:115
+msgid "Save Draft"
+msgstr "ڈرافٹ محفوظ کریں"
+
+#: core/admin/admin-notices.php:529 assets/js/app-packages.js:8875
+#: assets/js/app.js:8187
+msgid "Dismiss"
+msgstr "برخاست کریں"
+
+#: includes/editor-templates/templates.php:101
+msgid "Search"
+msgstr "تلاش"
+
+#: core/kits/documents/kit.php:169
+msgid "Published"
+msgstr "شائع کر دی گئی"
+
+#: core/admin/admin.php:383
+msgid "Create New Page"
+msgstr "نیا صفہ بنایں"
+
+#: includes/editor-templates/panel.php:83
+#: includes/editor-templates/panel.php:86
+msgid "Preview Changes"
+msgstr "تبدیلوں کا پیش منظر "
+
+#: includes/template-library/sources/local.php:464
+#: includes/template-library/sources/local.php:543
+#: includes/template-library/sources/local.php:685
+#: modules/history/revisions-manager.php:264
+msgid "Access denied."
+msgstr "رسائی مسترد کر دی"
+
+#: includes/settings/settings.php:465
+msgid "Disable Default Fonts"
+msgstr "پہلے سے طے شدہ فانٹ کو غیر فعال کریں"
+
+#: includes/elements/column.php:218 includes/widgets/accordion.php:380
+#: includes/widgets/common.php:805 includes/widgets/image-carousel.php:537
+#: includes/widgets/tabs.php:179 includes/widgets/tabs.php:209
+#: includes/widgets/toggle.php:407
+msgid "End"
+msgstr "اختتام"
+
+#: includes/elements/column.php:216 includes/widgets/accordion.php:376
+#: includes/widgets/common.php:797 includes/widgets/image-carousel.php:529
+#: includes/widgets/tabs.php:171 includes/widgets/tabs.php:201
+#: includes/widgets/toggle.php:403
+msgid "Start"
+msgstr "آغاز"
+
+#: core/debug/classes/inspection-base.php:25
+#: core/debug/loading-inspection-manager.php:37
+msgid "The preview could not be loaded"
+msgstr "پیش منظر لوڈ نہیں ہو سکا"
+
+#: core/debug/loading-inspection-manager.php:36
+msgid "We're sorry, but something went wrong. Click on 'Learn more' and follow each of the steps to quickly solve it."
+msgstr "ہم معذرت خواہ ہیں، لیکن کوئی مسلہ درپیش ہے۔ اسے جلدی حل کرنے کے لیے 'مزید جانیے' کے بٹن پہ کلک کر کے تمام مراحل پر عمل کریں"
+
+#: core/admin/admin-notices.php:145 core/admin/admin-notices.php:180
+msgid "Update Notification"
+msgstr "اپ ڈیٹ نوٹیفکیشن"
+
+#. Plugin URI of the plugin
+msgid "https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+
+#. Author URI of the plugin
+msgid "https://elementor.com/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#: includes/editor-templates/hotkeys.php:14
+#: includes/editor-templates/templates.php:124
+#: modules/history/views/history-panel-template.php:9 assets/js/editor.js:33785
+msgid "Actions"
+msgstr "عوامل"
+
+#: includes/editor-templates/hotkeys.php:117
+#: includes/editor-templates/panel.php:73
+#: includes/editor-templates/panel.php:75 assets/js/editor.js:34472
+msgid "History"
+msgstr "سرگزشت"
+
+#: modules/history/views/history-panel-template.php:17
+msgid "Switch to Revisions tab for older versions"
+msgstr "پرانے ورژن دیکھنے کے لیے اصلاحات کی ٹیب پر منتقل ہوں"
+
+#: modules/history/views/history-panel-template.php:24
+msgid "No History Yet"
+msgstr "ابھی تک کوئی ہسٹری موجود نہیں"
+
+#: core/kits/documents/tabs/settings-lightbox.php:152
+#: includes/widgets/video.php:761
+msgid "UI Hover Color"
+msgstr "UI ہوور کا رنگ"
+
+#: core/kits/documents/tabs/settings-lightbox.php:141
+#: includes/widgets/video.php:750
+msgid "UI Color"
+msgstr "UI کا رنگ"
+
+#: modules/history/views/history-panel-template.php:25
+msgid "Once you start working, you'll be able to redo / undo any action you make in the editor."
+msgstr "ایک بار جب آپ کام شروع کر دیں تو ایڈیٹر میں کی گئی کسی بھی کاروائی کو آپ دہرا سکتے ہیں یا واپس لا سکتے ہیں"
+
+#: modules/history/views/history-panel-template.php:10
+#: modules/history/views/revisions-panel-template.php:26
+#: assets/js/editor.js:33788
+msgid "Revisions"
+msgstr "نظرثانیاں"
+
+#: includes/widgets/video.php:711
+msgctxt "Text Shadow Control"
+msgid "Shadow"
+msgstr "سایہ"
+
+#: includes/controls/groups/text-shadow.php:61
+#: includes/controls/groups/text-shadow.php:85
+msgctxt "Text Shadow Control"
+msgid "Text Shadow"
+msgstr "الفاظ کا سایہ"
+
+#: core/kits/documents/tabs/settings-lightbox.php:45
+msgid "Image Lightbox"
+msgstr "تصویر کا لائٹ باکس"
+
+#: includes/template-library/sources/local.php:912
+msgid "Choose an Elementor template JSON file or a .zip archive of Elementor templates, and add them to the list of templates available in your library."
+msgstr "ایلیمینٹر ٹیمپلیٹ کی JSON فائل منتخب کریں یا ایلیمینٹر ٹیمپلیٹس کے آرکائیو کی ZIP فائل منتخب کریں اور انہیں اپنی لائبریری میں موجود ٹیمپلیٹس کی فہرست میں شامل کریں"
+
+#: core/kits/documents/tabs/settings-lightbox.php:48
+msgid "Open all image links in a lightbox popup window. The lightbox will automatically work on any link that leads to an image file."
+msgstr "تمام تصاویر کے لنکس ایک لائٹ باکس کی پاپ اپ ونڈو میں کھولیں. کسی بھی تصویر کی فائل کی طرف جانے والے لنک پے لائٹ باکس پاپ-اپ خود کار طریقے سے کام کرے گا"
+
+#: includes/widgets/video.php:311
+msgid "Mute"
+msgstr "خاموش کریں"
+
+#: includes/settings/settings.php:505
+msgid "Integrations"
+msgstr "انضمام"
+
+#: includes/settings/tools.php:333
+msgid "Rollback Version"
+msgstr "پرانے ورژن پے جائیں"
+
+#: includes/elements/column.php:850 includes/elements/section.php:1293
+#: includes/widgets/common.php:296
+msgid "Animation Delay"
+msgstr "حرکت پذیری تاخیر"
+
+#: includes/controls/url.php:106
+msgid "Open in new window"
+msgstr "نئی ونڈو میں کھولیں"
+
+#: includes/controls/url.php:99
+msgid "Link Options"
+msgstr "لنک کے اختیارات"
+
+#: includes/controls/groups/box-shadow.php:69
+msgctxt "Box Shadow Control"
+msgid "Position"
+msgstr "مقام"
+
+#: core/common/modules/finder/categories/tools.php:67
+#: includes/settings/tools.php:317
+msgid "Version Control"
+msgstr "ورژن کا اختیار"
+
+#: includes/rollback.php:165 includes/settings/tools.php:156
+#: includes/settings/tools.php:320 assets/js/admin.js:5354
+msgid "Rollback to Previous Version"
+msgstr "پرانے ورژن پہ واپس جائیں"
+
+#: core/kits/documents/tabs/settings-layout.php:83
+#: includes/elements/column.php:234
+msgid "Widgets Space"
+msgstr "ویجٹس کا درمیانی خلا"
+
+#: core/kits/documents/tabs/theme-style-form-fields.php:139
+#: core/kits/documents/tabs/theme-style-images.php:203
+#: includes/controls/groups/background.php:700 includes/elements/column.php:321
+#: includes/elements/column.php:477 includes/elements/column.php:584
+#: includes/elements/section.php:600 includes/elements/section.php:783
+#: includes/elements/section.php:889 includes/widgets/common.php:356
+#: includes/widgets/common.php:463 includes/widgets/google-maps.php:239
+#: includes/widgets/image-box.php:330 includes/widgets/image.php:453
+#: modules/shapes/widgets/text-path.php:445
+#: modules/shapes/widgets/text-path.php:619
+msgid "Transition Duration"
+msgstr "منتقلی کی مدت"
+
+#: core/kits/documents/tabs/settings-layout.php:95
+msgid "Sets the default space between widgets (Default: 20)"
+msgstr "ویجٹس کے درمیان پہلےسے طے شدہ خلا کا تعین کریں (پہلے سے طے شدہ: 20 )"
+
+#: includes/controls/url.php:110
+msgid "Add nofollow"
+msgstr "نوفالو شامل کریں"
+
+#: includes/controls/groups/box-shadow.php:72
+msgctxt "Box Shadow Control"
+msgid "Outline"
+msgstr "آؤٹ لائن"
+
+#: includes/settings/tools.php:369
+msgid "Please Note: We do not recommend updating to a beta version on production sites."
+msgstr "نوٹ فرمائیں: ہم پروڈکشن سائٹس پر بیٹا ورژن کو اپ ڈیٹ کرنے کی سفارش نہیں کرتے ہیں."
+
+#: includes/settings/tools.php:361
+msgid "Beta Tester"
+msgstr "بیٹا ورژن آزمانے والا"
+
+#: includes/settings/tools.php:347
+msgid "Become a Beta Tester"
+msgstr "بیٹا ٹیسٹر بنیں"
+
+#: includes/settings/tools.php:341
+msgid "Warning: Please backup your database before making the rollback."
+msgstr "انتباہ: رول بیک کرنے سے پہلے اپنے ڈیٹا بیس کا بیک اپ لیں"
+
+#: includes/elements/column.php:751 includes/elements/section.php:1214
+#: includes/widgets/common.php:217
+msgid "Z-Index"
+msgstr "زی-انڈیکس"
+
+#: includes/settings/settings.php:548
+msgid "Switch Editor Loader Method"
+msgstr "ایڈیٹر کے لوڈر کا طریقہ تبدیل کریں"
+
+#. translators: %s: Elementor version.
+#: includes/settings/tools.php:324
+msgid "Experiencing an issue with Elementor version %s? Rollback to a previous version before the issue appeared."
+msgstr "ایلیمینٹر کے ورژن %s کے ساتھ کوئی مسلہ درپیش ہے؟ کسی ایسے ورژن پہ واپس جائیں جس پہ یہ مسلہ درپیش نہیں تھا"
+
+#. translators: %s: WordPress version.
+#: elementor.php:97
+msgid "Elementor requires WordPress version %s+. Because you are using an earlier version, the plugin is currently NOT RUNNING."
+msgstr "Elementor کو WordPress کا ورژن %s+ درکار ہے۔ کیونکہ آپ پرانا ورژن استعمال کر رہے ہیں اس لیے پلگ ان غیر فعال ہے۔"
+
+#: includes/settings/settings.php:541
+msgid "External File"
+msgstr "بیرونی فائل"
+
+#: includes/settings/settings.php:535
+msgid "CSS Print Method"
+msgstr "CSS پرنٹ کا طریقہ"
+
+#: includes/settings/settings.php:542
+msgid "Internal Embedding"
+msgstr "اندرونی سرایت"
+
+#: includes/settings/settings.php:544
+msgid "Use internal CSS that is embedded in the head of the page. For troubleshooting server configuration conflicts and managing development environments."
+msgstr "اندرونی CSS استعمال کریں جو صفحہ کے ہیڈ سیکشن میں امبیڈ ہو۔  سرور کی ترتیبات میں موجود مسائل کے حل کے لئے اور ڈویلپمینٹ کے ماحول کو مینیج کرنے کے لئے"
+
+#: includes/settings/settings.php:544
+msgid "Use external CSS files for all generated stylesheets. Choose this setting for better performance (recommended)."
+msgstr "تمام تخلیق شدہ سٹائل شیٹ کے لئے بیرونی CSS فائلیں استعمال کریں۔ بہتر کارکاردگی کے لئے یہ ترتیب منتخب کریں (سفارش)"
+
+#: core/debug/inspector.php:55 includes/settings/settings.php:554
+#: includes/settings/settings.php:566 includes/settings/tools.php:367
+#: modules/safe-mode/module.php:48 assets/js/editor.js:22550
+msgid "Enable"
+msgstr "فعال کریں"
+
+#: includes/settings/settings.php:556
+msgid "For troubleshooting server configuration conflicts."
+msgstr "سرور کی ترتیبات میں موجود مسائل کے حل کے لئے"
+
+#: core/base/document.php:1555
+msgid "Status"
+msgstr "اسٹیٹس"
+
+#: core/debug/inspector.php:54 includes/settings/settings.php:553
+#: includes/settings/settings.php:565 includes/settings/tools.php:366
+#: modules/safe-mode/module.php:47
+msgid "Disable"
+msgstr "غیر فعال"
+
+#: includes/widgets/common.php:717 includes/widgets/spacer.php:108
+#: includes/widgets/text-editor.php:338
+msgid "Space"
+msgstr "خلاء"
+
+#: includes/admin-templates/new-template.php:69
+#: includes/settings/controls.php:155
+msgid "Select"
+msgstr "منتخب کریں"
+
+#: core/document-types/page-base.php:87
+msgid "Hide Title"
+msgstr "عنوان چھپائیں"
+
+#: includes/maintenance-mode.php:251
+msgid "Choose Template"
+msgstr "ٹیمپلیٹ منتخب کریں"
+
+#: includes/maintenance-mode.php:292 includes/maintenance-mode.php:369
+#: assets/js/app-packages.js:8532 assets/js/app.js:7844
+msgid "Edit Template"
+msgstr "ٹیمپلیٹ میں ترمیم کریں"
+
+#: includes/maintenance-mode.php:243
+msgid "Roles"
+msgstr "کردار"
+
+#: includes/maintenance-mode.php:237
+msgid "Logged In"
+msgstr "لاگ ان ہو گئے"
+
+#: includes/maintenance-mode.php:231
+msgid "Who Can Access"
+msgstr "کون رسائی حاصل کر سکتا ہے"
+
+#: includes/maintenance-mode.php:216
+msgid "Coming Soon"
+msgstr "جلد آ رہا ہے"
+
+#: core/common/modules/finder/categories/tools.php:58
+#: includes/maintenance-mode.php:201 includes/maintenance-mode.php:205
+msgid "Maintenance Mode"
+msgstr "مرمت کی حالت میں"
+
+#: includes/maintenance-mode.php:217
+msgid "Maintenance"
+msgstr "مرمت"
+
+#: core/kits/documents/kit.php:168 includes/maintenance-mode.php:215
+#: assets/js/editor.js:34098
+msgid "Disabled"
+msgstr "غیر فعال"
+
+#: includes/maintenance-mode.php:210
+msgid "Choose Mode"
+msgstr "موڈ کا انتخاب کریں"
+
+#: includes/maintenance-mode.php:283
+msgid "Maintenance Mode ON"
+msgstr "مرمت کی حالت میں"
+
+#: core/kits/documents/tabs/settings-layout.php:105
+msgid "Page Title Selector"
+msgstr "صفحہ کے عنوان کا انتخاب کنندہ"
+
+#: includes/widgets/text-editor.php:120 includes/widgets/text-editor.php:252
+msgid "Drop Cap"
+msgstr "ڈراپ کیپ"
+
+#: includes/maintenance-mode.php:370
+msgid "To enable maintenance mode you have to set a template for the maintenance mode page."
+msgstr "بحالی کے موڈ کو فعال کرنے کے لئے آپ کو بحالی موڈ کے صفحے کے لئے ایک ٹیمپلیٹ مقرر کرنا ہوگا."
+
+#: includes/maintenance-mode.php:226
+msgid "Coming Soon returns HTTP 200 code, meaning the site is ready to be indexed."
+msgstr "کمنگ سون کا پیج HTTP 200 کوڈ بھیج رہا ہے، جس کا مطلب یہ ہے کے سائٹ انڈیکس ہونے کے لئیے تیار ہے"
+
+#: core/kits/documents/tabs/settings-layout.php:109
+msgid "Elementor lets you hide the page title. This works for themes that have \"h1.entry-title\" selector. If your theme's selector is different, please enter it above."
+msgstr "ایلیمینٹر آپکو صفحہ کا عنوان ہٹانے کا اختیار دیتا ہے۔ یہ ان تھیمز میں کام کرتا ہے جین میں 'h1.entry-title' کا سلیکٹر موجود ہو۔ اگر آپکی تھیم کا سلیکٹر مختلف ہے تو اسے یہاں درج کریں"
+
+#: includes/maintenance-mode.php:223
+msgid "Maintenance Mode returns HTTP 503 code, so search engines know to come back a short time later. It is not recommended to use this mode for more than a couple of days."
+msgstr "بحالی کا موڈ HTTP 503 کوڈ واپس بھیجتا ہے اس لئے سرچ انجن کو پتہ ہوتا ہے کہ کچھ عرصہ بعد واپس لوٹنا ہے۔ ہم چند دنوں سے زیادہ اس موڈ کو استعمال کرنے کی سفارش نہیں کرتے۔"
+
+#: includes/maintenance-mode.php:220
+msgid "Choose between Coming Soon mode (returning HTTP 200 code) or Maintenance Mode (returning HTTP 503 code)."
+msgstr "جلد آرہا ہے موڈ ( یہ HTTP 200 کوڈ واپس بھیجتا ہے ) اور بحالی کے موڈ ( یہ HTTP 503 کوڈ واپس بھیجتا ہے ) میں سے کسی ایک کا انتخاب کریں۔ "
+
+#: includes/maintenance-mode.php:206
+msgid "Set your entire website as MAINTENANCE MODE, meaning the site is offline temporarily for maintenance, or set it as COMING SOON mode, meaning the site is offline until it is ready to be launched."
+msgstr "اپنی پوری ویب سائٹ پر بحالی کا موڈ لگائیں جس کا مطلب یہ ہے کے سائٹ پر کچھ کام چل رہا ہے جسکی وجہ سے سائٹ عارضی طور پر بند ہے۔ یا اسے جلد آرہا ہے کے موڈ پر لگائیں جس کا مطلب ہے کہ سائٹ ابھی تیار کی جا رہی ہے اور تب تک بند رہے گی جب تک مکمل نہ ہو جائے"
+
+#: core/common/modules/finder/categories/edit.php:113
+#: assets/js/editor-document.js:1838 assets/js/editor-document.js:3648
+msgid "Template"
+msgstr "ٹیپملیٹ "
+
+#: includes/elements/section.php:1064
+msgid "Bring to Front"
+msgstr "سامنے لاؤ"
+
+#: includes/elements/column.php:191 includes/elements/column.php:219
+#: includes/elements/section.php:452 includes/widgets/icon-list.php:217
+#: includes/widgets/toggle.php:279
+msgid "Space Between"
+msgstr "درمیانی خلاء"
+
+#: includes/widgets/icon-list.php:209
+msgid "List"
+msgstr "فہرست"
+
+#: includes/shapes.php:209
+msgctxt "Shapes"
+msgid "Book"
+msgstr "کتاب"
+
+#: includes/shapes.php:205
+msgctxt "Shapes"
+msgid "Split"
+msgstr "تقسیم"
+
+#: includes/shapes.php:201
+msgctxt "Shapes"
+msgid "Arrow"
+msgstr "تیر"
+
+#: includes/shapes.php:197
+msgctxt "Shapes"
+msgid "Waves Pattern"
+msgstr "لہروں کا پیٹرن"
+
+#: includes/shapes.php:188
+msgctxt "Shapes"
+msgid "Waves"
+msgstr "لہریں"
+
+#: includes/shapes.php:179
+msgctxt "Shapes"
+msgid "Curve"
+msgstr "منحنی"
+
+#: includes/shapes.php:167
+msgctxt "Shapes"
+msgid "Tilt"
+msgstr "جھکاؤ"
+
+#: includes/shapes.php:158
+msgctxt "Shapes"
+msgid "Triangle"
+msgstr "مثلث"
+
+#: includes/shapes.php:153
+msgctxt "Shapes"
+msgid "Pyramids"
+msgstr "اہرام"
+
+#: includes/shapes.php:144
+msgctxt "Shapes"
+msgid "Clouds"
+msgstr "بادل"
+
+#: includes/shapes.php:138
+msgctxt "Shapes"
+msgid "Drops"
+msgstr "قطرے"
+
+#: includes/shapes.php:134
+msgctxt "Shapes"
+msgid "Mountains"
+msgstr "پہاڑ"
+
+#: includes/elements/section.php:1037
+msgid "Flip"
+msgstr "پلٹائیں"
+
+#: includes/elements/section.php:1051
+msgid "Invert"
+msgstr "الٹائیں"
+
+#: includes/shapes.php:172
+msgctxt "Shapes"
+msgid "Tilt Opacity"
+msgstr "عنوان کا دھندلاپن"
+
+#: includes/elements/section.php:933
+msgid "Shape Divider"
+msgstr "شکلی تقسیم"
+
+#: core/kits/documents/tabs/settings-lightbox.php:18
+#: includes/widgets/image-carousel.php:207
+#: includes/widgets/image-gallery.php:142 includes/widgets/image.php:219
+#: includes/widgets/video.php:605 includes/widgets/video.php:726
+msgid "Lightbox"
+msgstr "لائٹ باکس"
+
+#: includes/shapes.php:193
+msgctxt "Shapes"
+msgid "Waves Brush"
+msgstr "لہروں والا برش"
+
+#: includes/shapes.php:150
+msgctxt "Shapes"
+msgid "Zigzag"
+msgstr "پر پیچ دار"
+
+#: includes/shapes.php:176
+msgctxt "Shapes"
+msgid "Fan Opacity"
+msgstr "فین کا دھندلاپن"
+
+#: includes/shapes.php:162
+msgctxt "Shapes"
+msgid "Triangle Asymmetrical"
+msgstr "مثلث غیر متناسب"
+
+#: includes/shapes.php:183
+msgctxt "Shapes"
+msgid "Curve Asymmetrical"
+msgstr "منحنی غیر متناسب"
+
+#: includes/widgets/tabs.php:237
+msgid "Navigation Width"
+msgstr "نیویگیشن کی چوڑائی"
+
+#: includes/elements/column.php:763 includes/elements/section.php:1226
+#: includes/widgets/common.php:230
+msgid "CSS ID"
+msgstr "CSS ID"
+
+#: core/kits/documents/tabs/theme-style-buttons.php:167
+#: core/kits/documents/tabs/theme-style-images.php:134
+#: core/kits/documents/tabs/theme-style-typography.php:156
+#: includes/elements/column.php:306 includes/elements/column.php:431
+#: includes/elements/column.php:549 includes/elements/section.php:585
+#: includes/elements/section.php:737 includes/elements/section.php:854
+#: includes/widgets/button.php:350 includes/widgets/common.php:341
+#: includes/widgets/common.php:428 includes/widgets/google-maps.php:224
+#: includes/widgets/icon-box.php:302 includes/widgets/icon-list.php:412
+#: includes/widgets/icon-list.php:505 includes/widgets/icon.php:248
+#: includes/widgets/image-box.php:351 includes/widgets/image.php:420
+#: modules/shapes/widgets/text-path.php:418
+#: modules/shapes/widgets/text-path.php:558
+msgid "Hover"
+msgstr "منڈلانا"
+
+#: includes/elements/column.php:769 includes/elements/section.php:1232
+#: includes/widgets/button.php:262 includes/widgets/common.php:236
+msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
+msgstr "پاؤنڈ کلیدی کے بنا اپنی مرضی کی آئی ڈی شامل کریں۔ مثال کے طور پر: my-id"
+
+#: includes/controls/groups/background.php:202
+msgctxt "Background Control"
+msgid "Angle"
+msgstr "زاویہ"
+
+#: includes/controls/groups/background.php:161
+msgctxt "Background Control"
+msgid "Second Color"
+msgstr "دوسرا رنگ"
+
+#: includes/controls/groups/background.php:187
+msgctxt "Background Control"
+msgid "Type"
+msgstr "قسم"
+
+#: includes/controls/groups/background.php:146
+#: includes/controls/groups/background.php:172
+msgctxt "Background Control"
+msgid "Location"
+msgstr "مقام"
+
+#: includes/controls/groups/background.php:99
+msgctxt "Background Control"
+msgid "Gradient"
+msgstr "درجہ بدرجہ"
+
+#: includes/controls/groups/background.php:190
+msgctxt "Background Control"
+msgid "Linear"
+msgstr "سیدھے خط کا"
+
+#: includes/controls/groups/background.php:191
+msgctxt "Background Control"
+msgid "Radial"
+msgstr "نصف قطری"
+
+#: core/admin/admin.php:304
+msgid "View Elementor Documentation"
+msgstr "ایلیمینٹر کی دستاویزات دیکھیں"
+
+#: core/admin/admin.php:305
+msgid "Video Tutorials"
+msgstr "ویڈیو سبق"
+
+#: core/admin/admin.php:305
+msgid "View Elementor Video Tutorials"
+msgstr "ایلیمینٹر کے ویڈیو سبق دیکھیں"
+
+#: core/admin/admin.php:304
+msgid "Docs & FAQs"
+msgstr "دستاویزات اور سوالات"
+
+#: includes/settings/settings.php:469
+msgid "Checking this box will disable Elementor's Default Fonts, and make Elementor inherit the fonts from your theme."
+msgstr "اس باکس کو ٹِک کر دینے سے ایلیمینٹر کے پہلے سے طے شدہ فانٹ غیر فعال ہو جائیں گے، اور ایلیمینٹر آپکی تھیم میں طے شدہ فانٹ استعمال کرے گا"
+
+#: includes/settings/settings.php:461
+msgid "Checking this box will disable Elementor's Default Colors, and make Elementor inherit the colors from your theme."
+msgstr "اس باکس کو ٹِک کر دینے سے ایلیمینٹر کے پہلے سے طے شدہ رنگ غیر فعال ہو جائیں گے، اور ایلیمینٹر آپکی تھیم میں طے شدہ رنگ استعمال کرے گا"
+
+#: core/common/modules/finder/categories/tools.php:52
+#: includes/settings/tools.php:288 includes/settings/tools.php:299
+#: includes/settings/tools.php:307
+msgid "Replace URL"
+msgstr "URL کو تبدیل کریں"
+
+#: modules/history/revisions-manager.php:160
+msgid "Autosave"
+msgstr "خودکار محفوظ سازی"
+
+#: modules/history/views/revisions-panel-template.php:63
+msgid "By"
+msgstr "منجانب"
+
+#: modules/history/views/revisions-panel-template.php:36
+msgid "It looks like the post revision feature is unavailable in your website."
+msgstr "آپکی ویب سائٹ میں پوسٹ پر نظر ثانی کی خصوصیت موجود نہیں"
+
+#: modules/history/views/revisions-panel-template.php:47
+msgid "No Revisions Saved Yet"
+msgstr "ابھی تک کوئی اصلاحات محفوظ نہیں کی گئیں"
+
+#: includes/settings/tools.php:304
+msgid "Update Site Address (URL)"
+msgstr "ویب سائٹ کا ایڈریس اپ ڈیٹ کریں (URL)"
+
+#: includes/utils.php:185
+msgid "The `from` and `to` URL's must be different"
+msgstr "'براے' اور 'منجانب' کے URL کا مختلف ہونا ضروری ہے"
+
+#: modules/history/revisions-manager.php:151
+msgctxt "revision date format"
+msgid "M j @ H:i"
+msgstr "M j @ H:i"
+
+#: modules/history/views/revisions-panel-template.php:34
+msgid "Revision history lets you save your previous versions of your work, and restore them any time."
+msgstr "اصلاحات کی سرگزشت آپکو اس بات کی اجازت دیتی ہے کہ آپ اپنا تمام پچھلا کام محفوظ کر سکیں، اور جب چاہیں اسے بحال کریں"
+
+#: includes/settings/tools.php:308
+msgid "Enter your old and new URLs for your WordPress installation, to update all Elementor data (Relevant for domain transfers or move to 'HTTPS')."
+msgstr "ایلیمینٹر کا تمام مواد اپڈیٹ کرنے کے لئے، اپنی ورڈپریس انسٹالیشن کے نئے اور پرانے درج کریں۔ (اگر ڈومین ٹرانسفر کر رہے ہیں یا HTTPS پر منتقل ہو رہے ہیں)"
+
+#. translators: 1: Minimum recommended_memory, 2: WordPress wp-config memory
+#. documentation.
+#: modules/system-info/reporters/wordpress.php:89
+msgctxt "System Info"
+msgid "We recommend setting memory to at least %1$s. For more information, read about <a href=\"%2$s\">how to Increase memory allocated to PHP</a>."
+msgstr "We recommend setting memory to at least %1$s. For more information, read about <a href=\"%2$s\">how to Increase memory allocated to PHP</a>."
+
+#. translators: 1: Human readable time difference, 2: Date.
+#: modules/history/revisions-manager.php:179
+msgid "%1$s ago (%2$s)"
+msgstr "%1$s پہلے (%2$s)"
+
+#: modules/history/revisions-manager.php:163
+msgid "Revision"
+msgstr "نظرثانی"
+
+#. translators: %s: WordPress backups documentation.
+#: includes/settings/tools.php:294
+msgid "<strong>Important:</strong> It is strongly recommended that you <a target=\"_blank\" href=\"%s\">backup your database</a> before using Replace URL."
+msgstr "<strong>اہم:</strong> یہ تاکید کی جاتی ہے کہ یوآرایل تبدیل کرنے سے پہلے آپ <a target=\"_blank\" href=\"%s\">اپنے ڈیٹابیس کا بیک اپ لیں</a>۔"
+
+#: includes/utils.php:190
+msgid "The `from` and `to` URL's must be valid URL's"
+msgstr "'from' اور 'to'  کا ایک درست یوآرایل ہونا ضروری ہے"
+
+#: includes/widgets/counter.php:170
+msgid "Thousand Separator"
+msgstr "ہزار فاصل"
+
+#: includes/controls/groups/background.php:272
+#: includes/controls/groups/background.php:431
+#: includes/controls/groups/background.php:462
+#: includes/controls/groups/background.php:483
+msgctxt "Background Control"
+msgid "Default"
+msgstr "پہلے سے طے شدہ"
+
+#: includes/editor-templates/panel-elements.php:11
+#: assets/js/editor-document.js:4949 assets/js/editor.js:19954
+msgid "Global"
+msgstr "گلوبل"
+
+#: includes/widgets/common.php:497 includes/widgets/icon-list.php:264
+#: includes/widgets/text-editor.php:123 includes/widgets/video.php:609
+#: modules/shapes/widgets/text-path.php:202
+msgid "On"
+msgstr "آن"
+
+#: includes/widgets/common.php:498 includes/widgets/icon-list.php:263
+#: includes/widgets/text-editor.php:122 includes/widgets/video.php:608
+#: modules/shapes/widgets/text-path.php:203
+msgid "Off"
+msgstr "آف"
+
+#: includes/editor-templates/panel-elements.php:22
+msgid "Get more with Elementor Pro"
+msgstr "ایلیمینٹرپرو کے ساتھ مزید خصوصیات حاصل کریں"
+
+#: includes/editor-templates/panel-elements.php:55
+msgid "Meet Our Global Widget"
+msgstr "ملیے ہمارے عالمی ویجٹ سے"
+
+#: includes/editor-templates/panel-elements.php:56
+msgid "With this feature, you can save a widget as global, then add it to multiple areas. All areas will be editable from one single place."
+msgstr "اس خصوصیت کے ساتھ آپ ویجٹ کو عالمی طور پر محفوظ کر سکتے ہیں اور مختلف جگہوں پر استعمال کر سکتے ہیں۔ تمام جگہوں پر لگائے گئے ویجٹ میں ایک ہی صفحہ سے ترمیم کی جا سکے گی"
+
+#: core/admin/admin.php:279 core/admin/admin.php:481
+#: core/editor/notice-bar.php:29 core/role-manager/role-manager.php:170
+#: includes/editor-templates/panel-elements.php:23
+#: includes/editor-templates/panel-elements.php:57
+#: includes/managers/controls.php:976 includes/settings/settings.php:165
+#: includes/settings/settings.php:304 includes/settings/settings.php:326
+#: includes/settings/settings.php:348 includes/settings/settings.php:369
+#: assets/js/app-packages.js:3571 assets/js/app-packages.js:10613
+#: assets/js/app-packages.js:10903 assets/js/app-packages.js:10938
+#: assets/js/app.js:3529 assets/js/editor.js:4214
+msgid "Go Pro"
+msgstr "گو پرو"
+
+#: includes/managers/controls.php:896
+msgid "Custom CSS lets you add CSS code to any widget, and see it render live right in the editor."
+msgstr "کسٹم CSS کی خصوصیت آپکو اس بات کی اجازت دیتی ہے کے آپ کسی بھی ویجٹ پر اپنا CSS کوڈ شامل کر سکیں اور اسے ایڈیٹر میں تبدیل ہوتا براہ راست دیکھیں"
+
+#: includes/managers/controls.php:908
+msgid "Meet Our Custom CSS"
+msgstr "ملیے ہماری کسٹم CSS کی خصوصیت سے"
+
+#: core/kits/documents/tabs/settings-custom-css.php:17
+#: includes/managers/controls.php:890
+msgid "Custom CSS"
+msgstr "مرضی کے مطابق CSS "
+
+#: includes/widgets/button.php:96
+msgid "Extra Large"
+msgstr "اضافی بڑا"
+
+#: includes/widgets/button.php:92
+msgid "Extra Small"
+msgstr "اضافی چھوٹا"
+
+#: includes/settings/settings.php:475
+msgid "Improve Elementor"
+msgstr "ایلیمینٹر کو بہتر بنائیں"
+
+#: includes/base/widget-base.php:280 includes/base/widget-base.php:289
+msgid "Skin"
+msgstr "سکن"
+
+#: includes/frontend.php:1111
+msgid "Invalid Data: The Template ID cannot be the same as the currently edited template. Please choose a different one."
+msgstr "غلط مواد: اس وقت ترمیم کی جارہی ٹیمپلیٹ کی آئی ڈی اور کسی اور ٹیمپلیٹ کی آئی ڈی یکساں نہیں ہو سکتی۔ براہ مہربانی کوئی اور آئی ڈی منتخب کریں۔"
+
+#: includes/editor-templates/panel.php:149
+msgid "Update changes to page"
+msgstr "صفحے پر تبدیلیاں اپ ڈیٹ کریں"
+
+#: includes/editor-templates/panel.php:168
+msgid "%s are disabled"
+msgstr "%s غیر فعال ہیں"
+
+#: core/admin/admin-notices.php:240
+msgid "No thanks"
+msgstr "نہیں شکریہ"
+
+#: includes/elements/section.php:488
+msgid "Stretch Section"
+msgstr "سیکشن کو کھینچیں"
+
+#: core/kits/documents/tabs/settings-layout.php:121
+msgid "Stretched Section Fit To"
+msgstr "کھنچا ہوا سیکشن فٹ کرنے کے لیے"
+
+#: core/kits/documents/tabs/settings-layout.php:73
+msgid "Sets the default width of the content area (Default: 1140)"
+msgstr "مواد کے حصے کے لیے پہلے سے طے شدہ چوڑائی سیٹ کرتا ہے ( پہلے سے طے شدہ: 1140)"
+
+#: includes/elements/section.php:494
+msgid "Stretch the section to the full width of the page using JS."
+msgstr "کو استعمال کرتے ہوئے سیکشن کی چوڑائی کو صفحہ کی مکمل چوڑائی تک کھینچیں"
+
+#: core/kits/documents/tabs/settings-layout.php:124
+msgid "Enter parent element selector to which stretched sections will fit to (e.g. #primary / .wrapper / main etc). Leave blank to fit to page width."
+msgstr "اس پیرنٹ عنصر کا سلیکٹر درج کریں جس تک اس کے اندر موجود کھینچے گئے حصے پھیلیں ( e.g. #primary / .wrapper / main etc ) ۔ صفحہ کی چورائی تک پھیلانے کے لئے اسے خالی چھوڑ دیں۔"
+
+#: core/admin/admin-notices.php:229 includes/elements/section.php:494
+#: includes/settings/settings-page.php:374
+msgid "Learn more."
+msgstr "مزید جانیں"
+
+#: core/breakpoints/manager.php:288
+#: core/settings/editor-preferences/model.php:133
+#: includes/elements/section.php:1331
+#: assets/js/kit-library.d3688acfaab28676a99c.bundle.js:4142
+msgid "Mobile"
+msgstr "موبائل"
+
+#: includes/elements/section.php:1320 includes/elements/section.php:1331
+msgid "Reverse Columns"
+msgstr "ریورس کالم"
+
+#: includes/controls/dimensions.php:135 includes/controls/dimensions.php:138
+msgid "Link values together"
+msgstr "اقدار کو ایک دوسرے کے ساتھ ملائیں"
+
+#: includes/widgets/shortcode.php:42 includes/widgets/shortcode.php:99
+msgid "Shortcode"
+msgstr "شارٹ کوڈ"
+
+#: includes/template-library/sources/local.php:919
+msgid "Import Now"
+msgstr "ابھی درآمد کریں"
+
+#: includes/template-library/sources/local.php:910
+msgid "Import Templates"
+msgstr "ٹیمپلیٹس درآمد کریں"
+
+#: includes/template-library/sources/local.php:882
+msgid "Export Template"
+msgstr "ٹیمپلیٹ برآمد کریں"
+
+#: includes/template-library/sources/local.php:269
+msgctxt "Template Library"
+msgid "Type"
+msgstr "قسم"
+
+#: includes/template-library/sources/local.php:228
+msgctxt "Template Library"
+msgid "No Templates found"
+msgstr "کوئی ٹیمپلیٹ موجود نہیں"
+
+#: includes/template-library/sources/local.php:227
+msgctxt "Template Library"
+msgid "Search Template"
+msgstr "ٹیمپلیٹ تلاش کریں"
+
+#: includes/template-library/sources/local.php:226
+msgctxt "Template Library"
+msgid "View Template"
+msgstr "ٹیمپلیٹ دیکھیں"
+
+#: includes/template-library/sources/local.php:225
+msgctxt "Template Library"
+msgid "All Templates"
+msgstr "تمام ٹیمپلیٹس"
+
+#: includes/template-library/sources/local.php:224
+msgctxt "Template Library"
+msgid "New Template"
+msgstr "نئی ٹیمپلیٹ"
+
+#: includes/template-library/sources/local.php:223
+msgctxt "Template Library"
+msgid "Edit Template"
+msgstr "ٹیمپلیٹ میں ترمیم کریں"
+
+#: includes/template-library/sources/local.php:222
+msgctxt "Template Library"
+msgid "Add New Template"
+msgstr "نئی ٹیمپلیٹ شامل کریں"
+
+#: includes/template-library/sources/local.php:221
+msgctxt "Template Library"
+msgid "Add New"
+msgstr "نئی شامل کریں"
+
+#: includes/template-library/sources/local.php:220
+msgctxt "Template Library"
+msgid "Template"
+msgstr "ٹیمپلیٹ"
+
+#: includes/utils.php:203 assets/js/editor.js:6069
+msgid "An error occurred"
+msgstr "ایک خرابی آگئی"
+
+#: includes/editor-templates/templates.php:224
+msgid "Enter Template Name"
+msgstr "ٹیمپلیٹ کا نام درج کریں"
+
+#: core/document-types/page.php:37 modules/library/documents/page.php:56
+#: assets/js/editor.js:5904
+msgid "Page"
+msgstr "صفحہ"
+
+#: includes/editor-templates/templates.php:37
+#: assets/js/kit-library.d3688acfaab28676a99c.bundle.js:1131
+msgid "Back to Library"
+msgstr "لائبریری میں واپس جائیں"
+
+#: includes/editor-templates/templates.php:176
+#: includes/editor-templates/templates.php:200 assets/js/editor.js:4541
+msgid "Insert"
+msgstr "داخل کریں"
+
+#: core/common/modules/connect/apps/library.php:14 assets/js/editor.js:6276
+msgid "Library"
+msgstr "لائبریری"
+
+#: includes/editor-templates/global.php:18
+#: includes/editor-templates/library-layout.php:15
+#: includes/editor-templates/library-layout.php:16
+#: includes/editor-templates/responsive-bar.php:65
+#: includes/editor-templates/responsive-bar.php:66 includes/frontend.php:1271
+#: assets/js/app-packages.js:3052 assets/js/app-packages.js:5471
+#: assets/js/app-packages.js:6089 assets/js/app.js:3010 assets/js/app.js:5160
+#: assets/js/app.js:5626 assets/js/editor.js:31936
+msgid "Close"
+msgstr "بند کریں"
+
+#: includes/editor-templates/global.php:24
+msgid "Add Template"
+msgstr "ٹیمپلیٹ شامل کریں"
+
+#: includes/editor-templates/global.php:30
+msgid "Select your Structure"
+msgstr "ڈھانچہ منتخب کریں"
+
+#: includes/template-library/sources/local.php:229
+msgctxt "Template Library"
+msgid "No Templates found in Trash"
+msgstr "ٹریش میں کوئی ٹیمپلیٹ نہیں ملے"
+
+#: includes/template-library/sources/remote.php:46
+msgid "Remote"
+msgstr "ریموٹ"
+
+#: includes/template-library/sources/local.php:201
+msgid "Local"
+msgstr "لوکل"
+
+#: includes/editor-templates/templates.php:134
+msgid "Stay tuned! More awesome templates coming real soon."
+msgstr "دیکھتے رہیں! بہت جلد مزرید زبردست ٹیمپلیٹ آ رہے ہیں"
+
+#: includes/editor-templates/templates.php:14
+#: includes/editor-templates/templates.php:15 includes/settings/tools.php:276
+#: includes/settings/tools.php:279
+msgid "Sync Library"
+msgstr "لائبریری کی ہم آہنگی"
+
+#: includes/settings/tools.php:280
+msgid "Elementor Library automatically updates on a daily basis. You can also manually update it by clicking on the sync button."
+msgstr "ایلیمینٹر کی لائبریری خودکار طریقہ سے روزانہ اپڈیٹ ہوتی ہے۔ آپ اسے ہم آہنگی کے بٹن پہ کلک کر کے خود بھی اپڈیٹ کر سکتے ہیں"
+
+#: includes/template-library/sources/local.php:468
+msgid "(no title)"
+msgstr "(بلاعنوان)"
+
+#: core/common/modules/finder/categories/tools.php:28
+#: core/common/modules/finder/categories/tools.php:46
+#: includes/settings/tools.php:38 includes/settings/tools.php:39
+#: includes/settings/tools.php:402
+msgid "Tools"
+msgstr "ٹولز "
+
+#: includes/editor-templates/templates.php:190
+#: includes/template-library/sources/local.php:1097
+#: assets/js/app-packages.js:7422 assets/js/app-packages.js:9745
+#: assets/js/app.js:6734 assets/js/app.js:9057
+msgid "Export"
+msgstr "برآمد کریں"
+
+#. translators: %s: WordPress child themes documentation.
+#: modules/system-info/reporters/theme.php:207
+msgctxt "System Info"
+msgid "If you want to modify the source code of your theme, we recommend using a <a href=\"%s\">child theme</a>."
+msgstr "اگر آپ اپنی تھیم کے سورس کوڈ میں ترمیم کرنا چاہتے ہیں تو ہم ایک <a href=\"%s\">چائلڈ تھیم</a>  کے استعمال کی سفارش کرتے ہیں"
+
+#: core/admin/admin-notices.php:326 core/admin/admin-notices.php:367
+#: core/admin/admin-notices.php:409 core/admin/admin-notices.php:451
+#: core/admin/admin-notices.php:493
+#: core/app/modules/import-export/module.php:227
+#: core/app/modules/import-export/module.php:239
+#: core/experiments/manager.php:222 core/experiments/manager.php:235
+#: core/experiments/manager.php:244 core/experiments/manager.php:253
+#: core/experiments/manager.php:263 core/experiments/manager.php:287
+#: includes/controls/url.php:76 includes/settings/settings.php:364
+#: includes/settings/settings.php:497 modules/safe-mode/module.php:392
+#: modules/safe-mode/module.php:401
+#: modules/safe-mode/mu-plugin/elementor-safe-mode.php:104
+#: assets/js/app-packages.js:3968 assets/js/app-packages.js:7644
+#: assets/js/app-packages.js:8052 assets/js/app-packages.js:8159
+#: assets/js/app-packages.js:8682 assets/js/app-packages.js:8873
+#: assets/js/app-packages.js:8921 assets/js/app-packages.js:8962
+#: assets/js/app-packages.js:10701 assets/js/app-packages.js:10837
+#: assets/js/app.js:3926 assets/js/app.js:6956 assets/js/app.js:7364
+#: assets/js/app.js:7471 assets/js/app.js:7994 assets/js/app.js:8185
+#: assets/js/app.js:8233 assets/js/app.js:8274 assets/js/editor.js:9665
+#: assets/js/editor.js:13154 assets/js/editor.js:13186
+#: assets/js/editor.js:23150
+#: assets/js/kit-library.d3688acfaab28676a99c.bundle.js:905
+#: assets/js/kit-library.d3688acfaab28676a99c.bundle.js:3501
+msgid "Learn More"
+msgstr "مزید جانیے"
+
+#: includes/controls/groups/background.php:486
+msgctxt "Background Control"
+msgid "Contain"
+msgstr "ضبط کریں"
+
+#: includes/widgets/button.php:399 includes/widgets/icon-box.php:338
+#: includes/widgets/icon.php:286 includes/widgets/image-box.php:288
+#: includes/widgets/image.php:470 includes/widgets/social-icons.php:539
+#: modules/shapes/widgets/text-path.php:437
+msgid "Hover Animation"
+msgstr "ہوور کی حرکت پذیری"
+
+#: includes/elements/column.php:838 includes/elements/section.php:1281
+#: includes/widgets/common.php:284
+msgid "Fast"
+msgstr "تیز"
+
+#: includes/elements/column.php:836 includes/elements/section.php:1279
+#: includes/widgets/common.php:282
+msgid "Slow"
+msgstr "آہستہ"
+
+#: includes/settings/settings.php:457
+msgid "Disable Default Colors"
+msgstr "پہلے سے طے شدہ رنگ غیر فعال کریں"
+
+#: core/schemes/typography.php:78
+msgid "Default Fonts"
+msgstr "پہلے سے طے شدہ فانٹ"
+
+#: core/schemes/color.php:80
+msgid "Color Palettes"
+msgstr "رنگوں کی پلیٹیں"
+
+#: includes/elements/column.php:823 includes/elements/section.php:1266
+#: includes/widgets/common.php:269 includes/widgets/video.php:811
+msgid "Entrance Animation"
+msgstr "داخلی حرکت پذیری"
+
+#: includes/controls/groups/box-shadow.php:61
+#: includes/controls/groups/box-shadow.php:96
+msgctxt "Box Shadow Control"
+msgid "Box Shadow"
+msgstr "باکس کا سایہ"
+
+#: includes/controls/box-shadow.php:73 includes/controls/text-shadow.php:76
+#: includes/widgets/tabs.php:157
+msgid "Vertical"
+msgstr "عمودی"
+
+#: includes/controls/box-shadow.php:68 includes/controls/text-shadow.php:71
+#: includes/widgets/tabs.php:156
+msgid "Horizontal"
+msgstr "افقی"
+
+#: includes/controls/box-shadow.php:83
+msgid "Spread"
+msgstr "پھیلاؤ"
+
+#: includes/controls/box-shadow.php:78 includes/controls/text-shadow.php:66
+msgid "Blur"
+msgstr "دھندلاپن"
+
+#: includes/controls/groups/box-shadow.php:73
+msgctxt "Box Shadow Control"
+msgid "Inset"
+msgstr "اندرونی"
+
+#: includes/widgets/testimonial.php:171
+msgid "Aside"
+msgstr "ایک طرف"
+
+#: includes/widgets/progress.php:101
+msgid "My Skill"
+msgstr "میری مہارت"
+
+#: includes/widgets/testimonial.php:45 includes/widgets/testimonial.php:88
+msgid "Testimonial"
+msgstr "تعریف"
+
+#: includes/widgets/social-icons.php:261
+msgid "Rounded"
+msgstr "گول"
+
+#: includes/widgets/social-icons.php:42 includes/widgets/social-icons.php:85
+#: includes/widgets/social-icons.php:227
+msgid "Social Icons"
+msgstr "سوشل آئکن"
+
+#: includes/widgets/social-icons.php:189 includes/widgets/social-icons.php:347
+msgid "Official Color"
+msgstr "آفیشل رنگ"
+
+#: includes/widgets/audio.php:53 includes/widgets/audio.php:96
+msgid "SoundCloud"
+msgstr "ساؤنڈ کلاؤڈ"
+
+#: includes/elements/column.php:347 includes/elements/section.php:626
+msgid "Background Overlay"
+msgstr "بیک گراؤنڈ کا اوور لے"
+
+#: includes/elements/section.php:287
+msgid "Extended"
+msgstr "توسیعی"
+
+#: core/admin/feedback.php:134
+msgid "If you have a moment, please share why you are deactivating Elementor:"
+msgstr "اگر آپ کے پاس ایک لمحہ ہے توبراہ کرم ہمارے ساتھ اس بات کا اشتراک کریں کے آپ ایلیمینٹر کو کیوں غیر فعال کر رہے ہیں"
+
+#: core/admin/feedback.php:126
+msgid "Quick Feedback"
+msgstr "فوری تاثرات"
+
+#: core/admin/feedback.php:118
+msgid "Please share the reason"
+msgstr "براہ کرم وجہ کا اشتراک کریں"
+
+#: core/admin/feedback.php:117
+msgid "Other"
+msgstr "کوئی اور"
+
+#: core/admin/feedback.php:108
+msgid "It's a temporary deactivation"
+msgstr "یہ ایک عارضی استحصال ہے"
+
+#: core/admin/feedback.php:101
+msgid "Please share which plugin"
+msgstr "براہ کرم یہ بتائیں کہ کونسا پلگ ان"
+
+#: core/admin/feedback.php:100
+msgid "I found a better plugin"
+msgstr "مجھے ایک بہتر پلگ ان مل گیا"
+
+#: core/admin/feedback.php:96
+msgid "I no longer need the plugin"
+msgstr "مجھے اس پلگ ان کی مزید ضرورت نہیں"
+
+#. translators: %s: Elementor version.
+#: core/admin/admin-notices.php:136
+msgid "View Elementor version %s details"
+msgstr "ایلیمینٹر کے ورژن %s کی تفصیلات بتائیں"
+
+#: includes/widgets/audio.php:210
+msgid "Comments"
+msgstr "تبصرے"
+
+#: includes/widgets/audio.php:199
+msgid "Share Button"
+msgstr "شیئر بٹن"
+
+#: includes/widgets/audio.php:174 includes/widgets/video.php:506
+msgid "Download Button"
+msgstr "ڈاؤن لوڈ بٹن"
+
+#: includes/widgets/audio.php:163
+msgid "Like Button"
+msgstr "لائک بٹن"
+
+#: includes/widgets/audio.php:152
+msgid "Buy Button"
+msgstr "خریدنے کا بٹن"
+
+#: core/admin/feedback.php:104
+msgid "I couldn't get the plugin to work"
+msgstr "میں پلگ ان کو کارآمد نہ لا سکا"
+
+#: includes/widgets/audio.php:221
+msgid "Play Counts"
+msgstr "پلے کاؤنٹس"
+
+#: includes/widgets/audio.php:122
+msgid "Visual Player"
+msgstr "بصری پلیئر"
+
+#. translators: 1: Details URL, 2: Accessibility text, 3: Version number, 4:
+#. Update URL, 5: Accessibility text.
+#: core/admin/admin-notices.php:132
+msgid "There is a new version of Elementor Page Builder available. <a href=\"%1$s\" class=\"thickbox open-plugin-details-modal\" aria-label=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\" class=\"update-link\" aria-label=\"%5$s\">update now</a>."
+msgstr "ایلیمینٹر کا ایک نیا ورژن دستیاب ہے. <a href=\"%1$s\" class=\"thickbox open-plugin-details-modal\" aria-label=\"%2$s\">ورژن %3$s کی تفصیلات دیکھیں</a> یا <a href=\"%4$s\" class=\"update-link\" aria-label=\"%5$s\">ابھی اپڈیٹ کریں</a>."
+
+#: includes/widgets/audio.php:232
+msgid "Username"
+msgstr "اسم رکنیت"
+
+#: core/admin/admin-notices.php:149 core/base/db-upgrades-manager.php:93
+msgid "Update Now"
+msgstr "ابھی اپڈیٹ کریں"
+
+#: core/kits/documents/tabs/settings-background.php:18
+#: includes/elements/column.php:273 includes/elements/section.php:553
+#: includes/widgets/accordion.php:287 includes/widgets/accordion.php:444
+#: includes/widgets/button.php:328 includes/widgets/button.php:370
+#: includes/widgets/common.php:314 includes/widgets/toggle.php:314
+#: includes/widgets/toggle.php:471
+msgid "Background"
+msgstr "پس منظر"
+
+#: includes/elements/section.php:289
+msgid "Wider"
+msgstr "وسیع"
+
+#: includes/widgets/image-carousel.php:186 includes/widgets/image.php:195
+msgid "Custom URL"
+msgstr "مرضی کا یوآرایل"
+
+#: includes/editor-templates/hotkeys.php:43 assets/js/editor-document.js:12517
+#: assets/js/editor-document.js:13465 assets/js/editor-document.js:14899
+#: assets/js/editor.js:14446 assets/js/editor.js:16009
+#: assets/js/editor.js:25074 assets/js/editor.js:25946
+msgid "Paste"
+msgstr "پیسٹ"
+
+#: core/common/modules/finder/categories/general.php:29
+#: core/role-manager/role-manager.php:59 includes/managers/elements.php:279
+#: includes/settings/settings.php:436 includes/settings/tools.php:263
+msgid "General"
+msgstr "عمومی"
+
+#: includes/widgets/image-carousel.php:168
+msgid "Arrows and Dots"
+msgstr "تیر اور نقطے"
+
+#: includes/elements/column.php:832 includes/elements/section.php:1275
+#: includes/widgets/common.php:278 includes/widgets/counter.php:159
+msgid "Animation Duration"
+msgstr "حرکت پذیری کا دورانیہ"
+
+#: includes/widgets/alert.php:194
+msgid "Left Border Width"
+msgstr "بائیں جانب کے بارڈر کی چوڑائی"
+
+#: includes/widgets/accordion.php:416 includes/widgets/divider.php:760
+#: includes/widgets/divider.php:900 includes/widgets/icon-box.php:350
+#: includes/widgets/icon-box.php:517 includes/widgets/image-box.php:225
+#: includes/widgets/image-box.php:451 includes/widgets/image-carousel.php:553
+#: includes/widgets/image-gallery.php:191 includes/widgets/image.php:602
+#: includes/widgets/social-icons.php:428 includes/widgets/star-rating.php:291
+#: includes/widgets/toggle.php:443
+msgid "Spacing"
+msgstr "فاصلہ"
+
+#: includes/widgets/image-carousel.php:406
+#: includes/widgets/image-carousel.php:468
+msgid "Outside"
+msgstr "باہر"
+
+#: includes/widgets/image-carousel.php:405
+#: includes/widgets/image-carousel.php:469
+msgid "Inside"
+msgstr "اندر"
+
+#: includes/controls/groups/background.php:765
+#: includes/widgets/image-carousel.php:363
+msgid "Direction"
+msgstr "سمت"
+
+#: includes/widgets/image-carousel.php:352
+msgid "Animation Speed"
+msgstr "حرکت پذیری کی رفتار"
+
+#: includes/widgets/audio.php:135 includes/widgets/image-carousel.php:250
+msgid "Additional Options"
+msgstr "اضافی اختیارات"
+
+#: includes/widgets/video.php:480
+msgid "Intro Byline"
+msgstr "تعارفی سطریں"
+
+#: includes/widgets/image-carousel.php:151
+msgid "Image Stretch"
+msgstr "تصویر کھینچیں"
+
+#: includes/widgets/image-carousel.php:45
+#: includes/widgets/image-carousel.php:88
+msgid "Image Carousel"
+msgstr "تصاویر کا کروزل"
+
+#: includes/controls/groups/image-size.php:297
+msgid "You can crop the original image size to any custom size. You can also set a single value for height or width in order to keep the original size ratio."
+msgstr "آپ تصویر کے اصل سائز کو اپنی مرضی کے سائز میں کراپ کر سکتے ہیں۔ آپ اصل سائز کے تناسب کو برقرار رکھنے کے لیے لمبائی اورچوڑائی کے لیے ایک ہی قدر فراہم کر سکتے ہیں"
+
+#: includes/widgets/video.php:452
+msgid "Intro Title"
+msgstr "تعارفی عنوان"
+
+#: includes/widgets/video.php:320
+msgid "Loop"
+msgstr "لوپ"
+
+#: includes/widgets/audio.php:243 includes/widgets/video.php:494
+msgid "Controls Color"
+msgstr "کنٹرول کے رنگ"
+
+#: includes/widgets/video.php:466
+msgid "Intro Portrait"
+msgstr "تعارفی پورٹریٹ"
+
+#: includes/widgets/video.php:268
+msgid "Video Options"
+msgstr "ویڈیو کے اختیارات"
+
+#: includes/widgets/video.php:115
+msgid "Vimeo"
+msgstr "ویمیو"
+
+#: includes/widgets/video.php:44 includes/widgets/video.php:103
+#: includes/widgets/video.php:623
+msgid "Video"
+msgstr "ویڈیو"
+
+#: includes/widgets/image-gallery.php:263
+msgid "Display"
+msgstr "ڈسپلے"
+
+#: includes/controls/groups/image-size.php:295
+msgctxt "Image Size Control"
+msgid "Image Dimension"
+msgstr "تصویر کے طول و عرض"
+
+#: includes/controls/groups/image-size.php:378
+msgctxt "Image Size Control"
+msgid "Custom"
+msgstr "اپنی مرضی کا"
+
+#: includes/controls/groups/border.php:64
+msgctxt "Border Control"
+msgid "Solid"
+msgstr "ٹھوس"
+
+#: includes/controls/groups/border.php:67
+msgctxt "Border Control"
+msgid "Dashed"
+msgstr "ڈیش دار"
+
+#: includes/controls/groups/border.php:66
+msgctxt "Border Control"
+msgid "Dotted"
+msgstr "نقطہ دار"
+
+#: includes/controls/groups/border.php:65
+msgctxt "Border Control"
+msgid "Double"
+msgstr "ڈبل"
+
+#: includes/controls/image-dimensions.php:81
+msgid "The server does not have ImageMagick or GD installed and/or enabled! Any of these libraries are required for WordPress to be able to resize images. Please contact your server administrator to enable this before continuing."
+msgstr "اس سرور پر امیج میجک یا جی ڈی انسٹال یا فعال نہیں ہے۔ وڑدپریس کس تصاویر کے سائز تبدیل کرنے کے لیے ان میں سے کوئی ایک لائبریری درکار ہے۔ براہ کرم جاری رکھنے سے پہلے اس لائبریری کو فعال کرنے کے لیے اپنے سرور ایڈمن سے رابطہ کریں"
+
+#: includes/widgets/image-carousel.php:335
+msgid "Effect"
+msgstr "اثر"
+
+#: includes/widgets/image-carousel.php:340
+msgid "Fade"
+msgstr "دھندلا"
+
+#: includes/controls/groups/image-size.php:375
+msgctxt "Image Size Control"
+msgid "Full"
+msgstr "مکمل"
+
+#: includes/widgets/icon-box.php:493 includes/widgets/image-box.php:427
+msgid "Vertical Alignment"
+msgstr "عمودی سیدھ"
+
+#: includes/controls/groups/background.php:661
+#: includes/widgets/image-carousel.php:321
+msgid "Infinite Loop"
+msgstr "لامحدود لوپ"
+
+#: includes/widgets/image-carousel.php:170
+#: includes/widgets/image-carousel.php:452
+msgid "Dots"
+msgstr "نقاط"
+
+#: includes/controls/groups/image-size.php:290
+msgctxt "Image Size Control"
+msgid "Image Size"
+msgstr "تصویر کا سائز"
+
+#: includes/controls/groups/typography.php:180
+msgctxt "Typography Control"
+msgid "None"
+msgstr "کوئی بھی نہیں"
+
+#: includes/widgets/icon-box.php:146 includes/widgets/image-box.php:123
+msgid "This is the heading"
+msgstr "یہ سرخی ہے"
+
+#: includes/widgets/accordion.php:207 includes/widgets/icon-box.php:219
+#: includes/widgets/image-box.php:186 includes/widgets/toggle.php:211
+msgid "Title HTML Tag"
+msgstr "عنوان کا HTML ٹیگ"
+
+#: includes/elements/column.php:785 includes/elements/section.php:1248
+#: includes/widgets/common.php:251
+msgid "Add your custom class WITHOUT the dot. e.g: my-class"
+msgstr "اپنی مرضی کی کلاس درج کریں بنا نقطہ کے، مثال کے طور پر: my-class"
+
+#: includes/managers/elements.php:308
+msgid "Pojo Themes"
+msgstr "پو جو تھیمز"
+
+#: core/kits/documents/tabs/global-typography.php:178
+msgid "The list of fonts used if the chosen font is not available."
+msgstr "فانٹ کی فہرست (اگر منتخب کیا گیا فانٹ میسر نہ ہو)"
+
+#: includes/widgets/wordpress.php:230
+msgid "Form"
+msgstr "فارم"
+
+#: modules/system-info/reporters/server.php:121
+msgctxt "System Info"
+msgid "We recommend to use php 5.4 or higher"
+msgstr "ہم PHP کا کم سے کم ورژن 5.4 استعمال کرنے کی سفارش کرتے ہیں"
+
+#: includes/editor-templates/panel-elements.php:10
+#: assets/js/editor-document.js:4196 assets/js/editor-document.js:6138
+#: assets/js/editor-document.js:6669 assets/js/editor.js:19951
+msgid "Elements"
+msgstr "عناصر"
+
+#: core/admin/admin.php:275
+#: core/common/modules/finder/categories/settings.php:28
+#: core/dynamic-tags/base-tag.php:171 includes/editor-templates/panel.php:65
+#: includes/editor-templates/responsive-bar.php:61
+#: includes/managers/controls.php:304 includes/settings/settings.php:402
+#: assets/js/editor.js:5187 assets/js/editor.js:20705 assets/js/editor.js:32087
+msgid "Settings"
+msgstr "ترتیبات"
+
+#: includes/controls/groups/typography.php:167
+msgctxt "Typography Control"
+msgid "Oblique"
+msgstr "غیر متوازی"
+
+#: includes/controls/groups/typography.php:166
+msgctxt "Typography Control"
+msgid "Italic"
+msgstr "ترچھا رومن طرز"
+
+#: includes/controls/groups/typography.php:155
+#: includes/controls/groups/typography.php:165
+msgctxt "Typography Control"
+msgid "Normal"
+msgstr "عمومی"
+
+#: includes/controls/groups/typography.php:154
+msgctxt "Typography Control"
+msgid "Capitalize"
+msgstr "بڑا لکھیں"
+
+#: includes/controls/groups/typography.php:153
+msgctxt "Typography Control"
+msgid "Lowercase"
+msgstr "چھوٹے الفاظ"
+
+#: includes/controls/groups/typography.php:152
+msgctxt "Typography Control"
+msgid "Uppercase"
+msgstr "بڑے الفاط"
+
+#: core/kits/documents/tabs/theme-style-buttons.php:92
+#: core/kits/documents/tabs/theme-style-form-fields.php:119
+#: core/kits/documents/tabs/theme-style-images.php:63
+#: core/kits/documents/tabs/theme-style-typography.php:126
+#: includes/elements/column.php:283 includes/elements/column.php:360
+#: includes/elements/column.php:409 includes/elements/column.php:512
+#: includes/elements/column.php:837 includes/elements/section.php:563
+#: includes/elements/section.php:636 includes/elements/section.php:700
+#: includes/elements/section.php:819 includes/elements/section.php:1280
+#: includes/widgets/button.php:308 includes/widgets/common.php:283
+#: includes/widgets/common.php:324 includes/widgets/common.php:391
+#: includes/widgets/google-maps.php:208 includes/widgets/heading.php:261
+#: includes/widgets/icon-box.php:261 includes/widgets/icon.php:205
+#: includes/widgets/image-box.php:297 includes/widgets/image.php:386
+#: modules/shapes/widgets/text-path.php:394
+#: modules/shapes/widgets/text-path.php:492
+msgid "Normal"
+msgstr "معمول"
+
+#: includes/widgets/image-carousel.php:271
+msgid "Pause on Hover"
+msgstr "ہوور پر روک دیں"
+
+#. Author of the plugin
+msgid "Elementor.com"
+msgstr "Elementor.com"
+
+#: includes/widgets/video.php:592 includes/widgets/video.php:658
+msgid "Play Icon"
+msgstr "پلےآئکن"
+
+#: includes/widgets/toggle.php:46 includes/widgets/toggle.php:89
+#: includes/widgets/toggle.php:241
+msgid "Toggle"
+msgstr "ٹوگل"
+
+#: includes/widgets/toggle.php:129
+msgid "Toggle #1"
+msgstr "ٹوگل نمبر ١"
+
+#: includes/widgets/toggle.php:133
+msgid "Toggle #2"
+msgstr "ٹوگل نمبر ٢"
+
+#: includes/widgets/text-editor.php:46 includes/widgets/text-editor.php:105
+#: includes/widgets/text-editor.php:180
+msgid "Text Editor"
+msgstr "ٹیکسٹ ایڈیٹر"
+
+#: includes/widgets/tabs.php:100 includes/widgets/tabs.php:101
+msgid "Tab Title"
+msgstr "ٹیب کا عنوان"
+
+#: includes/widgets/video.php:332
+msgid "Player Controls"
+msgstr "پلیئر کے اختیارات"
+
+#: includes/widgets/video.php:436
+msgid "Suggested Videos"
+msgstr "تجویز کردہ ویڈیوز"
+
+#: includes/widgets/video.php:114
+msgid "YouTube"
+msgstr "یو ٹیوب"
+
+#: includes/widgets/image-carousel.php:306
+msgid "Autoplay Speed"
+msgstr "اپنے آپ چلنے کی رفتار"
+
+#: includes/widgets/image-carousel.php:169
+#: includes/widgets/image-carousel.php:389
+msgid "Arrows"
+msgstr "تیر"
+
+#: includes/widgets/image-carousel.php:339
+msgid "Slide"
+msgstr "سلائڈ"
+
+#: includes/widgets/progress.php:275
+msgid "Title Style"
+msgstr "عنوان کا انداز"
+
+#: includes/widgets/progress.php:159
+msgid "Web Designer"
+msgstr "ویب ڈیزائینر"
+
+#: includes/widgets/progress.php:158
+msgid "e.g. Web Designer"
+msgstr "مثال کے طور پر: ویب ڈیزائینر"
+
+#: includes/widgets/progress.php:153 includes/widgets/progress.php:234
+msgid "Inner Text"
+msgstr "اندرونی متن"
+
+#: includes/widgets/progress.php:140
+msgid "Display Percentage"
+msgstr "تناسب دکھائیں"
+
+#: includes/widgets/progress.php:125
+msgid "Percentage"
+msgstr "فی صد"
+
+#: includes/widgets/progress.php:45 includes/widgets/progress.php:88
+#: includes/widgets/progress.php:178
+msgid "Progress Bar"
+msgstr "پیش رفت بار"
+
+#: includes/widgets/menu-anchor.php:95
+msgid "For Example: About"
+msgstr "مثال کے طور پر: کے بارے میں"
+
+#: includes/widgets/image-carousel.php:569
+#: includes/widgets/image-gallery.php:208
+msgid "Image Spacing"
+msgstr "تصویر کی وقفہ کاری"
+
+#: includes/widgets/divider.php:917 includes/widgets/icon-box.php:410
+#: includes/widgets/icon.php:336 modules/shapes/widgets/text-path.php:270
+msgid "Rotate"
+msgstr "گھمائیں"
+
+#: includes/widgets/divider.php:859 includes/widgets/icon-box.php:284
+#: includes/widgets/icon-box.php:322 includes/widgets/icon.php:229
+#: includes/widgets/icon.php:269 includes/widgets/social-icons.php:212
+#: includes/widgets/social-icons.php:370 includes/widgets/social-icons.php:508
+#: includes/widgets/text-editor.php:293
+msgid "Secondary Color"
+msgstr "ثانوی رنگ"
+
+#: includes/widgets/divider.php:842 includes/widgets/icon-box.php:268
+#: includes/widgets/icon-box.php:309 includes/widgets/icon.php:212
+#: includes/widgets/icon.php:255 includes/widgets/social-icons.php:198
+#: includes/widgets/social-icons.php:356 includes/widgets/social-icons.php:493
+#: includes/widgets/text-editor.php:278
+msgid "Primary Color"
+msgstr "بنیادی رنگ"
+
+#: includes/widgets/icon-box.php:127 includes/widgets/icon.php:142
+#: includes/widgets/social-icons.php:262
+msgid "Square"
+msgstr "مربع"
+
+#: includes/widgets/common.php:125 includes/widgets/icon-box.php:126
+#: includes/widgets/icon.php:141 includes/widgets/social-icons.php:263
+#: modules/shapes/module.php:22
+msgid "Circle"
+msgstr "گول گھیرا"
+
+#: includes/widgets/common.php:506 includes/widgets/icon-box.php:123
+#: includes/widgets/icon.php:138 includes/widgets/social-icons.php:257
+msgid "Shape"
+msgstr "شکل"
+
+#: includes/widgets/divider.php:795 includes/widgets/icon-box.php:113
+#: includes/widgets/icon.php:128 includes/widgets/text-editor.php:268
+msgid "Framed"
+msgstr "فریم"
+
+#: includes/widgets/button.php:230
+msgid "Icon Spacing"
+msgstr "آئکن کی وقفہ کاری"
+
+#: includes/widgets/icon-list.php:45 includes/widgets/icon-list.php:88
+msgid "Icon List"
+msgstr "آئکن کی لسٹ"
+
+#: includes/widgets/icon-box.php:45 includes/widgets/icon-box.php:88
+msgid "Icon Box"
+msgstr "آئکن کا باکس"
+
+#: includes/widgets/html.php:85
+msgid "HTML Code"
+msgstr "HTML کوڈ"
+
+#: includes/widgets/html.php:42
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/elements/column.php:261 includes/elements/section.php:518
+#: includes/widgets/divider.php:525 includes/widgets/heading.php:156
+msgid "HTML Tag"
+msgstr "HTML ٹیگ"
+
+#: includes/widgets/alert.php:113 includes/widgets/heading.php:116
+#: includes/widgets/icon-box.php:147 includes/widgets/image-box.php:124
+#: includes/widgets/progress.php:100
+msgid "Enter your title"
+msgstr "اپنا عنوان درج کریں"
+
+#: includes/widgets/heading.php:45
+msgid "Heading"
+msgstr "سرخی"
+
+#: includes/widgets/google-maps.php:103 includes/widgets/google-maps.php:199
+msgid "Map"
+msgstr "نقشہ"
+
+#: includes/widgets/google-maps.php:44
+msgid "Google Maps"
+msgstr "گوگل نقشہ جات"
+
+#: core/kits/documents/tabs/theme-style-images.php:21
+#: core/kits/documents/tabs/theme-style-images.php:51
+#: includes/widgets/image-gallery.php:183
+msgid "Images"
+msgstr "تصاویر"
+
+#: includes/widgets/image-gallery.php:163
+msgid "Random"
+msgstr "بے ترتیب"
+
+#: includes/widgets/image-carousel.php:185
+#: includes/widgets/image-gallery.php:132 includes/widgets/image.php:194
+msgid "Media File"
+msgstr "میڈیا فائل"
+
+#: includes/controls/gallery.php:88 includes/widgets/image-carousel.php:95
+#: includes/widgets/image-gallery.php:94
+msgid "Add Images"
+msgstr "تصاویر شامل کریں"
+
+#: includes/widgets/image-gallery.php:87
+msgid "Image Gallery"
+msgstr "تصاویر کی گیلری"
+
+#: includes/widgets/divider.php:677 includes/widgets/star-rating.php:246
+msgid "Gap"
+msgstr "فرق"
+
+#: includes/widgets/divider.php:592 includes/widgets/icon-list.php:297
+msgid "Weight"
+msgstr "وزن"
+
+#: includes/widgets/divider.php:46 includes/widgets/divider.php:356
+#: includes/widgets/divider.php:515 includes/widgets/divider.php:565
+#: includes/widgets/icon-list.php:261
+msgid "Divider"
+msgstr "تقسیم کرنے والا"
+
+#: includes/widgets/counter.php:222
+msgid "Number"
+msgstr "نمبر"
+
+#: includes/widgets/counter.php:152
+msgid "Plus"
+msgstr "جمع"
+
+#: core/kits/documents/tabs/theme-style-form-fields.php:78
+#: core/kits/documents/tabs/theme-style-typography.php:133
+#: core/kits/documents/tabs/theme-style-typography.php:163
+#: core/kits/documents/tabs/theme-style-typography.php:209
+#: includes/controls/box-shadow.php:104 includes/controls/text-shadow.php:97
+#: includes/elements/column.php:417 includes/elements/section.php:708
+#: includes/elements/section.php:975 includes/widgets/accordion.php:298
+#: includes/widgets/accordion.php:392 includes/widgets/accordion.php:455
+#: includes/widgets/divider.php:576 includes/widgets/divider.php:711
+#: includes/widgets/icon-box.php:534 includes/widgets/icon-box.php:577
+#: includes/widgets/icon-list.php:368 includes/widgets/icon-list.php:396
+#: includes/widgets/image-box.php:468 includes/widgets/image-box.php:511
+#: includes/widgets/image-carousel.php:438
+#: includes/widgets/image-carousel.php:501 includes/widgets/progress.php:186
+#: includes/widgets/progress.php:243 includes/widgets/social-icons.php:185
+#: includes/widgets/social-icons.php:343 includes/widgets/star-rating.php:309
+#: includes/widgets/tabs.php:312 includes/widgets/tabs.php:397
+#: includes/widgets/toggle.php:326 includes/widgets/toggle.php:419
+#: includes/widgets/toggle.php:482 includes/widgets/video.php:671
+#: modules/shapes/widgets/text-path.php:401
+#: modules/shapes/widgets/text-path.php:425
+#: modules/shapes/widgets/text-path.php:499
+#: modules/shapes/widgets/text-path.php:519
+#: modules/shapes/widgets/text-path.php:565
+#: modules/shapes/widgets/text-path.php:585 assets/js/editor.js:32228
+#: assets/js/editor.js:32274
+msgid "Color"
+msgstr "رنگ"
+
+#: includes/widgets/counter.php:146
+msgid "Number Suffix"
+msgstr "نمبر کا لاحقہ"
+
+#: includes/widgets/counter.php:133
+msgid "Number Prefix"
+msgstr "نمبر کا سابقہ"
+
+#: includes/widgets/counter.php:121
+msgid "Ending Number"
+msgstr "اختتامی نمبر"
+
+#: includes/widgets/counter.php:109
+msgid "Starting Number"
+msgstr "شروعاتی نمبر"
+
+#: core/kits/documents/tabs/settings-lightbox.php:56
+#: includes/widgets/counter.php:45 includes/widgets/counter.php:102
+msgid "Counter"
+msgstr "گنتی کرنے والا"
+
+#: includes/controls/media.php:191 includes/widgets/image-box.php:95
+#: includes/widgets/image.php:111 includes/widgets/testimonial.php:108
+#: includes/widgets/video.php:562
+msgid "Choose Image"
+msgstr "تصویر منتخب کریں"
+
+#: includes/widgets/common.php:520 includes/widgets/image-box.php:217
+#: includes/widgets/image-carousel.php:517 includes/widgets/image.php:45
+#: includes/widgets/image.php:104 includes/widgets/image.php:247
+#: includes/widgets/testimonial.php:269
+msgid "Image"
+msgstr "تصویر"
+
+#: core/dynamic-tags/tag.php:102 includes/widgets/button.php:219
+msgid "After"
+msgstr "بعد میں"
+
+#: core/dynamic-tags/tag.php:95 includes/widgets/button.php:218
+msgid "Before"
+msgstr "پہلے"
+
+#: includes/widgets/button.php:214 includes/widgets/icon-box.php:184
+msgid "Icon Position"
+msgstr "آئکن کی پوزیشن"
+
+#: includes/widgets/accordion.php:149 includes/widgets/accordion.php:361
+#: includes/widgets/button.php:203 includes/widgets/divider.php:487
+#: includes/widgets/divider.php:548 includes/widgets/divider.php:779
+#: includes/widgets/icon-box.php:95 includes/widgets/icon-box.php:241
+#: includes/widgets/icon-list.php:134 includes/widgets/icon-list.php:388
+#: includes/widgets/icon.php:44 includes/widgets/icon.php:103
+#: includes/widgets/icon.php:110 includes/widgets/icon.php:195
+#: includes/widgets/social-icons.php:94 includes/widgets/social-icons.php:335
+#: includes/widgets/star-rating.php:123 includes/widgets/toggle.php:153
+#: includes/widgets/toggle.php:388
+msgid "Icon"
+msgstr "آئکن"
+
+#: includes/widgets/button.php:192 includes/widgets/common.php:558
+#: includes/widgets/divider.php:617 includes/widgets/divider.php:805
+#: includes/widgets/heading.php:139 includes/widgets/icon-box.php:373
+#: includes/widgets/icon-list.php:425 includes/widgets/icon.php:298
+#: includes/widgets/image-carousel.php:418
+#: includes/widgets/image-carousel.php:481
+#: includes/widgets/social-icons.php:385 includes/widgets/star-rating.php:274
+#: includes/widgets/text-editor.php:316 includes/widgets/video.php:686
+#: modules/shapes/widgets/text-path.php:234
+msgid "Size"
+msgstr "سائز"
+
+#: includes/elements/column.php:702 includes/elements/section.php:1159
+#: includes/widgets/button.php:180 includes/widgets/heading.php:192
+#: includes/widgets/icon-box.php:480 includes/widgets/image-box.php:414
+#: includes/widgets/image-carousel.php:642
+#: includes/widgets/image-gallery.php:295 includes/widgets/image.php:543
+#: includes/widgets/star-rating.php:186 includes/widgets/tabs.php:183
+#: includes/widgets/tabs.php:213 includes/widgets/text-editor.php:204
+msgid "Justified"
+msgstr "دونوں طرف سے برابر"
+
+#: includes/widgets/button.php:95 includes/widgets/heading.php:146
+msgid "Large"
+msgstr "بڑا"
+
+#: includes/widgets/button.php:94 includes/widgets/heading.php:145
+msgid "Medium"
+msgstr "درمیانہ"
+
+#: includes/widgets/button.php:93 includes/widgets/heading.php:144
+msgid "Small"
+msgstr "چھوٹا"
+
+#: includes/widgets/button.php:46 includes/widgets/button.php:112
+#: includes/widgets/button.php:279
+msgid "Button"
+msgstr "بٹن"
+
+#: core/common/modules/finder/categories/edit.php:30
+#: includes/controls/popover-toggle.php:68
+msgid "Edit"
+msgstr "ترمیم کریں"
+
+#: includes/widgets/alert.php:145 includes/widgets/audio.php:154
+#: includes/widgets/audio.php:165 includes/widgets/audio.php:176
+#: includes/widgets/audio.php:187 includes/widgets/audio.php:201
+#: includes/widgets/audio.php:212 includes/widgets/audio.php:223
+#: includes/widgets/audio.php:234 includes/widgets/counter.php:174
+#: includes/widgets/image-gallery.php:268 includes/widgets/progress.php:145
+#: includes/widgets/video.php:334 includes/widgets/video.php:349
+#: includes/widgets/video.php:376 includes/widgets/video.php:454
+#: includes/widgets/video.php:468 includes/widgets/video.php:482
+#: includes/widgets/video.php:508 includes/widgets/video.php:553
+msgid "Hide"
+msgstr "چھپائیں"
+
+#: core/kits/documents/tabs/theme-style-buttons.php:153
+#: core/kits/documents/tabs/theme-style-buttons.php:228
+#: core/kits/documents/tabs/theme-style-form-fields.php:222
+#: core/kits/documents/tabs/theme-style-images.php:83
+#: core/kits/documents/tabs/theme-style-images.php:154
+#: includes/elements/column.php:527 includes/elements/column.php:564
+#: includes/elements/section.php:833 includes/elements/section.php:869
+#: includes/widgets/button.php:420 includes/widgets/common.php:406
+#: includes/widgets/common.php:443 includes/widgets/divider.php:953
+#: includes/widgets/icon-box.php:439 includes/widgets/icon.php:372
+#: includes/widgets/image-box.php:276 includes/widgets/image-carousel.php:601
+#: includes/widgets/image-gallery.php:241 includes/widgets/image.php:491
+#: includes/widgets/progress.php:222 includes/widgets/social-icons.php:471
+#: includes/widgets/testimonial.php:307 includes/widgets/text-editor.php:358
+msgid "Border Radius"
+msgstr "بارڈر کا حلقہ"
+
+#: core/base/document.php:1532
+#: core/kits/documents/tabs/settings-lightbox.php:96
+#: core/kits/documents/tabs/settings-lightbox.php:100
+#: core/kits/documents/tabs/settings-lightbox.php:117
+#: includes/elements/column.php:122 includes/elements/section.php:236
+#: includes/widgets/accordion.php:279 includes/widgets/alert.php:213
+#: includes/widgets/common.php:184 includes/widgets/counter.php:197
+#: includes/widgets/counter.php:265 includes/widgets/heading.php:104
+#: includes/widgets/heading.php:111 includes/widgets/heading.php:217
+#: includes/widgets/icon-box.php:508 includes/widgets/image-box.php:442
+#: includes/widgets/image-carousel.php:229 includes/widgets/progress.php:95
+#: includes/widgets/star-rating.php:158 includes/widgets/star-rating.php:202
+#: includes/widgets/tabs.php:303 includes/widgets/testimonial.php:143
+#: includes/widgets/testimonial.php:367 includes/widgets/toggle.php:306
+msgid "Title"
+msgstr "عنوان"
+
+#: includes/widgets/alert.php:144 includes/widgets/audio.php:155
+#: includes/widgets/audio.php:166 includes/widgets/audio.php:177
+#: includes/widgets/audio.php:188 includes/widgets/audio.php:202
+#: includes/widgets/audio.php:213 includes/widgets/audio.php:224
+#: includes/widgets/audio.php:235 includes/widgets/counter.php:173
+#: includes/widgets/image-gallery.php:267 includes/widgets/progress.php:144
+#: includes/widgets/video.php:335 includes/widgets/video.php:350
+#: includes/widgets/video.php:377 includes/widgets/video.php:455
+#: includes/widgets/video.php:469 includes/widgets/video.php:483
+#: includes/widgets/video.php:509 includes/widgets/video.php:554
+msgid "Show"
+msgstr "دکھائیں"
+
+#: includes/widgets/alert.php:140
+msgid "Dismiss Button"
+msgstr "برخاست کا بٹن"
+
+#: includes/widgets/alert.php:128
+msgid "I am a description. Click the edit button to change this text."
+msgstr "میں ایک تفصیل ہوں۔ اس متن کو تبدیل کرنے کے لئے ترمیم کے بٹن پر کلک کریں"
+
+#: includes/widgets/accordion.php:97 includes/widgets/alert.php:111
+#: includes/widgets/icon-box.php:141 includes/widgets/image-box.php:118
+#: includes/widgets/tabs.php:98 includes/widgets/toggle.php:98
+msgid "Title & Description"
+msgstr "عنوان اور تفصیل"
+
+#: includes/widgets/alert.php:102 includes/widgets/button.php:127
+#: includes/widgets/progress.php:117
+msgid "Danger"
+msgstr "خطرہ"
+
+#: includes/widgets/alert.php:101 includes/widgets/button.php:126
+#: includes/widgets/progress.php:116
+msgid "Warning"
+msgstr "انتباہ"
+
+#: includes/widgets/alert.php:100 includes/widgets/button.php:125
+#: includes/widgets/progress.php:115
+msgid "Success"
+msgstr "کامیابی"
+
+#: includes/widgets/alert.php:99 includes/widgets/button.php:124
+#: includes/widgets/progress.php:114 assets/js/app-packages.js:10690
+#: assets/js/kit-library.d3688acfaab28676a99c.bundle.js:3102
+msgid "Info"
+msgstr "معلومات"
+
+#: includes/editor-templates/templates.php:113
+#: includes/elements/section.php:964
+#: includes/template-library/sources/local.php:1605
+#: includes/widgets/alert.php:95 includes/widgets/button.php:119
+#: includes/widgets/progress.php:109
+msgid "Type"
+msgstr "قسم"
+
+#: includes/widgets/alert.php:45 includes/widgets/alert.php:88
+#: includes/widgets/alert.php:164
+msgid "Alert"
+msgstr "انتباہ"
+
+#: includes/widgets/accordion.php:313 includes/widgets/accordion.php:404
+#: includes/widgets/tabs.php:326 includes/widgets/toggle.php:341
+#: includes/widgets/toggle.php:431
+msgid "Active Color"
+msgstr "فعال رنگ"
+
+#: includes/widgets/accordion.php:264 includes/widgets/alert.php:183
+#: includes/widgets/button.php:385 includes/widgets/social-icons.php:524
+#: includes/widgets/tabs.php:280 includes/widgets/toggle.php:267
+msgid "Border Color"
+msgstr "بارڈر کا رنگ"
+
+#: includes/widgets/accordion.php:112
+msgid "Accordion Content"
+msgstr "اکارڈین کا مواد"
+
+#: includes/widgets/accordion.php:99
+msgid "Accordion Title"
+msgstr "اکارڈین کا عنوان"
+
+#: includes/widgets/accordion.php:45 includes/widgets/accordion.php:88
+#: includes/widgets/accordion.php:237
+msgid "Accordion"
+msgstr "اکارڈین"
+
+#: core/admin/admin-notices.php:235
+msgid "Sure! I'd love to help"
+msgstr "یقینا! میں مدد کرنا چاہتا ہوں"
+
+#: core/common/modules/finder/categories/general.php:51
+#: modules/system-info/module.php:128 modules/system-info/module.php:157
+msgid "System Info"
+msgstr "سسٹم کی معلومات"
+
+#: modules/system-info/module.php:181
+msgid "Download System Info"
+msgstr "سسٹم کی معلومات ڈاؤن لوڈ کریں"
+
+#: includes/widgets/accordion.php:140 includes/widgets/alert.php:153
+#: includes/widgets/audio.php:251 includes/widgets/button.php:247
+#: includes/widgets/counter.php:211 includes/widgets/divider.php:501
+#: includes/widgets/divider.php:790 includes/widgets/google-maps.php:188
+#: includes/widgets/heading.php:206 includes/widgets/icon-box.php:108
+#: includes/widgets/icon.php:123 includes/widgets/image-box.php:206
+#: includes/widgets/image-carousel.php:239
+#: includes/widgets/image-gallery.php:172 includes/widgets/image.php:236
+#: includes/widgets/progress.php:167 includes/widgets/social-icons.php:324
+#: includes/widgets/spacer.php:133 includes/widgets/tabs.php:143
+#: includes/widgets/testimonial.php:212 includes/widgets/text-editor.php:263
+#: includes/widgets/toggle.php:144 includes/widgets/video.php:533
+msgid "View"
+msgstr "دیکھیں"
+
+#: includes/editor-templates/templates.php:109
+#: includes/widgets/testimonial.php:131 includes/widgets/testimonial.php:322
+msgid "Name"
+msgstr "نام"
+
+#: core/role-manager/role-manager.php:64
+msgid "Exclude Roles"
+msgstr "کردار کو خارج کر دیں"
+
+#: includes/settings/settings.php:448
+msgid "Post Types"
+msgstr "پوسٹ کی اقسام"
+
+#: core/base/document.php:1524
+#: core/common/modules/finder/categories/settings.php:46
+msgid "General Settings"
+msgstr "عام ترتیبات"
+
+#: core/schemes/typography.php:94
+msgid "Secondary Headline"
+msgstr "ثانوی سرخی"
+
+#: core/schemes/typography.php:93
+msgid "Primary Headline"
+msgstr "ابتدائی عنوان"
+
+#: core/kits/documents/tabs/global-colors.php:88
+#: core/kits/documents/tabs/global-typography.php:137 core/schemes/color.php:97
+#: includes/widgets/button.php:136 includes/widgets/divider.php:483
+#: includes/widgets/divider.php:510 includes/widgets/divider.php:700
+#: includes/widgets/icon-list.php:120 includes/widgets/icon-list.php:482
+#: modules/shapes/widgets/text-path.php:93
+#: modules/shapes/widgets/text-path.php:301
+msgid "Text"
+msgstr "متن"
+
+#: core/kits/documents/tabs/global-colors.php:83
+#: core/kits/documents/tabs/global-typography.php:130 core/schemes/color.php:96
+msgid "Secondary"
+msgstr "ثانوی"
+
+#: core/kits/documents/tabs/global-colors.php:78
+#: core/kits/documents/tabs/global-typography.php:123 core/schemes/color.php:95
+msgid "Primary"
+msgstr "ابتدائی"
+
+#: includes/managers/elements.php:272
+msgid "Basic"
+msgstr "بنیادی"
+
+#: includes/widgets/video.php:792
+msgid "Content Position"
+msgstr "مواد کی پوزیشن"
+
+#: includes/elements/column.php:189 includes/elements/section.php:427
+#: includes/elements/section.php:450 includes/widgets/icon-box.php:497
+#: includes/widgets/image-box.php:431
+msgid "Middle"
+msgstr "وسط"
+
+#: includes/elements/section.php:421
+msgid "Column Position"
+msgstr "کالم کی پوزیشن"
+
+#: includes/fonts.php:67
+msgid "System"
+msgstr "سسٹم"
+
+#: core/kits/documents/tabs/theme-style-typography.php:116
+#: includes/widgets/audio.php:103 includes/widgets/button.php:149
+#: includes/widgets/heading.php:124 includes/widgets/icon-box.php:171
+#: includes/widgets/icon-list.php:147 includes/widgets/icon.php:155
+#: includes/widgets/image-box.php:148 includes/widgets/image-carousel.php:180
+#: includes/widgets/image-carousel.php:194
+#: includes/widgets/image-gallery.php:128 includes/widgets/image.php:189
+#: includes/widgets/image.php:203 includes/widgets/social-icons.php:170
+#: includes/widgets/testimonial.php:155 includes/widgets/video.php:126
+#: includes/widgets/video.php:148 includes/widgets/video.php:169
+#: modules/shapes/widgets/text-path.php:141
+msgid "Link"
+msgstr "لنک"
+
+#: core/admin/admin.php:155 core/admin/admin.php:163 core/base/document.php:477
+#: modules/admin-bar/module.php:123 modules/gutenberg/module.php:100
+#: modules/gutenberg/module.php:110
+msgid "Edit with Elementor"
+msgstr "ایلیمینٹر کے ساتھ ترمیم کریں"
+
+#: includes/controls/groups/background.php:225
+#: includes/controls/groups/background.php:267
+msgctxt "Background Control"
+msgid "Position"
+msgstr "پوزیشن"
+
+#: includes/controls/groups/background.php:256
+msgctxt "Background Control"
+msgid "Background Image"
+msgstr "پس منظر تصویر"
+
+#: includes/controls/groups/background.php:250
+msgctxt "Background Control"
+msgid "Image"
+msgstr "تصویر"
+
+#: includes/controls/groups/background.php:136
+msgctxt "Background Control"
+msgid "Background Color"
+msgstr "پس منظر کا رنگ"
+
+#: includes/controls/groups/background.php:133
+msgctxt "Background Control"
+msgid "Color"
+msgstr "رنگ"
+
+#: includes/controls/groups/background.php:127
+msgctxt "Background Control"
+msgid "Background Type"
+msgstr "پس منظر کی قسم"
+
+#: includes/fonts.php:68
+msgid "Google"
+msgstr "گوگل"
+
+#: includes/controls/groups/background.php:554
+msgctxt "Background Control"
+msgid "Video Link"
+msgstr "ویڈیو کا لنک"
+
+#: includes/controls/groups/background.php:484
+msgctxt "Background Control"
+msgid "Auto"
+msgstr "خودکار"
+
+#: includes/controls/groups/background.php:478
+msgctxt "Background Control"
+msgid "Size"
+msgstr "سائز"
+
+#: includes/controls/groups/background.php:433
+msgctxt "Background Control"
+msgid "Fixed"
+msgstr "مقرر"
+
+#: includes/controls/groups/background.php:432
+msgctxt "Background Control"
+msgid "Scroll"
+msgstr "سکرول"
+
+#: includes/controls/groups/typography.php:140
+msgctxt "Typography Control"
+msgid "Weight"
+msgstr "وزن"
+
+#: includes/controls/groups/typography.php:106
+msgctxt "Typography Control"
+msgid "Family"
+msgstr "فیملی"
+
+#: includes/controls/groups/typography.php:113
+msgctxt "Typography Control"
+msgid "Size"
+msgstr "سائز"
+
+#: includes/controls/groups/border.php:88
+msgctxt "Border Control"
+msgid "Color"
+msgstr "رنگ"
+
+#: includes/controls/groups/border.php:76
+msgctxt "Border Control"
+msgid "Width"
+msgstr "چوڑائی"
+
+#: includes/widgets/divider.php:321 includes/widgets/icon-list.php:279
+msgid "Double"
+msgstr "دوہرا"
+
+#: includes/widgets/divider.php:320 includes/widgets/icon-list.php:278
+#: includes/widgets/star-rating.php:143
+msgid "Solid"
+msgstr "ٹھوس"
+
+#: includes/controls/groups/border.php:60
+msgctxt "Border Control"
+msgid "Border Type"
+msgstr "بارڈر کی قسم"
+
+#: includes/editor-templates/global.php:21
+msgid "Add New Section"
+msgstr "نیا سیکشن شامل کریں"
+
+#: core/admin/admin.php:174 includes/editor-templates/editor-wrapper.php:50
+#: includes/editor-templates/templates.php:50 modules/gutenberg/module.php:121
+#: assets/js/app-packages.js:10249
+#: assets/js/kit-library.d3688acfaab28676a99c.bundle.js:488
+msgid "Loading"
+msgstr "لوڈنگ"
+
+#. Plugin Name of the plugin
+#: core/admin/admin.php:224 core/admin/admin.php:336 core/admin/admin.php:394
+#: core/app/view.php:23 core/documents-manager.php:363
+#: core/upgrade/manager.php:36 includes/editor-templates/editor-wrapper.php:30
+#: includes/plugin.php:905 includes/settings/settings.php:75
+#: includes/settings/settings.php:76 includes/settings/settings.php:604
+#: modules/compatibility-tag/module.php:36 assets/js/app-packages.js:2848
+#: assets/js/app.js:2806
+msgid "Elementor"
+msgstr "ایلیمینٹر"
+
+#: includes/controls/repeater.php:172
+msgid "Add Item"
+msgstr "آئٹم شامل کریں"
+
+#: core/kits/views/trash-kit-confirmation.php:30
+#: includes/editor-templates/hotkeys.php:60
+#: includes/editor-templates/templates.php:185
+#: assets/js/editor-document.js:12553 assets/js/editor.js:6057
+#: assets/js/editor.js:9367 assets/js/editor.js:12847 assets/js/editor.js:14482
+#: assets/js/editor.js:32286
+msgid "Delete"
+msgstr "حذف کریں"
+
+#: includes/controls/icon.php:871 includes/controls/icon.php:872
+msgid "Select Icon"
+msgstr "آئکن منتخب کریں"
+
+#: includes/elements/section.php:290 includes/maintenance-mode.php:238
+#: includes/widgets/common.php:134 includes/widgets/common.php:563
+#: includes/widgets/common.php:624 includes/widgets/common.php:748
+#: includes/widgets/image-carousel.php:557
+#: includes/widgets/image-gallery.php:195 includes/widgets/social-icons.php:190
+#: includes/widgets/social-icons.php:348 modules/shapes/module.php:29
+#: assets/js/editor.js:29723
+msgid "Custom"
+msgstr "اپنی مرضی کا"
+
+#: includes/controls/groups/typography.php:207
+msgctxt "Typography Control"
+msgid "Letter Spacing"
+msgstr "الفاظ کا درمیانی فاصلہ"
+
+#: includes/controls/groups/typography.php:185
+msgctxt "Typography Control"
+msgid "Line-Height"
+msgstr "لکیر کی اونچائی"
+
+#: includes/controls/groups/typography.php:160
+msgctxt "Typography Control"
+msgid "Style"
+msgstr "سٹائل"
+
+#: core/schemes/base-ui.php:119 includes/controls/image-dimensions.php:102
+#: includes/editor-templates/panel.php:151
+#: modules/history/views/revisions-panel-template.php:18
+msgid "Apply"
+msgstr "لاگو کریں"
+
+#: core/schemes/base-ui.php:109 includes/controls/structure.php:65
+msgid "Reset"
+msgstr "ری سیٹ کریں"
+
+#: includes/editor-templates/hotkeys.php:75
+#: includes/editor-templates/templates.php:18
+#: includes/editor-templates/templates.php:19
+#: includes/editor-templates/templates.php:218
+#: includes/editor-templates/templates.php:229 assets/js/editor.js:1291
+msgid "Save"
+msgstr "محفوظ کریں"
+
+#: core/breakpoints/manager.php:298
+#: core/settings/editor-preferences/model.php:134
+#: includes/elements/section.php:1320
+#: assets/js/kit-library.d3688acfaab28676a99c.bundle.js:4133
+msgid "Tablet"
+msgstr "ٹیبلٹ"
+
+#: core/settings/editor-preferences/model.php:135
+#: includes/base/element-base.php:681 includes/editor-templates/panel.php:242
+#: assets/js/kit-library.d3688acfaab28676a99c.bundle.js:4126
+msgid "Desktop"
+msgstr "ڈیسک ٹاپ"
+
+#: includes/editor-templates/hotkeys.php:108
+#: includes/editor-templates/panel.php:78
+#: includes/editor-templates/panel.php:80
+msgid "Responsive Mode"
+msgstr "رسپانسو موڈ"
+
+#: includes/editor-templates/panel.php:59
+#: includes/editor-templates/panel.php:60
+msgid "Widgets Panel"
+msgstr "ویجٹس کا پینل"
+
+#: includes/editor-templates/panel-elements.php:34
+msgid "Search Widget..."
+msgstr "ویجٹ تلاش کریں"
+
+#: includes/managers/controls.php:299 includes/widgets/accordion.php:110
+#: includes/widgets/accordion.php:436 includes/widgets/alert.php:125
+#: includes/widgets/icon-box.php:456 includes/widgets/image-box.php:132
+#: includes/widgets/image-box.php:390 includes/widgets/tabs.php:112
+#: includes/widgets/tabs.php:388 includes/widgets/testimonial.php:95
+#: includes/widgets/testimonial.php:224 includes/widgets/toggle.php:111
+#: includes/widgets/toggle.php:463 assets/js/app-packages.js:9384
+#: assets/js/app.js:8696 assets/js/editor.js:19784
+msgid "Content"
+msgstr "مواد"
+
+#: core/schemes/color.php:66
+msgid "Colors"
+msgstr "رنگ"
+
+#: includes/elements/column.php:217 includes/elements/column.php:694
+#: includes/elements/section.php:1151 includes/widgets/button.php:172
+#: includes/widgets/common.php:801 includes/widgets/divider.php:456
+#: includes/widgets/divider.php:744 includes/widgets/divider.php:884
+#: includes/widgets/heading.php:184 includes/widgets/icon-box.php:472
+#: includes/widgets/icon-list.php:246 includes/widgets/icon-list.php:457
+#: includes/widgets/icon.php:175 includes/widgets/image-box.php:406
+#: includes/widgets/image-carousel.php:533
+#: includes/widgets/image-carousel.php:634
+#: includes/widgets/image-gallery.php:287 includes/widgets/image.php:142
+#: includes/widgets/image.php:535 includes/widgets/social-icons.php:305
+#: includes/widgets/star-rating.php:178 includes/widgets/tabs.php:175
+#: includes/widgets/tabs.php:205 includes/widgets/tabs.php:368
+#: includes/widgets/testimonial.php:194 includes/widgets/text-editor.php:196
+#: includes/widgets/video.php:796 modules/shapes/widgets/text-path.php:164
+msgid "Center"
+msgstr "درمیان"
+
+#: includes/elements/column.php:662 includes/elements/section.php:1119
+msgid "Link Color"
+msgstr "لنک کا رنگ"
+
+#: includes/elements/column.php:637 includes/elements/section.php:1094
+msgid "Heading Color"
+msgstr "سرخی کا رنگ"
+
+#: includes/elements/column.php:60
+msgid "Column"
+msgstr "کالم"
+
+#: includes/elements/column.php:868 includes/elements/section.php:1312
+#: includes/managers/controls.php:302 includes/widgets/common.php:1059
+msgid "Responsive"
+msgstr "رسپانسو"
+
+#: includes/elements/section.php:347 includes/elements/section.php:396
+msgid "Minimum Height"
+msgstr "کم سے کم اونچائی"
+
+#: includes/elements/section.php:337 includes/elements/section.php:386
+msgid "Min Height"
+msgstr "کم سے کم اونچائی"
+
+#: includes/controls/image-dimensions.php:100 includes/elements/section.php:331
+#: includes/elements/section.php:380 includes/elements/section.php:1018
+#: includes/widgets/google-maps.php:166 includes/widgets/icon-list.php:339
+#: includes/widgets/image.php:325 includes/widgets/progress.php:211
+msgid "Height"
+msgstr "اونچائی"
+
+#: includes/elements/section.php:288
+msgid "Wide"
+msgstr "چوڑائی"
+
+#: includes/elements/section.php:286
+msgid "Narrow"
+msgstr "تنگ"
+
+#: includes/elements/section.php:285
+msgid "No Gap"
+msgstr "کوئی فاصلہ نہیں"
+
+#: includes/elements/section.php:280 includes/widgets/text-editor.php:149
+msgid "Columns Gap"
+msgstr "کالم کا درمیانی فاصلہ"
+
+#: core/kits/documents/tabs/settings-layout.php:55
+#: includes/elements/section.php:245 includes/widgets/video.php:773
+msgid "Content Width"
+msgstr "مواد کی چوڑائی"
+
+#: includes/elements/section.php:250 includes/widgets/common.php:746
+#: includes/widgets/icon-list.php:195
+msgid "Full Width"
+msgstr "مکمل چوڑائی"
+
+#: includes/controls/image-dimensions.php:95 includes/elements/section.php:259
+#: includes/elements/section.php:989 includes/widgets/common.php:741
+#: includes/widgets/divider.php:421 includes/widgets/icon-list.php:321
+#: includes/widgets/image-box.php:248 includes/widgets/image.php:255
+#: modules/shapes/widgets/text-path.php:531
+#: modules/shapes/widgets/text-path.php:597
+msgid "Width"
+msgstr "چوڑائی"
+
+#: includes/elements/column.php:156
+msgid "Column Width"
+msgstr "کالم کی چوڑائی"
+
+#: modules/system-info/module.php:159
+msgid "Copy & Paste Info"
+msgstr "کاپی اور پیسٹ کی معلومات"
+
+#: includes/widgets/accordion.php:120
+msgid "Accordion Items"
+msgstr "اکارڈین کی آئٹمز"
+
+#: includes/widgets/image-carousel.php:135
+msgid "Slides to Scroll"
+msgstr "سکرول کرنے کے لئے سلائڈ"
+
+#: includes/widgets/image-carousel.php:119
+msgid "Slides to Show"
+msgstr "دکھانے کے لیے سلائیڈ"
+
+#: includes/widgets/video.php:631
+msgid "Aspect Ratio"
+msgstr "پہلو کا تناسب"
+
+#: includes/widgets/toggle.php:113
+msgid "Toggle Content"
+msgstr "مواد ٹوگل کریں"
+
+#: includes/widgets/toggle.php:100
+msgid "Toggle Title"
+msgstr "عنوان ٹوگل کریں"
+
+#: includes/widgets/toggle.php:124
+msgid "Toggle Items"
+msgstr "آئیٹمزٹوگل کریں"
+
+#: includes/widgets/tabs.php:113 includes/widgets/tabs.php:114
+msgid "Tab Content"
+msgstr "ٹیب کا مواد"
+
+#: includes/widgets/tabs.php:132
+msgid "Tab #2"
+msgstr "ٹیب #2"
+
+#: includes/widgets/tabs.php:128
+msgid "Tab #1"
+msgstr "ٹیب #1"
+
+#: includes/widgets/tabs.php:123
+msgid "Tabs Items"
+msgstr "ٹیب کی آئیٹمز"
+
+#: includes/widgets/tabs.php:46 includes/widgets/tabs.php:89
+#: includes/widgets/tabs.php:229
+msgid "Tabs"
+msgstr "ٹیب"
+
+#: includes/widgets/sidebar.php:89 includes/widgets/sidebar.php:109
+msgid "Choose Sidebar"
+msgstr "سائڈ بار منتخب کریں"
+
+#: includes/widgets/sidebar.php:87
+msgid "No sidebars were found"
+msgstr "کوئی سائڈ بار موجود نہیں"
+
+#: includes/widgets/menu-anchor.php:93
+msgid "The ID of Menu Anchor."
+msgstr "مینیو کے اینکر کی آئی ڈی"
+
+#: includes/widgets/google-maps.php:127
+msgid "London Eye, London, United Kingdom"
+msgstr "لندن آئی، لندن، برطانیہ"
+
+#: includes/widgets/counter.php:203 includes/widgets/counter.php:204
+msgid "Cool Number"
+msgstr "منفرد نمبر"
+
+#: includes/widgets/heading.php:148
+msgid "XXL"
+msgstr "XXL"
+
+#: includes/widgets/heading.php:147
+msgid "XL"
+msgstr "XL"
+
+#: includes/widgets/accordion.php:129
+msgid "Accordion #2"
+msgstr "اکارڈین #2"
+
+#: includes/widgets/accordion.php:125
+msgid "Accordion #1"
+msgstr "اکارڈین #1"
+
+#: includes/controls/groups/background.php:228
+#: includes/controls/groups/background.php:273
+#: includes/controls/groups/background.php:735
+msgctxt "Background Control"
+msgid "Center Center"
+msgstr "بلکل وسط میں"
+
+#: includes/controls/groups/background.php:230
+#: includes/controls/groups/background.php:275
+#: includes/controls/groups/background.php:737
+msgctxt "Background Control"
+msgid "Center Right"
+msgstr "وسط سے دائیں جانب"
+
+#: includes/controls/groups/background.php:229
+#: includes/controls/groups/background.php:274
+#: includes/controls/groups/background.php:736
+msgctxt "Background Control"
+msgid "Center Left"
+msgstr "وسط سے بائیں جانب"
+
+#: includes/controls/groups/background.php:233
+#: includes/controls/groups/background.php:278
+#: includes/controls/groups/background.php:740
+msgctxt "Background Control"
+msgid "Top Right"
+msgstr "اوپر سے دائیں جانب"
+
+#: includes/controls/groups/background.php:231
+#: includes/controls/groups/background.php:276
+#: includes/controls/groups/background.php:738
+msgctxt "Background Control"
+msgid "Top Center"
+msgstr "اوپر سے وسط میں"
+
+#: includes/controls/groups/background.php:232
+#: includes/controls/groups/background.php:277
+#: includes/controls/groups/background.php:739
+msgctxt "Background Control"
+msgid "Top Left"
+msgstr "اوپر سے بائیں جانب"
+
+#: includes/controls/groups/background.php:95
+msgctxt "Background Control"
+msgid "Classic"
+msgstr "کلاسک"
+
+#: modules/gutenberg/module.php:97
+msgid "&#8592; Back to WordPress Editor"
+msgstr "&#8592; ورڈپریس ایڈیٹر میں واپس جائیں"
+
+#: includes/controls/groups/typography.php:147
+msgctxt "Typography Control"
+msgid "Transform"
+msgstr "صورت بدلیں"
+
+#: includes/widgets/divider.php:323 includes/widgets/icon-list.php:281
+msgid "Dashed"
+msgstr "ڈیشڈ"
+
+#: includes/widgets/divider.php:322 includes/widgets/icon-list.php:280
+msgid "Dotted"
+msgstr "نقطہ دار"
+
+#: includes/controls/groups/background.php:634
+msgctxt "Background Control"
+msgid "Background Fallback"
+msgstr "پس منظر کے لئیے فال بیک"
+
+#: includes/controls/groups/background.php:485
+msgctxt "Background Control"
+msgid "Cover"
+msgstr "کور"
+
+#: includes/controls/groups/background.php:466
+msgctxt "Background Control"
+msgid "Repeat-y"
+msgstr "دائیں جانب دہرائیں"
+
+#: includes/controls/groups/background.php:465
+msgctxt "Background Control"
+msgid "Repeat-x"
+msgstr "نیچے کی جانب دہرائیں"
+
+#: includes/controls/groups/background.php:463
+msgctxt "Background Control"
+msgid "No-repeat"
+msgstr "مت دہرائیں"
+
+#: includes/controls/groups/background.php:457
+#: includes/controls/groups/background.php:464
+msgctxt "Background Control"
+msgid "Repeat"
+msgstr "دہرائیں"
+
+#: includes/controls/groups/background.php:427
+msgctxt "Background Control"
+msgid "Attachment"
+msgstr "منسلک فائل"
+
+#: includes/controls/groups/background.php:234
+#: includes/controls/groups/background.php:279
+#: includes/controls/groups/background.php:741
+msgctxt "Background Control"
+msgid "Bottom Center"
+msgstr "نیچے سے وسط کی جانب"
+
+#: includes/controls/groups/background.php:235
+#: includes/controls/groups/background.php:280
+#: includes/controls/groups/background.php:742
+msgctxt "Background Control"
+msgid "Bottom Left"
+msgstr "نیچے سے بائیں جانب"
+
+#: includes/controls/groups/background.php:236
+#: includes/controls/groups/background.php:281
+#: includes/controls/groups/background.php:743
+msgctxt "Background Control"
+msgid "Bottom Right"
+msgstr "نیچے سے دائیں جانب"
+
+#: includes/elements/column.php:674 includes/elements/section.php:1131
+msgid "Link Hover Color"
+msgstr "لنک ہور کا رنگ"
+
+#: core/kits/documents/tabs/theme-style-buttons.php:73
+#: core/kits/documents/tabs/theme-style-form-fields.php:90
+#: core/kits/documents/tabs/theme-style-form-fields.php:108
+#: core/kits/documents/tabs/theme-style-typography.php:19
+#: core/kits/documents/tabs/theme-style-typography.php:38
+#: core/kits/documents/tabs/theme-style-typography.php:68
+#: core/kits/documents/tabs/theme-style-typography.php:145
+#: core/kits/documents/tabs/theme-style-typography.php:175
+#: core/kits/documents/tabs/theme-style-typography.php:221
+#: core/schemes/typography.php:64 includes/elements/column.php:628
+#: includes/elements/section.php:1086 assets/js/editor-modules.js:2250
+#: assets/js/editor.js:25599
+msgid "Typography"
+msgstr "فن طباعت"
+
+#: includes/elements/section.php:78 modules/library/documents/section.php:42
+#: assets/js/editor.js:5905
+msgid "Section"
+msgstr "سیکشن"
+
+#: includes/elements/section.php:531 includes/elements/section.php:539
+msgid "Structure"
+msgstr "ڈھانچہ / بناوٹ"
+
+#: core/schemes/color.php:147
+msgid "More Palettes"
+msgstr "مزید پلیٹیں"
+
+#: core/schemes/color.php:134 core/schemes/color.php:289
+msgid "Color Palette"
+msgstr "رنگ کی پلیٹ"
+
+#: includes/controls/groups/typography.php:301
+msgctxt "Typography Control"
+msgid "Typography"
+msgstr "فن طباعت"
+
+#: includes/widgets/icon-list.php:164
+msgid "List Item #1"
+msgstr "فہرست کی آئٹم #1"
+
+#: includes/widgets/button.php:154 includes/widgets/icon-box.php:176
+#: includes/widgets/icon-list.php:152 includes/widgets/icon.php:160
+#: includes/widgets/image-box.php:153 includes/widgets/image-carousel.php:196
+#: includes/widgets/image.php:208 includes/widgets/social-icons.php:178
+#: includes/widgets/testimonial.php:160
+msgid "https://your-link.com"
+msgstr "https://your-link.com"
+
+#: core/schemes/typography.php:95
+msgid "Body Text"
+msgstr "باڈی ٹیکسٹ"
+
+#: core/schemes/typography.php:96
+msgid "Accent Text"
+msgstr "ایکسینٹ ٹیکسٹ"
+
+#: core/kits/documents/tabs/global-colors.php:93
+#: core/kits/documents/tabs/global-typography.php:144 core/schemes/color.php:98
+msgid "Accent"
+msgstr "ایکسینٹ"
+
+#: includes/elements/section.php:425
+msgid "Stretch"
+msgstr "کھینچیں"
+
+#: includes/elements/section.php:336 includes/elements/section.php:385
+msgid "Fit To Screen"
+msgstr "سکرین پر فٹ"
+
+#: includes/elements/section.php:249
+msgid "Boxed"
+msgstr "ایک ڈبے میں"
+
+#: core/document-types/page-base.php:132
+#: core/kits/documents/tabs/theme-style-buttons.php:244
+#: core/kits/documents/tabs/theme-style-form-fields.php:160
+#: includes/elements/column.php:739 includes/elements/section.php:1202
+#: includes/widgets/accordion.php:347 includes/widgets/accordion.php:488
+#: includes/widgets/button.php:440 includes/widgets/common.php:205
+#: includes/widgets/divider.php:822 includes/widgets/icon-box.php:390
+#: includes/widgets/icon.php:316 includes/widgets/social-icons.php:402
+#: includes/widgets/toggle.php:374 includes/widgets/toggle.php:515
+msgid "Padding"
+msgstr "پیڈنگ"
+
+#: includes/elements/column.php:727 includes/elements/section.php:1183
+#: includes/widgets/common.php:193
+msgid "Margin"
+msgstr "مارجن"
+
+#: includes/elements/column.php:686 includes/elements/section.php:1143
+msgid "Text Align"
+msgstr "متن کی سیدھ"
+
+#: includes/widgets/menu-anchor.php:86
+msgid "Anchor"
+msgstr "اینکر"
+
+#: includes/widgets/menu-anchor.php:43
+msgid "Menu Anchor"
+msgstr "مینیو کا اینکر"
+
+#: includes/widgets/image-box.php:45 includes/widgets/image-box.php:88
+msgid "Image Box"
+msgstr "تصویر کا ڈبہ"
+
+#: includes/widgets/social-icons.php:485
+msgid "Icon Hover"
+msgstr "آئکن ہوور"
+
+#: includes/widgets/accordion.php:245 includes/widgets/divider.php:939
+#: includes/widgets/icon-box.php:425 includes/widgets/icon.php:358
+#: includes/widgets/tabs.php:260 includes/widgets/text-editor.php:377
+#: includes/widgets/toggle.php:249
+msgid "Border Width"
+msgstr "بارڈر کی چوڑائی"
+
+#: includes/widgets/divider.php:794 includes/widgets/icon-box.php:112
+#: includes/widgets/icon.php:127 includes/widgets/text-editor.php:267
+msgid "Stacked"
+msgstr "سٹیکڈ"
+
+#: includes/widgets/icon-list.php:123 includes/widgets/icon-list.php:124
+msgid "List Item"
+msgstr "فہرست کی آئٹم"
+
+#: includes/widgets/icon-list.php:178
+msgid "List Item #3"
+msgstr "فہرست کی آئٹم نمبر 3"
+
+#: includes/widgets/icon-list.php:171
+msgid "List Item #2"
+msgstr "فہرست کی آئٹم نمبر 2"
+
+#: includes/widgets/video.php:544 includes/widgets/video.php:551
+msgid "Image Overlay"
+msgstr "تصیو کا اوور لے"
+
+#: modules/system-info/module.php:161
+msgid "You can copy the below info as simple text with Ctrl+C / Ctrl+V:"
+msgstr "آپ نیچے دی گئی معلومات کو سادہ متنکے طور پر کاپی کر سکتے ہیں: Ctrl+C / Ctrl+V:"
+
+#: includes/widgets/icon-list.php:517
+msgid "Text Indent"
+msgstr "ٹیکسٹ انڈینٹ"
+
+#: includes/widgets/menu-anchor.php:96
+msgid "This ID will be the CSS ID you will have to use in your own page, Without #."
+msgstr "یہ آئی ڈی CSS کی آئی ڈی ہوگی جسے آپکو اپنے صفحہ میں استعمال کرنا ہوگا، بنا # کے"
+
+#: includes/managers/elements.php:313
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/elements/column.php:778 includes/elements/section.php:1241
+#: includes/widgets/common.php:245
+msgid "CSS Classes"
+msgstr "سی ایسس ایسس کی کلاسیں"
+
+#: includes/widgets/audio.php:144 includes/widgets/image-carousel.php:257
+#: includes/widgets/video.php:277
+msgid "Autoplay"
+msgstr "خودبخود چلے"
+
+#: includes/managers/controls.php:300 includes/settings/settings.php:481
+#: includes/widgets/divider.php:363 includes/widgets/icon-list.php:275
+#: assets/js/editor.js:5190 assets/js/editor.js:19787
+msgid "Style"
+msgstr "انداز"
+
+#: includes/editor-templates/panel.php:54
+#: includes/editor-templates/panel.php:55
+msgid "Menu"
+msgstr "مینو"
+
+#: includes/widgets/image-gallery.php:118 includes/widgets/social-icons.php:272
+#: includes/widgets/text-editor.php:136
+msgid "Columns"
+msgstr "کالمز"
+
+#: includes/widgets/image-gallery.php:133
+msgid "Attachment Page"
+msgstr "منسلکہ صفحہ"
+
+#: includes/elements/column.php:502 includes/elements/section.php:809
+#: includes/widgets/common.php:381
+msgid "Border"
+msgstr "لکیریں"
+
+#: includes/controls/dimensions.php:88 includes/elements/column.php:188
+#: includes/elements/section.php:426 includes/elements/section.php:449
+#: includes/elements/section.php:949 includes/widgets/common.php:963
+#: includes/widgets/icon-box.php:193 includes/widgets/icon-box.php:496
+#: includes/widgets/image-box.php:170 includes/widgets/image-box.php:430
+#: includes/widgets/testimonial.php:172 includes/widgets/video.php:797
+msgid "Top"
+msgstr "اوپر"
+
+#: includes/controls/dimensions.php:90 includes/elements/column.php:190
+#: includes/elements/section.php:428 includes/elements/section.php:451
+#: includes/elements/section.php:950 includes/widgets/common.php:967
+#: includes/widgets/icon-box.php:498 includes/widgets/image-box.php:432
+msgid "Bottom"
+msgstr "نیچے"
+
+#: core/admin/admin.php:474
+msgid "Help"
+msgstr "مدد"
+
+#: includes/controls/switcher.php:74 includes/managers/icons.php:481
+#: includes/widgets/audio.php:126 includes/widgets/image-carousel.php:156
+#: includes/widgets/image-carousel.php:212
+#: includes/widgets/image-carousel.php:261
+#: includes/widgets/image-carousel.php:275
+#: includes/widgets/image-carousel.php:293
+#: includes/widgets/image-carousel.php:325
+#: includes/widgets/image-gallery.php:147 includes/widgets/image.php:224
+#: assets/js/editor.js:5800
+msgid "Yes"
+msgstr "جی ہاں"
+
+#: core/experiments/manager.php:304
+#: core/settings/editor-preferences/model.php:132
+#: includes/base/widget-base.php:265 includes/controls/animation.php:152
+#: includes/controls/font.php:66 includes/controls/groups/background.php:715
+#: includes/controls/groups/background.php:734
+#: includes/controls/groups/typography.php:132
+#: includes/controls/groups/typography.php:151
+#: includes/controls/groups/typography.php:164
+#: includes/controls/groups/typography.php:176
+#: includes/editor-templates/panel.php:213 includes/elements/column.php:187
+#: includes/elements/column.php:215 includes/elements/column.php:255
+#: includes/elements/section.php:284 includes/elements/section.php:335
+#: includes/elements/section.php:384 includes/elements/section.php:448
+#: includes/elements/section.php:476 includes/elements/section.php:512
+#: includes/settings/settings.php:577 includes/widgets/button.php:123
+#: includes/widgets/common.php:745 includes/widgets/common.php:839
+#: includes/widgets/divider.php:793 includes/widgets/heading.php:143
+#: includes/widgets/icon-box.php:111 includes/widgets/icon-list.php:100
+#: includes/widgets/icon.php:126 includes/widgets/image-carousel.php:122
+#: includes/widgets/image-carousel.php:139
+#: includes/widgets/image-carousel.php:211
+#: includes/widgets/image-carousel.php:556
+#: includes/widgets/image-gallery.php:146
+#: includes/widgets/image-gallery.php:162
+#: includes/widgets/image-gallery.php:194 includes/widgets/image.php:223
+#: includes/widgets/image.php:362 includes/widgets/progress.php:113
+#: includes/widgets/text-editor.php:131 includes/widgets/text-editor.php:266
+#: modules/page-templates/module.php:296
+#: modules/shapes/widgets/text-path.php:186 assets/js/editor.js:29714
+#: assets/js/editor.js:29726
+msgid "Default"
+msgstr "طےشدہ"
+
+#: includes/controls/switcher.php:73 includes/managers/icons.php:480
+#: includes/widgets/audio.php:127 includes/widgets/image-carousel.php:155
+#: includes/widgets/image-carousel.php:213
+#: includes/widgets/image-carousel.php:262
+#: includes/widgets/image-carousel.php:276
+#: includes/widgets/image-carousel.php:294
+#: includes/widgets/image-carousel.php:326
+#: includes/widgets/image-gallery.php:148 includes/widgets/image.php:225
+#: assets/js/editor.js:5801
+msgid "No"
+msgstr "جی نہیں "
+
+#: core/common/modules/finder/categories/settings.php:51
+#: core/dynamic-tags/tag.php:88 includes/elements/column.php:718
+#: includes/elements/section.php:1175 includes/managers/controls.php:301
+#: includes/settings/settings.php:530 includes/widgets/common.php:175
+#: assets/js/editor.js:5193 assets/js/editor.js:19790
+msgid "Advanced"
+msgstr "جدید ترین"
+
+#: core/kits/documents/tabs/settings-lightbox.php:99
+#: core/kits/documents/tabs/settings-lightbox.php:116
+#: includes/controls/animation.php:153 includes/controls/groups/border.php:63
+#: includes/controls/hover-animation.php:125 includes/controls/icons.php:108
+#: includes/controls/icons.php:110 includes/elements/section.php:941
+#: includes/widgets/divider.php:479 includes/widgets/image-carousel.php:171
+#: includes/widgets/image-carousel.php:184
+#: includes/widgets/image-carousel.php:228
+#: includes/widgets/image-gallery.php:134 includes/widgets/image.php:162
+#: includes/widgets/image.php:193
+msgid "None"
+msgstr "کچھ نہیں"
+
+#: includes/editor-templates/templates.php:172 assets/js/editor.js:19133
+msgid "Preview"
+msgstr "پیش منظر"
+
+#: includes/widgets/sidebar.php:42 includes/widgets/sidebar.php:102
+msgid "Sidebar"
+msgstr "سائیڈ بار"
+
+#: core/kits/documents/tabs/settings-lightbox.php:101
+#: core/kits/documents/tabs/settings-lightbox.php:118
+#: includes/widgets/image-carousel.php:224
+#: includes/widgets/image-carousel.php:230
+#: includes/widgets/image-carousel.php:615
+#: includes/widgets/image-gallery.php:255 includes/widgets/image.php:159
+#: includes/widgets/image.php:516
+msgid "Caption"
+msgstr "عنوان"
+
+#: includes/controls/dimensions.php:91 includes/elements/column.php:690
+#: includes/elements/section.php:1147 includes/widgets/button.php:168
+#: includes/widgets/common.php:848 includes/widgets/common.php:849
+#: includes/widgets/divider.php:452 includes/widgets/divider.php:740
+#: includes/widgets/divider.php:880 includes/widgets/heading.php:180
+#: includes/widgets/icon-box.php:189 includes/widgets/icon-box.php:468
+#: includes/widgets/icon-list.php:242 includes/widgets/icon-list.php:453
+#: includes/widgets/icon.php:171 includes/widgets/image-box.php:166
+#: includes/widgets/image-box.php:402 includes/widgets/image-carousel.php:367
+#: includes/widgets/image-carousel.php:630
+#: includes/widgets/image-gallery.php:283 includes/widgets/image.php:138
+#: includes/widgets/image.php:531 includes/widgets/social-icons.php:301
+#: includes/widgets/star-rating.php:174 includes/widgets/tabs.php:364
+#: includes/widgets/testimonial.php:190 includes/widgets/text-editor.php:192
+#: modules/shapes/widgets/text-path.php:160
+msgid "Left"
+msgstr "بائیں"
+
+#: includes/controls/dimensions.php:89 includes/elements/column.php:698
+#: includes/elements/section.php:1155 includes/widgets/button.php:176
+#: includes/widgets/common.php:848 includes/widgets/common.php:849
+#: includes/widgets/divider.php:460 includes/widgets/divider.php:748
+#: includes/widgets/divider.php:888 includes/widgets/heading.php:188
+#: includes/widgets/icon-box.php:197 includes/widgets/icon-box.php:476
+#: includes/widgets/icon-list.php:250 includes/widgets/icon-list.php:461
+#: includes/widgets/icon.php:179 includes/widgets/image-box.php:174
+#: includes/widgets/image-box.php:410 includes/widgets/image-carousel.php:368
+#: includes/widgets/image-carousel.php:638
+#: includes/widgets/image-gallery.php:291 includes/widgets/image.php:146
+#: includes/widgets/image.php:539 includes/widgets/social-icons.php:309
+#: includes/widgets/star-rating.php:182 includes/widgets/tabs.php:372
+#: includes/widgets/testimonial.php:198 includes/widgets/text-editor.php:200
+#: modules/shapes/widgets/text-path.php:168
+msgid "Right"
+msgstr "دائیں"
+
+#: includes/widgets/accordion.php:372 includes/widgets/button.php:164
+#: includes/widgets/divider.php:448 includes/widgets/heading.php:176
+#: includes/widgets/icon-box.php:464 includes/widgets/icon-list.php:238
+#: includes/widgets/icon-list.php:449 includes/widgets/icon.php:167
+#: includes/widgets/image-box.php:398 includes/widgets/image-carousel.php:626
+#: includes/widgets/image-gallery.php:279 includes/widgets/image.php:134
+#: includes/widgets/image.php:527 includes/widgets/social-icons.php:297
+#: includes/widgets/star-rating.php:170 includes/widgets/tabs.php:167
+#: includes/widgets/tabs.php:197 includes/widgets/tabs.php:360
+#: includes/widgets/testimonial.php:185 includes/widgets/text-editor.php:188
+#: includes/widgets/toggle.php:399 modules/shapes/widgets/text-path.php:155
+msgid "Alignment"
+msgstr "رخ"
+
+#: includes/widgets/spacer.php:42 includes/widgets/spacer.php:101
+msgid "Spacer"
+msgstr "اسپیسر"
+
+#: includes/elements/section.php:1342
+msgid "Visibility"
+msgstr "ظاہری"
+
+#: includes/widgets/image-box.php:161 includes/widgets/testimonial.php:167
+msgid "Image Position"
+msgstr "تصویر کا مقام"
+
+#: includes/widgets/testimonial.php:280
+msgid "Image Size"
+msgstr "تصویر کا ناپ"
+
+#: core/kits/documents/tabs/settings-lightbox.php:163
+#: core/kits/documents/tabs/theme-style-buttons.php:99
+#: core/kits/documents/tabs/theme-style-buttons.php:174
+#: core/kits/documents/tabs/theme-style-form-fields.php:177
+#: core/kits/documents/tabs/theme-style-typography.php:56
+#: includes/elements/column.php:650 includes/elements/section.php:1107
+#: includes/widgets/alert.php:221 includes/widgets/alert.php:261
+#: includes/widgets/button.php:315 includes/widgets/button.php:357
+#: includes/widgets/counter.php:230 includes/widgets/counter.php:273
+#: includes/widgets/heading.php:225 includes/widgets/icon-list.php:490
+#: includes/widgets/image-carousel.php:656
+#: includes/widgets/image-gallery.php:312 includes/widgets/image.php:557
+#: includes/widgets/progress.php:283 includes/widgets/star-rating.php:213
+#: includes/widgets/testimonial.php:232 includes/widgets/testimonial.php:330
+#: includes/widgets/testimonial.php:375 includes/widgets/text-editor.php:217
+msgid "Text Color"
+msgstr "ٹیکسٹ کارنگ"
+
+#: core/kits/documents/tabs/settings-lightbox.php:130
+#: core/kits/documents/tabs/theme-style-form-fields.php:189
+#: includes/widgets/alert.php:172 includes/widgets/image.php:572
+#: includes/widgets/progress.php:200 includes/widgets/tabs.php:291
+#: includes/widgets/video.php:739
+msgid "Background Color"
+msgstr "پس منظر رنگ"
+
+#: includes/widgets/image-carousel.php:164
+#: includes/widgets/image-carousel.php:378
+msgid "Navigation"
+msgstr "نیویگیشن "
+
+#: core/kits/documents/tabs/settings-layout.php:24
+#: includes/elements/column.php:113 includes/elements/section.php:227
+#: includes/managers/controls.php:303 includes/widgets/icon-list.php:95
+#: assets/js/editor.js:19793
+msgid "Layout"
+msgstr "لےآؤٹ"
+
+#. translators: %s: PHP version.
+#: elementor.php:81
+msgid "Elementor requires PHP version %s+, plugin is currently NOT RUNNING."
+msgstr "Elementor کو PHP کا ورژن %s+ درکارہے، پلگ ان فی الحال غیر فعال ہے۔"
+
+#: core/schemes/base-ui.php:115
+#: modules/history/views/revisions-panel-template.php:13
+#: assets/js/editor.js:1292
+msgid "Discard"
+msgstr "مسترد کریں"
+
+#: core/kits/documents/tabs/settings-lightbox.php:103
+#: core/kits/documents/tabs/settings-lightbox.php:113
+#: core/kits/documents/tabs/settings-lightbox.php:120
+#: includes/compatibility.php:176 includes/widgets/alert.php:253
+#: includes/widgets/icon-box.php:568 includes/widgets/image-box.php:502
+#: includes/widgets/image-carousel.php:231
+msgid "Description"
+msgstr "تفصیل"

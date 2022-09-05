@@ -1,0 +1,39 @@
+/* Dashboard Widgets Suite - Dashboard Styles */
+
+.wp-admin .dws-subtitle {
+	color: #ccc; font-size: 90%; font-weight: lighter; display: none;
+	}
+.wp-admin .widget ul {
+	margin: 10px 0; padding: 0 0 0 30px; list-style: square outside;
+	}
+.wp-admin .widget ol {
+	margin: 10px 0; padding: 0 0 0 30px; list-style-position: outside;
+	}
+.wp-admin .dws-widget-settings, 
+.wp-admin .dws-widget-settings .fa-cog {
+	float: right; width: 18px; height: 16px; margin: 0 -4px 0 0; padding: 2px 0 0 0; 
+	line-height: 16px; font-size: 16px; color: #ccc; text-align: center; text-decoration: none;
+	}
+.wp-admin .dws-widget-settings .fa-cog { margin: 0; padding: 0; }
+
+.wp-admin .dws-hidden {
+	display: none;
+	}
+.wp-admin .dws-color-good {
+	color: #339900;
+	}
+.wp-admin .dws-color-fair {
+	color: #ff9933;
+	}
+.wp-admin .dws-color-warn {
+	color: #dcb66b;
+	}
+.wp-admin .dws-color-poor {
+	color: #cc3300;
+	}
+.wp-admin .dws-color-grey {
+	color: #999;
+	}
+.dws-dashboard-widget input[type=checkbox] { margin: 0; }
+.dws-dashboard-widget input[type=checkbox] + label { margin: 0 0 0 3px; }
+.dws-dashboard-widget ul, .dws-dashboard-widget ol { margin-left: 5px; }

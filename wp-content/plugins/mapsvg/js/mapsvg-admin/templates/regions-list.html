@@ -1,0 +1,85 @@
+<script type="text/x-handlebars-template" data-name="main">
+    <!--<div class="table-responsive">-->
+        <table class="table mapsvg-data-list-table" id="mapsvg-regions-list-table">
+            <thead>
+            <tr>
+                {{#each fields}}
+                    <th>{{name}}</th>
+                {{/each}}
+                <th style="width: 40px;"></th>
+            </tr>
+            </thead>
+            <tbody>
+            {{#each data}}
+                {{>regionsListItemPartial fields=../fields params=this}}
+            {{/each}}
+            </tbody>
+        </table>
+    <!--</div>-->
+</script>
+
+<script type="text/x-handlebars-template" data-name="item" data-partial="true">
+    <tr id="mapsvg-region-{{spacesToUnderscores id}}" data-region-id="{{id}}" class="mapsvg-data-row">
+        {{#each fields}}
+            {{#switch type}}
+                {{#case "image" break=true}}
+                    <td>{{getThumbs ../params name}}</td>
+                {{/case}}
+                {{#case "location" break=true}}
+                    <td style="max-width: 170px;">{{getMarkerImage ../params name}}</td>
+                {{/case}}
+                {{#case "text" break=true}}
+                    <td>{{lookup ../params name}}</td>
+                {{/case}}
+                {{#case "textarea" break=true}}
+                    <td>{{lookup ../params name}}</td>
+                {{/case}}
+                {{#case "status" break=true}}
+                    <td class="mapsvg-status">
+                        <div class="dropdown">
+                            <button type="button" id="dLabel" class="btn btn-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="mapsvg-status-text">{{getStatusText optionsDict ../params name}}</span> <span class="caret"></span></button>
+                            <ul class="dropdown-menu" aria-labelledby="dLabel">
+                                {{#each options}}
+                                <li><a href="#" data-set-status="{{value}}">{{label}}</a></li>
+                                {{/each}}
+                            </ul>
+                        </div>
+                    </td>
+                {{/case}}
+                {{#case "checkbox" break=true}}
+                    <td>{{lookup ../params name}}</td>
+                {{/case}}
+                {{#case "post" break=true}}
+                    <td>
+                        {{lookup ../params name}}
+                    </td>
+                {{/case}}
+                {{#case "select" break=true}}
+                    <td>
+                        {{#ifjson ../params name}}
+                            {{getSelectedOptions ../params name}}
+                        {{/ifjson}}
+                        {{#ifnotjson ../params name}}
+                            {{getLabel optionsDict ../params name}}
+                        {{/ifnotjson}}
+                    </td>
+                {{/case}}
+                {{#case "radio" break=true}}
+                    <td>
+                        {{#ifjson ../params name}}
+                        {{getSelectedOptions ../params name}}
+                        {{/ifjson}}
+                        {{#ifnotjson ../params name}}
+                        {{getLabel optionsDict ../params name}}
+                        {{/ifnotjson}}
+                    </td>
+                {{/case}}
+                {{#default break=true}}<td>{{lookup ../params name}}</td>{{/default}}
+            {{/switch}}
+        {{/each}}
+        <td>
+            <button class="btn btn-default btn-sm region-cpicker toggle-tooltip" title="Color" style="background: {{fill}}"><i class="fa fa-paint-brush"></i></button>
+        </td>
+
+    </tr>
+</script>

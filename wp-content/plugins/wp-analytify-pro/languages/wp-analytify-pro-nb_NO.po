@@ -1,0 +1,1295 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Analytify Pro\n"
+"POT-Creation-Date: 2017-03-02 12:01+0500\n"
+"PO-Revision-Date: 2017-03-02 12:01+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wp-analytify-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/analytifypro_base.php:34 classes/analytifypro_base.php:41
+#: classes/analytifypro_base.php:48 classes/analytifypro_base.php:55
+#: classes/analytifypro_base.php:62
+msgctxt "Delete license"
+msgid "Remove"
+msgstr "Fjern"
+
+#: classes/analytifypro_base.php:219 classes/analytifypro_base.php:293
+#: classes/analytifypro_base.php:367 classes/analytifypro_base.php:440
+#: classes/analytifypro_base.php:513
+#, php-format
+msgid ""
+"<strong>Activate Your License</strong> &mdash; Please <a href=\"%s\" class="
+"\"\">enter your license key</a> to enable priority support and plugin "
+"updates."
+msgstr ""
+
+#: classes/analytifypro_base.php:240 classes/analytifypro_base.php:314
+#: classes/analytifypro_base.php:388 classes/analytifypro_base.php:461
+#: classes/analytifypro_base.php:534
+msgid "Your License Has Expired"
+msgstr "Din lisens har utgått"
+
+#: classes/analytifypro_base.php:241 classes/analytifypro_base.php:315
+#: classes/analytifypro_base.php:389 classes/analytifypro_base.php:462
+#: classes/analytifypro_base.php:535
+#, php-format
+msgid "Login to <a href=\"%s\">My Account</a> to renew. "
+msgstr ""
+
+#: classes/analytifypro_base.php:245 classes/analytifypro_base.php:319
+#: classes/analytifypro_base.php:393 classes/analytifypro_base.php:466
+#: classes/analytifypro_base.php:539
+msgid "Updates are only available to those with an active license. "
+msgstr "Oppdateringer er kun tilgjengelig til de med en aktiv lisens. "
+
+#: classes/analytifypro_base.php:246 classes/analytifypro_base.php:320
+#: classes/analytifypro_base.php:394 classes/analytifypro_base.php:467
+#: classes/analytifypro_base.php:540
+msgid "Only active licenses can submit support requests. "
+msgstr "Bare aktive lisenser kan sende inn forespørsler om støtte."
+
+#: classes/analytifypro_base.php:247 classes/analytifypro_base.php:321
+#: classes/analytifypro_base.php:395 classes/analytifypro_base.php:468
+#: classes/analytifypro_base.php:541
+msgid ""
+"All features will continue to work, but you won't be able to receive updates "
+"or email support. "
+msgstr ""
+"Alle funksjoner vil fortsette å fungere, men du vil ikke motta oppdateringer "
+"eller brukerstøtte."
+
+#: classes/analytifypro_base.php:259 classes/analytifypro_base.php:333
+#: classes/analytifypro_base.php:407 classes/analytifypro_base.php:480
+#: classes/analytifypro_base.php:553
+#, php-format
+msgid ""
+"<strong>No Activations Left</strong> &mdash; Please visit <a href=\"%s\" "
+"target=\"_blank\">My Account</a> to upgrade your license or deactivate a "
+"previous activation."
+msgstr ""
+
+#: classes/analytifypro_base.php:262 classes/analytifypro_base.php:336
+#: classes/analytifypro_base.php:410 classes/analytifypro_base.php:483
+#: classes/analytifypro_base.php:556
+#, php-format
+msgid ""
+"<strong>Your License Was Not Found</strong> &mdash; Please visit <a href=\"%s"
+"\" target=\"_blank\">My Account</a> to double check your license key."
+msgstr ""
+
+#: classes/analytifypro_base.php:265 classes/analytifypro_base.php:339
+#: classes/analytifypro_base.php:413 classes/analytifypro_base.php:486
+#: classes/analytifypro_base.php:559
+msgid "<strong>Your License Was Not Found</strong> &mdash; "
+msgstr ""
+
+#: classes/analytifypro_base.php:270 classes/analytifypro_base.php:344
+#: classes/analytifypro_base.php:418 classes/analytifypro_base.php:491
+#: classes/analytifypro_base.php:564
+#, php-format
+msgid ""
+"<strong>An Unexpected Error Occurred</strong> &mdash; Please contact us at "
+"<a href=\"%1$s\">%2$s</a> and quote the following:"
+msgstr ""
+
+#: classes/analytifypro_base.php:702 classes/class-wp-analytify-pro.php:2410
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Update Available %4$s &mdash; %9$s %10$s is now available. "
+"You currently have %11$s installed.  %5$s Changelog %6$s  %7$s %8$s"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:219
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Activate Your License %4$s &mdash; Please %5$senter your "
+"license key%6$s to enable support and plugin updates. %7$s %8$s"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:222
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Activate Your License %4$s &mdash; Please click on %5$s "
+"Activate License button %6$s to validate your license. %7$s %8$s"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:225
+#, php-format
+msgid ""
+"%1$s %2$s %3$s License Expired %4$s &mdash; Upgrade your license to enable "
+"support and plugin updates. Would you please checkout %5$s what we have "
+"improved %6$s so far ? %7$s %8$s"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:228
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Invalid License %4$s &mdash; Please %5$senter a valid license "
+"key%6$s to enable support and plugin updates. %7$s %8$s"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:239
+msgid "Dashboards"
+msgstr "Kontrollpaneler"
+
+#: classes/class-wp-analytify-pro.php:241
+msgid "REAL TIME"
+msgstr "SANNTID"
+
+#: classes/class-wp-analytify-pro.php:337
+msgid "Top Ajax Errors"
+msgstr "AJAX feil"
+
+#: classes/class-wp-analytify-pro.php:355
+msgid "List of the ajax errors."
+msgstr "Liste over alle Ajax feil"
+
+#: classes/class-wp-analytify-pro.php:370
+msgid "Top 404 Pages Errors"
+msgstr "404 feil"
+
+#: classes/class-wp-analytify-pro.php:388
+msgid "List of the 404 errors."
+msgstr "Liste over alle 404 feil"
+
+#: classes/class-wp-analytify-pro.php:403
+msgid "Top Javascript Errors"
+msgstr "Javascript feil"
+
+#: classes/class-wp-analytify-pro.php:421
+msgid "List of the Javascript errors."
+msgstr "Liste over alle Javascript feil"
+
+#: classes/class-wp-analytify-pro.php:518
+msgid "Thank you!"
+msgstr "Tusen takk!"
+
+#: classes/class-wp-analytify-pro.php:521
+msgid ""
+"We appreciate you to upgrade to Pro version and supporting the development "
+"of this product."
+msgstr "Vi setter pris på at du støtter videre utvikling av dette produktet."
+
+#: classes/class-wp-analytify-pro.php:526
+msgid "made with ♥ by"
+msgstr "laget med ♥ av"
+
+#: classes/class-wp-analytify-pro.php:635
+#: classes/class-wp-analytify-pro.php:2443
+msgid "Front"
+msgstr "Front"
+
+#: classes/class-wp-analytify-pro.php:639
+#: classes/class-wp-analytify-pro.php:2456
+msgid "License"
+msgstr "Lisens"
+
+#: classes/class-wp-analytify-pro.php:801
+msgid ""
+"Enter your license key(s). It is important to have a valide license for "
+"automatic plugin updates and support. After adding license key, press "
+"Activate license button."
+msgstr ""
+"Skriv inn din lisensnøkkel. Det er viktig at du har en gyldig nøkkel for "
+"oppdateringer og brukerstøtte. Klikk på aktiver etter du hagt lagt inn "
+"nøkkelen."
+
+#: classes/class-wp-analytify-pro.php:807
+msgid "Analytify PRO (License Key):"
+msgstr "Analytify PRO (Lisensnøkkel):"
+
+#: classes/class-wp-analytify-pro.php:823
+msgid "Activate License"
+msgstr "Aktiver lisens"
+
+#: classes/class-wp-analytify-pro.php:1059
+#, php-format
+msgid "%1$s Fetching Analytics from %2$s to %3$s %4$s"
+msgstr "%1$s Henter Analytics fra %2$s til %3$s %4$s"
+
+#: classes/class-wp-analytify-pro.php:1167
+#, php-format
+msgid "%1$s Settings %2$s | %3$s Dashboard %4$s | %5$s Help %6$s"
+msgstr "%1$s Innstillinger %2$s | %3$s Kontrollpanel %4$s | %5$s Hjelp %6$s"
+
+#: classes/class-wp-analytify-pro.php:1189
+#, php-format
+msgid "%1$s Getting Started %2$s"
+msgstr "%1$s Kom i gang %2$s"
+
+#: classes/class-wp-analytify-pro.php:1190
+#, php-format
+msgid "%1$s Add Ons %2$s"
+msgstr "%1$s Utvidelser %2$s"
+
+#: classes/class-wp-analytify-pro.php:1260
+#, php-format
+msgid ""
+"Analytify is not active. Please %1$sAuthenticate%2$s in order to get started "
+"using this plugin."
+msgstr ""
+"Analytify er ikke aktiv. Vennligst %1$sautentifiser%2$s før du kan benytte "
+"denne utvidelsen."
+
+#: classes/class-wp-analytify-pro.php:1264
+#, php-format
+msgid "%1$s Google Analytics Profile is not set. Set the %2$s Profile %3$s"
+msgstr "%1$s Google Analytics Profile er ikke valgt. Velg en %2$s profil %3$s"
+
+#: classes/class-wp-analytify-pro.php:2311
+#, php-format
+msgid "There is a new version of %s available."
+msgstr "Det er en ny versjon av %s tilgjengelig"
+
+#: classes/class-wp-analytify-pro.php:2313
+#, php-format
+msgid "View version %s details"
+msgstr "Se versjon %s detaljer"
+
+#: classes/class-wp-analytify-pro.php:2321
+msgctxt "Plugin configuration and preferences"
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: classes/class-wp-analytify-pro.php:2323
+#, php-format
+msgid ""
+"To update, go to %1$s and enter your license key. If you don't have a "
+"license key, you may <a href=\"%2$s\">purchase one</a>."
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2325
+#, php-format
+msgid ""
+"To finish activating %1$s, please go to %2$s and enter your license key. If "
+"you don't have a license key, you may <a href=\"%3$s\">purchase one</a>."
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2328
+msgid "Check my license again"
+msgstr "Sjekk min lisens igjen"
+
+#: classes/class-wp-analytify-pro.php:2444
+msgid ""
+"Following are the settings for front-end side. Google Analytics will appear "
+"under the posts, custom post types or pages at front-end."
+msgstr ""
+"Følgende innstillinger gjelder for nettsiden. Google Analytics vises under "
+"innlegg og tilpassede innleggstyper."
+
+#: classes/class-wp-analytify-pro.php:2449
+#: views/default/admin/detail-realtime-stats.php:21
+msgid "Dashboard"
+msgstr "Kontrollpanel"
+
+#: classes/class-wp-analytify-pro.php:2471
+msgid "Disable front-end"
+msgstr "Disable front-end"
+
+#: classes/class-wp-analytify-pro.php:2472
+msgid ""
+"Check it, if you don't want to load Analytics at all. Remember, you can use "
+"Shortcodes still."
+msgstr ""
+"Huk av denne hvis du ikke ønsker å laste Analytics. Shortcodes kan fremdeles "
+"benyttes. "
+
+#: classes/class-wp-analytify-pro.php:2486
+msgid "Analytics on Post types"
+msgstr "Analytics på innleggstyper"
+
+#: classes/class-wp-analytify-pro.php:2487
+msgid "Show Analytics under the above post types only."
+msgstr "Vis Analytics kun på de valgte innleggstypene"
+
+#: classes/class-wp-analytify-pro.php:2495
+msgid "Front-end Analytics panels:"
+msgstr "Analytics paneler for nettsiden:"
+
+#: classes/class-wp-analytify-pro.php:2496
+msgid "Select which Stats panels you want to display at front-end."
+msgstr "Velg hvilke statistikkpaneler du ønsker skal vises på nettsiden. "
+
+#: classes/class-wp-analytify-pro.php:2501
+msgid "Country Stats"
+msgstr "Statistikk for land"
+
+#: classes/class-wp-analytify-pro.php:2504
+msgid "Browser Stats"
+msgstr "Statistikk for nettlesere"
+
+#: classes/class-wp-analytify-pro.php:2506
+msgid "Mobile devices Stats"
+msgstr "Statistikk for mobile enheter"
+
+#: classes/class-wp-analytify-pro.php:2507
+msgid "Operating System Stats"
+msgstr "Statistikk for operativsystem"
+
+#: classes/class-wp-analytify-pro.php:2508
+msgid "City Stats"
+msgstr "Statistikk for byer"
+
+#: classes/class-wp-analytify-pro.php:2514
+msgid ""
+"Enter ID's of posts or pages separated by commas on which you don't want to "
+"show Analytics e.g 11,45,66"
+msgstr ""
+"Skriv inn ID-er av innlegg eller sider adskilt med komme som du ønsker ikke "
+"skal vise Analytics f.eks 11,45,66"
+
+#: classes/class-wp-analytify-pro.php:2524
+msgid "Delete Cache:"
+msgstr "Slett cache:"
+
+#: classes/class-wp-analytify-pro.php:2525
+msgid ""
+"Analytify dashboard (except Real Time Stats) is saving results for 20 hours. "
+"If you want to fetch the current stats, Enable this check and Press 'Save "
+"Changes' below."
+msgstr ""
+"Analytify dashbordet (unntatt sanntids statistikk) lagrer resultater i 20 "
+"timer. Hvis du ønsker å hente gjeldende statistikk, hak av denne og trykk "
+"“Lagre endringer” nedenfor."
+
+#: classes/class-wp-analytify-pro.php:2531
+msgid "Show Analytify Dashboard to above selected user roles only."
+msgstr "Vis Analytify dashbordet kun til de valgte brukerrollene. "
+
+#: classes/class-wp-analytify-pro.php:2539
+msgid "Dashboard Analytics panels:"
+msgstr "Dashbord for Anlytics paneler:"
+
+#: classes/class-wp-analytify-pro.php:2544
+#: views/default/admin/detail-realtime-stats.php:34
+msgid "RealTime Stats"
+msgstr "Sanntids statistikk"
+
+#: classes/class-wp-analytify-pro.php:2545
+msgid "Comparison Stats"
+msgstr "Sammenlignet statistikk"
+
+#: classes/class-wp-analytify-pro.php:2547
+msgid "Top Pages Stats"
+msgstr "Statistikk for mest populære sider"
+
+#: classes/class-wp-analytify-pro.php:2553
+msgid "Page entrance and exit stats"
+msgstr "Side flukt- og utgangs statistikk"
+
+#: inc/analytify-widgets.php:9
+msgid "Analytify Live Stats"
+msgstr "Analytify sanntids statistikk"
+
+#: inc/analytify-widgets.php:10
+msgid "It shows Live Stats of your site."
+msgstr "Viser sanntidsdata for nettsiden"
+
+#: inc/analytify-widgets.php:28
+msgid "Title"
+msgstr "Tittel"
+
+#: inc/analytify-widgets.php:33
+msgid "Description:"
+msgstr "Beskrivelse:"
+
+#: inc/front-menus.php:20
+msgid "Top Countries"
+msgstr "Land"
+
+#: inc/front-menus.php:29 views/old/front/city-stats.php:7
+msgid "Top Cities"
+msgstr "Byer"
+
+#: inc/front-menus.php:38
+msgid "Top Operating Systems"
+msgstr "Best brukte operativsystemer"
+
+#: inc/front-menus.php:56
+msgid "Top Keywords"
+msgstr "Best brukte søkeord"
+
+#: inc/front-menus.php:65
+msgid "SOCIAL MEDIA STATiStics"
+msgstr "Statistikk for sosiale medier"
+
+#: inc/front-menus.php:73
+msgid "TOP BROWSERS"
+msgstr "Mest brukte nettlesere"
+
+#: inc/shortcode.php:3
+msgid ""
+"Select metrics and dimensions, sort them with metrics and show stats to your "
+"visitors (roles)."
+msgstr ""
+"Velg beregninger og dimensjoner, sortere dem med beregninger og vis data til "
+"følgende brukerroller:"
+
+#: inc/shortcode.php:8
+msgid "Metrics: "
+msgstr "Beregning"
+
+#: inc/shortcode.php:9
+msgid "Select at least one Metric"
+msgstr "Velg minst en beregning"
+
+#: inc/shortcode.php:10 inc/shortcode.php:40
+msgid "user"
+msgstr "bruker"
+
+#: inc/shortcode.php:11
+msgid "Users"
+msgstr "Brukere"
+
+#: inc/shortcode.php:13 inc/shortcode.php:110
+msgid "Percent New Sessions"
+msgstr "Prosent nye økter"
+
+#: inc/shortcode.php:15
+msgid "Session"
+msgstr "Økt"
+
+#: inc/shortcode.php:17 inc/shortcode.php:111
+msgid "Bounces"
+msgstr "Flukt"
+
+#: inc/shortcode.php:19
+msgid "sessionDuration"
+msgstr "Økt varighet"
+
+#: inc/shortcode.php:20
+msgid "Avg SessionDuration"
+msgstr "Gjennomsnittlig økt varighet"
+
+#: inc/shortcode.php:21 inc/shortcode.php:113
+#: views/default/admin/404-error.php:14 views/default/admin/ajax-error.php:13
+#: views/default/admin/javascript-error.php:13
+msgid "Hits"
+msgstr "Treff"
+
+#: inc/shortcode.php:23 inc/shortcode.php:72
+msgid "Page Tracking"
+msgstr "Sidesporing"
+
+#: inc/shortcode.php:24 inc/shortcode.php:114
+msgid "Page Value"
+msgstr "Sideverdi"
+
+#: inc/shortcode.php:25 inc/shortcode.php:115
+msgid "Entrances"
+msgstr "Innganger"
+
+#: inc/shortcode.php:26 inc/shortcode.php:116
+msgid "Pageviews"
+msgstr "Sidevisninger"
+
+#: inc/shortcode.php:27 inc/shortcode.php:117
+msgid "Unique Pageviews"
+msgstr "Unike sidevisninger"
+
+#: inc/shortcode.php:28 inc/shortcode.php:118
+msgid "Exits"
+msgstr "Utganger"
+
+#: inc/shortcode.php:29
+msgid "Exit Rate"
+msgstr "Utgangsfrekvens"
+
+#: inc/shortcode.php:30 inc/shortcode.php:121
+msgid "Entrance Rate"
+msgstr "Inngangsfrekvens"
+
+#: inc/shortcode.php:31 inc/shortcode.php:120
+msgid "Pageviews Per Session"
+msgstr "Sidevisninger per økt"
+
+#: inc/shortcode.php:32 inc/shortcode.php:122
+msgid "Time On Page"
+msgstr "Øktvarighet"
+
+#: inc/shortcode.php:33
+msgid "Avg Time On Page"
+msgstr "Gjennomsnittlig øktvarighet"
+
+#: inc/shortcode.php:38
+msgid "Dimensions: "
+msgstr "Dimensjoner:"
+
+#: inc/shortcode.php:39
+msgid "Select at least one Dimension"
+msgstr "Velg minst en dimensjon"
+
+#: inc/shortcode.php:41
+msgid "User Type"
+msgstr "Brukertype"
+
+#: inc/shortcode.php:42
+msgid "Session Count"
+msgstr "Antall økter"
+
+#: inc/shortcode.php:43
+msgid "Days Since Last Session"
+msgstr "Dager siden forrige økt"
+
+#: inc/shortcode.php:44
+msgid "Session Duration Bucket"
+msgstr "Økt varighet bucket"
+
+#: inc/shortcode.php:46
+msgid "Traffic Sources"
+msgstr "Trafikk kilder"
+
+#: inc/shortcode.php:47
+msgid "Referral Path"
+msgstr "Henvisninger"
+
+#: inc/shortcode.php:48
+msgid "Full Referrer"
+msgstr "Fullstendig henvisning"
+
+#: inc/shortcode.php:49
+msgid "Source"
+msgstr "Kilde"
+
+#: inc/shortcode.php:50
+msgid "Medium"
+msgstr "Medium"
+
+#: inc/shortcode.php:51
+msgid "Source Medium"
+msgstr "Kildemedium"
+
+#: inc/shortcode.php:52
+msgid "Keyword"
+msgstr "Nøkkelord"
+
+#: inc/shortcode.php:53
+msgid "Social Network"
+msgstr "Sosialt nettverk"
+
+#: inc/shortcode.php:55
+msgid "Platform or Device"
+msgstr "Plattform eller enhet"
+
+#: inc/shortcode.php:56 views/old/front/browser-stats.php:17
+msgid "Browser"
+msgstr "Nettleser"
+
+#: inc/shortcode.php:57
+msgid "Browser Version"
+msgstr "Nettleserversjon"
+
+#: inc/shortcode.php:58
+msgid "Operating System"
+msgstr "Operativsystem"
+
+#: inc/shortcode.php:59
+msgid "Operating System Version"
+msgstr "Operativsystem versjon"
+
+#: inc/shortcode.php:60
+msgid "Mobile Device Branding"
+msgstr "Merke for mobil-enhet"
+
+#: inc/shortcode.php:61
+msgid "Mobile Device Model"
+msgstr "Modell for mobil-enhet"
+
+#: inc/shortcode.php:62
+msgid "Mobile Input Selector"
+msgstr "Mobil inngansvelger"
+
+#: inc/shortcode.php:63
+msgid "Mobile Device Info"
+msgstr "Mobil-enhet info"
+
+#: inc/shortcode.php:64
+msgid "Mobile Device MarketingName"
+msgstr "Mobil-enhet markedsføringsnavn"
+
+#: inc/shortcode.php:65
+msgid "Device Category"
+msgstr "Enhet kategori"
+
+#: inc/shortcode.php:66
+msgid "Flash Version"
+msgstr "Flash versjon"
+
+#: inc/shortcode.php:67
+msgid "Java Enabled"
+msgstr "Java aktivert"
+
+#: inc/shortcode.php:68
+msgid "Language"
+msgstr "Språk"
+
+#: inc/shortcode.php:69
+msgid "ScreenColors"
+msgstr "Skjermfarger"
+
+#: inc/shortcode.php:70
+msgid "ScreenResolution"
+msgstr "Skjærmoppløsning"
+
+#: inc/shortcode.php:73
+msgid "Hostname"
+msgstr "Vertsnavn"
+
+#: inc/shortcode.php:74
+msgid "Page Path"
+msgstr "Sidesti"
+
+#: inc/shortcode.php:75 views/default/admin/detail-realtime-stats.php:390
+msgid "Page Title"
+msgstr "Sidetittel"
+
+#: inc/shortcode.php:76
+msgid "Landing Page Path"
+msgstr "Landingsside"
+
+#: inc/shortcode.php:77
+msgid "secondPagePath"
+msgstr "Andre sidesti"
+
+#: inc/shortcode.php:78
+msgid "Exit Page Path"
+msgstr "Utgang"
+
+#: inc/shortcode.php:79
+msgid "Previous Page Path"
+msgstr "Forrige sidesti"
+
+#: inc/shortcode.php:80
+msgid "Next Page Path"
+msgstr "Neste side"
+
+#: inc/shortcode.php:81
+msgid "Page Depth"
+msgstr "Side dybde"
+
+#: inc/shortcode.php:86
+msgid "Visible to (roles) : "
+msgstr "Synlig til følgende roller:"
+
+#: inc/shortcode.php:88
+msgid "Everyone"
+msgstr "Alle"
+
+#: inc/shortcode.php:105
+msgid "Sort By: "
+msgstr "Sorter etter:"
+
+#: inc/shortcode.php:112
+msgid "BounceRate"
+msgstr "Fluktfrekvens"
+
+#: inc/shortcode.php:119
+msgid "EntranceRate"
+msgstr "Inngangsfrekvens"
+
+#: inc/shortcode.php:126
+msgid "Analytics for: "
+msgstr "Analytics for:"
+
+#: inc/shortcode.php:128
+msgid "Current page"
+msgstr "Nåværende side"
+
+#: inc/shortcode.php:129
+msgid "Full Site"
+msgstr "Hele nettstedet"
+
+#: inc/shortcode.php:135
+msgid "Date range: "
+msgstr "Datointervall:"
+
+#: inc/shortcode.php:137
+msgid "Custom"
+msgstr "Tilpasset"
+
+#: inc/shortcode.php:138
+msgid "Today"
+msgstr "I dag"
+
+#: inc/shortcode.php:139
+msgid "Yesterday"
+msgstr "I går"
+
+#: inc/shortcode.php:140
+msgid "Last 15 days"
+msgstr "Siste 15 dager"
+
+#: inc/shortcode.php:141
+msgid "Last 7 Days"
+msgstr "Siste 7 dager"
+
+#: inc/shortcode.php:142
+msgid "Last 30 Days"
+msgstr "Siste 30 dager"
+
+#: inc/shortcode.php:147
+msgid "Start Date: "
+msgstr "Start dato"
+
+#: inc/shortcode.php:151
+msgid "End Date: "
+msgstr "Slutt dato"
+
+#: inc/shortcode.php:156
+msgid "Max records: "
+msgstr "Maks oppføringer:"
+
+#: inc/shortcode.php:161
+msgid "Ok"
+msgstr "Ok"
+
+#: inc/shortcode.php:162
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: lib/EDD_SL_Plugin_Updater.php:201
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Det er en ny versjon av %1$s tilgjengelig. %2$sSe versjon %3$s for detaljer"
+"%4$s."
+
+#: lib/EDD_SL_Plugin_Updater.php:209
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Det er en ny versjon av %1$s tilgjengelig. %2$sSe versjon%3$s detaljer%4$s "
+"eller %5$soppdater nå%6$s."
+
+#: lib/EDD_SL_Plugin_Updater.php:396
+msgid "You do not have permission to install plugin updates"
+msgstr "Du har ikke tillatelse til å installere oppdateringer"
+
+#: lib/EDD_SL_Plugin_Updater.php:396
+#: views/default/admin/javascript-error.php:11
+msgid "Error"
+msgstr "Feil"
+
+#: views/default/admin/404-error.php:13 views/default/admin/ajax-error.php:12
+#: views/default/admin/javascript-error.php:12
+msgid "URL"
+msgstr "URL"
+
+#: views/default/admin/detail-realtime-stats.php:23
+msgid "Real-Time Statistics of the Site"
+msgstr "Sanntids statistikk for siden"
+
+#: views/default/admin/detail-realtime-stats.php:44
+#: views/default/admin/realtime-stats.php:15
+msgid "Visitors online"
+msgstr "Brukere på siden nå"
+
+#: views/default/admin/detail-realtime-stats.php:48
+#: views/default/admin/realtime-stats.php:19
+msgid "Referral"
+msgstr "Henvisninger"
+
+#: views/default/admin/detail-realtime-stats.php:52
+#: views/default/admin/realtime-stats.php:23
+msgid "ORGANIC"
+msgstr "Organisk"
+
+#: views/default/admin/detail-realtime-stats.php:56
+#: views/default/admin/realtime-stats.php:27
+msgid "social"
+msgstr "Sosialt"
+
+#: views/default/admin/detail-realtime-stats.php:60
+#: views/default/admin/realtime-stats.php:31
+msgid "direct"
+msgstr "Direkte"
+
+#: views/default/admin/detail-realtime-stats.php:64
+#: views/default/admin/realtime-stats.php:35
+msgid "new"
+msgstr "Nye"
+
+#: views/default/admin/detail-realtime-stats.php:68
+#: views/default/admin/realtime-stats.php:39
+msgid "Returning"
+msgstr "Returnerende"
+
+#: views/default/admin/detail-realtime-stats.php:73
+msgid "Top Active posts and pages"
+msgstr "Aktive sider og innlegg"
+
+#: views/default/admin/detail-realtime-stats.php:81
+msgid "Top active pages and posts users are currently at"
+msgstr "Aktive sider og innlegg som har brukere akkurat nå"
+
+#: views/default/admin/detail-realtime-stats.php:267
+msgid "REFERRALS"
+msgstr "HENVISNINGER"
+
+#: views/default/admin/detail-realtime-stats.php:270
+msgid "KEYWORDS"
+msgstr "SØKEORD"
+
+#: views/default/admin/detail-realtime-stats.php:273
+msgid "SOCIAL"
+msgstr "SOSIAL"
+
+#: views/default/admin/detail-realtime-stats.php:276
+msgid "DIRECT"
+msgstr "DIREKTE"
+
+#: views/default/admin/detail-realtime-stats.php:390
+#: views/default/admin/main-comparison-stats.php:406
+msgid "Visitors"
+msgstr "Brukere"
+
+#: views/default/admin/main-comparison-stats.php:104
+#: views/default/admin/main-comparison-stats.php:132
+msgid "Visitors this year"
+msgstr "Brukere dette året"
+
+#: views/default/admin/main-comparison-stats.php:104
+#: views/default/admin/main-comparison-stats.php:145
+msgid "Visitors last year"
+msgstr "Brukere siste år"
+
+#: views/default/admin/main-comparison-stats.php:111
+#: views/default/admin/main-comparison-stats.php:186
+#: views/default/admin/main-comparison-stats.php:262
+#: views/default/admin/main-comparison-stats.php:337
+msgid "Line"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:112
+#: views/default/admin/main-comparison-stats.php:187
+#: views/default/admin/main-comparison-stats.php:263
+#: views/default/admin/main-comparison-stats.php:338
+msgid "Bar"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:114
+#: views/default/admin/main-comparison-stats.php:189
+#: views/default/admin/main-comparison-stats.php:265
+#: views/default/admin/main-comparison-stats.php:340
+msgid "Restore"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:115
+#: views/default/admin/main-comparison-stats.php:190
+#: views/default/admin/main-comparison-stats.php:266
+#: views/default/admin/main-comparison-stats.php:341
+msgid "Save As Image"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:179
+#: views/default/admin/main-comparison-stats.php:207
+msgid "Visitors this month"
+msgstr "Brukere denne måneden"
+
+#: views/default/admin/main-comparison-stats.php:179
+#: views/default/admin/main-comparison-stats.php:220
+msgid "Visitors last month"
+msgstr "Brukere sist måned"
+
+#: views/default/admin/main-comparison-stats.php:255
+#: views/default/admin/main-comparison-stats.php:283
+msgid "Views this year"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:255
+#: views/default/admin/main-comparison-stats.php:296
+msgid "Views last year"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:330
+msgid "Views this month"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:330
+msgid "Views last month"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:407
+msgid "Views"
+msgstr "Visninger"
+
+#: views/default/admin/main-comparison-stats.php:414
+#: views/default/admin/main-comparison-stats.php:442
+msgid "Months"
+msgstr "Måneder"
+
+#: views/default/admin/main-comparison-stats.php:417
+#: views/default/admin/main-comparison-stats.php:445
+msgid "Years"
+msgstr "År"
+
+#: views/default/admin/main-comparison-stats.php:468
+msgid ""
+"This is the most detailed Visitors and Views breakdown in months and years."
+msgstr ""
+"Dette er den mest detaljerte visningen av brukere og visninger i måneder og "
+"år."
+
+#: views/default/admin/realtime-stats.php:11
+msgid "Real Time Stats"
+msgstr "Sanntids statistikk"
+
+#: views/help.php:3
+msgid "Email Support"
+msgstr "Brukerstøtte over email"
+
+#: views/help.php:8
+msgid "Fetching license details, please wait..."
+msgstr "Henter lisensinformasjon, vennligst vent ..."
+
+#: views/help.php:10
+msgid ""
+"We couldn't find your license information. Please switch to the License tab "
+"and enter your license."
+msgstr ""
+"Vi kunne ikke finne din lisensinformasjon . Vennligst bytt til kategorien "
+"Lisens og skriv inn din lisens."
+
+#: views/help.php:11
+msgid "Once completed, you may visit this tab to view your support details."
+msgstr "Gå til denne fanen for brukerstøtte etter fullføring."
+
+#: views/help.php:115
+#, php-format
+msgid ""
+"You have an %1$s active %2$s license. You will get front-of-the-line email "
+"support service when submitting the form below."
+msgstr ""
+"Du har en aktiv %1$s lisens %2$s. Du vil få prioritert brukerstøtte når du "
+"sender inn skjemaet nedenfor."
+
+#: views/help.php:119 views/help.php:174
+msgid "Success!"
+msgstr "Suksess!"
+
+#: views/help.php:119 views/help.php:174
+msgid "Thanks for submitting your support request. We'll be in touch soon."
+msgstr ""
+"Takk for at du sendte inn forespørsel om støtte. Vi vil ta kontakt snart."
+
+#: views/help.php:123 views/help.php:127 views/help.php:131 views/help.php:135
+#: views/help.php:139
+msgid "Error!"
+msgstr "Feil!"
+
+#: views/help.php:127
+msgid "There was a problem submitting your request:"
+msgstr "Det var et problem med din forespørsel:"
+
+#: views/help.php:131
+msgid "Please select your email address."
+msgstr "Skriv inn din e-postadresse."
+
+#: views/help.php:135
+msgid "Please enter a subject"
+msgstr "Skriv inn et emne"
+
+#: views/help.php:139
+msgid "Please enter a message."
+msgstr "Skriv inn en melding"
+
+#: views/help.php:145
+msgid "From:"
+msgstr "Fra:"
+
+#: views/help.php:147
+msgid "Select your email address"
+msgstr "Velg din e-epostadresse"
+
+#: views/help.php:151
+#, php-format
+msgid ""
+"Replies will be sent to this email address. Update your name &amp; email in "
+"%1$s Your Account%2$s."
+msgstr ""
+"Svar vil bli sendt til denne e-postadressen. Oppdater navn og epost i %1$s "
+"min konto%2$s."
+
+#: views/help.php:168
+msgid "Include your Diagnostic Info &amp; Error Log (below)"
+msgstr "Send med diagnostikk og feillogg (nedenfor)"
+
+#: views/help.php:178
+#, php-format
+msgid ""
+"Having trouble submitting the form? Email your support request to %1$s "
+"support@wp-analytify.com%2$s instead."
+msgstr ""
+"Har du problemer med skjemaet? Send direkte epost til %1$s support@wp-"
+"analytify.com%2$s i stedet."
+
+#: views/old/front/browser-stats.php:8
+msgid "Top Browsers"
+msgstr "Mest brukte nettlesere"
+
+#: views/old/front/browser-stats.php:18
+msgid "OS"
+msgstr "OS"
+
+#: views/old/front/browser-stats.php:44
+msgid "These are the top browsers of your this page."
+msgstr "Dette er de mest brukte nettleserne på denne siden"
+
+#: views/old/front/general-stats.php:9
+msgid "General Statistics"
+msgstr "Generell statistikk"
+
+#: views/old/front/general-stats.php:54
+msgid "AVERAGE PAGES"
+msgstr "SIDER PER ØKT"
+
+#: views/old/front/general-stats.php:88
+msgid "USER TYPE"
+msgstr "BRUKERTYPE"
+
+#: views/old/front/general-stats.php:107
+msgid "These are the general statistics of this page."
+msgstr "Dette er den generelle statistikken for denne siden"
+
+#: views/old/front/keywords-stats.php:6
+msgid "TOP KEYWORDS"
+msgstr "SØKEORD"
+
+#: views/old/front/keywords-stats.php:40
+msgid "These are the keywords people are searching for this page."
+msgstr "Dette er søkeordene brukere søker mest etter på denne siden."
+
+#: views/old/front/mobile-stats.php:7
+msgid "Mobile device Statistics"
+msgstr "Statistikk for mobile enheter"
+
+#: views/old/front/mobile-stats.php:15 views/old/front/referrers-stats.php:15
+msgid "#"
+msgstr "#"
+
+#: views/old/front/mobile-stats.php:16
+msgid "Device"
+msgstr "Enhet"
+
+#: views/old/front/mobile-stats.php:41
+msgid "Listing statistics of Mobile usage."
+msgstr "Statistikk over bruk av mobile enheter"
+
+#: views/old/front/os-stats.php:18
+msgid "Operating System (Version)"
+msgstr "Operativsystem versjon"
+
+#: views/old/front/os-stats.php:43
+msgid "Listing statistics of top Operating Systems."
+msgstr "Statistikk for mest brukte operativsystemer"
+
+#: views/old/front/referrers-stats.php:16
+msgid "Social referrer"
+msgstr "Sosiale henvisninger"
+
+#: views/old/front/referrers-stats.php:46
+msgid "These are the top referrers of this page."
+msgstr "Dette er de beste henvendelsene for denne siden."
+
+#: views/old/front/social-stats.php:8
+msgid "Social media Statistics"
+msgstr "Statistikk for sosiale medier"
+
+#: views/old/front/social-stats.php:17
+msgid "Social"
+msgstr "Sosial"
+
+#: views/old/front/social-stats.php:42
+msgid "These are the social media statistics of this page."
+msgstr "Dette er statistikken for sosiale medier på denne siden"
+
+#: wp-analytify-pro.php:68
+msgid "The following required plugin is currently inactive &mdash; "
+msgstr ""
+
+#: wp-analytify-pro.php:68
+msgid "Click here to activate Analytify Core (Free)"
+msgstr "Klikk her for aktivering av gratisversjonen av Analytify"
+
+#: wp-analytify-pro.php:79
+msgid ""
+"Please update Analytify Core to latest Free version to enable PRO features "
+"&mdash; "
+msgstr ""
+
+#: wp-analytify-pro.php:79
+msgid "Update now"
+msgstr "Oppdater nå"
+
+#: wp-analytify-pro.php:90
+msgid "The following required plugin is not installed &mdash; "
+msgstr ""
+
+#: wp-analytify-pro.php:90
+msgid "Install Analytify Core (Free) now"
+msgstr "Installer gratisversjonen av Analytify nå"
+
+#. Plugin Name of the plugin/theme
+msgid "Analytify Pro"
+msgstr "Analytify Pro"
+
+#. Plugin URI of the plugin/theme
+msgid "http://analytify.io/"
+msgstr "http://analytify.io/"
+
+#. Description of the plugin/theme
+msgid ""
+"Analytify makes Google Analytics simple for everything in WordPress (posts,"
+"pages etc). It presents the statistics in a beautiful way under the "
+"WordPress Posts/Pages at front end, backend and in its own Dashboard. This "
+"provides Stats from Country, Referrers, Social media, General stats, New "
+"visitors, Returning visitors, Exit pages, Browser wise and Top keywords. "
+"This plugin provides the RealTime statistics in a new UI that is easy to "
+"understand and looks good."
+msgstr ""
+"Analytify gjør Google Analytics enkelt for alt i WordPress (innlegg, sider "
+"etc). Den presenterer statistikk i en vakker måte under WordPress innlegg / "
+"Sider på front end, backend og i sitt eget kontrollpanel . Den gir "
+"statistikk fra land, henvisninger, sosiale medier, nye brukere, returnerende "
+"brukere, utgangssider, nettlesere og søkeord. Denne utvidelsen gir også "
+"sanntids statistikk som er lett å forstå og ser bra ut."
+
+#. Author of the plugin/theme
+msgid "Adnan"
+msgstr "Adnan"
+
+#. Author URI of the plugin/theme
+msgid "http://adnan.pk/"
+msgstr "http://adnan.pk/"
+
+#~ msgid ""
+#~ "<strong>Activate Your License</strong> — Please <a href=\"https://s3."
+#~ "amazonaws.com/%22%s/%22\" class= \"\"=\"\">enter your license key</a> to "
+#~ "enable priority support and plugin updates."
+#~ msgstr ""
+#~ "<strong>Aktiver din lisens</strong> — <a href=\"https://s3.amazonaws.com/"
+#~ "%22%s/%22\" class=\"\\&quot;\\&quot;\">Angi lisensnøkkelen</a> for å "
+#~ "aktivere prioritert support og oppdateringer."
+
+#~ msgid ""
+#~ "Login to <a href=\"https://s3.amazonaws.com/%22%s/%22\">My Account</a> to "
+#~ "renew. "
+#~ msgstr ""
+#~ "Logg inn på <a href=\"https://s3.amazonaws.com/%22%s/%22\">Min konto</a> "
+#~ "for å fornye."
+
+#~ msgid ""
+#~ "<strong>No Activations Left</strong> — Please visit <a href=\"https://s3."
+#~ "amazonaws.com/%22%s/%22\" \"=\"\" \"target=\"\\&quot;_blank\\&quot;\">My "
+#~ "Account</a> to upgrade your license or deactivate a previous activation."
+#~ msgstr ""
+#~ "<strong>Ingen aktiveringer igjen</strong> — Gå til <a href=\"https://s3."
+#~ "amazonaws.com/%22%s/%22\" \"=\"\" \"target=\"\\&quot;_blank\\&quot;\">Min "
+#~ "konto</a> for å oppgradere din lisens eller deaktivere en tidligere "
+#~ "aktivering."
+
+#~ msgid ""
+#~ "<strong>Your License Was Not Found</strong> — Please visit <a href="
+#~ "\"https://s3.amazonaws.com/%22%s%22\" \"\"=\"\" target=\"\\&quot;_blank"
+#~ "\\&quot;\">My Account</a> to double check your license key."
+#~ msgstr ""
+#~ "<strong>Lisensen ble ikke funnet</strong> — Gå til <a href=\"https://s3."
+#~ "amazonaws.com/%22%s/%22\" \"=\"\" \"target=\"\\&quot;_blank\\&quot;\">Min "
+#~ "konto</a> for å dobbeltsjekke din lisensnøkkel."
+
+#~ msgid "<strong>Your License Was Not Found</strong> — "
+#~ msgstr "<strong>Lisensen ble ikke funnet</strong> — "
+
+#~ msgid ""
+#~ "<strong>An Unexpected Error Occurred</strong> — Please contact us at <a "
+#~ "href=\"https://s3.amazonaws.com/%22%1$s/%22\">%2$s</a> and quote the "
+#~ "following:"
+#~ msgstr ""
+#~ "<strong>En uventet feil oppsto</strong> — Ta kontakt med oss på <a \"="
+#~ "\"\" \"href=\"\\&quot;%1$s\\&quot;\">%2$s</a> og oppgi følgende::"
+
+#~ msgid ""
+#~ "%1$s %2$s %3$s Update Available %4$s — %9$s %10$s is now available. You "
+#~ "currently have %11$s installed.  %5$s Changelog %6$s  %7$s %8$s"
+#~ msgstr ""
+#~ "%1$s %2$s %3$s Oppdatering tilgjengelig %4$s — %9$s %10$s er nå "
+#~ "tilgjengelig. Du har for øyeblikket %11$s installert.  %5$s Changelog "
+#~ "%6$s  %7$s %8$s"
+
+#~ msgid ""
+#~ "%1$s %2$s %3$s Activate Your License %4$s — Please %5$senter your license "
+#~ "key%6$s to enable support and plugin updates. %7$s %8$s"
+#~ msgstr ""
+#~ "%1$s %2$s %3$s Aktiver din lisens %4$s — Vennligst %5$sskriv inn din "
+#~ "lisensnøkkel%6$s for å aktivere støtte og oppdateringer. %7$s %8$s"
+
+#~ msgid ""
+#~ "%1$s %2$s %3$s Activate Your License %4$s — Please click on %5$s Activate "
+#~ "License button %6$s to validate your license. %7$s %8$s"
+#~ msgstr ""
+#~ "%1$s %2$s %3$s Aktiver din lisens %4$s — Vennligst klikk på %5$s aktiver "
+#~ "lisens knappen %6$s for å validere lisensen. %7$s %8$s"
+
+#~ msgid ""
+#~ "%1$s %2$s %3$s License Expired %4$s — Upgrade your license to enable "
+#~ "support and plugin updates. Would you please checkout %5$s what we have "
+#~ "improved %6$s so far ? %7$s %8$s"
+#~ msgstr ""
+#~ "%1$s %2$s %3$s Lisensen har utløpt %4$s — Oppgrader din lisens til å "
+#~ "aktivere støtte og plugin oppdateringer. Ta en titt på hva vi har %5$s "
+#~ "gjort bedre %6$s så langt! %7$s %8$s"
+
+#~ msgid ""
+#~ "%1$s %2$s %3$s Invalid License %4$s — Please %5$senter a valid license key"
+#~ "%6$s to enable support and plugin updates. %7$s %8$s"
+#~ msgstr ""
+#~ "%1$s %2$s %3$s Ugyldig lisensnøkkel %4$s — Vennlighst %5$sskriv inn "
+#~ "gyldig nøkkel%6$s for å aktivere støtte og oppdateringer. %7$s %8$s"
+
+#~ msgid ""
+#~ "To update, go to %1$s and enter your license key. If you don't have a "
+#~ "license key, you may <a href=\"https://s3.amazonaws.com/%22%2$s/"
+#~ "%22\">purchase one</a>."
+#~ msgstr ""
+#~ "Hvis du vil oppdatere, gå til %1$s og skriv inn din lisensnøkkel. Hvis du "
+#~ "ikke har en nøkkel kan du <a href=\"https://s3.amazonaws.com/%22%2$s/"
+#~ "%22\">kjøpe en</a>."
+
+#~ msgid ""
+#~ "To finish activating %1$s, please go to %2$s and enter your license key. "
+#~ "If you don't have a license key, you may <a href=\"https://s3.amazonaws."
+#~ "com/%22%3$s/%22\">purchase one</a>."
+#~ msgstr ""
+#~ "For å fullføre aktivering %1$s, gå til %2$s og skriv inn din "
+#~ "lisensnøkkel. Hvis du ikke har en nøkkel, kan du <a href=\"https://s3."
+#~ "amazonaws.com/%22%3$s/%22\">kjøpe en</a>."
+
+#~ msgid "The following required plugin is currently inactive — "
+#~ msgstr "Følgende påkrevd plugin er ikke aktivert — "
+
+#~ msgid ""
+#~ "Please update Analytify Core to latest Free version to enable PRO "
+#~ "features — "
+#~ msgstr ""
+#~ "Vennligst oppdater Analytify til den nyeste gratisversjonen for å "
+#~ "aktivere PRO funksjoner — "
+
+#~ msgid "The following required plugin is not installed — "
+#~ msgstr "Følgende påkrevd plugin er ikke innstalert — "

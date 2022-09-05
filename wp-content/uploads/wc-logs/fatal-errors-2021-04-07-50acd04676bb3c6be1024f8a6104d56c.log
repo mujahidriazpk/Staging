@@ -1,0 +1,57 @@
+2021-04-07T09:31:33+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:748
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): WooCommerceMusicPlayer->include_main_player_filter('SELECT PLAN')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('SELECT PLAN', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'SELECT PLAN')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for- in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 748
+
+2021-04-07T09:31:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:748
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): WooCommerceMusicPlayer->include_main_player_filter('SELECT PLAN')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('SELECT PLAN', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'SELECT PLAN')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for- in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 748
+
+2021-04-07T10:05:51+00:00 CRITICAL Uncaught Error: Class 'sgpb\ScriptsIncluder' not found in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/popup-builder/com/classes/ScriptsLoader.php:235
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/popup-builder/com/classes/ScriptsLoader.php(132): sgpb\ScriptsLoader->includeScripts()
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/popup-builder/com/classes/PopupLoader.php(156): sgpb\ScriptsLoader->loadToFooter()
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/popup-builder/com/classes/Actions.php(743): sgpb\PopupLoader->loadPopups()
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): sgpb\Actions->enqueuePopupBuilderScripts('')
+#4 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /mnt/data/home/401140.cloudwaysapps in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/popup-builder/com/classes/ScriptsLoader.php on line 235
+
+2021-04-07T10:05:54+00:00 CRITICAL Uncaught Error: Class 'sgpb\ScriptsIncluder' not found in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/popup-builder/com/classes/ScriptsLoader.php:235
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/popup-builder/com/classes/ScriptsLoader.php(132): sgpb\ScriptsLoader->includeScripts()
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/popup-builder/com/classes/PopupLoader.php(156): sgpb\ScriptsLoader->loadToFooter()
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/popup-builder/com/classes/Actions.php(743): sgpb\PopupLoader->loadPopups()
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): sgpb\Actions->enqueuePopupBuilderScripts('')
+#4 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 /mnt/data/home/401140.cloudwaysapps in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/popup-builder/com/classes/ScriptsLoader.php on line 235
+
+2021-04-07T10:07:08+00:00 CRITICAL Uncaught Error: Class 'sgpb\PopupLoader' not found in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/popup-builder/com/classes/Actions.php:741
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): sgpb\Actions->enqueuePopupBuilderScripts('')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): wp_enqueue_scripts('')
+#5 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 /mnt/data/home/401140.clou in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/popup-builder/com/classes/Actions.php on line 741
+
+2021-04-07T10:55:02+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:748
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): WooCommerceMusicPlayer->include_main_player_filter('SELECT PLAN')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('SELECT PLAN', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'SELECT PLAN')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for- in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 748
+
+2021-04-07T12:17:06+00:00 CRITICAL Uncaught Error: Call to undefined function w2dc_mail() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/functions.php:4847
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(294): yith_wcstripe_error_message_order_note_email_send('Stripe Error: 4...')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('Stripe Error: 4...', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/yith-woocommerce-stripe-premium/includes/class-yith-stripe-gateway.php(659): apply_filters('yith_wcstripe_e...', 'Stripe Error: 4...', Object(Stripe\Error\Card), Array)
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/yith-woocommerce-stripe-premium/includes/class-yith-stripe-gateway-advanced.php(1583): YITH_WCStripe_Gateway->error_handling(Object(Stripe\Error\Card), Array)
+#4 /mnt/data/home/4011 in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/functions.php on line 4847
+

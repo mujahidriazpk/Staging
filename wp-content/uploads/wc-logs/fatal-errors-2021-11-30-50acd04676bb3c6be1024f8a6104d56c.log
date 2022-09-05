@@ -1,0 +1,113 @@
+2021-11-30T10:47:07+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 2289
+
+2021-11-30T03:34:45-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:814
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal 1 tooth...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal 1 tooth...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal 1 tooth...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 814
+
+2021-11-30T03:35:25-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:814
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal 1 tooth...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal 1 tooth...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal 1 tooth...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 814
+
+2021-11-30T03:36:07-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:814
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal 1 tooth...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal 1 tooth...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal 1 tooth...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 814
+
+2021-11-30T03:36:40-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:814
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal 1 tooth...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal 1 tooth...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal 1 tooth...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 814
+
+2021-11-30T03:37:04-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:814
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal 1 tooth...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal 1 tooth...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal 1 tooth...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 814
+
+2021-11-30T03:38:55-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:814
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal 1 tooth...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal 1 tooth...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal 1 tooth...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 814
+
+2021-11-30T03:42:31-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:814
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal 1 tooth...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal 1 tooth...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal 1 tooth...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 814
+
+2021-11-30T04:09:28-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:814
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal 1 tooth...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal 1 tooth...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal 1 tooth...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 814
+
+2021-11-30T05:56:54-08:00 CRITICAL Uncaught Error: Call to a member function get_seconds_remaining() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php on line 6
+
+2021-11-30T05:57:46-08:00 CRITICAL Uncaught Error: Call to a member function get_seconds_remaining() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php on line 7
+
+2021-11-30T06:00:13-08:00 CRITICAL Uncaught Error: Call to a member function get_seconds_remaining() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php on line 7
+
+2021-11-30T06:12:21-08:00 CRITICAL Uncaught Error: Call to a member function get_seconds_to_auction() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php on line 6
+
+2021-11-30T06:12:45-08:00 CRITICAL Uncaught Error: Call to a member function get_seconds_to_auction() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php on line 6
+
+2021-11-30T06:15:13-08:00 CRITICAL Uncaught Error: Call to a member function get_seconds_to_auction() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php on line 6
+
+2021-11-30T06:15:21-08:00 CRITICAL Uncaught Error: Call to a member function get_seconds_to_auction() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php on line 6
+
+2021-11-30T06:18:20-08:00 CRITICAL Uncaught Error: Call to a member function get_seconds_to_auction() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php on line 6
+
+2021-11-30T06:19:25-08:00 CRITICAL Uncaught Error: Call to a member function get_seconds_to_auction() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php on line 7
+
+2021-11-30T06:20:02-08:00 CRITICAL Uncaught Error: Call to a member function get_seconds_to_auction() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php on line 6
+
+2021-11-30T06:20:11-08:00 CRITICAL Uncaught Error: Call to a member function get_seconds_to_auction() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getSec.php on line 6
+

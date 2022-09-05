@@ -1,0 +1,600 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Float To Top Button\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-15 21:41+0200\n"
+"PO-Revision-Date: 2017-09-15 21:41+0200\n"
+"Last-Translator: Rolf van Gelder <info@cagewebdev.com>\n"
+"Language-Team: CAGE <info@cagewebdev.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/settings.php:37
+msgid "Float to Top Button - Settings UPDATED!"
+msgstr "Float to Top Button - Instellingen BEWAARD!"
+
+#: admin/settings.php:58
+msgid "Float to Top Button - Settings"
+msgstr "Float to Top Button - Instellingen"
+
+#: admin/settings.php:67
+msgid "Plugin version"
+msgstr "Plugin versie"
+
+#: admin/settings.php:69
+msgid "Plugin page"
+msgstr "Plugin pagina"
+
+#: admin/settings.php:71
+msgid "Download page"
+msgstr "Download pagina"
+
+#: admin/settings.php:73
+msgid "Author"
+msgstr "Auteur"
+
+#: admin/settings.php:75
+msgid "Company"
+msgstr "Bedrijf"
+
+#: admin/settings.php:77
+msgid "Donation page"
+msgstr "Donatie pagina"
+
+#: admin/settings.php:104
+msgid "Distance from top before showing element (px)"
+msgstr ""
+"Afstand vanaf het begin van de pagina voordat de button getoond wordt (px)"
+
+#: admin/settings.php:108
+msgid "Speed back to top (ms)"
+msgstr "Terug naar het begin van de pagina snelheid (ms)"
+
+#: admin/settings.php:112
+msgid "Animation"
+msgstr "Animatie"
+
+#: admin/settings.php:115
+msgid "fade"
+msgstr "vervagen"
+
+#: admin/settings.php:118
+msgid "slide"
+msgstr "schuiven"
+
+#: admin/settings.php:121
+msgid "none"
+msgstr "geen"
+
+#: admin/settings.php:129
+msgid "Animation in speed (ms)"
+msgstr "Animatiesnelheid (in) (ms)"
+
+#: admin/settings.php:133
+msgid "Animation out speed (ms)"
+msgstr "Animatiesnelheid (uit) (ms)"
+
+#: admin/settings.php:137
+msgid "Text for the button"
+msgstr "Tekst voor de button"
+
+#: admin/settings.php:141
+msgid "\"Top of Page\" image"
+msgstr "\"Begin van de pagina\" afbeelding"
+
+#: admin/settings.php:172
+msgid ""
+"URL of a custom \"Top of Page\" image<br />Overrules the image selection "
+"above!"
+msgstr ""
+"URL van het persoonlijke \"Begin van de pagina\" plaatje.<br />Overschrijft "
+"de plaatjes hierboven."
+
+#: admin/settings.php:178
+msgid "Position of the Button"
+msgstr "Positie van de button"
+
+#: admin/settings.php:180
+msgid "Lower Right"
+msgstr "Rechtsonder"
+
+#: admin/settings.php:181
+msgid "Lower Left"
+msgstr "Linksonder"
+
+#: admin/settings.php:182
+msgid "Upper Right"
+msgstr "Rechtboven"
+
+#: admin/settings.php:183
+msgid "Upper Left"
+msgstr "Linksboven"
+
+#: admin/settings.php:190
+msgid "Horizontal spacing"
+msgstr "Horizontale afstand"
+
+#: admin/settings.php:206
+msgid "Vertical spacing"
+msgstr "Verticale afstand"
+
+#: admin/settings.php:222
+msgid "Opacity of the image, mouseout (0-99)"
+msgstr "Doorzichtigheid van de afbeelding, mouseout (0-99)"
+
+#: admin/settings.php:226
+msgid "Opacity of the image, mouseover (0-99)"
+msgstr "Doorzichtigheid van de afbeelding, mouseover (0-99)"
+
+#: admin/settings.php:236
+msgid "Disable the button for mobile devices"
+msgstr "Schakel de Float to Top Button uit voor mobiele apparaten"
+
+#: admin/settings.php:240
+msgid "Z-index of the overlay"
+msgstr "Z-index van de overlay"
+
+#: admin/settings.php:244
+msgid "Save Settings"
+msgstr "Bewaar instellingen"
+
+#: float-to-top-button.php:132
+msgid "Float to Top Button Settings"
+msgstr "Float to Top Button Instellingen"
+
+#: float-to-top-button.php:132
+msgid "Float to Top Button"
+msgstr "Float to Top Button"
+
+#: float-to-top-button.php:165
+msgid "Distance from top is a required number"
+msgstr "Afstand vanaf het begin van de pagina is een verplicht getal"
+
+#: float-to-top-button.php:166
+msgid "Speed back to top is a required number"
+msgstr "Terug naar het begin van de pagina snelheid is een verplicht getal"
+
+#: float-to-top-button.php:167
+msgid "Animation in speed is a required number"
+msgstr "Animatiesnelheid (in) is een verplicht getal"
+
+#: float-to-top-button.php:168
+msgid "Animation out speed is a required number"
+msgstr "Animatiesnelheid (uit) is een verplicht getal"
+
+#: float-to-top-button.php:169 float-to-top-button.php:170
+msgid "Opacity is a required number (0-99)"
+msgstr "Doorzichtigheid van de afbeelding is een verplicht getal (0-99)"
+
+#: float-to-top-button.php:171
+msgid "Z-index is a required number (0-9999999999)"
+msgstr "Z-index is een verplicht getal (0-9999999999)"
+
+#: float-to-top-button.php:223
+msgid "Top of Page"
+msgstr "Begin van de pagina"
+
+#~ msgid "Spacing from the Edges"
+#~ msgstr "Afstand van de randen"
+
+#~ msgid "Opacity of the \"Top of Page\" image (0-99)"
+#~ msgstr "Doorzichtigheid van de \"Begin van de pagina\" afbeelding"
+
+#~ msgid "Opacity of the to top image (0-99)"
+#~ msgstr "Doorzichtigheid van de afbeelding (0-99)"
+
+#~ msgid "Float to Top Button Options"
+#~ msgstr "Float to Top Button Instellingen"
+
+#~ msgid "Float to Top Button - Options"
+#~ msgstr "Float to Top Button - Instellingen"
+
+#~ msgid "Save Options"
+#~ msgstr "Bewaar Opties"
+
+#~ msgid "Opacity of the to top image (0-100)"
+#~ msgstr "Ondoorzichtigheid van de 'Begin van de pagina'-afbeelding (0-100)"
+
+# @ rvg-optimize-database
+#~ msgid "Optimize Database"
+#~ msgstr "Optimaliseer Database"
+
+# @ optimize_db
+#~ msgid "Optimize DB (1 click)"
+#~ msgstr "Optimaliseer DB (1 klik)"
+
+# @ default
+#~ msgid "Once Weekly"
+#~ msgstr "Eenmaal per week"
+
+#~ msgid "Optimize Database after Deleting Revisions SETTINGS UPDATED"
+#~ msgstr "Optimize Database after Deleting Revisions INSTELLINGEN AANGEPAST"
+
+#~ msgid ""
+#~ "Click <a href=\"tools.php?page=rvg-optimize-db.php\" class=\"odb-bold"
+#~ "\">HERE</a> to run the optimization"
+#~ msgstr ""
+#~ "Klik <a href=\"tools.php?page=rvg-optimize-db.php\" class=\"odb-bold"
+#~ "\">HIER</a. om de optimalisatie te starten"
+
+#~ msgid "Using Optimize Database after Deleting Revisions"
+#~ msgstr "Het gebruik van Optimize Database after Deleting Revisions"
+
+#~ msgid "is an one-click plugin to clean and optimize your WordPress database"
+#~ msgstr ""
+#~ "is een één-klik plugin om de WordPress database op te schonen en te "
+#~ "optimaliseren"
+
+#~ msgid "Plugin version:"
+#~ msgstr "Plugin versie:"
+
+#~ msgid "The Netherlands"
+#~ msgstr "Nederland"
+
+#~ msgid "Plugin URL:"
+#~ msgstr "Plugin URL:"
+
+#~ msgid "Download URL:"
+#~ msgstr "Download URL:"
+
+#~ msgid "Optimize Database after Deleting Revisions - Settings"
+#~ msgstr "Optimize Database after Deleting Revisions - Instellingen"
+
+#~ msgid "Maximum number of - most recent - revisions to keep per post / page"
+#~ msgstr ""
+#~ "Maximaal aantal (meest recente) revisies die bewaard worden per bericht / "
+#~ "pagina"
+
+#~ msgid "('0' means: delete <u>ALL</u> revisions)"
+#~ msgstr "('0' betekent: verwijder <u>ALLE</u> revisies)"
+
+#~ msgid "Delete all trashed items"
+#~ msgstr "Maak de prullenbak leeg"
+
+#~ msgid "Delete all spammed items"
+#~ msgstr "Verwijder alle spam reacties"
+
+#~ msgid "Delete unused tags"
+#~ msgstr "Verwijder ongebruikte tags"
+
+#~ msgid "Delete expired transients"
+#~ msgstr "Verwijder verlopen transiënts"
+
+#~ msgid "Delete pingbacks and trackbacks"
+#~ msgstr "Verwijder pingback en trackbacks"
+
+#~ msgid "Keep a log"
+#~ msgstr "Gebruik een logbestand"
+
+#~ msgid "Scheduler"
+#~ msgstr "Planner"
+
+#~ msgid "NOT SCHEDULED"
+#~ msgstr "NIET GEPLAND"
+
+#~ msgid "run optimization HOURLY"
+#~ msgstr "voer de optimalisatie ELK UUR uit"
+
+#~ msgid "run optimization TWICE A DAY"
+#~ msgstr "voer de optimalisatie TWEE KEER PER DAG uit"
+
+#~ msgid "run optimization DAILY"
+#~ msgstr "voer de optimalisatie DAGELIJKS uit"
+
+#~ msgid "run optimization WEEKLY"
+#~ msgstr "voer de optimalisatie WEKELIJKS uit"
+
+#~ msgid "Time"
+#~ msgstr "Tijd"
+
+#~ msgid "hrs"
+#~ msgstr "uur"
+
+#~ msgid "Show '1-click' link in Admin Bar"
+#~ msgstr "Toon de '1-klik' link in de Admin Balk"
+
+#~ msgid "(change will be visible after loading the next page)"
+#~ msgstr "(wijziging wordt zichtbaar na het laden van de volgende pagina)"
+
+#~ msgid "Show an icon in the Admin Menu"
+#~ msgstr "Toon een icon in het Admin Menu"
+
+#~ msgid ""
+#~ "EXCLUDE DATABASE TABLES FROM OPTIMIZATION: <span class=\"odb-underline-red"
+#~ "\">CHECKED</span> TABLES <span class=\"odb-underline-red\">WON'T</span> "
+#~ "BE OPTIMIZED!</span>"
+#~ msgstr ""
+#~ "SLUIT DE VOLGENDE TABELLEN UIT VAN OPTIMILIZATIE: <span class=\"odb-"
+#~ "underline-red\">AANGEVINKTE</span> TABELLEN ZULLEN <span class=\"odb-"
+#~ "underline-red\">NIET</span> GEOPTIMALISEERD WORDEN!</span>"
+
+#~ msgid "check all tables"
+#~ msgstr "vink alle tabellen aan"
+
+#~ msgid "uncheck all tables"
+#~ msgstr "vink alle tabellen uit"
+
+#~ msgid "check all NON-WordPress tables"
+#~ msgstr "vink alle NIET-WordPress tabellen aan"
+
+#~ msgid "Go To Optimizer"
+#~ msgstr "Ga naar Optimalisatie"
+
+#~ msgid "NO"
+#~ msgstr "NEE"
+
+#~ msgid "YES"
+#~ msgstr "JA"
+
+#~ msgid "ONCE HOURLY"
+#~ msgstr "ELK UUR"
+
+#~ msgid "TWICE DAILY"
+#~ msgstr "TWEEMAAL DAAGS"
+
+#~ msgid "ONCE DAILY"
+#~ msgstr "DAGELIJKS"
+
+#~ msgid "ONCE WEEKLY"
+#~ msgstr "WEKELIJKS"
+
+# @ rvg-optimize-database
+#~ msgid "Optimize your WordPress Database"
+#~ msgstr "Optimaliseer uw WordPress Database"
+
+#~ msgid "A WordPress Plugin by"
+#~ msgstr "Een WordPress Plugin door"
+
+#~ msgid "Current settings"
+#~ msgstr "Huidige instellingen"
+
+#~ msgid "Number of excluded tables"
+#~ msgstr "Aantal uitgesloten tabellen"
+
+#~ msgid "Next scheduled run"
+#~ msgstr "Volgende geplande uitvoering"
+
+#~ msgid "Total savings since the first run"
+#~ msgstr "Totale besparing sinds de eerste uitvoering"
+
+#~ msgid "Change Settings"
+#~ msgstr "Wijzig instellingen"
+
+#~ msgid "View Log File"
+#~ msgstr "Bekijk Logbestand"
+
+#~ msgid "Delete Log File"
+#~ msgstr "Verwijder Logbestand"
+
+#~ msgid "Start Optimization"
+#~ msgstr "Start Optimalisatie"
+
+#~ msgid "Starting Optimization"
+#~ msgstr "Aan het optimaliseren"
+
+#~ msgid "DELETING REVISIONS"
+#~ msgstr "REVISIES AAN HET VERWIJDEREN"
+
+#~ msgid "post / page"
+#~ msgstr "bericht / pagina"
+
+#~ msgid "revision date"
+#~ msgstr "revisiedatum"
+
+#~ msgid "revisions deleted"
+#~ msgstr "revisies verwijderd"
+
+#~ msgid "total number of revisions deleted"
+#~ msgstr "totaal aantal verwijderde revisies"
+
+#~ msgid "No REVISIONS found to delete"
+#~ msgstr "Geen REVISIES gevonden om te verwijderen"
+
+#~ msgid "DELETING TRASHED ITEMS"
+#~ msgstr "PRULLENBAK AAN HET LEEGMAKEN"
+
+#~ msgid "type"
+#~ msgstr "type"
+
+#~ msgid "IP address / title"
+#~ msgstr "IP adres / titel"
+
+#~ msgid "date"
+#~ msgstr "datum"
+
+#~ msgid "No TRASHED ITEMS found to delete"
+#~ msgstr "Geen PRULLENBAK ITEMS gevonden om te verwijderen"
+
+#~ msgid "DELETING SPAMMED ITEMS"
+#~ msgstr "SPAM ITEMS AAN HET VERWIJDEREN"
+
+#~ msgid "comment author"
+#~ msgstr "plaatser van de reactie"
+
+#~ msgid "comment author email"
+#~ msgstr "email van de plaatser van de reactie"
+
+#~ msgid "comment date"
+#~ msgstr "datum van de reactie"
+
+#~ msgid "No SPAMMED ITEMS found to delete"
+#~ msgstr "Geen SPAM gevonden om te verwijderen"
+
+#~ msgid "NUMBER OF UNUSED TAGS DELETED"
+#~ msgstr "AANTAL VERWIJDERDE ONGEBRUIKTE TAGS"
+
+#~ msgid "No UNUSED TAGS found to delete"
+#~ msgstr "Geen ONGEBRUIKTE TAGS gevonden om te verwijderen"
+
+#~ msgid "NUMBER OF EXPIRED TRANSIENTS DELETED"
+#~ msgstr "AANTAL VERWIJDERDE VERLOPEN TRANSIËNTS"
+
+#~ msgid "No EXPIRED TRANSIENTS found to delete"
+#~ msgstr "Geen VERLOPEN TRANSIËNTS gevonden om te verwijderen"
+
+#~ msgid "NUMBER OF PINGBACKS AND TRACKBACKS DELETED"
+#~ msgstr "AANTAL VERWIJDERDE PINGBACKS EN TRACKBACKS"
+
+#~ msgid "No PINGBACKS nor TRACKBACKS found to delete"
+#~ msgstr "Geen PINGBACKS en TRACKBACKS gevonden om te verwijderen"
+
+#~ msgid "NUMBER OF POSTMETA ORPHANS DELETED"
+#~ msgstr "AANTAL VERWIJDERDE POSTMETA WEZEN"
+
+#~ msgid "No POSTMETA ORPHANS found to delete"
+#~ msgstr "Geen POSTMETA WEZEN gevonden om te verwijderen"
+
+#~ msgid "OPTIMIZING DATABASE TABLES"
+#~ msgstr "DATABASETABELLEN AAN HET OPTIMALISEREN"
+
+#~ msgid "table name"
+#~ msgstr "tabelnaam"
+
+#~ msgid "optimization result"
+#~ msgstr "resultaat optimalisatie"
+
+#~ msgid "engine"
+#~ msgstr "engine"
+
+#~ msgid "table rows"
+#~ msgstr "tabelrijen"
+
+#~ msgid "table size"
+#~ msgstr "tabelgrootte"
+
+#~ msgid "SAVINGS"
+#~ msgstr "BESPARINGEN"
+
+#~ msgid "size of the database"
+#~ msgstr "grootte van de database"
+
+#~ msgid "BEFORE optimization"
+#~ msgstr "VOOR de optimalisatie"
+
+#~ msgid "AFTER optimization"
+#~ msgstr "NA de optimalisatie"
+
+#~ msgid "SAVINGS THIS TIME"
+#~ msgstr "DIT KEER BESPAARD"
+
+#~ msgid "TOTAL SAVINGS SINCE THE FIRST RUN"
+#~ msgstr "TOTALE BESPARING SINDS DE EERSTE UITVOERING"
+
+#~ msgid "DONE"
+#~ msgstr "KLAAR"
+
+#~ msgid "Optimization took"
+#~ msgstr "Optimalizatie duurde"
+
+#~ msgid "seconds"
+#~ msgstr "seconden"
+
+#~ msgid "InnoDB table: skipped..."
+#~ msgstr "InnoDB tabel overgeslagen..."
+
+#~ msgid "TABLE OPTIMIZED"
+#~ msgstr "TABEL GEOPTIMALISEERD"
+
+#~ msgid "Table is already up to date"
+#~ msgstr "Tabel is al optimaal"
+
+#~ msgid "time"
+#~ msgstr "tijd"
+
+#~ msgid "deleted<br />revisions"
+#~ msgstr "verw.<br />revisies"
+
+#~ msgid "deleted<br />trash"
+#~ msgstr "verw.<br />prullenbak items"
+
+#~ msgid "deleted<br />spam"
+#~ msgstr "verw.<br />spamitems"
+
+#~ msgid "deleted<br />tags"
+#~ msgstr "verw.<br /> tags"
+
+#~ msgid "deleted<br />transients"
+#~ msgstr "verw.<br />transiënts"
+
+#~ msgid "deleted<br />pingbacks<br />trackbacks"
+#~ msgstr "verwijderde<br />pingbacks<br />trackbacks"
+
+#~ msgid "deleted<br />orphans"
+#~ msgstr "verw.<br />wezen"
+
+# @ rvg-optimize-database
+#~ msgid "nr of optimized tables"
+#~ msgstr "aantal geoptima-<br />liseerde tabellen"
+
+#~ msgid "database size BEFORE"
+#~ msgstr "database<br />grootte<br />VOOR"
+
+#~ msgid "database size AFTER"
+#~ msgstr "database<br />grootte<br />NA"
+
+#~ msgid "TABLE OPTIMIZED!"
+#~ msgstr "TABEL GEOPTIMALISEERD!"
+
+# @ default
+#~ msgid "Optimize DB Options"
+#~ msgstr "Optimaliseer DB Opties"
+
+#~ msgid "Optimize Database after Deleting Revisions OPTIONS UPDATED"
+#~ msgstr "Optimize Database after Deleting Revisions OPTIES OPGESLAGEN"
+
+#~ msgid ""
+#~ "Click <a href=\"tools.php?page=rvg-optimize-db.php\" style=\"font-weight:"
+#~ "bold\">HERE</a> to run the optimization"
+#~ msgstr ""
+#~ "Klik <a href=\"tools.php?page=rvg-optimize-db.php\" style=\"font-weight:"
+#~ "bold\">HIER</a> om de optimalisatie te starten"
+
+#~ msgid "To start the optimization:"
+#~ msgstr "Om de optimalisatie te starten:"
+
+#~ msgid ""
+#~ "<strong>WP Admin Panel</strong> &raquo; <strong>Tools</strong> &raquo; "
+#~ "<strong>Optimize Database</strong>. Then click the '<strong>Start "
+#~ "Optimization</strong>'-button. Et voila!"
+#~ msgstr ""
+#~ "<strong>WP Admin Panel</strong> &raquo; <strong>Extra</strong> &raquo; "
+#~ "<strong>Optimaliseren Database</strong>. Klik dan de  '<strong>Start "
+#~ "Optimalisatie</strong>'-knop. Et voila!"
+
+#~ msgid ""
+#~ "Note: if you use the Scheduler the Optimization will run automatically!"
+#~ msgstr ""
+#~ "Opmerking: als u gebruik maakt van de Planner zal de optimalisatie "
+#~ "automatisch worden uitgevoerd"
+
+#~ msgid "Optimize Database after Deleting Revisions - Options"
+#~ msgstr "Optimize Database after Deleting Revisions - Opties"
+
+#~ msgid ""
+#~ "EXCLUDE DATABASE TABLES FROM OPTIMIZATION: <span style=\"text-decoration:"
+#~ "underline;color:#F00;\">CHECKED</span> TABLES <span style=\"text-"
+#~ "decoration:underline;color:#F00;\">WON'T</span> BE OPTIMIZED!</span>"
+#~ msgstr ""
+#~ "SLUIT DE VOLGENDE TABELLEN UIT VAN OPTIMALISATIE: <span style=\"text-"
+#~ "decoration:underline;color:#F00;\">AANGEVINKTE</span> TABELLEN WORDEN "
+#~ "<span style=\"text-decoration:underline;color:#F00;\">NIET</span> "
+#~ "GEOPTIMALISEERD!</span>"
+
+#~ msgid "Current options"
+#~ msgstr "Huidige opties"
+
+#~ msgid "Change Options"
+#~ msgstr "Wijzig Opties"
+
+# @ rvg-optimize-database
+#~ msgid "Hello world!"
+#~ msgstr "HALLO WERELD!"

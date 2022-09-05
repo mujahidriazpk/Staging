@@ -1,0 +1,308 @@
+# Translation of Sticky Ads in Polish
+# This file is distributed under the same license as the Sticky Ads package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-03-12 10:48:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: pl\n"
+"Project-Id-Version: Sticky Ads\n"
+
+#. Author of the plugin
+msgid "Thomas Maier, Advanced Ads GmbH"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wpadvancedads.com"
+msgstr "http://wpadvancedads.com"
+
+#. URI of the plugin
+msgid "http://wpadvancedads.com/add-ons/sticky-ads/"
+msgstr "http://wpadvancedads.com/add-ons/sticky-ads/"
+
+#. Description of the plugin
+msgid "Advanced ad positioning."
+msgstr "Zaawansowane pozycjonowanie reklam."
+
+#. Name of the plugin
+msgid "Advanced Ads – Sticky Ads"
+msgstr "Advanced Ads – Sticky Ads"
+
+#: admin/views/vertical-center.php:3
+msgid "center vertically"
+msgstr "wyśrodkuj w pionie"
+
+#: admin/views/trigger.php:11
+msgid "after %s seconds"
+msgstr "po  %s sekundach"
+
+#: admin/views/trigger.php:8
+msgid "right away with effect"
+msgstr "od razu z efektem"
+
+#: admin/views/trigger.php:7
+msgid "right away"
+msgstr "od razu"
+
+#: admin/views/size.php:11
+msgid "Needed in case the ad does not center correctly"
+msgstr "Potrzebne na wypadek, gdyby reklama nie była prawidłowo wyśrodkowana"
+
+#: admin/views/size.php:7
+msgid "height"
+msgstr "wysokość"
+
+#: admin/views/size.php:3
+msgid "width"
+msgstr "szerokość"
+
+#: admin/views/metabox.php:46
+msgid "bottom"
+msgstr "dół"
+
+#: admin/views/metabox.php:36
+msgid "top"
+msgstr "góra"
+
+#: admin/views/metabox.php:32
+msgid "Use numbers in every field you want to be considered for positioning (top, left, right, bottom of the page). Leave a field empty to not set a position for this side. The number is considered to be in pixels."
+msgstr "Użyj liczb w każdym polu, które chcesz uwzględnić w pozycjonowaniu (góra, lewo, prawo, dół strony). Pozostaw puste pole, aby nie ustawiać pozycji dla tej strony. Liczbę uważa się za piksel."
+
+#: admin/views/metabox.php:31
+msgid "Define position manually"
+msgstr "Ustaw pozycję ręcznie"
+
+#: admin/views/metabox.php:27
+msgid "banner width"
+msgstr "szerokość banera"
+
+#: admin/views/metabox.php:26
+msgid "Enter banner width to correctly center the ad."
+msgstr "Wpisz szerokość banera, aby prawidłowo wyśrodkować reklamę."
+
+#: admin/views/metabox.php:23
+msgid "bottom right"
+msgstr "dół - prawa"
+
+#: admin/views/metabox.php:22
+msgid "bottom center"
+msgstr "dół - środek"
+
+#: admin/views/metabox.php:21
+msgid "bottom left"
+msgstr "dół - lewa"
+
+#: admin/views/metabox.php:18
+msgid "center right"
+msgstr "środek - prawa"
+
+#: admin/views/metabox.php:17
+msgid "center"
+msgstr "środek"
+
+#: admin/views/metabox.php:16
+msgid "center left"
+msgstr "środek - lewa"
+
+#: admin/views/metabox.php:13
+msgid "top right"
+msgstr "góra - prawa"
+
+#: admin/views/metabox.php:12
+msgid "top center"
+msgstr "góra - środek"
+
+#: admin/views/metabox.php:11
+msgid "top left"
+msgstr "góra - lewa"
+
+#: admin/views/metabox.php:7
+msgid "Choose a position on the screen."
+msgstr "Wybierz pozycję na ekranie."
+
+#: admin/views/metabox.php:6
+msgid "Select a position"
+msgstr "Wybierz pozycję"
+
+#: admin/views/metabox.php:3
+msgid "Stick ad to a specific position on the screen"
+msgstr "Umieść reklamę w określonej pozycji na ekranie"
+
+#: admin/views/metabox.php:1
+msgid "These settings are deprecated. Sticky ads are now managed through <a href=\"%s\">placements</a>. Please convert your settings as soon as possible."
+msgstr "Te ustawienia są przestarzałe. Przyklejone reklamy są teraz zarządzane za pośrednictwem <a href=\"%s\">miejsc docelowych</a>. Zmień ustawienia tak szybko, jak to możliwe."
+
+#: admin/views/effects.php:12
+msgid "Duration of the effect (in milliseconds)."
+msgstr "Czas trwania efektu (w milisekundach)."
+
+#: admin/views/effects.php:9
+msgid "Type of effect when the ad is being displayed"
+msgstr "Rodzaj efektu, gdy reklama jest wyświetlana"
+
+#: admin/views/effects.php:8
+msgid "Slide in"
+msgstr "Wsuń się"
+
+#: admin/views/effects.php:7
+msgid "Fade in"
+msgstr "Przenikanie"
+
+#: admin/views/effects.php:6
+msgid "Show"
+msgstr "Poka ż"
+
+#: admin/views/close-button.php:26
+msgid "days, 0 = after current session"
+msgstr "dni, 0 = po tej sesji"
+
+#: admin/views/close-button.php:24
+msgid "close the ad for …"
+msgstr "zamknij reklamę dla..."
+
+#: admin/views/close-button.php:22
+msgid "enable timeout"
+msgstr "włączyć limit czasu"
+
+#: admin/views/close-button.php:21 admin/views/metabox.php:42
+msgid "right"
+msgstr "prawa"
+
+#: admin/views/close-button.php:20 admin/views/metabox.php:40
+msgid "left"
+msgstr "lewa"
+
+#: admin/views/close-button.php:18
+msgid "inside"
+msgstr "wewnątrz"
+
+#: admin/views/close-button.php:17
+msgid "outside"
+msgstr "na zewnątrz"
+
+#: admin/views/close-button.php:14
+msgid "add close button"
+msgstr "dodaj przycisk zamykania"
+
+#: public/public.php:747
+msgid "close"
+msgstr "zamknij"
+
+#: admin/admin.php:437
+msgid "parent element"
+msgstr "element nadrzędny"
+
+#: admin/admin.php:432
+msgid "Use <a href=\"https://api.jquery.com/category/selectors/\" target=\"_blank\">jQuery selectors</a> to select a custom parent element or if automatic wrapper detection doesn’t work, e.g. #container_id, .container_class"
+msgstr "Użyj <a href=\"https://api.jquery.com/category/selectors/\" target=\"_blank\">selektorów jQuery</a>, aby wybrać niestandardowy element nadrzędny lub jeśli automatyczne wykrywanie nie działa, np. #container_id, .container_class"
+
+#: admin/admin.php:430
+msgid "select position"
+msgstr "wybierz pozycję"
+
+#: admin/admin.php:422 admin/admin.php:500 admin/views/close-button.php:16
+msgid "Position"
+msgstr "Pozycja"
+
+#: admin/admin.php:416 admin/admin.php:494
+msgid "fix to window position"
+msgstr "Napraw położenie okna"
+
+#: admin/admin.php:383 admin/admin.php:460 admin/admin.php:523
+msgid "size"
+msgstr "rozmiar"
+
+#: admin/admin.php:370 admin/admin.php:447 admin/admin.php:510
+msgid "close button"
+msgstr "przycisk zamykania"
+
+#: admin/admin.php:360 admin/admin.php:409 admin/admin.php:487
+msgid "effect"
+msgstr "efekt"
+
+#: admin/admin.php:350 admin/admin.php:399 admin/admin.php:477
+msgid "show the ad"
+msgstr "pokaż reklamę"
+
+#: admin/admin.php:340
+msgid "background"
+msgstr "tło"
+
+#: admin/admin.php:335
+msgid "When selecting a background color, the sticky bar will cover the whole screen width."
+msgstr "Wybierając kolor tła, lepki pasek pokryje całą szerokość ekranu."
+
+#: admin/admin.php:304
+msgid "Bar on the right side of the window."
+msgstr "Pasek po prawej stronie okna."
+
+#: admin/admin.php:303
+msgid "Right Bar"
+msgstr "Prawy pasek"
+
+#: admin/admin.php:298
+msgid "Bar on the left side of the window."
+msgstr "Pasek po lewej stronie okna."
+
+#: admin/admin.php:297
+msgid "Left Bar"
+msgstr "Lewy pasek"
+
+#: admin/admin.php:292
+msgid "Sidebar on the right side of the content wrapper."
+msgstr "Pasek boczny po prawej stronie zawartości."
+
+#: admin/admin.php:291
+msgid "Right Sidebar"
+msgstr "Prawy pasek boczny"
+
+#: admin/admin.php:286
+msgid "Sidebar on the left side of the content wrapper."
+msgstr "Pasek boczny po lewej stronie zawartości."
+
+#: admin/admin.php:285
+msgid "Left Sidebar"
+msgstr "Lewy pasek boczny"
+
+#: admin/admin.php:280
+msgid "Fixed footer bar."
+msgstr "Stały pasek stopki."
+
+#: admin/admin.php:279
+msgid "Footer Bar"
+msgstr "Pasaek stopki"
+
+#: admin/admin.php:274
+msgid "Fixed header bar."
+msgstr "Stały pasek nagłówka."
+
+#: admin/admin.php:273
+msgid "Header Bar"
+msgstr "Pasek nagłówka"
+
+#: admin/admin.php:259
+msgid "Activate this if you experience problems with sticky ads and/or a lot of your visitors use old mobile devices. It will check browser capability and position the ad inline after scrolling. Technically speaking: removes <em>position: fixed</em>, if not supported."
+msgstr "Aktywuj tę opcję, jeśli masz problemy z lepkimi reklamami i / lub wielu użytkowników korzysta ze starych urządzeń mobilnych. Sprawdza możliwość przeglądania i pozycjonuje reklamę po przewinięciu. Technicznie rzecz biorąc: usuwa <em>pozycję:stała</em>, jeśli nie jest obsługiwana."
+
+#: admin/admin.php:247
+msgid "Settings for the Sticky Ads add-on"
+msgstr "Ustawienia dodatku Sticky Ads"
+
+#: admin/admin.php:216
+msgid "Check browser capability"
+msgstr "Sprawdź możliwości przeglądarki"
+
+#: admin/admin.php:81
+msgid "<strong>%s</strong> requires the <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> plugin to be installed and activated on your site."
+msgstr "<strong>%s</strong> wymaga wtyczki <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong>, by prawidłowo działać w twoje witrynie."
+
+#: admin/admin.php:77
+msgid "Install Now"
+msgstr "Instaluj teraz"
+
+#: admin/admin.php:75
+msgid "Activate Now"
+msgstr "Włącz teraz"

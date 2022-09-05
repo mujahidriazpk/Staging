@@ -1,0 +1,147 @@
+2022-03-21T06:26:37-07:00 CRITICAL Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 400,
+    "message": "Invalid Date specified: 20220308",
+    "errors": [
+      {
+        "message": "Invalid Date specified: 20220308",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/H in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php on line 128
+
+2022-03-21T06:26:43-07:00 CRITICAL Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 400,
+    "message": "Invalid Date specified: 20220321",
+    "errors": [
+      {
+        "message": "Invalid Date specified: 20220321",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/H in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php on line 128
+
+2022-03-21T06:26:48-07:00 CRITICAL Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 400,
+    "message": "Invalid Date specified: 20220321",
+    "errors": [
+      {
+        "message": "Invalid Date specified: 20220321",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/H in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php on line 128
+
+2022-03-21T06:29:23-07:00 CRITICAL Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 400,
+    "message": "Invalid Date specified: 2022-03-02 00:00:00",
+    "errors": [
+      {
+        "message": "Invalid Date specified: 2022-03-02 00:00:00",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/ in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php on line 128
+
+2022-03-21T06:29:30-07:00 CRITICAL Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 400,
+    "message": "Invalid Date specified: 2022-03-21 00:00:00",
+    "errors": [
+      {
+        "message": "Invalid Date specified: 2022-03-21 00:00:00",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/ in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php on line 128
+
+2022-03-21T06:50:50-07:00 CRITICAL Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 400,
+    "message": "Invalid Date specified: 20220301",
+    "errors": [
+      {
+        "message": "Invalid Date specified: 20220301",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/H in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php on line 128
+
+2022-03-21T10:02:08-07:00 CRITICAL Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 400,
+    "message": "Invalid Date specified: 20220301",
+    "errors": [
+      {
+        "message": "Invalid Date specified: 20220301",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}
+ in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/H in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/vendor/google/apiclient/src/Http/REST.php on line 128
+

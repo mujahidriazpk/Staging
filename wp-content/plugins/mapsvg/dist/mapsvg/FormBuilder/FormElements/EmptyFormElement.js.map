@@ -1,0 +1,1 @@
+{"version":3,"file":"EmptyFormElement.js","sourceRoot":"","sources":["../../../../js/mapsvg/FormBuilder/FormElements/EmptyFormElement.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,WAAW,EAAC,MAAM,eAAe,CAAC;AAG1C,MAAM,OAAO,gBAAiB,SAAQ,WAAW;IAE7C,YAAY,OAAO,EAAE,WAAwB;QACzC,KAAK,CAAC,OAAO,EAAE,WAAW,CAAC,CAAC;IAChC,CAAC;CACJ"}

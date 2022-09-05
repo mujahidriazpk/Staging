@@ -1,0 +1,27 @@
+/* Dashboard Widgets Suite - Settings Styles */
+
+.dws-version { color: #c7c7c7; font-size: 90%; }
+
+.dws-recommended { width: 100%; overflow: hidden; padding: 0 0 5px 0; }
+.dws-recommended .dws-resources { width: 100%; overflow: hidden; }
+.dws-recommended img { display: block; width: 125px; height: 125px; margin: 0; padding: 0; border: 0; background-color: #fff; color: #fff; }
+.dws-recommended a {  float: left; width: 125px; height: 125px; margin: 7px 15px 3px 0; padding: 1px; border: 1px solid #ccc; opacity: 0.9; }
+.dws-recommended a:hover { opacity: 1.0; }
+
+.wp-admin .dws-label { display: block; color: #555; font-style: italic; font-size: 13px; line-height: 1.5; }
+.wp-admin .inline-block { display: inline-block; }
+
+.wp-admin form h2 { margin-top: 25px; }
+.wp-admin form hr { margin: 10px 0 0 0; }
+
+.wp-admin select + .inline-block, .wp-admin input[type=number] + .inline-block { margin: 0 0 0 3px; }
+
+.wp-admin input[type=text] { width: 60%; }
+.wp-admin input[type=text] + label { margin: 3px 0 0 3px; }
+.wp-admin input.dws-input-text-short[type=text] { width: 65px; }
+
+.ui-dialog .ui-dialog-titlebar { font-size: 16px; }
+.ui-dialog .ui-dialog-buttonpane, .ui-dialog .ui-dialog-titlebar, .ui-dialog .ui-dialog-content { text-align: center; }
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset { float: none; }
+.ui-dialog .ui-dialog-buttonpane .ui-button { margin: 0; }
+.ui-dialog .ui-dialog-buttonpane .ui-button:first-child { margin-right: 15px; }

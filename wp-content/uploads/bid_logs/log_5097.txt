@@ -1,0 +1,1 @@
+{"user_id":1,"curent_bid":"18.42"}

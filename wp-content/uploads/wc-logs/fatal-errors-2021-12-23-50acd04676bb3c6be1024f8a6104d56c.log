@@ -1,0 +1,92 @@
+2021-12-23T10:23:43+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/woocommerce/single-product/bid.php on line 591
+
+2021-12-23T10:24:26+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/woocommerce/single-product/bid.php on line 538
+
+2021-12-23T10:24:34+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/woocommerce/single-product/bid.php on line 538
+
+2021-12-23T10:24:38+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/woocommerce/single-product/bid.php on line 538
+
+2021-12-23T10:26:49+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/woocommerce/single-product/bid.php on line 1045
+
+2021-12-23T10:38:46+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/woocommerce/single-product/bid.php on line 831
+
+2021-12-23T11:17:15+00:00 CRITICAL syntax error, unexpected end of file, expecting variable (T_VARIABLE) or quoted-string and whitespace (T_ENCAPSED_AND_WHITESPACE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 436
+
+2021-12-23T03:19:42-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:814
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal 4 wisdo...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal 4 wisdo...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal 4 wisdo...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 814
+
+2021-12-23T03:21:06-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:814
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal 4 wisdo...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal 4 wisdo...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal 4 wisdo...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 814
+
+2021-12-23T03:21:35-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:814
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal 4 wisdo...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal 4 wisdo...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal 4 wisdo...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 814
+
+2021-12-23T03:22:13-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:814
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal 4 wisdo...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal 4 wisdo...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal 4 wisdo...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 814
+
+2021-12-23T03:23:24-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:814
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal 4 wisdo...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal 4 wisdo...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal 4 wisdo...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 814
+
+2021-12-23T03:26:08-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:814
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal 4 wisdo...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal 4 wisdo...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal 4 wisdo...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 814
+
+2021-12-23T11:27:32+00:00 CRITICAL syntax error, unexpected end of file, expecting '(' in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 1243
+
+2021-12-23T11:27:33+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 2565
+
+2021-12-23T11:29:40+00:00 CRITICAL Uncaught Error: Call to undefined function wc_price_mujahid() in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce-simple-auctions/classes/class-wc-product-auction.php:965
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getAuctionData.php(59): WC_Product_Auction->get_price_html()
+#1 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce-simple-auctions/classes/class-wc-product-auction.php on line 965
+
+2021-12-23T11:29:40+00:00 CRITICAL Uncaught Error: Call to undefined function wc_price_mujahid() in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce-simple-auctions/classes/class-wc-product-auction.php:965
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/getAuctionData.php(59): WC_Product_Auction->get_price_html()
+#1 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce-simple-auctions/classes/class-wc-product-auction.php on line 965
+
+2021-12-23T11:29:41+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 2565
+
+2021-12-23T11:29:41+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 2565
+
+2021-12-23T11:36:58+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 2563
+
+2021-12-23T03:39:42-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:814
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal 4 wisdo...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal 4 wisdo...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal 4 wisdo...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 814
+
+2021-12-23T04:52:24-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:814
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal 4 wisdo...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal 4 wisdo...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal 4 wisdo...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 814
+

@@ -1,0 +1,22 @@
+2021-12-13T03:16:04-08:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/woocommerce/checkout/thankyou.php:19
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(256): wc_get_template('checkout/thanky...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(5544)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wr in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/woocommerce/checkout/thankyou.php on line 19
+
+2021-12-13T03:18:17-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:814
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('horseshoe bite ...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('horseshoe bite ...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'horseshoe bite ...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 814
+
+2021-12-13T04:56:24-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:814
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('horseshoe bite ...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('horseshoe bite ...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'horseshoe bite ...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 814
+

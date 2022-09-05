@@ -1,0 +1,1212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Analytify Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-27 13:27+0500\n"
+"PO-Revision-Date: 2017-02-27 13:27+0500\n"
+"Last-Translator: MV <info@seo-website.ru>\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n"
+"%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wp-analytify-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/analytifypro_base.php:34 classes/analytifypro_base.php:41
+#: classes/analytifypro_base.php:48 classes/analytifypro_base.php:55
+#: classes/analytifypro_base.php:62
+msgctxt "Delete license"
+msgid "Remove"
+msgstr "Удалить"
+
+#: classes/analytifypro_base.php:219 classes/analytifypro_base.php:293
+#: classes/analytifypro_base.php:367 classes/analytifypro_base.php:440
+#: classes/analytifypro_base.php:513
+#, fuzzy, php-format
+msgid ""
+"<strong>Activate Your License</strong> &mdash; Please <a href=\"%s\" class="
+"\"\">enter your license key</a> to enable priority support and plugin "
+"updates."
+msgstr ""
+"<strong>Активация лицензии</strong> — пожалуйста, <a href=\"%s\" class="
+"\"\">Введите лицензионный ключ</a> для включения приоритетов поддержки и "
+"плагин обновления."
+
+#: classes/analytifypro_base.php:240 classes/analytifypro_base.php:314
+#: classes/analytifypro_base.php:388 classes/analytifypro_base.php:461
+#: classes/analytifypro_base.php:534
+msgid "Your License Has Expired"
+msgstr "Истек срок действия лицензии"
+
+#: classes/analytifypro_base.php:241 classes/analytifypro_base.php:315
+#: classes/analytifypro_base.php:389 classes/analytifypro_base.php:462
+#: classes/analytifypro_base.php:535
+#, php-format
+msgid "Login to <a href=\"%s\">My Account</a> to renew. "
+msgstr "Войти в <a href=\"%s\">Мой аккаунт</a> , чтобы подтвердить."
+
+#: classes/analytifypro_base.php:245 classes/analytifypro_base.php:319
+#: classes/analytifypro_base.php:393 classes/analytifypro_base.php:466
+#: classes/analytifypro_base.php:539
+msgid "Updates are only available to those with an active license. "
+msgstr "Обновления доступны только для тех, кто с активной лицензией."
+
+#: classes/analytifypro_base.php:246 classes/analytifypro_base.php:320
+#: classes/analytifypro_base.php:394 classes/analytifypro_base.php:467
+#: classes/analytifypro_base.php:540
+msgid "Only active licenses can submit support requests. "
+msgstr "Только активные лицензии могут подавать заявки на поддержку."
+
+#: classes/analytifypro_base.php:247 classes/analytifypro_base.php:321
+#: classes/analytifypro_base.php:395 classes/analytifypro_base.php:468
+#: classes/analytifypro_base.php:541
+msgid ""
+"All features will continue to work, but you won't be able to receive updates "
+"or email support. "
+msgstr ""
+"Все функции будут работать, но вы не сможете получать обновления или "
+"поддержки по электронной почте."
+
+#: classes/analytifypro_base.php:259 classes/analytifypro_base.php:333
+#: classes/analytifypro_base.php:407 classes/analytifypro_base.php:480
+#: classes/analytifypro_base.php:553
+#, fuzzy, php-format
+msgid ""
+"<strong>No Activations Left</strong> &mdash; Please visit <a href=\"%s\" "
+"target=\"_blank\">My Account</a> to upgrade your license or deactivate a "
+"previous activation."
+msgstr ""
+"<strong>No Activations Left</strong> &mdash; Please visit <a href=\"%s\" "
+"target=\"_blank\">My Account</a> to upgrade your license or deactivate a "
+"previous activation."
+
+#: classes/analytifypro_base.php:262 classes/analytifypro_base.php:336
+#: classes/analytifypro_base.php:410 classes/analytifypro_base.php:483
+#: classes/analytifypro_base.php:556
+#, fuzzy, php-format
+msgid ""
+"<strong>Your License Was Not Found</strong> &mdash; Please visit <a href=\"%s"
+"\" target=\"_blank\">My Account</a> to double check your license key."
+msgstr ""
+"<strong>Your License Was Not Found</strong> &mdash; Please visit <a href=\"%s"
+"\" target=\"_blank\">My Account</a> to double check your license key."
+
+#: classes/analytifypro_base.php:265 classes/analytifypro_base.php:339
+#: classes/analytifypro_base.php:413 classes/analytifypro_base.php:486
+#: classes/analytifypro_base.php:559
+msgid "<strong>Your License Was Not Found</strong> &mdash; "
+msgstr "<strong>Ваша лицензия не найдена</strong>&mdash; "
+
+#: classes/analytifypro_base.php:270 classes/analytifypro_base.php:344
+#: classes/analytifypro_base.php:418 classes/analytifypro_base.php:491
+#: classes/analytifypro_base.php:564
+#, fuzzy, php-format
+msgid ""
+"<strong>An Unexpected Error Occurred</strong> &mdash; Please contact us at "
+"<a href=\"%1$s\">%2$s</a> and quote the following:"
+msgstr ""
+"<strong>An Unexpected Error Occurred</strong> &mdash; Please contact us at "
+"<a href=\"%1$s\">%2$s</a> and quote the following:"
+
+#: classes/analytifypro_base.php:702 classes/class-wp-analytify-pro.php:2410
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Update Available %4$s &mdash; %9$s %10$s is now available. "
+"You currently have %11$s installed.  %5$s Changelog %6$s  %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s доступно обновление: %4$s &mdash; %9$s %10$s is now "
+"available. You currently have %11$s installed.  %5$s Changelog %6$s  %7$s "
+"%8$s"
+
+#: classes/class-wp-analytify-pro.php:219
+#, fuzzy, php-format
+msgid ""
+"%1$s %2$s %3$s Activate Your License %4$s &mdash; Please %5$senter your "
+"license key%6$s to enable support and plugin updates. %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s Activate Your License %4$s &mdash; Please %5$senter your "
+"license key%6$s to enable support and plugin updates. %7$s %8$s"
+
+#: classes/class-wp-analytify-pro.php:222
+#, fuzzy, php-format
+msgid ""
+"%1$s %2$s %3$s Activate Your License %4$s &mdash; Please click on %5$s "
+"Activate License button %6$s to validate your license. %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s Activate Your License %4$s &mdash; Please click on %5$s "
+"Activate License button %6$s to validate your license. %7$s %8$s"
+
+#: classes/class-wp-analytify-pro.php:225
+#, fuzzy, php-format
+msgid ""
+"%1$s %2$s %3$s License Expired %4$s &mdash; Upgrade your license to enable "
+"support and plugin updates. Would you please checkout %5$s what we have "
+"improved %6$s so far ? %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s License Expired %4$s &mdash; Upgrade your license to enable "
+"support and plugin updates. Would you please checkout %5$s what we have "
+"improved %6$s so far ? %7$s %8$s"
+
+#: classes/class-wp-analytify-pro.php:228
+#, fuzzy, php-format
+msgid ""
+"%1$s %2$s %3$s Invalid License %4$s &mdash; Please %5$senter a valid license "
+"key%6$s to enable support and plugin updates. %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s Invalid License %4$s &mdash; Please %5$senter a valid license "
+"key%6$s to enable support and plugin updates. %7$s %8$s"
+
+#: classes/class-wp-analytify-pro.php:239
+msgid "Dashboards"
+msgstr "Панели управления"
+
+#: classes/class-wp-analytify-pro.php:241
+msgid "REAL TIME"
+msgstr "В реальном времени"
+
+#: classes/class-wp-analytify-pro.php:337
+msgid "Top Ajax Errors"
+msgstr "Топ Ajax ошибки"
+
+#: classes/class-wp-analytify-pro.php:355
+msgid "List of the ajax errors."
+msgstr "Список ошибок ajax."
+
+#: classes/class-wp-analytify-pro.php:370
+msgid "Top 404 Pages Errors"
+msgstr "Топ ошибки 404 страниц"
+
+#: classes/class-wp-analytify-pro.php:388
+msgid "List of the 404 errors."
+msgstr "Список ошибок 404 страниц"
+
+#: classes/class-wp-analytify-pro.php:403
+msgid "Top Javascript Errors"
+msgstr "Топ Javascript ошибки"
+
+#: classes/class-wp-analytify-pro.php:421
+msgid "List of the Javascript errors."
+msgstr "Список ошибок Javascript."
+
+#: classes/class-wp-analytify-pro.php:518
+msgid "Thank you!"
+msgstr "Спасибо!"
+
+#: classes/class-wp-analytify-pro.php:521
+msgid ""
+"We appreciate you to upgrade to Pro version and supporting the development "
+"of this product."
+msgstr "Мы ценим обновление до версии Pro и поддержки развития этого продукта."
+
+#: classes/class-wp-analytify-pro.php:526
+msgid "made with ♥ by"
+msgstr "сделано с ♥"
+
+#: classes/class-wp-analytify-pro.php:635
+#: classes/class-wp-analytify-pro.php:2443
+msgid "Front"
+msgstr "Внешний интерфейс"
+
+#: classes/class-wp-analytify-pro.php:639
+#: classes/class-wp-analytify-pro.php:2456
+msgid "License"
+msgstr "Лицензия"
+
+#: classes/class-wp-analytify-pro.php:801
+msgid ""
+"Enter your license key(s). It is important to have a valide license for "
+"automatic plugin updates and support. After adding license key, press "
+"Activate license button."
+msgstr ""
+"Введите ваш ключ лицензии. Важно иметь лицензию для автоматического плагина "
+"обновлений и поддержки. После добавления лицензионного ключа, нажмите кнопку "
+"Активация лицензии."
+
+#: classes/class-wp-analytify-pro.php:807
+msgid "Analytify PRO (License Key):"
+msgstr "Analytify PRO (лицензионный ключ):"
+
+#: classes/class-wp-analytify-pro.php:823
+msgid "Activate License"
+msgstr "Активировать лицензию"
+
+#: classes/class-wp-analytify-pro.php:1059
+#, php-format
+msgid "%1$s Fetching Analytics from %2$s to %3$s %4$s"
+msgstr "%1$s извлечение Analytics из %2$s %3$s %4$s"
+
+#: classes/class-wp-analytify-pro.php:1167
+#, php-format
+msgid "%1$s Settings %2$s | %3$s Dashboard %4$s | %5$s Help %6$s"
+msgstr "%1$s Настройки %2$s | %3$s Dashboard %4$s | %5$s Помощь %6$s"
+
+#: classes/class-wp-analytify-pro.php:1189
+#, php-format
+msgid "%1$s Getting Started %2$s"
+msgstr "%1$s Начало работы %2$s"
+
+#: classes/class-wp-analytify-pro.php:1190
+#, php-format
+msgid "%1$s Add Ons %2$s"
+msgstr "%1$s Добавить Ons %2$s"
+
+#: classes/class-wp-analytify-pro.php:1260
+#, php-format
+msgid ""
+"Analytify is not active. Please %1$sAuthenticate%2$s in order to get started "
+"using this plugin."
+msgstr ""
+"Analytify не активен. Аутенфицируйтесь %1$sAuthenticate%2$s, пожалуйста, для "
+"того, чтобы начать использовать этот плагин."
+
+#: classes/class-wp-analytify-pro.php:1264
+#, php-format
+msgid "%1$s Google Analytics Profile is not set. Set the %2$s Profile %3$s"
+msgstr "%1$s не задан профиль Google Analytics. Установить %2$s профиль %3$s"
+
+#: classes/class-wp-analytify-pro.php:2311
+#, php-format
+msgid "There is a new version of %s available."
+msgstr "Доступна новая версия %s."
+
+#: classes/class-wp-analytify-pro.php:2313
+#, php-format
+msgid "View version %s details"
+msgstr "Показать подробности версии %s"
+
+#: classes/class-wp-analytify-pro.php:2321
+msgctxt "Plugin configuration and preferences"
+msgid "Settings"
+msgstr "Настройки"
+
+#: classes/class-wp-analytify-pro.php:2323
+#, php-format
+msgid ""
+"To update, go to %1$s and enter your license key. If you don't have a "
+"license key, you may <a href=\"%2$s\">purchase one</a>."
+msgstr ""
+"Для обновления, перейдите к %1$s и введите лицензионный ключ. Если у вас нет "
+"лицензионного ключа, вы можете <a href=\"%2$s\">приобрести один</a>."
+
+#: classes/class-wp-analytify-pro.php:2325
+#, php-format
+msgid ""
+"To finish activating %1$s, please go to %2$s and enter your license key. If "
+"you don't have a license key, you may <a href=\"%3$s\">purchase one</a>."
+msgstr ""
+"Чтобы закончить, активирование %1$s, пожалуйста, перейдите к %2$s и введите "
+"лицензионный ключ. Если у вас нет лицензионного ключа, вы можете <a href="
+"\"%3$s\">приобрести</a>."
+
+#: classes/class-wp-analytify-pro.php:2328
+msgid "Check my license again"
+msgstr "Еще раз проверьте мою лицензию"
+
+#: classes/class-wp-analytify-pro.php:2444
+msgid ""
+"Following are the settings for front-end side. Google Analytics will appear "
+"under the posts, custom post types or pages at front-end."
+msgstr ""
+"Ниже приведены настройки для фронт-сайта. Google Analytics будут появляться "
+"под сообщениями, пользовательских типов записей или страниц."
+
+#: classes/class-wp-analytify-pro.php:2449
+#: views/default/admin/detail-realtime-stats.php:10
+msgid "Dashboard"
+msgstr "Панели управления"
+
+#: classes/class-wp-analytify-pro.php:2471
+msgid "Disable front-end"
+msgstr "Отключить Front End"
+
+#: classes/class-wp-analytify-pro.php:2472
+msgid ""
+"Check it, if you don't want to load Analytics at all. Remember, you can use "
+"Shortcodes still."
+msgstr "Отметьте это, если вы не хотите, чтобы загружать Analytics вовсе."
+
+#: classes/class-wp-analytify-pro.php:2486
+msgid "Analytics on Post types"
+msgstr "Аналитика для этих типов записей"
+
+#: classes/class-wp-analytify-pro.php:2487
+msgid "Show Analytics under the above post types only."
+msgstr "Показать аналитику для этих типов только."
+
+#: classes/class-wp-analytify-pro.php:2495
+msgid "Front-end Analytics panels:"
+msgstr "Внешний интерфейс/панели аналитики:"
+
+#: classes/class-wp-analytify-pro.php:2496
+msgid "Select which Stats panels you want to display at front-end."
+msgstr "Укажите боковые панели, которые Вы хотите видеть:"
+
+#: classes/class-wp-analytify-pro.php:2501
+msgid "Country Stats"
+msgstr "Статистика стран"
+
+#: classes/class-wp-analytify-pro.php:2504
+msgid "Browser Stats"
+msgstr "Статистика браузеров"
+
+#: classes/class-wp-analytify-pro.php:2506
+msgid "Mobile devices Stats"
+msgstr "Статистика мобильных устройств"
+
+#: classes/class-wp-analytify-pro.php:2507
+msgid "Operating System Stats"
+msgstr "Статистика операционных систем"
+
+#: classes/class-wp-analytify-pro.php:2508
+msgid "City Stats"
+msgstr "Статистика по городам"
+
+#: classes/class-wp-analytify-pro.php:2514
+msgid ""
+"Enter ID's of posts or pages separated by commas on which you don't want to "
+"show Analytics e.g 11,45,66"
+msgstr ""
+"Введите идентификаторы из постов или страниц, разделенных запятыми, на "
+"которые вы не хотите, чтобы показывалась Аналитика Analytics, например "
+"11,45,66"
+
+#: classes/class-wp-analytify-pro.php:2524
+msgid "Delete Cache:"
+msgstr "Очистить кеш:"
+
+#: classes/class-wp-analytify-pro.php:2525
+msgid ""
+"Analytify dashboard (except Real Time Stats) is saving results for 20 hours. "
+"If you want to fetch the current stats, Enable this check and Press 'Save "
+"Changes' below."
+msgstr ""
+"Analytify панели (за исключением статистики реального времени) - сохранение "
+"результатов на 20 часов. Если вы хотите, чтобы выгрузить/обновить "
+"статистику, включите этот флажок и нажмите «Сохранить изменения» ниже."
+
+#: classes/class-wp-analytify-pro.php:2531
+msgid "Show Analytify Dashboard to above selected user roles only."
+msgstr "Показать Analytify панель только для выбранных ролей пользователей."
+
+#: classes/class-wp-analytify-pro.php:2539
+msgid "Dashboard Analytics panels:"
+msgstr "Панели аналитики:"
+
+#: classes/class-wp-analytify-pro.php:2544
+#: views/default/admin/detail-realtime-stats.php:23
+msgid "RealTime Stats"
+msgstr "Статистика в реальном времени"
+
+#: classes/class-wp-analytify-pro.php:2545
+msgid "Comparison Stats"
+msgstr "Сравнительная Статистика"
+
+#: classes/class-wp-analytify-pro.php:2547
+msgid "Top Pages Stats"
+msgstr "Топ-страницы Статистика"
+
+#: classes/class-wp-analytify-pro.php:2553
+msgid "Page entrance and exit stats"
+msgstr "Входы на веб-страницы и выходы"
+
+#: inc/analytify-widgets.php:9
+msgid "Analytify Live Stats"
+msgstr "Analytify Живая Статистика"
+
+#: inc/analytify-widgets.php:10
+msgid "It shows Live Stats of your site."
+msgstr "Модуль показывает статистику вашего сайта."
+
+#: inc/analytify-widgets.php:28
+msgid "Title"
+msgstr "Заголовок"
+
+#: inc/analytify-widgets.php:33
+msgid "Description:"
+msgstr "Описание:"
+
+#: inc/front-menus.php:20
+msgid "Top Countries"
+msgstr "Топ по странам"
+
+#: inc/front-menus.php:29 views/old/front/city-stats.php:7
+msgid "Top Cities"
+msgstr "Популярные города"
+
+#: inc/front-menus.php:38
+msgid "Top Operating Systems"
+msgstr "Топ операц. систем"
+
+#: inc/front-menus.php:56
+msgid "Top Keywords"
+msgstr "Топ ключевые слова"
+
+#: inc/front-menus.php:65
+msgid "SOCIAL MEDIA STATiStics"
+msgstr "СОЦИАЛЬНЫЕ МЕДИА статистика"
+
+#: inc/front-menus.php:73
+msgid "TOP BROWSERS"
+msgstr "ТОП БРАУЗЕРЫ"
+
+#: inc/shortcode.php:3
+msgid ""
+"Select metrics and dimensions, sort them with metrics and show stats to your "
+"visitors (roles)."
+msgstr ""
+"Выберите показатели и измерения, сортировать их с помощью метрик и показать "
+"статистику для посетителей (роли)."
+
+#: inc/shortcode.php:8
+msgid "Metrics: "
+msgstr "Измеряемые параметры:"
+
+#: inc/shortcode.php:9
+msgid "Select at least one Metric"
+msgstr "Выберите хотя бы одну метрику"
+
+#: inc/shortcode.php:10 inc/shortcode.php:40
+msgid "user"
+msgstr "пользователь"
+
+#: inc/shortcode.php:11
+msgid "Users"
+msgstr "Пользователи"
+
+#: inc/shortcode.php:13 inc/shortcode.php:110
+msgid "Percent New Sessions"
+msgstr "Процент новых сеансов"
+
+#: inc/shortcode.php:15
+msgid "Session"
+msgstr "Сессия/Сеанс"
+
+#: inc/shortcode.php:17 inc/shortcode.php:111
+msgid "Bounces"
+msgstr "Отказы"
+
+#: inc/shortcode.php:19
+msgid "sessionDuration"
+msgstr "Время сеанса"
+
+#: inc/shortcode.php:20
+msgid "Avg SessionDuration"
+msgstr "Время сеанса, среднее"
+
+#: inc/shortcode.php:21 inc/shortcode.php:113
+#: views/default/admin/404-error.php:14 views/default/admin/ajax-error.php:13
+#: views/default/admin/javascript-error.php:13
+msgid "Hits"
+msgstr "Клики"
+
+#: inc/shortcode.php:23 inc/shortcode.php:72
+msgid "Page Tracking"
+msgstr "Отслеживание страницы"
+
+#: inc/shortcode.php:24 inc/shortcode.php:114
+msgid "Page Value"
+msgstr "Значение страницы"
+
+#: inc/shortcode.php:25 inc/shortcode.php:115
+msgid "Entrances"
+msgstr "Входы"
+
+#: inc/shortcode.php:26 inc/shortcode.php:116
+msgid "Pageviews"
+msgstr "Просмотры"
+
+#: inc/shortcode.php:27 inc/shortcode.php:117
+msgid "Unique Pageviews"
+msgstr "Уникальные Просмотры страниц"
+
+#: inc/shortcode.php:28 inc/shortcode.php:118
+msgid "Exits"
+msgstr "Выходы"
+
+#: inc/shortcode.php:29
+msgid "Exit Rate"
+msgstr "Уровень выходов"
+
+#: inc/shortcode.php:30 inc/shortcode.php:121
+msgid "Entrance Rate"
+msgstr "Уровень входов"
+
+#: inc/shortcode.php:31 inc/shortcode.php:120
+msgid "Pageviews Per Session"
+msgstr "Просмотры страниц за одну сессию"
+
+#: inc/shortcode.php:32 inc/shortcode.php:122
+msgid "Time On Page"
+msgstr "Время на странице"
+
+#: inc/shortcode.php:33
+msgid "Avg Time On Page"
+msgstr "Среднее время на странице"
+
+#: inc/shortcode.php:38
+msgid "Dimensions: "
+msgstr "Размеры:"
+
+#: inc/shortcode.php:39
+msgid "Select at least one Dimension"
+msgstr "Выберите хотя бы одно измерение"
+
+#: inc/shortcode.php:41
+msgid "User Type"
+msgstr "Тип пользователя"
+
+#: inc/shortcode.php:42
+msgid "Session Count"
+msgstr "Число сеансов"
+
+#: inc/shortcode.php:43
+msgid "Days Since Last Session"
+msgstr "Дней с момента последней сессии"
+
+#: inc/shortcode.php:44
+msgid "Session Duration Bucket"
+msgstr "Продолжительность"
+
+#: inc/shortcode.php:46
+msgid "Traffic Sources"
+msgstr "Источники трафика"
+
+#: inc/shortcode.php:47
+msgid "Referral Path"
+msgstr "Путь URL-адреса реферала"
+
+#: inc/shortcode.php:48
+msgid "Full Referrer"
+msgstr "Полный реферер"
+
+#: inc/shortcode.php:49
+msgid "Source"
+msgstr "Источник"
+
+#: inc/shortcode.php:50
+msgid "Medium"
+msgstr "Медиа/канал"
+
+#: inc/shortcode.php:51
+msgid "Source Medium"
+msgstr "Источник Медиа/канала"
+
+#: inc/shortcode.php:52
+msgid "Keyword"
+msgstr "Ключевое слово"
+
+#: inc/shortcode.php:53
+msgid "Social Network"
+msgstr "Соцсети"
+
+#: inc/shortcode.php:55
+msgid "Platform or Device"
+msgstr "Платформы или устройства"
+
+#: inc/shortcode.php:56 views/old/front/browser-stats.php:17
+msgid "Browser"
+msgstr "Браузер"
+
+#: inc/shortcode.php:57
+msgid "Browser Version"
+msgstr "Версия браузера"
+
+#: inc/shortcode.php:58
+msgid "Operating System"
+msgstr "Операционная система"
+
+#: inc/shortcode.php:59
+msgid "Operating System Version"
+msgstr "Версия операционной системы"
+
+#: inc/shortcode.php:60
+msgid "Mobile Device Branding"
+msgstr "Мобильное устройство"
+
+#: inc/shortcode.php:61
+msgid "Mobile Device Model"
+msgstr "Модель мобильного устройства"
+
+#: inc/shortcode.php:62
+msgid "Mobile Input Selector"
+msgstr "Мобильный селектор входных параметров "
+
+#: inc/shortcode.php:63
+msgid "Mobile Device Info"
+msgstr "Информация о мобильном устройстве"
+
+#: inc/shortcode.php:64
+msgid "Mobile Device MarketingName"
+msgstr "Мобильное устройство MarketingName"
+
+#: inc/shortcode.php:65
+msgid "Device Category"
+msgstr "Категория устройств"
+
+#: inc/shortcode.php:66
+msgid "Flash Version"
+msgstr "Flash-версия"
+
+#: inc/shortcode.php:67
+msgid "Java Enabled"
+msgstr "Включен Java"
+
+#: inc/shortcode.php:68
+msgid "Language"
+msgstr "Язык"
+
+#: inc/shortcode.php:69
+msgid "ScreenColors"
+msgstr "ScreenColors"
+
+#: inc/shortcode.php:70
+msgid "ScreenResolution"
+msgstr "Экран"
+
+#: inc/shortcode.php:73
+msgid "Hostname"
+msgstr "Имя хоста"
+
+#: inc/shortcode.php:74
+msgid "Page Path"
+msgstr "Путь к странице"
+
+#: inc/shortcode.php:75 views/default/admin/detail-realtime-stats.php:379
+msgid "Page Title"
+msgstr "Заголовок страницы"
+
+#: inc/shortcode.php:76
+msgid "Landing Page Path"
+msgstr "Landing Page / Посадочная страница"
+
+#: inc/shortcode.php:77
+msgid "secondPagePath"
+msgstr "Путь второй страницы -secondPagePath"
+
+#: inc/shortcode.php:78
+msgid "Exit Page Path"
+msgstr "Путь страницы выхода"
+
+#: inc/shortcode.php:79
+msgid "Previous Page Path"
+msgstr "Предыдущая страница"
+
+#: inc/shortcode.php:80
+msgid "Next Page Path"
+msgstr "Путь к следующей странице"
+
+#: inc/shortcode.php:81
+msgid "Page Depth"
+msgstr "Глубина страницы"
+
+#: inc/shortcode.php:86
+msgid "Visible to (roles) : "
+msgstr "Видимый (роли):"
+
+#: inc/shortcode.php:88
+msgid "Everyone"
+msgstr "Все"
+
+#: inc/shortcode.php:105
+msgid "Sort By: "
+msgstr "Сортировать по:"
+
+#: inc/shortcode.php:112
+msgid "BounceRate"
+msgstr "Уровень отказов"
+
+#: inc/shortcode.php:119
+msgid "EntranceRate"
+msgstr "EntranceRate (показатель входов)"
+
+#: inc/shortcode.php:126
+msgid "Analytics for: "
+msgstr "Аналитика для:"
+
+#: inc/shortcode.php:128
+msgid "Current page"
+msgstr "Текущая страница"
+
+#: inc/shortcode.php:129
+msgid "Full Site"
+msgstr "Полный сайт"
+
+#: inc/shortcode.php:135
+msgid "Date range: "
+msgstr "Диапазон дат:"
+
+#: inc/shortcode.php:137
+msgid "Custom"
+msgstr "Свой вариант"
+
+#: inc/shortcode.php:138
+msgid "Today"
+msgstr "сегодня"
+
+#: inc/shortcode.php:139
+msgid "Yesterday"
+msgstr "Вчера"
+
+#: inc/shortcode.php:140
+msgid "Last 15 days"
+msgstr "Последние 15 дней"
+
+#: inc/shortcode.php:141
+msgid "Last 7 Days"
+msgstr "Последние 7 дней"
+
+#: inc/shortcode.php:142
+msgid "Last 30 Days"
+msgstr "Последние 30 дней"
+
+#: inc/shortcode.php:147
+msgid "Start Date: "
+msgstr "Дата начала:"
+
+#: inc/shortcode.php:151
+msgid "End Date: "
+msgstr "Дата окончания:"
+
+#: inc/shortcode.php:156
+msgid "Max records: "
+msgstr "Максимальное число записей:"
+
+#: inc/shortcode.php:161
+msgid "Ok"
+msgstr "Ок"
+
+#: inc/shortcode.php:162
+msgid "Cancel"
+msgstr "Отменить"
+
+#: lib/EDD_SL_Plugin_Updater.php:201
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: lib/EDD_SL_Plugin_Updater.php:209
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: lib/EDD_SL_Plugin_Updater.php:396
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: lib/EDD_SL_Plugin_Updater.php:396
+#: views/default/admin/javascript-error.php:11
+msgid "Error"
+msgstr "Ошибка"
+
+#: views/default/admin/404-error.php:13 views/default/admin/ajax-error.php:12
+#: views/default/admin/javascript-error.php:12
+msgid "URL"
+msgstr "URL"
+
+#: views/default/admin/detail-realtime-stats.php:12
+msgid "Real-Time Statistics of the Site"
+msgstr "В реальном времени статистика"
+
+#: views/default/admin/detail-realtime-stats.php:33
+#: views/default/admin/realtime-stats.php:15
+msgid "Visitors online"
+msgstr "Посетителей онлайн"
+
+#: views/default/admin/detail-realtime-stats.php:37
+#: views/default/admin/realtime-stats.php:19
+msgid "Referral"
+msgstr "Рефералы"
+
+#: views/default/admin/detail-realtime-stats.php:41
+#: views/default/admin/realtime-stats.php:23
+msgid "ORGANIC"
+msgstr "Органические"
+
+#: views/default/admin/detail-realtime-stats.php:45
+#: views/default/admin/realtime-stats.php:27
+msgid "social"
+msgstr "Соц. сети"
+
+#: views/default/admin/detail-realtime-stats.php:49
+#: views/default/admin/realtime-stats.php:31
+msgid "direct"
+msgstr "Прямые"
+
+#: views/default/admin/detail-realtime-stats.php:53
+#: views/default/admin/realtime-stats.php:35
+msgid "new"
+msgstr "Новые"
+
+#: views/default/admin/detail-realtime-stats.php:57
+#: views/default/admin/realtime-stats.php:39
+msgid "Returning"
+msgstr "ВОЗВРАЩ."
+
+#: views/default/admin/detail-realtime-stats.php:62
+msgid "Top Active posts and pages"
+msgstr "Топ активные записи и страницы"
+
+#: views/default/admin/detail-realtime-stats.php:70
+msgid "Top active pages and posts users are currently at"
+msgstr ""
+"Лучшие активные страницы и записи, где пользователи находятся в настоящее "
+"время "
+
+#: views/default/admin/detail-realtime-stats.php:256
+msgid "REFERRALS"
+msgstr "Рефералы"
+
+#: views/default/admin/detail-realtime-stats.php:259
+msgid "KEYWORDS"
+msgstr "Ключевые слова"
+
+#: views/default/admin/detail-realtime-stats.php:262
+msgid "SOCIAL"
+msgstr "СОЦИАЛЬНЫЕ СЕТИ"
+
+#: views/default/admin/detail-realtime-stats.php:265
+msgid "DIRECT"
+msgstr "Прямые"
+
+#: views/default/admin/detail-realtime-stats.php:379
+#: views/default/admin/main-comparison-stats.php:406
+msgid "Visitors"
+msgstr "Посетители"
+
+#: views/default/admin/main-comparison-stats.php:104
+#: views/default/admin/main-comparison-stats.php:132
+msgid "Visitors this year"
+msgstr "Посетителей за этот Год"
+
+#: views/default/admin/main-comparison-stats.php:104
+#: views/default/admin/main-comparison-stats.php:145
+msgid "Visitors last year"
+msgstr "Посетителей за этот Год"
+
+#: views/default/admin/main-comparison-stats.php:111
+#: views/default/admin/main-comparison-stats.php:186
+#: views/default/admin/main-comparison-stats.php:262
+#: views/default/admin/main-comparison-stats.php:337
+msgid "Line"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:112
+#: views/default/admin/main-comparison-stats.php:187
+#: views/default/admin/main-comparison-stats.php:263
+#: views/default/admin/main-comparison-stats.php:338
+msgid "Bar"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:114
+#: views/default/admin/main-comparison-stats.php:189
+#: views/default/admin/main-comparison-stats.php:265
+#: views/default/admin/main-comparison-stats.php:340
+msgid "Restore"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:115
+#: views/default/admin/main-comparison-stats.php:190
+#: views/default/admin/main-comparison-stats.php:266
+#: views/default/admin/main-comparison-stats.php:341
+msgid "Save As Image"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:179
+#: views/default/admin/main-comparison-stats.php:207
+msgid "Visitors this month"
+msgstr "Посетителей за этот Месяц"
+
+#: views/default/admin/main-comparison-stats.php:179
+#: views/default/admin/main-comparison-stats.php:220
+msgid "Visitors last month"
+msgstr "Посетителей за этот Месяц"
+
+#: views/default/admin/main-comparison-stats.php:255
+#: views/default/admin/main-comparison-stats.php:283
+msgid "Views this year"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:255
+#: views/default/admin/main-comparison-stats.php:296
+msgid "Views last year"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:330
+msgid "Views this month"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:330
+msgid "Views last month"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:407
+msgid "Views"
+msgstr "Просмотров"
+
+#: views/default/admin/main-comparison-stats.php:414
+#: views/default/admin/main-comparison-stats.php:442
+msgid "Months"
+msgstr "Месяцы"
+
+#: views/default/admin/main-comparison-stats.php:417
+#: views/default/admin/main-comparison-stats.php:445
+msgid "Years"
+msgstr "Годы"
+
+#: views/default/admin/main-comparison-stats.php:468
+msgid ""
+"This is the most detailed Visitors and Views breakdown in months and years."
+msgstr ""
+"Это наиболее подробная разбивка посетителей и просмотров за месяцы и годы."
+
+#: views/default/admin/realtime-stats.php:11
+msgid "Real Time Stats"
+msgstr "Текущая Статистика:"
+
+#: views/help.php:3
+msgid "Email Support"
+msgstr "Поддержка по Email"
+
+#: views/help.php:8
+msgid "Fetching license details, please wait..."
+msgstr "Извлечение детали лицензии, пожалуйста, подождите..."
+
+#: views/help.php:10
+msgid ""
+"We couldn't find your license information. Please switch to the License tab "
+"and enter your license."
+msgstr ""
+"Мы не смогли найти вашу информацию лицензии. Пожалуйста, перейдите на "
+"вкладку лицензии и введите лицензию."
+
+#: views/help.php:11
+msgid "Once completed, you may visit this tab to view your support details."
+msgstr ""
+"После завершения, вы можете посетить эту вкладку, чтобы просмотреть данные "
+"вашей поддержки."
+
+#: views/help.php:115
+#, fuzzy, php-format
+msgid ""
+"You have an %1$s active %2$s license. You will get front-of-the-line email "
+"support service when submitting the form below."
+msgstr ""
+"You have an %1$s active %2$s license. You will get front-of-the-line email "
+"support service when submitting the form below."
+
+#: views/help.php:119 views/help.php:174
+msgid "Success!"
+msgstr "Выполнено!"
+
+#: views/help.php:119 views/help.php:174
+msgid "Thanks for submitting your support request. We'll be in touch soon."
+msgstr ""
+"Благодарим Вас за отправку запроса поддержки. Мы будем на связи в ближайшее "
+"время."
+
+#: views/help.php:123 views/help.php:127 views/help.php:131 views/help.php:135
+#: views/help.php:139
+msgid "Error!"
+msgstr "Ошибка!"
+
+#: views/help.php:127
+msgid "There was a problem submitting your request:"
+msgstr "Существовала проблема при отправке запроса:"
+
+#: views/help.php:131
+msgid "Please select your email address."
+msgstr "Пожалуйста, выберите ваш адрес электронной почты."
+
+#: views/help.php:135
+msgid "Please enter a subject"
+msgstr "Укажите тему сообщения."
+
+#: views/help.php:139
+msgid "Please enter a message."
+msgstr "Пожалуйста введите ваше сообщение."
+
+#: views/help.php:145
+msgid "From:"
+msgstr "От кого:"
+
+#: views/help.php:147
+msgid "Select your email address"
+msgstr "Выберите свой адрес электронной почты"
+
+#: views/help.php:151
+#, php-format
+msgid ""
+"Replies will be sent to this email address. Update your name &amp; email in "
+"%1$s Your Account%2$s."
+msgstr ""
+"Ответы будут отправлены на этот адрес электронной почты. Обновите свое имя "
+"&amp; электронный адрес в%1$s акаунта %2$s."
+
+#: views/help.php:168
+msgid "Include your Diagnostic Info &amp; Error Log (below)"
+msgstr "Включите ваш диагностический Info &amp; Error Log (ниже)"
+
+#: views/help.php:178
+#, php-format
+msgid ""
+"Having trouble submitting the form? Email your support request to %1$s "
+"support@wp-analytify.com%2$s instead."
+msgstr ""
+"Возникают проблемы при отправке формы? Отправить запрос о поддержке на%1$s "
+"support@wp-analytify.com%2$s вместо."
+
+#: views/old/front/browser-stats.php:8
+msgid "Top Browsers"
+msgstr ""
+
+#: views/old/front/browser-stats.php:18
+msgid "OS"
+msgstr "ОС"
+
+#: views/old/front/browser-stats.php:44
+msgid "These are the top browsers of your this page."
+msgstr "Это лучшие браузеры по этой страницы."
+
+#: views/old/front/general-stats.php:9
+msgid "General Statistics"
+msgstr ""
+
+#: views/old/front/general-stats.php:54
+msgid "AVERAGE PAGES"
+msgstr "Среднее число страниц"
+
+#: views/old/front/general-stats.php:88
+msgid "USER TYPE"
+msgstr "ТИП ПОЛЬЗОВАТЕЛЯ"
+
+#: views/old/front/general-stats.php:107
+msgid "These are the general statistics of this page."
+msgstr ""
+
+#: views/old/front/keywords-stats.php:6
+msgid "TOP KEYWORDS"
+msgstr ""
+
+#: views/old/front/keywords-stats.php:40
+msgid "These are the keywords people are searching for this page."
+msgstr "Это ключевые слова, которые люди ищут для этой страницы."
+
+#: views/old/front/mobile-stats.php:7
+msgid "Mobile device Statistics"
+msgstr ""
+
+#: views/old/front/mobile-stats.php:15 views/old/front/referrers-stats.php:15
+msgid "#"
+msgstr ""
+
+#: views/old/front/mobile-stats.php:16
+msgid "Device"
+msgstr ""
+
+#: views/old/front/mobile-stats.php:41
+msgid "Listing statistics of Mobile usage."
+msgstr ""
+
+#: views/old/front/os-stats.php:18
+msgid "Operating System (Version)"
+msgstr "Операционная система (версия)"
+
+#: views/old/front/os-stats.php:43
+msgid "Listing statistics of top Operating Systems."
+msgstr ""
+
+#: views/old/front/referrers-stats.php:16
+msgid "Social referrer"
+msgstr "Соцсети реферер"
+
+#: views/old/front/referrers-stats.php:46
+msgid "These are the top referrers of this page."
+msgstr ""
+
+#: views/old/front/social-stats.php:8
+msgid "Social media Statistics"
+msgstr "Социальные медиа статистика"
+
+#: views/old/front/social-stats.php:17
+msgid "Social"
+msgstr "Соц. сети"
+
+#: views/old/front/social-stats.php:42
+msgid "These are the social media statistics of this page."
+msgstr "Соц. сети - статистика по веб-страницам"
+
+#: wp-analytify-pro.php:68
+msgid "The following required plugin is currently inactive &mdash; "
+msgstr "Следующие требуемые плагины в данный момент не активны: %1$s."
+
+#: wp-analytify-pro.php:68
+msgid "Click here to activate Analytify Core (Free)"
+msgstr "Нажмите здесь, чтобы активировать Analytify (Free)"
+
+#: wp-analytify-pro.php:79
+msgid ""
+"Please update Analytify Core to latest Free version to enable PRO features "
+"&mdash; "
+msgstr ""
+"Пожалуйста, обновите Analytify Core до последней бесплатной версии, чтобы "
+"включить функции PRO &mdash;"
+
+#: wp-analytify-pro.php:79
+msgid "Update now"
+msgstr ""
+
+#: wp-analytify-pro.php:90
+msgid "The following required plugin is not installed &mdash; "
+msgstr "Следующие необходимые плагин не установлены &mdash;"
+
+#: wp-analytify-pro.php:90
+msgid "Install Analytify Core (Free) now"
+msgstr "Установите Analytify (Free) в настоящее время"
+
+#. Plugin Name of the plugin/theme
+msgid "Analytify Pro"
+msgstr "Модуль Analytify Pro"
+
+#. Plugin URI of the plugin/theme
+msgid "http://analytify.io/"
+msgstr "http://analytify.io/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Analytify makes Google Analytics simple for everything in WordPress (posts,"
+"pages etc). It presents the statistics in a beautiful way under the "
+"WordPress Posts/Pages at front end, backend and in its own Dashboard. This "
+"provides Stats from Country, Referrers, Social media, General stats, New "
+"visitors, Returning visitors, Exit pages, Browser wise and Top keywords. "
+"This plugin provides the RealTime statistics in a new UI that is easy to "
+"understand and looks good."
+msgstr ""
+"Analytify makes Google Analytics simple for everything in WordPress (posts,"
+"pages etc). It presents the statistics in a beautiful way under the "
+"WordPress Posts/Pages at front end, backend and in its own Dashboard. This "
+"provides Stats from Country, Referrers, Social media, General stats, New "
+"visitors, Returning visitors, Exit pages, Browser wise and Top keywords. "
+"This plugin provides the RealTime statistics in a new UI that is easy to "
+"understand and looks good."
+
+#. Author of the plugin/theme
+msgid "Adnan"
+msgstr "Adnan"
+
+#. Author URI of the plugin/theme
+msgid "http://adnan.pk/"
+msgstr "http://adnan.pk/"

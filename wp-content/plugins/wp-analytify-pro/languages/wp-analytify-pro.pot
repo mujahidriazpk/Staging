@@ -1,0 +1,1233 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Analytify Pro\n"
+"POT-Creation-Date: 2018-12-07 12:36+0500\n"
+"PO-Revision-Date: 2017-02-10 12:22+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wp-analytify-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/analytifypro_base.php:34 classes/analytifypro_base.php:41
+#: classes/analytifypro_base.php:48 classes/analytifypro_base.php:55
+#: classes/analytifypro_base.php:63 classes/analytifypro_base.php:79
+msgctxt "Delete license"
+msgid "Remove"
+msgstr ""
+
+#: classes/analytifypro_base.php:273 classes/analytifypro_base.php:347
+#: classes/analytifypro_base.php:421 classes/analytifypro_base.php:494
+#: classes/analytifypro_base.php:567 classes/analytifypro_base.php:641
+#, php-format
+msgid ""
+"<strong>Activate Your License</strong> &mdash; Please <a href=\"%s\" class="
+"\"\">enter your license key</a> to enable priority support and plugin "
+"updates."
+msgstr ""
+
+#: classes/analytifypro_base.php:294 classes/analytifypro_base.php:368
+#: classes/analytifypro_base.php:442 classes/analytifypro_base.php:515
+#: classes/analytifypro_base.php:588 classes/analytifypro_base.php:662
+msgid "Your License Has Expired"
+msgstr ""
+
+#: classes/analytifypro_base.php:295 classes/analytifypro_base.php:369
+#: classes/analytifypro_base.php:443 classes/analytifypro_base.php:516
+#: classes/analytifypro_base.php:589 classes/analytifypro_base.php:663
+#, php-format
+msgid "Login to <a href=\"%s\">My Account</a> to renew. "
+msgstr ""
+
+#: classes/analytifypro_base.php:299 classes/analytifypro_base.php:373
+#: classes/analytifypro_base.php:447 classes/analytifypro_base.php:520
+#: classes/analytifypro_base.php:593 classes/analytifypro_base.php:667
+msgid "Updates are only available to those with an active license. "
+msgstr ""
+
+#: classes/analytifypro_base.php:300 classes/analytifypro_base.php:374
+#: classes/analytifypro_base.php:448 classes/analytifypro_base.php:521
+#: classes/analytifypro_base.php:594 classes/analytifypro_base.php:668
+msgid "Only active licenses can submit support requests. "
+msgstr ""
+
+#: classes/analytifypro_base.php:301 classes/analytifypro_base.php:375
+#: classes/analytifypro_base.php:449 classes/analytifypro_base.php:522
+#: classes/analytifypro_base.php:595 classes/analytifypro_base.php:669
+msgid ""
+"All features will continue to work, but you won't be able to receive updates "
+"or email support. "
+msgstr ""
+
+#: classes/analytifypro_base.php:313 classes/analytifypro_base.php:387
+#: classes/analytifypro_base.php:461 classes/analytifypro_base.php:534
+#: classes/analytifypro_base.php:607 classes/analytifypro_base.php:681
+#, php-format
+msgid ""
+"<strong>No Activations Left</strong> &mdash; Please visit <a href=\"%s\" "
+"target=\"_blank\">My Account</a> to upgrade your license or deactivate a "
+"previous activation."
+msgstr ""
+
+#: classes/analytifypro_base.php:316 classes/analytifypro_base.php:390
+#: classes/analytifypro_base.php:464 classes/analytifypro_base.php:537
+#: classes/analytifypro_base.php:610 classes/analytifypro_base.php:684
+#, php-format
+msgid ""
+"<strong>Your License Was Not Found</strong> &mdash; Please visit <a href=\"%s"
+"\" target=\"_blank\">My Account</a> to double check your license key."
+msgstr ""
+
+#: classes/analytifypro_base.php:319 classes/analytifypro_base.php:393
+#: classes/analytifypro_base.php:467 classes/analytifypro_base.php:540
+#: classes/analytifypro_base.php:613 classes/analytifypro_base.php:687
+msgid "<strong>Your License Was Not Found</strong> &mdash; "
+msgstr ""
+
+#: classes/analytifypro_base.php:324 classes/analytifypro_base.php:398
+#: classes/analytifypro_base.php:472 classes/analytifypro_base.php:545
+#: classes/analytifypro_base.php:618 classes/analytifypro_base.php:692
+#, php-format
+msgid ""
+"<strong>An Unexpected Error Occurred</strong> &mdash; Please contact us at "
+"<a href=\"%1$s\">%2$s</a> and quote the following:"
+msgstr ""
+
+#: classes/analytifypro_base.php:849 classes/class-wp-analytify-pro.php:2305
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Update Available %4$s &mdash; %9$s %10$s is now available. "
+"You currently have %11$s installed.  %5$s Changelog %6$s  %7$s %8$s"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:226
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Activate Your License %4$s &mdash; Please %5$senter your "
+"license key%6$s to enable support and plugin updates. %7$s %8$s"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:229
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Activate Your License %4$s &mdash; Please click on %5$s "
+"Activate License button %6$s to validate your license. %7$s %8$s"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:232
+#, php-format
+msgid ""
+"%1$s %2$s %3$s License Expired %4$s &mdash; Upgrade your license to enable "
+"support and plugin updates. Would you please checkout %5$s what we have "
+"improved %6$s so far ? %7$s %8$s"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:235
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Invalid License %4$s &mdash; Please %5$senter a valid license "
+"key%6$s to enable support and plugin updates. %7$s %8$s"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:246
+msgid "Dashboards"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:249
+msgid "REAL TIME"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:250
+#: classes/class-wp-analytify-pro.php:2569
+msgid "Demographics"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:252
+msgid "Search Terms"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:348
+msgid "Top Ajax Errors"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:372
+msgid "Ajax errors"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:387
+msgid "Top 404 Pages Errors"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:411
+msgid "404 errors"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:426
+msgid "Top Javascript Errors"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:450
+msgid "JavaScript errors"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:547
+msgid "Thank you!"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:550
+msgid ""
+"We appreciate you to upgrade to Pro version and supporting the development "
+"of this product."
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:555
+msgid "made with ♥ by"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:668
+#: classes/class-wp-analytify-pro.php:2316
+msgid "Front"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:672
+#: classes/class-wp-analytify-pro.php:2329
+msgid "License"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:834
+msgid ""
+"Enter your license key(s). It is important to have a valid license key for "
+"automatic plugin updates and support. After adding a license key, press the "
+"'Activate License' button."
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:840
+msgid "Analytify PRO (License Key):"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:856
+msgid "Activate License"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:1122
+#, php-format
+msgid "%1$s Fetching Analytics from %2$s to %3$s %4$s"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:1227
+#, php-format
+msgid "%1$s Settings %2$s | %3$s Dashboard %4$s | %5$s Help %6$s"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:1249
+#, php-format
+msgid "%1$s Getting Started %2$s"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:1250
+#, php-format
+msgid "%1$s Add Ons %2$s"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:1320
+#, php-format
+msgid ""
+"Analytify is not active. Please %1$sAuthenticate%2$s in order to get started "
+"using this plugin."
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:1324
+#, php-format
+msgid "%1$s Google Analytics Profile is not set. Set the %2$s Profile %3$s"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2206
+#, php-format
+msgid "There is a new version of %s available."
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2208
+#, php-format
+msgid "View version %s details"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2216
+msgctxt "Plugin configuration and preferences"
+msgid "Settings"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2218
+#, php-format
+msgid ""
+"To update, go to %1$s and enter your license key. If you don't have a "
+"license key, you may <a href=\"%2$s\">purchase one</a>."
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2220
+#, php-format
+msgid ""
+"To finish activating %1$s, please go to %2$s and enter your license key. If "
+"you don't have a license key, you may <a href=\"%3$s\">purchase one</a>."
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2223
+msgid "Check my license again"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2317
+msgid ""
+"Following are the settings for front-end side. Google Analytics will appear "
+"under the posts, custom post types or pages at front-end."
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2322
+#: views/default/admin/detail-demographic-stats.php:48
+#: views/default/admin/detail-realtime-stats.php:21
+#: views/default/admin/detail-search-terms-stats.php:49
+msgid "Dashboard"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2344
+msgid "Disable front-end"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2345
+msgid ""
+"Enable this if you don't want Analytics to load at all. You can still use "
+"shortcodes."
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2359
+msgid "Enable analytics on post types"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2360
+msgid "Show analytics below these post types only."
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2368
+msgid "Front-end analytics panels"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2369
+msgid "Select which statistic panels you want to display on the front-end."
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2374
+msgid "Country Stats"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2377
+msgid "Browser Stats"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2379
+msgid "Mobile devices Stats"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2380
+msgid "Operating System Stats"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2381
+msgid "City Stats"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2387
+msgid ""
+"Enter a comma separated list of the post/page ID's you do not want to show "
+"analytics for. Example: 21,44,66"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2397
+msgid "Delete cache"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2398
+msgid ""
+"The Analytify dashboard (except real-time statistics) saves results for 24 "
+"hours. Enable this if you want to retrieve the current statistics."
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2404
+msgid "Show the Analytify dashboard to the above-selected user roles only."
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2412
+msgid "Dashboard analytics panels"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2413
+msgid "Choose the panels to display in Analytify dashboard."
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2417
+#: views/default/admin/detail-realtime-stats.php:34
+msgid "RealTime Stats"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2418
+msgid "Comparison Stats"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2420
+msgid "Top Pages Stats"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2426
+msgid "Page entrance and exit stats"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2568
+msgid "Real Time"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2581
+msgid "Export Top Pages"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2595
+msgid "Export Top Keywords"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2609
+msgid "Export Top Social Media"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2623
+msgid "Export Top Reffers"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2636
+msgid "Export Stats"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2650
+msgid "Export Top Mobile Device"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2666
+msgid "Export Top Operating System"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2682
+msgid "Export Top Browsers"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2698
+msgid "Export Top Cities"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:2714
+msgid "Export Top Countries"
+msgstr ""
+
+#: inc/analytify-widgets.php:9
+msgid "Analytify Live Stats"
+msgstr ""
+
+#: inc/analytify-widgets.php:10
+msgid "It shows Live Stats of your site."
+msgstr ""
+
+#: inc/analytify-widgets.php:28
+msgid "Title"
+msgstr ""
+
+#: inc/analytify-widgets.php:33
+msgid "Description:"
+msgstr ""
+
+#: inc/front-menus.php:20
+msgid "Top Countries"
+msgstr ""
+
+#: inc/front-menus.php:29 views/old/front/city-stats.php:7
+msgid "Top Cities"
+msgstr ""
+
+#: inc/front-menus.php:38
+msgid "Top Operating Systems"
+msgstr ""
+
+#: inc/front-menus.php:56
+msgid "Top Keywords"
+msgstr ""
+
+#: inc/front-menus.php:65
+msgid "SOCIAL MEDIA STATISTICS"
+msgstr ""
+
+#: inc/front-menus.php:73
+msgid "TOP BROWSERS"
+msgstr ""
+
+#: inc/shortcode.php:14
+msgid ""
+"Select metrics and dimensions, sort them with metrics and show stats to your "
+"visitors (roles)."
+msgstr ""
+
+#: inc/shortcode.php:19
+msgid "Metrics: "
+msgstr ""
+
+#: inc/shortcode.php:20
+msgid "Select at least one Metric"
+msgstr ""
+
+#: inc/shortcode.php:21 inc/shortcode.php:51
+msgid "user"
+msgstr ""
+
+#: inc/shortcode.php:22
+msgid "Users"
+msgstr ""
+
+#: inc/shortcode.php:24 inc/shortcode.php:123
+msgid "Percent New Sessions"
+msgstr ""
+
+#: inc/shortcode.php:26
+msgid "Session"
+msgstr ""
+
+#: inc/shortcode.php:28 inc/shortcode.php:124
+msgid "Bounces"
+msgstr ""
+
+#: inc/shortcode.php:30
+msgid "sessionDuration"
+msgstr ""
+
+#: inc/shortcode.php:31
+msgid "Avg SessionDuration"
+msgstr ""
+
+#: inc/shortcode.php:32 inc/shortcode.php:126
+#: views/default/admin/404-error.php:14 views/default/admin/ajax-error.php:13
+#: views/default/admin/javascript-error.php:13
+msgid "Hits"
+msgstr ""
+
+#: inc/shortcode.php:34 inc/shortcode.php:85
+msgid "Page Tracking"
+msgstr ""
+
+#: inc/shortcode.php:35 inc/shortcode.php:127
+msgid "Page Value"
+msgstr ""
+
+#: inc/shortcode.php:36 inc/shortcode.php:128
+msgid "Entrances"
+msgstr ""
+
+#: inc/shortcode.php:37 inc/shortcode.php:129
+msgid "Pageviews"
+msgstr ""
+
+#: inc/shortcode.php:38 inc/shortcode.php:130
+msgid "Unique Pageviews"
+msgstr ""
+
+#: inc/shortcode.php:39 inc/shortcode.php:131
+msgid "Exits"
+msgstr ""
+
+#: inc/shortcode.php:40
+msgid "Exit Rate"
+msgstr ""
+
+#: inc/shortcode.php:41 inc/shortcode.php:134
+msgid "Entrance Rate"
+msgstr ""
+
+#: inc/shortcode.php:42 inc/shortcode.php:133
+msgid "Pageviews Per Session"
+msgstr ""
+
+#: inc/shortcode.php:43 inc/shortcode.php:135
+msgid "Time On Page"
+msgstr ""
+
+#: inc/shortcode.php:44
+msgid "Avg Time On Page"
+msgstr ""
+
+#: inc/shortcode.php:49
+msgid "Dimensions: "
+msgstr ""
+
+#: inc/shortcode.php:50
+msgid "Select at least one Dimension"
+msgstr ""
+
+#: inc/shortcode.php:52
+msgid "User Type"
+msgstr ""
+
+#: inc/shortcode.php:53
+msgid "Session Count"
+msgstr ""
+
+#: inc/shortcode.php:54
+msgid "Days Since Last Session"
+msgstr ""
+
+#: inc/shortcode.php:55
+msgid "Session Duration Bucket"
+msgstr ""
+
+#: inc/shortcode.php:57
+msgid "Traffic Sources"
+msgstr ""
+
+#: inc/shortcode.php:58
+msgid "Referral Path"
+msgstr ""
+
+#: inc/shortcode.php:59
+msgid "Full Referrer"
+msgstr ""
+
+#: inc/shortcode.php:60
+msgid "Source"
+msgstr ""
+
+#: inc/shortcode.php:61
+msgid "Medium"
+msgstr ""
+
+#: inc/shortcode.php:62
+msgid "Source Medium"
+msgstr ""
+
+#: inc/shortcode.php:63
+msgid "Keyword"
+msgstr ""
+
+#: inc/shortcode.php:64
+msgid "Social Network"
+msgstr ""
+
+#: inc/shortcode.php:65
+msgid "Country"
+msgstr ""
+
+#: inc/shortcode.php:66
+msgid "Country ISO Code"
+msgstr ""
+
+#: inc/shortcode.php:68
+msgid "Platform or Device"
+msgstr ""
+
+#: inc/shortcode.php:69 views/old/front/browser-stats.php:17
+msgid "Browser"
+msgstr ""
+
+#: inc/shortcode.php:70
+msgid "Browser Version"
+msgstr ""
+
+#: inc/shortcode.php:71
+msgid "Operating System"
+msgstr ""
+
+#: inc/shortcode.php:72
+msgid "Operating System Version"
+msgstr ""
+
+#: inc/shortcode.php:73
+msgid "Mobile Device Branding"
+msgstr ""
+
+#: inc/shortcode.php:74
+msgid "Mobile Device Model"
+msgstr ""
+
+#: inc/shortcode.php:75
+msgid "Mobile Input Selector"
+msgstr ""
+
+#: inc/shortcode.php:76
+msgid "Mobile Device Info"
+msgstr ""
+
+#: inc/shortcode.php:77
+msgid "Mobile Device MarketingName"
+msgstr ""
+
+#: inc/shortcode.php:78
+msgid "Device Category"
+msgstr ""
+
+#: inc/shortcode.php:79
+msgid "Flash Version"
+msgstr ""
+
+#: inc/shortcode.php:80
+msgid "Java Enabled"
+msgstr ""
+
+#: inc/shortcode.php:81
+msgid "Language"
+msgstr ""
+
+#: inc/shortcode.php:82
+msgid "ScreenColors"
+msgstr ""
+
+#: inc/shortcode.php:83
+msgid "ScreenResolution"
+msgstr ""
+
+#: inc/shortcode.php:86
+msgid "Hostname"
+msgstr ""
+
+#: inc/shortcode.php:87
+msgid "Page Path"
+msgstr ""
+
+#: inc/shortcode.php:88 views/default/admin/detail-realtime-stats.php:395
+msgid "Page Title"
+msgstr ""
+
+#: inc/shortcode.php:89
+msgid "Landing Page Path"
+msgstr ""
+
+#: inc/shortcode.php:90
+msgid "secondPagePath"
+msgstr ""
+
+#: inc/shortcode.php:91
+msgid "Exit Page Path"
+msgstr ""
+
+#: inc/shortcode.php:92
+msgid "Previous Page Path"
+msgstr ""
+
+#: inc/shortcode.php:93
+msgid "Next Page Path"
+msgstr ""
+
+#: inc/shortcode.php:94
+msgid "Page Depth"
+msgstr ""
+
+#: inc/shortcode.php:99
+msgid "Visible to (roles) : "
+msgstr ""
+
+#: inc/shortcode.php:101
+msgid "Everyone"
+msgstr ""
+
+#: inc/shortcode.php:118
+msgid "Sort By: "
+msgstr ""
+
+#: inc/shortcode.php:125
+msgid "BounceRate"
+msgstr ""
+
+#: inc/shortcode.php:132
+msgid "EntranceRate"
+msgstr ""
+
+#: inc/shortcode.php:139
+msgid "Analytics for: "
+msgstr ""
+
+#: inc/shortcode.php:141
+msgid "Current page"
+msgstr ""
+
+#: inc/shortcode.php:142
+msgid "Full Site"
+msgstr ""
+
+#: inc/shortcode.php:143
+msgid "Page ID"
+msgstr ""
+
+#: inc/shortcode.php:148
+msgid "Page ID: "
+msgstr ""
+
+#: inc/shortcode.php:152
+msgid "Date range: "
+msgstr ""
+
+#: inc/shortcode.php:154
+msgid "Custom"
+msgstr ""
+
+#: inc/shortcode.php:155
+msgid "Today"
+msgstr ""
+
+#: inc/shortcode.php:156
+msgid "Yesterday"
+msgstr ""
+
+#: inc/shortcode.php:157
+msgid "Last 15 days"
+msgstr ""
+
+#: inc/shortcode.php:158
+msgid "Last 7 Days"
+msgstr ""
+
+#: inc/shortcode.php:159
+msgid "Last 30 Days"
+msgstr ""
+
+#: inc/shortcode.php:160
+msgid "This Year"
+msgstr ""
+
+#: inc/shortcode.php:161
+msgid "Last Year"
+msgstr ""
+
+#: inc/shortcode.php:166
+msgid "Start Date: "
+msgstr ""
+
+#: inc/shortcode.php:170
+msgid "End Date: "
+msgstr ""
+
+#: inc/shortcode.php:175
+msgid "Max records: "
+msgstr ""
+
+#: inc/shortcode.php:180
+msgid "Ok"
+msgstr ""
+
+#: inc/shortcode.php:181
+msgid "Cancel"
+msgstr ""
+
+#: lib/ANALYTIFY_SL_Plugin_Updater.php:210 lib/EDD_SL_Plugin_Updater.php:210
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: lib/ANALYTIFY_SL_Plugin_Updater.php:218 lib/EDD_SL_Plugin_Updater.php:218
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: lib/ANALYTIFY_SL_Plugin_Updater.php:408 lib/EDD_SL_Plugin_Updater.php:408
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: lib/ANALYTIFY_SL_Plugin_Updater.php:408 lib/EDD_SL_Plugin_Updater.php:408
+#: views/default/admin/javascript-error.php:11
+msgid "Error"
+msgstr ""
+
+#: views/default/admin/404-error.php:13 views/default/admin/ajax-error.php:12
+#: views/default/admin/javascript-error.php:12
+msgid "URL"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:50
+msgid "Demographic Statistics of the Site"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:67
+#: views/default/admin/detail-search-terms-stats.php:68 views/help.php:145
+msgid "From:"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:70
+#: views/default/admin/detail-search-terms-stats.php:71
+msgid "To:"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:75
+#: views/default/admin/detail-search-terms-stats.php:76
+msgid "View Stats"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:84
+#: views/default/admin/detail-demographic-stats.php:126
+msgid "Demographic Stats"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:93
+msgid "Age"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:94
+msgid "Gender"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:95
+#: views/default/admin/detail-search-terms-stats.php:95
+msgid "Total Views"
+msgstr ""
+
+#: views/default/admin/detail-realtime-stats.php:23
+msgid "Real-Time Statistics of the Site"
+msgstr ""
+
+#: views/default/admin/detail-realtime-stats.php:49
+#: views/default/admin/realtime-stats.php:15
+msgid "Visitors online"
+msgstr ""
+
+#: views/default/admin/detail-realtime-stats.php:53
+#: views/default/admin/realtime-stats.php:19
+msgid "Referral"
+msgstr ""
+
+#: views/default/admin/detail-realtime-stats.php:57
+#: views/default/admin/realtime-stats.php:23
+msgid "ORGANIC"
+msgstr ""
+
+#: views/default/admin/detail-realtime-stats.php:61
+#: views/default/admin/realtime-stats.php:27
+msgid "social"
+msgstr ""
+
+#: views/default/admin/detail-realtime-stats.php:65
+#: views/default/admin/realtime-stats.php:31
+msgid "direct"
+msgstr ""
+
+#: views/default/admin/detail-realtime-stats.php:69
+#: views/default/admin/realtime-stats.php:35
+msgid "new"
+msgstr ""
+
+#: views/default/admin/detail-realtime-stats.php:73
+#: views/default/admin/realtime-stats.php:39
+msgid "Returning"
+msgstr ""
+
+#: views/default/admin/detail-realtime-stats.php:78
+msgid "Top Active posts and pages"
+msgstr ""
+
+#: views/default/admin/detail-realtime-stats.php:86
+msgid "Top active pages and posts users are currently at"
+msgstr ""
+
+#: views/default/admin/detail-realtime-stats.php:272
+msgid "REFERRALS"
+msgstr ""
+
+#: views/default/admin/detail-realtime-stats.php:275
+msgid "KEYWORDS"
+msgstr ""
+
+#: views/default/admin/detail-realtime-stats.php:278
+msgid "SOCIAL"
+msgstr ""
+
+#: views/default/admin/detail-realtime-stats.php:281
+msgid "DIRECT"
+msgstr ""
+
+#: views/default/admin/detail-realtime-stats.php:395
+#: views/default/admin/main-comparison-stats.php:487
+msgid "Visitors"
+msgstr ""
+
+#: views/default/admin/detail-search-terms-stats.php:51
+msgid "Search Terms Statistics of the Site"
+msgstr ""
+
+#: views/default/admin/detail-search-terms-stats.php:85
+msgid "Search Terms Stats"
+msgstr ""
+
+#: views/default/admin/detail-search-terms-stats.php:94
+msgid "Search Term"
+msgstr ""
+
+#: views/default/admin/detail-search-terms-stats.php:127
+msgid "List of the Search Terms Stats."
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:163
+#: views/default/admin/main-comparison-stats.php:245
+#: views/default/admin/main-comparison-stats.php:337
+#: views/default/admin/main-comparison-stats.php:418
+msgid "Line"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:164
+#: views/default/admin/main-comparison-stats.php:246
+#: views/default/admin/main-comparison-stats.php:338
+#: views/default/admin/main-comparison-stats.php:419
+msgid "Bar"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:166
+#: views/default/admin/main-comparison-stats.php:248
+#: views/default/admin/main-comparison-stats.php:340
+#: views/default/admin/main-comparison-stats.php:421
+msgid "Restore"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:167
+#: views/default/admin/main-comparison-stats.php:249
+#: views/default/admin/main-comparison-stats.php:341
+#: views/default/admin/main-comparison-stats.php:422
+msgid "Save As Image"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:488
+msgid "Views"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:495
+#: views/default/admin/main-comparison-stats.php:523
+msgid "Months"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:498
+#: views/default/admin/main-comparison-stats.php:526
+msgid "Years"
+msgstr ""
+
+#: views/default/admin/main-comparison-stats.php:549
+msgid "Detailed Visitors and Views breakdown in months and years"
+msgstr ""
+
+#: views/default/admin/realtime-stats.php:11
+msgid "Real Time Stats"
+msgstr ""
+
+#: views/help.php:3
+msgid "Email Support"
+msgstr ""
+
+#: views/help.php:8
+msgid "Fetching license details, please wait..."
+msgstr ""
+
+#: views/help.php:10
+msgid ""
+"We couldn't find your license information. Please switch to the License tab "
+"and enter your license."
+msgstr ""
+
+#: views/help.php:11
+msgid "Once completed, you may visit this tab to view your support details."
+msgstr ""
+
+#: views/help.php:115
+#, php-format
+msgid ""
+"You have an %1$s active %2$s license. You will get front-of-the-line email "
+"support when submitting a support request below."
+msgstr ""
+
+#: views/help.php:119 views/help.php:174
+msgid "Success!"
+msgstr ""
+
+#: views/help.php:119 views/help.php:174
+msgid "Thanks for submitting your support request. We'll be in touch soon."
+msgstr ""
+
+#: views/help.php:123 views/help.php:127 views/help.php:131 views/help.php:135
+#: views/help.php:139
+msgid "Error!"
+msgstr ""
+
+#: views/help.php:127
+msgid "There was a problem submitting your request:"
+msgstr ""
+
+#: views/help.php:131
+msgid "Please select your email address."
+msgstr ""
+
+#: views/help.php:135
+msgid "Please enter a subject"
+msgstr ""
+
+#: views/help.php:139
+msgid "Please enter a message."
+msgstr ""
+
+#: views/help.php:147
+msgid "Select your email address"
+msgstr ""
+
+#: views/help.php:151
+#, php-format
+msgid ""
+"Replies will be sent to this email address. Update your name &amp; email in "
+"%1$s Your Account%2$s."
+msgstr ""
+
+#: views/help.php:168
+msgid "Include your diagnostic information and error log (shown below)"
+msgstr ""
+
+#: views/help.php:178
+#, php-format
+msgid ""
+"Having trouble submitting the form? Email your support request to %1$s "
+"support@analytify.io%2$s instead."
+msgstr ""
+
+#: views/old/front/browser-stats.php:8
+msgid "Top Browsers"
+msgstr ""
+
+#: views/old/front/browser-stats.php:18
+msgid "OS"
+msgstr ""
+
+#: views/old/front/browser-stats.php:44
+msgid "These are the top browsers of this page."
+msgstr ""
+
+#: views/old/front/general-stats.php:9
+msgid "General Statistics"
+msgstr ""
+
+#: views/old/front/general-stats.php:54
+msgid "AVERAGE PAGES"
+msgstr ""
+
+#: views/old/front/general-stats.php:88
+msgid "USER TYPE"
+msgstr ""
+
+#: views/old/front/general-stats.php:107
+msgid "These are the general statistics of this page."
+msgstr ""
+
+#: views/old/front/keywords-stats.php:6
+msgid "TOP KEYWORDS"
+msgstr ""
+
+#: views/old/front/keywords-stats.php:40
+msgid "These are the keywords people are searching for this page."
+msgstr ""
+
+#: views/old/front/mobile-stats.php:7
+msgid "Mobile device Statistics"
+msgstr ""
+
+#: views/old/front/mobile-stats.php:15 views/old/front/referrers-stats.php:15
+msgid "#"
+msgstr ""
+
+#: views/old/front/mobile-stats.php:16
+msgid "Device"
+msgstr ""
+
+#: views/old/front/mobile-stats.php:41
+msgid "Listing statistics of Mobile usage."
+msgstr ""
+
+#: views/old/front/os-stats.php:18
+msgid "Operating System (Version)"
+msgstr ""
+
+#: views/old/front/os-stats.php:43
+msgid "Listing statistics of top Operating Systems."
+msgstr ""
+
+#: views/old/front/referrers-stats.php:16
+msgid "Social referrer"
+msgstr ""
+
+#: views/old/front/referrers-stats.php:46
+msgid "These are the top referrers of this page."
+msgstr ""
+
+#: views/old/front/social-stats.php:8
+msgid "Social media Statistics"
+msgstr ""
+
+#: views/old/front/social-stats.php:17
+msgid "Social"
+msgstr ""
+
+#: views/old/front/social-stats.php:42
+msgid "These are the social media statistics of this page."
+msgstr ""
+
+#: wp-analytify-pro.php:68
+msgid "The following required plugin is currently inactive &mdash; "
+msgstr ""
+
+#: wp-analytify-pro.php:68
+msgid "Click here to activate Analytify Core (Free)"
+msgstr ""
+
+#: wp-analytify-pro.php:79
+msgid ""
+"Please update Analytify Core to latest Free version to enable PRO features "
+"&mdash; "
+msgstr ""
+
+#: wp-analytify-pro.php:79
+msgid "Update now"
+msgstr ""
+
+#: wp-analytify-pro.php:90
+msgid "The following required plugin is not installed &mdash; "
+msgstr ""
+
+#: wp-analytify-pro.php:90
+msgid "Install Analytify Core (Free) now"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Analytify Pro"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://analytify.io/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Analytify makes Google Analytics simple for everything in WordPress (posts,"
+"pages etc). It presents the statistics in a beautiful way under the "
+"WordPress Posts/Pages at front end, backend and in its own Dashboard. This "
+"provides Stats from Country, Referrers, Social media, General stats, New "
+"visitors, Returning visitors, Exit pages, Browser wise and Top keywords. "
+"This plugin provides the RealTime statistics in a new UI that is easy to "
+"understand and looks good."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WPBrigade"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpbrigade.com/"
+msgstr ""

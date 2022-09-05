@@ -1,0 +1,2 @@
+<input name="<?php echo Advanced_Ads_Selling_Plugin::OPTION_KEY; ?>[sender-email]" type="email" value="<?php echo $sender_email; ?>"/>
+<p class="description"><?php _e( 'Enter the email used as a sender of ad store specific emails. This works best if the email contains the store domain.', 'advanced-ads-selling' ); ?></p>

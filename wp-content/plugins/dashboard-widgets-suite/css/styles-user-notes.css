@@ -1,0 +1,55 @@
+/* Dashboard Widgets Suite - User Notes */
+
+#dws-notes-user .dws-info { cursor: help; }
+
+#dws-notes-user .dws-notes-user + .dws-notes-user { margin: 15px 0; }
+#dws-notes-user .dws-notes-user:last-child { margin-bottom: 0; }
+#dws-notes-user .dws-notes-user label { display: none; }
+#dws-notes-user .dws-notes-user input[type="text"] { width: 70%; margin: 3px 0; padding: 5px; line-height: 18px; font-size: 12px; background-color: #fafaf5; border: 1px solid #ddd; border-radius: 3px; }
+#dws-notes-user .dws-notes-user select { display: block; margin: 3px 0 5px 0; }
+
+#dws-notes-user .dws-notes-user textarea { border-radius: 3px; }
+#dws-notes-user .dws-notes-user textarea, 
+#dws-notes-user .dws-notes-user-note { width: 100%; box-sizing: border-box; margin: 3px 0; padding: 5px; line-height: 1.5; font-size: 12px; background-color: #fafaf5; border: 1px solid #ddd; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; overflow-x: hidden; overflow-y: auto; }
+#dws-notes-user .dws-notes-user-options select { display: inline-block; margin-right: 5px; }
+
+#dws-notes-user .dws-notes-user-format-html pre,
+#dws-notes-user .dws-notes-user-format-code .dws-notes-user-note  { padding: 10px; white-space: pre; overflow-x: auto; overflow-y: hidden; font-family: Consolas, Monaco, monospace; }
+#dws-notes-user .dws-notes-user-format-code textarea { font-family: Consolas, Monaco, monospace; }
+
+#dws-notes-user .dws-notes-user-meta { line-height: 18px; font-size: 13px; }
+#dws-notes-user .dws-notes-user-meta em { color: #777; font-size: 12px; }
+#dws-notes-user .dws-notes-user-buttons .button { display: inline-block; margin: 3px 5px 0 0; }
+
+#dws-notes-user .dws-notes-user-button-add * { display: inline-block; vertical-align: middle; }
+#dws-notes-user .dws-notes-user-button-add .fa { margin: 0 2px -2px 0; }
+
+#dws-notes-user .dws-notes-user            + .dws-notes-user-button-add,
+#dws-notes-user .dws-notes-user-button-add + .dws-notes-user,
+#dws-notes-user .dws-notes-user-default    + .dws-notes-user-button-add { margin: 10px 0 5px 0; }
+
+#dws-notes-user .dws-notes-user-note div + br, 
+#dws-notes-user .dws-notes-user-note p   + br, 
+#dws-notes-user .dws-notes-user-note dl  + br, 
+#dws-notes-user .dws-notes-user-note dt  + br, 
+#dws-notes-user .dws-notes-user-note dd  + br, 
+#dws-notes-user .dws-notes-user-note ol  + br, 
+#dws-notes-user .dws-notes-user-note ul  + br, 
+#dws-notes-user .dws-notes-user-note li  + br, 
+
+#dws-notes-user .dws-notes-user-note div br, 
+#dws-notes-user .dws-notes-user-note p   br, 
+#dws-notes-user .dws-notes-user-note dl  br, 
+#dws-notes-user .dws-notes-user-note ol  br, 
+#dws-notes-user .dws-notes-user-note ul  br, 
+
+#dws-notes-user .dws-notes-user-note h1 + br, 
+#dws-notes-user .dws-notes-user-note h2 + br, 
+#dws-notes-user .dws-notes-user-note h3 + br, 
+#dws-notes-user .dws-notes-user-note h4 + br, 
+#dws-notes-user .dws-notes-user-note h5 + br, 
+#dws-notes-user .dws-notes-user-note h6 + br, 
+
+#dws-notes-user .dws-notes-user-note blockquote + br { display: none; }
+
+#dws-notes-user .dws-notes-caption { padding: 0 0 0 8px; font-size: 10px; color: #999; }

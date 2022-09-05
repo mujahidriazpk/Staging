@@ -1,0 +1,7 @@
+2022-06-07T15:32:37+00:00 CRITICAL Uncaught Error: Call to undefined function track_ad_custom() in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php:1591
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php on line 1591
+
+2022-06-07T15:32:59+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 4692
+

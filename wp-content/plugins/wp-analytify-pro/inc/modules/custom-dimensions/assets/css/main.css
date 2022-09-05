@@ -1,0 +1,63 @@
+#wp-analytify-custom-dimensions .form-table th[scope="row"] {
+    display: none;
+}
+
+.wp-analytify-rmv-dimension {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    font-size: 0;
+}
+
+.wp-analytify-rmv-dimension:after {
+    transform: rotate(48deg)
+}
+
+.wp-analytify-rmv-dimension:before {
+    transform: rotate(-48deg)
+}
+
+.wp-analytify-rmv-dimension:after,
+.wp-analytify-rmv-dimension:before {
+    content: '';
+    width: 13px;
+    height: 2px;
+    background: #555;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.wp-analytify-rmv-dimension:hover {
+    cursor: pointer;
+}
+
+#wp-analytify-dimension-table {
+    margin-top: 15px;
+}
+
+#wp-analytify-dimension-table select,
+#wp-analytify-dimension-table input {
+    height: 30px;
+}
+
+#wp-analytify-dimension-table td:first-child {
+    width: 12%;
+}
+
+.button.wp-analytify-add-dimension {
+    margin: 15px 13px;
+}
+
+.dimensions-err {
+    display: none;
+    color: #ff5252;
+    margin: 25px 13px !important;
+    font-size: 14px;
+    font-weight: 600;
+}
+.wp-analytify-custom-dimensions .form-table>tbody>tr>td {
+	padding: 0 !important;
+}

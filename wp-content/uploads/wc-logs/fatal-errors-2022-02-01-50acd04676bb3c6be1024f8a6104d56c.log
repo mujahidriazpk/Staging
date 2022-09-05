@@ -1,0 +1,165 @@
+2022-02-01T02:47:21-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T10:48:03+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/woocommerce/single-product/bid.php on line 1307
+
+2022-02-01T02:55:10-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T02:55:31-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T02:56:10-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T11:04:03+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/woocommerce/single-product/bid.php on line 310
+
+2022-02-01T03:04:44-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T03:06:47-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T03:07:14-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T03:11:08-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T03:16:02-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T03:22:20-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T03:32:30-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T03:32:48-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T03:41:45-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T03:51:01-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T04:44:22-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T04:48:31-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T05:07:45-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T05:25:20-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T05:28:42-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T05:31:23-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T05:48:06-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T05:54:37-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+
+2022-02-01T06:13:34-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+

@@ -1,0 +1,16 @@
+2022-04-06T20:04:21+00:00 CRITICAL syntax error, unexpected ''<div class="rotation_set" id=' (T_ENCAPSED_AND_WHITESPACE) in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 2884
+
+2022-04-06T20:54:05+00:00 CRITICAL syntax error, unexpected end of file, expecting ')' in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 1594
+
+2022-04-06T20:56:42+00:00 CRITICAL Uncaught Error: Call to undefined function track_ad_custom() in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php:1322
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php on line 1322
+
+2022-04-06T21:08:31+00:00 CRITICAL Uncaught Error: Call to undefined function track_ad_custom() in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php:1322
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php on line 1322
+
+2022-04-06T22:33:29+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 4931
+

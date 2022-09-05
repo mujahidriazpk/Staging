@@ -1,0 +1,7 @@
+checkout-countdown-for-woocommerce
+popup-builder
+dokan-auction
+woocommerce-simple-auctions
+wpforms
+wpforms-stripe
+wp-terms-popup

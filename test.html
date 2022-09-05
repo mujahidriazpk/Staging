@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fix tap for button at the bottom in iOS Safari when the toolbar is gone</title>
+	
+	</head>
+	<body onload="autoNotify()">
+<!--Play the audio file on pageload  -->
+
+<audio id="notifypop" loop="loop" autoplay="autoplay"> <!--Source the audio file. -->
+      <source src="path/sound.ogg" type="audio/ogg">
+      <source src="http://woocommerce-401140-1262735.cloudwaysapps.com/wp-content/uploads/sounds/auctionLive-full.mp3" type="audio/mp3">
+    </audio>
+    <script type="text/javascript">
+	var popupsound = document.getElementById("notifypop");
+
+	function autoNotify() {
+	   popupsound.play(); //play the audio file
+	}
+	</script>
+</body>
+</html>

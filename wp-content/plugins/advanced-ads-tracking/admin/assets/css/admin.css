@@ -1,0 +1,34 @@
+/* STATS PAGE */
+
+.advads-stats-table th { text-align: left; }
+.advads-stats-table td { padding: 5px; text-align: left; }
+.advads-stats-table tbody th,
+.advads-stats-table tbody tr:nth-child(odd) { background: #ddd; }
+.advads-stats-table tfoot { font-weight: bold; }
+#ads-stat-table_wrapper { width: 100%; }
+#ads-stat-table { width: 100%; }
+#advads-stats-graph { max-width: 95%; height: 520px; margin-left: auto; margin-right: auto; }
+#display-filter-list #filter-head { padding: 0.5em; padding-left: 0; float: left; }
+.display-filter-elem, .display-filter-group { padding: 0.25em; float: left; background-color: #FFFDF6; border: 1px solid #B5B5B3; margin-right: 2px; }
+.display-filter-elem > .dashicons-no, .display-filter-group > .dashicons-no { color: red; cursor: pointer; }
+#total-table { width: 100%; border-collapse: collapse; }
+#total-table tbody tr { background-color: #fff; }
+#total-table tbody tr:nth-child(odd) { background: #ddd; }
+#total-table thead th , #total-table tfoot th { font-weight: bold;}
+#total-table td, #total-table th { padding: 8px 10px; }
+#total-table thead th { border-bottom: 1px solid #222; padding-left: 25px; }
+#total-table tfoot th { border-top: 1px solid #222; }
+#total-table .table-ad-color { display: inline-block; width: 1.4em; height: 1.4em; margin: 0 5px 0 20px; vertical-align: bottom; }
+.jqplot-yaxis .jqplot-yaxis-label, .jqplot-y2axis .jqplot-y2axis-label { padding: 0.25em; background-color: #fbfbfb; border: 1px solid #dfdfdf; text-align: center; font-size: 1.8em !important; }
+#advads-graph-legend { width: 480px; margin: 1em auto; background-color: #FFFDF6; border: 1px solid #D1D0CC; }
+#advads-graph-legend .legend-item { width: 80%; padding: 5px; margin: 3px auto; }
+#advads-graph-legend .legend-item span { font-style: italic; font-size: 1.1em; }
+#advads-graph-legend .legend-item .ad-color-legend { width: 1.5em; height: 1.5em; display: inline-block; margin-right: 1em; vertical-align: middle; }
+#solid-line-legend { width: 3em; height: 0.3em; border-top: 3px solid #222; display: inline-block; margin-right: 1em; }
+#dashed-line-legend { width: 3em; height: 0.3em; border-top: 3px dashed #222; display: inline-block; margin-right: 1em; }
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled {background-position: center left !important;padding-left: 25px;}
+.ajax-spinner-placeholder { display: inline-block; height: 20px; width: 20px;}
+.ajax-spinner { vertical-align: middle;}
+#dateTableA,#dateTableB { width: 47%; float: left;}
+#adTableA,#adTableB { width: 47%; float: right;}
+#no-records { text-align:center; font-size: 2em;}

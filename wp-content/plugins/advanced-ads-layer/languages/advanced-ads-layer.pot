@@ -1,0 +1,334 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Ads – PopUp and Layer Ads\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-23 12:32+0000\n"
+"POT-Revision-Date: Thu Jan 14 2016 15:46:30 GMT+0100 (CET)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: admin/admin.php:75
+msgid "Activate Now"
+msgstr ""
+
+#: admin/admin.php:77
+msgid "Install Now"
+msgstr ""
+
+#: admin/admin.php:79
+#, php-format
+msgid ""
+"<strong>%s</strong> requires the <strong><a href=\"https://wpadvancedads."
+"com/#utm_source=advanced-ads&utm_medium=link&utm_campaign=activate-genesis\" "
+"target=\"_blank\">Advanced Ads</a></strong> plugin to be installed and "
+"activated on your site."
+msgstr ""
+
+#: admin/admin.php:96
+msgid ""
+"You shouldn’t have more than one Fancybox on the same page. Please, make "
+"sure that you set up the ads for the different layers with display "
+"conditions to prevent them from showing up on the same page"
+msgstr ""
+
+#: admin/admin.php:153 public/public.php:105
+msgid "PopUp and Layer Ads"
+msgstr ""
+
+#: admin/admin.php:170
+msgid "Use Fancybox plugin"
+msgstr ""
+
+#: admin/admin.php:209
+msgid "Activate this if you want to use Fancybox plugin for popup windows"
+msgstr ""
+
+#: admin/admin.php:237
+msgid "Layer and PopUp effects"
+msgstr ""
+
+#: admin/admin.php:321
+msgid "show the ad"
+msgstr ""
+
+#: admin/admin.php:334
+msgid "effect"
+msgstr ""
+
+#: admin/admin.php:347
+msgid "background"
+msgstr ""
+
+#: admin/admin.php:357
+msgid "auto close"
+msgstr ""
+
+#: admin/admin.php:367
+msgid "close button"
+msgstr ""
+
+#: admin/admin.php:377 admin/views/close-button.php:18
+msgid "Position"
+msgstr ""
+
+#: admin/admin.php:390
+msgid "size"
+msgstr ""
+
+#: admin/admin.php:414
+msgid "It is against the AdSense policy to use their ads in popups."
+msgstr ""
+
+#: public/public.php:106
+msgid "Create PopUp or Layer Ad"
+msgstr ""
+
+#: public/public.php:536
+msgid "close"
+msgstr ""
+
+#: admin/views/auto_close.php:9
+#, php-format
+msgid "close after %s seconds"
+msgstr ""
+
+#: admin/views/background.php:3 admin/views/metabox.php:18
+msgid ""
+"Put a half-transparent overlay over the background of the page if this ad is "
+"displayed."
+msgstr ""
+
+#: admin/views/background.php:6
+msgid "close all ads with click on the background"
+msgstr ""
+
+#: admin/views/close-button.php:14
+msgid "add close button"
+msgstr ""
+
+#: admin/views/close-button.php:19 admin/views/metabox.php:39
+msgid "outside"
+msgstr ""
+
+#: admin/views/close-button.php:20 admin/views/metabox.php:40
+msgid "inside"
+msgstr ""
+
+#: admin/views/close-button.php:22 admin/views/metabox.php:42
+msgid "left"
+msgstr ""
+
+#: admin/views/close-button.php:23 admin/views/metabox.php:43
+msgid "right"
+msgstr ""
+
+#: admin/views/close-button.php:28 admin/views/metabox.php:47
+msgid "enable timeout"
+msgstr ""
+
+#: admin/views/close-button.php:30
+msgid "close the ad for …"
+msgstr ""
+
+#: admin/views/close-button.php:32
+msgid "days, 0 = after current session"
+msgstr ""
+
+#: admin/views/effects.php:1 admin/views/metabox.php:22
+msgid "Show"
+msgstr ""
+
+#: admin/views/effects.php:2 admin/views/metabox.php:23
+msgid "Fade in"
+msgstr ""
+
+#: admin/views/effects.php:3 admin/views/metabox.php:24
+msgid "Slide"
+msgstr ""
+
+#: admin/views/effects.php:4 admin/views/metabox.php:21
+msgid "Type of effect when the ad is being displayed"
+msgstr ""
+
+#: admin/views/effects.php:7 admin/views/metabox.php:25
+msgid "Duration of the effect (in milliseconds)."
+msgstr ""
+
+#: admin/views/metabox.php:6
+#, php-format
+msgid ""
+"These settings are deprecated. Layer ads are now managed through <a "
+"href=\"%s\">placements</a>. Please convert your settings as soon as possible."
+msgstr ""
+
+#: admin/views/metabox.php:8
+msgid "Show this ad in a PopUp"
+msgstr ""
+
+#: admin/views/metabox.php:10
+msgid "Choose when the ad should show up."
+msgstr ""
+
+#: admin/views/metabox.php:12 admin/views/trigger.php:2
+msgid "right away"
+msgstr ""
+
+#: admin/views/metabox.php:13 admin/views/trigger.php:3
+msgid "when user stops scrolling"
+msgstr ""
+
+#: admin/views/metabox.php:14 admin/views/trigger.php:4
+msgid "after user scrolled to second half of the page"
+msgstr ""
+
+#: admin/views/metabox.php:16 admin/views/trigger.php:6
+#, php-format
+msgid "after user scrolled %s px"
+msgstr ""
+
+#: admin/views/metabox.php:19
+msgid "Enable background"
+msgstr ""
+
+#: admin/views/metabox.php:20
+msgid "Effects"
+msgstr ""
+
+#: admin/views/metabox.php:30
+msgid "Close-Button"
+msgstr ""
+
+#: admin/views/metabox.php:33
+msgid "Add close button"
+msgstr ""
+
+#: admin/views/metabox.php:35
+msgid "Allow visitors to remove this ad."
+msgstr ""
+
+#: admin/views/metabox.php:38
+msgid "Where to display the close button"
+msgstr ""
+
+#: admin/views/metabox.php:50
+msgid "How long should visitors, that closed the ad, not see it again."
+msgstr ""
+
+#: admin/views/metabox.php:52
+msgid "in days, 0 = current session"
+msgstr ""
+
+#: admin/views/position.php:26
+msgid "top left"
+msgstr ""
+
+#: admin/views/position.php:27
+msgid "top center"
+msgstr ""
+
+#: admin/views/position.php:28
+msgid "top right"
+msgstr ""
+
+#: admin/views/position.php:31
+msgid "center left"
+msgstr ""
+
+#: admin/views/position.php:32
+msgid "center"
+msgstr ""
+
+#: admin/views/position.php:33
+msgid "center right"
+msgstr ""
+
+#: admin/views/position.php:36
+msgid "bottom left"
+msgstr ""
+
+#: admin/views/position.php:37
+msgid "bottom center"
+msgstr ""
+
+#: admin/views/position.php:38
+msgid "bottom right"
+msgstr ""
+
+#: admin/views/position.php:45
+msgid ""
+"These settings are deprecated. Please, set width and height for the ad "
+"itself."
+msgstr ""
+
+#: admin/views/position.php:46
+msgid "Enter banner width and height to correctly center the ad."
+msgstr ""
+
+#: admin/views/position.php:47 admin/views/position.php:48
+msgid "banner width"
+msgstr ""
+
+#: admin/views/position.php:50 admin/views/position.php:51
+msgid "banner height"
+msgstr ""
+
+#: admin/views/position.php:57
+msgid "Choose a position on the screen."
+msgstr ""
+
+#: admin/views/size.php:2
+msgid "width"
+msgstr ""
+
+#: admin/views/size.php:6
+msgid "height"
+msgstr ""
+
+#: admin/views/size.php:10
+msgid "Needed sometimes to center the ad correctly"
+msgstr ""
+
+#: admin/views/trigger.php:8
+msgid "when user wants to leave the page"
+msgstr ""
+
+#: admin/views/trigger.php:10
+#, php-format
+msgid "after %s seconds"
+msgstr ""
+
+#. Name of the plugin
+msgid "Advanced Ads – PopUp and Layer Ads"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create PopUp, Layer ads and Overlays"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/popup-and-layer-ads/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Thomas Maier"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr ""

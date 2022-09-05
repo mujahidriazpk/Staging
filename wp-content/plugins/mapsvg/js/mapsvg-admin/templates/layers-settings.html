@@ -1,0 +1,49 @@
+<script type="text/x-handlebars-template" data-name="main">
+    <form class="form-horizontal mapsvg-view-padding">
+
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Visibility switches</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="layersControl[on]" class="mapsvg-onoff mapsvg-toggle-visibility" data-toggle-visibility="#mapsvg-layers-extra" {{#if layersControl.on}}checked{{/if}}  data-live="change" />
+                <p class="help-block">Join objects into groups and add switches that show/hide them.</p>
+            </div>
+        </div>
+
+        <div id="mapsvg-layers-extra" {{#unless layersControl.on}}style="display: none"{{/unless}}>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Position</label>
+                <div class="col-sm-9">
+                    <select name="layersControl[position]" data-live="change" class="mapsvg-select2" style="width: 150px;">
+                        <option value="top-left" {{#ifeq layersControl.position 'top-left'}}selected{{/ifeq}}>Top-left</option>
+                        <option value="top-right" {{#ifeq layersControl.position 'top-right'}}selected{{/ifeq}}>Top-right</option>
+                        <!--<option value="bottom-right" {{#ifeq layersControl.position 'bottom-right'}}selected{{/ifeq}}>Bottom-Right</option>-->
+                        <!--<option value="bottom-left" {{#ifeq layersControl.position 'bottom-left'}}selected{{/ifeq}}>Bottom-left</option>-->
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Expanded on start</label>
+                <div class="col-sm-9">
+                    <input type="checkbox" name="layersControl[expanded]" class="mapsvg-onoff" {{#if layersControl.expanded}}checked{{/if}} data-live="change" />
+                </div>
+            </div>
+            <!--<div class="form-group">-->
+            <!--<label class="col-sm-3 control-label">Max-height</label>-->
+            <!--<div class="col-sm-9">-->
+            <!--<input type="text" class="form-control" name="layersControl[maxHeight]" data-live="keyup" />-->
+            <!--<p class="help-block">Enter height in percents (example: "100%") or pixels (example: "200px")</p>-->
+            <!--</div>-->
+            <!--</div>-->
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Label</label>
+                <div class="col-sm-9">
+                    <input class="form-control" type="text" name="layersControl[label]" autocomplete="off" value="{{layersControl.label}}" data-live="keyup" />
+                </div>
+            </div>
+        </div>
+
+
+
+    </form>
+</script>

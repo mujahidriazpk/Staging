@@ -1,0 +1,38 @@
+2021-04-28T10:57:45-07:00 CRITICAL Uncaught Error: Call to undefined function esc_attr_e__() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/custom-popup-builder-for-elementor/includes/export-import.php:368
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): Custom_Export_Import->admin_popup_forms('')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-admin/admin-footer.php(78): do_action('admin_footer', '')
+#4 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-admin/edit.php(489): require_once('/mnt/data/home/...')
+#5 {main}
+  thrown in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/custom-popup-builder-for-elementor/includes/export-import.php on line 368
+
+2021-04-28T11:57:24-07:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:748
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): WooCommerceMusicPlayer->include_main_player_filter('SELECT PLAN (no...')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('SELECT PLAN (no...', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'SELECT PLAN (no...')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-tr in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 748
+
+2021-04-28T11:59:31-07:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:748
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): WooCommerceMusicPlayer->include_main_player_filter('SELECT PLAN (No...')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('SELECT PLAN (No...', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'SELECT PLAN (No...')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-tr in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 748
+
+2021-04-28T12:00:00-07:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:748
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): WooCommerceMusicPlayer->include_main_player_filter('SELECT PLAN (No...')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('SELECT PLAN (No...', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'SELECT PLAN (No...')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-tr in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 748
+
+2021-04-28T12:01:48-07:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:748
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): WooCommerceMusicPlayer->include_main_player_filter('SELECT PLAN (No...')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('SELECT PLAN (No...', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'SELECT PLAN (No...')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-tr in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 748
+

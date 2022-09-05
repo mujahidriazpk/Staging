@@ -1,0 +1,1312 @@
+
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Project-Id-Version: Analytify Pro\n"
+"POT-Creation-Date: 2018-11-02 23:28+0500\n"
+"PO-Revision-Date: 2018-11-28 14:23+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wp-analytify-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/analytifypro_base.php:34 classes/analytifypro_base.php:41
+#: classes/analytifypro_base.php:48 classes/analytifypro_base.php:55
+#: classes/analytifypro_base.php:63 classes/analytifypro_base.php:79
+msgctxt "Delete license"
+msgid "Remove"
+msgstr "Supprimer"
+
+#: classes/analytifypro_base.php:273 classes/analytifypro_base.php:347
+#: classes/analytifypro_base.php:421 classes/analytifypro_base.php:494
+#: classes/analytifypro_base.php:567 classes/analytifypro_base.php:641
+#, php-format
+msgid ""
+"<strong>Activate Your License</strong> &mdash; Please <a href=\"%s\" class="
+"\"\">enter your license key</a> to enable priority support and plugin "
+"updates."
+msgstr ""
+"<strong> activer votre licence </strong> &mdash; s'il vous plaÃ®t < a href = "
+"\" %s\" class = \"\" > Entrez votre clÃ© de licence </a> pour activer la "
+"prise en charge prioritaire et les mises Ã  jour du plugin."
+
+#: classes/analytifypro_base.php:294 classes/analytifypro_base.php:368
+#: classes/analytifypro_base.php:442 classes/analytifypro_base.php:515
+#: classes/analytifypro_base.php:588 classes/analytifypro_base.php:662
+msgid "Your License Has Expired"
+msgstr "Votre licence a expirÃ©"
+
+#: classes/analytifypro_base.php:295 classes/analytifypro_base.php:369
+#: classes/analytifypro_base.php:443 classes/analytifypro_base.php:516
+#: classes/analytifypro_base.php:589 classes/analytifypro_base.php:663
+#, php-format
+msgid "Login to <a href=\"%s\">My Account</a> to renew. "
+msgstr "Se connecter Ã  < a href = \" %s\" > mon compte </a> de renouveler. "
+
+#: classes/analytifypro_base.php:299 classes/analytifypro_base.php:373
+#: classes/analytifypro_base.php:447 classes/analytifypro_base.php:520
+#: classes/analytifypro_base.php:593 classes/analytifypro_base.php:667
+msgid "Updates are only available to those with an active license. "
+msgstr "Les mises Ã  jour sont seulement disponibles avec une licence active "
+
+#: classes/analytifypro_base.php:300 classes/analytifypro_base.php:374
+#: classes/analytifypro_base.php:448 classes/analytifypro_base.php:521
+#: classes/analytifypro_base.php:594 classes/analytifypro_base.php:668
+msgid "Only active licenses can submit support requests. "
+msgstr ""
+"Seules les licences actives peuvent soumettre des demandes de support. "
+
+#: classes/analytifypro_base.php:301 classes/analytifypro_base.php:375
+#: classes/analytifypro_base.php:449 classes/analytifypro_base.php:522
+#: classes/analytifypro_base.php:595 classes/analytifypro_base.php:669
+msgid ""
+"All features will continue to work, but you won't be able to receive updates "
+"or email support. "
+msgstr ""
+"Toutes les fonctionnalitÃ©s continueront Ã  fonctionner, mais vous ne pourrez "
+"pas recevoir de mises Ã  jour ou de support par e-mail. "
+
+#: classes/analytifypro_base.php:313 classes/analytifypro_base.php:387
+#: classes/analytifypro_base.php:461 classes/analytifypro_base.php:534
+#: classes/analytifypro_base.php:607 classes/analytifypro_base.php:681
+#, php-format
+msgid ""
+"<strong>No Activations Left</strong> &mdash; Please visit <a href=\"%s\" "
+"target=\"_blank\">My Account</a> to upgrade your license or deactivate a "
+"previous activation."
+msgstr ""
+"<strong> aucune activation disponible </strong> &mdash; s'il vous plaÃ®t "
+"visitez <a href=\"%s\" target=\"_blank\"> mon compte </a> pour mettre Ã  jour "
+"votre licence ou dÃ©sactiver une activation prÃ©cÃ©dente."
+
+#: classes/analytifypro_base.php:316 classes/analytifypro_base.php:390
+#: classes/analytifypro_base.php:464 classes/analytifypro_base.php:537
+#: classes/analytifypro_base.php:610 classes/analytifypro_base.php:684
+#, php-format
+msgid ""
+"<strong>Your License Was Not Found</strong> &mdash; Please visit <a href=\"%s"
+"\" target=\"_blank\">My Account</a> to double check your license key."
+msgstr ""
+"<strong> votre licence n'a pas Ã©tÃ© trouvÃ©e </strong> &mdash; connectez-vous "
+"Ã  <a href=\"%s\" target=\"_blank\"> mon compte </a> et vÃ©rifiez votre clÃ© de "
+"licence."
+
+#: classes/analytifypro_base.php:319 classes/analytifypro_base.php:393
+#: classes/analytifypro_base.php:467 classes/analytifypro_base.php:540
+#: classes/analytifypro_base.php:613 classes/analytifypro_base.php:687
+msgid "<strong>Your License Was Not Found</strong> &mdash; "
+msgstr "Votre licence n'a pas Ã©tÃ© trouvÃ©e. "
+
+#: classes/analytifypro_base.php:324 classes/analytifypro_base.php:398
+#: classes/analytifypro_base.php:472 classes/analytifypro_base.php:545
+#: classes/analytifypro_base.php:618 classes/analytifypro_base.php:692
+#, php-format
+msgid ""
+"<strong>An Unexpected Error Occurred</strong> &mdash; Please contact us at "
+"<a href=\"%1$s\">%2$s</a> and quote the following:"
+msgstr ""
+"<strong> une erreur inattendue s'est produite </strong> &mdash; s'il vous "
+"plaÃ®t contactez-nous Ã  <a href=\"%1$s\">%2$s </a> et de citer ce qui suit:"
+
+#: classes/analytifypro_base.php:849 classes/class-wp-analytify-pro.php:2488
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Update Available %4$s &mdash; %9$s %10$s is now available. "
+"You currently have %11$s installed.  %5$s Changelog %6$s  %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s mise Ã  jour disponible%4$s &mdash;%9$s %10$s est maintenant "
+"disponible. Vous avez actuellement%11$ s installÃ©.  %5$s changelog%6$s  %7$s "
+"%8$s"
+
+#: classes/class-wp-analytify-pro.php:234
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Activate Your License %4$s &mdash; Please %5$senter your "
+"license key%6$s to enable support and plugin updates. %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s activez votre licence%4$s &mdash; s'il vous plaÃ®t%5$sindiquez "
+"votre clÃ© de licence%6$s pour activer la prise en charge et les mises Ã  jour "
+"du plugin. %7$s %8$s"
+
+#: classes/class-wp-analytify-pro.php:237
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Activate Your License %4$s &mdash; Please click on %5$s "
+"Activate License button %6$s to validate your license. %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s activez votre licence%4$s &mdash; s'il vous plaÃ®t cliquez sur"
+"%5$s activer le bouton de licence%6$s pour valider votre licence. %7$s %8$s"
+
+#: classes/class-wp-analytify-pro.php:240
+#, php-format
+msgid ""
+"%1$s %2$s %3$s License Expired %4$s &mdash; Upgrade your license to enable "
+"support and plugin updates. Would you please checkout %5$s what we have "
+"improved %6$s so far ? %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s licence expirÃ©e%4$s &mdash; mettre Ã  jour votre licence pour "
+"activer la prise en charge et les mises Ã  jour du plugin. Voulez-vous "
+"vÃ©rifier%5$s ce que nous avons amÃ©liorÃ©%6$s jusqu'Ã  prÃ©sent? %7$s %8$s"
+
+#: classes/class-wp-analytify-pro.php:243
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Invalid License %4$s &mdash; Please %5$senter a valid license "
+"key%6$s to enable support and plugin updates. %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s licence invalide%4$s &mdash; s'il vous plaÃ®t%5$senter une clÃ© "
+"de licence valide%6$s pour activer la prise en charge et les mises Ã  jour du "
+"plugin. %7$s %8$s"
+
+#: classes/class-wp-analytify-pro.php:254
+msgid "Dashboards"
+msgstr "Tableaux de bord"
+
+#: classes/class-wp-analytify-pro.php:257
+msgid "REAL TIME"
+msgstr "TEMPS RÃ‰EL"
+
+#: classes/class-wp-analytify-pro.php:258
+msgid "Demographics"
+msgstr "Pays"
+
+#: classes/class-wp-analytify-pro.php:260
+msgid "Search Terms"
+msgstr "Termes de recherche"
+
+#: classes/class-wp-analytify-pro.php:356
+msgid "Top Ajax Errors"
+msgstr "Principales erreurs AJAX"
+
+#: classes/class-wp-analytify-pro.php:380
+msgid "Ajax errors"
+msgstr "Erreurs Ajax"
+
+#: classes/class-wp-analytify-pro.php:395
+msgid "Top 404 Pages Errors"
+msgstr "Principales erreurs de page 404"
+
+#: classes/class-wp-analytify-pro.php:419
+msgid "404 errors"
+msgstr "erreurs 404"
+
+#: classes/class-wp-analytify-pro.php:434
+msgid "Top Javascript Errors"
+msgstr "Principales erreurs de Java Script"
+
+#: classes/class-wp-analytify-pro.php:458
+msgid "JavaScript errors"
+msgstr "Erreurs JavaScript"
+
+#: classes/class-wp-analytify-pro.php:555
+msgid "Thank you!"
+msgstr "Merci !"
+
+#: classes/class-wp-analytify-pro.php:558
+msgid ""
+"We appreciate you to upgrade to Pro version and supporting the development "
+"of this product."
+msgstr ""
+"Nous vous remercions de mettre Ã  niveau vers la version Pro et de soutenir "
+"le dÃ©veloppement de ce produit."
+
+#: classes/class-wp-analytify-pro.php:563
+msgid "made with â™¥ by"
+msgstr "fait avec â™¥ par"
+
+#: classes/class-wp-analytify-pro.php:676
+#: classes/class-wp-analytify-pro.php:2499
+msgid "Front"
+msgstr "Recto"
+
+#: classes/class-wp-analytify-pro.php:680
+#: classes/class-wp-analytify-pro.php:2512
+msgid "License"
+msgstr "Licence"
+
+#: classes/class-wp-analytify-pro.php:842
+msgid ""
+"Enter your license key(s). It is important to have a valid license key for "
+"automatic plugin updates and support. After adding a license key, press the "
+"'Activate License' button."
+msgstr ""
+"Saisissez votre (vos) clÃ© (s) de licence. Il est important d'avoir une clÃ© "
+"de licence valide pour les mises Ã  jour et le support automatique du plugin. "
+"AprÃ¨s avoir ajoutÃ© une clÃ© de licence, appuyez sur le bouton'activer la "
+"licence'."
+
+#: classes/class-wp-analytify-pro.php:848
+msgid "Analytify PRO (License Key):"
+msgstr "Analytify PRO (clÃ© de license) :"
+
+#: classes/class-wp-analytify-pro.php:864
+msgid "Activate License"
+msgstr "Activer la licence"
+
+#: classes/class-wp-analytify-pro.php:1123
+#, php-format
+msgid "%1$s Fetching Analytics from %2$s to %3$s %4$s"
+msgstr "%1$s extraction d'Analytics de%2$s Ã %3$s %4$s"
+
+#: classes/class-wp-analytify-pro.php:1228
+#, php-format
+msgid "%1$s Settings %2$s | %3$s Dashboard %4$s | %5$s Help %6$s"
+msgstr "%1$s paramÃ¨tres %2$s | %3$s Dashboard%4$s | %5$s help%6$s"
+
+#: classes/class-wp-analytify-pro.php:1250
+#, php-format
+msgid "%1$s Getting Started %2$s"
+msgstr "%1$s mise en route%2$s"
+
+#: classes/class-wp-analytify-pro.php:1251
+#, php-format
+msgid "%1$s Add Ons %2$s"
+msgstr "%1$s Ajouts %2$s"
+
+#: classes/class-wp-analytify-pro.php:1321
+#, php-format
+msgid ""
+"Analytify is not active. Please %1$sAuthenticate%2$s in order to get started "
+"using this plugin."
+msgstr ""
+"Analytify n'est pas actif. S'Il vous plaÃ®t%1$svous authentifier%2$s afin de "
+"commencer Ã  utiliser ce plugin."
+
+#: classes/class-wp-analytify-pro.php:1325
+#, php-format
+msgid "%1$s Google Analytics Profile is not set. Set the %2$s Profile %3$s"
+msgstr ""
+"%1$s Le profil Google Analytics nâ€™est pas activÃ©. DÃ©finir %2$s Le profil %3$s"
+
+#: classes/class-wp-analytify-pro.php:2389
+#, php-format
+msgid "There is a new version of %s available."
+msgstr "Une nouvelle version de %s est disponible."
+
+#: classes/class-wp-analytify-pro.php:2391
+#, php-format
+msgid "View version %s details"
+msgstr "Afficher les dÃ©tails de la version %s"
+
+#: classes/class-wp-analytify-pro.php:2399
+msgctxt "Plugin configuration and preferences"
+msgid "Settings"
+msgstr "ParamÃ¨tres"
+
+#: classes/class-wp-analytify-pro.php:2401
+#, php-format
+msgid ""
+"To update, go to %1$s and enter your license key. If you don't have a "
+"license key, you may <a href=\"%2$s\">purchase one</a>."
+msgstr ""
+"Pour mettre Ã  jour, accÃ©dez Ã %1$s et saisissez votre clÃ© de licence. Si vous "
+"n'avez pas de clÃ© de licence, vous pouvez <a href=\"%2$s\"> acheter une </a>."
+
+#: classes/class-wp-analytify-pro.php:2403
+#, php-format
+msgid ""
+"To finish activating %1$s, please go to %2$s and enter your license key. If "
+"you don't have a license key, you may <a href=\"%3$s\">purchase one</a>."
+msgstr ""
+"Pour terminer l'activation de%1$s, veuillez accÃ©der Ã %2$s et entrer votre "
+"clÃ© de licence. Si vous n'avez pas de clÃ© de licence, vous pouvez <a href="
+"\"%3$s\"> acheter une </a>."
+
+#: classes/class-wp-analytify-pro.php:2406
+msgid "Check my license again"
+msgstr "VÃ©rifier ma license"
+
+#: classes/class-wp-analytify-pro.php:2500
+msgid ""
+"Following are the settings for front-end side. Google Analytics will appear "
+"under the posts, custom post types or pages at front-end."
+msgstr ""
+"Voici les paramÃ¨tres pour la partie Â«Â front-endÂ Â». Google Analytics "
+"apparaÃ®tra sous les articles, les custom post types ou les pages en front."
+
+#: classes/class-wp-analytify-pro.php:2505
+#: views/default/admin/detail-demographic-stats.php:48
+#: views/default/admin/detail-realtime-stats.php:21
+#: views/default/admin/detail-search-terms-stats.php:49
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: classes/class-wp-analytify-pro.php:2527
+msgid "Disable front-end"
+msgstr "DÃ©sactiver le front-end"
+
+#: classes/class-wp-analytify-pro.php:2528
+msgid ""
+"Enable this if you don't want Analytics to load at all. You can still use "
+"shortcodes."
+msgstr ""
+"Activez cette option si vous ne souhaitez pas que Google Analytics se charge "
+"du tout. Vous pouvez toujours utiliser les shortcodes."
+
+#: classes/class-wp-analytify-pro.php:2542
+msgid "Enable analytics on post types"
+msgstr "Activer l'analyse sur les publications types"
+
+#: classes/class-wp-analytify-pro.php:2543
+msgid "Show analytics below these post types only."
+msgstr "Afficher Analytics ci-dessous ces types de post seulement."
+
+#: classes/class-wp-analytify-pro.php:2551
+msgid "Front-end analytics panels"
+msgstr "Panneaux d'analyse front-end"
+
+#: classes/class-wp-analytify-pro.php:2552
+msgid "Select which statistic panels you want to display on the front-end."
+msgstr ""
+"SÃ©lectionnez les panneaux statistiques que vous souhaitez afficher sur le "
+"front-end."
+
+#: classes/class-wp-analytify-pro.php:2557
+msgid "Country Stats"
+msgstr "Stats pays"
+
+#: classes/class-wp-analytify-pro.php:2560
+msgid "Browser Stats"
+msgstr "Stats Navigateurs"
+
+#: classes/class-wp-analytify-pro.php:2562
+msgid "Mobile devices Stats"
+msgstr "Stats Appareils Portables"
+
+#: classes/class-wp-analytify-pro.php:2563
+msgid "Operating System Stats"
+msgstr "Stats de SystÃ¨mes dâ€™Exploitation"
+
+#: classes/class-wp-analytify-pro.php:2564
+msgid "City Stats"
+msgstr "Stats des Villes"
+
+#: classes/class-wp-analytify-pro.php:2570
+msgid ""
+"Enter a comma separated list of the post/page ID's you do not want to show "
+"analytics for. Example: 21,44,66"
+msgstr ""
+"Entrez une liste sÃ©parÃ©e par des virgules de la publication/ID de page que "
+"vous ne voulez pas afficher. Exemple: 21, 44, 66"
+
+#: classes/class-wp-analytify-pro.php:2580
+msgid "Delete cache"
+msgstr "Supprimer le cache"
+
+#: classes/class-wp-analytify-pro.php:2581
+#, fuzzy
+msgid ""
+"The Analytify dashboard (except real-time statistics) saves results for 24 "
+"hours. Enable this if you want to retrieve the current statistics."
+msgstr ""
+"Le tableau de bord Analytify (exceptÃ© les statistiques en temps rÃ©el) "
+"enregistre les rÃ©sultats pendant 24 heures. Activez cette option si vous "
+"souhaitez rÃ©cupÃ©rer les statistiques actuelles."
+
+#: classes/class-wp-analytify-pro.php:2587
+#, fuzzy
+msgid "Show the Analytify dashboard to the above-selected user roles only."
+msgstr ""
+"Affichez le tableau de bord Analytify aux rÃ´les d'utilisateur sÃ©lectionnÃ©s "
+"ci-dessus uniquement."
+
+#: classes/class-wp-analytify-pro.php:2595
+#, fuzzy
+msgid "Dashboard analytics panels"
+msgstr "Tableaux de bord Analytics"
+
+#: classes/class-wp-analytify-pro.php:2596
+#, fuzzy
+msgid "Choose the panels to display in Analytify dashboard."
+msgstr "Choisissez les panneaux Ã  afficher dans le tableau de bord Analytify."
+
+#: classes/class-wp-analytify-pro.php:2600
+#: views/default/admin/detail-realtime-stats.php:34
+msgid "RealTime Stats"
+msgstr "Stats en temps rÃ©el"
+
+#: classes/class-wp-analytify-pro.php:2601
+msgid "Comparison Stats"
+msgstr "Stats de comparaison"
+
+#: classes/class-wp-analytify-pro.php:2603
+msgid "Top Pages Stats"
+msgstr "Stats des Principales Pages"
+
+#: classes/class-wp-analytify-pro.php:2609
+msgid "Page entrance and exit stats"
+msgstr "Stats entrÃ©e et de sortie de page"
+
+#: inc/analytify-widgets.php:9
+msgid "Analytify Live Stats"
+msgstr "Statistiques Analytify en temps rÃ©el"
+
+#: inc/analytify-widgets.php:10
+msgid "It shows Live Stats of your site."
+msgstr "Il montre en direct les stats de votre site."
+
+#: inc/analytify-widgets.php:28
+msgid "Title"
+msgstr "Titre"
+
+#: inc/analytify-widgets.php:33
+msgid "Description:"
+msgstr "Description :"
+
+#: inc/front-menus.php:20
+msgid "Top Countries"
+msgstr "Principaux pays"
+
+#: inc/front-menus.php:29 views/old/front/city-stats.php:7
+msgid "Top Cities"
+msgstr "Principales villes"
+
+#: inc/front-menus.php:38
+msgid "Top Operating Systems"
+msgstr "Top des systÃ¨mes d'exploitation"
+
+#: inc/front-menus.php:56
+msgid "Top Keywords"
+msgstr "Top des Mots-clÃ©s"
+
+#: inc/front-menus.php:65
+msgid "SOCIAL MEDIA STATISTICS"
+msgstr "STATISTIQUES MEDIAS SOCIAUX"
+
+#: inc/front-menus.php:73
+msgid "TOP BROWSERS"
+msgstr "MEILLEURS NAVIGATEURS"
+
+#: inc/shortcode.php:14
+#, fuzzy
+msgid ""
+"Select metrics and dimensions, sort them with metrics and show stats to your "
+"visitors (roles)."
+msgstr ""
+"Choisissez des mÃ©triques et des dimensions, triez-les avec des mÃ©triques et "
+"montrez des stats Ã  vos visiteurs (rÃ´les)."
+
+#: inc/shortcode.php:19
+msgid "Metrics: "
+msgstr "MÃ©triques: "
+
+#: inc/shortcode.php:20
+msgid "Select at least one Metric"
+msgstr "SÃ©lectionnez au moins une dimension"
+
+#: inc/shortcode.php:21 inc/shortcode.php:51
+msgid "user"
+msgstr "utilisateur"
+
+#: inc/shortcode.php:22
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: inc/shortcode.php:24 inc/shortcode.php:123
+msgid "Percent New Sessions"
+msgstr "Pourcentage de nouvelles sessions"
+
+#: inc/shortcode.php:26
+msgid "Session"
+msgstr "Session"
+
+#: inc/shortcode.php:28 inc/shortcode.php:124
+msgid "Bounces"
+msgstr "Rebonds"
+
+#: inc/shortcode.php:30
+msgid "sessionDuration"
+msgstr "sessionDuration"
+
+#: inc/shortcode.php:31
+msgid "Avg SessionDuration"
+msgstr "SessionDuration moyenne"
+
+#: inc/shortcode.php:32 inc/shortcode.php:126
+#: views/default/admin/404-error.php:14 views/default/admin/ajax-error.php:13
+#: views/default/admin/javascript-error.php:13
+msgid "Hits"
+msgstr "Objectifs"
+
+#: inc/shortcode.php:34 inc/shortcode.php:85
+msgid "Page Tracking"
+msgstr "Suivi de page"
+
+#: inc/shortcode.php:35 inc/shortcode.php:127
+#, fuzzy
+msgid "Page Value"
+msgstr "Valeur de la page"
+
+#: inc/shortcode.php:36 inc/shortcode.php:128
+#, fuzzy
+msgid "Entrances"
+msgstr "EntrÃ©es"
+
+#: inc/shortcode.php:37 inc/shortcode.php:129
+msgid "Pageviews"
+msgstr "Pages vues"
+
+#: inc/shortcode.php:38 inc/shortcode.php:130
+msgid "Unique Pageviews"
+msgstr "Vues uniques"
+
+#: inc/shortcode.php:39 inc/shortcode.php:131
+msgid "Exits"
+msgstr "Sorties"
+
+#: inc/shortcode.php:40
+#, fuzzy
+msgid "Exit Rate"
+msgstr "Taux de sortie"
+
+#: inc/shortcode.php:41 inc/shortcode.php:134
+#, fuzzy
+msgid "Entrance Rate"
+msgstr "Taux d'entrÃ©e"
+
+#: inc/shortcode.php:42 inc/shortcode.php:133
+msgid "Pageviews Per Session"
+msgstr "Pages vues par session"
+
+#: inc/shortcode.php:43 inc/shortcode.php:135
+#, fuzzy
+msgid "Time On Page"
+msgstr "Temps sur la page"
+
+#: inc/shortcode.php:44
+msgid "Avg Time On Page"
+msgstr "Temps moyen sur la page"
+
+#: inc/shortcode.php:49
+msgid "Dimensions: "
+msgstr "Dimensions : "
+
+#: inc/shortcode.php:50
+#, fuzzy
+msgid "Select at least one Dimension"
+msgstr "SÃ©lectionner au moins une dimension"
+
+#: inc/shortcode.php:52
+msgid "User Type"
+msgstr "Type d'utilisateur"
+
+#: inc/shortcode.php:53
+msgid "Session Count"
+msgstr "Compteur de session"
+
+#: inc/shortcode.php:54
+msgid "Days Since Last Session"
+msgstr "Jours depuis la derniÃ¨re Session"
+
+#: inc/shortcode.php:55
+msgid "Session Duration Bucket"
+msgstr "DurÃ©e de la session"
+
+#: inc/shortcode.php:57
+#, fuzzy
+msgid "Traffic Sources"
+msgstr "Sources de trafic"
+
+#: inc/shortcode.php:58
+#, fuzzy
+msgid "Referral Path"
+msgstr "Chemin de rÃ©fÃ©rence"
+
+#: inc/shortcode.php:59
+#, fuzzy
+msgid "Full Referrer"
+msgstr "RÃ©fÃ©rent complet"
+
+#: inc/shortcode.php:60
+msgid "Source"
+msgstr "Source"
+
+#: inc/shortcode.php:61
+msgid "Medium"
+msgstr "Moyen"
+
+#: inc/shortcode.php:62
+msgid "Source Medium"
+msgstr "MÃ©dia source"
+
+#: inc/shortcode.php:63
+msgid "Keyword"
+msgstr "Mot-clÃ©"
+
+#: inc/shortcode.php:64
+msgid "Social Network"
+msgstr "RÃ©seau social"
+
+#: inc/shortcode.php:65
+msgid "Country"
+msgstr "Pays"
+
+#: inc/shortcode.php:66
+msgid "Country ISO Code"
+msgstr "Code ISO pays"
+
+#: inc/shortcode.php:68
+msgid "Platform or Device"
+msgstr "Plate-forme ou appareil"
+
+#: inc/shortcode.php:69 views/old/front/browser-stats.php:17
+msgid "Browser"
+msgstr "Navigateur"
+
+#: inc/shortcode.php:70
+msgid "Browser Version"
+msgstr "Version du navigateur"
+
+#: inc/shortcode.php:71
+msgid "Operating System"
+msgstr "SystÃ¨me d'exploitation"
+
+#: inc/shortcode.php:72
+msgid "Operating System Version"
+msgstr "Version du systÃ¨me d'exploitation"
+
+#: inc/shortcode.php:73
+msgid "Mobile Device Branding"
+msgstr "Marque de lâ€™appareil mobile"
+
+#: inc/shortcode.php:74
+msgid "Mobile Device Model"
+msgstr "ModÃ¨le dâ€™appareil mobile"
+
+#: inc/shortcode.php:75
+msgid "Mobile Input Selector"
+msgstr "SÃ©lecteur d'entrÃ©e"
+
+#: inc/shortcode.php:76
+msgid "Mobile Device Info"
+msgstr "Dispositif mobile"
+
+#: inc/shortcode.php:77
+msgid "Mobile Device MarketingName"
+msgstr "Appareil mobile MarketingName"
+
+#: inc/shortcode.php:78
+msgid "Device Category"
+msgstr "CatÃ©gorie dâ€™appareils"
+
+#: inc/shortcode.php:79
+msgid "Flash Version"
+msgstr "Version Flash"
+
+#: inc/shortcode.php:80
+#, fuzzy
+msgid "Java Enabled"
+msgstr "Java activÃ©"
+
+#: inc/shortcode.php:81
+msgid "Language"
+msgstr "Langue"
+
+#: inc/shortcode.php:82
+msgid "ScreenColors"
+msgstr "Couleurs dâ€™Ã©cran"
+
+#: inc/shortcode.php:83
+msgid "ScreenResolution"
+msgstr "RÃ©solutions dâ€™Ã©cran"
+
+#: inc/shortcode.php:86
+msgid "Hostname"
+msgstr "Nom d'hÃ´te"
+
+#: inc/shortcode.php:87
+msgid "Page Path"
+msgstr "Chemin de la page"
+
+#: inc/shortcode.php:88 views/default/admin/detail-realtime-stats.php:395
+msgid "Page Title"
+msgstr "Titre de la page"
+
+#: inc/shortcode.php:89
+msgid "Landing Page Path"
+msgstr "Chemin de la page de destination"
+
+#: inc/shortcode.php:90
+msgid "secondPagePath"
+msgstr "Chemin seconde page"
+
+#: inc/shortcode.php:91
+msgid "Exit Page Path"
+msgstr "Chemin de sortie"
+
+#: inc/shortcode.php:92
+msgid "Previous Page Path"
+msgstr "Chemin vers la page prÃ©cÃ©dente"
+
+#: inc/shortcode.php:93
+msgid "Next Page Path"
+msgstr "Chemin vers page suivante"
+
+#: inc/shortcode.php:94
+msgid "Page Depth"
+msgstr "Couches de page"
+
+#: inc/shortcode.php:99
+msgid "Visible to (roles) : "
+msgstr "Visible (rÃ´les): "
+
+#: inc/shortcode.php:101
+msgid "Everyone"
+msgstr "Tout le monde"
+
+#: inc/shortcode.php:118
+msgid "Sort By: "
+msgstr "Trier Par: "
+
+#: inc/shortcode.php:125
+msgid "BounceRate"
+msgstr "Tauxderebond"
+
+#: inc/shortcode.php:132
+msgid "EntranceRate"
+msgstr "TauxdentrÃ©e"
+
+#: inc/shortcode.php:139
+msgid "Analytics for: "
+msgstr "Analytics intÃ©grÃ©s pour : "
+
+#: inc/shortcode.php:141
+msgid "Current page"
+msgstr "Page actuelle"
+
+#: inc/shortcode.php:142
+#, fuzzy
+msgid "Full Site"
+msgstr "Site complet"
+
+#: inc/shortcode.php:143
+msgid "Page ID"
+msgstr "ID de la page"
+
+#: inc/shortcode.php:148
+msgid "Page ID: "
+msgstr "ID de page : "
+
+#: inc/shortcode.php:152
+msgid "Date range: "
+msgstr "Plage de dates : "
+
+#: inc/shortcode.php:154
+msgid "Custom"
+msgstr "PersonnalisÃ©"
+
+#: inc/shortcode.php:155
+msgid "Today"
+msgstr "Aujourdâ€™hui"
+
+#: inc/shortcode.php:156
+msgid "Yesterday"
+msgstr "Hier"
+
+#: inc/shortcode.php:157
+msgid "Last 15 days"
+msgstr "15 derniers jours"
+
+#: inc/shortcode.php:158
+msgid "Last 7 Days"
+msgstr "7 derniers jours"
+
+#: inc/shortcode.php:159
+msgid "Last 30 Days"
+msgstr "Les 30 derniers jours"
+
+#: inc/shortcode.php:160
+msgid "This Year"
+msgstr "Cette annÃ©e"
+
+#: inc/shortcode.php:161
+msgid "Last Year"
+msgstr "L'annÃ©e derniÃ¨re"
+
+#: inc/shortcode.php:166
+msgid "Start Date: "
+msgstr "Date de dÃ©but: "
+
+#: inc/shortcode.php:170
+msgid "End Date: "
+msgstr "Date de fin : "
+
+#: inc/shortcode.php:175
+msgid "Max records: "
+msgstr "Max Records: "
+
+#: inc/shortcode.php:180
+msgid "Ok"
+msgstr "Ok"
+
+#: inc/shortcode.php:181
+msgid "Cancel"
+msgstr "Annuler"
+
+#: lib/ANALYTIFY_SL_Plugin_Updater.php:210 lib/EDD_SL_Plugin_Updater.php:210
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Il existe une nouvelle version disponible de %1$s. %2$s Afficher la version "
+"%3$s details %4$s."
+
+#: lib/ANALYTIFY_SL_Plugin_Updater.php:218 lib/EDD_SL_Plugin_Updater.php:218
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Il y a une nouvelle version disponible de %1$s. %2$s Afficher la version "
+"%3$s dÃ©tails %4$s ou %5$s mettre Ã  jour maintenant %6$s."
+
+#: lib/ANALYTIFY_SL_Plugin_Updater.php:408 lib/EDD_SL_Plugin_Updater.php:408
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+"Vous nâ€™avez pas la permission dâ€™installer les mises Ã  jour de lâ€™extension"
+
+#: lib/ANALYTIFY_SL_Plugin_Updater.php:408 lib/EDD_SL_Plugin_Updater.php:408
+#: views/default/admin/javascript-error.php:11
+msgid "Error"
+msgstr "Erreur"
+
+#: views/default/admin/404-error.php:13 views/default/admin/ajax-error.php:12
+#: views/default/admin/javascript-error.php:12
+msgid "URL"
+msgstr "URL"
+
+#: views/default/admin/detail-demographic-stats.php:50
+#, fuzzy
+msgid "Demographic Statistics of the Site"
+msgstr "Statistiques dÃ©mographiques du site"
+
+#: views/default/admin/detail-demographic-stats.php:67
+#: views/default/admin/detail-search-terms-stats.php:68 views/help.php:145
+msgid "From:"
+msgstr "De:"
+
+#: views/default/admin/detail-demographic-stats.php:70
+#: views/default/admin/detail-search-terms-stats.php:71
+msgid "To:"
+msgstr "Ã€ :"
+
+#: views/default/admin/detail-demographic-stats.php:75
+#: views/default/admin/detail-search-terms-stats.php:76
+msgid "View Stats"
+msgstr "Voir les statistiques"
+
+#: views/default/admin/detail-demographic-stats.php:84
+#: views/default/admin/detail-demographic-stats.php:126
+#, fuzzy
+msgid "Demographic Stats"
+msgstr "Statistiques dÃ©mographiques"
+
+#: views/default/admin/detail-demographic-stats.php:93
+msgid "Age"
+msgstr "Age"
+
+#: views/default/admin/detail-demographic-stats.php:94
+msgid "Gender"
+msgstr "Sexe"
+
+#: views/default/admin/detail-demographic-stats.php:95
+#: views/default/admin/detail-search-terms-stats.php:95
+msgid "Total Views"
+msgstr "Total de vues"
+
+#: views/default/admin/detail-realtime-stats.php:23
+#, fuzzy
+msgid "Real-Time Statistics of the Site"
+msgstr "Statistiques en temps rÃ©el du site"
+
+#: views/default/admin/detail-realtime-stats.php:49
+#: views/default/admin/realtime-stats.php:15
+#, fuzzy
+msgid "Visitors online"
+msgstr "Visiteurs en ligne"
+
+#: views/default/admin/detail-realtime-stats.php:53
+#: views/default/admin/realtime-stats.php:19
+msgid "Referral"
+msgstr "RÃ©fÃ©rence"
+
+#: views/default/admin/detail-realtime-stats.php:57
+#: views/default/admin/realtime-stats.php:23
+msgid "ORGANIC"
+msgstr "ORGANIQUE"
+
+#: views/default/admin/detail-realtime-stats.php:61
+#: views/default/admin/realtime-stats.php:27
+msgid "social"
+msgstr "social"
+
+#: views/default/admin/detail-realtime-stats.php:65
+#: views/default/admin/realtime-stats.php:31
+msgid "direct"
+msgstr "direct"
+
+#: views/default/admin/detail-realtime-stats.php:69
+#: views/default/admin/realtime-stats.php:35
+msgid "new"
+msgstr "nouveau"
+
+#: views/default/admin/detail-realtime-stats.php:73
+#: views/default/admin/realtime-stats.php:39
+msgid "Returning"
+msgstr "Retour"
+
+#: views/default/admin/detail-realtime-stats.php:78
+msgid "Top Active posts and pages"
+msgstr "Tops des Pages et des Articles actifs"
+
+#: views/default/admin/detail-realtime-stats.php:86
+#, fuzzy
+msgid "Top active pages and posts users are currently at"
+msgstr "Top pages actives et les utilisateurs de messages sont actuellement Ã "
+
+#: views/default/admin/detail-realtime-stats.php:272
+msgid "REFERRALS"
+msgstr "REFERRENTS"
+
+#: views/default/admin/detail-realtime-stats.php:275
+#, fuzzy
+msgid "KEYWORDS"
+msgstr "Mots-clÃ©s"
+
+#: views/default/admin/detail-realtime-stats.php:278
+#, fuzzy
+msgid "SOCIAL"
+msgstr "Sociale"
+
+#: views/default/admin/detail-realtime-stats.php:281
+#, fuzzy
+msgid "DIRECT"
+msgstr "Direct"
+
+#: views/default/admin/detail-realtime-stats.php:395
+#: views/default/admin/main-comparison-stats.php:487
+msgid "Visitors"
+msgstr "Visiteurs"
+
+#: views/default/admin/detail-search-terms-stats.php:51
+#, fuzzy
+msgid "Search Terms Statistics of the Site"
+msgstr "Statistiques des termes de recherche du site"
+
+#: views/default/admin/detail-search-terms-stats.php:85
+#, fuzzy
+msgid "Search Terms Stats"
+msgstr "Statistiques des termes de recherche"
+
+#: views/default/admin/detail-search-terms-stats.php:94
+#, fuzzy
+msgid "Search Term"
+msgstr "Terme de recherche"
+
+#: views/default/admin/detail-search-terms-stats.php:127
+#, fuzzy
+msgid "List of the Search Terms Stats."
+msgstr "Liste des termes de recherche stats."
+
+#: views/default/admin/main-comparison-stats.php:163
+#: views/default/admin/main-comparison-stats.php:245
+#: views/default/admin/main-comparison-stats.php:337
+#: views/default/admin/main-comparison-stats.php:418
+msgid "Line"
+msgstr "Ligne"
+
+#: views/default/admin/main-comparison-stats.php:164
+#: views/default/admin/main-comparison-stats.php:246
+#: views/default/admin/main-comparison-stats.php:338
+#: views/default/admin/main-comparison-stats.php:419
+msgid "Bar"
+msgstr "Barre"
+
+#: views/default/admin/main-comparison-stats.php:166
+#: views/default/admin/main-comparison-stats.php:248
+#: views/default/admin/main-comparison-stats.php:340
+#: views/default/admin/main-comparison-stats.php:421
+msgid "Restore"
+msgstr "Restaurer"
+
+#: views/default/admin/main-comparison-stats.php:167
+#: views/default/admin/main-comparison-stats.php:249
+#: views/default/admin/main-comparison-stats.php:341
+#: views/default/admin/main-comparison-stats.php:422
+#, fuzzy
+msgid "Save As Image"
+msgstr "Enregistrer en tant qu'image"
+
+#: views/default/admin/main-comparison-stats.php:488
+msgid "Views"
+msgstr "Vues"
+
+#: views/default/admin/main-comparison-stats.php:495
+#: views/default/admin/main-comparison-stats.php:523
+msgid "Months"
+msgstr "Mois"
+
+#: views/default/admin/main-comparison-stats.php:498
+#: views/default/admin/main-comparison-stats.php:526
+msgid "Years"
+msgstr "AnnÃ©es"
+
+#: views/default/admin/main-comparison-stats.php:549
+#, fuzzy
+msgid "Detailed Visitors and Views breakdown in months and years"
+msgstr "Ventilation dÃ©taillÃ©e des visiteurs et des vues en mois et en annÃ©es"
+
+#: views/default/admin/realtime-stats.php:11
+#, fuzzy
+msgid "Real Time Stats"
+msgstr "Stats en temps rÃ©el"
+
+#: views/help.php:3
+msgid "Email Support"
+msgstr "Envoyer un courriel au soutien technique"
+
+#: views/help.php:8
+msgid "Fetching license details, please wait..."
+msgstr "DÃ©tails de la licence, attendez, sâ€™il vous plaÃ®tâ€¦."
+
+#: views/help.php:10
+#, fuzzy
+msgid ""
+"We couldn't find your license information. Please switch to the License tab "
+"and enter your license."
+msgstr ""
+"Nous ne pouvions pas trouver vos informations de licence. Veuillez passer Ã  "
+"l'onglet licence et entrer votre licence."
+
+#: views/help.php:11
+msgid "Once completed, you may visit this tab to view your support details."
+msgstr ""
+"Une fois terminÃ©, vous pouvez visiter cet onglet pour voir les dÃ©tails de "
+"votre demande dâ€™assistance."
+
+#: views/help.php:115
+#, fuzzy, php-format
+msgid ""
+"You have an %1$s active %2$s license. You will get front-of-the-line email "
+"support when submitting a support request below."
+msgstr ""
+"Vous disposez d'une licence%1$s active%2$s. Vous obtiendrez le support "
+"d'email avant-de-la-ligne en soumettant une demande de support ci-dessous."
+
+#: views/help.php:119 views/help.php:174
+msgid "Success!"
+msgstr "SuccÃ¨s !"
+
+#: views/help.php:119 views/help.php:174
+#, fuzzy
+msgid "Thanks for submitting your support request. We'll be in touch soon."
+msgstr ""
+"Merci de soumettre votre demande de support. On se recontactera bien tÃ´t."
+
+#: views/help.php:123 views/help.php:127 views/help.php:131 views/help.php:135
+#: views/help.php:139
+msgid "Error!"
+msgstr "Erreur!"
+
+#: views/help.php:127
+#, fuzzy
+msgid "There was a problem submitting your request:"
+msgstr "Il y avait un problÃ¨me Ã  soumettre votre demande:"
+
+#: views/help.php:131
+msgid "Please select your email address."
+msgstr "SÃ©lectionnez votre adresse email."
+
+#: views/help.php:135
+msgid "Please enter a subject"
+msgstr "Veuillez saisir un sujet"
+
+#: views/help.php:139
+msgid "Please enter a message."
+msgstr "Veuillez saisir un message."
+
+#: views/help.php:147
+#, fuzzy
+msgid "Select your email address"
+msgstr "SÃ©lectionnez votre adresse e-mail"
+
+#: views/help.php:151
+#, php-format
+msgid ""
+"Replies will be sent to this email address. Update your name &amp; email in "
+"%1$s Your Account%2$s."
+msgstr ""
+"RÃ©ponses seront envoyÃ©s Ã  cette adresse e-mail. Mettez Ã  jour votre nom &amp;"
+"amp; email dans %1$s votre compte %2$s."
+
+#: views/help.php:168
+#, fuzzy
+msgid "Include your diagnostic information and error log (shown below)"
+msgstr ""
+"Incluez vos informations de diagnostic et le journal des erreurs (voir ci-"
+"dessous)"
+
+#: views/help.php:178
+#, fuzzy, php-format
+msgid ""
+"Having trouble submitting the form? Email your support request to %1$s "
+"support@analytify.io%2$s instead."
+msgstr ""
+"Vous avez du mal Ã  soumettre le formulaire? Envoyez votre demande de support "
+"Ã %1$s support@analytify.io%2$s Ã  la place."
+
+#: views/old/front/browser-stats.php:8
+msgid "Top Browsers"
+msgstr "Meilleurs navigateurs"
+
+#: views/old/front/browser-stats.php:18
+msgid "OS"
+msgstr "SystÃ¨me d'Exploitation"
+
+#: views/old/front/browser-stats.php:44
+msgid "These are the top browsers of this page."
+msgstr "Ce sont les principaux navigateurs de cette page."
+
+#: views/old/front/general-stats.php:9
+msgid "General Statistics"
+msgstr "Statistiques gÃ©nÃ©rales"
+
+#: views/old/front/general-stats.php:54
+msgid "AVERAGE PAGES"
+msgstr "MOYENNE DE PAGES"
+
+#: views/old/front/general-stats.php:88
+msgid "USER TYPE"
+msgstr "TYPE Dâ€™UTILISATEUR"
+
+#: views/old/front/general-stats.php:107
+#, fuzzy
+msgid "These are the general statistics of this page."
+msgstr "Voici les statistiques gÃ©nÃ©rales de cette page."
+
+#: views/old/front/keywords-stats.php:6
+msgid "TOP KEYWORDS"
+msgstr "TOP DES MOTS-CLÃ‰S"
+
+#: views/old/front/keywords-stats.php:40
+msgid "These are the keywords people are searching for this page."
+msgstr "Ce sont les mots clÃ©s les gens cherchent pour cette page."
+
+#: views/old/front/mobile-stats.php:7
+msgid "Mobile device Statistics"
+msgstr "Stats des appareils mobiles"
+
+#: views/old/front/mobile-stats.php:15 views/old/front/referrers-stats.php:15
+msgid "#"
+msgstr "#"
+
+#: views/old/front/mobile-stats.php:16
+msgid "Device"
+msgstr "Appareil"
+
+#: views/old/front/mobile-stats.php:41
+msgid "Listing statistics of Mobile usage."
+msgstr "Liste des statistiques dâ€™utilisation Mobile."
+
+#: views/old/front/os-stats.php:18
+msgid "Operating System (Version)"
+msgstr "Version du systÃ¨me d'exploitation"
+
+#: views/old/front/os-stats.php:43
+msgid "Listing statistics of top Operating Systems."
+msgstr "Liste des stats des 5 meilleurs systÃ¨mes dâ€™exploitation."
+
+#: views/old/front/referrers-stats.php:16
+msgid "Social referrer"
+msgstr "RÃ©fÃ©rent social"
+
+#: views/old/front/referrers-stats.php:46
+msgid "These are the top referrers of this page."
+msgstr "Voici les principaux rÃ©fÃ©rents de cette page."
+
+#: views/old/front/social-stats.php:8
+#, fuzzy
+msgid "Social media Statistics"
+msgstr "Statistiques sur les mÃ©dias sociaux"
+
+#: views/old/front/social-stats.php:17
+msgid "Social"
+msgstr "Social"
+
+#: views/old/front/social-stats.php:42
+msgid "These are the social media statistics of this page."
+msgstr "Voici les statistiques des mÃ©dias sociaux de cette page."
+
+#: wp-analytify-pro.php:68
+msgid "The following required plugin is currently inactive &mdash; "
+msgstr "Le plug-in requis suivant est actuellement inactif "
+
+#: wp-analytify-pro.php:68
+msgid "Click here to activate Analytify Core (Free)"
+msgstr "Cliquez ici pour activer Analytify Core (gratuit)"
+
+#: wp-analytify-pro.php:79
+msgid ""
+"Please update Analytify Core to latest Free version to enable PRO features "
+"&mdash; "
+msgstr ""
+"S'il vous plaÃ®t mettre Ã  jour Analytify Core Ã  la derniÃ¨re version gratuite "
+"pour activer les fonctionnalitÃ©s PRO &mdash; "
+
+#: wp-analytify-pro.php:79
+msgid "Update now"
+msgstr "Mettre Ã  jour maintenant"
+
+#: wp-analytify-pro.php:90
+msgid "The following required plugin is not installed &mdash; "
+msgstr "Les attributs requis plugin nâ€™est pas installÃ© &mdash; "
+
+#: wp-analytify-pro.php:90
+msgid "Install Analytify Core (Free) now"
+msgstr "Installez maintenant les Analytify Core (gratuit)"
+
+#. Plugin Name of the plugin/theme
+msgid "Analytify Pro"
+msgstr "Analytify Pro"
+
+#. Plugin URI of the plugin/theme
+msgid "https://analytify.io/"
+msgstr "https://analytify.io/"
+
+#. Description of the plugin/theme
+msgid ""
+"Analytify makes Google Analytics simple for everything in WordPress (posts,"
+"pages etc). It presents the statistics in a beautiful way under the "
+"WordPress Posts/Pages at front end, backend and in its own Dashboard. This "
+"provides Stats from Country, Referrers, Social media, General stats, New "
+"visitors, Returning visitors, Exit pages, Browser wise and Top keywords. "
+"This plugin provides the RealTime statistics in a new UI that is easy to "
+"understand and looks good."
+msgstr ""
+"Analytify rend Google Analytique simple pour tout dans WordPress (messages, "
+"pages, etc.). Il prÃ©sente les statistiques dâ€™une maniÃ¨re magnifique sous "
+"WordPress Posts/Pages sur les front-end, back-end et dans son propre tableau "
+"de bord. Ceci fournit des Stats de Country, rÃ©fÃ©rents, mÃ©dias sociaux, "
+"statistiques gÃ©nÃ©rales, nouveaux visiteurs, visiteurs de scrutin, pages de "
+"sortie, navigateur sages et Top Mots clÃ©s. Ce module fournit les "
+"statistiques en temps rÃ©el dans une nouvelle interface utilisateur qui est "
+"facile Ã  comprendre et semble bon."
+
+#. Author of the plugin/theme
+msgid "WPBrigade"
+msgstr "WPBrigade"
+
+#. Author URI of the plugin/theme
+msgid "https://wpbrigade.com/"
+msgstr "https://wpbrigade.com/"

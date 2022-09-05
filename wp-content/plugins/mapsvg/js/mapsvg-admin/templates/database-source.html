@@ -1,0 +1,34 @@
+<script type="text/x-handlebars-template" data-name="main">
+    <form class="form-horizontal mapsvg-view-padding">
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Data source</label>
+            <div class="col-sm-9">
+
+                <div class="btn-group" data-toggle="buttons" id="mapsvg-directory-data-source">
+                    <label class="btn btn-default {{#ifeq menu.source 'regions'}}active{{/ifeq}}">
+                        <input type="radio" name="menu[source]" value="regions"  {{#ifeq menu.source 'regions'}}checked{{/ifeq}} data-live="change"/>
+                        Custom table
+                    </label>
+                    <!--<label class="btn btn-default {{#ifeq menu.source 'markers'}}active{{/ifeq}}">-->
+                    <!--<input type="radio" name="menu[source]" value="markers"  {{#ifeq menu.source 'markers'}}checked{{/ifeq}} data-live="change"/>-->
+                    <!--Markers-->
+                    <!--</label>-->
+                    <label class="btn btn-default {{#ifeq menu.source 'database'}}active{{/ifeq}}">
+                        <input type="radio" name="menu[source]" value="database"  {{#ifeq menu.source 'database'}}checked{{/ifeq}} data-live="change"/>
+                        WP Posts
+                    </label>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label"></label>
+            <div class="col-sm-9">
+                <button id="mapsvg-save-database-source-btn" class="btn btn-default">OK</button>
+            </div>
+        </div>
+
+    </form>
+</script>

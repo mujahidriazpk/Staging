@@ -1,0 +1,32 @@
+
+.swf_container{
+    
+    text-align:right;
+    margin-top:8px;
+    margin-bottom:8px;
+
+    .swf_add_to_favourites{
+        cursor:pointer;
+        background-color:transparent;
+        border:1px solid #262626;
+        font-weight:bold;
+        -webkit-transition: 200 ms all ease;
+        transition: 200ms all ease;
+        color:#262626;
+        padding:8px;
+        &:hover{
+            background-color:#262626;
+            color:#fff;
+        }
+    }
+
+    .swf_message{
+        background-color:#262626;
+        font-weight:bold;
+        color:#fff;
+        padding:5px;
+        border-radius:3px;
+        display:none;
+    }
+
+}

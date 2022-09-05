@@ -1,0 +1,321 @@
+
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><title>Countdown - Time.is</title>
+<script data-cfasync="false">
+AdP='FS';var freestar=freestar||{};freestar.hitTime=Date.now();freestar.queue=freestar.queue||[];freestar.config=freestar.config||{};freestar.debug=window.location.search.indexOf("fsdebug")===-1?false:true;freestar.config.enabled_slots=[];!function(a,b){var c=b.getElementsByTagName("script")[0],d=b.createElement("script"),e="https://a.pub.network/timeis";e+=freestar.debug?"/qa/pubfig.min.js":"/pubfig.min.js",d.async=!0,d.src=e,c.parentNode.insertBefore(d,c)}(window,document);freestar.initCallback=function(){(freestar.config.enabled_slots.length===0)?freestar.initCallbackCalled=false:freestar.newAdSlots(freestar.config.enabled_slots)}
+</script>
+<!--[if lt IE 9]>
+<script>
+document.createElement('nav');
+document.createElement('section');
+document.createElement('article');
+document.createElement('footer');
+document.createElement('quote');
+document.createElement('cite');
+document.createElement('time');
+</script>
+<![endif]-->
+<script>
+var updint=1000,U="undefined",N=null,E=true,F=!E,O="object",S="string",D=document,A=0,fc={a:0},bfc=1,uT="Time.is ",sT,tD,pY=lY=116,cY=syncn=rsy=0,ztrans=0,newzo=0,ss={"0201":"&uarr; 06:55 &darr; 17:37 (10h 42m)","0202":"&uarr; 06:55 &darr; 17:38 (10h 43m)"},destT=0,yrp="",csup=1,czo=0,rqT=0,syncT=0,syncquota=10,earliest_syncT=0,xR=1,syncm='',syncdt='',adH=110,mZ=64,ltr=1,ticks=0,Tstate={chosen_loc:0,current_page:"countdown"};
+function _tD(M){sT=M;tD=new Date().getTime()-M-Math.round(lY/2);cY=lY-pY;if(cY<10)cY=10}
+_tD(1643707950105)
+function gob(e){if(typeof e==O)return e;if(D.getElementById)return D.getElementById(e);return eval(e)}
+function bluritem(e){e=gob(e);e.className=e.className.replace('focused','blr');bfc=1}
+function focusitem(e){bfc=0;e=gob(e);e.className=e.className.replace('blr','focused');e.className=e.className.replace('submitted','focused')}
+function mouseover(e){e.className=e.className.replace('mout','hovered')}
+function mouseout(e){e.className=e.className.replace('hovered','mout')}
+function setfocus(g){if(typeof fc[g]==U)fc[g]=1;else fc[g]++
+if(fc['a']!=0&&fc['a']!=g)losefocus(fc['a'])
+fc['a']=g;gob(g).className=gob(g).className.replace('hide','show');bfc=0}
+function losefocus(g){if(fc['a']!=g)fc[g]=0;else{fc[g]--;if(fc[g]<1){fc['a']=0;fc[g]=0;gob(g).className=gob(g).className.replace('show','hide');bfc=1}}}
+function changeclass(i,x,y){var o=gob(i);if(o)o.className=(o.className.replace(x,'')+' '+y).replace(/  +/,' ')}
+
+dmode=0
+function setcookie(n,v){var x=new Date();x.setDate(x.getDate()+365);D.cookie=n+'='+encodeURIComponent(v)+'; expires='+x.toGMTString()+'; path=/'
+if(D.cookie.length<1)csup=0}
+function httpSync(){
+nextSyncT=0
+array_name='main'
+xR=N
+gob('syncH').innerHTML=p_syncing;gob('syncDtl').innerHTML='&nbsp;';gob('msgs').className=gob('msgs').className.replace('hdn','vsbl')
+if(window.XMLHttpRequest)xR=new XMLHttpRequest()
+else if(window.ActiveXObject)xR=new ActiveXObject("Microsoft.XMLHTTP")
+if(xR!=N){
+rqT=new Date()
+czo=-rqT.getTimezoneOffset()
+xR.onreadystatechange=s_C
+xR.open('get','/t/?'+l+'.'+syncn+'.'+lY+'.'+tD+'.'+rsy+'p.'+czo+'.'+locs[array_name][conf['h']][1]+'.'+rqT.getTime()+'.'+sT+'.'+yrp,E)
+xR.send(N)
+yrp=''
+}else xR='N/A'
+}
+var Y=['','']
+function s_C(){
+var o,dots='...',sym=Y[0],syd=Y[1]
+if(xR.readyState==4){
+if(xR.status==200){
+var rpT=new Date(),n=rpT-rqT,r=xR.responseText.split("\n")
+sT=r[1]
+var prevST=syncT
+syncT=new Date()
+syncT.setTime(syncT.getTime()-tD)
+if(syncn===0||rsy||n<lY){if(r[0].length==13)r.unshift('ok');if(r.length<7||r[0]!=='ok'){
+if(r[0].substr(0,6)=='error:')p_failm=r[0].substr(6)
+else gob('msgs').className='w90 pulldowncv nonet'
+hideTO=setTimeout('sync_cleanup(0)',4000)
+}else{p_failm=p_fail
+if(rsy&&(syncT-prevST<60000)){syncquota--
+if(syncquota<0)earliest_syncT=new Date(syncT.getTime()+120000)
+}else if(earliest_syncT==0)syncquota=10
+}
+rsy=0
+lY=n
+_tD(r[1])
+
+Y=T_I.initClock()
+sym=Y[0]
+syd=Y[1]
+}
+nextSyncT=new Date()
+nextSyncT.setTime(nextSyncT.getTime()-tD+3600000)
+if(49<cY&&syncn<1){for(var i=0;i<syncn;i++)dots+='.'
+sym=p_syncing+dots
+syd=''
+syncn++
+httpSync()}
+else{o=gob('front_loc');if(o)o.style.visibility='visible'
+;o=gob('socbuttons');if(o)o.style.visibility='inherit'
+}
+if(syd=='')syd='&nbsp;'
+for(i=5;i<r.length-1;i++)spdays[r[i].substr(0,4)]=r[i].substr(4,r[i].length)
+if(zone_id!=='UTC'){// zone_offset=r[2];zone_id=r[3]
+}
+}else{sym=p_conn_failed
+syd=xR.statusText
+if(syd!='')syd=' ('+syd+')'
+if(!A){if(xR.statusText!="")sym+=syd
+syd='<a href="javascript:T_I.check_again()">'+p_try_again+'</a>'
+}
+}
+gob('syncH').innerHTML=sym
+gob('syncDtl').innerHTML=syd
+var ac=gob('accuracy')
+if(ac)ac.innerHTML=syd
+setmsgH(0)
+}}
+function sg(q,sd){
+T_I.set_susdiv(sd);o=gob(sd)
+if((N!==q.match(/^Location \d+ \(optional\)$/))||q=='Enter location'||q=='Automatic')return ''
+q=q.replace(/ +$/,'').replace(/^ +/, '')
+if(q.length<4)q=q.toLowerCase()
+var n=sd.replace('susdiv','')
+if((typeof complocurls!=U)&&(typeof complocurls[n]!=U)&&(complocurls[n][0]==q))return ''
+if(typeof prevq[sd]!==U&&q==prevq[sd]||q==e_loc){o.className=o.className.replace('hide','show')
+return ''}
+if(q.length<1){o.innerHTML='';chosen_sus[sd]=0;prevq[sd]=q;current_q[sd]=q;return ''}
+prevq[sd]=q
+if(sus[q]){T_I.populate_sus(sd,q,1);return ''}
+var xh=N,xhp=[]
+if(window.XMLHttpRequest)xh=new XMLHttpRequest()
+else if(window.ActiveXObject)xh=new ActiveXObject('Microsoft.XMLHTTP')
+if(xh!=N){rqT=new Date()
+xh.onreadystatechange=function(){if(xh.readyState==4)if(xh.status==200){
+var xr=xh.responseText.split("\n"),st=xr.shift(),q1=xr.shift()
+for(var i in xr){
+if(i==='indexOf')break
+xr[i]=xr[i].split('	')
+}
+sus[q1]=xr
+if(typeof prevsustime[xhp['sd']]==U||prevsustime[xhp['sd']]<xhp['t']){prevsustime[xhp['sd']]=xhp['t'];T_I.populate_sus(xhp['sd'],xhp['q'],1)}}}
+xhp['sd']=sd
+xhp['t']=new Date()
+if(q=='.')q='.a'
+if(q=='..')q='.,'
+xhp['q']=q
+xh.open("get",'/s/'+l+'/'+q.length+'/'+encodeURIComponent(q.replace(/ /g,'_'))+'?'+xhp['t'].getTime(),E)
+xh.send(N)
+}else xh='N/A'
+}
+function arrows(sd,e){var k=e.which||e.keyCode
+if(k==40||k==38)T_I.cycle_sus(sd,k-39)
+else if(k==9||k==13)T_I.take_chosen(sd,k)
+else return E
+return F}
+function togglesimple(x){var g='',c=bod.className
+if(x!==0&&c.indexOf('simplify')!=-1){dmode=0;bod.className=c.replace('simplify','showall');x=1}
+else if(x!==1&&c.indexOf('showall')!=-1){dmode=1;bod.className=c.replace('showall','simplify');x=0;g='none'}else x=''
+if(x!==''){var gp=gob("___plusone_0");if(gp!=N)gp.style.display=g
+setsizes(1);T_I.tick('',0)}}var kacs={f:"js:t_FS()",'.':"js:t_s()",sO:"/customize",sS:"js:tl_a()",sC:"/calendar",sD:"js:setcol((conf['c']*1+1)%2)",sJ:"/clock",sM:"js:toggle_menu(2)",sT:"/compare","-":"/countdown",sU:"/UTC",sZ:"js:change_clock_size()","$":"https://currency.world","?":"/howto"}
+handle_keys=function(ev){if(!bfc)return E
+var i,u,e=ev||event,q,k=e.which||e.keyCode,s=e.shiftKey?'s':''
+if(e.altKey||e.metaKey||e.ctrlKey)return E
+q=String.fromCharCode(k)
+if(q.toUpperCase()!==q.toLowerCase())q=s+q
+if(typeof kacs[q]===S){u=kacs[q]
+if(u.substr(0,3)=="js:")eval(u.substr(3))
+else{if(u.substr(0,4)=="http")open(u,"_blank")
+else location=u}return F}
+
+if(k===47||(96<k&&k<123)||(64<k&&k<91)){toggle_menu(0);t_search(1);if(k===47)return F}
+i=locs.favs.length-k+48;if((48<k&&k<58)&&U!==typeof locs.favs[i]){location='/'+locs.favs[i][4];return F}
+return E}
+handle_arrow_keys=function(ev){
+if(fc["a"]==1)return E
+var e=ev||event,k=e.which||e.keyCode,s=e.shiftKey?'s':''
+if(e.altKey||e.metaKey||e.ctrlKey)return E
+if(k==27){toggle_menu(0);if(!t_search(0)){togglesimple(1);pstart=[];chosendayid=F;goto_this_year()}return F}
+if(k==36){if(window.scrollY!==0)return E;location='/';return F}
+if(bfc&&36<k&&k<41&&typeof kacs[s+k]===S){
+var u=kacs[s+k]
+if(u.substr(0,3)=="js:")eval(u.substr(3))
+else location=u
+return F
+}
+return E
+}
+function toggle_more(){
+var t=gob('top'),cn='less'
+if(t.className=='less')cn='more'
+t.className=cn
+set_mw()
+}
+D.onkeypress=this.handle_keys
+D.onkeydown=this.handle_arrow_keys
+</script>
+<meta name="description" content="Countdown"/><meta property="og:image" content="https://time.is/img/shareable/countdown.png"/><meta name="viewport" content="user-scalable=0, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+<link rel="image_src" href="/img/shareable/time_is_110011.png"/><link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+<link rel="apple-touch-icon" href="/img/apple-touch-icon_2021-11-20.png"/>
+<style>
+*{margin:0;padding:0;border:0;outline:0}
+div,h1,h2,h3,label,time{clear:both}
+div,img,form{float:left}
+#clock{float:left}
+body{background:#fff}
+span a,.nw,#clock{white-space:nowrap}
+body,select,input,textarea{font:18px/26px 'Times New Roman',Times,FreeSerif,serif;color:#333;letter-spacing:2px}
+#nav h3{letter-spacing:1px}
+@font-face {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-display: swap;
+src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF3gnD_g.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-display: swap;
+src: local('Montserrat Black'), local('Montserrat-Black'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_epG3gfD_u50.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-display: swap;
+src: local('Montserrat Black'), local('Montserrat-Black'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_epG3gnD_g.woff2) format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{font-family:'TimeTraveler';font-style:normal;font-weight:400;src:url('/fonts/TimeTravelerPal-Normal-Regular.ttf') format('truetype')}
+.mt #clock{font-family:'TimeTraveler',Arial,sans-serif}
+#clock{font-size:100px;line-height:normal;position:relative;font-weight:bold}
+#clock span{display:inline-block;text-align:center}
+.mon,.caln td div span{display:inline-block;text-align:center;width:12px}
+#clock0_bg{margin:60px 0}
+div.lg a:link,div.lg a:visited{text-transform:uppercase;font-weight:600;font-size:16px;padding:20px 30px;letter-spacing:3px}
+blockquote{font-weight:900}
+#favs li .time span{display:inline-block;text-align:center;width:13px}
+@media only screen and (max-width:639px){.mon{width:10px}}
+@media only screen and (max-width:1280px){#clock0_bg{margin:60px 0}}
+@media only screen and (max-width:1024px){#clock0_bg{margin:30px 0}}
+@media only screen and (max-width:768px){#clock0_bg{margin:20px 0}}
+@media only screen and (max-height:720px){#clock0_bg{margin:20px 0}}
+@media only screen and (max-width:400px){div.lg a:link,div.lg a:visited{font-size:14px;padding:15px 20px;letter-spacing:2px}}.divider{color:#ccc}
+.lsp{float:right;color:#333}
+.lsp ul{list-style:none;text-align:right}
+a:link,a:visited{color:#333;text-decoration:none;border-bottom:1px solid #ccc}
+h1,h2,.clockdate,.clockplace{font-size:36px;line-height:40px;font-weight:normal;letter-spacing:1px}
+.w90{margin-left:5%;width:90%}
+#c{padding-bottom:40px}
+#msgdiv{float:left}
+div#msgs h1{margin-right:30px;float:left}
+.lg a:link,.lg a:visited{background:#c35;float:left;display:block;color:#fff;border:0;padding:20px;font:26px/20px Montserrat,Arial,sans-serif;font-weight:900;letter-spacing:2px}
+.lg{z-index:9;position:relative}
+#pl,#popmsg{display:none}
+time{cursor:pointer;direction:ltr}
+
+#top{width:90%;margin:0 5%}
+#clock0_bg{width:100%}
+#clock0,.clockplace,#lC,.clockdate,#daydiv{text-align:right}
+select{height:40px}
+#pL a:link,#pL a:visited,#pL1 a,#lC,#daydiv,#daydiv1{color:#333}
+
+#pL,#pL1{margin-bottom:20px}
+#favs{width:100%;list-style:none;margin:0 0 10px 0;padding:0;float:right}
+#favs span{color:#999}
+.tbx div{clear:none;float:left;text-align:left;white-space:nowrap;font-size:18px;line-height:22px;font-style:normal;font-weight:normal;letter-spacing:2px}
+.tbx a{display:block;margin:0 0 10px 10px;padding:10px 20px;border:1px solid #eee;background:#eee;text-decoration:none}
+.txtin,.dateinput{background:#eee;border:1px solid #ddd;width:138px;padding:10px;color:#333}
+.mout{border-color:#eee}
+</style><link rel="stylesheet" href="css/t2022-01-07b.css"/><script src="js/t2021-11-10a.js"></script>
+</head>
+<body id="bdy" class="factspage showall mt l ">
+<div id="popmsg"><div id="popmsgpos"><div id="popmsgbg" onclick="remove_popmsg()">
+<div id="popmsg-close-btn">×</div>
+<div id="popmsgtext"></div>
+</div></div></div>
+<div id="mainwrapper">
+<div id="cvwr" class="w90">
+<style>
+.monospace{font-family:TimeTraveler}
+</style>
+
+<div onclick="togglesimple()" id="w_cv" style="font-weight:bold;font-size:80px;line-height:80px;text-align:center;width:100%">
+<span id="_za00"></span>
+<script src="https://time.is/_countdown_beta.js"></script>
+<script>
+var countDownDate = Date.parse("Feb 03, 2022 13:00:00");
+var l="en"
+time_is_widget.init({_za00:{id:"UTC_za00",
+leading_zeros:"automatic",
+template:'<a href="time.is/" id="time_is_link"></a><h1 style="text-align:left">headline</h1><table style="width:100%" border="0" cellpadding="0" cellspacing="0"><tr><td style="text-align:left">(days<br/>)(hours<br/>)(minutes<br/>)seconds</td><td></td></tr></table>',
+countdown_to:countDownDate,
+units:"short",
+units_abbr:["y","d","h","m","s"],
+unit_names:["year","day","hour","minute","second"],
+units_pl:["years","days","hours","minutes","seconds"],on_0:"Time is up!",headline:''}});
+var tm_n=0,templates=['<table class="countdown" style="width:100%" border="0" cellpadding="0" cellspacing="0"><tr><td></td><td style="text-align:left">(<span class="monospace">days</span>)(<span class="monospace">hours</span>)(<span class="monospace">minutes</span>)<span class="monospace">seconds</span></td><td></td></tr></table>',
+'<h1>headline</h1>(days )(hours )(minutes )seconds','<h1>headline</h1>(days:)hours:minutes:seconds'],lz=["automatic","automatic","on"],ul=["long","short","off"]
+
+function change_tmpl(n){
+// tm_n++;if(templates.length==tm_n)tm_n=0
+time_is_widget.ca["_za00"]["template"]=templates[n]
+time_is_widget.ca["_za00"]["leading_zeros"]=lz[n]
+time_is_widget.ca["_za00"]["units"]=ul[n]
+}
+</script>
+</div>
+
+
+</div>
+
+</div></body></html>

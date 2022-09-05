@@ -1,0 +1,382 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Ads – Responsive Ads\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-07 09:46+0000\n"
+"POT-Revision-Date: Thu Feb 11 2016 11:07:16 GMT+0100 (CET)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: classes/plugin.php:103
+msgid "browser width"
+msgstr ""
+
+#: classes/plugin.php:104
+msgid "Display ads based on the browser width."
+msgstr ""
+
+#: classes/plugin.php:110
+msgid "tablet"
+msgstr ""
+
+#: classes/plugin.php:111
+msgid "Display ads based on tablet device."
+msgstr ""
+
+#: admin/admin.php:67
+msgid "Activate Now"
+msgstr ""
+
+#: admin/admin.php:69
+msgid "Install Now"
+msgstr ""
+
+#: admin/admin.php:73
+#, php-format
+msgid ""
+"<strong>%s</strong> requires the <strong><a href=\"https://wpadvancedads."
+"com\" target=\"_blank\">Advanced Ads</a></strong> plugin to be installed and "
+"activated on your site."
+msgstr ""
+
+#: admin/admin.php:108
+msgid "Responsive"
+msgstr ""
+
+#: admin/admin.php:117 admin/admin.php:242 admin/admin.php:242
+#: admin/views/list.php:2
+msgid "Responsive Ads"
+msgstr ""
+
+#: admin/admin.php:125
+msgid "Activate size assistant"
+msgstr ""
+
+#: admin/admin.php:134
+msgid "Responsive Image Ads"
+msgstr ""
+
+#: admin/admin.php:143
+msgid "Reload ads on resize"
+msgstr ""
+
+#: admin/admin.php:150
+msgid "Fallback width"
+msgstr ""
+
+#: public/public.php:145
+msgid "window width"
+msgstr ""
+
+#: public/public.php:146
+msgid "ad size"
+msgstr ""
+
+#: public/public.php:147
+msgid "container width"
+msgstr ""
+
+#: admin/views/metabox.php:1
+msgid "Display by browser size"
+msgstr ""
+
+#: admin/views/metabox.php:2
+msgid ""
+"The below version of the browser width check is deprecated. Please use the "
+"new version of visitor conditions above to replace it."
+msgstr ""
+
+#: admin/views/metabox.php:4
+msgid "Display ad by browser size"
+msgstr ""
+
+#: admin/views/metabox.php:6
+#, php-format
+msgid "Display ad in browsers with a size of %s px to %s px"
+msgstr ""
+
+#: admin/views/metabox.php:9
+msgid ""
+"On the first page view of a new visitor the browser size can not be "
+"determined in advanced. Decide here what to do in this case."
+msgstr ""
+
+#: admin/views/metabox.php:14
+msgid "Display the ad anyway"
+msgstr ""
+
+#: admin/views/metabox.php:17
+msgid "Don’t load the ad"
+msgstr ""
+
+#: admin/views/metabox.php:20
+msgid "Display on desktop only"
+msgstr ""
+
+#: admin/views/metabox.php:23
+msgid "Display on mobile only"
+msgstr ""
+
+#: admin/views/setting_responsive_images.php:2
+msgid ""
+"Check this option if the size of image ads is not adjusted responsively by "
+"your theme."
+msgstr ""
+
+#: admin/views/list.php:4
+msgid "Not enough responsive ads to list them."
+msgstr ""
+
+#: admin/views/list.php:9
+msgid "ad group"
+msgstr ""
+
+#: admin/views/list.php:10
+msgid "ad"
+msgstr ""
+
+#: admin/views/list.php:23
+msgid "(ads without groups)"
+msgstr ""
+
+#: admin/views/list.php:71
+msgid "ad is visible"
+msgstr ""
+
+#: admin/views/list.php:73
+msgid "ad is NOT visible"
+msgstr ""
+
+#: admin/views/setting_reload_ads.php:9
+msgid "Reload ads that are loaded via cache-busting when screen resizes."
+msgstr ""
+
+#: admin/views/setting_reload_ads.php:11
+#, php-format
+msgid ""
+"You need <a href=\"%s\" target=\"_blank\">Advanced Ads Pro</a> and cache-"
+"busting in order to use this feature."
+msgstr ""
+
+#: admin/views/setting_tooltip.php:3
+msgid "on"
+msgstr ""
+
+#: admin/views/setting_tooltip.php:5
+msgid "off"
+msgstr ""
+
+#: admin/views/setting_tooltip.php:7
+msgid ""
+"Display the sizes of the ads, ad containers and window in the frontend. Only "
+"logged in admin users will see it."
+msgstr ""
+
+#: modules/gadsense/includes/hooking.php:47
+msgid "horizontal"
+msgstr ""
+
+#: modules/gadsense/includes/hooking.php:48
+msgid "rectangle"
+msgstr ""
+
+#: modules/gadsense/includes/hooking.php:49
+msgid "vertical"
+msgstr ""
+
+#: modules/gadsense/includes/hooking.php:50
+msgid "advanced"
+msgstr ""
+
+#: modules/gadsense/admin/admin.php:66
+#: modules/gadsense/admin/views/ad-params-manual-css.php:57
+msgid "Remove this rule"
+msgstr ""
+
+#: modules/gadsense/admin/admin.php:67
+#: modules/gadsense/admin/views/ad-params-manual-css.php:58
+msgid "remove"
+msgstr ""
+
+#: modules/gadsense/admin/admin.php:68
+msgid "Not Displayed"
+msgstr ""
+
+#: modules/amp/include/class-ad-type-amp.php:17
+msgid "Ads that are visible on Accelerated Mobile Pages"
+msgstr ""
+
+#: modules/amp/admin/admin_adsense.php:25
+msgid "This ad type is not supported on AMP pages"
+msgstr ""
+
+#: modules/amp/admin/admin.php:92
+msgid "is"
+msgstr ""
+
+#: modules/amp/admin/admin.php:93
+msgid "is not"
+msgstr ""
+
+#: modules/amp/public/public.php:429
+msgid "Accelerated Mobile Pages"
+msgstr ""
+
+#: modules/amp/public/public.php:430
+msgid "Display ads on Accelerated Mobile Pages"
+msgstr ""
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:7
+msgid "Layout"
+msgstr ""
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:11
+msgid "Customize"
+msgstr ""
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:12
+msgid "manual"
+msgstr ""
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:16
+msgid "on desktop"
+msgstr ""
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:16
+msgid "Rows"
+msgstr ""
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:16
+msgid "Columns"
+msgstr ""
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:33
+msgid "on mobile"
+msgstr ""
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:8
+#, php-format
+msgid ""
+"Need help? Take a look at the <a href=\"%s\" target=\"_blank\">tutorial</a>."
+msgstr ""
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:12
+msgid "min. browser width"
+msgstr ""
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:13
+msgid "ad width"
+msgstr ""
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:14
+msgid "ad height"
+msgstr ""
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:15
+msgid "hidden"
+msgstr ""
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:20
+msgid "Default"
+msgstr ""
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:23
+#: modules/gadsense/admin/views/ad-params-manual-css.php:29
+msgid "Hide for this size ?"
+msgstr ""
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:32
+msgid "Add rule"
+msgstr ""
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:46
+msgid "Not displayed"
+msgstr ""
+
+#: modules/amp/admin/views/ad-params.php:1
+msgid "Attributes"
+msgstr ""
+
+#: modules/amp/admin/views/ad-params.php:6
+msgid "Name"
+msgstr ""
+
+#: modules/amp/admin/views/ad-params.php:7
+msgid "Value"
+msgstr ""
+
+#: modules/amp/admin/views/ad-params.php:25
+msgid "Add attribute"
+msgstr ""
+
+#: modules/amp/admin/views/ad-params.php:33
+msgid "Fallback"
+msgstr ""
+
+#: modules/amp/admin/views/ad-params.php:36
+msgid ""
+" If supported by the ad network, this text is shown if no ad is available "
+"for the ad slot"
+msgstr ""
+
+#: modules/amp/admin/views/adsense-size.php:6
+msgid "automatically convert to AMP"
+msgstr ""
+
+#: modules/amp/admin/views/adsense-size.php:13
+#, php-format
+msgid "use dynamic size with ratio %s x %s"
+msgstr ""
+
+#: modules/amp/admin/views/adsense-size.php:20
+#, php-format
+msgid "use responsive width and static height of %s px"
+msgstr ""
+
+#: modules/amp/admin/views/adsense-size.php:26
+msgid "hide"
+msgstr ""
+
+#: modules/amp/admin/views/adsense-size.php:30
+msgid "no AMP plugin found"
+msgstr ""
+
+#: modules/amp/admin/views/setting-page-adsense.php:2
+msgid "Enable AMP Auto ads"
+msgstr ""
+
+#. Name of the plugin
+msgid "Advanced Ads – Responsive Ads"
+msgstr ""
+
+#. Description of the plugin
+msgid "Improve ad display on mobile devices and AMP pages"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/responsive-ads/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Advanced Ads GmbH"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr ""

@@ -1,0 +1,28 @@
+2021-04-22T11:52:50-07:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:748
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): WooCommerceMusicPlayer->include_main_player_filter('Dentist Registr...')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('Dentist Registr...', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'Dentist Registr...')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-tr in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 748
+
+2021-04-22T12:29:34-07:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:748
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-tr in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 748
+
+2021-04-22T12:29:49-07:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:748
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-tr in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 748
+
+2021-04-22T13:00:11-07:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:748
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-tr in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 748
+

@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+html {
+  padding: 20px 0;
+  background-image: linear-gradient(0deg,#cc6aa5,#3e91cc,#2dcca7,#3e91cc,#cc6aa5);
+  background-size: 100% 600%;  
+  animation: bg-pan-top 20s ease 0s infinite normal both;
+  animation-play-state: initial;
+}
+
+body {
+  width: 40%;
+  padding: 40px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+#video {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+video {
+  width: 100.2%;
+  height: auto;
+  cursor: pointer;
+}
+
+/*Spinner load*/
+.poster {
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: rotateZ(45deg);
+}
+
+.poster .cube {
+	position: relative;
+	transform: rotateZ(45deg);
+}
+
+.poster .cube {
+	float: left;
+	width: 50%;
+	height: 50%;
+	position: relative;
+	transform: scale(1.1);
+}
+
+.poster .cube:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(43,160,199);
+	animation: cube 1.08s infinite linear both;
+	transform-origin: 100% 100%;
+}
+
+.poster .c2 {
+	transform: scale(1.1) rotateZ(90deg);
+}
+
+.poster .c3 {
+	transform: scale(1.1) rotateZ(180deg);
+}
+
+.poster .c4 {
+	transform: scale(1.1) rotateZ(270deg);
+}
+
+.poster .c2:before {
+	animation-delay: 0.135s;
+}
+
+.poster .c3:before {
+	animation-delay: 0.27s;
+}
+
+.poster .c4:before {
+	animation-delay: 0.405s;
+}
+
+@keyframes cube {
+	0%, 10% {
+		transform: perspective(70px) rotateX(-180deg);
+		opacity: 0;
+	}
+  
+	25%, 75% {
+		transform: perspective(70px) rotateX(0deg);
+		opacity: 1;
+	}
+  
+  90%, 100% {
+    transform: perspective(70px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+@keyframes bg-pan-top {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+</style>
+</head>
+
+<body>
+<!--<video id="myVideo"  width="320" height="240" loop="true" controls="true" >
+  <source src="auctionLive.mp4" type="video/mp4">
+  <source src="blank.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>-->
+<div id="video">
+  <video id="mp4" controls controlsList="nodownload noremote foobar">
+      <source src="auctionLive.mp4" type="video/mp4">
+    </video>
+
+  <div id="spinner" class="poster">
+    <div class="cube"></div>
+    <div class="cube c2"></div>
+    <div class="cube c4"></div>
+    <div class="cube c3"></div>
+  </div>
+</div>
+<script type="text/javascript">
+var video = document.getElementById("mp4");
+var spinner = document.getElementById("spinner");
+var delayMillis = 2000;
+var spinnerIsHere = 1;
+video.volume = 0;
+
+var playVid = setTimeout(function() {
+  if(spinnerIsHere == 1) {
+    // Delete element DOM
+    // spinner.parentNode.removeChild(spinner);
+    spinner.style.visibility = "hidden";
+    spinnerIsHere = 0;
+  }
+  video.play();
+}, delayMillis);
+
+video.addEventListener("click", function( event ) {
+  if(video.paused) {
+    if(spinnerIsHere == 1) {
+      // Delete element DOM
+      // spinner.parentNode.removeChild(spinner);
+      spinner.style.visibility = "hidden";
+      spinnerIsHere = 0;
+    }
+    clearTimeout(playVid);
+    video.play();
+  } else {
+    video.pause();
+    if(spinnerIsHere == 0) {
+      spinner.style.visibility = "visible";
+      spinnerIsHere = 1;
+    }
+  }
+}, false);
+console.log("This is Debug"); //"This is Debug" is displayed in console
+var x=5;
+console.log("x="+ x);
+setTimeout(function() {
+ video.volume = .5;
+}, 10000);
+</script>
+</body>
+</html>

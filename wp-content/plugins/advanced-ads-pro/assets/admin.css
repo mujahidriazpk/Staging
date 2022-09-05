@@ -1,0 +1,44 @@
+/**
+ PLACEMENT TESTS PAGE
+*/
+.advads-placement-tests-table { min-width: 80%; border-collapse: collapse; background: #fff; }
+.advads-placement-tests-table tbody tr { border-top: 1px solid #f1f1f1; }
+.advads-placement-tests-table th, .advads-placement-tests-table td { margin: 0; padding: 10px; text-align: left; vertical-align: top; }
+.advads-placement-tests-table tbody tr td:first-child { width: 70px; }
+.advads-placement-tests-table tbody tr td:nth-child(2) { width: 225px; }
+.advads-placement-tests-table tbody tr td:last-child { width: 70px; }
+
+.advads-placements-table-test-column { width: 150px; }
+.advads-placements-table-options .advads-option-placement-custom-position fieldset { margin-left: 2em; margin-bottom: 1em; }
+.advads-placements-table-options .advads-option-placement-custom-position fieldset legend { margin-left: -2em; font-weight: bold; }
+
+/**
+ PLACEMENT VISITOR AND DISPLAY CONDITIONS
+ */
+.advads-placements-table .advads-conditions-table tbody tr td { width: auto; font-size: inherit; padding: 10px 5px; }
+.advads-placements-table .advads-conditions-table tbody tr { background-color: inherit; }
+
+/**
+ AD GROUPD PAGE
+*/
+.advads-option-group-pro-grid-size > div { line-height: 28px; }
+
+/**
+ AD EDIT PAGE
+*/
+#advads-pro-weekdays { margin-top: 5px; font-size: 12px; }
+#advads-pro-weekdays option { padding-bottom: 1px; }
+
+#advads-custom-code-wrap { float: none; overflow: auto; }
+#advads-custom-code-textarea { width: 100%; height: 10em; }
+
+/**
+ MODULE ACTIVATION
+ */
+.advads-sub-settings {
+    display: none;
+}
+
+input.advads-has-sub-settings:checked ~ .advads-sub-settings {
+    display: block;
+}

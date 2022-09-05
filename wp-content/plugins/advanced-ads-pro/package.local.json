@@ -1,0 +1,20 @@
+{
+  "name": "advanced-ads-pro",
+  "assets": {
+    "js": {
+      "assets/js/base.min.js": [
+        "assets/js/postscribe.js",
+        "assets/js/base.js"
+      ],
+      "assets/js/advanced-ads-pro.min.js": [
+        "assets/js/advanced-ads-pro.js"
+      ],
+      "assets/js/privacy.min.js": [
+        "assets/js/privacy.js"
+      ],
+      "modules\/advanced-visitor-conditions\/inc\/conditions.min.js": [
+        "modules\/advanced-visitor-conditions\/inc\/conditions.js"
+      ]
+    }
+  }
+}

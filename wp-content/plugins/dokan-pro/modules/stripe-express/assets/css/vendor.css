@@ -1,0 +1,13 @@
+/*!*******************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./modules/stripe-express/assets/src/less/vendor-dashboard.less ***!
+  \*******************************************************************************************************************************************************/
+#dokan-stripe-express-payment .signup-message {
+  display: none;
+}
+#dokan-stripe-express-payment #dokan-stripe-express-account-connect img {
+  height: 2.5em;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+

@@ -1,0 +1,1308 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Analytify Pro\n"
+"POT-Creation-Date: 2017-03-30 12:24+0500\n"
+"PO-Revision-Date: 2017-03-30 12:25+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wp-analytify-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/analytifypro_base.php:34 classes/analytifypro_base.php:41
+#: classes/analytifypro_base.php:48 classes/analytifypro_base.php:55
+#: classes/analytifypro_base.php:62
+msgctxt "Delete license"
+msgid "Remove"
+msgstr "Verwijder (licentie wissen)"
+
+#: classes/analytifypro_base.php:219 classes/analytifypro_base.php:293
+#: classes/analytifypro_base.php:367 classes/analytifypro_base.php:440
+#: classes/analytifypro_base.php:513
+#, php-format
+msgid ""
+"<strong>Activate Your License</strong> &mdash; Please <a href=\"%s\" class="
+"\"\">enter your license key</a> to enable priority support and plugin "
+"updates."
+msgstr ""
+"<strong>Activeer uw licentie</strong> &mdash; <a href=\"%s\" class=\"\">Voer "
+"uw licentiesleutel in</a> a.u.b. om voorrangsondersteuning en plug-in "
+"updates te ontvangen."
+
+#: classes/analytifypro_base.php:240 classes/analytifypro_base.php:314
+#: classes/analytifypro_base.php:388 classes/analytifypro_base.php:461
+#: classes/analytifypro_base.php:534
+msgid "Your License Has Expired"
+msgstr "Uw licentie is verlopen"
+
+#: classes/analytifypro_base.php:241 classes/analytifypro_base.php:315
+#: classes/analytifypro_base.php:389 classes/analytifypro_base.php:462
+#: classes/analytifypro_base.php:535
+#, php-format
+msgid "Login to <a href=\"%s\">My Account</a> to renew. "
+msgstr "Login op <a href=\"%s\">Mijn Account/a> om te vernieuwen. "
+
+#: classes/analytifypro_base.php:245 classes/analytifypro_base.php:319
+#: classes/analytifypro_base.php:393 classes/analytifypro_base.php:466
+#: classes/analytifypro_base.php:539
+msgid "Updates are only available to those with an active license. "
+msgstr ""
+"Updates zijn alleen beschikbaar voor personen met een actieve licentie."
+
+#: classes/analytifypro_base.php:246 classes/analytifypro_base.php:320
+#: classes/analytifypro_base.php:394 classes/analytifypro_base.php:467
+#: classes/analytifypro_base.php:540
+msgid "Only active licenses can submit support requests. "
+msgstr "Alleen actieve licenties kunnen verzoek om ondersteuning aanvragen."
+
+#: classes/analytifypro_base.php:247 classes/analytifypro_base.php:321
+#: classes/analytifypro_base.php:395 classes/analytifypro_base.php:468
+#: classes/analytifypro_base.php:541
+msgid ""
+"All features will continue to work, but you won't be able to receive updates "
+"or email support. "
+msgstr ""
+"Alle opties blijven werken, maar u kunt geen updates of e-mail ondersteuning "
+"meer ontvangen."
+
+#: classes/analytifypro_base.php:259 classes/analytifypro_base.php:333
+#: classes/analytifypro_base.php:407 classes/analytifypro_base.php:480
+#: classes/analytifypro_base.php:553
+#, php-format
+msgid ""
+"<strong>No Activations Left</strong> &mdash; Please visit <a href=\"%s\" "
+"target=\"_blank\">My Account</a> to upgrade your license or deactivate a "
+"previous activation."
+msgstr ""
+"<strong>Geen activaties over</strong> &mdash; Bezoek a.u.b. <a href=\"%s\" "
+"target=\"_blank\">Mijn Account</a>"
+
+#: classes/analytifypro_base.php:262 classes/analytifypro_base.php:336
+#: classes/analytifypro_base.php:410 classes/analytifypro_base.php:483
+#: classes/analytifypro_base.php:556
+#, php-format
+msgid ""
+"<strong>Your License Was Not Found</strong> &mdash; Please visit <a href=\"%s"
+"\" target=\"_blank\">My Account</a> to double check your license key."
+msgstr ""
+"<strong>Uw Licentie werd niet gevonden</strong> &mdash; Bezoek a.u.b. <a "
+"href=\"%s\" target=\"_blank\">Mijn Account</a> om uw licentiesleutel te "
+"controleren."
+
+#: classes/analytifypro_base.php:265 classes/analytifypro_base.php:339
+#: classes/analytifypro_base.php:413 classes/analytifypro_base.php:486
+#: classes/analytifypro_base.php:559
+msgid "<strong>Your License Was Not Found</strong> &mdash; "
+msgstr "<strong>Uw Licentie werd niet gevonden</strong> &mdash; "
+
+#: classes/analytifypro_base.php:270 classes/analytifypro_base.php:344
+#: classes/analytifypro_base.php:418 classes/analytifypro_base.php:491
+#: classes/analytifypro_base.php:564
+#, php-format
+msgid ""
+"<strong>An Unexpected Error Occurred</strong> &mdash; Please contact us at "
+"<a href=\"%1$s\">%2$s</a> and quote the following:"
+msgstr ""
+"<strong>Een Onverwachte Fout Trad Op</strong>&mdash; Neem a.u.b. contact met "
+"ons op via <a href=\"%1$s\">%2$s</a> en quote het volgende:"
+
+#: classes/analytifypro_base.php:702 classes/class-wp-analytify-pro.php:2424
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Update Available %4$s &mdash; %9$s %10$s is now available. "
+"You currently have %11$s installed.  %5$s Changelog %6$s  %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s Update Beschikbaar %4$s &mdash; %9$s %10$s nu beschikbaar. U "
+"heeft momenteel %11$s geÃ¯nstalleerd.  %5$s Changelog %6$s  %7$s %8$s"
+
+#: classes/class-wp-analytify-pro.php:220
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Activate Your License %4$s &mdash; Please %5$senter your "
+"license key%6$s to enable support and plugin updates. %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s Activeer Uw Licentie %4$s &mdash; %5$svoer uw Licentiesleutel "
+"in%6$s a.u.b. om ondersteuning en plug-in updates te ontvangen. %7$s %8$s"
+
+#: classes/class-wp-analytify-pro.php:223
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Activate Your License %4$s &mdash; Please click on %5$s "
+"Activate License button %6$s to validate your license. %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s Activeer Uw Licentie %4$s &mdash; %5$sVoer uw Licentiesleutel "
+"in%6$s a.u.b. om ondersteuning en plug-in updates te ontvangen. %7$s %8$s"
+
+#: classes/class-wp-analytify-pro.php:226
+#, php-format
+msgid ""
+"%1$s %2$s %3$s License Expired %4$s &mdash; Upgrade your license to enable "
+"support and plugin updates. Would you please checkout %5$s what we have "
+"improved %6$s so far ? %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s Licentie Verlopen %4$s &mdash; Upgrade uw licentie om "
+"ondersteuning en plug-in updates te ontvangen. Wilt u bekijken %5$s wat we "
+"hebben verbeterd %6$s tot nu toe? %7$s %8$s"
+
+#: classes/class-wp-analytify-pro.php:229
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Invalid License %4$s &mdash; Please %5$senter a valid license "
+"key%6$s to enable support and plugin updates. %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s Ongeldige Licentie %4$s &mdash; %5$svoer een geldige "
+"licentiesleutel in%6$s om ondersteuning en plug-in updates te ontvangen. "
+"%7$s %8$s"
+
+#: classes/class-wp-analytify-pro.php:240
+msgid "Dashboards"
+msgstr "Dashboards"
+
+#: classes/class-wp-analytify-pro.php:243
+msgid "REAL TIME"
+msgstr "REAL TIME"
+
+#: classes/class-wp-analytify-pro.php:244
+msgid "Demographics"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:343
+msgid "Top Ajax Errors"
+msgstr "Top AJAX-Fouten"
+
+#: classes/class-wp-analytify-pro.php:361
+msgid "List of the ajax errors."
+msgstr "Lijst van de AJAX-fouten"
+
+#: classes/class-wp-analytify-pro.php:376
+msgid "Top 404 Pages Errors"
+msgstr "Top 404 Pagina Fouten"
+
+#: classes/class-wp-analytify-pro.php:394
+msgid "List of the 404 errors."
+msgstr "Lijst van de 404 fouten"
+
+#: classes/class-wp-analytify-pro.php:409
+msgid "Top Javascript Errors"
+msgstr "Top Javascript Fouten"
+
+#: classes/class-wp-analytify-pro.php:427
+msgid "List of the Javascript errors."
+msgstr "Lijst van de Javascript-fouten."
+
+#: classes/class-wp-analytify-pro.php:524
+msgid "Thank you!"
+msgstr "Dank U!"
+
+#: classes/class-wp-analytify-pro.php:527
+msgid ""
+"We appreciate you to upgrade to Pro version and supporting the development "
+"of this product."
+msgstr ""
+"We waarderen het dat u heeft ge-upgrade naar de Pro-versie en daarmee de "
+"verdere ontwikkeling van dit product ondersteunt."
+
+#: classes/class-wp-analytify-pro.php:532
+msgid "made with ♥ by"
+msgstr ""
+
+#: classes/class-wp-analytify-pro.php:641
+#: classes/class-wp-analytify-pro.php:2457
+msgid "Front"
+msgstr "Voorkant"
+
+#: classes/class-wp-analytify-pro.php:645
+#: classes/class-wp-analytify-pro.php:2470
+msgid "License"
+msgstr "Licentie"
+
+#: classes/class-wp-analytify-pro.php:807
+msgid ""
+"Enter your license key(s). It is important to have a valide license for "
+"automatic plugin updates and support. After adding license key, press "
+"Activate license button."
+msgstr ""
+"Voer uw licentiesleutel(s) in. Het is belangrijk om een geldige licentie te "
+"hebben voor automatische plug-in updates en ondersteuning. Klik op de "
+"Activeer licentieknop na het toevoegen van de licentiesleutel"
+
+#: classes/class-wp-analytify-pro.php:813
+msgid "Analytify PRO (License Key):"
+msgstr "Analytify PRO (Licentiesleutel):"
+
+#: classes/class-wp-analytify-pro.php:829
+msgid "Activate License"
+msgstr "Activeer Licentie"
+
+#: classes/class-wp-analytify-pro.php:1070
+#, php-format
+msgid "%1$s Fetching Analytics from %2$s to %3$s %4$s"
+msgstr "%1$s  Analytics ophalen van %2$s to %3$s %4$s"
+
+#: classes/class-wp-analytify-pro.php:1178
+#, php-format
+msgid "%1$s Settings %2$s | %3$s Dashboard %4$s | %5$s Help %6$s"
+msgstr "%1$s Instellingen %2$s | %3$s Dashboard %4$s | %5$s Help %6$s"
+
+#: classes/class-wp-analytify-pro.php:1200
+#, php-format
+msgid "%1$s Getting Started %2$s"
+msgstr "%1$s Aan de Slag %2$s"
+
+#: classes/class-wp-analytify-pro.php:1201
+#, php-format
+msgid "%1$s Add Ons %2$s"
+msgstr "%1$s Add Ons %2$s"
+
+#: classes/class-wp-analytify-pro.php:1271
+#, php-format
+msgid ""
+"Analytify is not active. Please %1$sAuthenticate%2$s in order to get started "
+"using this plugin."
+msgstr ""
+"Analytify is niet actief. %1$sVerifieer%2$s om aan de slag te kunnen met "
+"deze plug-in."
+
+#: classes/class-wp-analytify-pro.php:1275
+#, php-format
+msgid "%1$s Google Analytics Profile is not set. Set the %2$s Profile %3$s"
+msgstr ""
+"%1$s Google Analytics Profiel is niet ingesteld. Stel het%2$s Profiel %3$s in"
+
+#: classes/class-wp-analytify-pro.php:2325
+#, php-format
+msgid "There is a new version of %s available."
+msgstr "Er is een nieuwe versie van%s beschikbaar."
+
+#: classes/class-wp-analytify-pro.php:2327
+#, php-format
+msgid "View version %s details"
+msgstr "Bekijk de versie %s gegevens"
+
+#: classes/class-wp-analytify-pro.php:2335
+msgctxt "Plugin configuration and preferences"
+msgid "Settings"
+msgstr "Instellingen"
+
+#: classes/class-wp-analytify-pro.php:2337
+#, php-format
+msgid ""
+"To update, go to %1$s and enter your license key. If you don't have a "
+"license key, you may <a href=\"%2$s\">purchase one</a>."
+msgstr ""
+"Om te updaten, ga naar %1$s en voer uw licentiesleutel in. Indien u geen "
+"licentiesleutel heeft, kunt u er een <a href=\"%2$s\">kopen</a>."
+
+#: classes/class-wp-analytify-pro.php:2339
+#, php-format
+msgid ""
+"To finish activating %1$s, please go to %2$s and enter your license key. If "
+"you don't have a license key, you may <a href=\"%3$s\">purchase one</a>."
+msgstr ""
+"Om het activatieproces af te ronden %1$s, ga a.u.b. naar %2$s en voer uw "
+"licentiesleutel in. Indien u geen licentiesleutel heeft, kunt u er <a href="
+"\"%3$s\">een kopen</a>."
+
+#: classes/class-wp-analytify-pro.php:2342
+msgid "Check my license again"
+msgstr "Controleer mijn licentie opnieuw"
+
+#: classes/class-wp-analytify-pro.php:2458
+msgid ""
+"Following are the settings for front-end side. Google Analytics will appear "
+"under the posts, custom post types or pages at front-end."
+msgstr ""
+"Hier volgen de instellingen voor de voorkant (frontend). Google Analytics "
+"wordt getoond onder de Berichten, Aangepaste Berichttypen of Pagina's aan de "
+"frontend."
+
+#: classes/class-wp-analytify-pro.php:2463
+#: views/default/admin/detail-demographic-stats.php:48
+#: views/default/admin/detail-realtime-stats.php:21
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: classes/class-wp-analytify-pro.php:2485
+msgid "Disable front-end"
+msgstr "Frontend Uitschakelen"
+
+#: classes/class-wp-analytify-pro.php:2486
+msgid ""
+"Check it, if you don't want to load Analytics at all. Remember, you can use "
+"Shortcodes still."
+msgstr ""
+"Vink aan indien u de Analytics helemaal niet wilt tonen. U kunt altijd nog "
+"Shortcodes gebruiken."
+
+#: classes/class-wp-analytify-pro.php:2500
+msgid "Analytics on Post types"
+msgstr "Analytics op Berichttypen"
+
+#: classes/class-wp-analytify-pro.php:2501
+msgid "Show Analytics under the above post types only."
+msgstr "Toon Analytics enkel onder de bovengenoemde Berichttypen."
+
+#: classes/class-wp-analytify-pro.php:2509
+msgid "Front-end Analytics panels:"
+msgstr "Frontend Analytics panelen:"
+
+#: classes/class-wp-analytify-pro.php:2510
+msgid "Select which Stats panels you want to display at front-end."
+msgstr "Selecteer welke panelen u wilt tonen op de voorzijde (frontend)."
+
+#: classes/class-wp-analytify-pro.php:2515
+msgid "Country Stats"
+msgstr "Landen Statistieken"
+
+#: classes/class-wp-analytify-pro.php:2518
+msgid "Browser Stats"
+msgstr "Browser Statistieken"
+
+#: classes/class-wp-analytify-pro.php:2520
+msgid "Mobile devices Stats"
+msgstr "Mobiele apparaten Statistieken"
+
+#: classes/class-wp-analytify-pro.php:2521
+msgid "Operating System Stats"
+msgstr "Besturingssysteem Statistieken"
+
+#: classes/class-wp-analytify-pro.php:2522
+msgid "City Stats"
+msgstr "Steden Statistieken"
+
+#: classes/class-wp-analytify-pro.php:2528
+msgid ""
+"Enter ID's of posts or pages separated by commas on which you don't want to "
+"show Analytics e.g 11,45,66"
+msgstr ""
+"Voer de ID's van Berichten of Pagina's in, gescheiden door komma's, waarvan "
+"u geen Analytics wilt zien bijv. 11,45,66"
+
+#: classes/class-wp-analytify-pro.php:2538
+msgid "Delete Cache:"
+msgstr "Verwijder Cache"
+
+#: classes/class-wp-analytify-pro.php:2539
+msgid ""
+"Analytify dashboard (except Real Time Stats) is saving results for 20 hours. "
+"If you want to fetch the current stats, Enable this check and Press 'Save "
+"Changes' below."
+msgstr ""
+"Analytify dashboard (behalve Real Time Statistieken) bewaart de resultaten "
+"voor 20 uur. Indien u de actuele statistieken wilt ophalen, vink dit aan en "
+"druk op 'Wijzigingen Opslaan' hieronder."
+
+#: classes/class-wp-analytify-pro.php:2545
+msgid "Show Analytify Dashboard to above selected user roles only."
+msgstr "Toon Analytify Dashboard enkel aan de hierboven gekozen rollen."
+
+#: classes/class-wp-analytify-pro.php:2553
+msgid "Dashboard Analytics panels:"
+msgstr "Dashboard Analytics panelen:"
+
+#: classes/class-wp-analytify-pro.php:2558
+#: views/default/admin/detail-realtime-stats.php:34
+msgid "RealTime Stats"
+msgstr "RealTime Statistieken"
+
+#: classes/class-wp-analytify-pro.php:2559
+msgid "Comparison Stats"
+msgstr "Vergelijkings Statistieken"
+
+#: classes/class-wp-analytify-pro.php:2561
+msgid "Top Pages Stats"
+msgstr "Top pagina's Statistieken"
+
+#: classes/class-wp-analytify-pro.php:2567
+msgid "Page entrance and exit stats"
+msgstr "Pagina entree en uitgang Statistieken"
+
+#: inc/analytify-widgets.php:9
+msgid "Analytify Live Stats"
+msgstr "Analytify Live Statistieken"
+
+#: inc/analytify-widgets.php:10
+msgid "It shows Live Stats of your site."
+msgstr "Het toont live statistieken van uw site."
+
+#: inc/analytify-widgets.php:28
+msgid "Title"
+msgstr "Titel"
+
+#: inc/analytify-widgets.php:33
+msgid "Description:"
+msgstr "Omschrijving:"
+
+#: inc/front-menus.php:20
+msgid "Top Countries"
+msgstr "Top landen"
+
+#: inc/front-menus.php:29 views/old/front/city-stats.php:7
+msgid "Top Cities"
+msgstr "Top Steden"
+
+#: inc/front-menus.php:38
+msgid "Top Operating Systems"
+msgstr "Top Besturingssystemen"
+
+#: inc/front-menus.php:56
+msgid "Top Keywords"
+msgstr "Top Keywords"
+
+#: inc/front-menus.php:65
+msgid "SOCIAL MEDIA STATISTICS"
+msgstr ""
+
+#: inc/front-menus.php:73
+msgid "TOP BROWSERS"
+msgstr "Top Browsers"
+
+# dimensions is translated as 'categories' if 'sections' would be a better translation than it can be changed to 'secties' (Dutch for 'sections')
+#: inc/shortcode.php:3
+msgid ""
+"Select metrics and dimensions, sort them with metrics and show stats to your "
+"visitors (roles)."
+msgstr ""
+"Kies de metrieke waarden en categorieÃ«n, sorteer het op metrieke waarden en "
+"toon de statistieken aan uw bezoekers (rollen)."
+
+#: inc/shortcode.php:8
+msgid "Metrics: "
+msgstr "Metriek:"
+
+#: inc/shortcode.php:9
+msgid "Select at least one Metric"
+msgstr "Kies minstens 1 metrieke waarde"
+
+#: inc/shortcode.php:10 inc/shortcode.php:40
+msgid "user"
+msgstr "Gebruiker"
+
+#: inc/shortcode.php:11
+msgid "Users"
+msgstr "Gebruikers"
+
+#: inc/shortcode.php:13 inc/shortcode.php:110
+msgid "Percent New Sessions"
+msgstr "Percentage Nieuwe Sessies"
+
+#: inc/shortcode.php:15
+msgid "Session"
+msgstr "Sessie"
+
+#: inc/shortcode.php:17 inc/shortcode.php:111
+msgid "Bounces"
+msgstr "Bounces"
+
+#: inc/shortcode.php:19
+msgid "sessionDuration"
+msgstr "Sessieduur"
+
+#: inc/shortcode.php:20
+msgid "Avg SessionDuration"
+msgstr "Gem. Sessieduur"
+
+#: inc/shortcode.php:21 inc/shortcode.php:113
+#: views/default/admin/404-error.php:14 views/default/admin/ajax-error.php:13
+#: views/default/admin/javascript-error.php:13
+msgid "Hits"
+msgstr "Hits"
+
+#: inc/shortcode.php:23 inc/shortcode.php:72
+msgid "Page Tracking"
+msgstr "Pagina Tracking"
+
+#: inc/shortcode.php:24 inc/shortcode.php:114
+msgid "Page Value"
+msgstr "Pagina Waarde"
+
+#: inc/shortcode.php:25 inc/shortcode.php:115
+msgid "Entrances"
+msgstr "Entrees"
+
+#: inc/shortcode.php:26 inc/shortcode.php:116
+msgid "Pageviews"
+msgstr "Paginaweergaven"
+
+#: inc/shortcode.php:27 inc/shortcode.php:117
+msgid "Unique Pageviews"
+msgstr "Unieke Paginaweergaven"
+
+#: inc/shortcode.php:28 inc/shortcode.php:118
+msgid "Exits"
+msgstr "Uitgangen"
+
+#: inc/shortcode.php:29
+msgid "Exit Rate"
+msgstr "Uitgang Ratio"
+
+#: inc/shortcode.php:30 inc/shortcode.php:121
+msgid "Entrance Rate"
+msgstr "Entree Ratio"
+
+#: inc/shortcode.php:31 inc/shortcode.php:120
+msgid "Pageviews Per Session"
+msgstr "Paginaweergaven per Sessie"
+
+#: inc/shortcode.php:32 inc/shortcode.php:122
+msgid "Time On Page"
+msgstr "Tijd op pagina"
+
+#: inc/shortcode.php:33
+msgid "Avg Time On Page"
+msgstr "Gem. Tijd op Pagina"
+
+#: inc/shortcode.php:38
+msgid "Dimensions: "
+msgstr "Reeksen:"
+
+#: inc/shortcode.php:39
+msgid "Select at least one Dimension"
+msgstr "Kies minstens 1 Reeks:"
+
+#: inc/shortcode.php:41
+msgid "User Type"
+msgstr "Gebruikerstype"
+
+#: inc/shortcode.php:42
+msgid "Session Count"
+msgstr "Aantal Sessies"
+
+#: inc/shortcode.php:43
+msgid "Days Since Last Session"
+msgstr "Dagen sinds laatste Sessie"
+
+#: inc/shortcode.php:44
+msgid "Session Duration Bucket"
+msgstr "Session Duration Bucket"
+
+#: inc/shortcode.php:46
+msgid "Traffic Sources"
+msgstr "Verkeersbronnen"
+
+#: inc/shortcode.php:47
+msgid "Referral Path"
+msgstr "Doorverwijzingspad"
+
+#: inc/shortcode.php:48
+msgid "Full Referrer"
+msgstr "Volledige url van doorverwijzers"
+
+#: inc/shortcode.php:49
+msgid "Source"
+msgstr "Bron"
+
+# As in 'device-media'?
+#: inc/shortcode.php:50
+msgid "Medium"
+msgstr "Medium"
+
+#: inc/shortcode.php:51
+msgid "Source Medium"
+msgstr "Bronapparaat"
+
+#: inc/shortcode.php:52
+msgid "Keyword"
+msgstr "Keyword"
+
+#: inc/shortcode.php:53
+msgid "Social Network"
+msgstr "Sociale Netwerk"
+
+#: inc/shortcode.php:55
+msgid "Platform or Device"
+msgstr "Besturingssysteem op Apparaat"
+
+#: inc/shortcode.php:56 views/old/front/browser-stats.php:17
+msgid "Browser"
+msgstr "Browser"
+
+#: inc/shortcode.php:57
+msgid "Browser Version"
+msgstr "Browserversie"
+
+#: inc/shortcode.php:58
+msgid "Operating System"
+msgstr "Besturingssysteem"
+
+#: inc/shortcode.php:59
+msgid "Operating System Version"
+msgstr "Versie Besturingssysteem"
+
+#: inc/shortcode.php:60
+msgid "Mobile Device Branding"
+msgstr "Merk Mobiel Apparaat"
+
+#: inc/shortcode.php:61
+msgid "Mobile Device Model"
+msgstr "Model Mobiel Apparaat"
+
+#: inc/shortcode.php:62
+msgid "Mobile Input Selector"
+msgstr "Mobiele Input Selector"
+
+#: inc/shortcode.php:63
+msgid "Mobile Device Info"
+msgstr "Mobiele apparaat informatie"
+
+#: inc/shortcode.php:64
+msgid "Mobile Device MarketingName"
+msgstr "Mobiel Apparaat Marketingnaam"
+
+#: inc/shortcode.php:65
+msgid "Device Category"
+msgstr "Categorie Apparaat"
+
+#: inc/shortcode.php:66
+msgid "Flash Version"
+msgstr "Flash-versie"
+
+#: inc/shortcode.php:67
+msgid "Java Enabled"
+msgstr "Java Ingeschakeld"
+
+#: inc/shortcode.php:68
+msgid "Language"
+msgstr "Taal"
+
+#: inc/shortcode.php:69
+msgid "ScreenColors"
+msgstr "Schermkleuren"
+
+#: inc/shortcode.php:70
+msgid "ScreenResolution"
+msgstr "SchermResolutie"
+
+#: inc/shortcode.php:73
+msgid "Hostname"
+msgstr "Hostnaam"
+
+#: inc/shortcode.php:74
+msgid "Page Path"
+msgstr "Pagina Pad"
+
+#: inc/shortcode.php:75 views/default/admin/detail-realtime-stats.php:390
+msgid "Page Title"
+msgstr "Pagina Titel"
+
+#: inc/shortcode.php:76
+msgid "Landing Page Path"
+msgstr "Landing Pagina Pad"
+
+# 2nd page they came to after entrance page?
+#: inc/shortcode.php:77
+msgid "secondPagePath"
+msgstr "Tweede Pagina Pad"
+
+#: inc/shortcode.php:78
+msgid "Exit Page Path"
+msgstr "Uitgang Pad"
+
+#: inc/shortcode.php:79
+msgid "Previous Page Path"
+msgstr "Vorige Pagina Pad"
+
+#: inc/shortcode.php:80
+msgid "Next Page Path"
+msgstr "Volgende Pagina Pad"
+
+#: inc/shortcode.php:81
+msgid "Page Depth"
+msgstr "Pagina Diepte"
+
+#: inc/shortcode.php:86
+msgid "Visible to (roles) : "
+msgstr "Zichtbaar voor (rollen):"
+
+#: inc/shortcode.php:88
+msgid "Everyone"
+msgstr "Iedereen"
+
+#: inc/shortcode.php:105
+msgid "Sort By: "
+msgstr "Sorteer op:"
+
+#: inc/shortcode.php:112
+msgid "BounceRate"
+msgstr "BounceRate"
+
+#: inc/shortcode.php:119
+msgid "EntranceRate"
+msgstr "Entree Ratio:"
+
+#: inc/shortcode.php:126
+msgid "Analytics for: "
+msgstr "Analytics voor:"
+
+#: inc/shortcode.php:128
+msgid "Current page"
+msgstr "Huidige Pagina"
+
+#: inc/shortcode.php:129
+msgid "Full Site"
+msgstr "Volledige site"
+
+#: inc/shortcode.php:130
+msgid "Page ID"
+msgstr ""
+
+#: inc/shortcode.php:135
+msgid "Page ID: "
+msgstr ""
+
+#: inc/shortcode.php:139
+msgid "Date range: "
+msgstr "Periode:"
+
+#: inc/shortcode.php:141
+msgid "Custom"
+msgstr "Aangepast"
+
+#: inc/shortcode.php:142
+msgid "Today"
+msgstr "Vandaag"
+
+#: inc/shortcode.php:143
+msgid "Yesterday"
+msgstr "Gisteren"
+
+#: inc/shortcode.php:144
+msgid "Last 15 days"
+msgstr "Afgelopen 15 Dagen"
+
+#: inc/shortcode.php:145
+msgid "Last 7 Days"
+msgstr "Afgelopen 7 Dagen"
+
+#: inc/shortcode.php:146
+msgid "Last 30 Days"
+msgstr "Afgelopen 30 Dagen"
+
+#: inc/shortcode.php:151
+msgid "Start Date: "
+msgstr "Start Datum:"
+
+#: inc/shortcode.php:155
+msgid "End Date: "
+msgstr "Eind Datum"
+
+# with record you don't mean archive right?
+#: inc/shortcode.php:160
+msgid "Max records: "
+msgstr "Max vermeldingen:"
+
+#: inc/shortcode.php:165
+msgid "Ok"
+msgstr "Ok"
+
+#: inc/shortcode.php:166
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: lib/EDD_SL_Plugin_Updater.php:201
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Er is een nieuwe versie van %1$s beschikbaar. %2$sBekijk versie %3$s gegevens"
+"%4$s."
+
+#: lib/EDD_SL_Plugin_Updater.php:209
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Er is een nieuwe versie van %1$s beschikbaar. %2$sBekijk versie %3$s gegevens"
+"%4$s of %5$supdate nu%6$s."
+
+#: lib/EDD_SL_Plugin_Updater.php:396
+msgid "You do not have permission to install plugin updates"
+msgstr "U heeft onvoldoende machtigingen om plug-in updates te installeren"
+
+#: lib/EDD_SL_Plugin_Updater.php:396
+#: views/default/admin/javascript-error.php:11
+msgid "Error"
+msgstr "Fout"
+
+#: views/default/admin/404-error.php:13 views/default/admin/ajax-error.php:12
+#: views/default/admin/javascript-error.php:12
+msgid "URL"
+msgstr "URL"
+
+#: views/default/admin/detail-demographic-stats.php:50
+msgid "Demographic Statistics of the Site"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:67 views/help.php:145
+msgid "From:"
+msgstr "Van:"
+
+#: views/default/admin/detail-demographic-stats.php:70
+msgid "To:"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:75
+msgid "View Stats"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:77
+msgid "Last 30 days"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:79
+msgid "This month"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:81
+msgid "Last month"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:84
+msgid "Last 3 months"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:86
+msgid "Last 6 months"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:89
+msgid "Last year"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:92
+msgid "Custom Range"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:92
+msgid "Select a custom date"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:101
+msgid "Demographic Stats"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:110
+msgid "Age"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:111
+msgid "Gender"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:112
+msgid "Total Views"
+msgstr ""
+
+#: views/default/admin/detail-demographic-stats.php:143
+msgid "List of the Demographic Stats."
+msgstr ""
+
+#: views/default/admin/detail-realtime-stats.php:23
+msgid "Real-Time Statistics of the Site"
+msgstr "Realtime Statistieken van de website"
+
+#: views/default/admin/detail-realtime-stats.php:44
+#: views/default/admin/realtime-stats.php:15
+msgid "Visitors online"
+msgstr "Bezoekers online"
+
+#: views/default/admin/detail-realtime-stats.php:48
+#: views/default/admin/realtime-stats.php:19
+msgid "Referral"
+msgstr "Doorverwijzing"
+
+#: views/default/admin/detail-realtime-stats.php:52
+#: views/default/admin/realtime-stats.php:23
+msgid "ORGANIC"
+msgstr "ORGANIC"
+
+#: views/default/admin/detail-realtime-stats.php:56
+#: views/default/admin/realtime-stats.php:27
+msgid "social"
+msgstr "social"
+
+#: views/default/admin/detail-realtime-stats.php:60
+#: views/default/admin/realtime-stats.php:31
+msgid "direct"
+msgstr "direct"
+
+#: views/default/admin/detail-realtime-stats.php:64
+#: views/default/admin/realtime-stats.php:35
+msgid "new"
+msgstr "nieuw"
+
+#: views/default/admin/detail-realtime-stats.php:68
+#: views/default/admin/realtime-stats.php:39
+msgid "Returning"
+msgstr "Terugkerend"
+
+#: views/default/admin/detail-realtime-stats.php:73
+msgid "Top Active posts and pages"
+msgstr "Top Actieve Berichten en Pagina's"
+
+#: views/default/admin/detail-realtime-stats.php:81
+msgid "Top active pages and posts users are currently at"
+msgstr "Top actieve Pagina's en Berichten waar gebruikers nu zijn"
+
+#: views/default/admin/detail-realtime-stats.php:267
+msgid "REFERRALS"
+msgstr "DOORVERWIJZINGEN"
+
+#: views/default/admin/detail-realtime-stats.php:270
+msgid "KEYWORDS"
+msgstr "KEYWORDS"
+
+#: views/default/admin/detail-realtime-stats.php:273
+msgid "SOCIAL"
+msgstr "SOCIAL"
+
+#: views/default/admin/detail-realtime-stats.php:276
+msgid "DIRECT"
+msgstr "DIRECT"
+
+#: views/default/admin/detail-realtime-stats.php:390
+#: views/default/admin/main-comparison-stats.php:406
+msgid "Visitors"
+msgstr "Bezoekers"
+
+#: views/default/admin/main-comparison-stats.php:104
+#: views/default/admin/main-comparison-stats.php:132
+msgid "Visitors this year"
+msgstr "Bezoekers dit Jaar"
+
+#: views/default/admin/main-comparison-stats.php:104
+#: views/default/admin/main-comparison-stats.php:145
+msgid "Visitors last year"
+msgstr "Bezoekers vorig Jaar"
+
+#: views/default/admin/main-comparison-stats.php:111
+#: views/default/admin/main-comparison-stats.php:186
+#: views/default/admin/main-comparison-stats.php:262
+#: views/default/admin/main-comparison-stats.php:337
+msgid "Line"
+msgstr "Lijn"
+
+#: views/default/admin/main-comparison-stats.php:112
+#: views/default/admin/main-comparison-stats.php:187
+#: views/default/admin/main-comparison-stats.php:263
+#: views/default/admin/main-comparison-stats.php:338
+msgid "Bar"
+msgstr "Staafbalk"
+
+#: views/default/admin/main-comparison-stats.php:114
+#: views/default/admin/main-comparison-stats.php:189
+#: views/default/admin/main-comparison-stats.php:265
+#: views/default/admin/main-comparison-stats.php:340
+msgid "Restore"
+msgstr "Herstellen"
+
+#: views/default/admin/main-comparison-stats.php:115
+#: views/default/admin/main-comparison-stats.php:190
+#: views/default/admin/main-comparison-stats.php:266
+#: views/default/admin/main-comparison-stats.php:341
+msgid "Save As Image"
+msgstr "Opslaan als Afbeelding"
+
+#: views/default/admin/main-comparison-stats.php:179
+#: views/default/admin/main-comparison-stats.php:207
+msgid "Visitors this month"
+msgstr "Bezoekers deze maand"
+
+#: views/default/admin/main-comparison-stats.php:179
+#: views/default/admin/main-comparison-stats.php:220
+msgid "Visitors last month"
+msgstr "Bezoekers vorige maand"
+
+#: views/default/admin/main-comparison-stats.php:255
+#: views/default/admin/main-comparison-stats.php:283
+msgid "Views this year"
+msgstr "Weergaven dit jaar"
+
+#: views/default/admin/main-comparison-stats.php:255
+#: views/default/admin/main-comparison-stats.php:296
+msgid "Views last year"
+msgstr "Weergaven vorig jaar"
+
+#: views/default/admin/main-comparison-stats.php:330
+msgid "Views this month"
+msgstr "Weergaven deze maand"
+
+#: views/default/admin/main-comparison-stats.php:330
+msgid "Views last month"
+msgstr "Weergaven vorige maand"
+
+#: views/default/admin/main-comparison-stats.php:407
+msgid "Views"
+msgstr "Weergaven"
+
+#: views/default/admin/main-comparison-stats.php:414
+#: views/default/admin/main-comparison-stats.php:442
+msgid "Months"
+msgstr "Maanden"
+
+#: views/default/admin/main-comparison-stats.php:417
+#: views/default/admin/main-comparison-stats.php:445
+msgid "Years"
+msgstr "Jaren"
+
+#: views/default/admin/main-comparison-stats.php:468
+msgid ""
+"This is the most detailed Visitors and Views breakdown in months and years."
+msgstr ""
+"Dit is het meest gedetailleerde overzicht van Bezoekers en Bezoeken in "
+"maanden en jaren."
+
+#: views/default/admin/realtime-stats.php:11
+msgid "Real Time Stats"
+msgstr "Realtime Statistieken"
+
+#: views/help.php:3
+msgid "Email Support"
+msgstr "E-mail Ondersteuning"
+
+#: views/help.php:8
+msgid "Fetching license details, please wait..."
+msgstr "Licente-gegevens ophalen, even geduld a.u.b. "
+
+#: views/help.php:10
+msgid ""
+"We couldn't find your license information. Please switch to the License tab "
+"and enter your license."
+msgstr ""
+"We konden uw licentie-informatie niet vinden. Ga naar het Licentie Tabblad "
+"en voer u licentie in."
+
+#: views/help.php:11
+msgid "Once completed, you may visit this tab to view your support details."
+msgstr "Na voltooiing kunt u op dit tabblad uw ondersteuningsgegevens vinden. "
+
+#: views/help.php:115
+#, php-format
+msgid ""
+"You have an %1$s active %2$s license. You will get front-of-the-line email "
+"support service when submitting the form below."
+msgstr ""
+"U heeft een %1$s actieve %2$s licentie. U krijgt voorrangsondersteuning via "
+"e-mail  na het inzenden van onderstaand formulier."
+
+#: views/help.php:119 views/help.php:174
+msgid "Success!"
+msgstr "Succes!"
+
+#: views/help.php:119 views/help.php:174
+msgid "Thanks for submitting your support request. We'll be in touch soon."
+msgstr ""
+"Bedankt voor het insturen van uw ondersteuningsverzoek. Wij nemen spoedig "
+"contact op."
+
+#: views/help.php:123 views/help.php:127 views/help.php:131 views/help.php:135
+#: views/help.php:139
+msgid "Error!"
+msgstr "Fout!"
+
+#: views/help.php:127
+msgid "There was a problem submitting your request:"
+msgstr "Er was een probleem met het insturen van uw verzoek:"
+
+#: views/help.php:131
+msgid "Please select your email address."
+msgstr "Kies a.u.b. uw mailadres."
+
+#: views/help.php:135
+msgid "Please enter a subject"
+msgstr "Voer a.u.b. een onderwerp in"
+
+#: views/help.php:139
+msgid "Please enter a message."
+msgstr "Voer a.u.b. uw bericht in."
+
+#: views/help.php:147
+msgid "Select your email address"
+msgstr "Kies uw e-mailadres"
+
+#: views/help.php:151
+#, php-format
+msgid ""
+"Replies will be sent to this email address. Update your name &amp; email in "
+"%1$s Your Account%2$s."
+msgstr ""
+"Antwoorden zullen naar dit mailadres worden gestuurd. Update uw naam &amp; e-"
+"mail in %1$s Uw Account%2$s."
+
+#: views/help.php:168
+msgid "Include your Diagnostic Info &amp; Error Log (below)"
+msgstr "Voeg uw diagnose Info toe &amp; Foutenlog (onder)"
+
+#: views/help.php:178
+#, php-format
+msgid ""
+"Having trouble submitting the form? Email your support request to %1$s "
+"support@wp-analytify.com%2$s instead."
+msgstr ""
+"Problemen met het insturen van het formulier? E-mail uw "
+"ondersteuningsverzoek in dat geval naar %1$ support@wp-analytify.com%2$s "
+
+#: views/old/front/browser-stats.php:8
+msgid "Top Browsers"
+msgstr "Top Browsers"
+
+#: views/old/front/browser-stats.php:18
+msgid "OS"
+msgstr "Besturingssysteem"
+
+#: views/old/front/browser-stats.php:44
+msgid "These are the top browsers of this page."
+msgstr ""
+
+#: views/old/front/general-stats.php:9
+msgid "General Statistics"
+msgstr "Algemene Statistieken"
+
+#: views/old/front/general-stats.php:54
+msgid "AVERAGE PAGES"
+msgstr "GEMIDDELDE PAGINA'S"
+
+#: views/old/front/general-stats.php:88
+msgid "USER TYPE"
+msgstr "GEBRUIKERSTYPE"
+
+#: views/old/front/general-stats.php:107
+msgid "These are the general statistics of this page."
+msgstr "Dit zijn de algemene statistieken van deze pagina."
+
+#: views/old/front/keywords-stats.php:6
+msgid "TOP KEYWORDS"
+msgstr "TOP KEYWORDS"
+
+#: views/old/front/keywords-stats.php:40
+msgid "These are the keywords people are searching for this page."
+msgstr "Dit zijn de keywords waar bezoekers van deze pagina op zoeken"
+
+#: views/old/front/mobile-stats.php:7
+msgid "Mobile device Statistics"
+msgstr "Mobiele apparaten Statistieken"
+
+#: views/old/front/mobile-stats.php:15 views/old/front/referrers-stats.php:15
+msgid "#"
+msgstr "#"
+
+#: views/old/front/mobile-stats.php:16
+msgid "Device"
+msgstr "Apparaat"
+
+#: views/old/front/mobile-stats.php:41
+msgid "Listing statistics of Mobile usage."
+msgstr "Statistieken Mobielgebruik tonen"
+
+#: views/old/front/os-stats.php:18
+msgid "Operating System (Version)"
+msgstr "Besturingssysteem (versie)"
+
+#: views/old/front/os-stats.php:43
+msgid "Listing statistics of top Operating Systems."
+msgstr "Statistieken tonen van top Besturingssystemen"
+
+#: views/old/front/referrers-stats.php:16
+msgid "Social referrer"
+msgstr "Social Doorverwijzer"
+
+#: views/old/front/referrers-stats.php:46
+msgid "These are the top referrers of this page."
+msgstr "Dit zijn de top doorverwijzers van deze pagina."
+
+#: views/old/front/social-stats.php:8
+msgid "Social media Statistics"
+msgstr "Social Media Statistieken"
+
+#: views/old/front/social-stats.php:17
+msgid "Social"
+msgstr "Social"
+
+#: views/old/front/social-stats.php:42
+msgid "These are the social media statistics of this page."
+msgstr "Dit zijn de social media statistieken van deze pagina."
+
+#: wp-analytify-pro.php:68
+msgid "The following required plugin is currently inactive &mdash; "
+msgstr "De volgende benodigde plug-in  is momenteel inactief &mdash;"
+
+#: wp-analytify-pro.php:68
+msgid "Click here to activate Analytify Core (Free)"
+msgstr "Klik hier om Analytify Core (gratis) te activeren"
+
+#: wp-analytify-pro.php:79
+msgid ""
+"Please update Analytify Core to latest Free version to enable PRO features "
+"&mdash; "
+msgstr ""
+"Update a.u.b. Analytify Core naar de laatste gratis versie om de PRO optie "
+"&mdash; in te schakelen"
+
+#: wp-analytify-pro.php:79
+msgid "Update now"
+msgstr "Update nu"
+
+#: wp-analytify-pro.php:90
+msgid "The following required plugin is not installed &mdash; "
+msgstr "De volgende benodigde plug-in is niet geÃ¯nstalleerd &mdash; "
+
+#: wp-analytify-pro.php:90
+msgid "Install Analytify Core (Free) now"
+msgstr "Installeer nu Analytify Core (Gratis) "
+
+#. Plugin Name of the plugin/theme
+msgid "Analytify Pro"
+msgstr "Analytify Pro"
+
+#. Plugin URI of the plugin/theme
+msgid "http://analytify.io/"
+msgstr "http://analytify.io/"
+
+#. Description of the plugin/theme
+msgid ""
+"Analytify makes Google Analytics simple for everything in WordPress (posts,"
+"pages etc). It presents the statistics in a beautiful way under the "
+"WordPress Posts/Pages at front end, backend and in its own Dashboard. This "
+"provides Stats from Country, Referrers, Social media, General stats, New "
+"visitors, Returning visitors, Exit pages, Browser wise and Top keywords. "
+"This plugin provides the RealTime statistics in a new UI that is easy to "
+"understand and looks good."
+msgstr ""
+"Analytify maakt Google Analytics eenvoudig voor alles in WordPress "
+"(Berichten, Pagina's etc.). Het toont de statistieken op een schitterende "
+"wijze onder de WordPress Berichten/Pagina's aan de voorkant (frontend), "
+"backend en in zijn eigen Dashboard. Het biedt Statistieken van Land, "
+"Doorverwijzers. Social Media, Algemene Statistieken, Nieuwe gebruikers, "
+"Terugkerende gebruikers, Uitgang pagina's, Browsers en Top keywords. Deze "
+"plug-in biedt RealTime-Statistieken in een nieuwe UI die eenvoudig te "
+"gebruiken is en er fraai uitziet."
+
+#. Author of the plugin/theme
+msgid "Adnan"
+msgstr "Adnan"
+
+#. Author URI of the plugin/theme
+msgid "http://adnan.pk/"
+msgstr "http://adnan.pk/"
+
+#~ msgid "made with â™¥ by"
+#~ msgstr "Gemaakt met â™¥ door"
+
+#~ msgid "SOCIAL MEDIA STATiStics"
+#~ msgstr "Social Media Statistics"
+
+# of your this
+#~ msgid "These are the top browsers of your this page."
+#~ msgstr "Dit zijn de top browsers voor deze pagina"

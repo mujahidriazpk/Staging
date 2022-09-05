@@ -1,0 +1,734 @@
+<script type="text/x-handlebars-template" data-name="toolbar">
+    <div class="row">
+        <div class="col-xs-4">
+        </div>
+        <div class="mapsvg-toolbar-title col-xs-4">
+            Settings
+        </div>
+        <div class="col-xs-4">
+        </div>
+    </div>
+</script>
+
+<script type="text/x-handlebars-template" data-name="main">
+    <form class="form-horizontal mapsvg-view-padding">
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">File</label>
+            <div class="col-sm-9">
+                <div class="input-group">
+                    <input class="form-control" type="text" autocomplete="off" disabled="true" value="{{svgFilename}}"/>
+                    <input class="form-control" type="hidden" value="{{svgFilename}}"/>
+                    <input type="hidden" name="mapfile" value="{{svgFilename}}"/>
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" id="mapsvg-controls-file-change">Change</button>
+                        <button class="btn btn-default" id="mapsvg-controls-file-reload">Reload</button>
+                        <button class="btn btn-default" id="mapsvg-controls-file-remove">Remove</button>
+                    </span>
+                </div>
+                <div id="mapsvg-hidden-file-select">
+                    <select class="form-control mapsvg-select2" id="mapsvg-select2-map">
+                        <option value="">...</option>
+                        {{#each svgFiles}}
+                            <option data-package="{{package}}" data-path="{{path_true}}">{{path_fake}}</option>
+                        {{/each}}
+                    </select>
+                    <p class="help-block"><a href="#" class="editable" id="mapsvg-controls-file-hide">Hide</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group" style="display: none;">
+            <label class="col-sm-3 control-label">Extension</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" name="extension" autocomplete="off" value="{{extension}}" data-live="keyup" />
+                <p class="help-block">
+                    Leave blank if you didn't order MapSVG extension with custom functionality.
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Title</label>
+            <div class="col-sm-9">
+                <input class="form-control" type="text" autocomplete="off" name="title" value="{{title}}" data-live="keyup" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Preloader text</label>
+            <div class="col-sm-9">
+                <input type="text" autocomplete="off" class="form-control" id="mapsvg-controls-preloader-text" name="loadingText" value="{{loadingText}}" data-live="keyup"/>
+            </div>
+        </div>
+
+
+
+
+        <legend>Size</legend>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Responsive</label>
+            <div class="col-sm-9">
+                <div class="btn-group mapsvg-toggle-visibility"  data-object="options" data-toggle="buttons"  id="mapsvg-controls-responsive">
+                    <input type="checkbox" name="responsive" value="1"  class="mapsvg-onoff" {{#if responsive}}checked{{/if}} data-live="change" />
+                </div>
+            </div>
+        </div>
+
+        <div id="mapsvg-width-height">
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Width</label>
+                <div class="col-sm-9">
+                    <input class="form-control" id="mapsvg-controls-width" type="text" autocomplete="off" name="width" value="{{width}}" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Height</label>
+                <div class="col-sm-9">
+                    <input  class="form-control" id="mapsvg-controls-height" type="text" autocomplete="off" name="height" value="{{height}}" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-9">
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-default {{#if lockAspectRatio}}active{{/if}}">
+                            <input name="lockAspectRatio" data-live="change" type="checkbox" id="mapsvg-controls-ratio" autocomplete="off" {{#if lockAspectRatio}}checked{{/if}} /> <i class="fa fa-lock"></i> Lock aspect ratio
+                        </label>
+                    </div>
+                    <p class="help-block">
+                        When the map is in the "Responsive" mode it always takes the full width of the parent container and
+                        the settings above change only map proportions, width/height ratio.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Padding</label>
+            <div class="col-sm-9">
+                <table class="mapsvg-padding-table">
+                    <tr>
+                        <td>
+                            <div class="input-group" >
+                                <span class="input-group-addon" id="basic-addon1">&larr;</span>
+                                <input type="text" class="form-control" autocomplete="off" name="padding[left]" value="{{padding.left}}" data-live="keyup">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon1">&rarr;</span>
+                                <input type="text" class="form-control" autocomplete="off" name="padding[right]" value="{{padding.right}}" data-live="keyup">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon1">&uarr;</span>
+                                <input type="text" class="form-control" autocomplete="off" name="padding[top]" value="{{padding.top}}" data-live="keyup">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon1">&darr;</span>
+                                <input type="text" class="form-control"  autocomplete="off" name="padding[bottom]" value="{{padding.bottom}}" data-live="keyup">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        -->
+
+        <legend>Position</legend>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Start position</label>
+            <div class="col-sm-9">
+                <div class="input-group">
+                    <input data-live="change" name="initialViewBox" class="form-control" type="text" autocomplete="off" disabled="" id="mapsvg-controls-viewbox" value="{{#each viewBox}}{{this}} {{/each}}"/>
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" id="mapsvg-controls-set-viewbox">Set current</button>
+                        <button class="btn btn-default" id="mapsvg-controls-reset-viewbox">Reset</button>
+                    </span>
+                </div>
+                <p class="help-block">
+                    If you need to change the initial position of the map: turn on zoom & scroll, zoom-in to the desired
+                    location, click "Set current".
+                </p>
+            </div>
+        </div>
+
+        <legend>Containers</legend>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Left sidebar</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="containers[leftSidebar][on]" class="mapsvg-onoff mapsvg-toggle-visibility" data-toggle-visibility="#mapsvg-controls-left-sidebar" {{#if containers.leftSidebar.on}}checked{{/if}} data-live="change" />
+            </div>
+        </div>
+
+        <div class="form-group" id="mapsvg-controls-left-sidebar" {{#unless containers.leftSidebar.on}}style="display: none;"{{/unless}}>
+            <label class="col-sm-3 control-label">Left sidebar width</label>
+            <div class="col-sm-9">
+                <input type="text" name="containers[leftSidebar][width]" class="form-control"  value="{{containers.leftSidebar.width}}" data-live="keyup" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Right sidebar</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="containers[rightSidebar][on]" class="mapsvg-onoff mapsvg-toggle-visibility" data-toggle-visibility="#mapsvg-controls-right-sidebar" {{#if containers.rightSidebar.on}}checked{{/if}} data-live="change" />
+            </div>
+        </div>
+
+        <div class="form-group" id="mapsvg-controls-right-sidebar" {{#unless containers.rightSidebar.on}}style="display: none;"{{/unless}}>
+            <label class="col-sm-3 control-label">Right sidebar width</label>
+            <div class="col-sm-9">
+                <input type="text" name="containers[rightSidebar][width]" class="form-control"  value="{{containers.rightSidebar.width}}" data-live="keyup" />
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Header</label>
+            <div class="col-sm-9">
+                <input type="checkbox" id="mapsvg-header-control" name="containers[header][on]" class="mapsvg-onoff mapsvg-toggle-visibility" data-toggle-visibility="#mapsvg-controls-header" {{#if containers.header.on}}checked{{/if}} data-live="change" />
+            </div>
+        </div>
+
+        <!--<div class="form-group" id="mapsvg-controls-header" {{#unless containers.header.on}}style="display: none;"{{/unless}}>-->
+        <!--<label class="col-sm-3 control-label">Header height</label>-->
+        <!--<div class="col-sm-9">-->
+        <!--<input type="text" name="containers[header][height]" class="form-control"  value="{{containers.header.height}}" data-live="keyup" />-->
+        <!--</div>-->
+        <!--</div>-->
+
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Footer</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="containers[footer][on]" class="mapsvg-onoff mapsvg-toggle-visibility" data-toggle-visibility="#mapsvg-controls-footer" {{#if containers.footer.on}}checked{{/if}} data-live="change" />
+            </div>
+        </div>
+
+        <!--<div class="form-group" id="mapsvg-controls-footer" {{#unless containers.footer.on}}style="display: none;"{{/unless}}>-->
+        <!--<label class="col-sm-3 control-label">Footer height</label>-->
+        <!--<div class="col-sm-9">-->
+        <!--<input type="text" name="containers[footer][height]" class="form-control"  value="{{containers.footer.height}}" data-live="keyup" />-->
+        <!--</div>-->
+        <!--</div>-->
+
+        <legend>Control buttons</legend>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Control buttons location</label>
+            <div class="col-sm-9">
+                <div class="btn-group" data-toggle="buttons">
+                    <!--<label class="btn btn-default {{#ifeq controls.location 'hide'}}active{{/ifeq}}">-->
+                        <!--<input type="radio" name="controls[location]" value="hide" {{#ifeq controls.location 'hide'}}checked{{/ifeq}} data-live="change"/>-->
+                        <!--Hide-->
+                    <!--</label>-->
+                    <label class="btn btn-default {{#ifeq controls.location 'left'}}active{{/ifeq}}">
+                        <input type="radio" name="controls[location]" value="left" {{#ifeq controls.location 'left'}}checked{{/ifeq}} data-live="change"/>
+                        Left
+                    </label>
+                    <label class="btn btn-default {{#ifeq controls.location 'right'}}active{{/ifeq}}">
+                        <input type="radio" name="controls[location]" value="right" {{#ifeq controls.location 'right'}}checked{{/ifeq}} data-live="change"/>
+                        Right
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Zoom buttons</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="controls[zoom]" class="mapsvg-onoff" {{#if controls.zoom}}checked{{/if}} data-live="change"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">User location button</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="controls[userLocation]" class="mapsvg-onoff" {{#if controls.userLocation}}checked{{/if}} data-live="change" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Zoom reset button</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="controls[zoomReset]" class="mapsvg-onoff" {{#if controls.zoomReset}}checked{{/if}} data-live="change"/>
+            </div>
+        </div>
+
+
+        <legend>Zoom</legend>
+
+        <!--<div class="form-group">-->
+            <!--<label class="col-sm-3 control-label">Zoom</label>-->
+            <!--<div class="col-sm-9">-->
+                <!--<input type="checkbox" name="zoom[on]" class="mapsvg-onoff mapsvg-toggle-visibility" data-toggle-visibility="#mapsvg-controls-zoom-options" {{#if zoom.on}}checked{{/if}} data-live="change" />-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <div id="mapsvg-controls-zoom-options">
+
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Zoom by mousewheel</label>
+                <div class="col-sm-9">
+                    <input type="checkbox" name="zoom[mousewheel]" class="mapsvg-onoff" {{#if zoom.mousewheel}}checked{{/if}} data-live="change"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Zoom by fingers</label>
+                <div class="col-sm-9">
+                    <input type="checkbox" name="zoom[fingers]" class="mapsvg-onoff" {{#if zoom.fingers}}checked{{/if}} data-live="change"/>
+                </div>
+            </div>
+
+            <!--<div class="form-group">-->
+                <!--<label class="col-sm-3 control-label">Zoom Buttons</label>-->
+                <!--<div class="col-sm-9">-->
+                    <!--<div class="btn-group" data-toggle="buttons" id="mapsvg-controls-zoom-buttons">-->
+                        <!--<label class="btn btn-default {{#ifeq zoom.buttons.location 'hide'}}active{{/ifeq}}">-->
+                            <!--<input type="radio" name="zoom[buttons][location]" value="hide" {{#ifeq zoom.buttons.location 'hide'}}checked{{/ifeq}} data-live="change"/>-->
+                            <!--Hide-->
+                        <!--</label>-->
+                        <!--<label class="btn btn-default {{#ifeq zoom.buttons.location 'left'}}active{{/ifeq}}">-->
+                            <!--<input type="radio" name="zoom[buttons][location]" value="left" {{#ifeq zoom.buttons.location 'left'}}checked{{/ifeq}} data-live="change"/>-->
+                            <!--Left-->
+                        <!--</label>-->
+                        <!--<label class="btn btn-default {{#ifeq zoom.buttons.location 'right'}}active{{/ifeq}}">-->
+                            <!--<input type="radio" name="zoom[buttons][location]" value="right" {{#ifeq zoom.buttons.location 'right'}}checked{{/ifeq}} data-live="change"/>-->
+                            <!--Right-->
+                        <!--</label>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Zoom Limits</label>
+                <div class="col-sm-9">
+                    <input id="mapsvg-controls-zoomlimit" type="text" autocomplete="off" autocomplete="off" name="zoom[limit]" value="{{zoom.limit.[0]}};{{zoom.limit.[1]}}" data-live="change"/>
+                </div>
+            </div>
+        </div>
+
+        <legend>Scroll</legend>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Scroll</label>
+            <div class="col-sm-9">
+                <div class="btn-group" data-toggle="buttons" id="mapsvg-controls-scroll">
+                    <input type="checkbox" name="scroll[on]" class="mapsvg-onoff mapsvg-toggle-visibility" data-toggle-visibility="#mapsvg-controls-scroll-options"  {{#if scroll.on}}checked{{/if}} data-live="change"/>
+                </div>
+            </div>
+        </div>
+
+        <div id="mapsvg-controls-scroll-options" {{#unless scroll.on}}style="display:none"{{/unless}}>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Limit scroll to boundaries</label>
+                <div class="col-sm-9">
+                    <input type="checkbox" name="scroll[limit]" class="mapsvg-onoff" {{#if scroll.limit}}checked{{/if}} data-live="change" />
+                </div>
+            </div>
+        </div>
+
+
+        <!--
+        <legend>User location</legend>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Show user location on start</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="userLocation[showOnStart]" class="mapsvg-onoff" {{#if userLocation.showOnStart}}checked{{/if}} data-live="change" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Zoom to user location</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="userLocation[zoom]" class="mapsvg-onoff" {{#if userLocation.zoom}}checked{{/if}} data-live="change"/>
+            </div>
+        </div>
+        -->
+
+
+        <!--<div class="form-group">-->
+            <!--<label class="col-sm-3 control-label">Marker</label>-->
+            <!--<div class="col-sm-9">-->
+                <!--<input type="checkbox" name="c[zoom]" class="mapsvg-onoff" {{#if userLocationBtn.zoom}}checked{{/if}} data-live="change"/>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="form-group">-->
+            <!--<label class="col-sm-3 control-label">Label</label>-->
+            <!--<div class="col-sm-9">-->
+                <!--<a href="#" class="mapsvg-template-link" data-template="labelLocation" style="padding-top: 7px;display: block;">User location label template</a><br />-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <legend>Tooltips</legend>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Tooltips</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="tooltips[on]" class="mapsvg-onoff mapsvg-toggle-visibility" data-toggle-visibility="#mapsvg-tooltips-extra" {{#if tooltips.on}}checked{{/if}}  data-live="change" />
+            </div>
+        </div>
+
+        <div id="mapsvg-tooltips-extra" {{#unless tooltips.on}}style="display: none"{{/unless}}>
+
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Templates</label>
+                <div class="col-sm-9">
+                        <a href="#" class="mapsvg-template-link" data-template="tooltipRegion">Region tooltip template</a><br />
+                        <a href="#" class="mapsvg-template-link" data-template="tooltipMarker">DB Object tooltip template</a><br />
+                        CSS class: <a href="#tab_css" class="mapsvg-tab-link">.mapsvg-tooltip</a>
+
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Tooltips position</label>
+                <div class="col-sm-9">
+                    <select name="tooltips[position]" data-live="change" class="mapsvg-select2">
+                        <option value="left" {{#ifeq tooltips.position 'left'}}selected{{/ifeq}}>Left</option>
+                        <option value="top-left" {{#ifeq tooltips.position 'top-left'}}selected{{/ifeq}}>Top-left</option>
+                        <option value="top" {{#ifeq tooltips.position 'top'}}selected{{/ifeq}}>Top</option>
+                        <option value="top-right" {{#ifeq tooltips.position 'top-right'}}selected{{/ifeq}}>Top-right</option>
+                        <option value="right" {{#ifeq tooltips.position 'right'}}selected{{/ifeq}}>Right</option>
+                        <option value="bottom-right" {{#ifeq tooltips.position 'bottom-right'}}selected{{/ifeq}}>Bottom-Right</option>
+                        <option value="bottom" {{#ifeq tooltips.position 'bottom'}}selected{{/ifeq}}>Bottom</option>
+                        <option value="bottom-left" {{#ifeq tooltips.position 'bottom-left'}}selected{{/ifeq}}>Bottom-left</option>
+                    </select>
+                    <p class="help-block">
+                        Please note that Tooltips are shown on mouseover event on desktop devices but there's no such event on touch-devices. If you need
+                        to show info from the tooltip on touch - you can copy Tooltip template to Popover template and set up Popovers
+                        to show only on touch in <em>MapSVG > Actions</em>.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Min-width</label>
+                <div class="col-sm-9">
+                    <div class="input-group">
+                        <input class="form-control" name="tooltips[minWidth]" type="text" autocomplete="off" value="{{tooltips.minWidth}}" data-live="keyup" />
+                        <span class="input-group-addon">px</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Max-width</label>
+                <div class="col-sm-9">
+                    <div class="input-group">
+                        <input class="form-control" name="tooltips[maxWidth]" type="text" autocomplete="off" value="{{tooltips.maxWidth}}" data-live="keyup" />
+                        <span class="input-group-addon">px</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <legend>Popovers</legend>
+
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Templates</label>
+            <div class="col-sm-9">
+                <a href="#" class="mapsvg-template-link" data-template="popoverRegion">Region popover template</a><br />
+                <a href="#" class="mapsvg-template-link" data-template="popoverMarker">DB Object popover template</a><br />
+                CSS class: <a href="#tab_css" class="mapsvg-tab-link">.mapsvg-popover</a>
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Width</label>
+            <div class="col-sm-9">
+                <div class="input-group">
+                    <input class="form-control" name="popovers[width]" type="text" autocomplete="off" value="{{popovers.width}}" data-live="keyup" />
+                    <span class="input-group-addon">px</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Max-width</label>
+            <div class="col-sm-9">
+                <div class="input-group">
+                    <input class="form-control" name="popovers[maxWidth]" type="text" autocomplete="off" value="{{popovers.maxWidth}}" data-live="keyup" />
+                    <span class="input-group-addon">%</span>
+                </div>
+                <p class="help-block">Relative to map width</p>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Max-height</label>
+            <div class="col-sm-9">
+                <div class="input-group">
+                    <input class="form-control" name="popovers[maxHeight]" type="text" autocomplete="off" value="{{popovers.maxHeight}}" data-live="keyup" />
+                    <span class="input-group-addon">%</span>
+                </div>
+                <p class="help-block">Relative to map height</p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Center map on popovers</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="popovers[centerOn]" class="mapsvg-onoff" {{#if popovers.centerOn}}checked{{/if}}  data-live="change" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Reset map position on popover close</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="popovers[resetViewboxOnClose]" class="mapsvg-onoff" {{#if popovers.resetViewboxOnClose}}checked{{/if}}  data-live="change" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Fullscreen on mobile devices</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="popovers[mobileFullscreen]" class="mapsvg-onoff" {{#if popovers.mobileFullscreen}}checked{{/if}}  data-live="change" />
+            </div>
+        </div>
+
+
+
+        <!--<legend>Floors</legend>-->
+
+        <!--<div class="form-group" id="mapsvg-global-tooltips">-->
+            <!--<label class="col-sm-3 control-label">Floors control</label>-->
+            <!--<div class="col-sm-9">-->
+                <!--<input type="checkbox" name="floorsControl[on]" class="mapsvg-onoff mapsvg-toggle-visibility" data-toggle-visibility="#mapsvg-floors-extra" {{#if floorsControl.on}}checked{{/if}}  data-live="change" />-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div id="mapsvg-floors-extra" {{#unless floorsControl.on}}style="display: none"{{/unless}}>-->
+            <!--<div class="form-group">-->
+                <!--<label class="col-sm-3 control-label">Position</label>-->
+                <!--<div class="col-sm-9">-->
+                    <!--<select name="floorsControl[position]" data-live="change" class="mapsvg-select2" style="width: 150px;">-->
+                        <!--<option value="top-left" {{#ifeq floorsControl.position 'top-left'}}selected{{/ifeq}}>Top-left</option>-->
+                        <!--<option value="top" {{#ifeq floorsControl.position 'top'}}selected{{/ifeq}}>Top</option>-->
+                        <!--<option value="top-right" {{#ifeq floorsControl.position 'top-right'}}selected{{/ifeq}}>Top-right</option>-->
+                        <!--<option value="left" {{#ifeq floorsControl.position 'left'}}selected{{/ifeq}}>Left</option>-->
+                        <!--<option value="right" {{#ifeq floorsControl.position 'right'}}selected{{/ifeq}}>Right</option>-->
+                        <!--<option value="bottom-right" {{#ifeq floorsControl.position 'bottom-right'}}selected{{/ifeq}}>Bottom-Right</option>-->
+                        <!--<option value="bottom" {{#ifeq floorsControl.position 'bottom'}}selected{{/ifeq}}>Bottom</option>-->
+                        <!--<option value="bottom-left" {{#ifeq floorsControl.position 'bottom-left'}}selected{{/ifeq}}>Bottom-left</option>-->
+                    <!--</select>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="form-group">-->
+                <!--<label class="col-sm-3 control-label">Expanded on start</label>-->
+                <!--<div class="col-sm-9">-->
+                    <!--<input type="checkbox" name="floorsControl[expanded]" class="mapsvg-onoff" {{#if floorsControl.expanded}}checked{{/if}} data-live="change" />-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;<div class="form-group">&ndash;&gt;-->
+                <!--&lt;!&ndash;<label class="col-sm-3 control-label">Max-height</label>&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="col-sm-9">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<input type="text" class="form-control" name="floorsControl[maxHeight]" data-live="keyup" />&ndash;&gt;-->
+                    <!--&lt;!&ndash;<p class="help-block">Enter height in percents (example: "100%") or pixels (example: "200px")</p>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--<div class="form-group">-->
+                <!--<label class="col-sm-3 control-label">Label</label>-->
+                <!--<div class="col-sm-9">-->
+                        <!--<input class="form-control" type="text" name="floorsControl[label]" autocomplete="off" value="{{floorsControl.label}}" data-live="keyup" />-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <legend>Markers</legend>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Fit markers on filter/search</label>
+            <div class="col-sm-9">
+                <div class="btn-group mapsvg-toggle-visibility"  data-object="options" data-toggle="buttons"  id="mapsvg-controls-fitMarkers">
+                    <input type="checkbox" name="fitMarkers" value="1"  class="mapsvg-onoff" {{#if fitMarkers}}checked{{/if}} data-live="change" />
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Fit markers on start</label>
+            <div class="col-sm-9">
+                <div class="btn-group mapsvg-toggle-visibility"  data-object="options" data-toggle="buttons"  id="mapsvg-controls-fitMarkers">
+                    <input type="checkbox" name="fitMarkersOnStart" value="1"  class="mapsvg-onoff" {{#if fitMarkersOnStart}}checked{{/if}} data-live="change" />
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Markers clustering</label>
+            <div class="col-sm-9">
+                <input type="checkbox" class="mapsvg-onoff" name="clustering[on]"  {{#if clustering.on}}checked{{/if}}  data-live="change" />
+                <p class="help-block">
+                    Group markers into clusters with numbers.<br />
+                    <b>Click "Save" button and reload the page to see changes.</b>
+                </p>
+            </div>
+        </div>
+
+
+        <legend>Pagination</legend>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Pagination</label>
+            <div class="col-sm-9">
+                <div style="margin-bottom: 10px;">
+                    <input type="checkbox" class="mapsvg-onoff" name="database[pagination][on]"  {{#if database.pagination.on}}checked{{/if}}  data-live="change" />
+                    <p class="help-block">Choose if you want to split the list of objects in the
+                        directory and on the map into pages (even if you don't use the directory, markers can be paginated too).</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Location</label>
+            <div class="col-sm-9">
+                <div class="btn-group" data-toggle="buttons">
+                    <label class="btn btn-default active">
+                        <input type="radio" name="database[pagination][showIn]" value="directory" autocomplete="off" checked data-live="change"> Directory
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="radio" name="database[pagination][showIn]" value="map" autocomplete="off" data-live="change"> Map
+                    </label>
+                    <label class="btn btn-default">
+                        <input type="radio" name="database[pagination][showIn]" value="both" autocomplete="off" data-live="change"> Directory & Map
+                    </label>
+                </div>
+                <p class="help-block">
+                    Where you want to show the pagination buttons
+                </p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Items per page</label>
+            <div class="col-sm-9">
+                <input type="text" autocomplete="off" class="form-control" name="database[pagination][perpage]" value="{{database.pagination.perpage}}" data-live="keyup"/>
+            </div>
+        </div>
+
+
+
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">"Next page" text</label>
+            <div class="col-sm-9">
+                <input type="text" autocomplete="off" class="form-control" name="database[pagination][next]" value="{{database.pagination.next}}" data-live="keyup"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">"Previous page" text</label>
+            <div class="col-sm-9">
+                <input type="text" autocomplete="off" class="form-control" name="database[pagination][prev]" value="{{database.pagination.prev}}" data-live="keyup"/>
+            </div>
+        </div>
+
+
+        <legend>Labels</legend>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Marker labels</label>
+            <div class="col-sm-9">
+                <input type="checkbox" class="mapsvg-onoff" name="labelsMarkers[on]"  {{#if labelsMarkers.on}}checked{{/if}}  data-live="change" />
+                <p class="help-block">
+                    Add labels above Markers using the <a href="#" class="mapsvg-template-link" data-template="labelMarker">Marker label template</a>.
+                    Add styles for the <a href="#tab_css" class="mapsvg-tab-link">.mapsvg-marker-label</a> CSS class.</a>
+                </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Region labels</label>
+            <div class="col-sm-9">
+                <input type="checkbox" class="mapsvg-onoff" name="labelsRegions[on]"  {{#if labelsRegions.on}}checked{{/if}}  data-live="change" />
+                <p class="help-block">
+                    Add labels in the center of Regions using the <a href="#" class="mapsvg-template-link" data-template="labelRegion">Region label template</a>.
+                    Add styles for the <a href="#tab_css" class="mapsvg-tab-link">.mapsvg-region-label</a> CSS class.
+                </p>
+            </div>
+        </div>
+
+
+        <legend>Buttons</legend>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">"Map" button label</label>
+            <div class="col-sm-9">
+                <input  name="mobileView[labelMap]" type="text" autocomplete="off" class="form-control" value="{{mobileView.labelMap}}" data-live="keyup"/>
+                <p class="help-block">If directory is on, map/directory buttons are shown below the map</p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">"Directory" button label</label>
+            <div class="col-sm-9">
+                <input  name="mobileView[labelList]" type="text" autocomplete="off" class="form-control" value="{{mobileView.labelList}}" data-live="keyup"/>
+                <p class="help-block">If directory is on, map/directory buttons are shown below the map</p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">"Close" button label</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="mobileView[labelClose]" value="{{mobileView.labelClose}}" data-live="keyup"/>
+                <p class="help-block">Shown at the bottom of modal windows (details view, popovers, filters) on mobile devices.</p>
+            </div>
+        </div>
+
+        <legend>Choropleth map</legend>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Choropleth</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="gauge[on]" class="mapsvg-onoff mapsvg-toggle-visibility" data-toggle-visibility="#mapsvg-gauge-options"  {{#if gauge.on}}checked{{/if}} data-live="change"/>
+            </div>
+        </div>
+
+        <div id="mapsvg-gauge-options" {{#unless gauge.on}}style="display:none"{{/unless}}>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Region field</label>
+                <div class="col-sm-9">
+                    <select class="mapsvg-select2" style="width: 100%;" id="mapsvg-region-data-fields" name="regionChoroplethField" data-live="change">
+                    </select>
+                    <p class="help-block">Choose a field containing number values that should be represented as color shades on choropleth map.</p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Gradient labels</label>
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon1">Low</span>
+                                <input data-key="low" name="gauge[labels][low]" type="text" autocomplete="off" class="form-control" autocomplete="off" value="{{gauge.labels.low}}" data-live="keyup"/>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon2">High</span>
+                                <input data-key="high" name="gauge[labels][high]" type="text" autocomplete="off" class="form-control" autocomplete="off" value="{{gauge.labels.high}}" data-live="keyup"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </form>
+</script>

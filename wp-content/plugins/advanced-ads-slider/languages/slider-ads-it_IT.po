@@ -1,0 +1,68 @@
+# Translation of Slider in Italian
+# This file is distributed under the same license as the Slider package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-07-09 13:59:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: it\n"
+"Project-Id-Version: Slider\n"
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#. Author of the plugin
+msgid "Thomas Maier"
+msgstr "Thomas Maier"
+
+#. URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/slider/"
+msgstr "https://wpadvancedads.com/add-ons/slider/"
+
+#. Description of the plugin
+msgid "Create a slider from your ads."
+msgstr "Crea uno slider dai tuoi annunci."
+
+#. Name of the plugin
+msgid "Advanced Ads – Slider"
+msgstr "Advanced Ads – Slider"
+
+#: admin/views/overview.php:3
+msgid "Visit the manual"
+msgstr "Visita il manuale"
+
+#: admin/views/overview.php:1
+msgid "Slider add-on is installed"
+msgstr "È installato il componente aggiuntivo Slider"
+
+#: admin/views/group-options.php:24
+msgid "Display ads in the slider in a random order"
+msgstr "Visualizza gli annunci nello slider in ordine casuale"
+
+#: admin/views/group-options.php:16
+msgid "Random order"
+msgstr "Ordine casuale"
+
+#: admin/views/group-options.php:12
+msgid "Pause for each ad slide in milliseconds"
+msgstr "Pausa tra ogni slide in millisecondi"
+
+#: admin/views/group-options.php:8
+msgid "Slide delay"
+msgstr "Ritardo slide"
+
+#: classes/plugin.php:99
+msgid "Display all ads as a slider"
+msgstr "Mostra tutti gli annunci come uno slider"
+
+#: classes/plugin.php:98
+msgid "Ad Slider"
+msgstr "Slider Annunci"
+
+#: admin/admin.php:54
+msgid "<strong>Advanced Ads – Slider</strong> is an extension for the Advanced Ads plugin. Please visit <a href=\"%s\" target=\"_blank\" >wpadvancedads.com</a> to download it for free."
+msgstr "<strong>Advanced Ads – Slider</strong> è un'estensione per il plugin Advanced Ads. Visita <a href=\"%s\" target=\"_blank\" >wpadvancedads.com</a> per scaricarla gratuitamente."

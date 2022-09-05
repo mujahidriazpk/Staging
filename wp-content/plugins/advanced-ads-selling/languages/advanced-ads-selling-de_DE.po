@@ -1,0 +1,442 @@
+# Translation of Selling Ads in German
+# This file is distributed under the same license as the Selling Ads package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-07 07:19:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: de\n"
+"Project-Id-Version: Selling Ads\n"
+
+#. Author of the plugin
+msgid "Advanced Ads GmbH"
+msgstr "Advanced Ads GmbH"
+
+#: public/views/woocommerce/myaccount/ads.php:26
+msgid "No orders found"
+msgstr "Keine Bestellungen gefunden"
+
+#: public/views/woocommerce/myaccount/ads.php:20
+msgid "Options"
+msgstr "Einstellungen"
+
+#: public/views/woocommerce/myaccount/ads.php:15
+msgid "Ad Title - Product Name"
+msgstr "Anzeigentitel – Produktname"
+
+#: admin/views/setting-ads-page.php:4
+msgid "The page contains links to the public stats pages of ads when the Advanced Ads Tracking add-on is enabled."
+msgstr "Diese Seite enthält Links zu den öffentlichen Statistikseiten für Anzeigen wenn Advanced Ads Tracking aktiviert ist."
+
+#: admin/views/setting-ads-page.php:3
+msgid "Show an ”Ads” link in the customer account in the frontend with a list of purchased ads and additional information."
+msgstr "Zeige einen “Anzeigen”-Link im Kundenkonto im Frontend mit einer Liste verkaufter Anzeigen und zusätzlichen Informationen."
+
+#: public/public.php:209
+msgid "The ad setup form is only visible through the link in the purchase confirmation email or account."
+msgstr "Das Anzeigensetup ist nur sichtbar, wenn diese Seite mit dem Link in der Bestellbestätigungs-E-Mail oder Account besucht wird."
+
+#: admin/admin.php:219
+msgid "List ads in the customer account"
+msgstr "Listet Anzeigen im Kundenkonto auf"
+
+#: classes/public-ads-page-endpoint.php:109
+#: classes/public-ads-page-endpoint.php:130
+msgid "Ads"
+msgstr "Anzeigen"
+
+#: public/includes/order.php:110
+msgid "Price option"
+msgstr "Preisoption"
+
+#: admin/admin.php:213
+msgid "WooCommerce adjustments"
+msgstr "WooCommerce-Anpassungen"
+
+#: admin/views/setting-wc-fixes.php:2
+msgid "Applies the following changes to WooCommerce. Especially useful, when you don’t use WooCommerce for anything else than ads."
+msgstr "Wendet die folgenden Änderungen auf WooCommerce an. Dies ist besonders nützlich, wenn du WooCommerce für nichts anderes als für Anzeigen verwendest."
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com/"
+msgstr "https://wpadvancedads.com/"
+
+#. Description of the plugin
+msgid "Let users purchase ads directly in the frontend of your site."
+msgstr "Lasse Kunden Anzeigen direkt im Frontend deiner Seite kaufen."
+
+#. Name of the plugin
+msgid "Advanced Ads – Selling Ads"
+msgstr "Advanced Ads – Selling Ads"
+
+#: public/views/product-template.php:64
+msgid "You will be able to submit the ad content after the purchase."
+msgstr "Du kannst den Anzeigeninhalt nach dem Kauf hochladen."
+
+#: public/views/product-template.php:38
+msgid "Select a placement"
+msgstr "Platzierung wählen"
+
+#: public/views/ad-setup-page.php:8
+msgid "Ad Setup"
+msgstr "Anzeigeneinstellungen"
+
+#: public/views/ad-setup-form.php:146
+msgid "The ad was successfully submitted for review."
+msgstr "Die Anzeige wurde erfolgreich übermittelt."
+
+#: public/views/ad-setup-form.php:144
+msgid "The ad could not be submitted. Please try later or contact the site admin."
+msgstr "Die Anzeige konnte nicht übermittelt werden. Bitte versuche es später noch einmal oder kontaktiere den Seiten-Admin."
+
+#: public/views/ad-setup-form.php:141
+msgid "submit this ad"
+msgstr "Anzeige übermitteln"
+
+#: public/views/ad-setup-form.php:130
+msgid "Target URL"
+msgstr "Ziel-URL"
+
+#: public/views/ad-setup-form.php:125
+msgid "Max File Size : %s MB"
+msgstr "Max. Dateigröße: %s MB"
+
+#: public/views/ad-setup-form.php:120
+msgid "Image Upload"
+msgstr "Bild-Upload"
+
+#: public/views/ad-setup-form.php:112
+msgid "Please enter the ad code. HTML, JavaScript, CSS and plain text are allowed."
+msgstr "Bitte Anzeigencode eingeben. HTML, JavaScript und reiner Text sind möglich."
+
+#: public/views/ad-setup-form.php:107
+msgid "Ad Code"
+msgstr "Anzeigencode"
+
+#: public/views/ad-setup-form.php:81
+msgid "Ad Type"
+msgstr "Anzeigentyp"
+
+#: public/views/ad-setup-form.php:70
+msgid "Please complete the ad details so that we can process your order."
+msgstr "Bitte vervollständige die Anzeigeninformationen damit wir die Bestellung verarbeiten können."
+
+#: public/views/ad-setup-form.php:68
+msgid "This ad is currently in review."
+msgstr "Diese Anzeige wird aktuell gesichtet."
+
+#: public/views/ad-setup-form.php:66
+msgid "The content of this ad was already accepted and can no longer be changed."
+msgstr "Der Inhalt dieser Anzeige wurde bereits akzeptiert und kann nicht weiter bearbeitet werden."
+
+#: public/views/ad-setup-form.php:61
+msgid "Status"
+msgstr "Status"
+
+#: public/views/ad-setup-form.php:48
+msgid "Pricing option"
+msgstr "Preisoption"
+
+#. %d is an item ID.
+#: public/views/ad-setup-form.php:43
+msgid "Item #%d"
+msgstr "Produkt #%d"
+
+#: public/views/ad-setup-form.php:16
+msgid "purchased by"
+msgstr "gekauft von"
+
+#. %d is the number of items purchased.
+#: public/views/ad-setup-form.php:9
+msgid "%d item(s)"
+msgstr "%d Element(e)"
+
+#. %1$d is an order ID, %2$s a string with the number of items purchased.
+#: public/views/ad-setup-form.php:5
+msgid "Setup page for order #%1$d, %2$s"
+msgstr "Einstellungen für Anzeigen aus Bestellung #%1$d, %2$s"
+
+#: public/includes/order.php:294
+msgid "Details"
+msgstr "Details"
+
+#: public/includes/order.php:179
+msgid "Please enter a positive number of days."
+msgstr "Bitte eine positive Zahl eingeben."
+
+#: public/includes/ajax.php:34
+msgid "Invalid request."
+msgstr "Anfrage ungültig."
+
+#: admin/views/setting-wc-fixes.php:4
+msgid "Remove product images"
+msgstr "Produkt-Bilder entfernen"
+
+#: admin/views/setting-setup-page.php:9
+msgid "Choose the page on which you want to show the ad setup for the client after the purchase. Leave blank for the default layout."
+msgstr "Wähle die Seite, auf der das Anzeigensetup für den Kunden angezeigt werden soll."
+
+#: admin/views/setting-setup-page.php:3
+msgid "(default)"
+msgstr "(Standard)"
+
+#: admin/views/setting-sender-email.php:2
+msgid "Enter the email used as a sender of ad store specific emails. This works best if the email contains the store domain."
+msgstr "E-Mail-Adresse für das Versenden von Benachrichtigungen. Funktioniert am besten, wenn sie die Shop-Domain enthält."
+
+#: admin/views/setting-hide-ad-setup.php:2
+msgid "Hide the link to the public ad setup page from the client and don‘t send out emails about the ad setup process."
+msgstr "Versteckt den Link auf die Anzeigensetup-Seite vor dem Kunden und sendet keine Benachrichtigungen zu Anzeigen an diesen."
+
+#: admin/views/setting-admin-email.php:2
+msgid "Enter the email used for communication about ads."
+msgstr "E-Mail-Adresse des Empfängers von Anzeigeninformationen"
+
+#: admin/views/ad-store-widget.php:20
+msgid "No ad purchases to review"
+msgstr "Zu bestätigende Anzeigenkäufe"
+
+#: admin/views/ad-store-widget.php:11
+msgid "Pending ad purchases"
+msgstr "Offene Anzeigenkäufe"
+
+#: admin/views/ad-store-widget.php:2
+msgid "New ad purchases"
+msgstr "Neue Anzeigenkäufe"
+
+#: admin/views/ad-order-meta-box.php:26
+msgid "Product"
+msgstr "Produkt"
+
+#: admin/views/ad-order-meta-box.php:20
+msgid "Public Ad Setup URL"
+msgstr "Öffentliche Einstellungsseite"
+
+#. %d is an order ID.
+#: admin/views/ad-order-meta-box.php:15
+msgid "Order #%d"
+msgstr "Bestellung #%d"
+
+#: admin/views/ad-order-data.php:3
+msgid "Setup URL"
+msgstr "Einstellungs-Link"
+
+#: admin/includes/placements.php:64
+msgid "This ad is going to <strong>expire %d days</strong> after being published."
+msgstr "Diese Anzeige wird <strong>läuft %d Tage nach Veröffentlichung aus</strong>."
+
+#: admin/includes/placements.php:57
+msgid "When you press “Publish”, this ad will be added to the group <strong>%1$s</strong> in the <strong>%2$s</strong> placement."
+msgstr "Wenn du auf “Veröffentlichen” drückst wird diese Anzeige zur Gruppe <strong>%1$s</strong> in der Platzierung <strong>%2$s</strong> hinzugefügt."
+
+#: admin/includes/placements.php:53
+msgid "When you press “Publish”, this ad will be swapped against the currently assigned ad (<strong>%s</strong>) in the <strong>%2$s</strong> placement."
+msgstr "Wenn du auf “Veröffentlichen” drückst wird diese Anzeige anstelle der Anzeige <strong>%s</strong> in der Platzierung <strong>%2$s</strong> eingefügt."
+
+#: admin/includes/placements.php:49
+msgid "When you press “Publish”, this ad will be published in the <strong>%2$s</strong> placement."
+msgstr "Wenn du auf “Veröffentlichen” drückst wird die Anzeige in der Platzierung <strong>%2$s</strong> veröffentlicht."
+
+#: admin/includes/order-page.php:109
+msgid "Ad Types"
+msgstr "Anzeigentypen"
+
+#: admin/includes/order-page.php:108 admin/views/ad-order-meta-box.php:34
+#: public/views/ad-setup-form.php:57
+msgid "Placement"
+msgstr "Platzierung"
+
+#: admin/includes/order-page.php:107 admin/views/ad-order-meta-box.php:40
+msgid "Sales Type"
+msgstr "Verkaufstyp"
+
+#: admin/includes/order-page.php:106 admin/views/ad-order-meta-box.php:52
+msgid "Pricing Label"
+msgstr "Preis-Name"
+
+#: admin/includes/order-page.php:105 admin/views/ad-order-meta-box.php:46
+msgid "Pricing Value"
+msgstr "Preis-Option"
+
+#: admin/includes/order-page.php:91
+msgid "Ad"
+msgstr "Anzeige"
+
+#: admin/includes/order-page.php:41
+msgid "Ad Data"
+msgstr "Anzeigendaten"
+
+#: admin/includes/ad-product.php:116
+msgid "Available placements"
+msgstr "Wählbare Platzierungen"
+
+#: admin/includes/ad-product.php:109 admin/includes/ad-product.php:111
+msgid "define label, value and price separated by |, e.g. 100.000 impressions|100000|20.00"
+msgstr "Beschriftung, Wert und Preis getrennt mit “|” festlegen, z.B. 100.000 Impressionen|100000|20.00"
+
+#: admin/includes/ad-product.php:108
+msgid "Price options"
+msgstr "Preisoptionen"
+
+#: admin/includes/ad-product.php:103
+msgid "Customer can buy per …"
+msgstr "Kunde kauft pro …"
+
+#: admin/includes/ad-product.php:98 public/views/product-template.php:54
+msgid "Available ad types"
+msgstr "Verfügbare Anzeigentypen"
+
+#: admin/includes/ad-product.php:91
+msgctxt "ad type"
+msgid "image"
+msgstr "Bild"
+
+#: admin/includes/ad-product.php:90
+msgctxt "ad type"
+msgid "html"
+msgstr "HTML"
+
+#: admin/includes/ad-product.php:70
+msgid "Ad Options"
+msgstr "Anzeigenoptionen"
+
+#: admin/includes/ad-order-meta-box.php:45
+msgid "Order Data"
+msgstr "Bestelldaten"
+
+#: public/public.php:515 public/includes/ajax.php:58
+msgid "Error when submitting the ad. Please contact the site admin."
+msgstr "Fehler beim Absenden der Anzeige. Bitte kontaktiere den Administrator."
+
+#: public/public.php:500 public/includes/ajax.php:43
+msgid "Ad content missing."
+msgstr "Anzeigeninhalt fehlt."
+
+#. %s is a file size with one decimal
+#: public/public.php:417
+msgid "The allowed file size is %s MB"
+msgstr "Die erlaubte Dateigröße beträgt %s MB."
+
+#: public/public.php:410
+msgid "Extension not allowed, please choose a JPEG, PNG or GIF file."
+msgstr "Dateiformat nicht erlaubt, bitte nutze JPEG, JPG, PNG oder GIF."
+
+#: public/public.php:308
+msgid "You can manage the content of your ads on the <a href=\"%s\">ad setup page</a>."
+msgstr "Du kannst den Inhalt deiner Anzeigen auf der <a href=\"%s\">Setup-Seite</a> bearbeiten."
+
+#: classes/plugin.php:159
+msgid "Advanced Ad"
+msgstr "Advanced Ad"
+
+#: classes/plugin.php:81
+msgctxt "sales type"
+msgid "clicks"
+msgstr "Klicks"
+
+#: classes/plugin.php:80
+msgctxt "sales type"
+msgid "impressions"
+msgstr "Impressionen"
+
+#: classes/plugin.php:75
+msgctxt "sales type"
+msgid "days"
+msgstr "Tage"
+
+#: classes/plugin.php:74
+msgctxt "sales type"
+msgid "flat price"
+msgstr "Pauschalpreis"
+
+#: classes/notifications.php:197
+msgid "An ad for order #%d was published."
+msgstr "Eine Anzeige der Bestellung #%d wurde veröffentlicht."
+
+#: classes/notifications.php:196
+msgid "An ad for order #%d was published"
+msgstr "Eine Anzeige für Bestellung #%d wurde veröffentlicht"
+
+#: classes/notifications.php:152
+msgid "The ad content for ad #%s (order #%d) was rejected by the ad manager."
+msgstr "Der Inhalt der Anzeige #%s (Bestellung #%d) wurde vom Anzeigenmanager zurückgewiesen."
+
+#: classes/notifications.php:151
+msgid "Ad for order #%d was rejected"
+msgstr "Eine Anzeige der Bestellung #%d wurde abgewiesen."
+
+#: classes/notifications.php:109
+msgid "PS: If you want to contact the client directly, just reply to this email."
+msgstr "PS: Wenn du den Kunden kontaktieren möchtest, dann antworte einfach direkt auf diese E-Mail."
+
+#: classes/notifications.php:106
+msgid "The ad content for ad #%d (order #%d) was submitted by the client. You can review it now using the following link."
+msgstr "Der Inhalt der Anzeige #%d (Bestellung #%d) wurde vom Käufer übermittelt. Du kannst die Anzeige unter folgendem Link bestätigen."
+
+#: classes/notifications.php:104
+msgid "Ad #%d needs approval"
+msgstr "Anzeige #%d muss bestätigt werden"
+
+#: classes/notifications.php:62 classes/notifications.php:154
+#: classes/notifications.php:199
+msgid "PS: If you want to contact the ad manager directly, just reply to this email."
+msgstr "PS: Wenn du deinen Anzeigenmanager direkt kontaktieren willst, dann antworte einfach auf diese E-Mail."
+
+#: classes/notifications.php:61 classes/notifications.php:108
+#: classes/notifications.php:153 classes/notifications.php:198
+msgid ""
+"Sincerely,\n"
+"Your ad team\n"
+"%s"
+msgstr ""
+"Mit freundlichen Grüßen,\n"
+"Dein Anzeigenteam\n"
+"%s"
+
+#: classes/notifications.php:59
+msgid "Thank you for your order. You can already upload the content of your ads following the link below."
+msgstr "Vielen Dank für deine Bestellung. Du kannst die Inhalte für deine Anzeigen unter dem unten angegebenen Link hinzufügen."
+
+#: classes/notifications.php:58
+msgid "Edit your ads for order #%d"
+msgstr "Anzeigen von Bestellung #%d bearbeiten"
+
+#: admin/admin.php:209
+msgid "Hide ad setup"
+msgstr "Setup verstecken"
+
+#: admin/admin.php:205
+msgid "Setup page"
+msgstr "Setup-Seite"
+
+#: admin/admin.php:201
+msgid "Store sender email"
+msgstr "Shop Absender-E-Mail"
+
+#: admin/admin.php:197
+msgid "Store admin email"
+msgstr "Shop Admin-E-Mail"
+
+#: admin/admin.php:192
+msgid "Ad Store"
+msgstr "Shop"
+
+#: admin/admin.php:147
+msgid "<em>Advanced Ads – Selling Ads</em> requires the free <strong>WooCommerce</strong> to be installed and activated on your site."
+msgstr "<em>Advanced Ads – Selling Ads</em> benötigt <strong>WooCommerce</strong>."
+
+#: admin/admin.php:129
+msgid "<em>Advanced Ads – Selling Ads</em> requires the <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> plugin to be installed and activated on your site."
+msgstr "<em>Advanced Ads – Selling Ads</em> benötigt <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong>."
+
+#: admin/admin.php:125 admin/admin.php:143
+msgid "Install Now"
+msgstr "Jetzt installieren"
+
+#: admin/admin.php:123 admin/admin.php:141
+msgid "Activate Now"
+msgstr "Jetzt aktivieren"

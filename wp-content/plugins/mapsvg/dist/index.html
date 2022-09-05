@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/wp-content/plugins/mapsvg-dev/css/mapsvg.css" />
+    <script src="/wp-includes/js/jquery/jquery.js"></script>
+    <script src="/wp-content/plugins/mapsvg-dev/js/typeahead.jquery.js"></script>
+    <script src="/wp-content/plugins/mapsvg-dev/js/jquery.nanoscroller.min.js"></script>
+    <script src="/wp-content/plugins/mapsvg-dev/js/select2.full.min.js"></script>
+    <script  src="mapsvg-front.umd.js?rand=124311"></script>
+</head>
+<body>
+
+<div id="mapsvg"></div>
+<script>
+    var map = new mapsvg.MapSVGMap('mapsvg',
+        {
+            db_map_id: 1,
+            source: '/wp-content/plugins/mapsvg-dev/maps/geo-calibrated/usa.svg',
+            tooltips: {on: true},
+            zoom: {on: true},
+            scroll: {on: true},
+            colors: {
+                base: '#EE5555',
+                stroke: '#ffffff'
+            },
+            googleMaps: {
+                on: true,
+                apiKey: 'AIzaSyCuXgcO4t_ELhRbZ2X31DfiYp2Z1EMo0is'
+
+            },
+            actions: {
+                region: {
+                    click: {
+                        showDetails: false,
+                        showPopover: true
+                    }
+                }
+            },
+            menu: {
+                on: true,
+                source: 'regions',
+                location: 'rightSidebar'
+            },
+            containers: {
+                'rightSidebar': {on: true}
+            },
+            data_regions: {
+                regions: [
+                    {id: 'US-TX', 'title': 'Texas'},
+                ],
+                schema: {
+                    fields: [
+                        {type: 'id', name: 'id'},
+                        {type: 'text', name: 'title'}
+                    ]
+                }
+            },
+            data_db: {
+                objects: [
+                    {id: 'US-TX', 'title': 'Texas'},
+                ],
+                schema: [
+                    {type: 'id', name: 'id'},
+                    {type: 'text', name: 'title'},
+                ]
+            }
+        });
+</script>
+
+</body>
+</html>

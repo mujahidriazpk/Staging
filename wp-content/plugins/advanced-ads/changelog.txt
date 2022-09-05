@@ -1,0 +1,325 @@
+== Changelog ==
+
+= 1.30.0 =
+
+- Improvement: add `advanced-ads-group-taxonomy-params` filter to change ad group taxonomy parameters
+- Improvement: add "Manual Placements" to the Advanced Ads block and sidebar widget
+- Improvement: update Black Friday promotion
+- Fix: enable `Ad Admin` and `Ad Manager` to assign ads to groups from ad edit page and quick edit view
+- Fix: disable unavailable ad types on the ad edit page
+- Fix: improve AdSense auto ads code warning on ad edit page
+- Fix: handle AdSense report API response for accounts without earnings
+- Fix: remove `amp-auto-ads` element on non-AMP URLs
+- Fix: honor disabling ads settings for AMP pages
+- Fix: escape placement selectors for jQuery to allow adding conditions to multibyte placement names
+- Fix: ensure correct text domain for translations
+- Fix: make the ad list sortable in descending order
+- Fix: remove hard-coded `orderby` and `order` for posts list
+- Fix: prevent updating ad weights of non-published ads
+- Fix: correct Display Conditions meta box video player
+- Fix: remove escaped HTML tags in new placement form
+- Fix: resolve a conflict with WPML where conditions were not displayed correctly on the placement page
+- Fix: move placement of the ad blocker disguise settings
+
+= 1.29.1 =
+
+- Fix: ensure `Advanced_Ads_Adsense_Report_Helper` JavaScript global is defined
+- Fix: hide AdSense setting submit button if there is no publisher ID
+- Fix: show error message when no AdSense account data found
+
+= 1.29.0 =
+
+- Improvement: update AdSense API to V2
+- Improvement: unify layout of backend notices
+- Improvement: move some descriptions into tooltips
+- Improvement: move ad blocker fix options to the related setting
+- Fix: correct uppercase CSS rule for labels in backend
+- Fix: remove usage link for every type except manual placement
+- Fix: correct sorting of placements by type on placement list page
+- Fix: bad language in Analytics Adblock Counter option
+
+= 1.28.0 =
+
+- Improvement: add an `inline` attribute to the `the_ad` shortcode that allows the user to change the wrapper from `div` to `span`
+- Improvement: update plugin updater class
+- Improvement: rename "Item" option into "Ad / Group" to clarify its purpose
+- Improvement: show a link to create a new ad on the placement page
+- Improvement: show content placements first when creating a new one
+- Improvement: remove welcome panel on ad edit screen
+- Improvement: rename last button in the wizard to "Save" to highlight that this is the last step
+- Fix: wrap `advanced_ads_ready_queue` in an IIEF to prevent naming collisions
+
+= 1.27.0 =
+
+- Improvement: prevent issues with functionality from other plugins that delay JavaScript execution (WP Rocket, Complianz, et al.).
+- Improvement: unify the layout of the Next buttons in the ad Wizard
+- Improvement: add the updated AdSense code. Added a filter to continue using the old AdSense code. [Learn more](https://wpadvancedads.com/adsense-crossorigin-attribute-performance)
+- Improvement: update Ad Block Counter to work with Google Analytics 4 properties
+- Fix: ensure Ad Admin can save AdSense, Privacy, and License settings
+- Fix: prevent error when "Remove data on uninstall" option is set due to uninitialised constants
+- Fix: ad edit button for ads delivered using groups
+- Fix: improve compatibility with PHP 8 by removing default values from required function parameters
+
+= 1.26.0 =
+
+- overwrite existing options when importing new options
+- add possibility to export privacy, ads.txt and Google AdSense options
+- remove duplicate inline styles for placements with passive cache-busting and activated TCF 2.0 privacy option
+- adjust the Advanced Ads block layout to the default WordPress block layout
+- add migration from Advanced Ads widget to Advanced Ads block
+- fix saving of additional CSS class in Advanced Ads block
+- make placement deletion confirmation dialogue translatable
+- add WebP as allowed image media type for exports
+
+= 1.25.1 =
+
+- fixed a bug that prevented removing placement conditions
+- trim `inline-css` to remove duplicate spaces
+- check if `inline-css` index exists in ad options to prevent undefined index notice
+- move `Advanced_Ads_Inline_Css` class from singleton to one instance per ad, to fix issues with `inline-css` not being added
+- fixed ad edit button visibility in frontend when ad label was activated
+
+= 1.25.0 =
+
+- show ad label event when ad wrapper is now shown
+- add filter `advanced-ads-ajax-ad-select-arguments` to modify arguments of AJAX ad selection
+- display ads on BuddyPress pages when no ads allowed on 404 pages
+- Ad blocker fix: do not copy assets from "vendor" and "lib" folders
+- Ad blocker fix: compare assets based on `filemtime` instead of `filesize`
+- bump minimal require WP core version to 4.9
+- allow to add a replacement for AdSense page-level code
+
+= 1.24.2 =
+
+- fix authenticated (i.e. logged-in) DOM-based XSS vulnerability while creating jQuery object from user input in Safari and IE
+
+= 1.24.1 =
+
+- fix compatibilty with WP prior to 5.0
+
+= 1.24.0 =
+
+- AdSense deprecated Link Units and might no longer fill them. So we removed them when creating new ads. [Learn more](https://wpadvancedads.com/adsense-link-units/)
+- enable AdSense Auto ads on AMP pages
+- interpret WP blocks in the plain text ad type
+- remove MailPoet warning since they are not retiring custom shortcodes after all
+- convert jQuery shorthand functions to `.on()` and `.trigger()`
+- made shortcode button work with WordPress 4.9
+- allow to exclude conditions from the "new display condition" dropdown
+- prevent AdSense earnings box from appearing on non AdSense ad page when AdSense connection is lost
+
+= 1.23.2 =
+
+- reverted erroneously removing plugin author index
+
+= 1.23.1 =
+
+- removed warning about iThemes Security since it is no longer causing the reported issue
+- added correct icon to Advanced Ads block
+- fixed escaping for AdSense Auto ads codes that use the deprecated "Disable Top Level" option
+- fixed TinyMCE warning in dev console
+- replaced `intval()` and `floatval()` with type-casting
+
+= 1.23.0 =
+
+- MailPoet is going to deprecate custom shortcodes. See [this section](https://wpadvancedads.com/mailpoet-newsletters/#Enable_MailPoet_support_in_Advanced_Ads) in case you are using Advanced Ads ads in your newsletters
+- updated Google AdSense API to use web application verification
+- prevent accidental public ad URLs. See [Making the Ads post type public](https://wpadvancedads.com/manual/making-the-ad-post-type-public/) if you want to query ads via a dedicated URL
+- allow to reserve only width or height for plain, rich content and group ad types
+
+= 1.22.2 =
+
+- fix shortcode button within Classic editor and Classic editor block
+
+= 1.22.1 =
+
+- removed "Disable shortcode button" setting after it became obsolete in 1.22.0
+- added the `advanced-ads-disable-shortcode-button` filter to disable the shortcode button
+- removed ads.txt-related warnings when the option is disabled
+- fixed issue with loading of shortcode button in editors that disabled custom buttons, e.g., Elementor
+- fixed JavaScript warnings in Elementor editor
+
+= 1.22.0 =
+
+- made dashboard layout compatible with WordPress 5.6
+- removed irrelevant AdSense warnings
+- allow filtering of data-attributes for encoded ads if privacy module is enabled
+- added `advanced-ads-ad-edit-show-placement-injection` filter to allow removing the placement-injection box on the ad edit screen
+- added `advanced-ads-unhide-meta-boxes` filter to allow adding of meta box ids that should always be visible on ad edit pages
+- added `advanced-ads-ad-option-{$field}` filter for ad options
+- added action hooks for ad status changes: `advanced-ads-ad-status-published`, `advanced-ads-ad-status-unpublished`, `advanced-ads-ad-status-{$old_status}-to-{$new_status}`
+- removed public URLs for single ads on some installations
+- fixed old icon in the menu
+- fixed Internet Explorer 11 incompatibility
+- fixed possible error in TinyMCE editor caused by ad blockers
+
+= 1.21.1 =
+
+- fixed pagination on the ad list page
+- fix Google AdSense non-personalized ads
+
+= 1.21.0 =
+
+- enable Position options for Sidebar placements
+- increased default weight for ads imported to a group from 1 to 5 which is mostly relevant when selling ads to existing placements
+- Ad Health: added body classes that explain plugin behavior at given moment
+- ads.txt: prevented converting special characters into HTML entities
+- show ad overview list even if all ads were moved to trash
+- fixed error when specific ACF function does not exist
+- fixed option to disable ads also on the "Posts page" as set in the WordPress Reading settings
+
+= 1.20.3 =
+
+- whitelist field groups created by Advanced Custom Fields on the ad edit page
+- prevent including AdSense Auto ads code when the Borlabs Cookie is already adding it
+- prevented adding unneeded escape characters to ads.txt file
+- added compatibility with Funding Choices when consent is not needed
+
+= 1.20.2 =
+
+- fixed displaying image ads if privacy method is set to custom cookie
+- fixed scroll to last edited placement with non-English letters
+- fixed minor UI issues
+
+= 1.20.1 =
+
+- don't escape top anchor ads code as a whole, user input has already been escaped
+
+= 1.20.0 =
+
+- integrate with TCF 2.0 compatible consent management platforms, e.g., Quantcast Choices
+- improve timezone methods `Advanced_Ads_Utils::get_wp_timezone()` and `Advanced_Ads_Utils::get_timezone_name()`
+- Divi theme: made content injection work with the "Unlimited ad injection" setting disabled
+- added missing spaces to image ad tags to fix Cache-Busting issue
+- made ad centering work when right and left margin are set
+- add ad health check if __tcfapi responds but the privacy module is either not enabled or not set to TCF 2.0
+- remove duplicate lines from the ads.txt file
+- fixed layout issues that happens due to the JNews theme
+
+= 1.19.1 =
+
+- apply WordPress lazy loading for images to images in ad content
+- layout fixes for WordPress 5.5
+
+= 1.19.0 =
+
+- placements are now ordered by type on the Placements page. You can still choose ordering by name
+- the "custom" option of the Content placement now comes with a picker to select the position in the frontend
+- WPML: placements pages show ads according to the selected language
+- WPML: display the ad in the original language if a translated ad is missing unless the publisher chooses to hide it instead
+- prevented injection of ads into captions of "image" blocks
+- improved bot check
+- fixed layout of expiry data fields
+- fixed broken check for the Responsive add-on
+
+= 1.18.0 =
+
+* inject ads automatically based on div, table, quotes, iframe, and other HTML tags
+* define your own injection rules using the new "custom" option for the Content placement
+* hide Shortcode button in TinyMCE editor by default for new users
+* added `advanced-ads-options` filter for main plugin options
+* prevent automatic ad injection into paragraphs within blockquotes
+* hide placement options after publishing an ad translated with WPML
+* disallowed ad insertion into the header of the WP File Manager's admin page
+
+= 1.17.12 =
+
+* set default name for ads where none was given
+* fixed issue where long option markup could break the group page
+* made placements of type other than "Header Code" work with "Thrive Theme Builder" theme
+
+= 1.17.11 =
+
+* added Datanyze and Ecosia to bots list
+* linked to [Google Ad Manager Integration](https://wpadvancedads.com/add-ons/google-ad-manager/)
+* fixed Layout Key field for AdSense ads not saving new values
+* fixed error that broke the wizard when the URL field of image ads contained a wrong value
+* fixed links to manuals
+* fixed unneeded notification shown when ads are disabled on 404 pages
+
+= 1.17.10 =
+
+* fixed escaped HTML tag in Ad Planning column
+* fixed possible JavaScript error caused by Ad Health checks
+* fixed possible third-party conflict causing the ad group filter to throw an exception
+* removed unneeded notification shown when ads are disabled on 404 pages
+
+= 1.17.9 =
+
+* fixed warning about missing `the_content` filter in WordPress 5.4
+* fixed public warning if the WordPres `widget` function is called with wrong parameters
+* fixed wrong usage of get_current_user
+
+= 1.17.8 =
+
+* WPML: placements now deliver also ads translated with WPML when only one of the language versions was assigned to them
+* fixed delete option in placement form
+
+= 1.17.7 =
+
+* fixed index value of content placements not showing up in the form while saved and working correctly
+* recovered compatibility with the "Render Blocking JS" option of the WP Fastest Cache plugin
+
+= 1.17.6 =
+
+* improved coding style in backend templates
+* prepared for option to allow minimum number of words between ads in Advanced Ads Pro
+* hide notice that warns if the "Disable ads in REST API" option was selected
+* Renad theme: fixed a bug that caused menu item to point to incorrect url instead of theme options
+
+= 1.17.5 =
+
+* fixed ads being injected multiple times when using the Newspaper theme or multiple the_content filters
+
+= 1.17.4 =
+
+* added option and Display Condition to disable ads in content served through the REST API
+* made error notices less obstrusive
+* code style optimizations
+* fixed ad groups form on ad edit page
+* fixed potential conflict with autoloader
+
+= 1.17.3 =
+
+* prevented content injection into specific elements where ads cause issues
+* assign `advads-stop-injection` class to any element into which you don’t want to automatically inject ads
+* fixed possible cURL error when checking existing ads.txt file locally
+
+= 1.17.2 =
+
+* replaced autoloader
+* fixed an issue where an expired ad removed HTML in the ad code
+
+= 1.17.1 =
+
+* fixed failing upload of new image ads
+* fixed Google Ad Manager debug link also showing up when other Google Publisher Tags are used
+
+= 1.17 =
+
+* improved AdSense ad unit list coming from the AdSense API
+* improved "highlight ads" option in Ad Health
+* show notice if AJAX calls are broken
+* added `com.pl` as exception for placing ads.txt files in subdomains
+* removed placeholder for AdSense ads in the Customizer and Elementor editor
+* fix for WP Smush lazy load preventing image ads from showing at all
+
+= 1.16.1 =
+
+* fixed JavaScript that broke privacy module check in the frontend
+* allow to change size of AdSense ads loaded from the AdSense account
+
+= 1.16 =
+
+* moved all users to the new content injection logic and removed opt-out option
+* use new Auto ads code for everyone who didn’t enable the "Disable top anchor ads" option
+* hide "Disable top anchor ads" option to users who didn’t enable it
+* the Ad Admin user role can now also save the plugin settings
+* hide Wizard for existing ads
+* removed warning about WP Autoterms plugin after a fix by the plugin authors
+* some work for Conditions to improve compatibility with an upcoming Pro feature
+* fixed multiple wrappers occurred as result of using nested ads
+* fixed missing index issue on 404 pages for logged-in admins
+* fixed AJAX/PHP error 403 on Settings page
+* fixed layout issue that happened when "If>So Dynamic Content" plugin was active
+* prevented Ad label from taking height of fixed sized AdSense ads

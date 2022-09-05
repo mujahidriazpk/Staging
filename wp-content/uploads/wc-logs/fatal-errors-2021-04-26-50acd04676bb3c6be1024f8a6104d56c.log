@@ -1,0 +1,36 @@
+2021-04-26T08:47:27-07:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:748
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): WooCommerceMusicPlayer->include_main_player_filter('Hello world!')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('Hello world!', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'Hello world!')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-f in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 748
+
+2021-04-26T18:22:44+00:00 CRITICAL Uncaught Error: Call to undefined function track_ad_custom() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/ajax.php:73
+Stack trace:
+#0 {main}
+  thrown in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/ajax.php on line 73
+
+2021-04-26T18:23:45+00:00 CRITICAL Uncaught Error: Call to undefined function track_ad_custom() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/ajax.php:73
+Stack trace:
+#0 {main}
+  thrown in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/ajax.php on line 73
+
+2021-04-26T18:23:48+00:00 CRITICAL Uncaught Error: Call to undefined function track_ad_custom() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/ajax.php:73
+Stack trace:
+#0 {main}
+  thrown in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/ajax.php on line 73
+
+2021-04-26T11:34:58-07:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:748
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): WooCommerceMusicPlayer->include_main_player_filter('SELECT PLAN (no...')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('SELECT PLAN (no...', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'SELECT PLAN (no...')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-tr in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 748
+
+2021-04-26T13:36:56-07:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:748
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): WooCommerceMusicPlayer->include_main_player_filter('')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', '')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 748
+

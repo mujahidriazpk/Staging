@@ -1,0 +1,23 @@
+<span id="UTC_za00" style="font-size:18px;font-weight:bold;"></span>
+<a href="time.is/" id="time_is_link">
+<script src="//widget.time.is/en.js"></script>
+<script src="https://time.is/_countdown_beta.js"></script>
+<script>
+var countDownDate = Date.parse("may 03, 2022 13:00:00 UTC-8");
+//var now = Date.parse(str2+" UTC-8") / 1000;
+time_is_widget.init({
+	UTC_za00 : {
+						id:"UTC_za00",
+						leading_zeros:"automatic",
+						template:'<a href="time.is/" id="time_is_link"></a><table style="width:100%" border="0" cellpadding="0" cellspacing="0"><tr><td style="text-align:left;font-size:18px;"><h1>(days)(hours)(minutes)seconds</h1></td><td></td></tr></table>',
+						countdown_to:countDownDate,
+						units:"short",
+						units_abbr:["y","d","h","m","s"],
+						unit_names:["year","day","hour","minute","second"],
+						units_pl:["years","days","hours","minutes","seconds"],
+						on_0:"Time is up!",
+						headline:''
+					 },
+	});
+	
+</script>

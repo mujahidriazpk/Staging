@@ -1,0 +1,5 @@
+//Copyright timeanddate.com 2021, do not use without permission
+function Fgt(){document.body.scrollTop=0}function Ftf(c,a){var b,d;if(d=a.childNodes){var e=d.length;for(b=0;b<e;b++){var f=d[b];3==f.nodeType?c[c.length]={st:a.style,si:idpref[a.id]}:Ftf(c,f)}}}function Fgp(c,a){var b=c[a];b||(b=c.parentNode[a]);b||(b=1);return b}function Fss(c,a){var b;for(b=0;b<c.length;b++){var d=c[b];var e=d.si?d.si*a:a;10>e&&(e=10);d.st.fontSize=e+"px"}}
+function Fcz(c){if(window.Fa&&window.Fns){var a=Math.floor(Fns*c);a==Fns&&(a=Fns+(1<c?1:-1));Fns=Math.max(10,a);Fss(Fa,Fns)}return!1}
+function Frs(c){var a,b=document.body,d=[];Fa=d;Ftf(d,c);Fns=30;Fss(d,Fns);for(a=0;3>a;a++){var e=b.offsetWidth;var f=document.documentElement?document.documentElement.clientHeight:b.offsetHeight;var k=Fgp(c,"offsetTop");var h=Fgp(c,"scrollWidth");var g=Fgp(c,"scrollHeight");f>k&&(f-=k);h=e/h;g=f/g;g=Math.min(h,g);Fns=Math.floor(g*Fns*.95);10>Fns&&(Fns=10);Fss(d,Fns)}}
+function Frst(){var c=["rs1","rs2","rs3","utc"],a;window.idpref||(window.idpref={});for(a=0;4>a;a++){var b=gf(c[a]);if(b){Frs(b);break}}};

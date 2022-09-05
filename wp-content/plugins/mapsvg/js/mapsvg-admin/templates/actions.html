@@ -1,0 +1,432 @@
+<script type="text/x-handlebars-template" data-name="toolbar">
+    <div class="row">
+        <div class="col-xs-4">
+        </div>
+        <div class="mapsvg-toolbar-title col-xs-4">
+            Actions
+        </div>
+        <div class="col-xs-4">
+        </div>
+    </div>
+</script>
+
+<script type="text/x-handlebars-template" data-name="main">
+    <div class="mapsvg-view-padding">
+        <form class="form-horizontal">
+
+            <div class="form-group">
+
+                <label class="col-sm-3 control-label">On map load</label>
+                <div class="col-sm-9">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[map][afterLoad][selectRegion]" {{#if actions.map.afterLoad.selectRegion}}checked{{/if}} data-live="change"/>
+                            Select a Region by ID passed in a URL
+                        </label>
+                    </div>
+                    <p class="help-block">
+                        If <i>Region ID</i> is passed in a URL after "#/m/" then click on a <em>Region</em> is triggered on map load and all other actions are performed (Region Popover, Details view, etc.).
+                        <br />
+                        Example: <b>example.com/my-map/#/m/USA</b><br />
+                        Also see the option below: <em>"Region click > Add Region ID to the and of URL"</em>
+                    </p>
+                </div>
+
+
+                <label class="col-sm-3 control-label">Region click</label>
+
+                <div class="col-sm-9">
+
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[region][click][addIdToUrl]" {{#if actions.region.click.addIdToUrl}}checked{{/if}} data-live="change"/> Add Region ID to the end of a URL
+                        </label>
+                    </div>
+                    <p class="help-block">
+                        Example: <b>example.com/my-map/#/m/USA</b><br />
+                        If users share a link with that URL and if the action <em>"On map load > Select a Region by ID passed in a URL"</em> is enabled, then
+                        region click will is triggered on map load.
+                    </p>
+
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[region][click][filterDirectory]" {{#if actions.region.click.filterDirectory}}checked{{/if}} data-live="change"/>
+                            Filter directory by Region
+                        </label>
+                    </div>
+
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[region][click][zoom]" {{#if actions.region.click.zoom}}checked{{/if}} data-live="change"/>
+                            Zoom to Region
+                        </label>
+                    </div>
+                    <div class="mapsvg-form-subgroup">
+                        Zoom level
+                            <select class="form-control mapsvg-select2" name="actions[region][click][zoomToLevel]"  data-live="change" >
+                                <option value="">Auto</option>
+                                {{#each zoomLevels}}
+                                    <option {{#ifeq this @root.actions.region.click.zoomToLevel}}selected{{/ifeq}}>{{.}}</option>
+                                {{/each}}
+                            </select>
+                    </div>
+
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[region][click][showDetails]" {{#if actions.region.click.showDetails}}checked{{/if}} data-live="change"/>
+                            Show details view
+                        </label>
+                        <!--<select class="form-control mapsvg-select2" name="actions[region][click][showDetailsFor]" data-live="change">-->
+                            <!--<option value="databaseObject"  {{#ifeq actions.region.click.showDetailsFor "databaseObject"}}selected{{/ifeq}}>Database object associated with the region</option>-->
+                            <!--<option value="region"  {{#ifeq actions.region.click.showDetailsFor "region"}}selected{{/ifeq}}>Region</option>-->
+                        <!--</select>-->
+                        <p class="help-block">
+                            <i>Region</i> object is  passed to <a href="#" class="mapsvg-template-link" data-template="detailsViewRegion"><i>Region details view template</i></a>.
+                        </p>
+                    </div>
+
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[region][click][showPopover]" {{#if actions.region.click.showPopover}}checked{{/if}} data-live="change"/>
+                            Show popover
+                        </label>
+                    </div>
+
+                    <p class="help-block">
+                        <i>Region</i> object is  passed to <a href="#" class="mapsvg-template-link" data-template="popoverRegion"><i>Region popover template</i></a>.
+                    </p>
+                    <p class="help-block">
+                        It is recommended to turn on <em>Settings > Popovers > Center map on popover</em> and <em>Settings > Scroll</em> options to always show popovers in the center of the map.
+                        This prevents contents of popover going outside of the view.
+                    </p>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[region][click][goToLink]" {{#if actions.region.click.goToLink}}checked{{/if}} data-live="change"/>
+                            Go to link
+                        </label>
+                    </div>
+                    <div class="mapsvg-form-subgroup">
+                        Field with URL:
+                        <select class="form-control mapsvg-select2" name="actions[region][click][linkField]" data-live="change">
+                            <option value="">...</option>
+                            {{#if regionFields}}
+                                <optgroup label="Region">
+                                    {{#each regionFields}}
+                                        <option {{#ifeq ../actions.region.click.linkField this}}selected{{/ifeq}}>{{this}}</option>
+                                    {{/each}}
+                                </optgroup>
+                            {{/if}}
+                                <!--{{#if databaseFields}}-->
+                            <!--<optgroup label="Database Object">-->
+                                <!--{{#each databaseFields}}-->
+                                <!--<option {{#ifeq ../actions.region.click.linkField this}}selected{{/ifeq}}>{{this}}</option>-->
+                                    <!--{{/each}}-->
+                            <!--</optgroup>-->
+                                <!--{{/if}}-->
+                        </select>
+                        <div class="checkbox" style="margin-top: 5px;">
+                            <label>
+                                <input type="checkbox" name="actions[region][click][newTab]" {{#if actions.region.click.newTab}}checked{{/if}} data-live="change"/>
+                                Open link in a new tab
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="checkbox" style="margin-top: 10px;">
+                        <label>
+                            <input type="checkbox" name="actions[region][click][showAnotherMap]" {{#if actions.region.click.showAnotherMap}}checked{{/if}} data-live="change"/>
+                            Show another map
+                        </label>
+                    </div>
+                    <div class="mapsvg-form-subgroup">
+                        Field with map ID
+                        <select class="form-control mapsvg-select2" name="actions[region][click][showAnotherMapField]" data-live="change">
+                            <option value="">...</option>
+                            {{#if regionFields}}
+                                <optgroup label="Region">
+                                    {{#each regionFields}}
+                                        <option {{#ifeq ../actions.region.click.showAnotherMapField this}}selected{{/ifeq}}>{{this}}</option>
+                                    {{/each}}
+                                </optgroup>
+                            {{/if}}
+                        </select>
+
+                        <div class="radio" style="margin-top: 10px;">
+                            <!--<label>-->
+                                <!--<input type="radio" name="actions[region][click][showAnotherMapSameContainer]" value="1" {{#if actions.region.click.showAnotherMapSameContainer}}checked{{/if}} data-live="change"/>-->
+                                <!--Show new map in the same container-->
+                            <!--</label>-->
+                            <!--<label>-->
+                                <!--<input type="radio" name="actions[region][click][showAnotherMapSameContainer]"  value="0" {{#if actions.region.click.showAnotherMapSameContainer}}checked{{/if}} data-live="change"/>-->
+                                <!--Container ID:-->
+                            <!--</label>-->
+                            Container ID<br />
+                            <input class="form-control" type="text" name="actions[region][click][showAnotherMapContainerId]" value="{{actions.region.click.showAnotherMapContainerId}}" data-live="keyup"/>
+                            <p class="help-block">By default a new map is loaded into the same container, replacing the current map. You can provide a custom container ID if you want to keep both maps.</p>
+                        </div>
+                     </div>
+
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Region touch</label>
+                <div class="col-sm-9">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[region][touch][showPopover]" {{#if actions.region.touch.showPopover}}checked{{/if}} data-live="change"/>
+                            Show popover
+                        </label>
+                    </div>
+                    <p class="help-block">
+                        <i>Region</i> object is  passed to <a href="#" class="mapsvg-template-link" data-template="popoverRegion"><i>Region popover template</i></a>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Marker click</label>
+                <div class="col-sm-9">
+
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[marker][click][showDetails]" {{#if actions.marker.click.showDetails}}checked{{/if}} data-live="change"/>
+                            Show details view
+                        </label>
+                    </div>
+                    <p class="help-block">
+                        Parent <i>Database object</i> of the Marker is  passed to <a href="#" class="mapsvg-template-link" data-template="detailsView"><i>DB Object details view template</i></a>.
+                    </p>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[marker][click][showPopover]" {{#if actions.marker.click.showPopover}}checked{{/if}} data-live="change"/>
+                            Show popover
+                        </label>
+                    </div>
+                    <p class="help-block">
+                        Parent <i>Database object</i> of the Marker is  passed to <a href="#" class="mapsvg-template-link" data-template="popoverMarker"><i>DB Object popover template</i></a> .
+                    </p>
+                    <p class="help-block">
+                        It is recommended to turn on <em>Settings > Popovers > Center map on popover</em> and <em>Settings > Scroll</em> options to always show popovers in center of the map.
+                        That prevents contents of popover going outside of the view.
+                    </p>
+
+
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[marker][click][zoom]" {{#if actions.marker.click.zoom}}checked{{/if}} data-live="change"/>
+                            Zoom to Marker
+                        </label>
+                    </div>
+                    <div class="mapsvg-form-subgroup">
+                        Zoom level
+                        <select class="form-control mapsvg-select2" name="actions[marker][click][zoomToLevel]"  data-live="change" >
+                            <option value="">Auto</option>
+                            {{#each zoomLevels}}
+                                <option {{#ifeq this @root.actions.marker.click.zoomToLevel}}selected{{/ifeq}}>{{.}}</option>
+                            {{/each}}
+                        </select>
+                    </div>
+
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[marker][click][goToLink]" {{#if actions.marker.click.goToLink}}checked{{/if}} data-live="change"/>
+                            Go to link
+                        </label>
+                    </div>
+                    <div class="mapsvg-form-subgroup">
+                        Field with URL:
+                        <select class="form-control mapsvg-select2" name="actions[marker][click][linkField]" data-live="change">
+                            <option value="">...</option>
+                            {{#if databaseFields}}
+                                <optgroup label="Database Object">
+                                    {{#each databaseFields}}
+                                        <option {{#ifeq ../actions.marker.click.linkField this}}selected{{/ifeq}}>{{this}}</option>
+                                    {{/each}}
+                                </optgroup>
+                            {{/if}}
+                        </select>
+                        <div class="checkbox" style="margin-top: 5px;">
+                            <label>
+                                <input type="checkbox" name="actions[marker][click][newTab]" {{#if actions.marker.click.newTab}}checked{{/if}} data-live="change"/>
+                                Open link in a new tab
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Marker touch</label>
+                <div class="col-sm-9">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[marker][touch][showPopover]" {{#if actions.marker.touch.showPopover}}checked{{/if}} data-live="change"/>
+                            Show popover
+                        </label>
+                    </div>
+                    <p class="help-block">
+                        Parent <i>Database Object</i> of the Marker is passed to <a href="#" class="mapsvg-template-link" data-template="popoverMarker"><i>DB Object popover template</i></a>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Directory item click</label>
+                <div class="col-sm-9">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[directoryItem][click][showDetails]" {{#if actions.directoryItem.click.showDetails}}checked{{/if}} data-live="change"/>
+                            Show details view
+                        </label>
+                    </div>
+                    <p class="help-block">
+                        You have chosen <i>Directory > Source > [<span id="mapsvg-dir-source">{{directorySource}}</span>]</i>. Clicked <i><span id="mapsvg-dir-object">{{directoryObject}}</span></i> in directory is  passed to <i><a href="#" id="mapsvg-dir-link" class="mapsvg-template-link" data-template="detailsView">DB Object details view template</a></i>.
+                    </p>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[directoryItem][click][selectRegion]" {{#if actions.directoryItem.click.selectRegion}}checked{{/if}} data-live="change"/>
+                            Select associated Region(s)
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[directoryItem][click][fireRegionOnClick]" {{#if actions.directoryItem.click.fireRegionOnClick}}checked{{/if}} data-live="change"/>
+                            Trigger <i>click</i> event for associated Region(s)
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[directoryItem][click][fireMarkerOnClick]" {{#if actions.directoryItem.click.fireMarkerOnClick}}checked{{/if}} data-live="change"/>
+                            Trigger <i>click</i> event for associated Marker
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[directoryItem][click][showRegionPopover]" {{#if actions.directoryItem.click.showRegionPopover}}checked{{/if}} data-live="change"/>
+                            Trigger <i>show popover</i> action for associated Region (if more that 1 Region is attached - popover is shown only for the first one)
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[directoryItem][click][showMarkerPopover]" {{#if actions.directoryItem.click.showMarkerPopover}}checked{{/if}} data-live="change"/>
+                            Trigger <i>show popover</i> action for associated Marker
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[directoryItem][click][zoom]" {{#if actions.directoryItem.click.zoom}}checked{{/if}} data-live="change"/>
+                            Zoom to associated Region(s)
+                        </label>
+                    </div>
+                    <div class="mapsvg-form-subgroup">
+                        Zoom level
+                        <select class="form-control mapsvg-select2" name="actions[directoryItem][click][zoomToLevel]"  data-live="change">
+                            <option value="">Auto</option>
+                            {{#each zoomLevels}}
+                                <option {{#ifeq this @root.actions.directoryItem.click.zoomToLevel}}selected{{/ifeq}}>{{.}}</option>
+                            {{/each}}
+
+                        </select>
+                    </div>
+
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[directoryItem][click][zoomToMarker]" {{#if actions.directoryItem.click.zoomToMarker}}checked{{/if}} data-live="change"/>
+                            Zoom to associated Marker
+                        </label>
+                    </div>
+                    <div class="mapsvg-form-subgroup">
+                        Zoom level
+                        <select class="form-control mapsvg-select2" name="actions[directoryItem][click][zoomToMarkerLevel]"  data-live="change">
+                            <option value="">Auto</option>
+                            {{#each zoomLevels}}
+                                <option {{#ifeq this @root.actions.directoryItem.click.zoomToMarkerLevel}}selected{{/ifeq}}>{{.}}</option>
+                            {{/each}}
+                        </select>
+                    </div>
+
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[directoryItem][click][goToLink]" {{#if actions.directoryItem.click.goToLink}}checked{{/if}} data-live="change"/>
+                            Go to link
+                        </label>
+                    </div>
+                    <div class="mapsvg-form-subgroup">
+                        Field with URL:
+                        <select class="form-control mapsvg-select2" name="actions[directoryItem][click][linkField]" data-live="change">
+                            <option value="">...</option>
+                            {{#if regionFields}}
+                                <optgroup label="Region">
+                                    {{#each regionFields}}
+                                        <option {{#ifeq ../actions.directoryItem.click.linkField this}}selected{{/ifeq}}>{{this}}</option>
+                                    {{/each}}
+                                </optgroup>
+                            {{/if}}
+                            {{#if databaseFields}}
+                                <optgroup label="Database Object">
+                                    {{#each databaseFields}}
+                                        <option {{#ifeq ../actions.directoryItem.click.linkField this}}selected{{/ifeq}}>{{this}}</option>
+                                    {{/each}}
+                                </optgroup>
+                            {{/if}}
+                        </select>
+                        <div class="checkbox" style="margin-top: 5px;">
+                            <label>
+                                <input type="checkbox" name="actions[directoryItem][click][newTab]" {{#if actions.directoryItem.click.newTab}}checked{{/if}} data-live="change"/>
+                                Open link in a new tab
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="checkbox" style="margin-top: 10px;">
+                        <label>
+                            <input type="checkbox" name="actions[directoryItem][click][showAnotherMap]" {{#if actions.directoryItem.click.showAnotherMap}}checked{{/if}} data-live="change"/>
+                            Show another map
+                        </label>
+                    </div>
+                    <div class="mapsvg-form-subgroup">
+                        Field with map ID
+                        <select class="form-control mapsvg-select2" name="actions[directoryItem][click][showAnotherMapField]" data-live="change">
+                            <option value="">...</option>
+                            {{#if regionFields}}
+                                <optgroup label="Region">
+                                    {{#each regionFields}}
+                                        <option {{#ifeq ../actions.directoryItem.click.showAnotherMapField this}}selected{{/ifeq}}>{{this}}</option>
+                                    {{/each}}
+                                </optgroup>
+                            {{/if}}
+                        </select>
+
+                        <div class="radio" style="margin-top: 10px;">
+                            <!--<label>-->
+                                <!--<input type="radio" name="actions[directoryItem][click][showAnotherMapSameContainer]" value="1" {{#if actions.directoryItem.click.showAnotherMapSameContainer}}checked{{/if}} data-live="change"/>-->
+                                <!--Open map in the same container-->
+                            <!--</label>-->
+                            <!--<label>-->
+                                <!--<input type="radio" name="actions[directoryItem][click][showAnotherMapSameContainer]"  value="0" {{#if actions.directoryItem.click.showAnotherMapSameContainer}}checked{{/if}} data-live="change"/>-->
+                                Container ID
+                            <!--</label>-->
+                            <input class="form-control" type="text" name="actions[directoryItem][click][showAnotherMapContainerId]" value="{{actions.directoryItem.click.showAnotherMapContainerId}}" data-live="keyup"/>
+                            <p class="help-block">By default a new map is loaded into the same container, replacing the current map. You can provide a custom container ID if you want to keep both maps.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Directory item hover</label>
+                <div class="col-sm-9">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="actions[directoryItem][hover][centerOnMarker]" {{#if actions.directoryItem.hover.centerOnMarker}}checked{{/if}} data-live="change"/>
+                            Center on Marker
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</script>

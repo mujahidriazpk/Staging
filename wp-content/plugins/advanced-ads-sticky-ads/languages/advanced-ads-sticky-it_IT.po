@@ -1,0 +1,308 @@
+# Translation of Sticky Ads in Italian
+# This file is distributed under the same license as the Sticky Ads package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-01-01 16:59:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: it\n"
+"Project-Id-Version: Sticky Ads\n"
+
+#. Author of the plugin
+msgid "Thomas Maier, Advanced Ads GmbH"
+msgstr "Thomas Maier, Advanced Ads GmbH"
+
+#. Author URI of the plugin
+msgid "http://wpadvancedads.com"
+msgstr "http://wpadvancedads.com"
+
+#. URI of the plugin
+msgid "http://wpadvancedads.com/add-ons/sticky-ads/"
+msgstr "http://wpadvancedads.com/add-ons/sticky-ads/"
+
+#. Description of the plugin
+msgid "Advanced ad positioning."
+msgstr "Posizionamento avanzato dell'annuncio."
+
+#. Name of the plugin
+msgid "Advanced Ads – Sticky Ads"
+msgstr "Advanced Ads – Sticky Ads"
+
+#: admin/views/vertical-center.php:3
+msgid "center vertically"
+msgstr "centra verticalmente"
+
+#: admin/views/trigger.php:11
+msgid "after %s seconds"
+msgstr "dopo %s secondi"
+
+#: admin/views/trigger.php:8
+msgid "right away with effect"
+msgstr "subito con effetto"
+
+#: admin/views/trigger.php:7
+msgid "right away"
+msgstr "subito"
+
+#: admin/views/size.php:11
+msgid "Needed in case the ad does not center correctly"
+msgstr "Necessario nel caso in cui l'annuncio non si centrasse correttamente"
+
+#: admin/views/size.php:7
+msgid "height"
+msgstr "altezza"
+
+#: admin/views/size.php:3
+msgid "width"
+msgstr "larghezza"
+
+#: admin/views/metabox.php:46
+msgid "bottom"
+msgstr "in basso"
+
+#: admin/views/metabox.php:36
+msgid "top"
+msgstr "in alto"
+
+#: admin/views/metabox.php:32
+msgid "Use numbers in every field you want to be considered for positioning (top, left, right, bottom of the page). Leave a field empty to not set a position for this side. The number is considered to be in pixels."
+msgstr "Usa i numeri in ogni campo che vuoi considerare per il posizionamento (in alto, a sinistra, a destra, in fondo alla pagina). Lascia un campo vuoto per non impostare una posizione per questo lato. Il numero è considerato in pixel."
+
+#: admin/views/metabox.php:31
+msgid "Define position manually"
+msgstr "Definisci la posizione manualmente"
+
+#: admin/views/metabox.php:27
+msgid "banner width"
+msgstr "larghezza del banner"
+
+#: admin/views/metabox.php:26
+msgid "Enter banner width to correctly center the ad."
+msgstr "Inserisci la larghezza del banner per centrare correttamente l'annuncio."
+
+#: admin/views/metabox.php:23
+msgid "bottom right"
+msgstr "in basso a destra"
+
+#: admin/views/metabox.php:22
+msgid "bottom center"
+msgstr "in basso al centro"
+
+#: admin/views/metabox.php:21
+msgid "bottom left"
+msgstr "in basso a sinistra"
+
+#: admin/views/metabox.php:18
+msgid "center right"
+msgstr "centro destra"
+
+#: admin/views/metabox.php:17
+msgid "center"
+msgstr "centro"
+
+#: admin/views/metabox.php:16
+msgid "center left"
+msgstr "centro sinistra"
+
+#: admin/views/metabox.php:13
+msgid "top right"
+msgstr "in alto a destra"
+
+#: admin/views/metabox.php:12
+msgid "top center"
+msgstr "in alto al centro"
+
+#: admin/views/metabox.php:11
+msgid "top left"
+msgstr "in alto a sinistra"
+
+#: admin/views/metabox.php:7
+msgid "Choose a position on the screen."
+msgstr "Scegli una posizione sullo schermo."
+
+#: admin/views/metabox.php:6
+msgid "Select a position"
+msgstr "Scegli una posizione"
+
+#: admin/views/metabox.php:3
+msgid "Stick ad to a specific position on the screen"
+msgstr "Fissa annuncio in una posizione specifica sullo schermo"
+
+#: admin/views/metabox.php:1
+msgid "These settings are deprecated. Sticky ads are now managed through <a href=\"%s\">placements</a>. Please convert your settings as soon as possible."
+msgstr "Queste impostazioni sono deprecate. Gli annunci persistenti sono ora gestiti attraverso <a href=\"%s\">posizionamenti</a>. Converti le impostazioni il più presto possibile."
+
+#: admin/views/effects.php:12
+msgid "Duration of the effect (in milliseconds)."
+msgstr "Durata dell'effetto (in millisecondi)."
+
+#: admin/views/effects.php:9
+msgid "Type of effect when the ad is being displayed"
+msgstr "Tipo di effetto quando viene visualizzato l'annuncio"
+
+#: admin/views/effects.php:8
+msgid "Slide in"
+msgstr "Scivola dentro"
+
+#: admin/views/effects.php:7
+msgid "Fade in"
+msgstr "Dissolvenza in entrata"
+
+#: admin/views/effects.php:6
+msgid "Show"
+msgstr "Mostra"
+
+#: admin/views/close-button.php:26
+msgid "days, 0 = after current session"
+msgstr "giorni, 0 = dopo la sessione corrente"
+
+#: admin/views/close-button.php:24
+msgid "close the ad for …"
+msgstr "chiudi l'annuncio per ..."
+
+#: admin/views/close-button.php:22
+msgid "enable timeout"
+msgstr "abilita il timeout"
+
+#: admin/views/close-button.php:21 admin/views/metabox.php:42
+msgid "right"
+msgstr "destra"
+
+#: admin/views/close-button.php:20 admin/views/metabox.php:40
+msgid "left"
+msgstr "sinistra"
+
+#: admin/views/close-button.php:18
+msgid "inside"
+msgstr "dentro"
+
+#: admin/views/close-button.php:17
+msgid "outside"
+msgstr "esternamente"
+
+#: admin/views/close-button.php:14
+msgid "add close button"
+msgstr "aggiungi pulsante chiudi"
+
+#: public/public.php:747
+msgid "close"
+msgstr "chiudi"
+
+#: admin/admin.php:437
+msgid "parent element"
+msgstr "elemento genitore"
+
+#: admin/admin.php:432
+msgid "Use <a href=\"https://api.jquery.com/category/selectors/\" target=\"_blank\">jQuery selectors</a> to select a custom parent element or if automatic wrapper detection doesn’t work, e.g. #container_id, .container_class"
+msgstr "Usa <a href=\"https://api.jquery.com/category/selectors/\" target=\"_blank\">selettori jQuery</a> per selezionare un elemento genitore personalizzato o se il rilevamento automatico del wrapper non funziona, es. #container_id, .container_class"
+
+#: admin/admin.php:430
+msgid "select position"
+msgstr "seleziona posizione"
+
+#: admin/admin.php:422 admin/admin.php:500 admin/views/close-button.php:16
+msgid "Position"
+msgstr "Posizione"
+
+#: admin/admin.php:416 admin/admin.php:494
+msgid "fix to window position"
+msgstr "fissa a posizione della finestra"
+
+#: admin/admin.php:383 admin/admin.php:460 admin/admin.php:523
+msgid "size"
+msgstr "dimensione"
+
+#: admin/admin.php:370 admin/admin.php:447 admin/admin.php:510
+msgid "close button"
+msgstr "pulsante chiudi"
+
+#: admin/admin.php:360 admin/admin.php:409 admin/admin.php:487
+msgid "effect"
+msgstr "effetto"
+
+#: admin/admin.php:350 admin/admin.php:399 admin/admin.php:477
+msgid "show the ad"
+msgstr "mostra l'annuncio"
+
+#: admin/admin.php:340
+msgid "background"
+msgstr "sfondo"
+
+#: admin/admin.php:335
+msgid "When selecting a background color, the sticky bar will cover the whole screen width."
+msgstr "Quando si seleziona un colore di sfondo, la barra adesiva coprirà l'intera larghezza dello schermo."
+
+#: admin/admin.php:304
+msgid "Bar on the right side of the window."
+msgstr "Barra sul lato destro della finestra."
+
+#: admin/admin.php:303
+msgid "Right Bar"
+msgstr "Barra destra"
+
+#: admin/admin.php:298
+msgid "Bar on the left side of the window."
+msgstr "Barra sul lato sinistro della finestra."
+
+#: admin/admin.php:297
+msgid "Left Bar"
+msgstr "Barra sinistra"
+
+#: admin/admin.php:292
+msgid "Sidebar on the right side of the content wrapper."
+msgstr "Barra laterale sul lato destro del contentenuto del wrapper."
+
+#: admin/admin.php:291
+msgid "Right Sidebar"
+msgstr "Barra destra"
+
+#: admin/admin.php:286
+msgid "Sidebar on the left side of the content wrapper."
+msgstr "Barra laterale sul lato sinistro del contenuto del wrapper."
+
+#: admin/admin.php:285
+msgid "Left Sidebar"
+msgstr "Barra laterale sinistra"
+
+#: admin/admin.php:280
+msgid "Fixed footer bar."
+msgstr "Barra footer fixed."
+
+#: admin/admin.php:279
+msgid "Footer Bar"
+msgstr "Barra footer"
+
+#: admin/admin.php:274
+msgid "Fixed header bar."
+msgstr "Barra header fixed."
+
+#: admin/admin.php:273
+msgid "Header Bar"
+msgstr "Barra header"
+
+#: admin/admin.php:259
+msgid "Activate this if you experience problems with sticky ads and/or a lot of your visitors use old mobile devices. It will check browser capability and position the ad inline after scrolling. Technically speaking: removes <em>position: fixed</em>, if not supported."
+msgstr "Attiva questa opzione se riscontri problemi con annunci persistenti e/o molti visitatori utilizzano vecchi dispositivi mobili. Verificherà la capacità del browser e posizionerà l'annuncio in linea dopo lo scorrimento. Parlando tecnicamente: rimuove <em>position: fixed</em>, se non supportato."
+
+#: admin/admin.php:247
+msgid "Settings for the Sticky Ads add-on"
+msgstr "Impostazioni per Sticky Ads add-on"
+
+#: admin/admin.php:216
+msgid "Check browser capability"
+msgstr "Controlla la capacità del browser"
+
+#: admin/admin.php:81
+msgid "<strong>%s</strong> requires the <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> plugin to be installed and activated on your site."
+msgstr "<strong>%s</strong> richiede che il plugin <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> sia installato ed attivato sul tuo sito."
+
+#: admin/admin.php:77
+msgid "Install Now"
+msgstr "Installa ora"
+
+#: admin/admin.php:75
+msgid "Activate Now"
+msgstr "Attiva ora"

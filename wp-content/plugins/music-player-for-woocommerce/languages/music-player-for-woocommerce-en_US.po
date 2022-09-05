@@ -1,0 +1,727 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: music-player-for-woocommerce\n"
+"POT-Creation-Date: 2022-08-06 02:02+0200\n"
+"PO-Revision-Date: 2022-08-06 02:02+0200\n"
+"Last-Translator: CodePeople\n"
+"Language-Team: CodePeople\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: addons/ap-compact-audio-player.addon.php:33
+msgid "Use Compact Audio Player instead of the current plugin players"
+msgstr ""
+
+#: addons/ap-compact-audio-player.addon.php:33
+msgid "Use \"Compact Audio Player\" instead of the current plugin players"
+msgstr ""
+
+#: addons/ap-compact-audio-player.addon.php:35
+#: addons/ap-cp-media-player.addon.php:76
+#: addons/ap-html5-audio-player.addon.php:37 addons/ap-mp3-jplayer.addon.php:35
+msgid ""
+"The player functions configured above do not apply, except for audio "
+"protection if applicable.<br>This player <b>will take precedence</b> over "
+"the player configured in the products' settings."
+msgstr ""
+
+#: addons/ap-compact-audio-player.addon.php:36
+msgid ""
+"The \"Compact WP Audio Player\" plugin is not installed on your WordPress."
+msgstr ""
+
+#: addons/ap-cp-media-player.addon.php:72
+msgid "Use CP Media Player instead of the current plugin players"
+msgstr ""
+
+#: addons/ap-cp-media-player.addon.php:72
+msgid "Use \"CP Media Player\" instead of the current plugin players"
+msgstr ""
+
+#: addons/ap-cp-media-player.addon.php:73
+msgid "Select player skin"
+msgstr ""
+
+#: addons/ap-cp-media-player.addon.php:77
+msgid "The \"CP Media Player\" plugin is not installed on your WordPress."
+msgstr ""
+
+#: addons/ap-html5-audio-player.addon.php:35
+msgid "Use HTML5 Audio Player instead of the current plugin players"
+msgstr ""
+
+#: addons/ap-html5-audio-player.addon.php:35
+msgid "Use \"HTML5 Audio Player\" instead of the current plugin players"
+msgstr ""
+
+#: addons/ap-html5-audio-player.addon.php:38
+msgid "The \"HTML5 Audio Player\" plugin is not installed on your WordPress."
+msgstr ""
+
+#: addons/ap-mp3-jplayer.addon.php:33
+msgid "Use MP3 jPlayer instead of the current plugin players"
+msgstr ""
+
+#: addons/ap-mp3-jplayer.addon.php:33
+msgid "Use \"MP3 jPlayer\" instead of the current plugin players"
+msgstr ""
+
+#: addons/ap-mp3-jplayer.addon.php:36
+msgid "The \"MP3 jPlayer\" plugin is not installed on your WordPress."
+msgstr ""
+
+#: addons/dokan.addon.php:26
+msgid "Activate the Dokan add-on"
+msgstr ""
+
+#: addons/dokan.addon.php:26
+msgid ""
+"If the \"Dokan Multivendor\" plugin is installed on the website, check the "
+"checkbox to allow vendors to configure their music players."
+msgstr ""
+
+#: addons/dokan.addon.php:27 addons/wcfm.addon.php:27 addons/wcv.addon.php:37
+msgid "Hide settings"
+msgstr ""
+
+#: addons/dokan.addon.php:27 addons/wcfm.addon.php:27 addons/wcv.addon.php:37
+msgid "Hides the players settings from vendors interface."
+msgstr ""
+
+#: addons/dokan/player_options.php:9 views/player_options.php:318
+msgid "File Name"
+msgstr ""
+
+#: addons/dokan/player_options.php:10
+msgid "Choose file"
+msgstr ""
+
+#: addons/dokan/player_options.php:11
+msgid "Delete"
+msgstr ""
+
+#: addons/dokan/player_options.php:12
+msgid "Select audio file"
+msgstr ""
+
+#: addons/dokan/player_options.php:13
+msgid "Select Item"
+msgstr ""
+
+#: addons/dokan/player_options.php:48
+msgid "Music Player Settings"
+msgstr ""
+
+#: addons/dokan/player_options.php:53
+msgid "<p>The player uses the audio files associated to the product.</b></p>"
+msgstr ""
+
+#: addons/dokan/player_options.php:61
+msgid "[+|-] Tips"
+msgstr ""
+
+#: addons/dokan/player_options.php:67
+msgid "[+|-] Using the audio files stored on Google Drive"
+msgstr ""
+
+#: addons/dokan/player_options.php:75 views/player_options.php:76
+msgid ""
+"Go to Drive, press the right click on the file to use, and select the "
+"option: <b>\"Get Shareable Link\"</b>"
+msgstr ""
+
+#: addons/dokan/player_options.php:83 views/player_options.php:84
+msgid ""
+"The previous action will generate an url with the structure: <b>https://"
+"drive.google.com/open?id=FILE_ID</b>"
+msgstr ""
+
+#: addons/dokan/player_options.php:93
+msgid ""
+"Knowing the FILE_ID, extracted from the previous URL, enter the URL below, "
+"into the WooCommerce product, to allow the Music Player accessing to it:"
+msgstr ""
+
+#: addons/dokan/player_options.php:104 views/player_options.php:105
+msgid ""
+"<b>Note:</b> Pay attention to the use of the fake parameter: <b>&.mp3</b> as "
+"the last one in the URL"
+msgstr ""
+
+#: addons/dokan/player_options.php:114
+msgid "[+|-] Using the audio files stored on DropBox"
+msgstr ""
+
+#: addons/dokan/player_options.php:122 views/player_options.php:123
+msgid ""
+"Sign in to <a href=\"https://www.dropbox.com/login\" target=\"_blank"
+"\">dropbox.com </a>"
+msgstr ""
+
+#: addons/dokan/player_options.php:132 views/player_options.php:133
+msgid ""
+"Hover your cursor over the file or folder you'd like to share and click "
+"<b>Share</b> when it appears."
+msgstr ""
+
+#: addons/dokan/player_options.php:142
+msgid ""
+"If a link hasn't been created, click Create a link. (If a link was already "
+"created, click Copy link."
+msgstr ""
+
+#: addons/dokan/player_options.php:150 views/player_options.php:151
+msgid ""
+"The link structure would be similar to:<br> https://www.dropbox.com/s/"
+"rycvgn8iokfedmo/file.mp3?dl=0"
+msgstr ""
+
+#: addons/dokan/player_options.php:160 views/player_options.php:161
+msgid ""
+"Enter the URL into the WooCommerce product with the following structure:<br> "
+"https://www.dropbox.com/s/rycvgn8iokfedmo/file.mp3?dl=1&.mp3"
+msgstr ""
+
+#: addons/dokan/player_options.php:168 views/player_options.php:169
+msgid ""
+"<b>Note:</b> Pay attention to the use of the fake parameter: <b>&.mp3</b> as "
+"the last one in the URL. Furthermore, the parameter <b>dl=0</b>, has been "
+"modified as <b>dl=1</b>"
+msgstr ""
+
+#: addons/dokan/player_options.php:181 views/global_options.php:264
+#: views/player_options.php:186
+msgid "Enable player"
+msgstr ""
+
+#: addons/dokan/player_options.php:181
+msgid ""
+"The player is shown only if the product is \"downloadable\" with at least an "
+"audio file between the \"Downloadable files\", or you have selected your own "
+"audio files"
+msgstr ""
+
+#: addons/dokan/player_options.php:181
+msgid "Include music player"
+msgstr ""
+
+#: addons/dokan/player_options.php:185
+msgid "Include in"
+msgstr ""
+
+#: addons/dokan/player_options.php:187
+msgid "Include on products pages only"
+msgstr ""
+
+#: addons/dokan/player_options.php:188 views/global_options.php:270
+#: views/player_options.php:192
+msgid "single-entry pages <i>(Product's page only)</i>"
+msgstr ""
+
+#: addons/dokan/player_options.php:190 views/player_options.php:194
+msgid "Include on multiple-entry pages"
+msgstr ""
+
+#: addons/dokan/player_options.php:191 views/global_options.php:273
+#: views/player_options.php:195
+msgid ""
+"multiple entries pages <i>(Shop pages, archive pages, but not in the "
+"product's page)</i>"
+msgstr ""
+
+#: addons/dokan/player_options.php:193
+msgid "Include on products and multiple-entry pages"
+msgstr ""
+
+#: addons/dokan/player_options.php:194 views/global_options.php:276
+#: views/player_options.php:198
+msgid "all pages <i>(with single or multiple-entries)</i>"
+msgstr ""
+
+#: addons/dokan/player_options.php:198 addons/dokan/player_options.php:199
+#: views/global_options.php:287 views/player_options.php:203
+msgid "Merge in grouped products"
+msgstr ""
+
+#: addons/dokan/player_options.php:200
+msgid ""
+"In grouped products, display the \"Add to cart\" buttons and quantity fields "
+"in the players rows"
+msgstr ""
+
+#: addons/dokan/player_options.php:203 widgets/playlist_widget.php:76
+msgid "Player layout"
+msgstr ""
+
+#: addons/dokan/player_options.php:206 views/global_options.php:294
+#: views/global_options.php:295 views/player_options.php:210
+#: views/player_options.php:211
+msgid "Skin 1"
+msgstr ""
+
+#: addons/dokan/player_options.php:211 views/global_options.php:300
+#: views/player_options.php:215 views/player_options.php:216
+msgid "Skin 2"
+msgstr ""
+
+#: addons/dokan/player_options.php:216 views/global_options.php:304
+#: views/global_options.php:305 views/player_options.php:220
+#: views/player_options.php:221
+msgid "Skin 3"
+msgstr ""
+
+#: addons/dokan/player_options.php:222 widgets/playlist_widget.php:92
+msgid "Preload"
+msgstr ""
+
+#: addons/dokan/player_options.php:224 views/global_options.php:315
+#: views/player_options.php:231
+msgid "Preload - none"
+msgstr ""
+
+#: addons/dokan/player_options.php:225 views/global_options.php:317
+#: views/player_options.php:233
+msgid "Preload - metadata"
+msgstr ""
+
+#: addons/dokan/player_options.php:226 views/global_options.php:319
+#: views/player_options.php:235
+msgid "Preload - auto"
+msgstr ""
+
+#: addons/dokan/player_options.php:230 views/global_options.php:328
+#: views/player_options.php:244 widgets/playlist_widget.php:88
+msgid "Play all"
+msgstr ""
+
+#: addons/dokan/player_options.php:233
+msgid "Player controls"
+msgstr ""
+
+#: addons/dokan/player_options.php:235 views/global_options.php:353
+#: views/player_options.php:257
+msgid "Play/pause button"
+msgstr ""
+
+#: addons/dokan/player_options.php:235
+msgid "the play/pause button only"
+msgstr ""
+
+#: addons/dokan/player_options.php:236 views/global_options.php:354
+#: views/player_options.php:258
+msgid "All controls"
+msgstr ""
+
+#: addons/dokan/player_options.php:236
+msgid "all controls"
+msgstr ""
+
+#: addons/dokan/player_options.php:237 views/global_options.php:355
+#: views/player_options.php:259
+msgid "Depending on context"
+msgstr ""
+
+#: addons/dokan/player_options.php:237
+msgid "the play/pause button only, or all controls depending on context"
+msgstr ""
+
+#: addons/dokan/player_options.php:239
+msgid "Player on cover"
+msgstr ""
+
+#: addons/dokan/player_options.php:241
+msgid "for play/pause button players display them on cover images."
+msgstr ""
+
+#: addons/dokan/player_options.php:242
+msgid ""
+"(This feature is experimental, and will depend on the theme active on the "
+"website.)"
+msgstr ""
+
+#: addons/dokan/player_options.php:247
+msgid "Display the player's title"
+msgstr ""
+
+#: addons/dokan/player_options.php:247
+msgid "Display player title"
+msgstr ""
+
+#: addons/wcfm.addon.php:26
+msgid "Activate the WCFM add-on"
+msgstr ""
+
+#: addons/wcfm.addon.php:26
+msgid ""
+"If the \"WCFM - Marketplace\" plugin is installed on the website, check the "
+"checkbox to allow vendors to configure their music players."
+msgstr ""
+
+#: addons/wcfm.addon.php:45
+msgid "Music Player"
+msgstr ""
+
+#: addons/wcv.addon.php:36
+msgid "Activate the WC Vendors add-on"
+msgstr ""
+
+#: addons/wcv.addon.php:36
+msgid "Activate the WC Vendors add-on (Experimental add-on)"
+msgstr ""
+
+#: addons/wcv.addon.php:36
+msgid ""
+"If the \"WC Vendors\" plugin is installed on the website, check the checkbox "
+"to allow vendors to configure their music players."
+msgstr ""
+
+#: pagebuilders/beaverbuilder/wcmp.inc.php:8
+msgid "Enter the products ids and the rest of shortcode attributes"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/wcmp.inc.php:11
+msgid "Playlist Shortcode"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/wcmp.inc.php:15
+msgid "Products ids separated by comma (* represents all products)"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/wcmp.inc.php:19
+msgid "Additional attributes"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/wcmp/wcmp.pb.php:9
+#: pagebuilders/beaverbuilder/wcmp/wcmp.pb.php:11
+#: pagebuilders/beaverbuilder/wcmp/wcmp.pb.php:12 pagebuilders/builders.php:130
+#: pagebuilders/siteorigin/siteorigin-wcmp/siteorigin-wcmp.php:17 wcmp.php:227
+msgid "Music Player for WooCommerce"
+msgstr ""
+
+#: pagebuilders/beaverbuilder/wcmp/wcmp.pb.php:10
+msgid "Insert the playlist shortcode"
+msgstr ""
+
+#: pagebuilders/elementor/elementor.pb.php:42
+#: pagebuilders/elementor/elementor.pb.php:49
+msgid "Music Player For WooCommerce"
+msgstr ""
+
+#: pagebuilders/elementor/elementor.pb.php:52
+#: pagebuilders/siteorigin/siteorigin-wcmp/siteorigin-wcmp.php:27
+msgid ""
+"To include specific products in the playlist enter their IDs in the "
+"products_ids attributes, separated by comma symbols (,)"
+msgstr ""
+
+#: pagebuilders/elementor/elementor.pb.php:52
+msgid ""
+"If you are editing the products template, to load the player of the current "
+"product, delete the products_ids attribute from the shortcode"
+msgstr ""
+
+#: pagebuilders/elementor/elementor.pb.php:52
+msgid "More information visiting the follwing link: "
+msgstr ""
+
+#: pagebuilders/elementor/elementor.pb.php:52
+msgid "CLICK HERE"
+msgstr ""
+
+#: pagebuilders/siteorigin/siteorigin-wcmp/siteorigin-wcmp.php:19
+msgid "Insert a playlist with the products players"
+msgstr ""
+
+#: views/global_options.php:51
+msgid ""
+"For reporting any issue or to request a customization, <a href=\"https://"
+"wordpress.dwbooster.com/contact-us\" target=\"_blank\">CLICK HERE</a><br />\n"
+"\tFor testing the premium version of the plugin, visit the online demo:<br/> "
+"<a href=\"https://demos.dwbooster.com/music-player-for-woocommerce/wp-login."
+"php\" target=\"_blank\">Administration area: Click to access the "
+"administration area demo</a><br/>\n"
+"\t<a href=\"https://demos.dwbooster.com/music-player-for-woocommerce/\" "
+"target=\"_blank\">Public page: Click to visit the WooCommerce Store</a>"
+msgstr ""
+
+#: views/global_options.php:63
+msgid "Buyer email"
+msgstr ""
+
+#: views/global_options.php:63
+msgid "Register"
+msgstr ""
+
+#: views/global_options.php:75 views/player_options.php:51
+msgid ""
+"<p>The player uses the audio files associated to the product. If you want "
+"protecting the audio files for selling, tick the checkbox: <b>\"Protect the "
+"file\"</b>, in whose case the plugin will create a truncated version of the "
+"audio files for selling to be used for demo. The size of audio files for "
+"demo is based on the number entered through the attribute: <b>\"Percent of "
+"audio used for protected playbacks\"</b>.</p><p><b>Protecting the files "
+"prevents that malicious users can access to the original audio files without "
+"pay for them.</b></p>"
+msgstr ""
+
+#: views/global_options.php:90
+msgid "Include the players only for registered users"
+msgstr ""
+
+#: views/global_options.php:94
+msgid "Apply fade out to playing audio when possible"
+msgstr ""
+
+#: views/global_options.php:98
+msgid "Purchased times text"
+msgstr ""
+
+#: views/global_options.php:108
+msgid ""
+"For buyers, play the purchased audio files instead of the truncated files "
+"for demo"
+msgstr ""
+
+#: views/global_options.php:110
+msgid "Reset files interval"
+msgstr ""
+
+#: views/global_options.php:120
+msgid "Truncate the audio files for demo with ffmpeg"
+msgstr ""
+
+#: views/global_options.php:124
+msgid "ffmpeg path"
+msgstr ""
+
+#: views/global_options.php:129
+msgid "Watermark audio"
+msgstr ""
+
+#: views/global_options.php:129
+msgid "Select"
+msgstr ""
+
+#: views/global_options.php:138
+msgid "Delete the demo files generated previously"
+msgstr ""
+
+#: views/global_options.php:145
+msgid "Store demo files on Google Drive"
+msgstr ""
+
+#: views/global_options.php:150
+msgid "JSON Key file"
+msgstr ""
+
+#: views/global_options.php:201
+msgid "On iPads and iPhones, use native controls"
+msgstr ""
+
+#: views/global_options.php:211
+msgid "Loading placeholder in the onload event"
+msgstr ""
+
+#: views/global_options.php:221
+msgid ""
+"For files whose extensions cannot be determined, handle them as mp3 files"
+msgstr ""
+
+#: views/global_options.php:231
+msgid ""
+"For the WooCommerce Gutenberg Blocks, include the main player in the "
+"products titles"
+msgstr ""
+
+#: views/global_options.php:241
+msgid "WooCommerce hook used to display the players in the shop pages"
+msgstr ""
+
+#: views/global_options.php:242
+msgid ""
+"The plugin uses by default the <b>woocommerce_shop_loop_item_title</b> hook. "
+"If the player is not being displayed, enter the hook used by the theme "
+"active on your website."
+msgstr ""
+
+#: views/global_options.php:243
+msgid "Force the player in the title"
+msgstr ""
+
+#: views/global_options.php:252
+msgid "WooCommerce hook used to display the players in the products pages"
+msgstr ""
+
+#: views/global_options.php:253
+msgid ""
+"The plugin uses by default the <b>woocommerce_single_product_summary</b> "
+"hook. If the player is not being displayed, enter the hook used by the theme "
+"active on your website."
+msgstr ""
+
+#: views/global_options.php:258
+msgid ""
+"Click on the <a href=\"https://docs.woocommerce.com/wc-apidocs/hook-docs.html"
+"\" target=\"_blank\">THIS LINK</a> for the list of available <a href="
+"\"https://docs.woocommerce.com/wc-apidocs/hook-docs.html\" target=\"_blank\" "
+"style=\"font-weight:bold;font-size:1.3em;\">WooCommerce Hooks</a>"
+msgstr ""
+
+#: views/global_options.php:269
+msgid "Products pages only"
+msgstr ""
+
+#: views/global_options.php:272
+msgid "Multiple-entry pages"
+msgstr ""
+
+#: views/global_options.php:275
+msgid "Product and multiple-entry pages"
+msgstr ""
+
+#: views/global_options.php:282
+msgid "Include players in cart"
+msgstr ""
+
+#: views/global_options.php:299
+msgid "skin 2"
+msgstr ""
+
+#: views/global_options.php:337
+msgid "Allow multiple players to play simultaneously"
+msgstr ""
+
+#: views/global_options.php:347 views/player_options.php:251
+msgid "Player volume"
+msgstr ""
+
+#: views/global_options.php:357 views/player_options.php:261
+msgid "On cover"
+msgstr ""
+
+#: views/global_options.php:372 views/player_options.php:276
+msgid "Display the player title"
+msgstr ""
+
+#: views/global_options.php:380 views/player_options.php:284
+msgid "Protect the file"
+msgstr ""
+
+#: views/global_options.php:385 views/player_options.php:289
+msgid "Percent of audio used for protected playbacks"
+msgstr ""
+
+#: views/global_options.php:393
+msgid "Explaining that demos are partial versions of the original files"
+msgstr ""
+
+#: views/global_options.php:408
+msgid "Apply the previous settings to all products"
+msgstr ""
+
+#: views/global_options.php:437
+msgid "Measurement Id"
+msgstr ""
+
+#: views/global_options.php:443
+msgid "API Secret"
+msgstr ""
+
+#: views/global_options.php:462
+msgid "Save settings"
+msgstr ""
+
+#: views/player_options.php:56
+msgid ""
+"For testing the premium version of the plugin, visit the online demo:<br/> "
+"<a href=\"https://demos.dwbooster.com/music-player-for-woocommerce/wp-login."
+"php\" target=\"_blank\">Administration area: Click to access the "
+"administration area demo</a><br/><a href=\"https://demos.dwbooster.com/music-"
+"player-for-woocommerce/\" target=\"_blank\">Public page: Click to visit the "
+"WooCommerce Store</a>"
+msgstr ""
+
+#: views/player_options.php:191
+msgid "Include on products pages"
+msgstr ""
+
+#: views/player_options.php:197
+msgid "Include on product and multiple-entry pages"
+msgstr ""
+
+#: views/player_options.php:302
+msgid "Own demo files"
+msgstr ""
+
+#: views/player_options.php:318
+msgid "File name"
+msgstr ""
+
+#: views/player_options.php:321
+msgid "File URL"
+msgstr ""
+
+#: wcmp.php:236
+msgid "Help"
+msgstr ""
+
+#: wcmp.php:1177
+msgid "There are no products that satisfy the block's settings"
+msgstr ""
+
+#: widgets/playlist_widget.php:53
+msgid "Title"
+msgstr ""
+
+#: widgets/playlist_widget.php:56
+msgid "Products IDs"
+msgstr ""
+
+#: widgets/playlist_widget.php:56
+msgid "Products IDs separated by comma, or a * for all"
+msgstr ""
+
+#: widgets/playlist_widget.php:60
+msgid ""
+"Enter the ID of products separated by comma, or a * symbol to includes all "
+"products in the playlist."
+msgstr ""
+
+#: widgets/playlist_widget.php:64
+msgid "Volume (enter a number between 0 and 1)"
+msgstr ""
+
+#: widgets/playlist_widget.php:67
+msgid "Playlist layout"
+msgstr ""
+
+#: widgets/playlist_widget.php:70
+msgid "New layout"
+msgstr ""
+
+#: widgets/playlist_widget.php:73
+msgid "Original layout"
+msgstr ""
+
+#: widgets/playlist_widget.php:98
+msgid "Highlight the current product"
+msgstr ""
+
+#: widgets/playlist_widget.php:101
+msgid "Continue playing after navigate"
+msgstr ""
+
+#: widgets/playlist_widget.php:105
+msgid ""
+"Continue playing the same song at same position after navigate. You can "
+"experiment some delay because the music player should to load the audio file "
+"again, and in some mobiles devices, where the action of the user is "
+"required, the player cannot starting playing automatically."
+msgstr ""

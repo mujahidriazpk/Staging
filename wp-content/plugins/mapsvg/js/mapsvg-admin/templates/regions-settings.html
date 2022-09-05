@@ -1,0 +1,95 @@
+<script type="text/x-handlebars-template" data-name="main">
+    <form class="form-horizontal mapsvg-view-padding">
+
+        <!--<div class="form-group">-->
+            <!--<label class="col-sm-3 control-label">Add regions manually</label>-->
+            <!--<div class="col-sm-9">-->
+                <!--<input type="checkbox" name="manualRegions" class="mapsvg-onoff" {{#if manualRegions}}checked{{/if}}  data-live="change" />-->
+                <!--<p class="help-block">-->
+                    <!--Only SVG objects that match the following rules can be added (automatically or manually) into the list of Regions:<br />-->
+                    <!--1. Object have an ID<br />-->
+                    <!--2. Object have a color fill (color can be transparent)<br />-->
+                    <!--3. Object type is: <em>path, polygon, rect, ellipse, circle</em><br />-->
+                    <!--4. (Optional) If "Region ID prefix" is provided, object ID must start with the prefix<br /><br />-->
+
+                    <!--If you use a custom SVG file and too many SVG objects that shouldn't be interactive are converted to Regions --->
+                    <!--you can turn off automatic adding, clear the list of Regions, then switch the map-->
+                    <!--to "Edit regions" mode and manually select objects that should get into the list of Regions.-->
+                <!--</p>-->
+            <!--</div>-->
+        <!--</div>-->
+
+
+
+        <div class="form-group" id="mapsvg-prefix-hidden">
+            <label class="col-sm-3 control-label">Region ID prefix</label>
+            <div class="col-sm-9">
+
+                <div class="input-group">
+                    <input class="form-control" type="text" name="regionPrefix" autocomplete="off" value="{{regionPrefix}}" data-live="keyup" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button" id="mapsvg-set-prefix-btn">Update</button>
+                    </span>
+                </div><!-- /input-group -->
+
+                <p class="help-block">
+                    Only SVG objects that match the following rules are be added into the list of Regions:<br />
+                    1. Object have an ID<br />
+                    2. Object have a color fill (color can be transparent)<br />
+                    3. Object type is: <em>path, polygon, rect, ellipse, circle</em><br />
+                    4. (Optional) If "Region ID prefix" is provided, object ID must start with the prefix<br /><br />
+
+                    If you use a custom SVG file and too many SVG objects that shouldn't be interactive are converted to Regions -
+                    you can provide a Region ID prefix to avoid that.<br /><br />
+
+                    <!--turn off automatic adding, clear the list of Regions, then switch the map-->
+                    <!--to "Edit regions" mode and manually select objects that should get into the list of Regions.<br /><br />-->
+
+                    When prefix is provided - only objects with the prefix in an ID get into the "Regions" list. <b>Warning!</b> Changing the ID prefix
+                    erases all data in custom Region fields.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Cursor</label>
+            <div class="col-sm-9">
+                <div class="btn-group" data-toggle="buttons" id="mapsvg-controls-cursor">
+                    <label class="btn btn-default  {{#ifeq cursor 'default'}}active{{/ifeq}}">
+                        <input type="radio" name="cursor" value="default" {{#ifeq cursor 'default'}}checked{{/ifeq}} data-live="change"/>
+                        <i class="fa fa-mouse-pointer"></i>
+                    </label>
+                    <label class="btn btn-default  {{#ifeq cursor 'pointer'}}active{{/ifeq}}">
+                        <input type="radio" name="cursor" value="pointer" {{#ifeq cursor 'pointer'}}checked{{/ifeq}} data-live="change"/>
+                        <i class="fa fa-hand-pointer-o"></i>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Multi Select</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="multiSelect" class="mapsvg-onoff" {{#if multiSelect}}checked{{/if}} data-live="change"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Disable all regions</label>
+            <div class="col-sm-9">
+                <div class="btn-group" data-toggle="buttons" id="mapsvg-controls-disableAll">
+                    <input type="checkbox" name="disableAll" class="mapsvg-onoff" {{#if disableAll}}checked{{/if}} data-live="change"/>
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="form-group">-->
+            <!--<label class="col-sm-3 control-label">Clear</label>-->
+            <!--<div class="col-sm-9">-->
+                <!--<button id="mapsvg-clear-regions-btn" class="btn btn-danger"><i class="fa fa-trash"></i> Clear the list of regions</button>-->
+            <!--</div>-->
+        <!--</div>-->
+
+    </form>
+</script>

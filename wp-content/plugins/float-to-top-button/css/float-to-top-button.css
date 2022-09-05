@@ -1,0 +1,75 @@
+/* ---------------------------------------------------
+ *
+ *	CSS for Floating to Top Button
+ *
+ * -------------------------------------------------*/
+#scrollUp {
+	outline: 0;
+	background: no-repeat scroll 0 0 transparent;
+	bottom: 20px;
+	width: 38px;
+	height: 38px;
+	right: 20px;
+	text-indent: -999999px;
+	z-index: 999999999;
+	-khtml-opacity: .70;
+	-moz-opacity: .70;
+	-ms-filter: "alpha(opacity=70)";
+	filter: alpha(opacity=70);
+ filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.7);
+	opacity: .70;
+}
+.fttb-arrow-icon {
+	float: left;
+	margin-bottom: 8px;
+	margin-right: 20px;
+	border: solid 1px #d0d0d0;
+	padding: 5px;
+}
+.fttb-save-button {
+	margin-top: 10px !important;
+	font-weight: bold;
+}
+/****************************
+ * SETTINGS PAGE
+ ****************************/
+.fttb-title-bar {
+	width: 96%;
+	background-color: #0073aa !important;
+	color: #FFF !important;
+	display: inline-block;
+	padding-left: 16px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.fttb-title-bar h2 {
+	color: #FFF;
+}
+.fttb-intro {
+	font-weight: bold;
+	width: 96%;
+	padding-left: 5px;
+	margin-bottom: 20px;
+}
+.fttb-left {
+	float: left;
+}
+.fttb-right {
+	float: right;
+}
+#fttb_settings input[type="text"] {
+	font-size: inherit;
+	margin-right: 10px;
+}
+.fttb_animation {
+	font-size: inherit !important;
+}
+/****************************
+ * VALIDATION
+ ****************************/
+#fttb_settings label.error {
+	color: #ff0000;
+}
+#fttb_settings input.error {
+	border: 2px solid #5b9bb9;
+}

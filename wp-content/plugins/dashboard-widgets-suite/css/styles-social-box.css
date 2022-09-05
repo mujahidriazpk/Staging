@@ -1,0 +1,117 @@
+/*
+	Socicon
+	@ https://fatpony.me/plugins/socicon-plugin/
+	
+	Note: the "content: '<'" rules are required for the correct icon to be displayed
+	@ https://gist.github.com/cyberwani/ca33627a84dcc42928c0 (also backed up locally)
+*/
+@font-face {
+	font-family: 'si';
+	src: url('../fonts/socicon/socicon.eot');
+	src: url('../fonts/socicon/socicon.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/socicon/socicon.woff') format('woff'),
+		 url('../fonts/socicon/socicon.ttf') format('truetype'),
+		 url('../fonts/socicon/socicon.svg#icomoonregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	}
+@media screen and (-webkit-min-device-pixel-ratio: 0) { 
+	@font-face { font-family: si; src: url(../fonts/socicon/socicon.svg) format(svg); } 
+	}
+#dws-social-box ul {
+	width: 100%; overflow: hidden; margin: 0; padding: 0; list-style: none;
+	}
+#dws-social-box li {
+	float: left; margin: 0 10px 10px 0;
+	}
+#dws-social-box li a {
+	width: 50px; height: 50px; line-height: 50px; font-size: 24px;
+	-webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0;
+	
+	display: block; position: relative; z-index: 1; overflow: hidden; color: #fff; 
+	font-family: si !important; font-style: normal; font-weight: 400; text-decoration: none; text-align: center; 
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box;
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+	}
+.soc-icon-last {
+	margin: 0 !important;
+	}
+.soc-twitter {
+	background-color: #4da7de;
+	}
+.soc-twitter:before {
+	content: 'a';
+	}
+.soc-facebook {
+	background-color: #3e5b98;
+	}
+.soc-facebook:before {
+	content: 'b';
+	}
+.soc-pinterest {
+	background-color: #c92619;
+	}
+.soc-pinterest:before {
+	content: 'd';
+	}
+.soc-linkedin {
+	background-color: #3371b7;
+	}
+.soc-linkedin:before {
+	content: 'j';
+	}
+.soc-rss {
+	background-color: #f26109;
+	}
+.soc-rss:before {
+	content: ',';
+	}
+.soc-skype {
+	background-color: #28abe3;
+	}
+.soc-skype:before {
+	content: 'g';
+	}
+.soc-youtube {
+	background-color: #e02a20;
+	}
+.soc-youtube:before {
+	content: 'r';
+	}
+.soc-vimeo {
+	background-color: #51b5e7;
+	}
+.soc-vimeo:before {
+	content: 's';
+	}
+.soc-instagram {
+	background-color: #9c7c6e;
+	}
+.soc-instagram:before {
+	content: 'x';
+	}
+.soc-wordpress {
+	background-color: #464646;
+	}
+.soc-wordpress:before {
+	content: 'y';
+	}
+.soc-tumblr {
+	background-color: #45556c;
+	}
+.soc-tumblr:before {
+	content: 'z';
+	}
+.soc-email1 {
+	background-color: #578AD6;
+	}
+.soc-email1:before {
+	content: '<';
+	}
+.soc-foursquare {
+	background-color: #23b7e0;
+	}
+.soc-foursquare:before {
+	content: 'e';
+	}

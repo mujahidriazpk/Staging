@@ -1,0 +1,69 @@
+2022-02-21T03:13:30-08:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 2666
+
+2022-02-21T03:20:49-08:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 2654
+
+2022-02-21T11:26:03+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 1955
+
+2022-02-21T04:26:43-08:00 CRITICAL Uncaught Error: Call to a member function get_type() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-selling/public/includes/order.php:60
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Selling_Public_Order->woocommerce_remove_reviews_tab(Array)
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(29): apply_filters('woocommerce_pro...', Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/642855.cl...')
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1591): wc_get_template('single-product/...')
+#5 /home/642855.cloudwaysapps.com/zvd in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-selling/public/includes/order.php on line 60
+
+2022-02-21T04:26:52-08:00 CRITICAL Uncaught Error: Call to a member function get_type() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-selling/public/includes/order.php:60
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Selling_Public_Order->woocommerce_remove_reviews_tab(Array)
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(29): apply_filters('woocommerce_pro...', Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/642855.cl...')
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1591): wc_get_template('single-product/...')
+#5 /home/642855.cloudwaysapps.com/zvd in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-selling/public/includes/order.php on line 60
+
+2022-02-21T04:27:01-08:00 CRITICAL Uncaught Error: Call to a member function get_type() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-selling/public/includes/order.php:60
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Selling_Public_Order->woocommerce_remove_reviews_tab(Array)
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(29): apply_filters('woocommerce_pro...', Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/642855.cl...')
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1591): wc_get_template('single-product/...')
+#5 /home/642855.cloudwaysapps.com/zvd in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-selling/public/includes/order.php on line 60
+
+2022-02-21T04:27:10-08:00 CRITICAL Uncaught Error: Call to a member function get_type() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-selling/public/includes/order.php:60
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Selling_Public_Order->woocommerce_remove_reviews_tab(Array)
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(29): apply_filters('woocommerce_pro...', Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/642855.cl...')
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1591): wc_get_template('single-product/...')
+#5 /home/642855.cloudwaysapps.com/zvd in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-selling/public/includes/order.php on line 60
+
+2022-02-21T04:27:13-08:00 CRITICAL Uncaught Error: Call to a member function get_type() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-selling/public/includes/order.php:60
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Selling_Public_Order->woocommerce_remove_reviews_tab(Array)
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(29): apply_filters('woocommerce_pro...', Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/642855.cl...')
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1591): wc_get_template('single-product/...')
+#5 /home/642855.cloudwaysapps.com/zvd in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-selling/public/includes/order.php on line 60
+
+2022-02-21T04:27:51-08:00 CRITICAL Uncaught Error: Call to a member function get_type() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-selling/public/includes/order.php:60
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Selling_Public_Order->woocommerce_remove_reviews_tab(Array)
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(29): apply_filters('woocommerce_pro...', Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/642855.cl...')
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1591): wc_get_template('single-product/...')
+#5 /home/642855.cloudwaysapps.com/zvd in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-selling/public/includes/order.php on line 60
+
+2022-02-21T12:32:07+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 4984
+
+2022-02-21T04:56:12-08:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php on line 307 and exactly 2 expected in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:819
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): WooCommerceMusicPlayer->include_main_player_filter('traditional ort...')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('traditional ort...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'traditional ort...')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 819
+

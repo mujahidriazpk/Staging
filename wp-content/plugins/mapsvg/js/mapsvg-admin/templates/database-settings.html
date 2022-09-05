@@ -1,0 +1,29 @@
+<script type="text/x-handlebars-template" data-name="main">
+    <form class="form-horizontal mapsvg-view-padding">
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Load objects on start</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="database[loadOnStart]" class="mapsvg-onoff" {{#if database.loadOnStart}}checked{{/if}} data-live="change"/>
+                <p class="help-block">If this option is "on", items from the database are loaded
+                    to the directory and to the map (as markers) on start. If this option is "off", nothing is loaded to the map/directory
+                    until some filter is chosen or search text is entered.</p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Never load objects if no filters are chosen</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="database[noFiltersNoLoad]" class="mapsvg-onoff" {{#if database.noFiltersNoLoad}}checked{{/if}} data-live="change"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Clear</label>
+            <div class="col-sm-9">
+                <button id="mapsvg-clear-database-btn" class="btn btn-danger"><i class="fa fa-trash"></i> Clear the database</button>
+            </div>
+        </div>
+
+    </form>
+</script>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ruleset name="AdvAds_CodeSniffer">
+    <description>Advanced Ads Coding Standards.</description>
+
+    <!-- FILES -->
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>lib/*</exclude-pattern>
+	<exclude-pattern>assets/js/postscribe\.js</exclude-pattern>
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="advanced-ads-pro"/>
+			</property>
+		</properties>
+	</rule>
+
+	<config name="minimum_supported_wp_version" value="4.9"/>
+
+    <!-- RULE -->
+    <rule ref="./vendor/advanced-ads/build-tools/src/AdvancedAds/"/>
+</ruleset>

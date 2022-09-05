@@ -1,0 +1,16 @@
+2021-03-30T14:02:43+00:00 CRITICAL Uncaught Exception: <strong>Error:</strong>  Email Address / Password not recognized. Please check and try again. in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/woocommerce/myaccount/form-login.php:30
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(57): wc_get_template('myaccount/form-...')
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#4 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-inc in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/woocommerce/myaccount/form-login.php on line 30
+
+2021-03-30T14:02:49+00:00 CRITICAL Uncaught Exception: <strong>Error:</strong>  Email Address / Password not recognized. Please check and try again. in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/woocommerce/myaccount/form-login.php:30
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(57): wc_get_template('myaccount/form-...')
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#4 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-inc in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/woocommerce/myaccount/form-login.php on line 30
+

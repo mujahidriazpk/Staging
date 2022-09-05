@@ -1,0 +1,12 @@
+2022-03-15T07:03:34+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 1593
+
+2022-03-15T07:19:10+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 5268
+
+2022-03-15T07:23:47+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 1593
+
+2022-03-15T07:24:22+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 2577
+
+2022-03-15T07:24:27+00:00 CRITICAL syntax error, unexpected '$role_array' (T_VARIABLE) in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 2701
+
+2022-03-15T07:24:33+00:00 CRITICAL syntax error, unexpected end of file, expecting ')' in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 4666
+

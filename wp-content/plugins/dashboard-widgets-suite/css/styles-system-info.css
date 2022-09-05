@@ -1,0 +1,14 @@
+/* Dashboard Widgets Suite - System Info */
+
+#dws-system-info .dws-system-info-menu {
+	margin: 0; padding: 0; list-style: none;
+	}
+#dws-system-info .dws-system-info-menu li {
+	display: inline-block; margin: 0 10px 0 0; padding: 3px 0;
+	}
+#dws-system-info .dws-system-info-menu li:last-child {
+	margin: 0;
+	}
+#dws-system-info .selected {
+	font-weight: bold;
+	}

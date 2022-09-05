@@ -1,0 +1,2 @@
+<label><input name="<?php echo $this->plugin->options_slug; ?>[nofollow]" type="checkbox" value="true" <?php
+    checked( 'true', $nofollow); ?>/><?php _e('Add <code>rel="nofollow"</code> to programatically created links. This is advised for sold links.', 'advanced-ads-tracking'); ?></label><br/>

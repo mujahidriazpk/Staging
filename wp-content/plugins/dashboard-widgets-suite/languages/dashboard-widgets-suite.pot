@@ -1,0 +1,1347 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Dashboard Widgets Suite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-10 22:23+0000\n"
+"POT-Revision-Date: Wed Aug 10 2016 17:30:58 GMT-0700 (PDT)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: widgets/widget-notes-user.php:203
+msgid " &ndash; "
+msgstr ""
+
+#: widgets/widget-notes-user.php:169
+msgid " by "
+msgstr ""
+
+#: widgets/widget-log-error.php:75 widgets/widget-log-debug.php:73
+msgid " of "
+msgstr ""
+
+#: dashboard-widgets.php:313
+msgid " or higher, and has been deactivated!"
+msgstr ""
+
+#: widgets/widget-log-error.php:75 widgets/widget-log-debug.php:73
+#, php-format
+msgid "%s error."
+msgid_plural "%s errors."
+msgstr[0] ""
+msgstr[1] ""
+
+#: widgets/widget-notes-user.php:168
+msgid ", User Role: "
+msgstr ""
+
+#: widgets/widget-system-info.php:145
+msgid ", Version "
+msgstr ""
+
+#: widgets/widget-system-info.php:124
+msgid "Active Plugins: "
+msgstr ""
+
+#: widgets/widget-system-info.php:112
+msgid "Active Theme: "
+msgstr ""
+
+#: widgets/widget-notes-user.php:145 widgets/widget-notes-user.php:246 
+#: inc/resources-enqueue.php:184
+msgid "Add Note"
+msgstr ""
+
+#: inc/widgets-helper.php:191
+msgid "Add widgets to the WordPress Dashboard"
+msgstr ""
+
+#: widgets/widget-system-info.php:126
+msgid "Advanced Caching: "
+msgstr ""
+
+#: inc/settings-register.php:104
+msgid "Advanced Info"
+msgstr ""
+
+#: inc/settings-reset.php:27
+msgid "All User Notes deleted."
+msgstr ""
+
+#: widgets/widget-system-info.php:121
+msgid "Allow Core Auto Update: "
+msgstr ""
+
+#: widgets/widget-system-info.php:1006
+msgid "allow_url_fopen: "
+msgstr ""
+
+#: widgets/widget-system-info.php:1005
+msgid "allow_url_include: "
+msgstr ""
+
+#: dashboard-widgets.php:300
+msgid "and try again."
+msgstr ""
+
+#: widgets/widget-notes-user.php:161
+msgid "Any"
+msgstr ""
+
+#: widgets/widget-notes-user.php:273 inc/settings-callbacks.php:92
+msgid "Any Role"
+msgstr ""
+
+#: widgets/widget-system-info.php:470
+msgid "Apache Modules: "
+msgstr ""
+
+#: inc/settings-register.php:28
+msgid "Automatically use the logged-in username for notes"
+msgstr ""
+
+#: inc/settings-display.php:117
+msgid "Banhammer WordPress security plugin"
+msgstr ""
+
+#: widgets/widget-system-info.php:494
+msgid "Bit"
+msgstr ""
+
+#: widgets/widget-system-info.php:314
+msgid "Browser: "
+msgstr ""
+
+#: widgets/widget-notes-user.php:180 inc/resources-enqueue.php:183
+msgid "Cancel"
+msgstr ""
+
+#: widgets/widget-system-info.php:646
+msgid "Charset: "
+msgstr ""
+
+#: dashboard-widgets.php:326 dashboard-widgets.php:330
+msgid "Cheatin&rsquo; huh?"
+msgstr ""
+
+#: inc/settings-display.php:127
+msgid "Check out more WordPress resources from this developer:"
+msgstr ""
+
+#: widgets/widget-log-error.php:77 widgets/widget-log-debug.php:75
+msgid "Clear log file"
+msgstr ""
+
+#: dashboard-widgets.php:278
+msgid "Click here to rate and review this plugin on WordPress.org"
+msgstr ""
+
+#: widgets/widget-system-info.php:30
+msgid "Client"
+msgstr ""
+
+#: widgets/widget-system-info.php:311
+msgid "Client Info"
+msgstr ""
+
+#: widgets/widget-system-info.php:87
+msgid "Client IP Address: "
+msgstr ""
+
+#: widgets/widget-system-info.php:318
+msgid "Client Port: "
+msgstr ""
+
+#: widgets/widget-notes-user.php:301
+msgid "Code"
+msgstr ""
+
+#: inc/resources-enqueue.php:150
+msgid "Confirm Delete"
+msgstr ""
+
+#: inc/resources-enqueue.php:145
+msgid "Confirm Reset"
+msgstr ""
+
+#: dashboard-widgets.php:164
+msgid "Congrats! No notes to display."
+msgstr ""
+
+#: widgets/widget-log-debug.php:120
+msgid "Congrats, debug log is empty."
+msgstr ""
+
+#: widgets/widget-log-error.php:122
+msgid "Congrats, error log is empty."
+msgstr ""
+
+#: widgets/widget-control-panel.php:21 inc/settings-register.php:16 
+#: inc/widgets-enable.php:23
+msgid "Control Panel"
+msgstr ""
+
+#: widgets/widget-system-info.php:792
+msgid "Cookie Path: "
+msgstr ""
+
+#: widgets/widget-system-info.php:799
+msgid "cURL: "
+msgstr ""
+
+#: widgets/widget-log-error.php:42 widgets/widget-log-debug.php:40
+msgid "Current file permissions = "
+msgstr ""
+
+#: inc/settings-register.php:34
+msgid "Custom Message"
+msgstr ""
+
+#: inc/settings-register.php:34
+msgid "Custom message when there are no notes"
+msgstr ""
+
+#: inc/widgets-helper.php:240 inc/widgets-helper.php:245
+msgid "Custom Page"
+msgstr ""
+
+#: widgets/widget-control-panel.php:39
+msgid "Customize Widgets &rsaquo;"
+msgstr ""
+
+#: inc/settings-register.php:15
+msgid "Dashboard Columns"
+msgstr ""
+
+#. Name of the plugin
+#: inc/widgets-helper.php:190
+msgid "Dashboard Widgets Suite"
+msgstr ""
+
+#: widgets/widget-system-info.php:32
+msgid "Database"
+msgstr ""
+
+#: widgets/widget-system-info.php:640
+msgid "Database Info"
+msgstr ""
+
+#: widgets/widget-system-info.php:86
+msgid "Database Version: "
+msgstr ""
+
+#: widgets/widget-system-info.php:642
+msgid "Database: "
+msgstr ""
+
+#: widgets/widget-control-panel.php:28 inc/widgets-enable.php:45 
+#: inc/settings-display.php:22
+msgid "Debug Log"
+msgstr ""
+
+#: inc/settings-register.php:111
+msgid "Debug Log Widget"
+msgstr ""
+
+#: inc/settings-register.php:33
+msgid ""
+"Default minimum role to view notes (can be overridden when adding new notes)"
+msgstr ""
+
+#: inc/settings-reset.php:15
+msgid "Default options restored."
+msgstr ""
+
+#: inc/settings-register.php:35 inc/settings-callbacks.php:310
+msgid "Delete all User Notes"
+msgstr ""
+
+#: inc/resources-enqueue.php:151
+msgid "Delete all User Notes?"
+msgstr ""
+
+#: widgets/widget-notes-user.php:179
+msgid "Delete Note"
+msgstr ""
+
+#: inc/settings-register.php:35
+msgid "Delete Notes"
+msgstr ""
+
+#: inc/resources-enqueue.php:185
+msgid "Delete this note?"
+msgstr ""
+
+#: widgets/widget-system-info.php:293
+msgid "Direct access allowed"
+msgstr ""
+
+#: widgets/widget-system-info.php:191 widgets/widget-system-info.php:201 
+#: widgets/widget-system-info.php:208 widgets/widget-system-info.php:218 
+#: widgets/widget-system-info.php:224 widgets/widget-system-info.php:230 
+#: widgets/widget-system-info.php:236 widgets/widget-system-info.php:242 
+#: widgets/widget-system-info.php:272 widgets/widget-system-info.php:280 
+#: widgets/widget-system-info.php:584 widgets/widget-system-info.php:906 
+#: widgets/widget-system-info.php:912 widgets/widget-system-info.php:918 
+#: widgets/widget-system-info.php:942 widgets/widget-system-info.php:948 
+#: widgets/widget-system-info.php:966 widgets/widget-system-info.php:972 
+#: widgets/widget-system-info.php:978 widgets/widget-system-info.php:984 
+#: widgets/widget-system-info.php:1021 widgets/widget-system-info.php:1030 
+#: widgets/widget-system-info.php:1039 widgets/widget-system-info.php:1048 
+#: widgets/widget-system-info.php:1057 widgets/widget-system-info.php:1066 
+#: widgets/widget-system-info.php:1075 widgets/widget-system-info.php:1099 
+#: widgets/widget-system-info.php:1123 widgets/widget-system-info.php:1166
+msgid "Disabled"
+msgstr ""
+
+#: widgets/widget-system-info.php:120
+msgid "Disallow File Edit: "
+msgstr ""
+
+#: inc/settings-register.php:104
+msgid "Display advanced server information"
+msgstr ""
+
+#: widgets/widget-system-info.php:1004
+msgid "Display Errors: "
+msgstr ""
+
+#: widgets/widget-system-info.php:465
+msgid "Document Root: "
+msgstr ""
+
+#: widgets/widget-notes-user.php:146
+msgid "Double-click any note to edit"
+msgstr ""
+
+#: inc/settings-callbacks.php:14
+msgid "Double-click on any note on the Dashboard to edit or delete."
+msgstr ""
+
+#: inc/settings-register.php:32
+msgid "Edit Role"
+msgstr ""
+
+#: inc/settings-register.php:75
+msgid "Email"
+msgstr ""
+
+#: inc/settings-register.php:27 inc/settings-register.php:43 
+#: inc/settings-register.php:57
+msgid "Enable Frontend"
+msgstr ""
+
+#: inc/settings-register.php:16
+msgid ""
+"Enable the Control Panel Widget (lets you enable/disable widgets directly "
+"from the Dashboard)"
+msgstr ""
+
+#: inc/settings-register.php:125
+msgid "Enable the Error Log Widget"
+msgstr ""
+
+#: inc/settings-register.php:42
+msgid "Enable the Feed Box Widget"
+msgstr ""
+
+#: inc/settings-register.php:43
+msgid "Enable the Feed Box Widget on the frontend (via shortcode)"
+msgstr ""
+
+#: inc/settings-register.php:84
+msgid "Enable the List Box Widget"
+msgstr ""
+
+#: inc/settings-register.php:57
+msgid "Enable the Social Box on the frontend (via shortcode)"
+msgstr ""
+
+#: inc/settings-register.php:56
+msgid "Enable the Social Box Widget"
+msgstr ""
+
+#: inc/settings-register.php:103
+msgid "Enable the System Info Widget"
+msgstr ""
+
+#: inc/settings-register.php:27
+msgid "Enable the User Notes on the frontend (via shortcode)"
+msgstr ""
+
+#: inc/settings-register.php:26
+msgid "Enable the User Notes Widget"
+msgstr ""
+
+#: inc/settings-register.php:93
+msgid "Enable the Widget Box"
+msgstr ""
+
+#: inc/settings-register.php:113
+msgid "Enable the WP Debug Log Widget"
+msgstr ""
+
+#: inc/settings-register.php:28
+msgid "Enable Username"
+msgstr ""
+
+#: inc/settings-register.php:26 inc/settings-register.php:42 
+#: inc/settings-register.php:56 inc/settings-register.php:84 
+#: inc/settings-register.php:93 inc/settings-register.php:103 
+#: inc/settings-register.php:113 inc/settings-register.php:125
+msgid "Enable Widget"
+msgstr ""
+
+#: widgets/widget-system-info.php:187 widgets/widget-system-info.php:201 
+#: widgets/widget-system-info.php:207 widgets/widget-system-info.php:218 
+#: widgets/widget-system-info.php:224 widgets/widget-system-info.php:230 
+#: widgets/widget-system-info.php:236 widgets/widget-system-info.php:242 
+#: widgets/widget-system-info.php:272 widgets/widget-system-info.php:280 
+#: widgets/widget-system-info.php:906 widgets/widget-system-info.php:912 
+#: widgets/widget-system-info.php:918 widgets/widget-system-info.php:942 
+#: widgets/widget-system-info.php:948 widgets/widget-system-info.php:966 
+#: widgets/widget-system-info.php:972 widgets/widget-system-info.php:978 
+#: widgets/widget-system-info.php:984 widgets/widget-system-info.php:1020 
+#: widgets/widget-system-info.php:1029 widgets/widget-system-info.php:1038 
+#: widgets/widget-system-info.php:1047 widgets/widget-system-info.php:1056 
+#: widgets/widget-system-info.php:1065 widgets/widget-system-info.php:1074 
+#: widgets/widget-system-info.php:1098 widgets/widget-system-info.php:1122 
+#: widgets/widget-system-info.php:1165
+msgid "Enabled"
+msgstr ""
+
+#: widgets/widget-system-info.php:266
+msgid "English"
+msgstr ""
+
+#: widgets/widget-notes-user.php:174 widgets/widget-notes-user.php:238
+msgid "Enter some notes.."
+msgstr ""
+
+#: inc/settings-register.php:130
+msgid "Enter the absolute path to your error log (ask host if unsure)"
+msgstr ""
+
+#: widgets/widget-log-error.php:126 widgets/widget-log-debug.php:124
+msgid "Error display disabled via widget settings."
+msgstr ""
+
+#: widgets/widget-control-panel.php:29 inc/widgets-enable.php:67 
+#: inc/settings-display.php:23
+msgid "Error Log"
+msgstr ""
+
+#: inc/settings-register.php:123
+msgid "Error Log Widget"
+msgstr ""
+
+#: widgets/widget-notes-user.php:46
+msgid "Example Note"
+msgstr ""
+
+#: inc/widgets-helper.php:228 inc/widgets-helper.php:233
+msgid "Example Page"
+msgstr ""
+
+#: widgets/widget-widget-box.php:23
+msgid "Example Widget"
+msgstr ""
+
+#: widgets/widget-system-info.php:1012
+msgid "expose_php: "
+msgstr ""
+
+#: widgets/widget-system-info.php:127
+msgid "External Object Cache: "
+msgstr ""
+
+#: inc/settings-register.php:64
+msgid "Facebook"
+msgstr ""
+
+#: widgets/widget-control-panel.php:23 inc/settings-register.php:40 
+#: inc/widgets-enable.php:89 inc/settings-display.php:17
+msgid "Feed Box"
+msgstr ""
+
+#: inc/settings-register.php:44
+msgid "Feed Excerpt"
+msgstr ""
+
+#: inc/settings-register.php:48
+msgid "Feed URL"
+msgstr ""
+
+#: inc/settings-register.php:59
+msgid "Font Size"
+msgstr ""
+
+#: inc/settings-register.php:31
+msgid ""
+"Font size for note text (you must include the \"px\" or other unit (default: "
+"12px)"
+msgstr ""
+
+#: inc/settings-register.php:75
+msgid "For example: mailto:email@example.com or https://example.com/contact/"
+msgstr ""
+
+#: widgets/widget-notes-user.php:302
+msgid "Format"
+msgstr ""
+
+#: widgets/widget-notes-user.php:298
+msgid "Format.."
+msgstr ""
+
+#: inc/settings-register.php:74
+msgid "Foursquare"
+msgstr ""
+
+#: widgets/widget-system-info.php:798
+msgid "fsockopen: "
+msgstr ""
+
+#: widgets/widget-system-info.php:293
+msgid "FTP/SSH access only"
+msgstr ""
+
+#: inc/settings-register.php:12 inc/settings-display.php:15
+msgid "General Settings"
+msgstr ""
+
+#: dashboard-widgets.php:284
+msgid "Get Widgets Suite Pro!"
+msgstr ""
+
+#: dashboard-widgets.php:285
+msgid "Go&nbsp;Pro"
+msgstr ""
+
+#: inc/settings-register.php:30
+msgid "Height of each note in pixels (use 0 for auto-height)"
+msgstr ""
+
+#: inc/settings-register.php:116 inc/settings-register.php:128
+msgid "Height of log display (in pixels)"
+msgstr ""
+
+#: inc/settings-callbacks.php:317
+msgid ""
+"Help keep Dashboard Widgets Suite going strong! A huge THANK YOU for your "
+"support!"
+msgstr ""
+
+#: inc/settings-callbacks.php:35
+msgid "here"
+msgstr ""
+
+#: inc/widgets-helper.php:216 inc/widgets-helper.php:221
+msgid "Home Page"
+msgstr ""
+
+#: dashboard-widgets.php:273
+msgid "Homepage"
+msgstr ""
+
+#: widgets/widget-system-info.php:317 widgets/widget-system-info.php:645
+msgid "Hostname: "
+msgstr ""
+
+#: widgets/widget-notes-user.php:300
+msgid "HTML"
+msgstr ""
+
+#: widgets/widget-system-info.php:472
+msgid "HTTP Connection: "
+msgstr ""
+
+#. URI of the plugin
+msgid "https://perishablepress.com/dashboard-widgets-suite/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://plugin-planet.com/"
+msgstr ""
+
+#: inc/settings-register.php:60
+msgid "Icon Radius"
+msgstr ""
+
+#: inc/settings-register.php:58
+msgid "Icon Size"
+msgstr ""
+
+#: inc/settings-register.php:61
+msgid "Icon Spacing"
+msgstr ""
+
+#: inc/settings-register.php:44
+msgid "Include excerpts for each feed item"
+msgstr ""
+
+#: inc/settings-register.php:71
+msgid "Instagram"
+msgstr ""
+
+#: widgets/widget-system-info.php:315
+msgid "IP Address: "
+msgstr ""
+
+#: inc/settings-register.php:45
+msgid "Item Length"
+msgstr ""
+
+#. Author of the plugin
+msgid "Jeff Starr"
+msgstr ""
+
+#: inc/settings-callbacks.php:63
+msgid "Learn how to enable WP_DEBUG&nbsp;&rsaquo;"
+msgstr ""
+
+#: inc/settings-callbacks.php:33
+msgid "Let me know"
+msgstr ""
+
+#: inc/settings-register.php:76
+msgid "Link"
+msgstr ""
+
+#: inc/settings-register.php:66
+msgid "LinkedIn"
+msgstr ""
+
+#: widgets/widget-control-panel.php:25 inc/settings-register.php:82 
+#: inc/widgets-enable.php:133 inc/settings-display.php:19
+msgid "List Box"
+msgstr ""
+
+#: widgets/widget-system-info.php:468
+msgid "Load Average: "
+msgstr ""
+
+#: widgets/widget-system-info.php:796
+msgid "Loaded Extensions: "
+msgstr ""
+
+#: widgets/widget-log-error.php:35 widgets/widget-log-debug.php:33
+msgid "Log file cleared."
+msgstr ""
+
+#: inc/settings-register.php:116 inc/settings-register.php:128
+msgid "Log Height"
+msgstr ""
+
+#: inc/settings-register.php:130
+msgid "Log Location"
+msgstr ""
+
+#: widgets/widget-notes-user.php:43
+msgid "Make sure you do something.."
+msgstr ""
+
+#: inc/settings-register.php:115 inc/settings-register.php:127
+msgid "Max Characters"
+msgstr ""
+
+#: inc/settings-register.php:114 inc/settings-register.php:126
+msgid "Max Errors"
+msgstr ""
+
+#: inc/settings-register.php:115 inc/settings-register.php:127
+msgid "Max number of characters for each error"
+msgstr ""
+
+#: inc/settings-register.php:114 inc/settings-register.php:126
+msgid "Max number of errors to display"
+msgstr ""
+
+#: inc/settings-register.php:86
+msgid "Menu (List) to display in the List Box Widget"
+msgstr ""
+
+#: inc/settings-register.php:86
+msgid "Menu/List"
+msgstr ""
+
+#: inc/settings-register.php:32
+msgid "Minimum user role required to add/edit/delete notes"
+msgstr ""
+
+#: inc/settings-register.php:105
+msgid "Minimum user role required to view System Info"
+msgstr ""
+
+#: inc/settings-register.php:17
+msgid "Minimum user role required to view the Control Panel"
+msgstr ""
+
+#: inc/settings-register.php:117
+msgid "Minimum user role required to view the Debug Log"
+msgstr ""
+
+#: inc/settings-register.php:129
+msgid "Minimum user role required to view the Error Log"
+msgstr ""
+
+#: inc/settings-register.php:47
+msgid "Minimum user role required to view the Feed Box"
+msgstr ""
+
+#: inc/settings-register.php:85
+msgid "Minimum user role required to view the List Box"
+msgstr ""
+
+#: inc/settings-register.php:62
+msgid "Minimum user role required to view the Social Box"
+msgstr ""
+
+#: inc/settings-register.php:94
+msgid "Minimum user role required to view the Widget Box"
+msgstr ""
+
+#: widgets/widget-system-info.php:1009
+msgid "mod_security: "
+msgstr ""
+
+#: widgets/widget-notes-user.php:222 widgets/widget-notes-user.php:223
+msgid "Name"
+msgstr ""
+
+#: inc/settings-reset.php:19
+msgid "No changes made to options."
+msgstr ""
+
+#: inc/settings-reset.php:31
+msgid "No changes made to User Notes."
+msgstr ""
+
+#: inc/resources-enqueue.php:148 inc/resources-enqueue.php:153
+msgid "No, abort mission."
+msgstr ""
+
+#: widgets/widget-system-info.php:1100
+msgid "Not Installed"
+msgstr ""
+
+#: widgets/widget-notes-user.php:172 widgets/widget-notes-user.php:237
+msgid "Note"
+msgstr ""
+
+#: inc/settings-register.php:30
+msgid "Note Height"
+msgstr ""
+
+#: widgets/widget-notes-user.php:168 widgets/widget-notes-user.php:202
+msgid "Note ID: "
+msgstr ""
+
+#: inc/settings-register.php:45
+msgid "Number of characters for each excerpt"
+msgstr ""
+
+#: inc/settings-register.php:15
+msgid "Number of columns for the Dashboard (use 0 for WP defaults)"
+msgstr ""
+
+#: inc/settings-register.php:46
+msgid "Number of feed items to display"
+msgstr ""
+
+#: inc/settings-register.php:46
+msgid "Number of Items"
+msgstr ""
+
+#: inc/settings-register.php:29
+msgid "Number of Notes"
+msgstr ""
+
+#: inc/settings-register.php:29
+msgid "Number of notes to display"
+msgstr ""
+
+#: widgets/widget-system-info.php:842
+msgid "of "
+msgstr ""
+
+#: widgets/widget-system-info.php:797 widgets/widget-system-info.php:1010
+msgid "open_basedir: "
+msgstr ""
+
+#: widgets/widget-system-info.php:460
+msgid "OS/Server: "
+msgstr ""
+
+#: widgets/widget-system-info.php:28
+msgid "Overview"
+msgstr ""
+
+#: widgets/widget-notes-user.php:42
+msgid "Pat Smith"
+msgstr ""
+
+#: widgets/widget-system-info.php:33
+msgid "PHP"
+msgstr ""
+
+#: widgets/widget-system-info.php:788
+msgid "PHP Allow URL File Open: "
+msgstr ""
+
+#: widgets/widget-system-info.php:784
+msgid "PHP Execution Time Limit: "
+msgstr ""
+
+#: widgets/widget-system-info.php:789
+msgid "PHP File Uploads: "
+msgstr ""
+
+#: widgets/widget-system-info.php:787
+msgid "PHP Include Path: "
+msgstr ""
+
+#: widgets/widget-system-info.php:775
+msgid "PHP Info"
+msgstr ""
+
+#: widgets/widget-system-info.php:785
+msgid "PHP Input Time Limit: "
+msgstr ""
+
+#: widgets/widget-system-info.php:786
+msgid "PHP Max Input Vars: "
+msgstr ""
+
+#: widgets/widget-system-info.php:779
+msgid "PHP Memory Limit (runtime / server): "
+msgstr ""
+
+#: widgets/widget-system-info.php:91 widgets/widget-system-info.php:780
+msgid "PHP Memory Usage: "
+msgstr ""
+
+#: widgets/widget-system-info.php:781
+msgid "PHP Peak Memory Usage: "
+msgstr ""
+
+#: widgets/widget-system-info.php:782
+msgid "PHP Post Max Size: "
+msgstr ""
+
+#: widgets/widget-system-info.php:783
+msgid "PHP Upload Max File Size: "
+msgstr ""
+
+#: widgets/widget-system-info.php:85 widgets/widget-system-info.php:777
+msgid "PHP Version: "
+msgstr ""
+
+#: inc/settings-register.php:65
+msgid "Pinterest"
+msgstr ""
+
+#: widgets/widget-system-info.php:313
+msgid "Platform: "
+msgstr ""
+
+#: dashboard-widgets.php:300 dashboard-widgets.php:314
+msgid "Please return to the"
+msgstr ""
+
+#: dashboard-widgets.php:272
+msgid "Plugin Homepage"
+msgstr ""
+
+#: dashboard-widgets.php:299
+msgid ""
+"Pro version of Dashboard Widgets Suite currently active. Free and Pro "
+"versions cannot be activated at the same time. "
+msgstr ""
+
+#. Description of the plugin
+msgid "Provides a suite of sweet widgets for your WP Dashboard."
+msgstr ""
+
+#: widgets/widget-system-info.php:119
+msgid "Query Logging: "
+msgstr ""
+
+#: inc/settings-register.php:60
+msgid "Radius of icons (in pixels)"
+msgstr ""
+
+#: dashboard-widgets.php:279
+msgid "Rate this plugin"
+msgstr ""
+
+#: widgets/widget-system-info.php:1002
+msgid "Register Globals: "
+msgstr ""
+
+#: widgets/widget-log-error.php:36 widgets/widget-log-debug.php:34
+msgid "Reload page"
+msgstr ""
+
+#: dashboard-widgets.php:313
+msgid "requires WordPress "
+msgstr ""
+
+#: inc/settings-register.php:18
+msgid "Reset Options"
+msgstr ""
+
+#: inc/settings-register.php:18
+msgid "Restore default options"
+msgstr ""
+
+#: inc/resources-enqueue.php:146
+msgid "Restore default options?"
+msgstr ""
+
+#: inc/settings-callbacks.php:300
+msgid "Restore default plugin options"
+msgstr ""
+
+#: widgets/widget-notes-user.php:279
+msgid "Role"
+msgstr ""
+
+#: widgets/widget-notes-user.php:267
+msgid "Role required to view this note.."
+msgstr ""
+
+#: inc/settings-register.php:67
+msgid "RSS Feed"
+msgstr ""
+
+#: widgets/widget-system-info.php:1003
+msgid "Safe Mode: "
+msgstr ""
+
+#: widgets/widget-notes-user.php:178 widgets/widget-control-panel.php:69
+msgid "Save Changes"
+msgstr ""
+
+#: widgets/widget-system-info.php:793
+msgid "Save Path: "
+msgstr ""
+
+#: widgets/widget-system-info.php:34
+msgid "Security"
+msgstr ""
+
+#: widgets/widget-system-info.php:1000
+msgid "Security Info"
+msgstr ""
+
+#: widgets/widget-system-info.php:31
+msgid "Server"
+msgstr ""
+
+#: widgets/widget-system-info.php:463
+msgid "Server Address: "
+msgstr ""
+
+#: widgets/widget-system-info.php:473
+msgid "Server Gateway: "
+msgstr ""
+
+#: widgets/widget-system-info.php:458
+msgid "Server Info"
+msgstr ""
+
+#: widgets/widget-system-info.php:88
+msgid "Server IP Address: "
+msgstr ""
+
+#: widgets/widget-system-info.php:90
+msgid "Server Load Average: "
+msgstr ""
+
+#: widgets/widget-system-info.php:89 widgets/widget-system-info.php:467
+msgid "Server Load: "
+msgstr ""
+
+#: widgets/widget-system-info.php:466
+msgid "Server Name: "
+msgstr ""
+
+#: widgets/widget-system-info.php:464
+msgid "Server Port: "
+msgstr ""
+
+#: widgets/widget-system-info.php:471
+msgid "Server Protocol: "
+msgstr ""
+
+#: widgets/widget-system-info.php:469 widgets/widget-system-info.php:1007
+msgid "Server Signature: "
+msgstr ""
+
+#: widgets/widget-system-info.php:461
+msgid "Server Software: "
+msgstr ""
+
+#: widgets/widget-system-info.php:474
+msgid "Server Time: "
+msgstr ""
+
+#: widgets/widget-system-info.php:462
+msgid "Server Version: "
+msgstr ""
+
+#: widgets/widget-system-info.php:791
+msgid "Session Name: "
+msgstr ""
+
+#: widgets/widget-system-info.php:790
+msgid "Session: "
+msgstr ""
+
+#: dashboard-widgets.php:261
+msgid "Settings"
+msgstr ""
+
+#: widgets/widget-system-info.php:801
+msgid "Short Open Tag: "
+msgstr ""
+
+#: inc/settings-register.php:19
+msgid "Show support with a 5-star rating &raquo;"
+msgstr ""
+
+#: inc/settings-callbacks.php:318
+msgid "Show support with a 5-star rating&nbsp;&raquo;"
+msgstr ""
+
+#: widgets/widget-log-error.php:75 widgets/widget-log-debug.php:73
+msgid "Showing the latest "
+msgstr ""
+
+#: inc/settings-register.php:95
+msgid "Sidebar"
+msgstr ""
+
+#: inc/settings-register.php:95
+msgid "Sidebar (Widget Area) to display in Widget Box"
+msgstr ""
+
+#: inc/settings-register.php:59
+msgid "Size of icon (in pixels)"
+msgstr ""
+
+#: inc/settings-register.php:58
+msgid "Size of icon box (in pixels)"
+msgstr ""
+
+#: inc/settings-register.php:68
+msgid "Skype"
+msgstr ""
+
+#: widgets/widget-system-info.php:800
+msgid "SOAP Client: "
+msgstr ""
+
+#: widgets/widget-control-panel.php:24 inc/settings-register.php:54 
+#: inc/widgets-enable.php:111 inc/settings-display.php:18
+msgid "Social Box"
+msgstr ""
+
+#: inc/settings-register.php:61
+msgid "Space between icons (in pixels)"
+msgstr ""
+
+#: inc/settings-register.php:19
+msgid "Support Plugin"
+msgstr ""
+
+#: widgets/widget-control-panel.php:27 inc/settings-register.php:101 
+#: inc/widgets-enable.php:177 inc/settings-display.php:21
+msgid "System Info"
+msgstr ""
+
+#: widgets/widget-system-info.php:82
+msgid "System Overview"
+msgstr ""
+
+#: widgets/widget-notes-user.php:299
+msgid "Text (default)"
+msgstr ""
+
+#: inc/settings-register.php:31
+msgid "Text Size"
+msgstr ""
+
+#: inc/settings-callbacks.php:7
+msgid ""
+"Thank you for using the free version of Dashboard Widgets Suite. May your "
+"Dashboard serve you well."
+msgstr ""
+
+#: widgets/widget-log-error.php:41 widgets/widget-log-debug.php:39
+msgid ""
+"The log file could not be cleared because it is not writable by the server. "
+msgstr ""
+
+#: widgets/widget-log-error.php:134 widgets/widget-log-debug.php:132
+msgid "There was a problem reading the log file."
+msgstr ""
+
+#: inc/widgets-helper.php:218 inc/widgets-helper.php:230 
+#: inc/widgets-helper.php:242
+msgid "This is an example link, edit as desired or delete if not needed."
+msgstr ""
+
+#: inc/settings-callbacks.php:55
+msgid ""
+"This widget displays information about your server and WordPress. Displayed "
+"only to Admins by default. "
+msgstr ""
+
+#: inc/settings-callbacks.php:69
+msgid ""
+"This widget displays your server&rsquo;s Error Log. Consult your hosting "
+"docs for more info."
+msgstr ""
+
+#: inc/settings-callbacks.php:61
+msgid "This widget displays your WP Debug Log when WP_DEBUG is enabled."
+msgstr ""
+
+#: inc/settings-callbacks.php:41
+msgid "This widget enables you to display a custom list on the Dashboard. "
+msgstr ""
+
+#: inc/settings-callbacks.php:48
+msgid "This widget enables you to display any widget on the Dashboard. "
+msgstr ""
+
+#: inc/settings-callbacks.php:26
+msgid ""
+"This widget enables you to link up your social media profiles. Leave any URL "
+"blank to disable. "
+msgstr ""
+
+#: inc/settings-callbacks.php:13
+msgid "This widget enables you to post notes for specific user levels. "
+msgstr ""
+
+#: inc/settings-callbacks.php:20
+msgid "This widget enables you to view a custom RSS Feed on the Dashboard. "
+msgstr ""
+
+#: widgets/widget-notes-user.php:231 widgets/widget-notes-user.php:232
+msgid "Title"
+msgstr ""
+
+#: widgets/widget-widget-box.php:24
+msgid ""
+"To add, remove, and customize your Dashboard Widgets, visit Appearance &rarr;"
+" Widgets &rarr; "
+msgstr ""
+
+#: dashboard-widgets.php:314
+msgid "to upgrade WordPress and try again."
+msgstr ""
+
+#: widgets/widget-notes-user.php:120
+msgid "To view your notes, adjust the setting &ldquo;Number of Notes&rdquo;."
+msgstr ""
+
+#: inc/settings-register.php:73
+msgid "Tumblr"
+msgstr ""
+
+#: inc/settings-register.php:63
+msgid "Twitter"
+msgstr ""
+
+#: widgets/widget-system-info.php:396
+msgid "Unknown Browser"
+msgstr ""
+
+#: widgets/widget-system-info.php:328
+msgid "Unknown OS Platform"
+msgstr ""
+
+#: widgets/widget-system-info.php:129
+msgid "Update Method: "
+msgstr ""
+
+#: widgets/widget-system-info.php:1011
+msgid "upload_tmp_dir: "
+msgstr ""
+
+#: widgets/widget-system-info.php:644
+msgid "Uptime: "
+msgstr ""
+
+#: inc/settings-register.php:48
+msgid "URL of the feed that you want to display"
+msgstr ""
+
+#: widgets/widget-system-info.php:794
+msgid "Use Cookies: "
+msgstr ""
+
+#: widgets/widget-system-info.php:795
+msgid "Use Only Cookies: "
+msgstr ""
+
+#: widgets/widget-system-info.php:316
+msgid "User Agent: "
+msgstr ""
+
+#: widgets/widget-control-panel.php:22 inc/settings-register.php:24 
+#: inc/widgets-enable.php:195 inc/settings-display.php:16
+msgid "User Notes"
+msgstr ""
+
+#: inc/settings-display.php:118
+msgid "USP Pro - Unlimited Front-end forms"
+msgstr ""
+
+#: widgets/widget-system-info.php:643
+msgid "Version: "
+msgstr ""
+
+#: inc/settings-register.php:17 inc/settings-register.php:33 
+#: inc/settings-register.php:47 inc/settings-register.php:62 
+#: inc/settings-register.php:85 inc/settings-register.php:94 
+#: inc/settings-register.php:105 inc/settings-register.php:117 
+#: inc/settings-register.php:129
+msgid "View Role"
+msgstr ""
+
+#: inc/settings-register.php:70
+msgid "Vimeo"
+msgstr ""
+
+#: inc/settings-callbacks.php:42
+msgid ""
+"Visit Appearance &rarr; Menus &rarr; &ldquo;Dashboard Widgets Suite&rdquo; "
+"to customize the list. "
+msgstr ""
+
+#: inc/settings-callbacks.php:49
+msgid ""
+"Visit Appearance &rarr; Widgets &rarr; &ldquo;Dashboard Widgets Suite&rdquo; "
+"to add, remove, and customize widgets. "
+msgstr ""
+
+#: inc/settings-callbacks.php:32
+msgid "Want more icons/options?"
+msgstr ""
+
+#: dashboard-widgets.php:299
+msgid "Warning:"
+msgstr ""
+
+#: widgets/widget-control-panel.php:26 inc/settings-register.php:91 
+#: inc/widgets-enable.php:155 inc/settings-display.php:20
+msgid "Widget Box"
+msgstr ""
+
+#: inc/settings-display.php:120
+msgid "Wizard&rsquo;s SQL Recipes for WordPress - PDF/eBook"
+msgstr ""
+
+#: widgets/widget-system-info.php:29 inc/settings-register.php:72
+msgid "WordPress"
+msgstr ""
+
+#: widgets/widget-system-info.php:109
+msgid "WordPress Info"
+msgstr ""
+
+#: inc/settings-display.php:119
+msgid "WordPress Themes In Depth - PDF/eBook"
+msgstr ""
+
+#: widgets/widget-system-info.php:128
+msgid "WordPress Time: "
+msgstr ""
+
+#: dashboard-widgets.php:300 dashboard-widgets.php:314
+msgid "WP Admin Area"
+msgstr ""
+
+#: widgets/widget-system-info.php:122
+msgid "WP DB Hostname: "
+msgstr ""
+
+#: widgets/widget-system-info.php:123
+msgid "WP DB Name: "
+msgstr ""
+
+#: widgets/widget-system-info.php:117
+msgid "WP Debug Display: "
+msgstr ""
+
+#: widgets/widget-system-info.php:116
+msgid "WP Debug Log: "
+msgstr ""
+
+#: widgets/widget-system-info.php:115
+msgid "WP Debug Mode: "
+msgstr ""
+
+#: widgets/widget-system-info.php:118
+msgid "WP Debug Script: "
+msgstr ""
+
+#: widgets/widget-system-info.php:125
+msgid "WP Language: "
+msgstr ""
+
+#: widgets/widget-system-info.php:113
+msgid "WP Memory Limit: "
+msgstr ""
+
+#: widgets/widget-system-info.php:114
+msgid "WP Remote Post: "
+msgstr ""
+
+#: inc/settings-display.php:126
+msgid "WP Resources"
+msgstr ""
+
+#: widgets/widget-system-info.php:1008
+msgid "WP Unique Keys: "
+msgstr ""
+
+#: widgets/widget-system-info.php:84 widgets/widget-system-info.php:111
+msgid "WP Version: "
+msgstr ""
+
+#: inc/resources-enqueue.php:147 inc/resources-enqueue.php:152
+msgid "Yes, make it so."
+msgstr ""
+
+#: inc/settings-callbacks.php:34
+msgid "You can find a list of available icons"
+msgstr ""
+
+#: inc/settings-register.php:69
+msgid "YouTube"
+msgstr ""
+
+#: widgets/widget-system-info.php:778
+msgid "Zend Engine: "
+msgstr ""

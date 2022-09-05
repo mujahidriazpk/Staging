@@ -1,0 +1,223 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Float To Top Button v2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-04-16 16:37:28+0000\n"
+"Last-Translator: xmaster <klokan.soft@seznam.cz>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/settings.php:37
+#@ float-to-top-button
+msgid "Float to Top Button - Settings UPDATED!"
+msgstr "Float to Top Button - Nastavení AKTUALIZOVÁNO!"
+
+#: admin/settings.php:58
+#@ float-to-top-button
+msgid "Float to Top Button - Settings"
+msgstr "Float to Top Button - Nastavení"
+
+#: admin/settings.php:68
+#@ float-to-top-button
+msgid "Plugin version"
+msgstr "Verze pluginu"
+
+#: admin/settings.php:69
+#@ float-to-top-button
+msgid "Plugin page"
+msgstr "Stránka pluginu"
+
+#: admin/settings.php:70
+#@ float-to-top-button
+msgid "Download page"
+msgstr "Stránka stažení"
+
+#: admin/settings.php:73
+#@ float-to-top-button
+msgid "Donation page"
+msgstr "Stránka darování"
+
+#: admin/settings.php:105
+#@ float-to-top-button
+msgid "Distance from top before showing element (px)"
+msgstr "Vzdálenost od vrchu pro zobrazením (px)"
+
+#: admin/settings.php:109
+#@ float-to-top-button
+msgid "Speed back to top (ms)"
+msgstr "Rychlost posunu nahoru (ms)"
+
+#: admin/settings.php:113
+#@ float-to-top-button
+msgid "Animation"
+msgstr "Animace"
+
+#: admin/settings.php:115
+#@ float-to-top-button
+msgid "fade"
+msgstr "slábnutí"
+
+#: admin/settings.php:116
+#@ float-to-top-button
+msgid "slide"
+msgstr "stránkování"
+
+#: admin/settings.php:117
+#@ float-to-top-button
+msgid "none"
+msgstr "žádné"
+
+#: admin/settings.php:124
+#@ float-to-top-button
+msgid "Animation in speed (ms)"
+msgstr "Animace zobrazení (ms)"
+
+#: admin/settings.php:128
+#@ float-to-top-button
+msgid "Animation out speed (ms)"
+msgstr "Animace pohasnutí (ms)"
+
+#: admin/settings.php:132
+#@ float-to-top-button
+msgid "Text for the button"
+msgstr "Popis tlačítka"
+
+#: admin/settings.php:136
+#@ float-to-top-button
+msgid "\"Top of Page\" image"
+msgstr "Vzhled tlačítka"
+
+#: admin/settings.php:232
+#@ float-to-top-button
+msgid "Disable the button for mobile devices"
+msgstr "Zakázat tlačítko pro mobilní zařízení"
+
+#: admin/settings.php:240
+#@ float-to-top-button
+msgid "Save Settings"
+msgstr "Uložit nastavení"
+
+#: float-to-top-button.php:120
+#@ float-to-top-button
+msgid "Float to Top Button Settings"
+msgstr "Float to Top Button Nastavení"
+
+#: float-to-top-button.php:120
+#@ float-to-top-button
+msgid "Float to Top Button"
+msgstr ""
+
+#: float-to-top-button.php:153
+#@ float-to-top-button
+msgid "Distance from top is a required number"
+msgstr ""
+
+#: float-to-top-button.php:154
+#@ float-to-top-button
+msgid "Speed back to top is a required number"
+msgstr ""
+
+#: float-to-top-button.php:155
+#@ float-to-top-button
+msgid "Animation in speed is a required number"
+msgstr ""
+
+#: float-to-top-button.php:156
+#@ float-to-top-button
+msgid "Animation out speed is a required number"
+msgstr ""
+
+#: float-to-top-button.php:157
+#: float-to-top-button.php:158
+#@ float-to-top-button
+msgid "Opacity is a required number (0-99)"
+msgstr ""
+
+#: float-to-top-button.php:213
+#@ float-to-top-button
+msgid "Top of Page"
+msgstr "Začátek stránky"
+
+#: admin/settings.php:173
+#@ float-to-top-button
+msgid "Position of the Button"
+msgstr "Pozice tlačítka"
+
+#: admin/settings.php:175
+#@ float-to-top-button
+msgid "Lower Right"
+msgstr "Dole vpravo"
+
+#: admin/settings.php:176
+#@ float-to-top-button
+msgid "Lower Left"
+msgstr "Dole vlevo"
+
+#: admin/settings.php:177
+#@ float-to-top-button
+msgid "Upper Right"
+msgstr "Nahoře vpravo"
+
+#: admin/settings.php:178
+#@ float-to-top-button
+msgid "Upper Left"
+msgstr "Nahoře vlevo"
+
+#: admin/settings.php:218
+#@ float-to-top-button
+msgid "Opacity of the image, mouseout (0-99)"
+msgstr "Kapacita normálního zobrazení (0-99)"
+
+#: admin/settings.php:222
+#@ float-to-top-button
+msgid "Opacity of the image, mouseover (0-99)"
+msgstr "Kapacita zobrazení pod myší (0-99)"
+
+#: admin/settings.php:186
+#@ float-to-top-button
+msgid "Horizontal spacing"
+msgstr "Horizontální pozice"
+
+#: admin/settings.php:202
+#@ float-to-top-button
+msgid "Vertical spacing"
+msgstr "Vertikální pozice"
+
+#: admin/settings.php:71
+#@ order-your-posts-manually
+msgid "Author"
+msgstr "Autor"
+
+#: admin/settings.php:72
+#@ order-your-posts-manually
+msgid "Company"
+msgstr "Společnost"
+
+#: admin/settings.php:167
+#@ float-to-top-button
+msgid "URL of a custom \"Top of Page\" image<br />Overrules the image selection above!"
+msgstr "URL odkaz obrázku<br />\"Zpět na začátek stránky\"<br />Přepíše výběr obrázku nahoře!"
+
+#: admin/settings.php:236
+#@ float-to-top-button
+msgid "Z-index of the overlay"
+msgstr ""
+
+#: float-to-top-button.php:159
+#@ float-to-top-button
+msgid "Z-index is a required number (0-9999999999)"
+msgstr ""
+

@@ -1,0 +1,760 @@
+# Copyright (C) 2018 Sabbir Ahmed
+# This file is distributed under the same license as the Dokan - Auction Integration package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Dokan - Auction Integration 1.5.5\n"
+"Report-Msgid-Bugs-To: support@wedevs.com\n"
+"POT-Creation-Date: 2018-08-07 08:54:34+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-05-16 20:08+0000\n"
+"Last-Translator: stefano <stefano@grossiweb.com>\n"
+"Language-Team: English (United States)\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.2.2; wp-5.1.1"
+
+#: classes/class-auction.php:115
+msgid "Please enter product title"
+msgstr "Please enter service title"
+
+#: classes/class-auction.php:119
+msgid "Please select a category"
+msgstr "Please select a service"
+
+#: dokan-auction.php:42
+msgid ""
+"<b>Dokan - Auction Integration </b> requires %sDokan plugin%s to be "
+"installed & activated!"
+msgstr ""
+
+#: dokan-auction.php:47
+msgid ""
+"<b>Dokan - Auction Integration </b> requires %sWooCommerce Simple Auctions "
+"plugin%s to be installed & activated!"
+msgstr ""
+
+#: dokan-auction.php:276 dokan-auction.php:342
+msgid "Auction"
+msgstr "Auction Dashboard"
+
+#: dokan-auction.php:281
+msgid "Disable Auction"
+msgstr ""
+
+#: dokan-auction.php:284
+msgid "Disable auction capability for this vendor"
+msgstr ""
+
+#: dokan-auction.php:322
+msgid "New vendor Enable Auction"
+msgstr ""
+
+#: dokan-auction.php:323
+msgid "Make auction status enable for new registred vendor"
+msgstr ""
+
+#: dokan-auction.php:409
+msgid "You have no permission to view this auction page"
+msgstr ""
+
+#: dokan-auction.php:420 templates/auction/template-auction.php:6
+msgid "You have no permission to view this page"
+msgstr ""
+
+#: includes/dokan-auction-functions.php:80
+msgid "All (%d)"
+msgstr ""
+
+#: includes/dokan-auction-functions.php:83
+msgid "Online (%d)"
+msgstr ""
+
+#: includes/dokan-auction-functions.php:86
+msgid "Pending Review (%d)"
+msgstr ""
+
+#: includes/dokan-auction-functions.php:89
+msgid "Draft (%d)"
+msgstr ""
+
+#: includes/emails/class-dokan-auction-email.php:26
+msgid "Dokan New Auction"
+msgstr ""
+
+#: includes/emails/class-dokan-auction-email.php:27
+msgid ""
+"This email is sent to admin and vendor when a new auction product is added"
+msgstr ""
+"This email is sent to admin and vendor when a new auction service is added"
+
+#: includes/emails/class-dokan-auction-email.php:49
+msgid ""
+"[{site_name}] A new auction product is added by ({seller_name}) - "
+"{product_title}"
+msgstr ""
+"[{site_name}] A new auction Service is added by ({seller_name}) - "
+"{product_title}"
+
+#: includes/emails/class-dokan-auction-email.php:59
+msgid "New auction product is added by Vendor {seller_name}"
+msgstr "New auction service is added by client {seller_name}"
+
+#: includes/emails/class-dokan-auction-email.php:164
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/emails/class-dokan-auction-email.php:166
+msgid "Enable this email notification"
+msgstr ""
+
+#: includes/emails/class-dokan-auction-email.php:170
+msgid "Recipient(s)"
+msgstr ""
+
+#: includes/emails/class-dokan-auction-email.php:172
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr ""
+
+#: includes/emails/class-dokan-auction-email.php:178
+msgid "Subject"
+msgstr ""
+
+#. translators: %s: list of placeholders
+#: includes/emails/class-dokan-auction-email.php:182
+#: includes/emails/class-dokan-auction-email.php:191
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: includes/emails/class-dokan-auction-email.php:187
+msgid "Email heading"
+msgstr ""
+
+#: includes/emails/class-dokan-auction-email.php:196
+msgid "Email type"
+msgstr ""
+
+#: includes/emails/class-dokan-auction-email.php:198
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: includes/libs/update.php:72
+msgid ""
+"Please <a href=\"%s\">enter</a> your <strong>Dokan Auction</strong> plugin "
+"license key to get regular update and support."
+msgstr ""
+
+#: includes/libs/update.php:87
+msgid "Please activate your copy"
+msgstr ""
+
+#: includes/libs/update.php:125
+msgid "Dokan Auction Error:"
+msgstr ""
+
+#: includes/libs/update.php:318
+msgid "Empty email address"
+msgstr ""
+
+#: includes/libs/update.php:322
+msgid "Empty license key"
+msgstr ""
+
+#: includes/libs/update.php:340
+msgid "Settings Saved"
+msgstr ""
+
+#: includes/libs/update.php:354
+msgid "Dokan Auction"
+msgstr ""
+
+#: includes/libs/update.php:365
+msgid "E-mail Address"
+msgstr ""
+
+#: includes/libs/update.php:368
+msgid "Enter your purchase Email address"
+msgstr ""
+
+#: includes/libs/update.php:372
+msgid "License Key"
+msgstr ""
+
+#: includes/libs/update.php:375
+msgid "Enter your license key"
+msgstr ""
+
+#: includes/libs/update.php:380
+msgid "Save & Activate"
+msgstr ""
+
+#: includes/libs/update.php:389
+msgid "has been expired %s ago"
+msgstr ""
+
+#: includes/libs/update.php:392
+msgid "will expire in %s"
+msgstr ""
+
+#: includes/libs/update.php:398
+msgid "Validity:"
+msgstr ""
+
+#: includes/libs/update.php:403
+msgid "Renew License"
+msgstr ""
+
+#: includes/libs/update.php:411
+msgid "Dokan Auction Plugin is activated"
+msgstr ""
+
+#: includes/libs/update.php:415
+msgid "Delete Dokan Auction License"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:16
+msgid "Access Denied"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:58
+msgid "Edit Auction Products"
+msgstr "Edit Auction Service"
+
+#: templates/auction/auction-product-edit.php:64
+msgid "Hidden"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:69
+msgid "View Product"
+msgstr "View Auction"
+
+#: templates/auction/auction-product-edit.php:79
+msgid "Success!"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:79
+msgid "The product has been updated successfully."
+msgstr "The auction service has been updated successfully."
+
+#: templates/auction/auction-product-edit.php:82
+msgid "View Product &rarr;"
+msgstr "View Auction &rarr;"
+
+#: templates/auction/auction-product-edit.php:114
+msgid "Upload a product cover image"
+msgstr "Upload your Xray"
+
+#: templates/auction/auction-product-edit.php:144
+msgid "Delete image"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:150
+#: templates/auction/new-auction-product.php:64
+msgid "Add gallery image"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:173
+#: templates/auction/auction-product-edit.php:204
+msgid "Category"
+msgstr "Service"
+
+#: templates/auction/auction-product-edit.php:184
+#: templates/auction/new-auction-product.php:88
+msgid "- Select a category -"
+msgstr "- Select a service -"
+
+#: templates/auction/auction-product-edit.php:199
+msgid "Please choose a category!"
+msgstr "Please choose a service!"
+
+#: templates/auction/auction-product-edit.php:224
+#: templates/auction/new-auction-product.php:123
+msgid "Select product category"
+msgstr "- Select a service -"
+
+#: templates/auction/auction-product-edit.php:230
+msgid "Tags"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:250
+#: templates/auction/new-auction-product.php:146
+msgid "Select product tags"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:260
+#: templates/auction/new-auction-product.php:156
+msgid "General Options"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:261
+#: templates/auction/new-auction-product.php:157
+msgid "Manage your auction product data"
+msgstr "Manage your auction service data"
+
+#: templates/auction/auction-product-edit.php:268
+#: templates/auction/new-auction-product.php:163
+msgid "Item condition"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:271
+#: templates/auction/new-auction-product.php:166
+msgid "New"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:272
+#: templates/auction/new-auction-product.php:167
+msgid "Used"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:280
+#: templates/auction/new-auction-product.php:173
+msgid "Auction type"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:283
+#: templates/auction/new-auction-product.php:176
+msgid "Normal"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:284
+#: templates/auction/new-auction-product.php:177
+msgid "Reverse"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:296
+#: templates/auction/new-auction-product.php:188
+msgid "Enable proxy bidding for this auction product"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:306
+#: templates/auction/new-auction-product.php:198
+msgid "Enable sealed bidding for this auction product"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:307
+#: templates/auction/new-auction-product.php:199
+msgid ""
+"In this type of auction all bidders simultaneously submit sealed bids so "
+"that no bidder knows the bid of any other participant. The highest bidder "
+"pays the price they submitted. If two bids with same value are placed for "
+"auction the one which was placed first wins the auction."
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:315
+#: templates/auction/new-auction-product.php:206
+msgid "Start Price"
+msgstr "Ask Fee"
+
+#: templates/auction/auction-product-edit.php:327
+#: templates/auction/new-auction-product.php:216
+msgid "Bid increment"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:341
+#: templates/auction/new-auction-product.php:228
+msgid "Reserved price"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:352
+#: templates/auction/new-auction-product.php:238
+msgid "Buy it now price"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:364
+#: templates/auction/new-auction-product.php:250
+msgid "Auction Start date"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:371
+#: templates/auction/new-auction-product.php:257
+msgid "Auction End date"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:385
+#: templates/auction/new-auction-product.php:272
+msgid "Enable automatic relisting for this auction"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:392
+#: templates/auction/new-auction-product.php:279
+msgid "Relist if fail after n hours"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:398
+#: templates/auction/new-auction-product.php:285
+msgid "Relist if not paid after n hours"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:404
+#: templates/auction/new-auction-product.php:291
+msgid "Relist auction duration in h"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:419
+msgid "Other Options"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:420
+msgid "Set your extra product options"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:426
+msgid "Product Status"
+msgstr "Auction Status"
+
+#: templates/auction/auction-product-edit.php:429
+msgid "Online"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:430
+msgid "Draft"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:445
+msgid "Visibility"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:456
+msgid "Description"
+msgstr ""
+
+#: templates/auction/auction-product-edit.php:467
+msgid "Update Product"
+msgstr "Update Auction"
+
+#: templates/auction/auction-products-listing.php:27
+#: templates/auction/new-auction-product.php:19
+msgid "Add New Auction Product"
+msgstr "Add New Auction"
+
+#: templates/auction/auction-products-listing.php:37
+msgid "Image"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:38
+#: templates/auction/product-attribute.php:12
+msgid "Name"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:39
+msgid "Status"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:40
+msgid "SKU"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:41
+msgid "Stock"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:42
+msgid "Price"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:43
+msgid "Type"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:44
+msgid "Views"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:45
+msgid "Date"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:101
+msgid "Edit"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:105
+msgid "Delete Permanently"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:108
+msgid "View"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:126
+msgid "In stock"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:128
+msgid "Out of stock"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:176
+msgid "Unpublished"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:179
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:186
+msgid "%s ago"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:188
+msgid "Y/m/d"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:195
+msgid "Published"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:198
+msgid "Missed schedule"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:200
+msgid "Scheduled"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:203
+msgid "Last Modified"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:213
+msgid "No product found"
+msgstr "No auction found"
+
+#: templates/auction/auction-products-listing.php:234
+msgid "&laquo; Previous"
+msgstr ""
+
+#: templates/auction/auction-products-listing.php:235
+msgid "Next &raquo;"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:29
+msgid "Standard"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:40
+msgid "Shipping and Tax"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:41
+msgid "Manage shipping and tax for this auction"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:59
+msgid "This product requires shipping"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:64
+msgid "weight (%s)"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:65
+msgid "length (%s)"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:66
+msgid "width (%s)"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:67
+msgid "height (%s)"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:75
+msgid "Shipping Class"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:89
+msgid "No shipping class"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:98
+msgid ""
+"Shipping classes are used by certain shipping methods to group similar "
+"products."
+msgstr ""
+
+#: templates/auction/auction-shipping.php:105
+msgid "Override your store's default shipping cost for this product"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:110
+msgid "Additional cost"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:115
+msgid "Per Qty Additional Price"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:120
+msgid "Processing Time"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:138
+msgid "Tax Status"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:141
+msgid "Taxable"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:142
+msgid "Shipping only"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:150
+msgid "Tax Class"
+msgstr ""
+
+#: templates/auction/html-auction-attribute.php:3
+msgid "Attribute"
+msgstr ""
+
+#: templates/auction/html-auction-attribute.php:4
+msgid "Manage attributes for this auction"
+msgstr ""
+
+#: templates/auction/html-auction-attribute.php:65
+msgid "Custom Attribute"
+msgstr ""
+
+#: templates/auction/html-auction-attribute.php:76
+msgid "Add attribute"
+msgstr ""
+
+#: templates/auction/html-auction-attribute.php:77
+msgid "Save attribute"
+msgstr ""
+
+#: templates/auction/new-auction-product.php:28
+msgid "Error!"
+msgstr ""
+
+#: templates/auction/new-auction-product.php:50
+msgid "Upload Product Image"
+msgstr "Upload your Xray"
+
+#: templates/auction/new-auction-product.php:76
+msgid "Product name.."
+msgstr "Service name..."
+
+#: templates/auction/new-auction-product.php:80
+msgid "Short description about the product..."
+msgstr "Anything else you want to share..."
+
+#: templates/auction/new-auction-product.php:312
+msgid "Add auction Product"
+msgstr "Proceed to Checkout"
+
+#: templates/auction/product-attribute.php:3
+msgid "Attribute Name"
+msgstr ""
+
+#: templates/auction/product-attribute.php:4
+msgid "Remove"
+msgstr ""
+
+#: templates/auction/product-attribute.php:24
+msgid "Visible on the product page"
+msgstr ""
+
+#: templates/auction/product-attribute.php:29
+msgid "Value(s)"
+msgstr ""
+
+#: templates/auction/product-attribute.php:34
+msgid "Select terms"
+msgstr ""
+
+#: templates/auction/product-attribute.php:49
+msgid "Select all"
+msgstr ""
+
+#: templates/auction/product-attribute.php:50
+msgid "Select none"
+msgstr ""
+
+#: templates/auction/product-attribute.php:53
+#: templates/auction/product-attribute.php:68
+msgid "Enter some text, or some attributes by \"%s\" separating values."
+msgstr ""
+
+#: templates/emails/auction-product-added.php:18
+msgid "Hello,"
+msgstr ""
+
+#: templates/emails/auction-product-added.php:20
+msgid "A new auction product is submitted to your site"
+msgstr ""
+
+#: templates/emails/auction-product-added.php:21
+#: templates/emails/plain/auction-product-added.php:22
+msgid "Summary of the product:"
+msgstr ""
+
+#: templates/emails/auction-product-added.php:26
+msgid "Title :"
+msgstr ""
+
+#: templates/emails/auction-product-added.php:32
+msgid "Selling Price :"
+msgstr ""
+
+#: templates/emails/auction-product-added.php:38
+msgid "Vendor :"
+msgstr ""
+
+#: templates/emails/auction-product-added.php:45
+msgid "Category :"
+msgstr "Service:"
+
+#: templates/emails/auction-product-added.php:51
+msgid ""
+"The product is currently in \"publish\" status. So, everyone can view the "
+"product."
+msgstr ""
+
+#: templates/emails/plain/auction-product-added.php:18
+msgid "Hello there,"
+msgstr ""
+
+#: templates/emails/plain/auction-product-added.php:20
+msgid "A new product is submitted to your site."
+msgstr ""
+
+#: templates/emails/plain/auction-product-added.php:31
+msgid ""
+"The product is currently in \"publish\" state. So everyone can view the "
+"product."
+msgstr ""
+
+#: templates/emails/plain/auction-product-added.php:33
+msgid "In case it needs to be moderated  <a href=\"%s\"> click here </a>"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Dokan - Auction Integration"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wedevs.com/products/dokan/dokan-simple-auctions/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A plugin that combined WooCommerce simple auction and Dokan plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Sabbir Ahmed"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wedevs.com/"
+msgstr ""
+
+#: templates/auction/auction-shipping.php:143
+msgctxt "Tax status"
+msgid "None"
+msgstr ""

@@ -1,0 +1,138 @@
+# Copyright (C) 2018 WidgetKit_For_Elementor
+# This file is distributed under the same license as the WidgetKit_For_Elementor package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WidgetKit_For_Elementor\n"
+"Report-Msgid-Bugs-To: https://themesgrove.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: themesgrove <info@themesgrove.com>\n"
+"Language-Team: themesgrove <info@themesgrove.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/admin-init.php:125
+msgid "Widgetkit"
+msgstr ""
+
+#: admin/admin-init.php:283
+msgid "WidgetKit for Elementor"
+msgstr ""
+
+#: admin/admin-init.php:415
+msgid "Slider Animation"
+msgstr ""
+
+#: admin/admin-init.php:431
+msgid "Pricing Single"
+msgstr ""
+
+#: admin/admin-init.php:447
+msgid "Button & Modal"
+msgstr ""
+
+#: admin/admin-init.php:463
+msgid "Testimonial Single"
+msgstr ""
+
+#: admin/admin-init.php:485
+msgid "Slider Content Animation"
+msgstr ""
+
+#: admin/admin-init.php:499
+msgid "Pricing Icon"
+msgstr ""
+
+#: admin/admin-init.php:517
+msgid "Hover Image"
+msgstr ""
+
+#: admin/admin-init.php:533
+msgid "Testimonial Center"
+msgstr ""
+
+#: admin/admin-init.php:557
+msgid "Slider Box Animation"
+msgstr ""
+
+#: admin/admin-init.php:573
+msgid "Pricing Tabs"
+msgstr ""
+
+#: admin/admin-init.php:589
+msgid "Blog Revert"
+msgstr ""
+
+#: admin/admin-init.php:605
+msgid "Social Share Animation"
+msgstr ""
+
+#: admin/admin-init.php:631
+msgid "Portfolio"
+msgstr ""
+
+#: admin/admin-init.php:649
+msgid "Team Round"
+msgstr ""
+
+#: admin/admin-init.php:667
+msgid "Blog Hover Animation"
+msgstr ""
+
+#: admin/admin-init.php:685
+msgid "Social Share Collapse"
+msgstr ""
+
+#: admin/admin-init.php:709
+msgid "Feature Box"
+msgstr ""
+
+#: admin/admin-init.php:729
+msgid "Team Animation"
+msgstr ""
+
+#: admin/admin-init.php:747
+msgid "Blog Image"
+msgstr ""
+
+#: admin/admin-init.php:763
+msgid "Post Carousel"
+msgstr ""
+
+#: admin/admin-init.php:787
+msgid "Animation Text"
+msgstr ""
+
+#: admin/admin-init.php:805
+msgid "Team Verticle Icon"
+msgstr ""
+
+#: admin/admin-init.php:821
+msgid "Blog Carousel"
+msgstr ""
+
+#: admin/admin-init.php:841
+msgid "Countdown"
+msgstr ""
+
+#: admin/admin-init.php:857
+msgid "Team Overlay"
+msgstr ""
+
+#: admin/admin-init.php:873
+msgid "Blog Sidebar"
+msgstr ""
+
+#: admin/admin-init.php:911
+msgid "System setup information useful for debugging purposes."
+msgstr ""
+
+#: elements/helper-functions.php:8
+msgid "WidgetKit Elements"
+msgstr ""

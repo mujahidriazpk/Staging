@@ -1,0 +1,2 @@
+!function(i){i(function(){i(".warning-close").click(function(){i(this).parents("div:first").hide(),i.post(ajaxurl,{action:"tp_close_warning",id:i(this).attr("id")})})})}(jQuery);
+//# sourceMappingURL=warningclose.js.map

@@ -1,0 +1,49 @@
+.wp-analytify-notification{
+	padding: 15px;
+	border-radius: 3px;
+	margin: 35px 20px 10px 0;
+	position: relative;
+  display: flex;
+  align-items: center;
+  }
+  .wp-analytify-notice-logo{
+	width: 34px;
+	float: left;
+	margin-right: 30px;
+	overflow: hidden;
+  }
+  .wp-analytify-notice-discription{
+	overflow: hidden;
+  }
+  .wp-analytify-notification.wp-analytify-danger{
+	border:1px solid #ba7b7b;
+	background: #f7e6e6;
+  }
+  .wp-analytify-notice-discription p{
+	margin: 0;
+  }
+  .wp-analytify-danger .wp-analytify-notice-discription p{
+	color: #592626;
+  }
+  .wp-analytify-notification:after{
+	content: '';
+	display: table;
+	clear: both;
+  }
+  .wp-analytify-notification .wp-analytify-notification-close{
+	text-decoration: none;
+	padding: 2px;
+  }
+  .wp-analytify-notification.wp-analytify-danger .wp-analytify-notification-close:before{
+	color: #592626;
+  }
+  .wp-analytify-notification.wp-analytify-success{
+	border:1px solid #6ab074;
+	background: #e6f0e8;
+  }
+  .wp-analytify-success .wp-analytify-notice-discription p{
+	color: #21573a;
+  }
+  .wp-analytify-notification.wp-analytify-success .wp-analytify-notification-close:before{
+	color: #21573a;
+  }

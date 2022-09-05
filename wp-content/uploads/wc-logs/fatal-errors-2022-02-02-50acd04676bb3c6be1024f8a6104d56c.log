@@ -1,0 +1,14 @@
+2022-02-02T03:25:17-08:00 CRITICAL syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-tracking/public/public.php on line 485
+
+2022-02-02T03:31:20-08:00 CRITICAL syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-tracking/public/public.php on line 485
+
+2022-02-02T03:45:38-08:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Tracking' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-tracking/tracking.php:56
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): advanced_ads_tracking_init_plugin('')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/public/class-advanced-ads.php(230): do_action('advanced-ads-pl...')
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): Advanced_Ads->advanced_ads_loaded('')
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_ in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-tracking/tracking.php on line 56
+

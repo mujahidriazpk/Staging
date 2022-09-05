@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Remove admin menus by roles\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-22 08:42+0000\n"
+"PO-Revision-Date: 2020-05-22 08:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.4; wp-5.5-alpha-47838"
+
+#: views/form.php:44
+msgid "Deselect all"
+msgstr "Tout désélectionner"
+
+#: views/form.php:31
+msgid "For these roles:"
+msgstr "Pour ces rôles :"
+
+#. Author of the plugin
+msgid "Manu225"
+msgstr ""
+
+#: views/form.php:78
+msgid "Pro version"
+msgstr "version Pro"
+
+#. Name of the plugin
+#. Description of the plugin
+msgid "Remove admin menus by roles"
+msgstr ""
+
+#: views/form.php:43
+msgid "Remove these menus:"
+msgstr "Enlever ces menus :"
+
+#: views/form.php:74
+msgid "Save profile"
+msgstr "Sauvegarder"
+
+#: views/form.php:44
+msgid "Select all"
+msgstr "Tout sélectionner"
+
+#: views/form.php:78
+msgid "You need multiple profiles? Look at"
+msgstr "Vous avez besoin de plusieurs profils ? Jetez un œil à la"

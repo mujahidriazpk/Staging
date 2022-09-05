@@ -1,0 +1,47 @@
+.elementor-control-section_widgetkit_pro_box .elementor-panel-heading {
+  color: #d30a5c; }
+  .elementor-control-section_widgetkit_pro_box .elementor-panel-heading .elementor-section-toggle i {
+    color: #d30a5c; }
+  .elementor-control-section_widgetkit_pro_box .elementor-panel-heading .elementor-panel-heading-title {
+    color: #d30a5c; }
+
+.elementor-control-wkfe_control_go_pro .elementor-control-field {
+  display: none; }
+
+.elementor-control-wkfe_control_go_pro .elementor-control-field-description .elementor-nerd-box-message {
+  font-size: 14px; }
+
+.elementor-control-wkfe_control_go_pro .widgetkit-go-pro {
+  background: #d30a5c !important; }
+
+.elementor-control-wkfe_control_go_pro .elementor-nerd-box {
+  padding: 10px 0px 30px; }
+  .elementor-control-wkfe_control_go_pro .elementor-nerd-box .elementor-nerd-box-message {
+    margin-top: 0px; }
+
+#elementor-panel-category-widgetkit_elementor .elementor-element,
+#elementor-panel-category-widgetkit_deprecated_elements .elementor-element,
+#elementor-panel-category-widgetkit_pro .elementor-element,
+#elementor-panel-category-widgetkit_pro_woo_single_product .elementor-element {
+  position: relative; }
+  #elementor-panel-category-widgetkit_elementor .elementor-element .icon i:after,
+  #elementor-panel-category-widgetkit_deprecated_elements .elementor-element .icon i:after,
+  #elementor-panel-category-widgetkit_pro .elementor-element .icon i:after,
+  #elementor-panel-category-widgetkit_pro_woo_single_product .elementor-element .icon i:after {
+    content: 'WK';
+    font-size: 10px;
+    position: absolute;
+    top: 5px;
+    right: 7px;
+    color: #b8860b;
+    background: #b8860b1f;
+    padding: 2px;
+    border-radius: 2px; }
+  #elementor-panel-category-widgetkit_elementor .elementor-element:hover .icon, #elementor-panel-category-widgetkit_elementor .elementor-element:hover .title,
+  #elementor-panel-category-widgetkit_deprecated_elements .elementor-element:hover .icon,
+  #elementor-panel-category-widgetkit_deprecated_elements .elementor-element:hover .title,
+  #elementor-panel-category-widgetkit_pro .elementor-element:hover .icon,
+  #elementor-panel-category-widgetkit_pro .elementor-element:hover .title,
+  #elementor-panel-category-widgetkit_pro_woo_single_product .elementor-element:hover .icon,
+  #elementor-panel-category-widgetkit_pro_woo_single_product .elementor-element:hover .title {
+    color: #b8860b !important; }

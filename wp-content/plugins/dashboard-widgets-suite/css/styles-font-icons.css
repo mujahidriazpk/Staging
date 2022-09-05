@@ -1,0 +1,74 @@
+/* 
+	Font Awesome 4.5
+	@ https://fortawesome.github.io/Font-Awesome/cheatsheet/
+*/
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../fonts/awesome/fontawesome-webfont.eot?v=4.5.0');
+	src: url('../fonts/awesome/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), 
+		 url('../fonts/awesome/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), 
+		 url('../fonts/awesome/fontawesome-webfont.woff?v=4.5.0') format('woff'), 
+		 url('../fonts/awesome/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), 
+		 url('../fonts/awesome/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	}
+.fa {
+	display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto;
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+	}
+.fa-pad {
+	padding: 0 3px 0 0;
+	}
+
+.fa-rss:before {
+	content: "\f09e";
+	}
+.fa-cog:before {
+	content: "\f013";
+	}
+.fa-plus-circle:before {
+	content: "\f055";
+	}
+.fa-minus-circle:before {
+	content: "\f056";
+	}
+.fa-check:before {
+	content: "\f00c";
+	}
+.fa-exclamation-circle:before {
+	content: "\f06a";
+	}
+.fa-search:before {
+	content: "\f002";
+	}
+.fa-share-alt:before {
+	content: "\f1e0";
+	}
+.fa-info-circle:before {
+	content: "\f05a";
+	}
+.fa-list-ul:before {
+	content: "\f0ca";
+	}
+.fa-file-text:before {
+	content: "\f15c";
+	}
+.fa-file-text-o:before {
+	content: "\f0f6";
+	}
+.fa-list-alt:before {
+	content: "\f022";
+	}
+.fa-th:before {
+	content: "\f00a";
+	}
+.fa-redo:before {
+	content: "\f01e";
+	}
+.fa-coffee:before {
+	content: "\f0f4";
+	}
+	
+/* fa-sticky-note, fa-undo, fa-th-large, fa-copy, fa-cubes, fa-cube, fa-clone */

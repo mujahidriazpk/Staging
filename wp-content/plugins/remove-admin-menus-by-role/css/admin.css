@@ -1,0 +1,32 @@
+#hide_menu_admin_form .column {
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 18px;
+}
+#hide_menu_admin_form ul.menus {
+	height: 400px;
+	overflow: auto;
+}
+#hide_menu_admin_form li {	
+	padding: 5px;
+	margin: 0;
+}
+
+#hide_menu_admin_form li .submenu {
+	display: none;
+	margin-left: 15px;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+#hide_menu_admin_form span.show_submenu {
+	margin-left: 10px;
+	cursor: pointer;
+	display: inline-block;
+	height: 0px;
+	width: 0px;
+	border-top: 8px solid #000;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+}

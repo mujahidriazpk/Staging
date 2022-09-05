@@ -1,0 +1,1211 @@
+# Translation of Advanced Ads Pro in Danish
+# This file is distributed under the same license as the Advanced Ads Pro package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-11-01 20:48:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: da_DK\n"
+"Project-Id-Version: Advanced Ads Pro\n"
+
+#: modules/gamipress/views/visitor-condition-rank.php:28
+msgid "Choose rank"
+msgstr ""
+
+#: modules/gamipress/views/visitor-condition-points.php:17
+msgid "Choose Points Type"
+msgstr ""
+
+#: modules/gamipress/views/visitor-condition-achievement.php:21
+msgid "Choose Achievement Type"
+msgstr ""
+
+#: modules/gamipress/admin.class.php:34
+msgid "Display ads based on GamiPress user achievement"
+msgstr ""
+
+#: modules/gamipress/admin.class.php:33
+msgid "GamiPress Achievement"
+msgstr ""
+
+#: modules/gamipress/admin.class.php:28
+msgid "Display ads based on GamiPress user rank"
+msgstr ""
+
+#: modules/gamipress/admin.class.php:27
+msgid "GamiPress Rank"
+msgstr ""
+
+#: modules/gamipress/admin.class.php:22
+msgid "Display ads based on GamiPress user points"
+msgstr ""
+
+#: modules/gamipress/admin.class.php:21
+msgid "GamiPress Points"
+msgstr ""
+
+#: views/privacy-policy-content.php:10
+msgid "You can use the text below as a template for your own privacy policy."
+msgstr "Du kan bruge teksten nedenfor som skabelon til din egen privatlivspolitik."
+
+#: views/privacy-policy-content.php:13
+msgid "This website uses Advanced Ads Pro to place advertisements. The WordPress plugin may use multiple first-party cookies to ensure the correct integration of ads. These cookies store technical information but not IP addresses. Their use is linked to specific features and options when embedding ads."
+msgstr "Denne hjemmeside bruger Advanced Ads Pro til at placere annoncer. WordPress-plugin'et kan bruge flere førstepartscookies for at sikre den korrekte integration af annoncer. Disse cookies gemmer tekniske oplysninger, men ikke IP-adresser. Deres brug er knyttet til specifikke funktioner og muligheder ved indlejring af annoncer."
+
+#: views/privacy-policy-content.php:12
+msgid "Suggested Text:"
+msgstr "Foreslået tekst:"
+
+#. translators: %1$s is an opening a tag, %2$s is the corresponding closing one
+#: views/privacy-policy-content.php:19
+msgid "Please, see the %1$sAdvanced Ads cookie information%2$s for more details."
+msgstr "Se venligst %1$sAdvanced Ads-cookie-informationen%2$s for flere detaljer."
+
+#: views/privacy-policy-content.php:7
+msgid "Depending on the setup, Advanced Ads Pro and other add-ons use cookies to control which user sees which ad. They also help to reduce expensive server requests."
+msgstr "Afhængigt af opsætningen bruger Advanced Ads Pro og andre tilføjelser cookies til at styre, hvilken bruger der ser hvilken annonce. De hjælper også med at reducere dyre serveranmodninger."
+
+#: classes/advanced-ads-pro-admin.php:522
+msgid "Select a Sidebar placement to enable cache-busting."
+msgstr "Vælg en sidepanel-placering for at aktivere cache-busting."
+
+#: modules/buddypress/views/position-option.php:49
+msgid "member timeline"
+msgstr "medlems-tidslinje"
+
+#: classes/advanced-ads-pro-admin.php:524
+msgid "Learn more"
+msgstr "Lær mere"
+
+#: modules/buddypress/views/position-option.php:48
+msgid "group feed"
+msgstr "Gruppe feed"
+
+#: modules/buddypress/buddypress.class.php:222
+#: modules/buddypress/buddypress.class.php:223
+msgid "BuddyBoss group"
+msgstr "BuddyBoss gruppe"
+
+#: modules/buddypress/views/position-option.php:46
+msgid "any"
+msgstr "enhver"
+
+#: modules/buddypress/views/position-option.php:47
+msgid "activity stream"
+msgstr "aktivitetsstrøm"
+
+#: modules/cache-busting/admin-ui.class.php:46
+msgctxt "setting label"
+msgid "AJAX"
+msgstr "AJAX"
+
+#: modules/cache-busting/views/settings.php:35
+msgid "Force passive cache-busting"
+msgstr "Tving passiv cache-busting"
+
+#: modules/cache-busting/views/settings.php:45
+msgid "Fallback option"
+msgstr "Fallback indstillinger"
+
+#: modules/cache-busting/views/settings.php:14
+msgid "Default option"
+msgstr "Standard indstillinger"
+
+#: modules/cache-busting/views/settings.php:15
+msgid "Choose which method to use when cache-busting for a placement is set to “auto”."
+msgstr "Vælg hvilken metode der skal bruges, når cache-busting for en placering, er indstillet til “auto”."
+
+#: modules/buddypress/buddypress.class.php:110
+msgid "Display ads based on BuddyBoss profile fields"
+msgstr "Vis annoncer baseret på BuddyBoss profil felter"
+
+#: modules/buddypress/buddypress.class.php:109
+msgid "BuddyBoss profile field"
+msgstr "BuddyBoss profil felter"
+
+#: modules/buddypress/views/position-option.php:44
+msgid "Stream"
+msgstr "Stream"
+
+#: modules/buddypress/admin.class.php:40
+msgid "Display ads on BuddyBoss related pages."
+msgstr "Vis annoncer på BuddyBoss relaterede sider."
+
+#: modules/buddypress/admin.class.php:39
+msgid "BuddyBoss Content"
+msgstr "BuddyBoss indhold"
+
+#: modules/cache-busting/views/settings.php:39
+msgid "By default, cache-busting only works through placements."
+msgstr "Som standard virker, cache-busting kun gennem placeringer."
+
+#: modules/cache-busting/views/settings.php:90
+msgid "Update visitor profile"
+msgstr "Opdater besøgs profil"
+
+#: modules/advanced-visitor-conditions/main.class.php:414
+msgid "Set the operator to “match/does not match” and leave the value empty to check only the existence of the cookie."
+msgstr "Indstil operatøren til \"match / matcher ikke\" og lad værdien være tom for kun at kontrollere eksistensen af cookien."
+
+#: modules/ad-server/views/placement-usage.php:10
+msgid "Direct URL"
+msgstr "Direkte URL"
+
+#: modules/ad-server/views/placement-settings.php:11
+msgid "The name of the placement that appears in the URL and injection code."
+msgstr "Navnet på den placering, der vises i URL'en og injektionskoden."
+
+#: modules/ad-server/views/placement-settings.php:10
+msgid "Save the page to update the usage code below."
+msgstr "Gem siden for at opdatere koden brugt nedenfor."
+
+#: modules/ad-server/views/module-settings.php:30
+msgid "Prevent direct access to the placement URL."
+msgstr "Forhindre direkte adgang til placerings-URL'en."
+
+#: modules/ad-server/views/module-settings.php:24
+msgid "Please don’t enter subdirectories."
+msgstr "Indtast venligst ikke undermapper."
+
+#: modules/ad-server/views/module-settings.php:18
+msgid "Separate multiple values with a comma."
+msgstr "Adskil flere værdier med et komma."
+
+#: modules/ad-server/views/module-settings.php:18
+msgid "Top level domains on which the ads will be loaded."
+msgstr "Top-level domæner, som annoncerne vil blive indlæst på."
+
+#: modules/ad-server/views/module-settings.php:13
+#: modules/cache-busting/views/settings.php:11
+msgid "Activate module."
+msgstr "Aktiver modul."
+
+#: modules/ad-server/admin.class.php:133
+msgid "Usage"
+msgstr "Anvendelse"
+
+#: modules/ad-server/admin.class.php:119
+msgid "Public string"
+msgstr "Offentlig streng"
+
+#: modules/ad-server/admin.class.php:73
+msgid "Display ads on external websites."
+msgstr "Vis annoncer på eksterne websteder."
+
+#: modules/ad-server/admin.class.php:43 modules/ad-server/admin.class.php:72
+msgid "Ad Server"
+msgstr "Annonceserver"
+
+#. Translators: %1$s is the opening link tag, %2$s is closing link tag.
+#: classes/advanced-ads-pro-admin.php:443
+msgid "This feature is deprecated. Please find the removal schedule %1$shere%2$s"
+msgstr "Denne funktion er forældet. Find tidsplanen for fjernelse %1$sher%2$s"
+
+#: modules/advanced-visitor-conditions/main.class.php:141
+msgid "Display ads based on the user’s capabilities."
+msgstr "Vis annoncer baseret på brugerens rettigheder."
+
+#: modules/advanced-visitor-conditions/main.class.php:133
+msgid "Display ads based on the user agent."
+msgstr "Vis annoncer baseret på brugeragent. "
+
+#: modules/inject-content/admin.class.php:263
+msgid "Words between ads"
+msgstr "Ord mellem annoncer"
+
+#: views/setting_words_between_ads.php:7
+msgid "Words are counted within paragraphs, headlines and any other element."
+msgstr "Ord tælles indenfor afsnit, overskrifter og ethvert andet element."
+
+#: views/setting_words_between_ads.php:4
+msgid "A minimum amount of words between automatically injected ads."
+msgstr "Et minimum antal af ord, mellem automatisk injicerede annoncer."
+
+#. Author of the plugin
+msgid "Advanced Ads GmbH"
+msgstr "Advanced Ads GmbH"
+
+#: modules/duplicate-ads/admin.class.php:139
+msgctxt "noun"
+msgid "copy"
+msgstr "kopi"
+
+#: modules/inject-content/admin.class.php:128
+msgid "Minimum length of content (in words) before automatically injected ads are allowed in them. Set to zero or leave empty to always display ads, regardless of how long the content is."
+msgstr "Minimumslængde af indhold (i ord) før automatisk injicerede annoncer er tilladt i dem. Indstil til nul, eller lad tom, for altid at vise annoncer, uanset hvor langt indholdet er."
+
+#: modules/duplicate-ads/admin.class.php:86
+msgid "Duplicate"
+msgstr "Duplikere"
+
+#: modules/duplicate-ads/admin.class.php:86
+msgid "Create a copy of this ad"
+msgstr "Opret en kopi af denne annonce"
+
+#: modules/inject-content/views/setting_post_meta_box.php:4
+msgid "Disable automatic ad injection into the content"
+msgstr "Deaktiver automatisk annonce injektion i indholdet"
+
+#: modules/cache-busting/views/settings.php:102
+msgid "Update visitor profile when user logs in or out"
+msgstr "Opdater besøgsprofil, når brugeren logger ind eller ud"
+
+#: modules/cache-busting/views/settings.php:92
+msgid "You might need to update the page cache if you are using one."
+msgstr "Du skal muligvis opdatere sidens cache, hvis du bruger en."
+
+#. translators: $1%s is an opening a tag; $2%s is the closing one
+#: modules/cache-busting/views/settings.php:77
+msgid "Learn more about this %1$shere%2$s."
+msgstr "Lær mere om dette %1$sher%2$s."
+
+#: modules/cache-busting/views/settings.php:70
+msgid "Advanced Ads stores some user information in the user’s browser to limit the number of AJAX requests for cache-busting."
+msgstr "Advanced Ads gemmer nogle brugeroplysninger i brugerens browser, for at begrænse antallet af AJAX-anmodninger om cache-busting."
+
+#: modules/cache-busting/views/settings.php:67
+msgid "Visitor profile"
+msgstr "Besøgsprofil"
+
+#: modules/advanced-display-conditions/main.class.php:33
+msgid "Display ads based on the current URL parameters (everything following %s), except values following #."
+msgstr "Vis annoncer baseret på de aktuelle URL parametre (alt efter %s), undtagen værdier efter #."
+
+#: classes/advanced-ads-pro-admin.php:144
+msgid "Disable ads for post types"
+msgstr "Deaktiver annoncer for indholdstyperne"
+
+#: modules/cache-busting/views/settings.php:94
+msgid "An error occured"
+msgstr "En fejl opstod"
+
+#: modules/cache-busting/views/settings.php:91
+msgid "Updated"
+msgstr "Opdateret"
+
+#: modules/advanced-visitor-conditions/main.class.php:148
+msgid "Display ads based on the user’s roles. See <a href=\"%s\" target=\"_blank\">List of roles in WordPress</a>."
+msgstr "Vis annoncer baseret på brugerenes roller. Se <a href=\"%s\" target=\"_blank\">Liste over roller i WordPress </a>."
+
+#: modules/advanced-visitor-conditions/main.class.php:147
+msgid "user role"
+msgstr "brugerrolle"
+
+#. translators: %s is a list of supported optimizer plugins
+#: views/setting_autoptimize.php:7
+msgid "Advanced Ads Pro disables optimizers ( %s ) for displaying ads per default. Enable this option to allow optimizers to change the ad code. Especially JavaScript ads might stop working then."
+msgstr "Advanced Ads Pro deaktiverer optimeringsværktøjer ( %s ) til visning af annoncer som standard. Aktivér denne mulighed for at tillade optimeringsværktøjer at ændre annoncekoden. Især JavaScript-annoncer stopper muligvis med at fungere."
+
+#: classes/advanced-ads-pro-admin.php:135
+msgid "Allow optimizers to modify ad codes"
+msgstr "Tillad optimeringsværktøjer at ændre annoncekoder"
+
+#: modules/lazy-load/views/settings.php:13
+msgid "Start loading the ads %s pixels before they are visible on the screen."
+msgstr "Start indlæsning af annoncer %s pixels, før de er synlige på skærmen."
+
+#: modules/grids/admin.class.php:61
+msgid "Set to 0 to disable this feature."
+msgstr "Indstil til 0 for at deaktivere denne funktion."
+
+#: modules/grids/admin.class.php:60
+msgid "On browsers smaller than this, the columns show in full width below each other."
+msgstr "I browsere mindre end dette, vises kolonnerne i fuld bredde under hinanden."
+
+#: modules/grids/admin.class.php:58
+msgid "Full width"
+msgstr "Fuld bredde"
+
+#. translators: "profile fields" relates to BuddyPress profile fields
+#: modules/buddypress/views/xprofile-condition.php:42
+msgid "No profile fields found"
+msgstr "Ingen profilfelter fundet"
+
+#: modules/buddypress/buddypress.class.php:97
+msgid "Display ads based on BuddyPress profile fields"
+msgstr "Vis annoncer baseret på BuddyPress profilfelter"
+
+#: modules/buddypress/buddypress.class.php:96
+msgid "BuddyPress profile field"
+msgstr "BuddyPress profilfelter"
+
+#: modules/buddypress/views/position-option.php:37 views/setting_repeat.php:3
+msgid "repeat the position"
+msgstr "gentag positionen"
+
+#: views/setting_custom_code.php:34
+msgid "Displayed after the ad content"
+msgstr "Vises efter annoncen indhold"
+
+#: views/setting_custom_code.php:30
+msgid "place your own code below the ad"
+msgstr "placer din egen kode under annoncen"
+
+#: views/setting_custom_code.php:27
+msgid "custom code"
+msgstr "brugerdefineret kode"
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#. Plugin URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/advanced-ads-pro/"
+msgstr "https://wpadvancedads.com/add-ons/advanced-ads-pro/"
+
+#. Description of the plugin
+msgid "Advanced features to boost your ad revenue."
+msgstr "Avancerede funktioner til at øge din annonceindtægter."
+
+#. Plugin Name of the plugin
+msgid "Advanced Ads Pro"
+msgstr "Advanced Ads Pro"
+
+#: modules/weekdays/views/ad-submitbox-meta.php:4
+msgid "Set specific days"
+msgstr "Indstil specifikke dage"
+
+#: modules/placement-tests/views/settings_test_expiry_date.php:26
+msgctxt "order of expiry date fields 1: month, 2: day, 3: year, 4: hour, 5: minute"
+msgid "%1$s %2$s, %3$s @ %4$s %5$s"
+msgstr "%1$s %2$s, %3$s @ %4$s %5$s"
+
+#: modules/placement-tests/views/settings_test_expiry_date.php:22
+msgid "Minute"
+msgstr "Minut"
+
+#: modules/placement-tests/views/settings_test_expiry_date.php:21
+msgid "Hour"
+msgstr "Time"
+
+#: modules/placement-tests/views/settings_test_expiry_date.php:20
+msgid "Year"
+msgstr "År"
+
+#: modules/placement-tests/views/settings_test_expiry_date.php:19
+msgid "Day"
+msgstr "Dag"
+
+#: modules/placement-tests/views/settings_test_expiry_date.php:14
+msgctxt "1: month number (01, 02, etc.), 2: month abbreviation"
+msgid "%1$s-%2$s"
+msgstr "%1$s-%2$s"
+
+#: modules/placement-tests/views/settings_test_expiry_date.php:10
+msgid "Month"
+msgstr "Måned"
+
+#: modules/placement-tests/views/settings_test_expiry_date.php:4
+msgctxt "placement tests"
+msgid "Send email after"
+msgstr "Send e-mail efter"
+
+#: modules/placement-tests/views/setting_placement_test_weight.php:8
+msgid "Test weight"
+msgstr "Test vægtning"
+
+#: modules/placement-tests/views/setting_placement_test_weight.php:6
+msgctxt "placement tests"
+msgid "Testing"
+msgstr "Testning"
+
+#: modules/placement-tests/views/placement_tests.php:56
+msgid "Due to technical restrictions, when testing AdSense units, the limit in the plugin settings does not work. Please disable it <a href=\"%s\">here</a>."
+msgstr "På grund af tekniske begrænsninger ved test af AdSense-enheder, fungerer begrænsningen i plugin-indstillingerne ikke. Deaktiver det <a href=\"%s\">her</a>."
+
+#: modules/placement-tests/views/placement_tests.php:52
+msgid "Save Tests"
+msgstr "Gem test"
+
+#: modules/placement-tests/views/placement_tests.php:44
+msgctxt "checkbox to remove placement test"
+msgid "delete"
+msgstr "slet"
+
+#: modules/placement-tests/views/placement_tests.php:38
+msgctxt "placement tests"
+msgid "empty"
+msgstr "tom"
+
+#: modules/placement-tests/views/placement_tests.php:10
+msgid "Placements"
+msgstr "Placeringer"
+
+#: modules/placement-tests/views/placement_tests.php:9
+msgid "Expiry date"
+msgstr "Udløbsdato"
+
+#: modules/placement-tests/views/placement_tests.php:8
+msgid "Author"
+msgstr "Forfatter"
+
+#: modules/placement-tests/views/placement_tests.php:3
+msgid "Placement tests"
+msgstr "Placeringstest"
+
+#: modules/lazy-load/views/settings.php:7
+msgid "Activate <em>lazy load</em> module."
+msgstr "Aktiver <em>lazy load</em> module."
+
+#: modules/lazy-load/views/setting_lazy_load.php:6
+#: modules/lazy-load/views/setting_lazy_load.php:8
+msgid "disabled"
+msgstr "deaktiveret"
+
+#: modules/lazy-load/views/setting_lazy_load.php:2
+#: modules/lazy-load/views/setting_lazy_load.php:4
+msgid "enabled"
+msgstr "aktiveret"
+
+#: modules/group-refresh/views/settings_group_refresh.php:9
+msgid "Please use a placement to deliver this group using cache-busting."
+msgstr "Brug venligst en placering, for at levere denne gruppe ved hjælp cache-busting."
+
+#: modules/group-refresh/views/settings_group_refresh.php:6
+msgid "Refresh ads on the same spot. Works when cache-busting is used."
+msgstr "Opdater annoncer på samme sted. Virker når cache-busting bruges."
+
+#: modules/group-refresh/views/settings_group_refresh.php:4
+msgid "milliseconds"
+msgstr "millisekunder"
+
+#: modules/group-refresh/views/settings_group_refresh.php:2
+msgid "Enabled"
+msgstr "Aktiveret"
+
+#: modules/grids/views/grid-option-size.php:9
+msgid "rows"
+msgstr "rækker"
+
+#: modules/grids/views/grid-option-size.php:5
+msgid "columns"
+msgstr "Kolonner"
+
+#: modules/click-fraud-protection/views/settings.php:23
+msgid "Period for which to hide the ad ( in days )"
+msgstr "Periode, hvor annoncen skal skjules (i dage)"
+
+#: modules/click-fraud-protection/views/settings.php:20
+msgid "Period in which the click limit should be reached ( in hours )"
+msgstr "Periode, i hvilken klikgrænsen skal nås (i timer)"
+
+#: modules/click-fraud-protection/views/settings.php:17
+msgid "Allowed clicks on a single ad before it is removed"
+msgstr "Tilladte klik på en enkelt annonce, før den fjernes"
+
+#: modules/ad-server/views/module-settings.php:14
+#: modules/advanced-visitor-conditions/main.class.php:133
+#: modules/advanced-visitor-conditions/main.class.php:141
+#: modules/click-fraud-protection/views/settings.php:11
+msgid "Manual"
+msgstr "Manual"
+
+#: modules/click-fraud-protection/views/settings.php:10
+msgid "Activate <em>click fraud protection</em> module"
+msgstr "Aktiver <em>beskyttelse mod kliksvindel</em> modulet"
+
+#: modules/cache-busting/views/settings_check_ad.php:3
+msgid "The code of this ad might not work properly with activated cache-busting. <a href=\"%s\" target=\"_blank\">Manual</a>"
+msgstr "Koden til denne annonce fungerer muligvis ikke korrekt med aktiveret cache-busting.<a href=\"%s\" target=\"_blank\">Manual</a>"
+
+#: modules/cache-busting/views/settings.php:41
+msgid "Enable passive cache-busting for all ads and groups which are not delivered through a placement, if possible."
+msgstr "Aktiver passiv cache-busting for alle annoncer og grupper, som ikke leveres gennem en placering, hvis det er muligt."
+
+#: modules/cache-busting/views/settings.php:59
+msgid "No cache-busting"
+msgstr "Ingen cache-busting"
+
+#: modules/cache-busting/views/settings.php:52
+msgid "Use AJAX"
+msgstr "Brug AJAX"
+
+#: modules/cache-busting/views/settings.php:46
+msgid "Choose the fallback if “passive“ cache-busting is not possible."
+msgstr "Vælg fallback, hvis \"passiv\" cache-busting ikke er mulig."
+
+#: modules/cache-busting/views/settings.php:28
+msgid "AJAX"
+msgstr "AJAX"
+
+#: modules/advanced-visitor-conditions/views/settings.php:6
+msgid "Activate <em>advanced visitor conditions</em> module."
+msgstr "Aktiver <em>avancerede besøgsbetingelser</em> modulet."
+
+#: modules/advanced-display-conditions/views/referrer-url-metabox.php:15
+#: modules/advanced-visitor-conditions/views/referrer-url-metabox.php:15
+msgid "url of the referrer"
+msgstr "url til henvisningen"
+
+#: modules/advanced-display-conditions/views/referrer-url-metabox.php:5
+#: modules/advanced-visitor-conditions/views/referrer-url-metabox.php:5
+msgid "URL"
+msgstr "URL"
+
+#: modules/advanced-display-conditions/views/referrer-url-metabox.php:3
+#: modules/advanced-visitor-conditions/views/referrer-url-metabox.php:3
+msgid "Display ad depending on the external url the user comes from."
+msgstr "Vis annonce afhængig af den eksterne url, brugeren kommer fra."
+
+#: modules/advanced-display-conditions/views/referrer-url-metabox.php:1
+#: modules/advanced-visitor-conditions/views/referrer-url-metabox.php:1
+msgid "Display by referrer url"
+msgstr "Vis efter henvisnings-url"
+
+#: modules/ads-for-adblockers/views/settings.php:6
+msgid "Activate <em>ads for ad blockers</em> module."
+msgstr "Aktiver <em>annoncer for annonceblokering</em> modulet."
+
+#: modules/ads-for-adblockers/views/placement-item.php:21
+#: modules/lazy-load/views/setting_lazy_load.php:11
+msgid "Works only with cache-busting enabled"
+msgstr "Virker kun med cache-busting aktiveret"
+
+#: modules/weekdays/weekdays.class.php:146
+msgid "Never shows up"
+msgstr "Viser sig aldrig"
+
+#: modules/weekdays/weekdays.class.php:144
+msgid "Shows up on: %s"
+msgstr "Vises på: %s"
+
+#: modules/weekdays/weekdays.class.php:82
+#: modules/weekdays/weekdays.class.php:97
+msgid "specific days"
+msgstr "Specifikke dage"
+
+#: modules/placement-tests/placement-tests.class.php:633
+msgid "Placement test <em>%s</em> created"
+msgstr "Placeringstest <em>%s</em> oprettet"
+
+#: modules/placement-tests/placement-tests.class.php:494
+msgctxt "placement tests"
+msgid "Placement page"
+msgstr "Placeringsside"
+
+#: modules/placement-tests/placement-tests.class.php:488
+#: modules/placement-tests/placement-tests.class.php:632
+#: modules/placement-tests/views/placement_tests.php:36
+msgctxt "placement tests"
+msgid " vs "
+msgstr "vs"
+
+#: modules/placement-tests/placement-tests.class.php:459
+msgctxt "placement tests"
+msgid "Expired placement tests"
+msgstr "Udløbne placerings-teste"
+
+#: modules/placement-tests/placement-tests.class.php:92
+#: modules/placement-tests/placement-tests.class.php:93
+msgid "Save New Test"
+msgstr "Gem ny test"
+
+#: modules/paid-memberships-pro/main.class.php:147
+msgid "Display ads only to users with a specific membership level set with PaidMembershipsPro."
+msgstr "Vis kun annoncer til brugere med et specifikt medlemsniveau, indstillet med PaidMembershipsPro."
+
+#: modules/paid-memberships-pro/main.class.php:146
+msgid "PMP user level"
+msgstr "PMP brugerniveau"
+
+#: modules/paid-memberships-pro/main.class.php:128
+#: modules/paid-memberships-pro/main.class.php:243
+msgid "No membership levels set up yet."
+msgstr "Ingen medlems niveauer opsat endnu."
+
+#: modules/paid-memberships-pro/main.class.php:30
+msgid "Display ads only on pages that need a specific membership level set with PaidMembershipsPro."
+msgstr "Vis kun annoncer på sider, der kræver et specifikt medlemsniveau, der er indstillede med PaidMembershipsPro."
+
+#: modules/paid-memberships-pro/main.class.php:29
+msgid "PMP page level"
+msgstr "PMP sideniveau"
+
+#: modules/lazy-load/admin.class.php:56
+msgid "lazy load"
+msgstr "lazy load"
+
+#: modules/lazy-load/admin.class.php:23
+msgid "Lazy Load"
+msgstr "Lazy indlæsning"
+
+#: modules/inject-content/inject-content.class.php:87
+msgid "Display the ad between posts on post lists, e.g. home, archives, search etc."
+msgstr "Vis annoncen mellem indholdet af sidevisningen på fx hjem/forside, arkiver, søgning osv."
+
+#: modules/inject-content/inject-content.class.php:86
+msgid "Post Lists"
+msgstr "Indholdslister"
+
+#: modules/inject-content/inject-content.class.php:79
+msgid "Attach the ad to any element in the frontend."
+msgstr "Fastgør annoncen til et vilkårligt element i frontend."
+
+#: modules/inject-content/inject-content.class.php:78
+msgid "Custom Position"
+msgstr "Brugerdefineret position"
+
+#: modules/inject-content/inject-content.class.php:71
+msgid "In the middle of the main content based on the number of paragraphs."
+msgstr "I midten af hovedindholdet, baseret på antallet af afsnit."
+
+#: modules/inject-content/inject-content.class.php:70
+msgid "Content Middle"
+msgstr "Indholdets midte"
+
+#: modules/inject-content/inject-content.class.php:63
+msgid "Above the main headline on the page (&lt;h1&gt;)."
+msgstr "Over hovedoverskriften på siden (&lt;h1&gt;)."
+
+#: modules/inject-content/inject-content.class.php:62
+msgid "Above Headline"
+msgstr "Over overskriften"
+
+#: modules/inject-content/inject-content.class.php:55
+msgid "After a random paragraph in the main content."
+msgstr "Efter et tilfældigt afsnit i hovedindholdet."
+
+#: modules/inject-content/inject-content.class.php:54
+msgid "Random Paragraph"
+msgstr "Tilfældig afsnit"
+
+#: modules/inject-content/admin.class.php:159
+msgid "secondary loops"
+msgstr "sekundære loops"
+
+#: modules/inject-content/admin.class.php:154
+msgid "Only enable this option if you are sure what you are doing!"
+msgstr "Aktiver kun denne mulighed, hvis du er sikker på, hvad du laver!"
+
+#: modules/inject-content/admin.class.php:153
+msgid "Allow injection into any custom and secondary queries."
+msgstr "Tillad indsprøjtning i alle brugerdefinerede og sekundære forespørgsler."
+
+#: modules/inject-content/admin.class.php:133
+msgid "minimum content length"
+msgstr "mindste indholdslængde"
+
+#: modules/inject-content/admin.class.php:89
+msgid "Before which post to inject the ad on post lists."
+msgstr "Før hvilket indlæg skal annoncen indsættes på indlægs-lister."
+
+#: modules/inject-content/admin.class.php:87
+msgid "Inject before %s. post"
+msgstr "Injicer før %s. indlæg"
+
+#: modules/inject-content/admin.class.php:66
+msgid "Place the following element where the ad should be displayed."
+msgstr "Placer følgende element, hvor annoncen skal vises."
+
+#: modules/inject-content/admin.class.php:65
+msgid "by new element"
+msgstr "ved nyt element"
+
+#: modules/inject-content/admin.class.php:55
+msgid "Position"
+msgstr "Position"
+
+#: modules/inject-content/admin.class.php:54
+msgid "Uses <a href=\"https://api.jquery.com/category/selectors/\" target=\"_blank\">jQuery selectors</a>, e.g. #container_id, .container_class"
+msgstr "Bruger <a href=\"https://api.jquery.com/category/selectors/\" target=\"_blank\">jQuery-vælgere</a>, e.g. #container_id, .container_class"
+
+#: modules/inject-content/admin.class.php:51
+msgid "or enter manually"
+msgstr "eller indtast manuelt"
+
+#: modules/inject-content/admin.class.php:53
+msgid "select position"
+msgstr "vælg position"
+
+#: modules/inject-content/admin.class.php:52
+msgctxt "frontend picker"
+msgid "stop selection"
+msgstr "stop udvælgelse"
+
+#: modules/inject-content/admin.class.php:48
+msgid "Place ads in relation to an existing element in the frontend."
+msgstr "Placer annoncer i relation til et eksisterende element i frontend."
+
+#: modules/inject-content/admin.class.php:46
+msgid "by existing element"
+msgstr "af eksisterende element"
+
+#: modules/inject-content/admin.class.php:37
+msgid "below"
+msgstr "nedenfor"
+
+#: modules/inject-content/admin.class.php:36
+msgid "inside, after other content"
+msgstr "indenfor, efter andet indhold"
+
+#: modules/inject-content/admin.class.php:35
+msgid "inside, before other content"
+msgstr "indenfor, før andet indhold"
+
+#: modules/inject-content/admin.class.php:34
+msgid "above"
+msgstr "ovenfor"
+
+#: modules/group-refresh/admin.class.php:42
+msgid "Refresh interval"
+msgstr "Opdateringsinterval"
+
+#: modules/grids/grids.class.php:29
+msgid "Display multiple ads in a grid"
+msgstr "Vis flere annoncer i et gitter"
+
+#: modules/grids/grids.class.php:28
+msgid "Grid"
+msgstr "Gitter"
+
+#: modules/grids/admin.class.php:73
+msgid "Random order"
+msgstr "Tilfældig rækkefølge"
+
+#: modules/grids/admin.class.php:53
+msgid "Minimum width of a column in the grid."
+msgstr "Minimumsbredde af en kolonne i gitteret."
+
+#: modules/grids/admin.class.php:51
+msgid "Min. width"
+msgstr "Min. bredde"
+
+#: modules/grids/admin.class.php:45
+msgid "Inner margin"
+msgstr "Indre margen"
+
+#: modules/grids/admin.class.php:36
+msgid "Size"
+msgstr "Størrelse"
+
+#: modules/click-fraud-protection/click-fraud-protection.class.php:276
+msgid "Click Fraud Protection enabled"
+msgstr "Beskyttelse mod klik bedrageri, aktiveret"
+
+#: modules/click-fraud-protection/click-fraud-protection.class.php:124
+msgid "hours"
+msgstr "timer"
+
+#: modules/click-fraud-protection/click-fraud-protection.class.php:122
+msgid "within"
+msgstr "indenfor"
+
+#: modules/click-fraud-protection/click-fraud-protection.class.php:96
+msgid "Display ad only if a click limit has not been reached"
+msgstr "Vis kun annonce, hvis en klikgrænse ikke er nået"
+
+#: modules/click-fraud-protection/click-fraud-protection.class.php:95
+msgid "max. ad clicks"
+msgstr "max. annonce klik"
+
+#: modules/click-fraud-protection/admin.class.php:19
+msgid "Click Fraud Protection"
+msgstr "Beskyttelse mod klik svindel"
+
+#: modules/cache-busting/cache-busting.class.php:1658
+msgctxt "placement admin label"
+msgid "Cache-busting:"
+msgstr "Cache-busting:"
+
+#: modules/cache-busting/cache-busting.class.php:1652
+msgid "The ad is not displayed on the page"
+msgstr "Annoncen vises ikke på siden"
+
+#: modules/cache-busting/cache-busting.class.php:1651
+msgid "The ad is displayed on the page"
+msgstr "Annoncen vises på siden"
+
+#: modules/cache-busting/cache-busting.class.php:1648
+#: modules/cache-busting/views/settings.php:21
+msgid "passive"
+msgstr "passiv"
+
+#: modules/cache-busting/cache-busting.class.php:1642
+msgid "The ad can work with passive cache-busting"
+msgstr "Annoncen kan fungere med passiv cache-busting"
+
+#: modules/cache-busting/cache-busting.class.php:1640
+msgid "The ad can not work with passive cache-busting"
+msgstr "Annoncen kan ikke fungere med passiv cache-busting"
+
+#: modules/cache-busting/admin.class.php:16
+msgid "Cache Busting"
+msgstr "Cache Busting"
+
+#: modules/cache-busting/admin-ui.class.php:120
+msgid "The <em>Ad Group</em> ad type can only use AJAX or no cache-busting, but not passive cache-busting."
+msgstr "<em>Annoncegruppe</em> Annoncetype kan kun bruge AJAX eller ingen cache-busting, men ikke passiv cache-busting."
+
+#: modules/cache-busting/admin-ui.class.php:67
+msgctxt "placement admin label"
+msgid "Cache-busting"
+msgstr "Cache-busting"
+
+#: modules/cache-busting/admin-ui.class.php:48
+msgctxt "setting label"
+msgid "auto"
+msgstr "auto"
+
+#: modules/cache-busting/admin-ui.class.php:47
+#: modules/cache-busting/cache-busting.class.php:1655
+msgctxt "setting label"
+msgid "off"
+msgstr "fra"
+
+#: modules/cache-busting/cache-busting.class.php:1646
+msgctxt "setting label"
+msgid "ajax"
+msgstr "ajax"
+
+#: modules/buddypress/admin.class.php:105
+msgid "Member List"
+msgstr "Medlemsliste"
+
+#: modules/buddypress/admin.class.php:102
+msgid "Group List"
+msgstr "Gruppeliste"
+
+#: modules/buddypress/admin.class.php:86 modules/buddypress/admin.class.php:94
+msgid "Activity Entry"
+msgstr "Aktivitets indgang"
+
+#. translators: %s is an HTML input element.
+#: modules/buddypress/views/position-option.php:30
+msgid "Inject after %s. entry"
+msgstr "Injicer efter %s. indgang"
+
+#: modules/buddypress/admin.class.php:50
+msgid "Display ads on BuddyPress related pages."
+msgstr "Vis annoncer på BuddyPress-relaterede sider."
+
+#: modules/buddypress/admin.class.php:49
+msgid "BuddyPress Content"
+msgstr "BuddyPress indhold"
+
+#: modules/bbpress/admin.class.php:90
+msgid "forums page"
+msgstr "forum side"
+
+#: modules/bbpress/admin.class.php:86
+msgid "single forum page"
+msgstr "enkelt forumside"
+
+#: modules/bbpress/admin.class.php:82 modules/bbpress/admin.class.php:99
+msgid "forum topic page"
+msgstr "forumets emneside"
+
+#: modules/bbpress/admin.class.php:76
+msgid "Inject at %s. post"
+msgstr "Injicer ved %s. indlæg"
+
+#: modules/bbpress/admin.class.php:44 modules/bbpress/admin.class.php:60
+#: modules/buddypress/views/position-option.php:13
+#: modules/inject-content/admin.class.php:78
+#: modules/inject-content/admin.class.php:93
+msgid "position"
+msgstr "position "
+
+#: modules/bbpress/admin.class.php:33
+msgid "Display ads in bbPress replies."
+msgstr "Vis annoncer i bbPress-svar."
+
+#: modules/bbpress/admin.class.php:32
+msgid "bbPress Reply Content"
+msgstr "bbPress besvars-indhold"
+
+#: modules/bbpress/admin.class.php:27
+msgid "Display ads on bbPress related pages."
+msgstr "Vis annoncer på bbPress-relaterede sider."
+
+#: modules/bbpress/admin.class.php:26
+msgid "bbPress Static Content"
+msgstr "bbPress Statisk indhold"
+
+#: modules/background-ads/admin.class.php:40
+msgid "background"
+msgstr "baggrund"
+
+#: modules/background-ads/admin.class.php:36
+msgid "Select a background color in case the background image is not high enough to cover the whole screen."
+msgstr "Vælg en baggrundsfarve i tilfælde af, at baggrundsbilledet ikke er højt nok til at dække hele skærmen."
+
+#: modules/background-ads/admin.class.php:25
+msgid "Background of the website behind the main wrapper."
+msgstr "Baggrunden på websted, bag den vigtigste \"main wrapper\"."
+
+#: modules/background-ads/admin.class.php:24
+msgid "Background Ad"
+msgstr "Baggrunds-annonce"
+
+#: modules/advanced-visitor-conditions/main.class.php:444
+msgid "within %s seconds"
+msgstr "inden for %s sekunder"
+
+#: modules/advanced-visitor-conditions/main.class.php:401
+msgid "Cookie Value"
+msgstr "Cookie værdi"
+
+#: modules/advanced-visitor-conditions/main.class.php:400
+msgid "Cookie Name"
+msgstr "Cookie navn"
+
+#: modules/advanced-visitor-conditions/main.class.php:273
+#: modules/advanced-visitor-conditions/main.class.php:313
+#: modules/advanced-visitor-conditions/main.class.php:356
+msgid "-- choose one --"
+msgstr "-- Vælg en --"
+
+#: modules/advanced-visitor-conditions/main.class.php:270
+msgid "can not"
+msgstr "kan ikke"
+
+#: modules/advanced-visitor-conditions/main.class.php:269
+msgid "can"
+msgstr "kan"
+
+#: modules/advanced-visitor-conditions/main.class.php:188
+msgid "Display ads to new or returning visitors only."
+msgstr "Vis annoncer kun for nye eller tilbagevendende besøgende."
+
+#: modules/advanced-visitor-conditions/main.class.php:187
+msgid "new visitor"
+msgstr "ny besøgende"
+
+#: modules/advanced-visitor-conditions/main.class.php:181
+msgid "Display the ad only for a few impressions in a given period per user."
+msgstr "Vis kun annoncen for nogle få visninger, i en given periode pr. bruger."
+
+#: modules/advanced-visitor-conditions/main.class.php:180
+msgid "max. ad impressions"
+msgstr "max. annonce visninger"
+
+#: modules/advanced-visitor-conditions/main.class.php:174
+msgid "Display ads based on the number of page impressions the user already made (before the current on)."
+msgstr "Vis annoncer baseret på det antal sidevisninger, brugeren allerede har foretaget (før den aktuelle)."
+
+#: modules/advanced-visitor-conditions/main.class.php:173
+msgid "page impressions"
+msgstr "side indtryk "
+
+#: modules/advanced-visitor-conditions/main.class.php:166
+msgid "Display ads based on the value of a cookie."
+msgstr "Vis annoncer ud fra værdien af en cookie."
+
+#: modules/advanced-visitor-conditions/main.class.php:165
+msgid "cookie"
+msgstr "cookie"
+
+#: modules/advanced-visitor-conditions/main.class.php:158
+msgid "Display ads based on the visitors browser language."
+msgstr "Vis annoncer baseret på den besøgendes browsersprog."
+
+#: modules/advanced-visitor-conditions/main.class.php:157
+msgid "browser language"
+msgstr "browser sprog"
+
+#: modules/advanced-visitor-conditions/main.class.php:140
+msgid "user can (capabilities)"
+msgstr "bruger kan (tilladelser)"
+
+#: modules/advanced-visitor-conditions/main.class.php:132
+msgid "user agent"
+msgstr "brugeragent"
+
+#: modules/advanced-visitor-conditions/main.class.php:125
+msgid "Display ads based on the referrer url."
+msgstr "Vis annoncer baseret på henvisnings-url."
+
+#: modules/advanced-visitor-conditions/main.class.php:124
+msgid "referrer url"
+msgstr "henvisnings url "
+
+#: modules/advanced-visitor-conditions/admin.class.php:16
+msgid "Advanced visitor conditions"
+msgstr "Avancerede besøgsbetingelser"
+
+#: modules/advanced-display-conditions/main.class.php:518
+msgid "count from end"
+msgstr "tælle fra ende"
+
+#: modules/advanced-display-conditions/main.class.php:515
+msgid "from %s to %s"
+msgstr "fra %s til %s"
+
+#: modules/advanced-display-conditions/main.class.php:485
+msgid "meta key"
+msgstr "meta nøgle"
+
+#: modules/advanced-display-conditions/main.class.php:484
+msgid "all of"
+msgstr "alle af"
+
+#: modules/advanced-display-conditions/main.class.php:483
+msgid "any of"
+msgstr "hvilken som helst af"
+
+#: modules/advanced-display-conditions/main.class.php:452
+msgid "no languages set up in WPML"
+msgstr "ingen sprog opsat i WPML"
+
+#: modules/advanced-display-conditions/main.class.php:381
+#: modules/advanced-display-conditions/main.class.php:436
+#: modules/advanced-visitor-conditions/main.class.php:310
+#: modules/advanced-visitor-conditions/main.class.php:353
+#: modules/gamipress/views/visitor-condition-achievement.php:17
+#: modules/paid-memberships-pro/main.class.php:113
+#: modules/paid-memberships-pro/main.class.php:228
+msgid "is not"
+msgstr "er ikke"
+
+#: modules/advanced-display-conditions/main.class.php:380
+#: modules/advanced-display-conditions/main.class.php:435
+#: modules/advanced-visitor-conditions/main.class.php:309
+#: modules/advanced-visitor-conditions/main.class.php:352
+#: modules/gamipress/views/visitor-condition-achievement.php:16
+#: modules/paid-memberships-pro/main.class.php:112
+#: modules/paid-memberships-pro/main.class.php:227
+msgid "is"
+msgstr "er"
+
+#: modules/advanced-display-conditions/main.class.php:98
+msgid "Display ads based on the index of a split page"
+msgstr "Vis annoncer baseret på indekset af en opdelt side"
+
+#: modules/advanced-display-conditions/main.class.php:97
+msgid "pagination"
+msgstr "sideopdeling"
+
+#: modules/advanced-display-conditions/main.class.php:91
+msgid "Display ads based on post meta."
+msgstr "Vis annoncer baseret på indlægs-meta."
+
+#: modules/advanced-display-conditions/main.class.php:90
+msgid "post meta"
+msgstr "indholds meta"
+
+#: modules/advanced-display-conditions/main.class.php:84
+msgid "Display ads based on parent page."
+msgstr "Vis annoncer baseret på overordnet side."
+
+#: modules/advanced-display-conditions/main.class.php:83
+msgid "parent page"
+msgstr "Overordnet side"
+
+#: modules/advanced-display-conditions/main.class.php:76
+msgid "Display ads based on the page’s language set with WPML."
+msgstr "Vis annoncer baseret på sidens sprogindstilling med WPML."
+
+#: modules/advanced-display-conditions/main.class.php:75
+msgid "WPML language"
+msgstr "WPML sprog"
+
+#: modules/advanced-display-conditions/main.class.php:45
+#: modules/advanced-display-conditions/main.class.php:64
+msgid "Display ads based on the template of the %s post type."
+msgstr "Vis annoncer baseret på skabelonen for %s indlægstypen."
+
+#: modules/advanced-display-conditions/main.class.php:44
+#: modules/advanced-display-conditions/main.class.php:63
+msgid "%s template"
+msgstr "%s skabelon"
+
+#: modules/advanced-display-conditions/main.class.php:32
+msgid "url parameters"
+msgstr "url parametre"
+
+#: modules/ads-for-adblockers/admin.class.php:112
+msgid "The chosen ad contains a reference to an external .js file"
+msgstr "Den valgte annonce indeholder en reference til en ekstern .js-fil"
+
+#: modules/ads-for-adblockers/admin.class.php:65
+msgid "Displayed to visitors with an ad blocker"
+msgstr "Vises for besøgende med annonceblokering"
+
+#: modules/ads-for-adblockers/admin.class.php:63
+msgid "Ad blocker item"
+msgstr "Annonce-blokeringselement"
+
+#: modules/ads-for-adblockers/admin.class.php:23
+msgid "Ads for ad blockers"
+msgstr "Annoncer til annonceblokering"
+
+#: modules/admin-bar/admin-bar.class.php:89
+msgid "placement"
+msgstr "placering"
+
+#: modules/admin-bar/admin-bar.class.php:86
+msgid "group"
+msgstr "gruppe"
+
+#: modules/admin-bar/admin-bar.class.php:83
+msgid "ad"
+msgstr "annonce"
+
+#: modules/admin-bar/admin-bar.class.php:45
+msgid "No Ads found"
+msgstr "Ingen annoncer fundet"
+
+#: modules/admin-bar/admin-bar.class.php:37
+msgid "Ads"
+msgstr "Annoncer"
+
+#: views/setting_output_once.php:5
+msgid "Display the ad only once per page"
+msgstr "Vis kun annoncen én gang pr. side"
+
+#: views/setting_output_once.php:2
+msgid "Display only once"
+msgstr "Vis kun én gang"
+
+#: classes/advanced-ads-pro.php:480
+msgid "Please note, the “Ad Admin“ and the “Ad Manager“ roles have the “upload_files“ and the “unfiltered_html“ capabilities"
+msgstr "Bemærk venligst, at rollerne \"Annonce administrator\" og \"Annonce manager\" har \"upload_files\" og \"unfiltred_html\" rettigheder"
+
+#. Translators: %s is the plugin’s name.
+#: classes/advanced-ads-pro.php:293
+msgid "<strong>%s</strong> requires the <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> plugin to be installed and activated on your site."
+msgstr "<strong>%s</strong> kræver, at pluginnet <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> er installeret og aktiveret på dit websted."
+
+#: classes/advanced-ads-pro.php:308
+msgid "Install Now"
+msgstr "Installer nu"
+
+#: classes/advanced-ads-pro.php:306
+msgid "Activate Now"
+msgstr "Aktiver nu"
+
+#. Translators: %s is a URL.
+#: classes/advanced-ads-pro-admin.php:359
+msgid "Enable the Advanced Visitor Conditions <a href=\"%s\" target=\"_blank\">in the settings</a>."
+msgstr "Aktiver de avancerede besøgsbetingelser <a href=\"%s\" target=\"_blank\">i indstillingerne</a>."
+
+#: classes/advanced-ads-pro-admin.php:303
+msgid "Please note, with the last update, the “Ad Admin“ and “Ad Manager“ roles have the “upload_files“ and the “unfiltered_html“ capabilities."
+msgstr "Bemærk venligst, at med den seneste opdatering har rollerne \"Annonce administrator\" og \"Annonce manager\" \"upload_files\" og \"unfiltred_html\" rettigheder."
+
+#: classes/advanced-ads-pro-admin.php:293
+msgid "Ad User Role"
+msgstr "Annonce-brugerrolle"
+
+#: classes/advanced-ads-pro-admin.php:290
+msgid "Advanced Ads User Role"
+msgstr "Advanced Ads bruger rolle"
+
+#: classes/advanced-ads-pro-admin.php:42
+msgid "--no role--"
+msgstr "--ingen rolle--"
+
+#: classes/advanced-ads-pro-admin.php:41 classes/advanced-ads-pro.php:262
+msgid "Ad User"
+msgstr "Annonce bruger"
+
+#: classes/advanced-ads-pro-admin.php:40 classes/advanced-ads-pro.php:249
+msgid "Ad Manager"
+msgstr "Annonce manager"
+
+#: classes/advanced-ads-pro-admin.php:39 classes/advanced-ads-pro.php:235
+msgid "Ad Admin"
+msgstr "Annonce admin"

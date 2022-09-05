@@ -1,0 +1,29 @@
+/* Dashboard Widgets Suite - Feed Box */
+
+#dws-feed-box .dws-feed-box-site {
+	font-size: 13px; font-weight: bold;
+	}
+#dws-feed-box .dws-feed-box-desc {
+	padding: 0 0 0 3px; color: #777; font-size: 12px; 
+	}
+#dws-feed-box .dws-feed-box ul {
+	margin: 15px 0 5px 0;
+	}
+#dws-feed-box .dws-feed-box li {
+	margin: 0 0 10px 0;
+	}
+#dws-feed-box .dws-feed-box li:last-child {
+	margin-bottom: 0;
+	}
+#dws-feed-box .dws-feed-box-title {
+	font-weight: bold; font-size: 13px;
+	}
+#dws-feed-box .dws-feed-box-date {
+	display: block; color: #777; font-size: 12px; 
+	}
+#dws-feed-box .dws-feed-box-excerpt {
+	font-size: 13px;
+	}
+#dws-feed-box .dws-feed-box-suffix {
+	color: #ccc; font-size: 12px; 
+	}

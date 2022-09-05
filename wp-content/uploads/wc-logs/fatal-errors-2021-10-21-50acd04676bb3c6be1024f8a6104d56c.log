@@ -1,0 +1,46 @@
+2021-10-21T07:29:32-07:00 CRITICAL require_once(): Failed opening required '/home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_GA/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_GA/plugin.php on line 497
+
+2021-10-21T07:30:10-07:00 CRITICAL require_once(): Failed opening required '/home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_GA/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_GA/plugin.php on line 497
+
+2021-10-21T07:30:36-07:00 CRITICAL require_once(): Failed opening required '/home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_GA/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_GA/plugin.php on line 498
+
+2021-10-21T07:44:46-07:00 CRITICAL Uncaught Error: Call to a member function getValues() on null in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_GA/plugin.php:159
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_GA/plugin.php(569): GA_List::printResults(Object(Google\Service\AnalyticsReporting\GetReportsResponse))
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): SP_Plugin_GA->plugin_settings_page('')
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-admin/admin.php(259): do_action('toplevel_page_A...')
+#5 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_GA/plugin.php on line 159
+
+2021-10-21T07:45:12-07:00 CRITICAL Uncaught Error: Call to a member function getValues() on null in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_GA/plugin.php:159
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_GA/plugin.php(569): GA_List::printResults(Object(Google\Service\AnalyticsReporting\GetReportsResponse))
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): SP_Plugin_GA->plugin_settings_page('')
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-admin/admin.php(259): do_action('toplevel_page_A...')
+#5 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_GA/plugin.php on line 159
+
+2021-10-21T07:59:23-07:00 CRITICAL Uncaught Error: Call to a member function getValues() on null in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_GA/plugin.php:160
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_GA/plugin.php(567): GA_List::printResults(Object(Google\Service\AnalyticsReporting\GetReportsResponse))
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): SP_Plugin_GA->plugin_settings_page('')
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-admin/admin.php(259): do_action('toplevel_page_A...')
+#5 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_GA/plugin.php on line 160
+
+2021-10-21T08:31:29-07:00 CRITICAL Uncaught Error: Call to a member function getName() on null in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_GA/plugin.php:162
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_GA/plugin.php(569): GA_List::printResults(Object(Google\Service\AnalyticsReporting\GetReportsResponse))
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(303): SP_Plugin_GA->plugin_settings_page('')
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-admin/admin.php(259): do_action('toplevel_page_A...')
+#5 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_GA/plugin.php on line 162
+

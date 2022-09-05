@@ -1,0 +1,5 @@
+2022-08-11T08:00:30-07:00 CRITICAL Uncaught Error: Call to a member function remove_role() on bool in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php:1352
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php on line 1352
+

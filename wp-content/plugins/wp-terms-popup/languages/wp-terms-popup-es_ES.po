@@ -1,0 +1,523 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: WP Terms Popup\n"
+"POT-Creation-Date: 2021-04-24 18:00-0400\n"
+"PO-Revision-Date: 2021-04-29 09:53-0400\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: es\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-wp-terms-popup-admin.php:50
+#: admin/class-wp-terms-popup-admin.php:172
+msgid "WP Terms Popup Settings"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:50
+#: admin/class-wp-terms-popup-admin.php:393
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/class-wp-terms-popup-admin.php:51
+msgid "WP Terms Popup Designer"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:51
+#: admin/class-wp-terms-popup-admin.php:394
+msgid "Designer"
+msgstr "Diseñador"
+
+#: admin/class-wp-terms-popup-admin.php:52
+msgid "WP Terms Popup Collector"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:52
+#: admin/class-wp-terms-popup-admin.php:395
+msgid "Collector"
+msgstr "Colector"
+
+#: admin/class-wp-terms-popup-admin.php:82
+msgctxt "post type general name"
+msgid "WP Terms Popup"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:83
+#, fuzzy
+msgctxt "post type singular name"
+msgid "Popup"
+msgstr "Popup"
+
+#: admin/class-wp-terms-popup-admin.php:84
+msgctxt "admin menu"
+msgid "WP Terms Popup"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:85
+#, fuzzy
+msgctxt "add new on admin bar"
+msgid "Popup"
+msgstr "Popup"
+
+#: admin/class-wp-terms-popup-admin.php:86
+#, fuzzy
+msgctxt "termpopup"
+msgid "Add New"
+msgstr "Añadir nuevo"
+
+#: admin/class-wp-terms-popup-admin.php:87
+#, fuzzy
+msgid "Add New Popup"
+msgstr "Añadir nueva ventana emergente"
+
+#: admin/class-wp-terms-popup-admin.php:88
+#, fuzzy
+msgid "New Popup"
+msgstr "Nuevo popup"
+
+#: admin/class-wp-terms-popup-admin.php:89
+#, fuzzy
+msgid "Edit Popup"
+msgstr "Editar popup"
+
+#: admin/class-wp-terms-popup-admin.php:90
+#, fuzzy
+msgid "View Popup"
+msgstr "Ver popup"
+
+#: admin/class-wp-terms-popup-admin.php:91
+#, fuzzy
+msgid "All Popups"
+msgstr "Todas las ventanas emergentes"
+
+#: admin/class-wp-terms-popup-admin.php:92
+#, fuzzy
+msgid "Search Popups"
+msgstr "Buscar popups"
+
+#: admin/class-wp-terms-popup-admin.php:93
+#, fuzzy
+msgid "No Popups found."
+msgstr "‎پاپ آپی پیدا نشد"
+
+#: admin/class-wp-terms-popup-admin.php:94
+#, fuzzy
+msgid "No Popups found in Trash."
+msgstr "‎پاپ آپی در سطل زباله پیدا نشد"
+
+#: admin/class-wp-terms-popup-admin.php:127
+#, fuzzy
+msgid "Popup"
+msgstr "Popup"
+
+#: admin/class-wp-terms-popup-admin.php:128
+#, fuzzy
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/class-wp-terms-popup-admin.php:129
+#, fuzzy
+msgid "Author"
+msgstr "Autor"
+
+#: admin/class-wp-terms-popup-admin.php:130
+#, fuzzy
+msgid "Date"
+msgstr "Fecha"
+
+#: admin/class-wp-terms-popup-admin.php:148
+#, php-format
+msgid "[wpterms id=\"%s\"]"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: admin/class-wp-terms-popup-admin.php:182
+msgid "WP Terms Popup"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-collector.php:25
+msgid "Gather Information with WP Terms Popup Collector"
+msgstr "Recopilar información con WP Terms Popup Collector"
+
+#: admin/partials/wp-terms-popup-admin-collector.php:28
+msgid ""
+"Purchase the WP Terms Popup Collector plugin and gather details about the "
+"visitors accepting your popups."
+msgstr ""
+"Compra el plugin WP Terms Popup Collector y recopila detalles sobre los "
+"visitantes que aceptan tus ventanas emergentes."
+
+#: admin/partials/wp-terms-popup-admin-collector.php:32
+msgid ""
+"Track views and conversions and collect the following pieces of useful "
+"information for each agreeing visitor:"
+msgstr ""
+"Realice un seguimiento de las vistas y conversiones y recopile las "
+"siguientes piezas de información útil para cada visitante que esté de "
+"acuerdo:"
+
+#: admin/partials/wp-terms-popup-admin-collector.php:36
+#, fuzzy
+msgid "Agreement Date"
+msgstr "Fecha ﻿Acuerdo"
+
+#: admin/partials/wp-terms-popup-admin-collector.php:37
+#, fuzzy
+msgid "IP Address"
+msgstr "Dirección IP"
+
+#: admin/partials/wp-terms-popup-admin-collector.php:38
+msgid "User Agent/Browser Details"
+msgstr "Detalles del agente de usuario/navegador"
+
+#: admin/partials/wp-terms-popup-admin-collector.php:39
+msgid "Page the Popup was Seen"
+msgstr "Page the Popup fue visto"
+
+#: admin/partials/wp-terms-popup-admin-collector.php:40
+msgid "WordPress Username (if applicable)"
+msgstr "Nombre de usuario de WordPress (si corresponde)"
+
+#: admin/partials/wp-terms-popup-admin-collector.php:41
+msgid "Agreement Expiration Date"
+msgstr "Fecha de vencimiento del acuerdo"
+
+#: admin/partials/wp-terms-popup-admin-collector.php:45
+msgid ""
+"You can search through your conversion results, copy them to your clipboard "
+"and export the data to a CSV file with the click of a button."
+msgstr ""
+"Puede buscar a través de los resultados de conversión, copiarlos en el "
+"portapapeles y exportar los datos a un archivo CSV con solo hacer clic en un "
+"botón."
+
+#: admin/partials/wp-terms-popup-admin-collector.php:49
+msgid ""
+"WP Terms Popup Collector integrates directly into the free plugin. After "
+"purchase and installation, this tab will be replaced with the Collector "
+"plugin."
+msgstr ""
+"WP Terms Popup Collector se integra directamente en el plugin gratuito. "
+"Después de la compra y la instalación, esta pestaña se reemplazará con el "
+"plugin Collector."
+
+#: admin/partials/wp-terms-popup-admin-designer.php:25
+msgid "Get More Control with WP Terms Popup Designer"
+msgstr "Obtenga más control con WP Terms Popup Designer"
+
+#: admin/partials/wp-terms-popup-admin-designer.php:28
+msgid ""
+"Purchase the WP Terms Popup Designer plugin and adjust these parts of your "
+"popups without writing any code:"
+msgstr ""
+"Compra el plugin WP Terms Popup Designer y ajusta estas partes de tus "
+"ventanas emergentes sin escribir ningún código:"
+
+#: admin/partials/wp-terms-popup-admin-designer.php:32
+#, fuzzy
+msgid "Header Background Color"
+msgstr "Color de Fondo del Encabezado"
+
+#: admin/partials/wp-terms-popup-admin-designer.php:33
+#, fuzzy
+msgid "Header Text Color"
+msgstr "Color de fuente en el Header"
+
+#: admin/partials/wp-terms-popup-admin-designer.php:34
+msgid "Header Text Alignment"
+msgstr "Alineación del texto del encabezado"
+
+#: admin/partials/wp-terms-popup-admin-designer.php:35
+#, fuzzy
+msgid "Main Background Color"
+msgstr "Color de fondo principal"
+
+#: admin/partials/wp-terms-popup-admin-designer.php:36
+#, fuzzy
+msgid "Main Text Color"
+msgstr "Color del texto principal"
+
+#: admin/partials/wp-terms-popup-admin-designer.php:37
+#, fuzzy
+msgid "Button Background Color"
+msgstr "Color de fondo del botón"
+
+#: admin/partials/wp-terms-popup-admin-designer.php:38
+#, fuzzy
+msgid "Button Text Color"
+msgstr "Color del texto del botón"
+
+#: admin/partials/wp-terms-popup-admin-designer.php:39
+msgid "... and more."
+msgstr "... y más."
+
+#: admin/partials/wp-terms-popup-admin-designer.php:43
+msgid ""
+"WP Terms Popup Designer integrates directly into the free plugin. After "
+"purchase and installation, this tab will be replaced with the Designer "
+"plugin."
+msgstr ""
+"WP Terms Popup Designer se integra directamente en el plugin gratuito. "
+"Después de la compra y la instalación, esta pestaña se reemplazará con el "
+"plugin Designer."
+
+#: admin/partials/wp-terms-popup-admin-footer.php:14
+msgid "A WordPress Plugin by"
+msgstr "Un plugin de WordPress"
+
+#: admin/partials/wp-terms-popup-admin-post-meta-boxes.php:19
+msgid ""
+"You are currently using a sitewide popup. Check the box below to disable "
+"that popup from showing on this page."
+msgstr ""
+"Actualmente está utilizando una ventana emergente en todo el sitio. Marque "
+"la casilla de abajo para deshabilitar esa ventana emergente de mostrar en "
+"esta página."
+
+#: admin/partials/wp-terms-popup-admin-post-meta-boxes.php:23
+msgid "Disable Popup?"
+msgstr "¿Desactivar popup?"
+
+#: admin/partials/wp-terms-popup-admin-post-meta-boxes.php:37
+msgid "Enable Popup?"
+msgstr "¿Habilitar popup?"
+
+#: admin/partials/wp-terms-popup-admin-post-meta-boxes.php:43
+msgid "Terms Popup to Show on this Post:"
+msgstr "Términos popup para mostrar en este post:"
+
+#: admin/partials/wp-terms-popup-admin-post-meta-boxes.php:50
+#, php-format
+msgid "Please <a href=\"%s\">create your first Terms Popup</a> to proceed."
+msgstr ""
+"Por <a href=\"%s\">favor, cree sus primeros Términos Popup</a> para "
+"continuar."
+
+#: admin/partials/wp-terms-popup-admin-post-meta-boxes.php:53
+#: admin/partials/wp-terms-popup-admin-settings.php:99
+#, fuzzy
+msgid "- Select -"
+msgstr "- Seleccionar -"
+
+#: admin/partials/wp-terms-popup-admin-post-type-meta-boxes.php:16
+#: admin/partials/wp-terms-popup-admin-settings.php:172
+msgid "Agree Button Text"
+msgstr "Aceptar texto del botón"
+
+#: admin/partials/wp-terms-popup-admin-post-type-meta-boxes.php:21
+#: admin/partials/wp-terms-popup-admin-settings.php:177
+msgid "Decline Button Text"
+msgstr "Rechazar texto de botón"
+
+#: admin/partials/wp-terms-popup-admin-post-type-meta-boxes.php:26
+#: admin/partials/wp-terms-popup-admin-settings.php:42
+#: admin/partials/wp-terms-popup-admin-settings.php:182
+msgid "Decline URL Redirect"
+msgstr "Rechazar la redirección de URL"
+
+#: admin/partials/wp-terms-popup-admin-post-type-meta-boxes.php:29
+#: admin/partials/wp-terms-popup-admin-settings.php:43
+msgid ""
+"This URL is the website users will be sent to if they click the Decline "
+"button."
+msgstr ""
+"Esta URL es a la que se enviarán los usuarios del sitio web si hacen clic en "
+"el botón Rechazar."
+
+#: admin/partials/wp-terms-popup-admin-settings.php:25
+msgid "WP Terms Popup Help"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:27
+#: admin/partials/wp-terms-popup-admin-settings.php:71
+#, fuzzy
+msgid "Popups"
+msgstr "Popups"
+
+#: admin/partials/wp-terms-popup-admin-settings.php:29
+msgid "Load Popups with JavaScript"
+msgstr "Cargar popups con JavaScript"
+
+#: admin/partials/wp-terms-popup-admin-settings.php:31
+#, php-format
+msgid ""
+"<a target=\"new\" href=\"%s\">Learn more about how this settings works and "
+"when it is best to enable it on your website</a>."
+msgstr ""
+"<a target=\"new\" href=\"%s\">Obtén más información sobre cómo funciona esta "
+"configuración y cuándo es mejor habilitarla en tu sitio web.</a>"
+
+#: admin/partials/wp-terms-popup-admin-settings.php:33
+#: admin/partials/wp-terms-popup-admin-settings.php:105
+msgid "Agreement Expiration"
+msgstr "Vencimiento del acuerdo"
+
+#: admin/partials/wp-terms-popup-admin-settings.php:34
+msgid ""
+"This setting controls how much time passes before a user has to agree to "
+"your popup again."
+msgstr ""
+"Esta configuración controla cuánto tiempo pasa antes de que un usuario tenga "
+"que aceptar la ventana emergente de nuevo."
+
+#: admin/partials/wp-terms-popup-admin-settings.php:35
+msgid "Leaving this blank will make popups reappear after 72 hours."
+msgstr ""
+"Dejar esto en blanco hará que las ventanas emergentes reaparecen después de "
+"72 horas."
+
+#: admin/partials/wp-terms-popup-admin-settings.php:36
+msgid ""
+"Setting this to 0 will force the popup to appear every time a page is loaded."
+msgstr ""
+"Establecer esto en 0 obligará a que aparezca la ventana emergente cada vez "
+"que se carga una página."
+
+#: admin/partials/wp-terms-popup-admin-settings.php:40
+#: admin/partials/wp-terms-popup-admin-settings.php:165
+#, fuzzy
+msgid "Buttons"
+msgstr "Botones"
+
+#: admin/partials/wp-terms-popup-admin-settings.php:48
+#: admin/partials/wp-terms-popup-admin-settings.php:192
+#, fuzzy
+msgid "Background"
+msgstr "Fondo"
+
+#: admin/partials/wp-terms-popup-admin-settings.php:50
+#: admin/partials/wp-terms-popup-admin-settings.php:197
+#, fuzzy
+msgid "Transparency"
+msgstr "Transparencia"
+
+#: admin/partials/wp-terms-popup-admin-settings.php:51
+msgid "This setting controls the darkness of content behind the popup."
+msgstr ""
+"Esta configuración controla la oscuridad del contenido detrás de la ventana "
+"emergente."
+
+#: admin/partials/wp-terms-popup-admin-settings.php:56
+msgid "Additional Support"
+msgstr "Soporte adicional"
+
+#: admin/partials/wp-terms-popup-admin-settings.php:58
+#, php-format
+msgid ""
+"Do you need more help or have a specific question about a WP Terms Popup "
+"feature? You can reach us through our <a target=\"_blank\" href=\"%s"
+"\">support forum</a> at WordPress.org."
+msgstr ""
+"¿Necesita más ayuda o tiene una pregunta específica sobre una función "
+"emergente de términos wp? Puede comunicarse con nosotros a través de nuestro "
+"<a target=\"_blank\" href=\"%s\">foro de soporte</a> en WordPress.org."
+
+#: admin/partials/wp-terms-popup-admin-settings.php:79
+msgid "Load popups with JavaScript?"
+msgstr "Cargar popups con JavaScript"
+
+#: admin/partials/wp-terms-popup-admin-settings.php:88
+msgid "Show only one popup site wide?"
+msgstr "¿Mostrar solo un sitio emergente de ancho?"
+
+#: admin/partials/wp-terms-popup-admin-settings.php:94
+msgid "Site Wide Popup"
+msgstr "Popup amplio del sitio"
+
+#: admin/partials/wp-terms-popup-admin-settings.php:97
+#, php-format
+msgid "Please <a href=\"%s\">create your first popup</a> to proceed."
+msgstr ""
+"Por <a href=\"%s\">favor, cree su primera ventana emergente</a> para "
+"proceder."
+
+#: admin/partials/wp-terms-popup-admin-settings.php:106
+#, fuzzy
+msgid "Hours"
+msgstr "Horas"
+
+#: admin/partials/wp-terms-popup-admin-settings.php:114
+msgid "User Visibility"
+msgstr "Visibilidad del usuario"
+
+#: admin/partials/wp-terms-popup-admin-settings.php:116
+msgid ""
+"Define who will see your popups based on their logged in status or user role."
+msgstr ""
+"Defina quién verá las ventanas emergentes en función de su estado de inicio "
+"de sesión o rol de usuario."
+
+#: admin/partials/wp-terms-popup-admin-settings.php:120
+msgid ""
+"It is highly recommended that sites using a caching plugin or service clear "
+"the cache completely after making any changes to the User Visibility setting."
+msgstr ""
+"Se recomienda encarecidamente que los sitios que utilizan un complemento o "
+"servicio de almacenamiento en caché borre la caché por completo después de "
+"realizar cualquier cambio en la configuración de visibilidad del usuario."
+
+#: admin/partials/wp-terms-popup-admin-settings.php:131
+msgid "Guests & Logged Out Users"
+msgstr "Invitados & Usuarios que han iniciado sesión"
+
+#: admin/partials/wp-terms-popup-admin-settings.php:140
+msgid "All Logged In Users (Ignore Role)"
+msgstr "Todos los usuarios que han iniciado sesión (ignorar rol)"
+
+#: admin/partials/wp-terms-popup-admin-settings.php:167
+msgid "These values will be the default options for all new popups you create."
+msgstr ""
+"Estos valores serán las opciones predeterminadas para todas las nuevas "
+"ventanas emergentes que cree."
+
+#: admin/partials/wp-terms-popup-admin-settings.php:202
+msgid "1 = Light, 10 = Dark."
+msgstr "1 = Luz, 10 = Oscuro."
+
+#: admin/partials/wp-terms-popup-admin-settings.php:211
+#, fuzzy
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: public/partials/wp-terms-popup-public-popup-buttons.php:20
+#, fuzzy
+msgid "I Agree"
+msgstr "Acepto"
+
+#: public/partials/wp-terms-popup-public-popup-buttons.php:29
+#, fuzzy
+msgid "I Do Not Agree"
+msgstr "No Estoy de Acuerdo"
+
+#. Plugin URI of the plugin/theme
+msgid "https://termsplugin.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Use WP Terms Popup to ask users to agree to a terms of service, privacy "
+"policy or age verification request before they are allowed to view your site."
+msgstr ""
+"Utilice WP Terms Popup para pedir a los usuarios que acepten un servicio, "
+"una política de privacidad o una solicitud de verificación de edad antes de "
+"que se les permita ver su sitio."
+
+#. Author of the plugin/theme
+msgid "Link Software LLC"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://linksoftwarellc.com"
+msgstr ""

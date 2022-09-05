@@ -1,0 +1,210 @@
+2022-02-17T10:12:36+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash_Admin' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(59): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php on line 3
+
+2022-02-17T10:12:40+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash_Admin' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(59): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php on line 3
+
+2022-02-17T10:12:40+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash_Admin' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(59): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php on line 3
+
+2022-02-17T10:12:40+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/main.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(72): require_once()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps.c in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/main.php on line 3
+
+2022-02-17T10:13:24+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash_Admin' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(59): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php on line 3
+
+2022-02-17T10:13:25+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash_Admin' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(59): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php on line 3
+
+2022-02-17T10:13:25+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash_Admin' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(59): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php on line 3
+
+2022-02-17T10:13:25+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash_Admin' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(59): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php on line 3
+
+2022-02-17T10:13:25+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash_Admin' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(59): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php on line 3
+
+2022-02-17T10:13:30+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash_Admin' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(59): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php on line 3
+
+2022-02-17T10:13:34+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/main.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(72): require_once()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps.c in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/main.php on line 3
+
+2022-02-17T10:13:41+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash_Admin' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(59): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php on line 3
+
+2022-02-17T10:13:54+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash_Admin' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(59): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php on line 3
+
+2022-02-17T10:14:54+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash_Admin' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(59): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php on line 3
+
+2022-02-17T10:15:38+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash_Admin' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(59): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php on line 3
+
+2022-02-17T10:16:54+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash_Admin' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(59): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php on line 3
+
+2022-02-17T10:18:54+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash_Admin' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(59): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php on line 3
+
+2022-02-17T10:20:54+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash_Admin' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(59): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php on line 3
+
+2022-02-17T10:22:54+00:00 CRITICAL Uncaught Error: Class 'Advanced_Ads_Pro_Module_Flash_Admin' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php:3
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads/includes/load_modules.php(59): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/classes/advanced-ads-pro.php(71): Advanced_Ads_ModuleLoader::loadModules('/home/642855.cl...', Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Pro->init('')
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(450): do_action('plugins_loaded')
+#6 /home/642855.cloudwaysapps in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-pro/modules/flash/admin.php on line 3
+
+2022-02-17T03:34:28-08:00 CRITICAL Cannot declare class ADDEMO_List, because the name is already in use in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_ADVERTISER/plugin.php on line 434
+
+2022-02-17T03:34:41-08:00 CRITICAL Cannot declare class ADDEMO_List, because the name is already in use in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_ADVERTISER/plugin.php on line 434
+
+2022-02-17T03:34:44-08:00 CRITICAL Cannot declare class ADDEMO_List, because the name is already in use in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/WP_ADVERTISER/plugin.php on line 434
+
+2022-02-17T12:51:09+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 5294
+
+2022-02-17T13:04:13+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 1593
+
+2022-02-17T07:22:32-08:00 CRITICAL Uncaught Error: Call to a member function format() on null in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/cronJobAd_deactive.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/cronJobAd_deactive.php on line 41
+
+2022-02-17T07:22:34-08:00 CRITICAL Uncaught Error: Call to a member function format() on null in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/cronJobAd_deactive.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/cronJobAd_deactive.php on line 41
+

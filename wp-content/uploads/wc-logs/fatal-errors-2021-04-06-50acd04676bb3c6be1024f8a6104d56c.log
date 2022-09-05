@@ -1,0 +1,74 @@
+2021-04-06T12:51:15+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:748
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-tr in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 748
+
+2021-04-06T12:51:36+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:748
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): WooCommerceMusicPlayer->include_main_player_filter('removal all tee...')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('removal all tee...', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', 'removal all tee...')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-tr in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 748
+
+2021-04-06T13:50:03+00:00 CRITICAL require_once(): Failed opening required '/mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce-simple-auctions/classes/class-wc-product-auction.php' (include_path='.:/usr/share/php') in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce-simple-auctions/woocommerce-simple-auctions.php on line 938
+
+2021-04-06T13:50:09+00:00 CRITICAL require_once(): Failed opening required 'classes/class-wc-product-auction.php' (include_path='.:/usr/share/php') in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce-simple-auctions/woocommerce-simple-auctions.php on line 938
+
+2021-04-06T13:50:15+00:00 CRITICAL require_once(): Failed opening required 'classes/class-wc-product-auction.php' (include_path='.:/usr/share/php') in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce-simple-auctions/woocommerce-simple-auctions.php on line 938
+
+2021-04-06T14:10:14+00:00 CRITICAL Uncaught Error: Call to undefined function wc_price_mujahid() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/woocommerce/single-product/bid.php:91
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce-simple-auctions/woocommerce-simple-auctions-templating.php(43): wc_get_template('single-product/...')
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): woocommerce_auction_bid('')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/woocommerce/single-product/bid.php on line 91
+
+2021-04-06T14:10:20+00:00 CRITICAL Uncaught Error: Call to undefined function wc_price_mujahid() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/woocommerce/single-product/bid.php:91
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce-simple-auctions/woocommerce-simple-auctions-templating.php(43): wc_get_template('single-product/...')
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): woocommerce_auction_bid('')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/woocommerce/single-product/bid.php on line 91
+
+2021-04-06T14:11:42+00:00 CRITICAL Uncaught Error: Call to undefined function track_ad_custom() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/ajax.php:73
+Stack trace:
+#0 {main}
+  thrown in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/ajax.php on line 73
+
+2021-04-06T14:21:09+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_price_decimals_mujahid() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce-simple-auctions/classes/class-wc-product-auction.php:1141
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/woocommerce/single-product/bid.php(403): WC_Product_Auction->bid_value()
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/mnt/data/home/...')
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce-simple-auctions/woocommerce-simple-auctions-templating.php(43): wc_get_template('single-product/...')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): woocommerce_auction_bid('')
+#4 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_fi in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce-simple-auctions/classes/class-wc-product-auction.php on line 1141
+
+2021-04-06T14:21:37+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_price_decimals_mujahid() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce-simple-auctions/classes/class-wc-product-auction.php:1141
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/woocommerce/single-product/bid.php(403): WC_Product_Auction->bid_value()
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/mnt/data/home/...')
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce-simple-auctions/woocommerce-simple-auctions-templating.php(43): wc_get_template('single-product/...')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): woocommerce_auction_bid('')
+#4 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_fi in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce-simple-auctions/classes/class-wc-product-auction.php on line 1141
+
+2021-04-06T14:21:46+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_price_decimals_mujahid() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce-simple-auctions/classes/class-wc-product-auction.php:1141
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/woocommerce/single-product/bid.php(403): WC_Product_Auction->bid_value()
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/mnt/data/home/...')
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce-simple-auctions/woocommerce-simple-auctions-templating.php(43): wc_get_template('single-product/...')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): woocommerce_auction_bid('')
+#4 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_fi in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce-simple-auctions/classes/class-wc-product-auction.php on line 1141
+
+2021-04-06T15:36:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WooCommerceMusicPlayer::include_main_player_filter(), 1 passed in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php:748
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): WooCommerceMusicPlayer->include_main_player_filter('')
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_postpublish.php(115): apply_filters('the_title', '')
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/transposh-translation-filter-for-wordpress/wp/transposh_admin.php( in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/music-player-for-woocommerce/wcmp.php on line 748
+

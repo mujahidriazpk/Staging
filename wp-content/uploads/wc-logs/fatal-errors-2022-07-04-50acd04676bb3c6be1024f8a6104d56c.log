@@ -1,0 +1,17 @@
+2022-07-04T12:57:25+00:00 CRITICAL Uncaught Error: Call to undefined function dokan_header_user_menu_custom() in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/header.php:1075
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/template.php(770): require_once()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/template.php(716): load_template('/home/642855.cl...', true, Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan/page-template/full-width.php(10): get_header()
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/template-loader.php(106): include('/home/642855.cl...')
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-blog-header.php(19): require_once('/home/642855.cl...')
+#6 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/index.php(17): require('/home/ in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/header.php on line 1075
+
+2022-07-04T13:00:00+00:00 CRITICAL syntax error, unexpected ''iconi' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 1246
+
+2022-07-04T13:01:19+00:00 CRITICAL Uncaught Error: Call to undefined function track_ad_custom() in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php:1612
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php on line 1612
+

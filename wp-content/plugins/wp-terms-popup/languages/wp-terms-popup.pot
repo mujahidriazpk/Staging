@@ -1,0 +1,443 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Terms Popup\n"
+"POT-Creation-Date: 2021-04-24 18:00-0400\n"
+"PO-Revision-Date: 2021-04-24 18:00-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-wp-terms-popup-admin.php:50
+#: admin/class-wp-terms-popup-admin.php:172
+msgid "WP Terms Popup Settings"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:50
+#: admin/class-wp-terms-popup-admin.php:393
+msgid "Settings"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:51
+msgid "WP Terms Popup Designer"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:51
+#: admin/class-wp-terms-popup-admin.php:394
+msgid "Designer"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:52
+msgid "WP Terms Popup Collector"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:52
+#: admin/class-wp-terms-popup-admin.php:395
+msgid "Collector"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:82
+msgctxt "post type general name"
+msgid "WP Terms Popup"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:83
+msgctxt "post type singular name"
+msgid "Popup"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:84
+msgctxt "admin menu"
+msgid "WP Terms Popup"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:85
+msgctxt "add new on admin bar"
+msgid "Popup"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:86
+msgctxt "termpopup"
+msgid "Add New"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:87
+msgid "Add New Popup"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:88
+msgid "New Popup"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:89
+msgid "Edit Popup"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:90
+msgid "View Popup"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:91
+msgid "All Popups"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:92
+msgid "Search Popups"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:93
+msgid "No Popups found."
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:94
+msgid "No Popups found in Trash."
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:127
+msgid "Popup"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:128
+msgid "Shortcode"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:129
+msgid "Author"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:130
+msgid "Date"
+msgstr ""
+
+#: admin/class-wp-terms-popup-admin.php:148
+#, php-format
+msgid "[wpterms id=\"%s\"]"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: admin/class-wp-terms-popup-admin.php:182
+msgid "WP Terms Popup"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-collector.php:25
+msgid "Gather Information with WP Terms Popup Collector"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-collector.php:28
+msgid ""
+"Purchase the WP Terms Popup Collector plugin and gather details about the "
+"visitors accepting your popups."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-collector.php:32
+msgid ""
+"Track views and conversions and collect the following pieces of useful "
+"information for each agreeing visitor:"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-collector.php:36
+msgid "Agreement Date"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-collector.php:37
+msgid "IP Address"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-collector.php:38
+msgid "User Agent/Browser Details"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-collector.php:39
+msgid "Page the Popup was Seen"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-collector.php:40
+msgid "WordPress Username (if applicable)"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-collector.php:41
+msgid "Agreement Expiration Date"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-collector.php:45
+msgid ""
+"You can search through your conversion results, copy them to your clipboard "
+"and export the data to a CSV file with the click of a button."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-collector.php:49
+msgid ""
+"WP Terms Popup Collector integrates directly into the free plugin. After "
+"purchase and installation, this tab will be replaced with the Collector "
+"plugin."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-designer.php:25
+msgid "Get More Control with WP Terms Popup Designer"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-designer.php:28
+msgid ""
+"Purchase the WP Terms Popup Designer plugin and adjust these parts of your "
+"popups without writing any code:"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-designer.php:32
+msgid "Header Background Color"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-designer.php:33
+msgid "Header Text Color"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-designer.php:34
+msgid "Header Text Alignment"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-designer.php:35
+msgid "Main Background Color"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-designer.php:36
+msgid "Main Text Color"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-designer.php:37
+msgid "Button Background Color"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-designer.php:38
+msgid "Button Text Color"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-designer.php:39
+msgid "... and more."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-designer.php:43
+msgid ""
+"WP Terms Popup Designer integrates directly into the free plugin. After "
+"purchase and installation, this tab will be replaced with the Designer "
+"plugin."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-footer.php:14
+msgid "A WordPress Plugin by"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-post-meta-boxes.php:19
+msgid ""
+"You are currently using a sitewide popup. Check the box below to disable "
+"that popup from showing on this page."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-post-meta-boxes.php:23
+msgid "Disable Popup?"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-post-meta-boxes.php:37
+msgid "Enable Popup?"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-post-meta-boxes.php:43
+msgid "Terms Popup to Show on this Post:"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-post-meta-boxes.php:50
+#, php-format
+msgid "Please <a href=\"%s\">create your first Terms Popup</a> to proceed."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-post-meta-boxes.php:53
+#: admin/partials/wp-terms-popup-admin-settings.php:99
+msgid "- Select -"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-post-type-meta-boxes.php:16
+#: admin/partials/wp-terms-popup-admin-settings.php:172
+msgid "Agree Button Text"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-post-type-meta-boxes.php:21
+#: admin/partials/wp-terms-popup-admin-settings.php:177
+msgid "Decline Button Text"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-post-type-meta-boxes.php:26
+#: admin/partials/wp-terms-popup-admin-settings.php:42
+#: admin/partials/wp-terms-popup-admin-settings.php:182
+msgid "Decline URL Redirect"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-post-type-meta-boxes.php:29
+#: admin/partials/wp-terms-popup-admin-settings.php:43
+msgid ""
+"This URL is the website users will be sent to if they click the Decline "
+"button."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:25
+msgid "WP Terms Popup Help"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:27
+#: admin/partials/wp-terms-popup-admin-settings.php:71
+msgid "Popups"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:29
+msgid "Load Popups with JavaScript"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:31
+#, php-format
+msgid ""
+"<a target=\"new\" href=\"%s\">Learn more about how this settings works and "
+"when it is best to enable it on your website</a>."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:33
+#: admin/partials/wp-terms-popup-admin-settings.php:105
+msgid "Agreement Expiration"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:34
+msgid ""
+"This setting controls how much time passes before a user has to agree to "
+"your popup again."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:35
+msgid "Leaving this blank will make popups reappear after 72 hours."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:36
+msgid ""
+"Setting this to 0 will force the popup to appear every time a page is loaded."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:40
+#: admin/partials/wp-terms-popup-admin-settings.php:165
+msgid "Buttons"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:48
+#: admin/partials/wp-terms-popup-admin-settings.php:192
+msgid "Background"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:50
+#: admin/partials/wp-terms-popup-admin-settings.php:197
+msgid "Transparency"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:51
+msgid "This setting controls the darkness of content behind the popup."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:56
+msgid "Additional Support"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:58
+#, php-format
+msgid ""
+"Do you need more help or have a specific question about a WP Terms Popup "
+"feature? You can reach us through our <a target=\"_blank\" href=\"%s"
+"\">support forum</a> at WordPress.org."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:79
+msgid "Load popups with JavaScript?"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:88
+msgid "Show only one popup site wide?"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:94
+msgid "Site Wide Popup"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:97
+#, php-format
+msgid "Please <a href=\"%s\">create your first popup</a> to proceed."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:106
+msgid "Hours"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:114
+msgid "User Visibility"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:116
+msgid ""
+"Define who will see your popups based on their logged in status or user role."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:120
+msgid ""
+"It is highly recommended that sites using a caching plugin or service clear "
+"the cache completely after making any changes to the User Visibility setting."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:131
+msgid "Guests & Logged Out Users"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:140
+msgid "All Logged In Users (Ignore Role)"
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:167
+msgid "These values will be the default options for all new popups you create."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:202
+msgid "1 = Light, 10 = Dark."
+msgstr ""
+
+#: admin/partials/wp-terms-popup-admin-settings.php:211
+msgid "Save Settings"
+msgstr ""
+
+#: public/partials/wp-terms-popup-public-popup-buttons.php:20
+msgid "I Agree"
+msgstr ""
+
+#: public/partials/wp-terms-popup-public-popup-buttons.php:29
+msgid "I Do Not Agree"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://termsplugin.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Use WP Terms Popup to ask users to agree to a terms of service, privacy "
+"policy or age verification request before they are allowed to view your site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Link Software LLC"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://linksoftwarellc.com"
+msgstr ""

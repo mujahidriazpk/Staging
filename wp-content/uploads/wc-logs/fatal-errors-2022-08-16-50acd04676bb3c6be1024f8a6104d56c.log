@@ -1,0 +1,64 @@
+2022-08-16T09:42:01+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 2661
+
+2022-08-16T09:42:01+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 2661
+
+2022-08-16T12:06:37+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 2660
+
+2022-08-16T12:45:00+00:00 CRITICAL Uncaught Error: Class 'Loggedin' not found in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/loggedin/loggedin.php:62
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): loggedin_init('')
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-settings.php(461): do_action('plugins_loaded')
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-config.php(77): require_once('/home/642855.cl...')
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-load.php(50): require_once('/home/642855.cl...')
+#6 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php(3): require('/home/642855.cl...')
+#7 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/loggedin/loggedin.php on line 62
+
+2022-08-16T12:45:01+00:00 CRITICAL syntax error, unexpected ''iconi' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 1246
+
+2022-08-16T12:45:01+00:00 CRITICAL syntax error, unexpected ''iconi' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 1246
+
+2022-08-16T12:45:01+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 2660
+
+2022-08-16T12:45:01+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 2660
+
+2022-08-16T12:47:00+00:00 CRITICAL Uncaught Error: Call to undefined function dokan_header_user_menu_custom() in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/header.php:1075
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/template.php(770): require_once()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/template.php(716): load_template('/home/642855.cl...', true, Array)
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan/page-template/full-width.php(10): get_header()
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/template-loader.php(106): include('/home/642855.cl...')
+#5 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-blog-header.php(19): require_once('/home/642855.cl...')
+#6 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/index.php(17): require('/home/ in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/header.php on line 1075
+
+2022-08-16T12:47:00+00:00 CRITICAL syntax error, unexpected end of file, expecting variable (T_VARIABLE) or quoted-string and whitespace (T_ENCAPSED_AND_WHITESPACE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 432
+
+2022-08-16T12:47:01+00:00 CRITICAL syntax error, unexpected ''&laquo; Prev' (T_ENCAPSED_AND_WHITESPACE) in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 5110
+
+2022-08-16T12:47:01+00:00 CRITICAL syntax error, unexpected ''&laquo; Prev' (T_ENCAPSED_AND_WHITESPACE) in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 5110
+
+2022-08-16T12:55:01+00:00 CRITICAL syntax error, unexpected ''iconi' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 1246
+
+2022-08-16T12:55:01+00:00 CRITICAL syntax error, unexpected ''iconi' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 1246
+
+2022-08-16T12:55:01+00:00 CRITICAL syntax error, unexpected ''iconi' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 1246
+
+2022-08-16T12:55:01+00:00 CRITICAL syntax error, unexpected ''iconi' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 1246
+
+2022-08-16T12:55:02+00:00 CRITICAL syntax error, unexpected ''_a' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 1952
+
+2022-08-16T12:55:03+00:00 CRITICAL syntax error, unexpected ''&laquo; Prev' (T_ENCAPSED_AND_WHITESPACE) in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 5110
+
+2022-08-16T13:00:18+00:00 CRITICAL syntax error, unexpected ''_a' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 1952
+
+2022-08-16T13:03:07+00:00 CRITICAL syntax error, unexpected end of file, expecting variable (T_VARIABLE) or quoted-string and whitespace (T_ENCAPSED_AND_WHITESPACE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 432
+
+2022-08-16T13:05:07+00:00 CRITICAL syntax error, unexpected end of file, expecting variable (T_VARIABLE) or quoted-string and whitespace (T_ENCAPSED_AND_WHITESPACE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 432
+
+2022-08-16T13:05:07+00:00 CRITICAL syntax error, unexpected end of file, expecting variable (T_VARIABLE) or quoted-string and whitespace (T_ENCAPSED_AND_WHITESPACE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 432
+
+2022-08-16T13:07:02+00:00 CRITICAL syntax error, unexpected end of file, expecting variable (T_VARIABLE) or quoted-string and whitespace (T_ENCAPSED_AND_WHITESPACE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 432
+

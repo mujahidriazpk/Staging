@@ -1,0 +1,385 @@
+# Translation of Themes - Twenty Nineteen in Urdu
+# This file is distributed under the same license as the Themes - Twenty Nineteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-03-25 11:42:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ur_PK\n"
+"Project-Id-Version: Themes - Twenty Nineteen\n"
+
+#. Description of the theme
+msgid "Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes."
+msgstr "ہماری 2019 کی طےشدہ تھیم بلاک ایڈیٹر کی طاقت کو دکھانے کے لیے تیار کی گئی ہے۔ یہ تمام طےشدہ بلاکس کے لیے اپنی مرضی کے اسٹائلز کی خصوصیات ظاہر کرتی ہے، اور اس طرح بنایا گئی ہے کہ آپ ایڈیٹر میں دیکھیں جو آپ کی ویب سائٹ پر نظر آئے گا۔ Twenty Nineteen کو ویب سائٹس کی ایک وسیع رینج میں مطابقت پذیر ہونے کے لیے ڈیزائن کیا گیا ہے، چاہے آپ تصویری بلاگ چلا رہے ہیں، ایک نیا کاروبار شروع کر رہے ہیں، یا غیر منافع بخش کو سپورٹ کر رہے ہیں۔ کافی وائٹ اسپیش اور جدید sans-serif عنوانات کی خصوصیت پر مستمل ہے جو کلاسک serif باڈی متن سے جوڑتا ہے، یہ تمام اسکرین سائز پر خوبصورت لگتا ہے۔"
+
+#. Theme Name of the theme
+msgid "Twenty Nineteen"
+msgstr "Twenty Nineteen"
+
+#. translators: %s: parent post link
+#: single.php:31
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%s</span>"
+msgstr "<span class=\"meta-nav\">شائع کردہ از</span><span class=\"post-title\">%s</span>"
+
+#: image.php:87
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><br><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">شائع از</span><br><span class=\"post-title\">%title</span>"
+
+#: template-parts/content/content.php:18
+#: template-parts/content/content-excerpt.php:18
+msgctxt "post"
+msgid "Featured"
+msgstr "نمایاں کردہ"
+
+#: inc/back-compat.php:39 inc/back-compat.php:53 inc/back-compat.php:73
+msgid "Twenty Nineteen requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Nineteen کو کم از کم WordPress ورژن 4.7 کی ضرورت ہے۔ آپ ورژن %s چلا رہے ہیں۔ براہ مہربانی اپگریڈ کریں اور دوبارہ کوشش کریں۔"
+
+#: inc/template-functions.php:216
+msgid "Back"
+msgstr "واپس"
+
+#: inc/template-functions.php:209
+msgid "More"
+msgstr "مزید"
+
+#: inc/customizer.php:98
+msgid "Apply a filter to featured images using the primary color"
+msgstr "بنیادی رنگ کا استعمال کر کے تصاویر میں نمایاں فلٹر لگائیں"
+
+#: inc/customizer.php:78
+msgid "Apply a custom color for buttons, links, featured images, etc."
+msgstr "بٹس، لنکس، خاص تصاویر، وغیرہ کے لیے مرضی کے رنگ کا اطلاق کریں۔"
+
+#: inc/customizer.php:56
+msgctxt "primary color"
+msgid "Custom"
+msgstr "مرضی کے مطابق"
+
+#: inc/customizer.php:55
+msgctxt "primary color"
+msgid "Default"
+msgstr "طے شدہ"
+
+#: functions.php:166
+msgid "White"
+msgstr "سفید"
+
+#: functions.php:161
+msgid "Light Gray"
+msgstr "ہلکا گرے"
+
+#: functions.php:156
+msgid "Dark Gray"
+msgstr "گہرا گرے"
+
+#: functions.php:151
+msgid "Secondary"
+msgstr "ثانوی"
+
+#: functions.php:134
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:133
+msgid "Huge"
+msgstr "بہت بڑا"
+
+#: functions.php:128
+msgid "L"
+msgstr "L"
+
+#: functions.php:127
+msgid "Large"
+msgstr "بڑا"
+
+#: functions.php:122
+msgid "M"
+msgstr "M"
+
+#: functions.php:121
+msgid "Normal"
+msgstr "عمومی"
+
+#: functions.php:115
+msgid "Small"
+msgstr "چھوٹا"
+
+#: functions.php:116
+msgid "S"
+msgstr "S"
+
+#: functions.php:60 footer.php:37
+msgid "Footer Menu"
+msgstr "فوٹر مینو"
+
+#: image.php:70
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "فل سائز"
+
+#: image.php:56
+msgid "Page"
+msgstr "صفحہ"
+
+#: functions.php:190
+msgid "Add widgets here to appear in your footer."
+msgstr "اپنے فوٹر میں دکھانے کے لیے یہاں ویجٹ شامل کریں۔"
+
+#: functions.php:188 template-parts/footer/footer-widgets.php:12
+msgid "Footer"
+msgstr "فوٹر"
+
+#: inc/customizer.php:53
+msgid "Primary Color"
+msgstr "بینادی رنگ"
+
+#: template-parts/post/discussion-meta.php:18
+msgid "No comments"
+msgstr "کوئی تبصرہ نہیں"
+
+#. translators: %1(X comments)$s
+#: template-parts/post/discussion-meta.php:16
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] "%d تبصرہ"
+msgstr[1] "%d تبصرے"
+
+#: template-parts/post/author-bio.php:26
+msgid "View more posts"
+msgstr "مزید پوسٹیں دیکھیں"
+
+#. translators: %s: post author
+#: template-parts/post/author-bio.php:17
+msgid "Published by %s"
+msgstr "شائع کردہ از%s"
+
+#: template-parts/header/site-branding.php:33
+msgid "Top Menu"
+msgstr "ٹاپ مینو"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content/content.php:36
+#: template-parts/content/content-single.php:27
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "<span class=\"screen-reader-text\">\"%s \"</span> پڑھنا جاری رکھیں"
+
+#: image.php:52 template-parts/content/content-page.php:27
+#: template-parts/content/content.php:49
+#: template-parts/content/content-single.php:40
+msgid "Pages:"
+msgstr "صفحات:"
+
+#: template-parts/content/content-none.php:46
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "ایسا لگتا ہے کہ ہم وہ تلاش نہیں کر سکے جسے آپ ڈھونڈ رہے ہیں۔ شاید تلاش مدد کر سکے۔"
+
+#: template-parts/content/content-none.php:39
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "معاف کیجیے گا، لیکن آپ کی تلاش کردہ اصطلاح سے کچھ نہیں ملا سکا۔ براہ مہربانی کسی اور کی ورڈز سے دوبارہ تلاش کرنے کی کوشش کریں۔"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content/content-none.php:26
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "آپ اپنی پہلی پوسٹ شائع کرنے لیے تیار ہیں؟ <a href=\"%1$s\">یہاں سے شروع کریں</a>۔"
+
+#: template-parts/content/content-none.php:16
+msgid "Nothing Found"
+msgstr "کچھ نہیں ملا"
+
+#: single.php:42
+msgid "Previous post:"
+msgstr "سابقہ پوسٹ:"
+
+#: single.php:41
+msgid "Previous Post"
+msgstr "پچھلی پوسٹ"
+
+#: single.php:39
+msgid "Next post:"
+msgstr "اگلی پوسٹ:"
+
+#: single.php:38
+msgid "Next Post"
+msgstr "اگلی پوسٹ"
+
+#: search.php:22
+msgid "Search results for:"
+msgstr "تلش کے نتائج برائے:"
+
+#: inc/template-tags.php:234
+msgid "Older posts"
+msgstr "پرانی پوسٹیں"
+
+#: inc/template-tags.php:230
+msgid "Newer posts"
+msgstr "نئی پوسٹیں"
+
+#: inc/template-tags.php:104
+msgid "Tags:"
+msgstr "ٹیگز:"
+
+#: inc/template-tags.php:92
+msgid "Posted in"
+msgstr "شائع کردہ از"
+
+#. translators: used between list items, there is a space after the comma.
+#: inc/template-tags.php:86 inc/template-tags.php:98
+msgid ", "
+msgstr "، "
+
+#. translators: %s: Name of current post. Only visible to screen readers.
+#: inc/template-tags.php:63
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "تبصرہ کریں <span class=\"screen-reader-text\"> از %s</span>"
+
+#: inc/template-tags.php:46
+msgid "Posted by"
+msgstr "پوسٹ کردہ از"
+
+#: inc/template-functions.php:82
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-functions.php:80
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-functions.php:92
+msgid "Archives:"
+msgstr "محفوظات:"
+
+#. translators: %s: Taxonomy singular name
+#: inc/template-functions.php:90
+msgid "%s Archives:"
+msgstr "%s محفوظات:"
+
+#: inc/template-functions.php:86
+msgid "Post Type Archives: "
+msgstr "پوسٹ کی قسم محفوظات:"
+
+#: inc/template-functions.php:84
+msgid "Daily Archives: "
+msgstr "یومیہ محفوظات:"
+
+#: inc/template-functions.php:82
+msgid "Monthly Archives: "
+msgstr "ماہانہ محفوظات:"
+
+#: inc/template-functions.php:80
+msgid "Yearly Archives: "
+msgstr "سالانہ محفوظات:"
+
+#: inc/template-functions.php:78
+msgid "Author Archives: "
+msgstr "مصنف کے محفوظات:"
+
+#: inc/template-functions.php:76
+msgid "Tag Archives: "
+msgstr "ٹیگز محفوظات:"
+
+#: inc/template-functions.php:74
+msgid "Category Archives: "
+msgstr "زمرہ محفوظات:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#. translators: %s: Name of current post. Only visible to screen readers.
+#: template-parts/content/content-page.php:41
+#: template-parts/header/entry-header.php:32 inc/template-tags.php:120
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "ترمیم کریں <span class=\"screen-reader-text\">%s</span>"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "مواد پر جائیں"
+
+#: functions.php:61 template-parts/header/site-branding.php:46
+msgid "Social Links Menu"
+msgstr "سوشل لنکس مینو"
+
+#: functions.php:59 functions.php:146
+msgid "Primary"
+msgstr "بنیادی"
+
+#. translators: %s: WordPress.
+#: footer.php:28
+msgid "Proudly powered by %s."
+msgstr "فخریہ تقویت شدہ از %s۔"
+
+#: comments.php:116
+msgid "Comments are closed."
+msgstr "تبصرے بند ہیں۔"
+
+#: comments.php:96
+msgid "Next"
+msgstr "اگلا"
+
+#: comments.php:95
+msgid "Previous"
+msgstr "گزشتہ"
+
+#: comments.php:92 comments.php:95 comments.php:96
+msgid "Comments"
+msgstr "تبصرے"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s نے جواب دیا از &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s نے جوابات دیئے از &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:40
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr "ایک تبصرہ از &ldquo;%s&rdquo;"
+
+#: comments.php:35 comments.php:105 comments.php:107
+msgid "Leave a comment"
+msgstr "تبصرہ کریں"
+
+#: comments.php:33
+msgid "Join the Conversation"
+msgstr "بات چیت میں شامل ہوں"
+
+#: classes/class-twentynineteen-walker-comment.php:99
+msgid "Your comment is awaiting moderation."
+msgstr "آپ کا تبصرہ موڈریشن کا منتظر ہے۔"
+
+#: classes/class-twentynineteen-walker-comment.php:94
+msgid "Edit"
+msgstr "ترمیم کریں"
+
+#. translators: 1: comment date, 2: comment time
+#: classes/class-twentynineteen-walker-comment.php:86
+msgid "%1$s at %2$s"
+msgstr "%1$s پر %2$s"
+
+#: classes/class-twentynineteen-walker-comment.php:66
+msgid "%s <span class=\"screen-reader-text says\">says:</span>"
+msgstr "%s <span class=\"screen-reader-text says\">کہتے ہیں:</span>"
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "اس مقام پر کچھ نہیں ملا۔ شاید تلاش آپ کی مدد کر سکے؟"
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "اوہ، مطلوبہ صفحہ نہیں مل سکا۔"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "WordPress ٹیم"
+
+#. Author URI of the theme
+#: footer.php:25
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"

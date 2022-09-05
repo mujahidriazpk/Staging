@@ -1,0 +1,348 @@
+# Translation of Responsive Ads in Danish
+# This file is distributed under the same license as the Responsive Ads package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-12 09:28:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: da_DK\n"
+"Project-Id-Version: Responsive Ads\n"
+
+#. Author of the plugin
+msgid "Advanced Ads GmbH"
+msgstr "Advanced Ads GmbH"
+
+#: modules/amp/admin/views/adsense-size.php:6
+msgid "automatically convert to AMP"
+msgstr "konverter automatisk til AMP"
+
+#. Description of the plugin
+msgid "Improve ad display on mobile devices and AMP pages"
+msgstr "Forbedre annoncevisning på mobile enheder og AMP sider"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:33
+msgid "on mobile"
+msgstr "på mobil"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:16
+msgid "Columns"
+msgstr "Kolonner"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:16
+msgid "Rows"
+msgstr "Rækker"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:16
+msgid "on desktop"
+msgstr "på desktop"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:12
+msgid "manual"
+msgstr "manuel"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:11
+msgid "Customize"
+msgstr "Tilpas"
+
+#: modules/gadsense/admin/views/ad-params-responsive-matched-content.php:7
+msgid "Layout"
+msgstr "Layout"
+
+#: modules/amp/admin/views/setting-page-adsense.php:2
+msgid "Enable AMP Auto ads"
+msgstr "Aktiver AMP Auto annoncer"
+
+#: admin/admin.php:150
+msgid "Fallback width"
+msgstr "Fallback bredde"
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#. URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/responsive-ads/"
+msgstr "https://wpadvancedads.com/add-ons/responsive-ads/"
+
+#. Name of the plugin
+msgid "Advanced Ads – Responsive Ads"
+msgstr "Advanced Ads – Responsive Ads"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:46
+msgid "Not displayed"
+msgstr "Ikke vist"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:32
+msgid "Add rule"
+msgstr "Tilføj regel"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:23
+#: modules/gadsense/admin/views/ad-params-manual-css.php:29
+msgid "Hide for this size ?"
+msgstr "Skjul for denne størrelse ?"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:20
+msgid "Default"
+msgstr "Standard"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:15
+msgid "hidden"
+msgstr "skjult"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:14
+msgid "ad height"
+msgstr "annonce højde"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:13
+msgid "ad width"
+msgstr "annonce bredde"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:12
+msgid "min. browser width"
+msgstr "min. browser bredde"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:8
+msgid "Need help? Take a look at the <a href=\"%s\" target=\"_blank\">tutorial</a>."
+msgstr "Brug for hjælp? Tag et kig på <a href=\"%s\" target=\"_blank\"> tutorial </a>."
+
+#: modules/amp/admin/views/adsense-size.php:30
+msgid "no AMP plugin found"
+msgstr "ingen AMP plugin fundet"
+
+#: modules/amp/admin/views/adsense-size.php:26
+msgid "hide"
+msgstr "skjul"
+
+#: modules/amp/admin/views/adsense-size.php:20
+msgid "use responsive width and static height of %s px"
+msgstr "brug responsiv bredde og statisk højde på %s px"
+
+#: modules/amp/admin/views/adsense-size.php:13
+msgid "use dynamic size with ratio %s x %s"
+msgstr "brug statisk størrelse, med forholdet %s x %s"
+
+#: modules/amp/admin/views/ad-params.php:36
+msgid " If supported by the ad network, this text is shown if no ad is available for the ad slot"
+msgstr "Hvis det understøttes af annoncenetværket, vises denne tekst, hvis ingen annonce er tilgængelig for annoncepladsen"
+
+#: modules/amp/admin/views/ad-params.php:33
+msgid "Fallback"
+msgstr "Fallback"
+
+#: modules/amp/admin/views/ad-params.php:25
+msgid "Add attribute"
+msgstr "Tilføj egenskab"
+
+#: modules/amp/admin/views/ad-params.php:7
+msgid "Value"
+msgstr "Værdi"
+
+#: modules/amp/admin/views/ad-params.php:6
+msgid "Name"
+msgstr "Navn"
+
+#: modules/amp/admin/views/ad-params.php:1
+msgid "Attributes"
+msgstr "Egenskab"
+
+#: modules/gadsense/includes/hooking.php:50
+msgid "advanced"
+msgstr "Avancerede"
+
+#: modules/gadsense/includes/hooking.php:49
+msgid "vertical"
+msgstr "lodret"
+
+#: modules/gadsense/includes/hooking.php:48
+msgid "rectangle"
+msgstr "rektangel"
+
+#: modules/gadsense/includes/hooking.php:47
+msgid "horizontal"
+msgstr "horisontal"
+
+#: modules/gadsense/admin/admin.php:68
+msgid "Not Displayed"
+msgstr "Ikke vist"
+
+#: modules/gadsense/admin/admin.php:67
+#: modules/gadsense/admin/views/ad-params-manual-css.php:58
+msgid "remove"
+msgstr "fjern"
+
+#: modules/gadsense/admin/admin.php:66
+#: modules/gadsense/admin/views/ad-params-manual-css.php:57
+msgid "Remove this rule"
+msgstr "Fjern denne regl"
+
+#: modules/amp/public/public.php:430
+msgid "Display ads on Accelerated Mobile Pages"
+msgstr "Vis annoncer på Accelerated Mobile Sider"
+
+#: modules/amp/public/public.php:429
+msgid "Accelerated Mobile Pages"
+msgstr "Accelerated Mobile Pages"
+
+#: modules/amp/include/class-ad-type-amp.php:17
+msgid "Ads that are visible on Accelerated Mobile Pages"
+msgstr "Annoncer, der er synlige på Accelerated Mobile Pages"
+
+#: modules/amp/admin/admin_adsense.php:25
+msgid "This ad type is not supported on AMP pages"
+msgstr "Denne annoncetype er ikke understøttet på AMP sider"
+
+#: modules/amp/admin/admin.php:93
+msgid "is not"
+msgstr "er ikke"
+
+#: modules/amp/admin/admin.php:92
+msgid "is"
+msgstr "er"
+
+#: admin/views/setting_tooltip.php:7
+msgid "Display the sizes of the ads, ad containers and window in the frontend. Only logged in admin users will see it."
+msgstr "Vis størrelserne på annoncerne, annonce-beholdere og vindue i frontend. Kun admin-brugere som er logget ind kan se det."
+
+#: admin/views/setting_tooltip.php:5
+msgid "off"
+msgstr "fra"
+
+#: admin/views/setting_tooltip.php:3
+msgid "on"
+msgstr "til"
+
+#: admin/views/setting_responsive_images.php:2
+msgid "Check this option if the size of image ads is not adjusted responsively by your theme."
+msgstr "Marker denne indstilling, hvis størrelsen på billede-annoncer ikke tilpasses responsivt, af dit tema."
+
+#: admin/views/setting_reload_ads.php:11
+msgid "You need <a href=\"%s\" target=\"_blank\">Advanced Ads Pro</a> and cache-busting in order to use this feature."
+msgstr "Du mangler <a href=\"%s\" target=\"_blank\">Advanced Ads Pro</a> og cache-busting, for at kunne bruge denne funktion."
+
+#: admin/views/setting_reload_ads.php:9
+msgid "Reload ads that are loaded via cache-busting when screen resizes."
+msgstr "Genindlæs annoncer, som indlæses via cache-busting, når skærmens størrelse ændres."
+
+#: admin/views/metabox.php:23
+msgid "Display on mobile only"
+msgstr "Vis kun på mobil"
+
+#: admin/views/metabox.php:20
+msgid "Display on desktop only"
+msgstr "Vis kun på stationær"
+
+#: admin/views/metabox.php:17
+msgid "Don’t load the ad"
+msgstr "Indlæs ikke annoncen"
+
+#: admin/views/metabox.php:14
+msgid "Display the ad anyway"
+msgstr "Vis annoncen alligevel"
+
+#: admin/views/metabox.php:9
+msgid "On the first page view of a new visitor the browser size can not be determined in advanced. Decide here what to do in this case."
+msgstr "På den første sidevisning, fra en ny besøgende, kan browserens størrelse ikke bestemmes i avanceret. Beslut her, hvad der skal gøre i dette tilfælde."
+
+#: admin/views/metabox.php:6
+msgid "Display ad in browsers with a size of %s px to %s px"
+msgstr "Vis annonce i browsere med en størrelse på %s px til %s px"
+
+#: admin/views/metabox.php:4
+msgid "Display ad by browser size"
+msgstr "Vis annoncer efter browser størrelse"
+
+#: admin/views/metabox.php:2
+msgid "The below version of the browser width check is deprecated. Please use the new version of visitor conditions above to replace it."
+msgstr "Nedenstående version til kontrol af browser bredden, er forældet. Brug den nye version af besøgende betingelser ovenfor, for at erstatte den."
+
+#: admin/views/metabox.php:1
+msgid "Display by browser size"
+msgstr "Vis efter browserstørrelse"
+
+#: admin/views/list.php:73
+msgid "ad is NOT visible"
+msgstr "annonce er IKKE synlig"
+
+#: admin/views/list.php:71
+msgid "ad is visible"
+msgstr "annonce er synlig"
+
+#: admin/views/list.php:23
+msgid "(ads without groups)"
+msgstr "(annoncer uden grupper)"
+
+#: admin/views/list.php:10
+msgid "ad"
+msgstr "annoncer"
+
+#: admin/views/list.php:9
+msgid "ad group"
+msgstr "annonce grupper"
+
+#: admin/views/list.php:4
+msgid "Not enough responsive ads to list them."
+msgstr "Ikke nok responsive annoncer til at liste dem."
+
+#: public/public.php:147
+msgid "container width"
+msgstr "indholds bredde"
+
+#: public/public.php:146
+msgid "ad size"
+msgstr "annonce størrelse"
+
+#: public/public.php:145
+msgid "window width"
+msgstr "vindue bredde"
+
+#: classes/plugin.php:111
+msgid "Display ads based on tablet device."
+msgstr "Vis annoncer baseret på tablet enhed."
+
+#: classes/plugin.php:110
+msgid "tablet"
+msgstr "tablet"
+
+#: classes/plugin.php:104
+msgid "Display ads based on the browser width."
+msgstr "Vis annoncer baseret på browserens bredde."
+
+#: classes/plugin.php:103
+msgid "browser width"
+msgstr "browser bredde"
+
+#: admin/admin.php:143
+msgid "Reload ads on resize"
+msgstr "Genindlæs annoncer ved ændring af størrelse"
+
+#: admin/admin.php:134
+msgid "Responsive Image Ads"
+msgstr "Responsive billede annoncer"
+
+#: admin/admin.php:125
+msgid "Activate size assistant"
+msgstr "Aktiver størrelse assistent"
+
+#: admin/admin.php:117 admin/admin.php:242 admin/admin.php:242
+#: admin/views/list.php:2
+msgid "Responsive Ads"
+msgstr "Responsive annoncer"
+
+#: admin/admin.php:108
+msgid "Responsive"
+msgstr "Responsive"
+
+#: admin/admin.php:73
+msgid "<strong>%s</strong> requires the <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> plugin to be installed and activated on your site."
+msgstr "<strong>%s</strong> kræver at <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> pluginet, er installeret og aktiveret på dit websted."
+
+#: admin/admin.php:69
+msgid "Install Now"
+msgstr "Installere nu"
+
+#: admin/admin.php:67
+msgid "Activate Now"
+msgstr "Aktiver nu"

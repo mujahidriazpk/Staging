@@ -1,0 +1,308 @@
+# Translation of Sticky Ads in Vietnamese
+# This file is distributed under the same license as the Sticky Ads package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-10 12:19:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Sticky Ads\n"
+
+#. Author of the plugin
+msgid "Thomas Maier, Advanced Ads GmbH"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wpadvancedads.com"
+msgstr "http://wpadvancedads.com"
+
+#. URI of the plugin
+msgid "http://wpadvancedads.com/add-ons/sticky-ads/"
+msgstr "http://wpadvancedads.com/add-ons/sticky-ads/"
+
+#. Description of the plugin
+msgid "Advanced ad positioning."
+msgstr "Thiết lập nâng cao cho vị trí hiện quảng cáo"
+
+#. Name of the plugin
+msgid "Advanced Ads – Sticky Ads"
+msgstr "Advanced Ads – Sticky Ads"
+
+#: admin/views/vertical-center.php:3
+msgid "center vertically"
+msgstr "chính giữa"
+
+#: admin/views/trigger.php:11
+msgid "after %s seconds"
+msgstr "sau %s giây"
+
+#: admin/views/trigger.php:8
+msgid "right away with effect"
+msgstr "ngay lập tức với hiệu ứng"
+
+#: admin/views/trigger.php:7
+msgid "right away"
+msgstr "ngay lập tức"
+
+#: admin/views/size.php:11
+msgid "Needed in case the ad does not center correctly"
+msgstr "Cần thiết trong trường hợp quảng cáo không được hiển thị chính xác ở giữa"
+
+#: admin/views/size.php:7
+msgid "height"
+msgstr "chiều cao"
+
+#: admin/views/size.php:3
+msgid "width"
+msgstr "chiều rộng"
+
+#: admin/views/metabox.php:46
+msgid "bottom"
+msgstr "dưới cùng"
+
+#: admin/views/metabox.php:36
+msgid "top"
+msgstr "trên cùng"
+
+#: admin/views/metabox.php:32
+msgid "Use numbers in every field you want to be considered for positioning (top, left, right, bottom of the page). Leave a field empty to not set a position for this side. The number is considered to be in pixels."
+msgstr "Nhập giá trị số vào trong các vị trí bạn mong muốn. Để trống nếu không muốn thiết lập khoảng cách vị trí của chúng. Đơn vị tính là px (pixel)."
+
+#: admin/views/metabox.php:31
+msgid "Define position manually"
+msgstr "Đặt vị trí thủ công"
+
+#: admin/views/metabox.php:27
+msgid "banner width"
+msgstr "độ rộng banner"
+
+#: admin/views/metabox.php:26
+msgid "Enter banner width to correctly center the ad."
+msgstr "Nhập độ rộng banner để canh giữa quảng cáo cho chính xác "
+
+#: admin/views/metabox.php:23
+msgid "bottom right"
+msgstr "dưới cùng bên phải"
+
+#: admin/views/metabox.php:22
+msgid "bottom center"
+msgstr "chính giữa dưới cùng"
+
+#: admin/views/metabox.php:21
+msgid "bottom left"
+msgstr "dưới cùng bên trái"
+
+#: admin/views/metabox.php:18
+msgid "center right"
+msgstr "chính giữa bên phải"
+
+#: admin/views/metabox.php:17
+msgid "center"
+msgstr "chính giữa"
+
+#: admin/views/metabox.php:16
+msgid "center left"
+msgstr "chính giữa bên trái"
+
+#: admin/views/metabox.php:13
+msgid "top right"
+msgstr "trên cùng bên phải"
+
+#: admin/views/metabox.php:12
+msgid "top center"
+msgstr "chính giữa trên cùng"
+
+#: admin/views/metabox.php:11
+msgid "top left"
+msgstr "trên cùng bên trái"
+
+#: admin/views/metabox.php:7
+msgid "Choose a position on the screen."
+msgstr "Chọn vị trí trên màn hình"
+
+#: admin/views/metabox.php:6
+msgid "Select a position"
+msgstr "Chọn một vị trí"
+
+#: admin/views/metabox.php:3
+msgid "Stick ad to a specific position on the screen"
+msgstr "Vị trí quảng cáo cố định trên màn hình"
+
+#: admin/views/metabox.php:1
+msgid "These settings are deprecated. Sticky ads are now managed through <a href=\"%s\">placements</a>. Please convert your settings as soon as possible."
+msgstr "Những tùy chọn này sắp không còn được sử dụng nữa. Quảng cáo cố định hiện được quản lý theo <a href=\"%s\">vị trí</a>. Vui lòng chuyển đổi chúng thích hợp càng sớm càng tốt."
+
+#: admin/views/effects.php:12
+msgid "Duration of the effect (in milliseconds)."
+msgstr "Thời gian của các hiệu ứng (tính theo ms)."
+
+#: admin/views/effects.php:9
+msgid "Type of effect when the ad is being displayed"
+msgstr "Kiểu hiệu ứng xuất hiện quảng cáo"
+
+#: admin/views/effects.php:8
+msgid "Slide in"
+msgstr "Trôi vào"
+
+#: admin/views/effects.php:7
+msgid "Fade in"
+msgstr "Mờ dần"
+
+#: admin/views/effects.php:6
+msgid "Show"
+msgstr "Hiện"
+
+#: admin/views/close-button.php:26
+msgid "days, 0 = after current session"
+msgstr "ngày, 0 = sau giai đoạn hiện tại"
+
+#: admin/views/close-button.php:24
+msgid "close the ad for …"
+msgstr "đóng quáng cáo ..."
+
+#: admin/views/close-button.php:22
+msgid "enable timeout"
+msgstr "bật thời gian hết hạn"
+
+#: admin/views/close-button.php:21 admin/views/metabox.php:42
+msgid "right"
+msgstr "phải"
+
+#: admin/views/close-button.php:20 admin/views/metabox.php:40
+msgid "left"
+msgstr "trái"
+
+#: admin/views/close-button.php:18
+msgid "inside"
+msgstr "bên trong"
+
+#: admin/views/close-button.php:17
+msgid "outside"
+msgstr "bên ngoài"
+
+#: admin/views/close-button.php:14
+msgid "add close button"
+msgstr "thêm nút đóng"
+
+#: public/public.php:747
+msgid "close"
+msgstr "đóng"
+
+#: admin/admin.php:437
+msgid "parent element"
+msgstr "đối tượng gốc (parent element)"
+
+#: admin/admin.php:432
+msgid "Use <a href=\"https://api.jquery.com/category/selectors/\" target=\"_blank\">jQuery selectors</a> to select a custom parent element or if automatic wrapper detection doesn’t work, e.g. #container_id, .container_class"
+msgstr "Sử dụng <a href=\"https://api.jquery.com/category/selectors/\" target=\"_blank\">jQuery selectors</a> để chọn đối tượng gốc hoặc bộ lọc tự động không hoạt động đúng, ví dụ #container_id, .container_class"
+
+#: admin/admin.php:430
+msgid "select position"
+msgstr "chọn vị trí"
+
+#: admin/admin.php:422 admin/admin.php:500 admin/views/close-button.php:16
+msgid "Position"
+msgstr "Vị trí"
+
+#: admin/admin.php:416 admin/admin.php:494
+msgid "fix to window position"
+msgstr "vị trí cố định trên trang"
+
+#: admin/admin.php:383 admin/admin.php:460 admin/admin.php:523
+msgid "size"
+msgstr "kích thước"
+
+#: admin/admin.php:370 admin/admin.php:447 admin/admin.php:510
+msgid "close button"
+msgstr "nút đóng"
+
+#: admin/admin.php:360 admin/admin.php:409 admin/admin.php:487
+msgid "effect"
+msgstr "hiệu ứng"
+
+#: admin/admin.php:350 admin/admin.php:399 admin/admin.php:477
+msgid "show the ad"
+msgstr "hiện quảng cáo"
+
+#: admin/admin.php:340
+msgid "background"
+msgstr "màu nền"
+
+#: admin/admin.php:335
+msgid "When selecting a background color, the sticky bar will cover the whole screen width."
+msgstr "Khi chọn một màu nên, thanh cố định sẽ chỉ phủ toàn bộ chiều rộng màn hình"
+
+#: admin/admin.php:304
+msgid "Bar on the right side of the window."
+msgstr "Thanh ở cạnh phải của trang"
+
+#: admin/admin.php:303
+msgid "Right Bar"
+msgstr "Thanh bên phải"
+
+#: admin/admin.php:298
+msgid "Bar on the left side of the window."
+msgstr "Thanh ở cạnh trái của trang"
+
+#: admin/admin.php:297
+msgid "Left Bar"
+msgstr "Thanh bên trái"
+
+#: admin/admin.php:292
+msgid "Sidebar on the right side of the content wrapper."
+msgstr "Phần hiển thị nội dung ở bên phải của nội dung chính của trang."
+
+#: admin/admin.php:291
+msgid "Right Sidebar"
+msgstr "Lề phải (right sidebar)"
+
+#: admin/admin.php:286
+msgid "Sidebar on the left side of the content wrapper."
+msgstr "Phần hiển thị nội dung ở bên trái của nội dung chính của trang."
+
+#: admin/admin.php:285
+msgid "Left Sidebar"
+msgstr "Lề trái (left sidebar)"
+
+#: admin/admin.php:280
+msgid "Fixed footer bar."
+msgstr "Thanh chân trang cố định"
+
+#: admin/admin.php:279
+msgid "Footer Bar"
+msgstr "Thanh chân trang"
+
+#: admin/admin.php:274
+msgid "Fixed header bar."
+msgstr "Thanh đầu trang cố định"
+
+#: admin/admin.php:273
+msgid "Header Bar"
+msgstr "Thanh đầu trang"
+
+#: admin/admin.php:259
+msgid "Activate this if you experience problems with sticky ads and/or a lot of your visitors use old mobile devices. It will check browser capability and position the ad inline after scrolling. Technically speaking: removes <em>position: fixed</em>, if not supported."
+msgstr "Bật nó nếu có vấn đề với các quảng cáo đính hay trang của bạn có nhiều lượt truy cập từ các thiết bị di động cũ. Nó sẽ kiểm tra mức độ tương thích của trình duyệt và điều chỉnh vị trí quảng cáo khi cuộn trang.<br />Nếu nó không hoạt động có thể loại bỏ đoạn mã <em>position: fixed</em>."
+
+#: admin/admin.php:247
+msgid "Settings for the Sticky Ads add-on"
+msgstr "Các cấu hình cho phần mở rộng Sticky Ads"
+
+#: admin/admin.php:216
+msgid "Check browser capability"
+msgstr "Kiểm tra sự tương thích với trình duyệt"
+
+#: admin/admin.php:81
+msgid "<strong>%s</strong> requires the <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> plugin to be installed and activated on your site."
+msgstr "<strong>%s</strong> yêu cầu kích hoạt <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> trên trang của bạn."
+
+#: admin/admin.php:77
+msgid "Install Now"
+msgstr "Cài đặt ngay"
+
+#: admin/admin.php:75
+msgid "Activate Now"
+msgstr "Kích hoạt ngay"

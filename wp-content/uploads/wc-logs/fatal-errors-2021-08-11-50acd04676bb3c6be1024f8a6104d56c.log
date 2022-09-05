@@ -1,0 +1,56 @@
+2021-08-11T10:44:08+00:00 CRITICAL Uncaught Error: Call to undefined method ACP\Column\Post\Shortcodes::get_meta_key() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/functions.php:5229
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(303): ac_column_value_usage('&ndash;', 5093, Object(ACP\Column\Post\Shortcodes))
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('&ndash;', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/admin-columns-pro/admin-columns/classes/ListScreen.php(840): apply_filters('ac/column/value', '&ndash;', 5093, Object(ACP\Column\Post\Shortcodes))
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/admin-columns-pro/admin-columns/classes/ListScreen/Post.php(63): AC\ListScreen->get_display_value_by_column_name('60e5c718d8654', 5093)
+#4 /mnt/data/home/401140.cloudwaysapps.com/qcq in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/functions.php on line 5229
+
+2021-08-11T10:44:14+00:00 CRITICAL Uncaught Error: Call to undefined method ACP\Column\Post\Shortcodes::get_meta_key() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/functions.php:5229
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(303): ac_column_value_usage('&ndash;', 5093, Object(ACP\Column\Post\Shortcodes))
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('&ndash;', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/admin-columns-pro/admin-columns/classes/ListScreen.php(840): apply_filters('ac/column/value', '&ndash;', 5093, Object(ACP\Column\Post\Shortcodes))
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/admin-columns-pro/admin-columns/classes/ListScreen/Post.php(63): AC\ListScreen->get_display_value_by_column_name('60e5c718d8654', 5093)
+#4 /mnt/data/home/401140.cloudwaysapps.com/qcq in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/functions.php on line 5229
+
+2021-08-11T10:52:51+00:00 CRITICAL Uncaught Error: Call to undefined method ACP\Column\Post\Shortcodes::get_meta_key() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/functions.php:5230
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(303): ac_column_value_usage('&ndash;', 5093, Object(ACP\Column\Post\Shortcodes))
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('&ndash;', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/admin-columns-pro/admin-columns/classes/ListScreen.php(840): apply_filters('ac/column/value', '&ndash;', 5093, Object(ACP\Column\Post\Shortcodes))
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/admin-columns-pro/admin-columns/classes/ListScreen/Post.php(63): AC\ListScreen->get_display_value_by_column_name('60e5c718d8654', 5093)
+#4 /mnt/data/home/401140.cloudwaysapps.com/qcq in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/functions.php on line 5230
+
+2021-08-11T10:52:57+00:00 CRITICAL Uncaught Error: Call to undefined method ACP\Column\Post\Shortcodes::get_meta_key() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/functions.php:5230
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(303): ac_column_value_usage('&ndash;', 5093, Object(ACP\Column\Post\Shortcodes))
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('&ndash;', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/admin-columns-pro/admin-columns/classes/ListScreen.php(840): apply_filters('ac/column/value', '&ndash;', 5093, Object(ACP\Column\Post\Shortcodes))
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/admin-columns-pro/admin-columns/classes/ListScreen/Post.php(63): AC\ListScreen->get_display_value_by_column_name('60e5c718d8654', 5093)
+#4 /mnt/data/home/401140.cloudwaysapps.com/qcq in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/functions.php on line 5230
+
+2021-08-11T10:58:50+00:00 CRITICAL Uncaught Error: Call to undefined method ACP\Column\Post\Shortcodes::get_meta_key() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/functions.php:5230
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(303): ac_column_value_usage('&ndash;', 5093, Object(ACP\Column\Post\Shortcodes))
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('&ndash;', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/admin-columns-pro/admin-columns/classes/ListScreen.php(840): apply_filters('ac/column/value', '&ndash;', 5093, Object(ACP\Column\Post\Shortcodes))
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/admin-columns-pro/admin-columns/classes/ListScreen/Post.php(63): AC\ListScreen->get_display_value_by_column_name('60e5c718d8654', 5093)
+#4 /mnt/data/home/401140.cloudwaysapps.com/qcq in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/functions.php on line 5230
+
+2021-08-11T11:02:53+00:00 CRITICAL Uncaught Error: Call to undefined method ACP\Column\Post\Shortcodes::get_key() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/functions.php:5230
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(303): ac_column_value_usage('&ndash;', 5093, Object(ACP\Column\Post\Shortcodes))
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('&ndash;', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/admin-columns-pro/admin-columns/classes/ListScreen.php(840): apply_filters('ac/column/value', '&ndash;', 5093, Object(ACP\Column\Post\Shortcodes))
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/admin-columns-pro/admin-columns/classes/ListScreen/Post.php(63): AC\ListScreen->get_display_value_by_column_name('60e5c718d8654', 5093)
+#4 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmnd in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/functions.php on line 5230
+
+2021-08-11T11:05:14+00:00 CRITICAL Uncaught Error: Call to undefined method ACP\Column\Post\Shortcodes::get_shortcode() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/functions.php:5230
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(303): ac_column_value_usage('&ndash;', 5093, Object(ACP\Column\Post\Shortcodes))
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('&ndash;', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/admin-columns-pro/admin-columns/classes/ListScreen.php(840): apply_filters('ac/column/value', '&ndash;', 5093, Object(ACP\Column\Post\Shortcodes))
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/admin-columns-pro/admin-columns/classes/ListScreen/Post.php(63): AC\ListScreen->get_display_value_by_column_name('60e5c718d8654', 5093)
+#4 /mnt/data/home/401140.cloudwaysapps.com/qc in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/functions.php on line 5230
+

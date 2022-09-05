@@ -1,0 +1,63 @@
+#wp-analytify-custom-affiliates .form-table th[scope="row"] {
+    display: none;
+}
+
+.wp-analytify-rmv-affiliates {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    font-size: 0;
+}
+
+.wp-analytify-rmv-affiliates:after {
+    transform: rotate(48deg)
+}
+
+.wp-analytify-rmv-affiliates:before {
+    transform: rotate(-48deg)
+}
+
+.wp-analytify-rmv-affiliates:after,
+.wp-analytify-rmv-affiliates:before {
+    content: '';
+    width: 13px;
+    height: 2px;
+    background: #555;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.wp-analytify-rmv-affiliates:hover {
+    cursor: pointer;
+}
+
+#wp-analytify-affiliates-table {
+    margin-top: 15px;
+}
+
+#wp-analytify-affiliates-table select,
+#wp-analytify-affiliates-table input {
+    height: 30px;
+}
+
+#wp-analytify-affiliates-table td:first-child {
+    width: 12%;
+}
+
+.button.wp-analytify-add-affiliates {
+    margin: 15px 13px;
+}
+
+.affiliates-err {
+    display: none;
+    color: #ff5252;
+    margin: 25px 13px !important;
+    font-size: 14px;
+    font-weight: 600;
+}
+.wp-analytify-custom-affiliates .form-table>tbody>tr>td {
+	padding: 0 !important;
+}

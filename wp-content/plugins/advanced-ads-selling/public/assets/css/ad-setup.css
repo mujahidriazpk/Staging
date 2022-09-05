@@ -1,0 +1,76 @@
+/* CSS for public stats */
+body.advanced-ads-selling-setup-page {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#advanced-ads-selling-wrapper {
+	max-width: 800px;
+	margin: 2em auto;
+}
+
+.advanced-ads-selling-setup-page input, .advanced-ads-selling-setup-page textarea, .advanced-ads-selling-setup-page select {
+	padding: 0.2em;
+}
+
+/* buttons from admin css */
+
+.advanced-ads-selling-setup-page .button-primary {
+	background: #00a0d2;
+	border-color: #0073aa;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+	box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+	color: #fff;
+	text-decoration: none;
+}
+
+.advanced-ads-selling-setup-page .button {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 26px;
+	height: 28px;
+	margin: 0;
+	padding: 0 10px 1px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-appearance: none;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	white-space: nowrap;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Page header */
+
+#advanced-ads-selling-setup-head {
+	padding: 10px;
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	z-index: 1000;
+	text-align: center;
+}
+.advanced-ads-selling-setup-page h1 {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.6em;
+}
+
+/* setup content */
+
+.advanced-ads-selling-setup-ad-details { overflow: hidden; }
+.advanced-ads-selling-setup-ad-details  form { clear: both; overflow: hidden; }
+.advanced-ads-selling-setup-ad-details > label,
+.advanced-ads-selling-setup-ad-details form > label { width: 200px; display: block; float: left; clear: both; line-height: 1.5em; font-weight: bold; }
+.advanced-ads-selling-setup-ad-details > label:before,
+.advanced-ads-selling-setup-ad-details form > label:before { clear: both; display: block; content: ' ';}
+.advanced-ads-selling-setup-ad-details > label + *,
+.advanced-ads-selling-setup-ad-details form > label + * { float: left; line-height: 1.5em; }
+.advanced-ads-selling-setup-ad-details form .button { display: block; clear: both; }
+.advanced-ads-selling-setup-ad-details-html textarea { width: 100%; height: 10em; }
+.advanced-ads-selling-setup-ad-details-url-input { width: 70%; }
+
+.advanced-ads-selling-setup-ad-details .message { display: block; clear: both; }

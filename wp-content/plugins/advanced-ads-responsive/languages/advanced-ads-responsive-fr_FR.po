@@ -1,0 +1,316 @@
+# Translation of Responsive Ads in French (France)
+# This file is distributed under the same license as the Responsive Ads package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-08-02 17:40:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: fr\n"
+"Project-Id-Version: Responsive Ads\n"
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#. Author of the plugin
+msgid "Thomas Maier"
+msgstr "Thomas Maier"
+
+#. URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/responsive-ads/"
+msgstr "https://wpadvancedads.com/add-ons/responsive-ads/"
+
+#. Description of the plugin
+msgid "Display ads based on browser size."
+msgstr "Afficher les annonces basées sur la taille du navigateur"
+
+#. Name of the plugin
+msgid "Advanced Ads – Responsive Ads"
+msgstr "Advanced Ads – Responsive Ads"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:46
+msgid "Not displayed"
+msgstr "Non affiché"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:32
+msgid "Add rule"
+msgstr "Ajouter une règle"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:23
+#: modules/gadsense/admin/views/ad-params-manual-css.php:29
+msgid "Hide for this size ?"
+msgstr "Cacher pour cette taille ?"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:20
+msgid "Default"
+msgstr "Défaut"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:15
+msgid "hidden"
+msgstr "caché"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:14
+msgid "ad height"
+msgstr "hauteur de l'annonce"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:13
+msgid "ad width"
+msgstr "largeur de l'annonce"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:12
+msgid "min. browser width"
+msgstr "largeur min. du navigateur"
+
+#: modules/gadsense/admin/views/ad-params-manual-css.php:8
+msgid "Need help? Take a look at the <a href=\"%s\" target=\"_blank\">tutorial</a>."
+msgstr "Besoin d'aide? Jettez un oeil au <a href=\"%s\" target=\"_blank\">tutoriel</a>."
+
+#: modules/amp/admin/views/setting-convert.php:2
+msgid "Convert AdSense ads automatically into an AMP ad with a ratio of %s x %s"
+msgstr "Convertir automatiquement les annonces AdSense ads au format d'annonce AMP avec le ratio %s x %s"
+
+#: modules/amp/admin/views/adsense-size.php:30
+msgid "no AMP plugin found"
+msgstr "aucun plugin AMP trouvé"
+
+#: modules/amp/admin/views/adsense-size.php:26
+msgid "hide"
+msgstr "cacher"
+
+#: modules/amp/admin/views/adsense-size.php:20
+msgid "use responsive width and static height of %s px"
+msgstr "utiliser une largeur responsive et une hauteur statique de %s px"
+
+#: modules/amp/admin/views/adsense-size.php:13
+msgid "use dynamic size with ratio %s x %s"
+msgstr "utiliser le dimensionnement dynamique avec le ratio %s x %s"
+
+#: modules/amp/admin/views/adsense-size.php:6
+msgid "automatically convert to AMP using the same size or default setting"
+msgstr "convertir automatiquement au format AMP en utilisant la même taille ou les paramètres par défaut"
+
+#: modules/amp/admin/views/ad-params.php:36
+msgid " If supported by the ad network, this text is shown if no ad is available for the ad slot"
+msgstr "Si supporté par le réseau de régie publicitaire, ce texte sera affiché si aucune annonce n'est disponible dans le slot d'annonce."
+
+#: modules/amp/admin/views/ad-params.php:33
+msgid "Fallback"
+msgstr "Revenir en arrière"
+
+#: modules/amp/admin/views/ad-params.php:25
+msgid "Add attribute"
+msgstr "Ajouter un attribut"
+
+#: modules/amp/admin/views/ad-params.php:7
+msgid "Value"
+msgstr "Valeur"
+
+#: modules/amp/admin/views/ad-params.php:6
+msgid "Name"
+msgstr "Nom"
+
+#: modules/amp/admin/views/ad-params.php:1
+msgid "Attributes"
+msgstr "Attributs"
+
+#: modules/gadsense/includes/hooking.php:50
+msgid "advanced"
+msgstr "avancé"
+
+#: modules/gadsense/includes/hooking.php:49
+msgid "vertical"
+msgstr "vertical"
+
+#: modules/gadsense/includes/hooking.php:48
+msgid "rectangle"
+msgstr "rectangle"
+
+#: modules/gadsense/includes/hooking.php:47
+msgid "horizontal"
+msgstr "horizontal"
+
+#: modules/gadsense/admin/admin.php:62
+msgid "Not Displayed"
+msgstr "Non Affiché"
+
+#: modules/gadsense/admin/admin.php:61
+#: modules/gadsense/admin/views/ad-params-manual-css.php:58
+msgid "remove"
+msgstr "enlever"
+
+#: modules/gadsense/admin/admin.php:60
+#: modules/gadsense/admin/views/ad-params-manual-css.php:57
+msgid "Remove this rule"
+msgstr "Retirer cette règle"
+
+#: modules/amp/public/public.php:277
+msgid "Display ads on Accelerated Mobile Pages"
+msgstr "Afficher les annonces sur les Pages Mobiles Accélérées (AMP)"
+
+#: modules/amp/public/public.php:276
+msgid "Accelerated Mobile Pages"
+msgstr "Pages Mobiles Accéléres (AMP)"
+
+#: modules/amp/include/class-ad-type-amp.php:17
+msgid "Ads that are visible on Accelerated Mobile Pages"
+msgstr "Les annonces qui sont visibles sur les Pages Mobiles Accélérées (AMP)"
+
+#: modules/amp/admin/admin_adsense.php:25
+msgid "This ad type is not supported on AMP pages"
+msgstr "Cette annonce n'est pas supportée sur les pages AMP"
+
+#: modules/amp/admin/admin.php:89
+msgid "is not"
+msgstr "n'est pas"
+
+#: modules/amp/admin/admin.php:88
+msgid "is"
+msgstr "est"
+
+#: admin/views/setting_tooltip.php:7
+msgid "Display the sizes of the ads, ad containers and window in the frontend. Only logged in admin users will see it."
+msgstr "Afficher les dimensions des annonces, les conteneurs d'annonces et les fenêtres sur le frontend. Seuls les administrateurs connectés pourront le voir."
+
+#: admin/views/setting_tooltip.php:5
+msgid "off"
+msgstr "off"
+
+#: admin/views/setting_tooltip.php:3
+msgid "on"
+msgstr "on"
+
+#: admin/views/setting_responsive_images.php:2
+msgid "Check this option if the size of image ads is not adjusted responsively by your theme."
+msgstr "Vérifier cette option si la dimension de l'image d'annonces n'est pas ajustée automatiquement à votre thème."
+
+#: admin/views/setting_reload_ads.php:11
+msgid "You need <a href=\"%s\" target=\"_blank\">Advanced Ads Pro</a> and cache-busting in order to use this feature."
+msgstr "Vous avez besoin de <a href=\"%s\" target=\"_blank\">Advanced Ads Pro</a> et cache-busting afin de pouvoir utiliser cette fonctionnalité."
+
+#: admin/views/setting_reload_ads.php:9
+msgid "Reload ads that are loaded via cache-busting when screen resizes."
+msgstr "Recharger les annonces qui sont chargées par cache-busting quand l'écran est redimensionné."
+
+#: admin/views/metabox.php:23
+msgid "Display on mobile only"
+msgstr "Afficher sur les mobile seulement"
+
+#: admin/views/metabox.php:20
+msgid "Display on desktop only"
+msgstr "Afficher sur les ordinateurs seulement"
+
+#: admin/views/metabox.php:17
+msgid "Don’t load the ad"
+msgstr "Ne pas charger l'annonce"
+
+#: admin/views/metabox.php:14
+msgid "Display the ad anyway"
+msgstr "Afficher quand même l'annonce"
+
+#: admin/views/metabox.php:9
+msgid "On the first page view of a new visitor the browser size can not be determined in advanced. Decide here what to do in this case."
+msgstr "Sur la première page vue par un nouveau visiteur la dimension du navigateur ne peut être déterminée à l'avance. Décidez ici quoi faire dans ce cas."
+
+#: admin/views/metabox.php:6
+msgid "Display ad in browsers with a size of %s px to %s px"
+msgstr "Afficher l'annonce dans les navigateurs avec une dimension de %s px à %s px"
+
+#: admin/views/metabox.php:4
+msgid "Display ad by browser size"
+msgstr "Afficher l'annonce par dimension du navigateur"
+
+#: admin/views/metabox.php:2
+msgid "The below version of the browser width check is deprecated. Please use the new version of visitor conditions above to replace it."
+msgstr "La version ci-après de la largeur du navigateur est dépréciée.  Svp utilisez une nouvelle version des conditions du visiteur ci-dessus pour la remplacer."
+
+#: admin/views/metabox.php:1
+msgid "Display by browser size"
+msgstr "Afficher par dimension de navigateur"
+
+#: admin/views/list.php:73
+msgid "ad is NOT visible"
+msgstr "L'annonce n'est PAS visible"
+
+#: admin/views/list.php:71
+msgid "ad is visible"
+msgstr "L'annonce est visible"
+
+#: admin/views/list.php:23
+msgid "(ads without groups)"
+msgstr "(annonces sans groupes)"
+
+#: admin/views/list.php:10
+msgid "ad"
+msgstr "annonce"
+
+#: admin/views/list.php:9
+msgid "ad group"
+msgstr "groupe d'annonce"
+
+#: admin/views/list.php:4
+msgid "Not enough responsive ads to list them."
+msgstr "PAs assez d'annonce responsive pour les lister"
+
+#: public/public.php:140
+msgid "container width"
+msgstr "largeur du conteneur"
+
+#: public/public.php:139
+msgid "ad size"
+msgstr "dimension de l'annonce"
+
+#: public/public.php:138
+msgid "window width"
+msgstr "largeur de la fenêtre"
+
+#: classes/plugin.php:109
+msgid "Display ads based on tablet device."
+msgstr "Afficher les annonces sur les tablettes."
+
+#: classes/plugin.php:108
+msgid "tablet"
+msgstr "tablette"
+
+#: classes/plugin.php:103
+msgid "Display ads based on the browser width."
+msgstr "Afficher les annonces basées sur la largeur du navigateur"
+
+#: classes/plugin.php:102
+msgid "browser width"
+msgstr "largeur du navigateur"
+
+#: admin/admin.php:143
+msgid "Reload ads on resize"
+msgstr "Recharger les annonce lors d'un redimensionnement"
+
+#: admin/admin.php:134
+msgid "Responsive Image Ads"
+msgstr "Image d'annonces auto-ajustables (Responsive)"
+
+#: admin/admin.php:125
+msgid "Activate size assistant"
+msgstr "Activer l'assistant de dimensionnement"
+
+#: admin/admin.php:117 admin/admin.php:226 admin/admin.php:226
+#: admin/views/list.php:2
+msgid "Responsive Ads"
+msgstr "Responsive Ads"
+
+#: admin/admin.php:108
+msgid "Responsive"
+msgstr "Responsive"
+
+#: admin/admin.php:73
+msgid "<strong>%s</strong> requires the <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> plugin to be installed and activated on your site."
+msgstr "<strong>%s</strong>requiert le plugin <strong><a href=\"https://wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> installé et activaté sur votre site."
+
+#: admin/admin.php:69
+msgid "Install Now"
+msgstr "Installer Maintenant"
+
+#: admin/admin.php:67
+msgid "Activate Now"
+msgstr "Activer Maintenant"

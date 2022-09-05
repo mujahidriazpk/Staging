@@ -1,0 +1,30 @@
+.analytify-shortcodes-block-advanced-panel {
+	
+	.components-datetime {
+		padding: 0 !important;
+	}
+
+  .components-datetime__time,
+  .components-datetime__date-help-button,
+  .toggle-postid-field {
+	  display: none;
+	}
+	
+}
+
+.analytify-shortcodes-block-advanced-panel,
+.analytify-shortcodes-block-simple-panel {
+  
+  .components-base-control__label {
+    font-weight: 600;
+  }
+  
+  .analytify-date-picker-label {
+    font-weight: 600;
+	}
+	
+	.components-panel__row {
+		margin-top: 5px;
+	}
+
+}

@@ -1,0 +1,65 @@
+<?php
+
+use CodeManas\CatmanduProFeatures\Core\PostTypes;
+use CodeManas\CatmanduProFeatures\Core\ShortCodes;
+
+final class CatmanduProFeatures {
+
+	private $version = CATMANDU_PRO_FEATURES_VERSION;
+
+	public static $instance = null;
+
+	public static function get_instance() {
+		return ( is_null( self::$instance ) ) ? new self() : self::$instance;
+	}
+
+	public function __construct() {
+		$this->autoload();
+
+		add_action( 'plugins_loaded', array( $this, 'init' ) );
+
+		register_activation_hook( CATMANDU_PRO_FEATURES_FILE_PATH, array( $this, 'activate_plugin' ) );
+	}
+
+	public function autoload() {
+		require_once( CATMANDU_PRO_FEATURES_PATH . '/vendor/autoload.php' );
+	}
+
+	public function init() {
+		PostTypes::get_instance();
+		ShortCodes::get_instance();
+		
+		add_filter('acf/settings/save_json', array( $this, 'acf_json_save_point') );
+		add_filter('acf/settings/load_json', array( $this, 'acf_json_load_point') );
+	}
+
+	public function activate_plugin() {
+		PostTypes::register_post_types();
+		flush_rewrite_rules();
+	}
+
+	public function acf_json_save_point( $path ) {
+    
+	    // update path
+	    $path = CATMANDU_PRO_FEATURES_PATH . 'src/acf-json';
+	    
+	    // return
+	    return $path;
+	    
+	}
+
+	public function acf_json_load_point( $paths ) {
+    
+	    // remove original path (optional)
+	    unset( $paths[0] );
+	    
+	    // append path
+	    $paths[] = CATMANDU_PRO_FEATURES_PATH . 'src/acf-json';
+	    
+	    // return
+	    return $paths;
+	    
+	}
+}
+
+CatmanduProFeatures::get_instance();

@@ -1,0 +1,256 @@
+/*	var audSegDataResp = JSON.parse('{ "segments":["v73hc94ux", "wcuvcihe3"], "found":true }');
+	if(window.IC_AudienceSegmentCallback != null && window.IC_AudienceSegmentCallback != undefined){
+		window.IC_AudienceSegmentCallback(audSegDataResp);
+	}
+*/
+	var audSegDataResp = JSON.parse('{ "segments":[], "found":false }');
+	var kruxScriptId = "IC_FS_Krux_Script";
+    var kruxIdScriptId = "IC_FS_Krux_Id_Script";
+	var kruxDataId = "womptv2nm"; //"txe9jbx58";
+	var kruxWhitelistSegments = "wcuvcihe3,wcuwvyao9,wde6vh9e2,wde67h31k,v8sdg0k4j,v6vgm4oxa,v73hc94ux";
+	//var kruxWhitelistSegments = "wcuwvyao9,wde6vh9e2,wde67h31k,v8sdg0k4j,v6vgm4oxa";
+	if(!window.document.getElementById(kruxScriptId)){
+		var kruxScript = document.createElement('script');
+		kruxScript.id = kruxScriptId;
+		kruxScript.setAttribute("class", "kxct");
+		kruxScript.setAttribute("data-id", kruxDataId);
+		kruxScript.setAttribute("data-timing", "async");
+		kruxScript.setAttribute("data-version", "3.0");
+		kruxScript.type = 'text/javascript';
+		kruxScript.text = `window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+		(function(){
+		var k=document.createElement('script');k.type='text/javascript';k.async=true;
+		k.src=(location.protocol==='https:'?'https:':'http:')+'//cdn.krxd.net/controltag/`+kruxDataId+`.js';
+		var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+		}());`;
+		let node = document.getElementsByTagName('script')[0];
+		node.parentNode.insertBefore(kruxScript, node);  
+
+		let kruxIdScript = document.createElement('script');
+		kruxIdScript.id = kruxIdScriptId;
+		kruxIdScript.setAttribute("class", "kxct");
+		kruxIdScript.setAttribute("data-namespace", "investingchannelinc");
+		kruxIdScript.type = 'text/javascript';
+		kruxIdScript.text = `window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+		ic_krux_getuserid = function(){
+			function retrieve(n){
+			  var k= 'kx'+'investingchannelinc_'+n, ls=(function(){
+				try {
+				  return window.localStorage;
+				} catch(e) {
+				  return null;
+				}
+			  })();
+			  if (ls) {
+				  return ls[k] || '';
+			  } else if (navigator.cookieEnabled) {
+				  var m = document.cookie.match(k+'=([^;]*)');
+				  return (m && unescape(m[1])) || '';
+			  } else {
+				  return '';
+			  }
+			}                
+			Krux.user = retrieve('user');
+			Krux.segments = retrieve('segs') ? retrieve('segs').split(',') : [];
+		  };
+		  ic_krux_getuserid();`;
+		let idNode = document.getElementsByTagName('script')[0];
+		idNode.parentNode.insertBefore(kruxIdScript, idNode); 
+	}
+	
+	function checkMatchingSegments(){
+		if(window.Krux){
+			var matchingSegments = window.Krux.segments.filter(function(s){ return (kruxWhitelistSegments.indexOf(s)>=0);});
+			if(matchingSegments && matchingSegments.length > 0){
+				audSegDataResp.segments = matchingSegments;
+				audSegDataResp.found = true;				
+			}
+			if(window.IC_AudienceSegmentCallback != null && window.IC_AudienceSegmentCallback != undefined){
+				window.IC_AudienceSegmentCallback(audSegDataResp);
+			}
+		}else{
+			window.setTimeout("checkMatchingSegments",500);
+		}
+	}
+	
+	checkMatchingSegments();	
+	
+	//Generate UUID
+	function generateUUID() {
+        let d = new Date().getTime();
+        if(Date.now){
+            d = Date.now(); //high-precision timer
+        }
+        let uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+            let r = (d + Math.random()*16)%16 | 0;
+            d = Math.floor(d/16);
+            return (c=='x' ? r : (r&0x3|0x8)).toString(16);
+        });
+        return uuid;
+    };
+	
+	function getUserId(){
+		try{
+			if(localStorage){
+				if(localStorage.getItem("IC_FS_UID")) return localStorage.getItem("IC_FS_UID");
+				else {
+					localStorage.setItem("IC_FS_UID", generateUUID());
+					return localStorage.getItem("IC_FS_UID");
+				}
+			}
+		} catch(e){
+			return generateUUID();
+		}
+	}
+	
+	function getPageId(){
+		try{
+			if(!window.IC_FS_PAGE_ID){
+				window.IC_FS_PAGE_ID = generateUUID();
+			}
+			return window.IC_FS_PAGE_ID;
+		} catch(e){
+			window.IC_FS_PAGE_ID = generateUUID();
+			return window.IC_FS_PAGE_ID;
+		}
+	}
+	
+	function getPageLog(){
+		//var pubConfig = {page_url:encodeURIComponent("?kuid="+window.Krux.user)};
+		var pubConfig = {};
+		var kruxUser = "";
+		if(window.Krux && window.Krux.user) kruxUser = window.Krux.user;
+        return {
+            apiKey: "FREESTAR_APIKEY",
+            uid: getUserId(),
+            templateId: 0,
+            pageId: getPageId(),
+            documentType: calculateDocumentType(),
+            publisherConfig: pubConfig,
+            isUatEnabled: false,
+            adBlockerStatus: "NA",
+            version: "freestar.js.v1",
+            refererUrl: encodeURIComponent(calculateReferer(calculateDocumentType())),
+            pageUrl: encodeURIComponent(window.location.href),
+			kruxSegments: kruxUser
+        };
+    }
+	
+	function calculateDocumentType() {
+        
+		try {
+				if (self == window.top)
+					return "pg";
+				else if (window.location.hostname == window.top.location.hostname)
+					return "ff";
+				else
+					return "if";
+			} catch (e) {
+				return "if";
+			}
+	};
+	
+	function calculateReferer(pDocumentType){
+        
+        if(pDocumentType == "if" || 
+            pDocumentType == "ff")
+                return document.referrer;
+
+        if(typeof window.top.IC_FS_PAGE_REFERER == 'undefined'){
+            let referer = window.top.document.referrer;
+            window.top.IC_FS_PAGE_REFERER = window.top.location.href;
+            return referer;
+        } 
+
+        let referer = window.top.IC_FS_PAGE_REFERER;
+        window.top.IC_FS_PAGE_REFERER = window.top.location.href;
+        return referer;
+    }
+	
+	function clientWindowHeight(){
+		var icWindowHeight = 0;
+		if( typeof( window.innerHeight ) == 'number' ) {
+			//Non-IE
+			icWindowHeight = window.innerHeight;
+		} else if( document.documentElement && document.documentElement.clientHeight ) {
+			//IE 6+ in 'standards compliant mode'
+			icWindowHeight = document.documentElement.clientHeight;
+		} else if( document.body && document.body.clientHeight ) {
+			//IE 4 compatible
+			icWindowHeight = document.body.clientHeight;
+		}
+		return icWindowHeight;
+	}
+
+	function clientWindowWidth(){
+		var icWindowWidth = 0;
+		if( typeof( window.innerWidth ) == 'number' ) {
+			//Non-IE
+			icWindowWidth = window.innerWidth;
+		} else if( document.documentElement && document.documentElement.clientWidth ) {
+			//IE 6+ in 'standards compliant mode'
+			icWindowWidth = document.documentElement.clientWidth;
+		} else if( document.body && document.body.clientWidth ) {
+			//IE 4 compatible
+			icWindowWidth = document.body.clientWidth;
+		}
+		return icWindowWidth;
+	}
+	
+	function getBrowserSize() {
+		var w = clientWindowWidth();
+		var h = clientWindowHeight();
+
+		return w + 'x' + h;
+	}
+	
+	function firePageLog(pageLog){
+		if(!pageLog) return;
+		//var url = "https://stguat5.investingchannel.com/logs?gdprapplicable=false&uspstatus=NOT_APPLICABLE";
+		var url = "https://uat5-a.investingchannel.com/logs?gdprapplicable=false&uspstatus=NOT_APPLICABLE";
+
+		var xhr = new XMLHttpRequest();
+		xhr.withCredentials = true;
+		xhr.open("POST", url);
+		//xhr.setRequestHeader('Cookie', 'ic_uid='+getUserId());
+		
+		xhr.setRequestHeader("Accept", "application/json");
+		xhr.setRequestHeader("Content-Type", "application/json");
+
+		xhr.onreadystatechange = function () {
+		   if (xhr.readyState === 4) {
+			  //console.log(xhr.status);
+			  //console.log(xhr.responseText);
+		   }
+		};
+		//UAT version 1.0.13
+		/*var logs = [
+			{pageLogs: [pageLog]}
+		]*/
+		////UAT version 1.1.6
+		var logs = {pageLogs: [pageLog]};
+		//console.log("Page Logs :" + JSON.stringify(logs));
+		xhr.send(JSON.stringify(logs));
+
+	}
+	
+	function fireDataCall(){
+		var requestURL = "https://stguat5.investingchannel.com/data/9ee79318-a168-4f80-8cc9-3454fab2038e?browsersize="+getBrowserSize(); 
+                requestURL += "&consentsknown=true&usprivacy=1---&pageurl="+encodeURIComponent(window.location.href);
+		var xhr = new XMLHttpRequest();
+		xhr.withCredentials = true;
+		xhr.open("GET", requestURL);
+
+		xhr.setRequestHeader("Accept", "application/json");
+		xhr.setRequestHeader("Content-Type", "application/json");
+
+		xhr.onreadystatechange = function () {
+		   if (xhr.readyState === 4) {
+			  //console.log(xhr.status);
+			  //console.log(xhr.responseText);
+		   }
+		};
+		xhr.send(null);
+	}
+	//fireDataCall();
+	firePageLog(getPageLog());

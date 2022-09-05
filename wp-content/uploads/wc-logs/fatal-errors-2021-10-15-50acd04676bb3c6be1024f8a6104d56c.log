@@ -1,0 +1,6 @@
+2021-10-15T14:41:25+00:00 CRITICAL syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '{' or '$' in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 885
+
+2021-10-15T14:41:26+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 1243
+
+2021-10-15T14:44:26+00:00 CRITICAL syntax error, unexpected end of file, expecting '(' in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 2304
+

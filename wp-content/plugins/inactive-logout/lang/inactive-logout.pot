@@ -1,0 +1,296 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Inactive Logout\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-01 11:07+0000\n"
+"POT-Revision-Date: Sun Jan 29 2017 16:00:11 GMT+0545 (NPT)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Deepen Bajracharya <dpen.connectify@gmail.com>\n"
+"Language-Team: Deepen Bajracharya <dpen.connectify@gmail.com>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: en_US\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-SearchPath-0: .."
+
+#: views/tabs/tpl-inactive-logout-advanced.php:121
+msgid ""
+"Are you sure you want to erase all advanced settings. This cannot be undone !"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Automatically logout idle user sessions, even if they are on the front end! "
+"Fully configurable & easy to use."
+msgstr ""
+
+#: views/tpl-inactive-logout-settings.php:23
+msgid "Basic Management"
+msgstr ""
+
+#: core/Bootstrap.php:166
+msgid "Close without Reloading"
+msgstr ""
+
+#: core/Bootstrap.php:214
+msgid "Configure"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:50
+msgid ""
+"Countdown before the actual logout displayed to the user in a popup (in "
+"seconds). If you set this to 0, automatically counter will be set to 10 "
+"seconds."
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-advanced.php:107
+msgid "Disable"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:85
+msgid "Disable Concurrent Logins"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-advanced.php:54
+msgid "Disable Inactive Logout"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:54
+msgid "Disable Timeout Countdown"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:135
+msgid "Enable Debugger ?"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:138
+msgid ""
+"Enable debugger window for debugging logout issue. Note: Debugger will not "
+"work properly for multi tabs. Countdown timer will be based on last active "
+"tab."
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-advanced.php:26
+msgid "Enable Multi-User Feature"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:94
+msgid "Enable Redirect"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:104
+msgid "External Page Redirect"
+msgstr ""
+
+#: core/Bootstrap.php:62
+msgid "Heads up, Please backup before upgrade!"
+msgstr ""
+
+#: core/Bootstrap.php:168
+msgid "I am still active"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:31
+msgid "Idle Message Content"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:24
+msgid "Idle Timeout"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:97
+msgid ""
+"If not checked then user will be logged out to login screen after timeout."
+msgstr ""
+
+#. Name of the plugin
+#: core/AdminFunctions.php:43 core/AdminFunctions.php:49
+#: core/AdminFunctions.php:60
+msgid "Inactive Logout"
+msgstr ""
+
+#: core/AdminFunctions.php:43 core/AdminFunctions.php:49
+#: core/AdminFunctions.php:60 views/tpl-inactive-logout-settings.php:10
+msgid "Inactive User Logout Settings"
+msgstr ""
+
+#: core/Helpers.php:158
+msgid ""
+"Is inactive logout or few functionalities not working for you ? Might be "
+"because you have added this user role in Role Based tab ?"
+msgstr ""
+
+#: core/Bootstrap.php:167
+msgid "Logging in. Please wait"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:43
+msgid "Message to be shown when idle timeout screen shows."
+msgstr ""
+
+#: core/Helpers.php:22 views/tabs/tpl-inactive-logout-basic.php:27
+msgid "Minute(s)"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-advanced.php:18
+msgid "Multi-Role Timeout"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-advanced.php:87
+#: views/tabs/tpl-inactive-logout-basic.php:122
+msgid "No Posts Found."
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-advanced.php:109
+#, php-format
+msgid ""
+"Note: %s is used for disabling inactive logout functionality to that "
+"specific user."
+msgstr ""
+
+#: core/Bootstrap.php:165
+msgid "Ok"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:16
+msgid "Override for all sites"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:65
+msgid ""
+"Please note ! Multi role timeout feature will not work when this setting is "
+"enabled. Similarly, idle Message Content will be ignored and replaced with "
+"this content."
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:143
+msgid ""
+"Please refresh this page properly after saving in order to reflect changes "
+"in the settings."
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-advanced.php:55
+msgid "Prevent Multiple Login"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-advanced.php:53
+#: views/tabs/tpl-inactive-logout-basic.php:101
+msgid "Redirect Page"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-advanced.php:121
+msgid "Reset Advanced Settings !"
+msgstr ""
+
+#: core/Ajax.php:42
+msgid "Reset advanced settings successful."
+msgstr ""
+
+#: views/tpl-inactive-logout-settings.php:26
+msgid "Role Based Timeout"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-advanced.php:120
+#: views/tabs/tpl-inactive-logout-basic.php:143
+msgid "Save Changes"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:131
+msgid "Select a page to redirect to after session timeout and clicking OK."
+msgstr ""
+
+#: core/Bootstrap.php:169
+msgid "Session Timeout"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-advanced.php:70
+msgid "Set Global Redirect Page"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:61
+msgid "Show Warn Message Only"
+msgstr ""
+
+#: views/tpl-inactive-logout-settings.php:29
+msgid "Support"
+msgstr ""
+
+#: core/Bootstrap.php:66
+msgid ""
+"The latest update includes some substantial changes across different areas "
+"of the plugin. We highly recommend you backup your site before upgrading, "
+"and make sure you first update in a staging environment"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-advanced.php:39
+msgid ""
+"This will allow you to define different timeout constraint according to "
+"different selected user roles."
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:88
+msgid ""
+"This will disable the user from logging in using the same account at "
+"different locations."
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-advanced.php:22
+msgid "This will enable multi-user role timeout functionality."
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:64
+msgid ""
+"This will show the warning message without the logout URL, but the user will "
+"not be logged out."
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-advanced.php:52
+msgid "Timeout (In Minutes)"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:47
+msgid "Timeout Countdown Period"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:81
+msgid ""
+"Use {wakup_timout} to show minutes. This is message that will be shown when "
+"inactive."
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-advanced.php:51
+msgid "User Role"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:69
+msgid "Warn Message Content"
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:19
+msgid ""
+"When checked below settings will be effective and used for all sites in the "
+"network."
+msgstr ""
+
+#: views/tabs/tpl-inactive-logout-basic.php:57
+msgid ""
+"When the timeout popup appears, the user is not logged out instantly. It "
+"allows the user the chance to continue, or a logout will occur within 10 "
+"seconds. Uncheck this feature to immediately logout the user after the "
+"chosen time of inactivity."
+msgstr ""
+
+#: core/Ajax.php:71
+msgid "You have been logged out because of inactivity."
+msgstr ""

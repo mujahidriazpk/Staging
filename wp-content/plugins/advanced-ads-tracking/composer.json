@@ -1,0 +1,41 @@
+{
+    "name": "webgilde/advanced-ads-tracking",
+    "description": "This add-on for the Advanced Ads plugin provides tracking ad impressions and clicks.",
+    "keywords": ["wordpress", "ads", "ad stats", "ad tracking"],
+    "authors": [
+        {
+            "name": "Thomas Maier",
+            "email": "thomas.maier@webgilde.com"
+        }
+    ],
+    "homepage": "https://wpadvancedads.com/ad-tracking/",
+    "license": "GPL-2.0+",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0",
+        "xrstf/composer-php52": "^1.0.17"
+    },
+    "autoload": {
+        "classmap": [
+            "admin/",
+            "classes/",
+            "public/"
+        ]
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "xrstf\\Composer52\\Generator::onPostInstallCmd"
+        ],
+        "post-update-cmd": [
+            "xrstf\\Composer52\\Generator::onPostInstallCmd"
+        ],
+        "post-autoload-dump": [
+            "xrstf\\Composer52\\Generator::onPostInstallCmd"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}

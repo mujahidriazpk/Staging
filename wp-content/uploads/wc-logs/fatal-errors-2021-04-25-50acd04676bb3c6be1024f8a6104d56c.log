@@ -1,0 +1,9 @@
+2021-04-25T05:20:13-07:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_auction_closed() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/functions.php:1623
+Stack trace:
+#0 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(292): play_sound2(4653)
+#1 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/woocommerce/content-single-product.php(27): do_action('woocommerce_bef...')
+#4 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-includes/template.php(732): require('/mnt/data/home/...')
+#5 /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_ in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/wp-content/themes/dokan-child/functions.php on line 1623
+

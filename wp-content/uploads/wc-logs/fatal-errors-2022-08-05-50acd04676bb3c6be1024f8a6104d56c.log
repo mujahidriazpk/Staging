@@ -1,0 +1,22 @@
+2022-08-05T13:04:15+00:00 CRITICAL syntax error, unexpected ''woocommerce-' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 7230
+
+2022-08-05T14:27:01+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 6789
+
+2022-08-05T14:27:01+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 6789
+
+2022-08-05T14:31:11+00:00 CRITICAL syntax error, unexpected end of file, expecting variable (T_VARIABLE) or quoted-string and whitespace (T_ENCAPSED_AND_WHITESPACE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 432
+
+2022-08-05T14:31:12+00:00 CRITICAL syntax error, unexpected end of file, expecting ')' in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 882
+
+2022-08-05T14:31:12+00:00 CRITICAL syntax error, unexpected ''iconi' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 1246
+
+2022-08-05T14:31:12+00:00 CRITICAL syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 2664
+
+2022-08-05T14:58:24+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 4658
+
+2022-08-05T14:58:24+00:00 CRITICAL syntax error, unexpected ''<ul class="pagination"><l' (T_ENCAPSED_AND_WHITESPACE) in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 5113
+
+2022-08-05T14:58:24+00:00 CRITICAL syntax error, unexpected ''wp-admin/options-general.php?' (T_ENCAPSED_AND_WHITESPACE) in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 6126
+
+2022-08-05T14:58:24+00:00 CRITICAL syntax error, unexpected end of file in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 6478
+

@@ -1,0 +1,159 @@
+/* CSS for public stats */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea, select {
+    padding: 0.2em;
+}
+
+/* buttons from admin css */
+
+.button-primary {
+    background: #00a0d2;
+    border-color: #0073aa;
+    -webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+    color: #fff;
+    text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Page header */
+
+#stats-head {
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+}
+
+#stats-head {
+    text-align: center;
+}
+#stats-head h1 {
+    margin: 0;
+    display: inline;
+    font-size: 1.6em;
+}
+
+#ad-title {
+    margin: 0;
+    display: inline;
+    font-size: 1.2em;
+}
+
+#stats-period {
+    margin: 10px 25px;
+}
+
+/* stats content */
+
+#stats-content {
+    margin-top: 150px;
+}
+
+#public-stat-table {
+    border-collapse: collapse;
+    width: 600px;
+    margin: auto;
+}
+
+#public-stat-table td,
+#public-stat-table th {
+    text-align: right;
+    padding: 0.5em;
+    border: 1px solid #999;
+}
+
+#public-stat-table th {
+    text-align: center;
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+#public-stat-table tr:nth-child(odd) {
+    background-color: #eef;
+}
+
+#public-stat-graph {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#public-stat-graph .jqplot-y2axis-label,
+#public-stat-graph .jqplot-yaxis-label{
+    text-align: center;
+    padding: 0.2em;
+    border: 1px solid #e0e0e0;
+    background-color: #f0f0f0;
+}
+
+#public-stat-graph .jqplot-y2axis-label {
+    right: -2em !important;
+}
+
+#public-stat-graph .jqplot-yaxis-label {
+    left: -2em !important;
+}
+
+#graph-legend {
+    margin: 2em auto;
+    text-align: center;
+    width: 300px;
+    background-color: #fffdf6;
+    border: 1px solid #eeeae0;
+}
+
+#graph-legend .legend-item {
+    display: inline-block;
+    padding: 0.3em;
+    margin: 0.2em;
+}
+
+#impr-legend {
+    width: 30px;
+    height: 0.25em;
+    border-top: 3px solid #f06050;
+    display: inline-block;
+}
+
+#click-legend {
+    width: 30px;
+    height: 0.25em;
+    border-top: 3px dashed #4b5de4;
+    display: inline-block;
+}
+.advads-stats-link {
+    font-size: .9em;
+    text-align: center;
+}

@@ -1,0 +1,109 @@
+/* Full page overlay (blocking page during AJAX) */
+.advads-gam-overlay {
+	display:none;
+	background-color:rgba(255,255,255,.5);
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-align:center;
+}
+/* Blocking overlay for GAM account setting */
+#gam-settings-overlay {
+	position: absolute;
+	background-color: rgba(255, 255, 255, .8);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: none;
+}
+#gam td {
+	position: relative;
+}
+#gamapi-not-enabled, #gamapi-too-much-ads {
+	display: none;
+}
+#advads-gam-page-overlay {
+	display:none;
+	background-color:rgba(0,0,0,.5);
+	position:fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+/* Connect frame style */
+#advads-gam-modal {
+	display: none;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+#advads-gam-modal {
+	background-color: rgba(0,0,0,.5);
+}
+#advads-gam-modal-outer {
+	width: 60%;
+	margin-left: 20%;
+	position: relative;
+	height: 100%;
+}
+
+#advads-gam-modal-outer > div {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+#advads-modal-content {
+	display: table-cell;
+	vertical-align: middle;
+}
+body.rtl #advads-gam-modal-outer {
+	margin-left: auto;
+	margin-right: 20%;
+}
+
+.advads-gam-modal-content-inner {
+	background-color: #f0f0f0;
+	border: 3px solid #808b94;
+	position: relative;
+	padding: 1em;
+}
+
+/* Connect frame close icon */
+.advads-gam-modal-content-inner .dashicons-dismiss {
+	background-color: #fff;
+	border-radius: 100%;
+	cursor: pointer;
+	top: -.5em;
+	right: -.5em;
+	position: absolute;
+	z-index: 2;
+}
+body.rtl .advads-gam-modal-content-inner .dashicons-dismiss {
+	right: auto;
+    left: -.5em;
+}
+
+#modal-gam-import p.centered {
+	text-align: center;
+	clear: both;
+}
+#modal-gam-import .advads-modal-header {
+	border-bottom: none;
+}
+/* Import table */
+#modal-gam-import-form table th {
+	font-weight: 700;
+}
+#modal-gam-import-form table th input[type="checkbox"] {
+	margin: 0;
+}
+#gam-import-check-all {
+	margin: 0;
+}

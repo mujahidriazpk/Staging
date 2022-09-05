@@ -1,0 +1,119 @@
+<script type="text/x-handlebars-template" data-name="toolbar">
+    <div class="row">
+        <div class="col-xs-4">
+        </div>
+        <div class="mapsvg-toolbar-title col-xs-4">
+            Details View
+        </div>
+        <div class="col-xs-4">
+        </div>
+    </div>
+</script>
+
+<script type="text/x-handlebars-template" data-name="main">
+    <form class="form-horizontal mapsvg-view-padding">
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Templates</label>
+            <div class="col-sm-9">
+                <a href="#" class="mapsvg-template-link" data-template="detailsViewRegion">Region Details View template</a><br />
+                <a href="#" class="mapsvg-template-link" data-template="detailsView">DB Object Details View template</a><br />
+                CSS class: <a href="#tab_css" class="mapsvg-tab-link">.mapsvg-details-container</a>
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Location</label>
+            <div class="col-sm-9">
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="detailsView[location]" value="mapContainer" {{#ifeq detailsView.location 'mapContainer'}}checked{{/ifeq}} data-live="change"/>
+                        Map container
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="detailsView[location]" value="leftSidebar" {{#ifeq detailsView.location 'leftSidebar'}}checked{{/ifeq}} data-live="change"/>
+                        Left sidebar
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="detailsView[location]" value="rightSidebar" {{#ifeq detailsView.location 'rightSidebar'}}checked{{/ifeq}} data-live="change"/>
+                        Right sidebar
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="detailsView[location]" value="header" {{#ifeq detailsView.location 'header'}}checked{{/ifeq}} data-live="change"/>
+                        Header
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="detailsView[location]" value="footer" {{#ifeq detailsView.location 'footer'}}checked{{/ifeq}} data-live="change"/>
+                        Footer
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="detailsView[location]" value="custom" {{#ifeq detailsView.location 'custom'}}checked{{/ifeq}} data-live="change"/>
+                        Custom container
+                    </label>
+                </div>
+                <p class="help-block">
+                    Manage containers in the <a href="#tab_settings" class="mapsvg-tab-link">Settings</a> tab.
+                </p>
+            </div>
+        </div>
+
+        <div class="form-group" id="mapsvg-directory-container-id">
+            <label class="col-sm-3 control-label">Custom container ID</label>
+            <div class="col-sm-9">
+                <div class="input-group">
+                    <div class="input-group-addon">#</div>
+                    <input class="form-control" name="detailsView[containerId]" value="{{detailsView.containerId}}" data-live="keyup"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Width</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" value="{{detailsView.width}}" name="detailsView[width]" data-live="keyup" />
+                <p class="help-block">Enter value in pixels (example: <i>200px</i>) or in percents (example: <i>100%</i>).</p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Auto height</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="detailsView[autoresize]" class="mapsvg-onoff" {{#if detailsView.autoresize}}checked{{/if}}  data-live="change" />
+            </div>
+        </div>
+
+        <div class="form-group" id="mapsvg-directory-container-id">
+            <label class="col-sm-3 control-label">Margin</label>
+            <div class="col-sm-9">
+                <input class="form-control" name="detailsView[margin]" value="{{detailsView.margin}}" data-live="keyup"/>
+                <p class="help-block">
+                    Margins in CSS format. Examples: <br />
+                    "10px" (all margins 10px)<br />
+                    "5%" (all margins 5%)<br />
+                    "10px 20px" (top-bottom: 10px, left-right: 20px)<br />
+                    "10px 20px 10px 20px" (left 10px, top 20px, right 10px, bottom 20px)
+                </p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Fullscreen on mobile devices</label>
+            <div class="col-sm-9">
+                <input type="checkbox" name="detailsView[mobileFullscreen]" class="mapsvg-onoff" {{#if detailsView.mobileFullscreen}}checked{{/if}}  data-live="change" />
+            </div>
+        </div>
+
+    </form>
+
+</script>

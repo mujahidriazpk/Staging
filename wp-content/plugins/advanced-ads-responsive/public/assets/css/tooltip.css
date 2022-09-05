@@ -1,0 +1,80 @@
+/**
+ * Advanced Ads – Responsive Ads.
+ *
+ * @author    Thomas Maier <thomas.maier@webgilde.com>
+ * @license   GPL-2.0+
+ * @link      http://webgilde.com
+ * @copyright 2013-2015 Thomas Maier, webgilde GmbH
+ */
+
+/************************
+*************************
+ad size Tooltip
+*************************
+*************************/
+
+.advads-tooltip {
+	position: absolute;
+	background-color: rgb(32, 32, 32);
+	padding: 0.3em;
+	color: #fff;
+	font-size: 0.75em;
+        margin: 0;
+	-webkit-transition-property: opacity;
+	-webkit-transition-duration: 600ms;
+	-moz-transition-property: opacity;
+	-moz-transition-duration: 600ms;
+	transition-property: 600ms opacity;
+	z-index: 10000;
+}
+
+.advads-size-tooltip-w {
+    display: inline-block;
+    width: 100% !important;
+}
+.advads-size-tooltip-h {
+    background-color: inherit;
+}
+.advads-size-tooltip-h:hover {
+	background-color: rgba(64, 64, 255, 0.1);
+}
+
+.advads-tooltip:hover {
+	opacity: 0.95;
+}
+
+.advads-size-tooltip-h:hover {
+	cursor: help;
+}
+
+.advads-size-tooltip-h:hover .advads-tooltip {
+	opacity: 0.85;
+}
+
+/************************
+*************************
+Window width Tooltip
+*************************
+*************************/
+
+.advads-window-size {
+	position: fixed;
+	background-color: rgb(64, 64, 64);
+	padding: 0.3em;
+	color: #fff;
+	font-size: 0.75em;
+	opacity: 0.75;
+	right: 0;
+	bottom: 0;
+	-webkit-transition-property: opacity;
+	-webkit-transition-duration: 600ms;
+	-moz-transition-property: opacity;
+	-moz-transition-duration: 600ms;
+	transition-property: 600ms opacity;
+	opacity: 0.6;
+	z-index: 10000;
+}
+
+.advads-window-size:hover {
+	opacity: 0.95;
+}

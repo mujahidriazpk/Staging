@@ -1,0 +1,232 @@
+# Copyright (C) 2022 checkout-countdown-for-woocommerce
+# This file is distributed under the same license as the checkout-countdown-for-woocommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: checkout-countdown-for-woocommerce\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Puri.io\n"
+"Last-Translator: Puri.io\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: dist/checkout-countdown-for-woocommerce/checkout-countdown-for-woocommerce.php:50
+msgid "Update required to Checkout Countdown Pro 3.0+ or downgrade to Checkout Countdown Free 2.4.4"
+msgstr ""
+
+#. translators: %s: is the countdown text.
+#: dist/checkout-countdown-for-woocommerce/functions/enqueue.php:35
+msgctxt "Frontend: Counting text."
+msgid "%s"
+msgstr ""
+
+#. translators: %s: is the expired countdown text.
+#: dist/checkout-countdown-for-woocommerce/functions/enqueue.php:41
+msgctxt "Frontend: Expired Countdown text"
+msgid "%s"
+msgstr ""
+
+#. translators: %s: is banner text.
+#: dist/checkout-countdown-for-woocommerce/functions/enqueue.php:47
+msgctxt "Frontend: Banner text before counting"
+msgid "%s"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/banana-framework/class-settings-api.php:590
+msgid "Save Settings"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:97
+msgid "General"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:119
+msgid "Quick Settings"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:126
+msgid "Enable"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:127
+msgid "Start"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:132
+msgid "Countdown from"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:133
+msgid "Minutes (Use decimal for testing)."
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:134
+msgid "30"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:143, dist/checkout-countdown-for-woocommerce/settings/settings.php:164
+msgid "Countdown Locations"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:144, dist/checkout-countdown-for-woocommerce/settings/settings.php:165
+msgid "Choose where you would like to display the countdown."
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:157
+msgid "Countdown Content"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:178
+msgid "Enable Default Message"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:179
+msgid "Display a default message before the customer has added a product to their cart."
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:184
+msgid "Disabling the default message will hide the Countdown Bar until the customer has added product to their cart."
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:189
+msgid "Default Message Text"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:190
+msgid "Show a message in the banner before the countdown has started."
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:191
+msgid "10% with a coupon for 24 hours only"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:196
+msgid "Counting Down Text"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:197
+msgid ""
+"<p>\n"
+"					<b>Available Tags</b><br /><code>{days}</code> <code>{hours}</code> <code>{minutes}</code> <code>{seconds}</code><br />"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:202
+msgid "We can only hold your item for {minutes} minutes and {seconds} seconds!"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:208
+msgid "Use the above tags to insert the time where needed.<br />You can also use basic html."
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:213
+msgid "Countdown Expired Text"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:214
+msgid "Displayed when the countdown has finished"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:215
+msgid "We can only hold on to items for so long. Please try again"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:221
+msgid "Countdown Bar"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:228
+msgid "Bar Position"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:229
+msgid "Select the position of the Countdown Bar on your store."
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:240
+msgid "Background Color"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:241
+msgid "Choose a background color for the banner."
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:247
+msgid "Font Color"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:248
+msgid "Choose a font color for the bannner."
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:254
+msgid "Miscellaneous"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:261
+msgid "Leading Zero"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:262
+msgid "Leading zeros for minutes & seconds allow countdowns with this style: <code>03:02</code>"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:267
+msgid "Advanced"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:274
+msgid "Delete settings on uninstallation "
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:275
+msgid "Delete all settings from the database when uninstalling the plugin."
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:295
+msgid "Shortcode"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:296
+msgid ""
+"<p>\n"
+"					        Use the <strong>[checkout_countdown]</strong> shortcode anywhere in your theme.\n"
+"					        </p>\n"
+"					        <p>\n"
+"					        The shortcode is unstyled by default. You can apply your style via CSS. Use the example CSS to get started.\n"
+"					        </p>\n"
+"							<h4>Example CSS</h4>\n"
+"							<div style=\"background-color: #373737;padding: 5px;color: #ffffff;font-size: 11px;\">\n"
+"							\n"
+"							.checkout-countdown-shortcode {<br>\n"
+"					        text-align: center;<br>\n"
+"					        background: black;<br>\n"
+"					        color: white;<br>\n"
+"					        padding: 10px;<br>\n"
+"					        width: 100%;<br>\n"
+"					        display: inline-block;<br>\n"
+"					        }\n"
+"							\n"
+"							</div>\n"
+"					    "
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:322
+msgid "Help us with a review"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:323
+msgid "<p>We have spent a long time developing Checkout Countdown,  <a href=\"https://wordpress.org/plugins/checkout-countdown-for-woocommerce/#reviews\" target=\"_blank\">leaving a review</a> give us motivation and help support the plugin!</p> "
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:327
+msgid "Docs & Support"
+msgstr ""
+
+#: dist/checkout-countdown-for-woocommerce/settings/settings.php:328
+msgid "See our <a href=\"https://puri.io/docs\" target=\"_blank\">documentation</a> if you need more information, if you can't find what you are looking for just reach out to <a href=\"https://puri.io/support\" target=\"_blank\">support</a>. "
+msgstr ""

@@ -1,0 +1,300 @@
+# Translation of PopUp and Layer Ads in Polish
+# This file is distributed under the same license as the PopUp and Layer Ads package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-03-12 11:08:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: pl\n"
+"Project-Id-Version: PopUp and Layer Ads\n"
+
+#: admin/views/trigger.php:10
+msgid "after %s seconds"
+msgstr "po %s sekundach"
+
+#: admin/views/background.php:6
+msgid "close all ads with click on the background"
+msgstr "Zamknij wszystkie reklamy kliknięcie na tło"
+
+#: admin/views/auto_close.php:9
+msgid "close after %s seconds"
+msgstr "zamknij po %s sekundach"
+
+#: admin/admin.php:391
+msgid "It is against the AdSense policy to use their ads in popups."
+msgstr "Korzystanie z reklam w wyskakujących okienkach jest niezgodne z zasadami AdSense."
+
+#: admin/admin.php:334
+msgid "auto close"
+msgstr "automatyczne zamykanie"
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#. Author of the plugin
+msgid "Thomas Maier"
+msgstr "Thomas Maier"
+
+#. URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/popup-and-layer-ads/"
+msgstr "https://wpadvancedads.com/add-ons/popup-and-layer-ads/"
+
+#. Description of the plugin
+msgid "Create PopUp, Layer ads and Overlays"
+msgstr "Utwórz Popup, reklamę na warstwie i przesłonięcie"
+
+#. Name of the plugin
+msgid "Advanced Ads – PopUp and Layer Ads"
+msgstr "Advanced Ads – PopUp and Layer Ads"
+
+#: admin/views/trigger.php:8
+msgid "when user wants to leave the page"
+msgstr "gdy użytkownik chce opuścić stronę"
+
+#: admin/views/size.php:10
+msgid "Needed sometimes to center the ad correctly"
+msgstr "Czasami potrzebna do prawidłowego wyśrodkowania reklamy"
+
+#: admin/views/size.php:6
+msgid "height"
+msgstr "wysokość"
+
+#: admin/views/size.php:2
+msgid "width"
+msgstr "szerokość"
+
+#: admin/views/position.php:54
+msgid "Choose a position on the screen."
+msgstr "Wybierz pozycję na ekranie."
+
+#: admin/views/position.php:47 admin/views/position.php:48
+msgid "banner height"
+msgstr "wysokość banera"
+
+#: admin/views/position.php:44 admin/views/position.php:45
+msgid "banner width"
+msgstr "szerokość banera"
+
+#: admin/views/position.php:43
+msgid "Enter banner width and height to correctly center the ad."
+msgstr "Wprowadź szerokość i wysokość banera, aby prawidłowo wyśrodkować reklamę."
+
+#: admin/views/position.php:42
+msgid "These settings are deprecated. Please, set width and height for the ad itself."
+msgstr "Te ustawienia są przestarzałe. Ustaw szerokość i wysokość samej reklamy."
+
+#: admin/views/position.php:35
+msgid "bottom right"
+msgstr "dół - prawa"
+
+#: admin/views/position.php:34
+msgid "bottom center"
+msgstr "dół - środek"
+
+#: admin/views/position.php:33
+msgid "bottom left"
+msgstr "dół - lewa"
+
+#: admin/views/position.php:30
+msgid "center right"
+msgstr "środek - prawa"
+
+#: admin/views/position.php:29
+msgid "center"
+msgstr "środek"
+
+#: admin/views/position.php:28
+msgid "center left"
+msgstr "środek - lewa"
+
+#: admin/views/position.php:25
+msgid "top right"
+msgstr "góra - prawa"
+
+#: admin/views/position.php:24
+msgid "top center"
+msgstr "góra - środek"
+
+#: admin/views/position.php:23
+msgid "top left"
+msgstr "góra - lewa"
+
+#: admin/views/metabox.php:47
+msgid "in days, 0 = current session"
+msgstr "w dniach, 0 = obecna sesja"
+
+#: admin/views/metabox.php:45
+msgid "How long should visitors, that closed the ad, not see it again."
+msgstr "Jak długo użytkownicy, którzy zamknęli reklamę, nie zobaczą jej ponownie."
+
+#: admin/views/metabox.php:33
+msgid "Where to display the close button"
+msgstr "Gdzie wyświetlać przycisk zamknięcia"
+
+#: admin/views/metabox.php:30
+msgid "Allow visitors to remove this ad."
+msgstr "Zezwalaj odwiedzającym na usunięcie tej reklamy."
+
+#: admin/views/metabox.php:28
+msgid "Add close button"
+msgstr "Dodaj przycisk zamykania"
+
+#: admin/views/metabox.php:25
+msgid "Close-Button"
+msgstr "Przycisk  zamknięcia"
+
+#: admin/views/metabox.php:15
+msgid "Effects"
+msgstr "Efekty"
+
+#: admin/views/metabox.php:14
+msgid "Enable background"
+msgstr "Włącz tło"
+
+#: admin/views/metabox.php:11 admin/views/trigger.php:6
+msgid "after user scrolled %s px"
+msgstr "gdy użytkownik przewinie %s px"
+
+#: admin/views/metabox.php:9 admin/views/trigger.php:4
+msgid "after user scrolled to second half of the page"
+msgstr "po przewinięciu użytkownika do drugiej połowy strony"
+
+#: admin/views/metabox.php:8 admin/views/trigger.php:3
+msgid "when user stops scrolling"
+msgstr "gdy użytkownik przestaje przewijać"
+
+#: admin/views/metabox.php:7 admin/views/trigger.php:2
+msgid "right away"
+msgstr "od razu"
+
+#: admin/views/metabox.php:5
+msgid "Choose when the ad should show up."
+msgstr "Wybierz, kiedy reklama ma się pojawić."
+
+#: admin/views/metabox.php:3
+msgid "Show this ad in a PopUp"
+msgstr "Pokaż tę reklamę w PopUp"
+
+#: admin/views/metabox.php:1
+msgid "These settings are deprecated. Layer ads are now managed through <a href=\"%s\">placements</a>. Please convert your settings as soon as possible."
+msgstr "Te ustawienia są przestarzałe. Reklamy warstw są teraz zarządzane za pośrednictwem <a href=\"%s\">miejsc reklamowych</a>. Zmień ustawienia tak szybko, jak to możliwe."
+
+#: admin/views/effects.php:7 admin/views/metabox.php:20
+msgid "Duration of the effect (in milliseconds)."
+msgstr "Czas trwania efektu (w milisekundach)."
+
+#: admin/views/effects.php:4 admin/views/metabox.php:16
+msgid "Type of effect when the ad is being displayed"
+msgstr "Rodzaj efektu, gdy reklama jest wyświetlana"
+
+#: admin/views/effects.php:3 admin/views/metabox.php:19
+msgid "Slide"
+msgstr "Slajd"
+
+#: admin/views/effects.php:2 admin/views/metabox.php:18
+msgid "Fade in"
+msgstr "Przenikanie"
+
+#: admin/views/effects.php:1 admin/views/metabox.php:17
+msgid "Show"
+msgstr "Pokaż"
+
+#: admin/views/close-button.php:32
+msgid "days, 0 = after current session"
+msgstr "dni, 0 = po obecnej sesji"
+
+#: admin/views/close-button.php:30
+msgid "close the ad for …"
+msgstr "zamknij reklamę dla..."
+
+#: admin/views/close-button.php:28 admin/views/metabox.php:42
+msgid "enable timeout"
+msgstr "włączyć limit czasu"
+
+#: admin/views/close-button.php:23 admin/views/metabox.php:38
+msgid "right"
+msgstr "prawa"
+
+#: admin/views/close-button.php:22 admin/views/metabox.php:37
+msgid "left"
+msgstr "lewa"
+
+#: admin/views/close-button.php:20 admin/views/metabox.php:35
+msgid "inside"
+msgstr "wewnątrz"
+
+#: admin/views/close-button.php:19 admin/views/metabox.php:34
+msgid "outside"
+msgstr "na zewnątrz"
+
+#: admin/views/close-button.php:14
+msgid "add close button"
+msgstr "dodaj przycisk zamykania"
+
+#: public/public.php:530
+msgid "close"
+msgstr "zamknij"
+
+#: admin/admin.php:367
+msgid "size"
+msgstr "rozmiar"
+
+#: admin/admin.php:354 admin/views/close-button.php:18
+msgid "Position"
+msgstr "Pozycja"
+
+#: admin/admin.php:344
+msgid "close button"
+msgstr "przycisk zamykania"
+
+#: admin/admin.php:324
+msgid "background"
+msgstr "tło"
+
+#: admin/views/background.php:3 admin/views/metabox.php:13
+msgid "Put a half-transparent overlay over the background of the page if this ad is displayed."
+msgstr "Umieść półprzezroczystą nakładkę na tle strony, jeśli ta reklama jest wyświetlana."
+
+#: admin/admin.php:311
+msgid "effect"
+msgstr "efekt"
+
+#: admin/admin.php:298
+msgid "show the ad"
+msgstr "pokaż reklamę"
+
+#: public/public.php:106
+msgid "Create PopUp or Layer Ad"
+msgstr "Utwórz PopUp lub Reklamę na warstwie"
+
+#: admin/admin.php:130 public/public.php:105
+msgid "PopUp and Layer Ads"
+msgstr "PopUp and Layer Ads"
+
+#: admin/admin.php:215
+msgid "Layer and PopUp effects"
+msgstr "Efekty Popup i warstw"
+
+#: admin/admin.php:187
+msgid "Activate this if you want to use Fancybox plugin for popup windows"
+msgstr "Aktywuj tę opcję, jeśli chcesz korzystać z wtyczki Fancybox dla okien wyskakujących"
+
+#: admin/admin.php:178
+msgid "Settings for the PopUp and Layer Ads add-on"
+msgstr ""
+
+#: admin/admin.php:147
+msgid "Use Fancybox plugin"
+msgstr "Użyj wtyczki Fancybox"
+
+#: admin/admin.php:89
+msgid "You shouldn’t have more than one Fancybox on the same page. Please, make sure that you set up the ads for the different layers with display conditions to prevent them from showing up on the same page"
+msgstr "Nie powinieneś mieć więcej niż jednego Fancyboxa na tej samej stronie. Upewnij się, że skonfigurujesz reklamy dla różnych warstw z warunkami wyświetlania, aby zapobiec ich wyświetlaniu na tej samej stronie"
+
+#: admin/admin.php:73
+msgid "<strong>Advanced Ads – PopUp and Layer Ads</strong> is an extension for the Advanced Ads plugin. Please visit <a href=\"%s\" target=\"_blank\" >wpadvancedads.com</a> to download it for free."
+msgstr "<strong>Advanced Ads – PopUp and Layer Ads</strong> to rozszerzenie wtyczki Advanced Ads. Wejdź na <a href=\"%s\" target=\"_blank\" > wpadvancedads.com</a>, aby pobrać ją bezpłatnie."

@@ -1,0 +1,1208 @@
+# Translation of Geo Targeting in Spanish (Spain)
+# This file is distributed under the same license as the Geo Targeting package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-03-26 19:11:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: es\n"
+"Project-Id-Version: Geo Targeting\n"
+
+#. Author URI of the plugin
+msgid "https://wpadvancedads.com"
+msgstr "https://wpadvancedads.com"
+
+#. Author of the plugin
+msgid "Thomas Maier"
+msgstr "Thomas Maier"
+
+#. URI of the plugin
+msgid "https://wpadvancedads.com/add-ons/geo-targeting/"
+msgstr "https://wpadvancedads.com/add-ons/geo-targeting/"
+
+#. Description of the plugin
+msgid "Display ads based on the geo location of the visitor."
+msgstr "Mostrar anuncios basados en la locación geográfica del visitante."
+
+#. Name of the plugin
+msgid "Advanced Ads – Geo Targeting"
+msgstr "Advanced Ads – Geo Locación"
+
+#: admin/views/setting-locale.php:6
+msgid "Choose the language of the state/region or city entered. If the language is not available in the geo location database, it will check against the English version."
+msgstr "Elige el lenguaje para el estado/región o ciudad ingresada. Si el lenguaje no está disponible en la Base de Geodatos, entonces lo comparará con la versión en inglés."
+
+#: admin/views/setting-download.php:54
+msgid "The databases are updated on the first Tuesday (midnight, GMT) of each month."
+msgstr "Las bases de datos son actualizadas el primer martes (medianoche, GMT) de cada mes."
+
+#: admin/views/setting-download.php:53
+msgid "Next possible update on %s."
+msgstr "La próxima actualización será posible en %s."
+
+#: admin/views/setting-download.php:12
+msgid "Database update successful"
+msgstr "La actualización de la base de datos ha sido un éxito"
+
+#: admin/views/setting-download.php:11
+msgid "Database update failed"
+msgstr "La actualización de la base de datos ha fallado"
+
+#: admin/views/setting-download.php:9
+msgid "Update geo location database"
+msgstr "Actualizar base de Geodatos"
+
+#: admin/views/setting-download.php:8
+msgid "In order to use Geo Targeting, please download the geo location database by clicking on the button below."
+msgstr "Para usar la Geo Locación, por favor descarga la Base de Geodatos pulsando en el botón de abajo."
+
+#: admin/views/setting-download.php:5
+msgid "The license of the Geo add-on is invalid. <a href=\"%s\">Please purchase or extend a license</a> in order to update geo locations."
+msgstr "La licencia para el Geo add-on es inválida. <a href=\"%s\">Por favor, compra o extiende tu licencia</a> para actualizar las locaciones geográficas."
+
+#: admin/views/setting-download.php:2
+msgid "Last update: %s"
+msgstr "Última actualización: %s"
+
+#: public/public.php:179
+msgid "Address not found: %s"
+msgstr ""
+
+#: public/public.php:174
+msgid "Geo Database not found"
+msgstr "Base de Geodatos no encontrada"
+
+#: classes/plugin.php:150
+msgid "Sucuri Header (country only)"
+msgstr ""
+
+#: classes/plugin.php:144
+msgid "MaxMind database (default)"
+msgstr ""
+
+#: classes/plugin.php:112
+msgid "Display ads based on geo location."
+msgstr "Mostrar anuncios basados en la Geo Locación."
+
+#: classes/plugin.php:111
+msgid "geo location"
+msgstr "Geo Locación"
+
+#: classes/api.php:366
+msgid "Zimbabwe"
+msgstr "Zimbabue"
+
+#: classes/api.php:365
+msgid "Zambia"
+msgstr "Zambia"
+
+#: classes/api.php:364
+msgid "Yemen"
+msgstr "Yemen"
+
+#: classes/api.php:363
+msgid "Western Samoa"
+msgstr "Samoa Occidental"
+
+#: classes/api.php:362
+msgid "Western Sahara"
+msgstr "Sahara Occidental"
+
+#: classes/api.php:361
+msgid "Wallis and Futuna Islands"
+msgstr "Islas Wallis y Futuna"
+
+#: classes/api.php:360
+msgid "Virgin Islands (USA)"
+msgstr "Islas Vírgenes (USA)"
+
+#: classes/api.php:359
+msgid "Virgin Islands (British)"
+msgstr "Islas Vírgenes (Británicas)"
+
+#: classes/api.php:358
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: classes/api.php:357
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: classes/api.php:356
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: classes/api.php:355
+msgid "Uzbekistan"
+msgstr "Uzbekistán"
+
+#: classes/api.php:354
+msgid "US Minor Outlying Islands"
+msgstr "Isla Periférica Menor de los Estados Unidos"
+
+#: classes/api.php:353
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: classes/api.php:352
+msgid "United Arab Emirates"
+msgstr "Emiratos Árabes Unidos"
+
+#: classes/api.php:351
+msgid "Ukraine"
+msgstr "Ucrania"
+
+#: classes/api.php:350
+msgid "Uganda"
+msgstr "Uganda"
+
+#: classes/api.php:349
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: classes/api.php:348
+msgid "Turks and Caicos Islands"
+msgstr " Islas Turcas y Caicos"
+
+#: classes/api.php:347
+msgid "Turkmenistan"
+msgstr "Turkmenistán"
+
+#: classes/api.php:346
+msgid "Turkey"
+msgstr "Turquía"
+
+#: classes/api.php:345
+msgid "Tunisia"
+msgstr "Túnez"
+
+#: classes/api.php:344
+msgid "Trinidad and Tobago"
+msgstr "Trinidad y Tobago"
+
+#: classes/api.php:343
+msgid "Tonga"
+msgstr "Tonga"
+
+#: classes/api.php:342
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: classes/api.php:341
+msgid "Togo"
+msgstr "Togo"
+
+#: classes/api.php:340
+msgid "Timor-Leste"
+msgstr "Timor-Leste"
+
+#: classes/api.php:339
+msgid "Thailand"
+msgstr "Tailandia"
+
+#: classes/api.php:338
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: classes/api.php:337
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+#: classes/api.php:336
+msgid "Taiwan"
+msgstr "Taiwán"
+
+#: classes/api.php:335
+msgid "Syrian Arab Republic"
+msgstr "República Árabe Siria"
+
+#: classes/api.php:334
+msgid "Switzerland"
+msgstr "Suiza"
+
+#: classes/api.php:333
+msgid "Sweden"
+msgstr "Suecia"
+
+#: classes/api.php:332
+msgid "Swaziland"
+msgstr "Swazilandia"
+
+#: classes/api.php:331
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "Svalbard y Jan Mayen"
+
+#: classes/api.php:330
+msgid "Suriname"
+msgstr "Surinam"
+
+#: classes/api.php:329
+msgid "Sudan"
+msgstr "Sudán"
+
+#: classes/api.php:328
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: classes/api.php:327
+msgid "Spain"
+msgstr "España"
+
+#: classes/api.php:326
+msgid "South Sudan"
+msgstr "Sudán del Sur"
+
+#: classes/api.php:325
+msgid "South Korea"
+msgstr "Corea del Sur"
+
+#: classes/api.php:324
+msgid "South Georgia"
+msgstr "Georgia del Sur"
+
+#: classes/api.php:323
+msgid "South Africa"
+msgstr "Suráfrica"
+
+#: classes/api.php:322
+msgid "Somalia"
+msgstr "Somalia"
+
+#: classes/api.php:321
+msgid "Solomon Islands"
+msgstr "Islas Salomón"
+
+#: classes/api.php:320
+msgid "Slovenia"
+msgstr "Eslovenia"
+
+#: classes/api.php:319
+msgid "Slovak Republic"
+msgstr "República Eslovaca"
+
+#: classes/api.php:318
+msgid "Singapore"
+msgstr "Singapur"
+
+#: classes/api.php:317
+msgid "Sierra Leone"
+msgstr "Sierra Leona"
+
+#: classes/api.php:316
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: classes/api.php:315
+msgid "Serbia"
+msgstr "Serbia"
+
+#: classes/api.php:314
+msgid "Senegal"
+msgstr "Senegal"
+
+#: classes/api.php:313
+msgid "Saudi Arabia"
+msgstr "Arabia Saudita"
+
+#: classes/api.php:312
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "S&atilde;o Tom&eacute; y Pr&iacute;ncipe"
+
+#: classes/api.php:311
+msgid "San Marino"
+msgstr "San Marino"
+
+#: classes/api.php:310
+msgid "Saint Vincent and the Grenadines"
+msgstr "San Vicente y las Granadinas"
+
+#: classes/api.php:309
+msgid "Saint Pierre and Miquelon"
+msgstr "San Pedro y Miquelón"
+
+#: classes/api.php:308
+msgid "Saint Martin (Dutch)"
+msgstr "San Martín (Holandesa)"
+
+#: classes/api.php:307
+msgid "Saint Martin (French)"
+msgstr "San Martín (Francesa)"
+
+#: classes/api.php:306
+msgid "Saint Lucia"
+msgstr "Santa Lucía"
+
+#: classes/api.php:305
+msgid "Saint Kitts and Nevis"
+msgstr "San Cristóbal y Nieves"
+
+#: classes/api.php:304
+msgid "Saint Helena"
+msgstr "Santa Helena"
+
+#: classes/api.php:303
+msgid "Saint Barth&eacute;lemy"
+msgstr "San Bartolomé"
+
+#: classes/api.php:302
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#: classes/api.php:301
+msgid "Russian Federation"
+msgstr "Rusia"
+
+#: classes/api.php:300
+msgid "Romania"
+msgstr "Rumania"
+
+#: classes/api.php:299
+msgid "Reunion Island"
+msgstr "Isla Reunión"
+
+#: classes/api.php:298
+msgid "Republic of Kosovo"
+msgstr "República de Kosovo"
+
+#: classes/api.php:297
+msgid "Qatar"
+msgstr "Qatar"
+
+#: classes/api.php:296
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: classes/api.php:295
+msgid "Portugal"
+msgstr "Portugal"
+
+#: classes/api.php:294
+msgid "Poland"
+msgstr "Polonia"
+
+#: classes/api.php:293
+msgid "Pitcairn Island"
+msgstr "Isla Pitcairn"
+
+#: classes/api.php:292
+msgid "Phillipines"
+msgstr "Filipinas"
+
+#: classes/api.php:291
+msgid "Peru"
+msgstr "Perú"
+
+#: classes/api.php:290
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: classes/api.php:289
+msgid "Papua New Guinea"
+msgstr "Papúa Nueva Guinea"
+
+#: classes/api.php:288
+msgid "Panama"
+msgstr "Panamá"
+
+#: classes/api.php:287
+msgid "Palestinian Territories"
+msgstr "Territorios Palestinos"
+
+#: classes/api.php:286
+msgid "Palau"
+msgstr "Palau"
+
+#: classes/api.php:285
+msgid "Pakistan"
+msgstr "Pakistán"
+
+#: classes/api.php:284
+msgid "Oman"
+msgstr "Omán"
+
+#: classes/api.php:283
+msgid "Norway"
+msgstr "Noruega"
+
+#: classes/api.php:282
+msgid "Northern Mariana Islands"
+msgstr "Islas Marianas del Norte"
+
+#: classes/api.php:281
+msgid "North Korea"
+msgstr "Corea del Norte"
+
+#: classes/api.php:280
+msgid "Norfolk Island"
+msgstr "Isla Norfolk"
+
+#: classes/api.php:279
+msgid "Niue"
+msgstr "Niue"
+
+#: classes/api.php:278
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: classes/api.php:277
+msgid "Niger"
+msgstr "Niger"
+
+#: classes/api.php:276
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: classes/api.php:275
+msgid "New Zealand"
+msgstr "Nueva Zelanda"
+
+#: classes/api.php:274
+msgid "New Caledonia"
+msgstr "Nueva Caledonia"
+
+#: classes/api.php:273
+msgid "Netherlands Antilles"
+msgstr "Antillas Holandesas"
+
+#: classes/api.php:272
+msgid "Netherlands"
+msgstr "Holanda"
+
+#: classes/api.php:271
+msgid "Nepal"
+msgstr "Nepal"
+
+#: classes/api.php:270
+msgid "Nauru"
+msgstr "Nauru"
+
+#: classes/api.php:269
+msgid "Namibia"
+msgstr "Namibia"
+
+#: classes/api.php:268
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: classes/api.php:267
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: classes/api.php:266
+msgid "Morocco"
+msgstr "Marruecos"
+
+#: classes/api.php:265
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: classes/api.php:264
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: classes/api.php:263
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: classes/api.php:262
+msgid "Monaco"
+msgstr "Mónaco"
+
+#: classes/api.php:261
+msgid "Moldova, Republic of"
+msgstr "República de Moldavia"
+
+#: classes/api.php:260
+msgid "Micronesia"
+msgstr "Micronesia"
+
+#: classes/api.php:259
+msgid "Mexico"
+msgstr "México"
+
+#: classes/api.php:258
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: classes/api.php:257
+msgid "Mauritius"
+msgstr "Mauricio"
+
+#: classes/api.php:256
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: classes/api.php:255
+msgid "Martinique"
+msgstr "Martinica"
+
+#: classes/api.php:254
+msgid "Marshall Islands"
+msgstr "Islas Marshall"
+
+#: classes/api.php:253
+msgid "Malta"
+msgstr "Malta"
+
+#: classes/api.php:252
+msgid "Mali"
+msgstr "Mali"
+
+#: classes/api.php:251
+msgid "Maldives"
+msgstr "Maldivas"
+
+#: classes/api.php:250
+msgid "Malaysia"
+msgstr "Malasia"
+
+#: classes/api.php:249
+msgid "Malawi"
+msgstr "Malawi"
+
+#: classes/api.php:248
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: classes/api.php:247
+msgid "Macedonia"
+msgstr "Macedonia"
+
+#: classes/api.php:246
+msgid "Macau"
+msgstr "Macau"
+
+#: classes/api.php:245
+msgid "Luxembourg"
+msgstr "Luxemburgo"
+
+#: classes/api.php:244
+msgid "Lithuania"
+msgstr "Lituania"
+
+#: classes/api.php:243
+msgid "Liechtenstein"
+msgstr "Lichtenstein"
+
+#: classes/api.php:242
+msgid "Libyan Arab Jamahiriya"
+msgstr "Jamahiriya Árabe Libia"
+
+#: classes/api.php:241
+msgid "Liberia"
+msgstr "Liberia"
+
+#: classes/api.php:240
+msgid "Lesotho"
+msgstr "Lesoto"
+
+#: classes/api.php:239
+msgid "Lebanon"
+msgstr "Líbano"
+
+#: classes/api.php:238
+msgid "Latvia"
+msgstr "Letonia"
+
+#: classes/api.php:237
+msgid "Lao People's Democratic Republic"
+msgstr "República Democrática de Laos"
+
+#: classes/api.php:236
+msgid "Kyrgyzstan"
+msgstr "Kirguistán"
+
+#: classes/api.php:235
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: classes/api.php:234
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: classes/api.php:233
+msgid "Kenya"
+msgstr "Kenia"
+
+#: classes/api.php:232
+msgid "Kazakhstan"
+msgstr "Kazajstán"
+
+#: classes/api.php:231
+msgid "Jordan"
+msgstr "Jordania"
+
+#: classes/api.php:230
+msgid "Jersey"
+msgstr "Jersey"
+
+#: classes/api.php:229
+msgid "Japan"
+msgstr "Japón"
+
+#: classes/api.php:228
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: classes/api.php:227
+msgid "Italy"
+msgstr "Italia"
+
+#: classes/api.php:226
+msgid "Israel"
+msgstr "Israel"
+
+#: classes/api.php:225
+msgid "Isle of Man"
+msgstr "Isla de Pascua"
+
+#: classes/api.php:224
+msgid "Ireland"
+msgstr "Irlanda"
+
+#: classes/api.php:223
+msgid "Iraq"
+msgstr "Irak"
+
+#: classes/api.php:222
+msgid "Iran"
+msgstr "Irán"
+
+#: classes/api.php:221
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: classes/api.php:220
+msgid "India"
+msgstr "India"
+
+#: classes/api.php:219
+msgid "Iceland"
+msgstr "Islandia"
+
+#: classes/api.php:218
+msgid "Hungary"
+msgstr "Hungría"
+
+#: classes/api.php:217
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: classes/api.php:216
+msgid "Honduras"
+msgstr "Honduras"
+
+#: classes/api.php:215
+msgid "Holy See (City Vatican State)"
+msgstr "Ciudad del Vaticano"
+
+#: classes/api.php:214
+msgid "Heard and McDonald Islands"
+msgstr "Islas Heard y McDonald"
+
+#: classes/api.php:213
+msgid "Haiti"
+msgstr "Haití"
+
+#: classes/api.php:212
+msgid "Guyana"
+msgstr "Guyana"
+
+#: classes/api.php:211
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: classes/api.php:210
+msgid "Guinea"
+msgstr "Guinea"
+
+#: classes/api.php:209
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: classes/api.php:208
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: classes/api.php:207
+msgid "Guam"
+msgstr "Guam"
+
+#: classes/api.php:206
+msgid "Guadeloupe"
+msgstr "Guadalupe"
+
+#: classes/api.php:205
+msgid "Grenada"
+msgstr "Granada"
+
+#: classes/api.php:204
+msgid "Greenland"
+msgstr "Groenlandia"
+
+#: classes/api.php:203
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: classes/api.php:202
+msgid "Ghana"
+msgstr "Ghana"
+
+#: classes/api.php:201
+msgid "Greece"
+msgstr "Grecia"
+
+#: classes/api.php:199
+msgid "Georgia"
+msgstr "Georgia"
+
+#: classes/api.php:198
+msgid "Gambia"
+msgstr "Gambia"
+
+#: classes/api.php:197
+msgid "Gabon"
+msgstr "Gabón"
+
+#: classes/api.php:196
+msgid "French Southern Territories"
+msgstr "Territorios Sureños Franceses"
+
+#: classes/api.php:195
+msgid "French Polynesia"
+msgstr "Polinesia Francesa"
+
+#: classes/api.php:194
+msgid "French Guiana"
+msgstr "Guyana Francesa"
+
+#: classes/api.php:193
+msgid "France"
+msgstr "Francia"
+
+#: classes/api.php:192
+msgid "Finland"
+msgstr "Finlandia"
+
+#: classes/api.php:191
+msgid "Fiji"
+msgstr "Fiji"
+
+#: classes/api.php:190
+msgid "Faroe Islands"
+msgstr "Islas Faroe"
+
+#: classes/api.php:189
+msgid "Falkland Islands"
+msgstr "Islas Malvinas"
+
+#: classes/api.php:188
+msgid "Ethiopia"
+msgstr "Etiopía"
+
+#: classes/api.php:187
+msgid "Estonia"
+msgstr "Estonia"
+
+#: classes/api.php:186
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: classes/api.php:185
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: classes/api.php:184
+msgid "Equatorial Guinea"
+msgstr "Guinea Ecuatorial"
+
+#: classes/api.php:183
+msgid "Egypt"
+msgstr "Egipto"
+
+#: classes/api.php:182
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: classes/api.php:181
+msgid "East Timor"
+msgstr "Timor Oriental"
+
+#: classes/api.php:180
+msgid "Dominican Republic"
+msgstr "República Dominicana"
+
+#: classes/api.php:179
+msgid "Dominica"
+msgstr "Dominica"
+
+#: classes/api.php:178
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: classes/api.php:177
+msgid "Denmark"
+msgstr "Dinamarca"
+
+#: classes/api.php:176
+msgid "Czech Republic"
+msgstr "República Checa"
+
+#: classes/api.php:175
+msgid "Cyprus"
+msgstr "Chipre"
+
+#: classes/api.php:174
+msgid "Cura&Ccedil;ao"
+msgstr "Curazao"
+
+#: classes/api.php:173
+msgid "Cuba"
+msgstr "Cuba"
+
+#: classes/api.php:172
+msgid "Croatia/Hrvatska"
+msgstr "Croacia/Hrvatska"
+
+#: classes/api.php:171
+msgid "Cote d'Ivoire"
+msgstr "Costa de Marfil"
+
+#: classes/api.php:170
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: classes/api.php:169
+msgid "Cook Islands"
+msgstr "Islas Cook"
+
+#: classes/api.php:168
+msgid "Congo, Republic of"
+msgstr "República del Congo"
+
+#: classes/api.php:167
+msgid "Congo, Democratic People's Republic"
+msgstr "República Democrática del Congo"
+
+#: classes/api.php:166
+msgid "Comoros"
+msgstr "Comoras"
+
+#: classes/api.php:165
+msgid "Colombia"
+msgstr "Colombia"
+
+#: classes/api.php:164
+msgid "Cocos Islands"
+msgstr "Islas Cocos"
+
+#: classes/api.php:163
+msgid "Christmas Island"
+msgstr "Isla de Navidad"
+
+#: classes/api.php:162
+msgid "China"
+msgstr "China"
+
+#: classes/api.php:161
+msgid "Chile"
+msgstr "Chile"
+
+#: classes/api.php:160
+msgid "Chad"
+msgstr "Chad"
+
+#: classes/api.php:159
+msgid "Central African Republic"
+msgstr "República Central Africana"
+
+#: classes/api.php:158
+msgid "Cayman Islands"
+msgstr "Islas Caimán"
+
+#: classes/api.php:157
+msgid "Cape Verde"
+msgstr "Cabo Verde"
+
+#: classes/api.php:156
+msgid "Canada"
+msgstr "Canadá"
+
+#: classes/api.php:155
+msgid "Cameroon"
+msgstr "Camerún"
+
+#: classes/api.php:154
+msgid "Cambodia"
+msgstr "Camboya"
+
+#: classes/api.php:153
+msgid "Burundi"
+msgstr "Burundi"
+
+#: classes/api.php:152
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: classes/api.php:151
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: classes/api.php:150
+msgid "Brunei Darrussalam"
+msgstr "Brunei Darrussalam"
+
+#: classes/api.php:149
+msgid "British Indian Ocean Territory"
+msgstr "Territorio Británico del Océano Índico"
+
+#: classes/api.php:148
+msgid "Brazil"
+msgstr "Brasil"
+
+#: classes/api.php:147
+msgid "Bouvet Island"
+msgstr "Isla Bouvet "
+
+#: classes/api.php:146
+msgid "Botswana"
+msgstr "Botswana"
+
+#: classes/api.php:145
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia-Herzegovina"
+
+#: classes/api.php:144
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, Saint Eustatius y Saba"
+
+#: classes/api.php:143
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: classes/api.php:142
+msgid "Bhutan"
+msgstr "Bhután"
+
+#: classes/api.php:141
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: classes/api.php:140
+msgid "Benin"
+msgstr "Benin"
+
+#: classes/api.php:139
+msgid "Belize"
+msgstr "Belice"
+
+#: classes/api.php:138
+msgid "Belgium"
+msgstr "Bélgica"
+
+#: classes/api.php:137
+msgid "Belarus"
+msgstr "Bielorrusia"
+
+#: classes/api.php:136
+msgid "Barbados"
+msgstr "Barbados"
+
+#: classes/api.php:135
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: classes/api.php:134
+msgid "Bahrain"
+msgstr "Bahrein"
+
+#: classes/api.php:133
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: classes/api.php:132
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: classes/api.php:131
+msgid "Austria"
+msgstr "Austria"
+
+#: classes/api.php:129
+msgid "Aruba"
+msgstr "Aruba"
+
+#: classes/api.php:128
+msgid "Armenia"
+msgstr "Armenia"
+
+#: classes/api.php:127
+msgid "Argentina"
+msgstr "Argentina"
+
+#: classes/api.php:126
+msgid "Antigua and Barbuda"
+msgstr "Antigua y Barbados"
+
+#: classes/api.php:125
+msgid "Antarctica"
+msgstr "Antártica"
+
+#: classes/api.php:124
+msgid "Anguilla"
+msgstr "Anguila"
+
+#: classes/api.php:123
+msgid "Angola"
+msgstr "Angola"
+
+#: classes/api.php:122
+msgid "Andorra"
+msgstr "Andorra"
+
+#: classes/api.php:121
+msgid "American Samoa"
+msgstr "Samoa Americana"
+
+#: classes/api.php:120
+msgid "Algeria"
+msgstr "Argelia"
+
+#: classes/api.php:119
+msgid "Albania"
+msgstr "Albania"
+
+#: classes/api.php:118
+msgid "&#197;land Islands"
+msgstr "Islas &#197;land "
+
+#: classes/api.php:117
+msgid "Afghanistan"
+msgstr "Afganistán"
+
+#: classes/api.php:115 classes/api.php:130
+msgid "Australia"
+msgstr "Australia"
+
+#: classes/api.php:114
+msgid "Asia"
+msgstr "Asia"
+
+#: classes/api.php:113
+msgid "Africa"
+msgstr "Africa"
+
+#: classes/api.php:112
+msgid "Europe"
+msgstr "Europa"
+
+#: classes/api.php:111
+msgid "South America"
+msgstr "América del Sur"
+
+#: classes/api.php:110
+msgid "North America"
+msgstr "América del Norte"
+
+#: classes/api.php:108 classes/api.php:200
+msgid "Germany"
+msgstr "Alemania"
+
+#: classes/api.php:107
+msgid "European Union"
+msgstr "Unión Europea"
+
+#: classes/api.php:106
+msgid "United Kingdom"
+msgstr "Reino Unido"
+
+#: classes/api.php:105
+msgid "United States"
+msgstr "Estados Unidos"
+
+#: admin/admin.php:366
+msgid "Could not open database for writing %s"
+msgstr "No se pudo abrir la base de datos para escritura %s"
+
+#: admin/admin.php:360
+msgid "Could not open downloaded database for reading: %s"
+msgstr "No se pudo abrir la base de datos descargada para lectura: %s"
+
+#: admin/admin.php:349
+msgid "Error downloading database from: %s - %s"
+msgstr "Error descargando la base de datos desde: %s - %s"
+
+#: admin/admin.php:325
+msgid "Database updated successfully!"
+msgstr "Base de datos actualizada exitosamente!"
+
+#: admin/admin.php:280
+msgid "Your location: %s"
+msgstr "Tu locación es: %s"
+
+#: admin/admin.php:275
+msgid "City"
+msgstr "Ciudad"
+
+#: admin/admin.php:273
+msgid "State/Region"
+msgstr "Estado/Región"
+
+#: admin/admin.php:272 admin/admin.php:274
+msgid "or"
+msgstr "o"
+
+#: admin/admin.php:254
+msgid "is not"
+msgstr ""
+
+#: admin/admin.php:253
+msgid "is"
+msgstr ""
+
+#: admin/admin.php:236
+msgid "Your IP address format is incorrect"
+msgstr "El formato de tu dirección IP es incorrecto"
+
+#: admin/admin.php:232
+msgid "Maybe you are working on a local or secured environment."
+msgstr "Tal vez estás trabajando en un entorno seguro o local."
+
+#: admin/admin.php:228
+msgid "Geo Database not found, you can download it in the <a href='%s'>settings</a>."
+msgstr "Base de Geodatos no encontrada, puedes descargarla en las <a href='%s'>Configuraciones</a>."
+
+#: admin/admin.php:222 public/public.php:167
+msgid "(unknown region)"
+msgstr "(Región desconocida)"
+
+#: admin/admin.php:213 public/public.php:161
+msgid "(unknown city)"
+msgstr "(Ciudad Desconocida)"
+
+#: admin/admin.php:121
+msgid "Language of names"
+msgstr "Lenguaje de nombres"
+
+#: admin/admin.php:115
+msgid "Method"
+msgstr ""
+
+#: admin/admin.php:109 admin/admin.php:125
+msgid "Geo Targeting"
+msgstr "Geo Locación"
+
+#: admin/admin.php:74
+msgid "<strong>Advanced Ads – Geo Targeting</strong> is an extension for the free Advanced Ads plugin."
+msgstr "<strong>Advanced Ads – Geo Locación</strong> Es una extensión para el plugin gratuito de Advanced Ads."
+
+#: admin/admin.php:71
+msgid "Install Now"
+msgstr ""
+
+#: admin/admin.php:69
+msgid "Activate Now"
+msgstr ""

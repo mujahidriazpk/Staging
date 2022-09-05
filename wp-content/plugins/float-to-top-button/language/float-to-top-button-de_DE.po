@@ -1,0 +1,200 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Float To Top Button\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-06 17:12+0100\n"
+"PO-Revision-Date: 2018-02-06 17:13+0100\n"
+"Last-Translator: Webmaster <webmaster@proaspecto.com>\n"
+"Language-Team: ProAspecto\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/settings.php:37
+msgid "Float to Top Button - Settings UPDATED!"
+msgstr "Float to Top Button - Einstellungen AKTUALISIERT!"
+
+#: admin/settings.php:57
+msgid "Float to Top Button - Settings"
+msgstr "Float to Top Button - Einstellungen"
+
+#: admin/settings.php:66
+msgid "Plugin version"
+msgstr "Plugin Version"
+
+#: admin/settings.php:68
+msgid "Plugin page"
+msgstr "Plugin-Seite"
+
+#: admin/settings.php:70
+msgid "Download page"
+msgstr "Downloadseite"
+
+#: admin/settings.php:72
+msgid "Author"
+msgstr "Autor"
+
+#: admin/settings.php:74
+msgid "Company"
+msgstr "Firma"
+
+#: admin/settings.php:76
+msgid "Donation page"
+msgstr "Spendenseite"
+
+#: admin/settings.php:104
+msgid "Distance from top before showing element (px)"
+msgstr "Abstand von oben vor der Anzeige des Elements (px)"
+
+#: admin/settings.php:108
+msgid "Speed back to top (ms)"
+msgstr "Geschwindigkeit zurück nach oben (ms)"
+
+#: admin/settings.php:112
+msgid "Animation"
+msgstr "Animation"
+
+#: admin/settings.php:115
+msgid "fade"
+msgstr "verblassen"
+
+#: admin/settings.php:118
+msgid "slide"
+msgstr "gleiten"
+
+#: admin/settings.php:121
+msgid "none"
+msgstr "none"
+
+#: admin/settings.php:129
+msgid "Animation in speed (ms)"
+msgstr "Geschwindigkeit für Animation in (ms)"
+
+#: admin/settings.php:133
+msgid "Animation out speed (ms)"
+msgstr "Geschwindigkeit für Animation out (ms)"
+
+#: admin/settings.php:137
+msgid "Text for the button"
+msgstr "Text für die Button"
+
+#: admin/settings.php:141
+msgid "\"Top of Page\" image"
+msgstr "\"Top of Page\" Bild"
+
+#: admin/settings.php:170
+msgid ""
+"URL of a custom \"Top of Page\" image<br>Overrules the image selection above!"
+msgstr ""
+"URL eines benutzerdefinierten \"Top of Page\"-Bildes<br>Überschreibt die "
+"Bildauswahl oben!"
+
+#: admin/settings.php:176
+msgid "Position of the Button"
+msgstr "Position des Buttons"
+
+#: admin/settings.php:179
+msgid "Lower Right"
+msgstr "Unten Rechts"
+
+#: admin/settings.php:182
+msgid "Lower Left"
+msgstr "Unten Links"
+
+#: admin/settings.php:185
+msgid "Upper Right"
+msgstr "Oben Rechts"
+
+#: admin/settings.php:188
+msgid "Upper Left"
+msgstr "Oben Links"
+
+#: admin/settings.php:196
+msgid "Horizontal spacing"
+msgstr "Horizontaler Abstand"
+
+#: admin/settings.php:207
+msgid "Vertical spacing"
+msgstr "Vertikaler Abstand"
+
+#: admin/settings.php:218
+msgid "Opacity of the image, mouseout (0-99)"
+msgstr "Deckkraft des Bildes, mouseout (0-99)"
+
+#: admin/settings.php:222
+msgid "Opacity of the image, mouseover (0-99)"
+msgstr "Deckkraft des Bildes, mouseover (0-99)"
+
+#: admin/settings.php:232
+msgid "Disable the button for mobile devices"
+msgstr "Deaktivieren der Schaltfläche für mobile Geräte"
+
+#: admin/settings.php:236
+msgid "Z-index of the overlay"
+msgstr "Z-Index der Überlagerung"
+
+#: admin/settings.php:240
+msgid "Save Settings"
+msgstr "Eigenschaften speichern"
+
+#: float-to-top-button.php:132
+msgid "Float to Top Button Settings"
+msgstr "Float to Top Button Eigenschften"
+
+#: float-to-top-button.php:132
+msgid "Float to Top Button"
+msgstr "Float to Top Button"
+
+#: float-to-top-button.php:165
+msgid "Distance from top is a required number"
+msgstr "Für Abstand von oben ist eine Zahl notwendig"
+
+#: float-to-top-button.php:166
+msgid "Speed back to top is a required number"
+msgstr "Für die Geschwindigkeit zurück nach oben ist eine Zahl notwendige"
+
+#: float-to-top-button.php:167
+msgid "Animation in speed is a required number"
+msgstr "Für die Geschwindigkeit Animation in ist eine Zahl notwendige"
+
+#: float-to-top-button.php:168
+msgid "Animation out speed is a required number"
+msgstr "Für die Geschwindigkeit Animation aus ist eine Zahl notwendige"
+
+#: float-to-top-button.php:169 float-to-top-button.php:170
+msgid "Opacity is a required number (0-99)"
+msgstr "Für die Deckkraft ist eine Zahl erforderliche (0-99)"
+
+#: float-to-top-button.php:171
+msgid "Z-index is a required number (0-9999999999)"
+msgstr "Für Z-Index ist eine Zahl notwendige (0-999999999999999999)"
+
+#: float-to-top-button.php:223
+msgid "Top of Page"
+msgstr "Zum Seitenanfang"
+
+#~ msgid "Float To Top Button"
+#~ msgstr "Float To Top Button"
+
+#~ msgid ""
+#~ "This plugin will add a floating scroll to top button to posts / pages"
+#~ msgstr ""
+#~ "Dieses Plugin fügt einen schwebenden Bildlauf zum oberen Button zu den "
+#~ "Beiträgen / Seiten hinzu"
+
+#~ msgid "http://cagewebdev.com/float-to-top-button"
+#~ msgstr "http://cagewebdev.com/float-to-top-button"
+
+#~ msgid "Rolf van Gelder"
+#~ msgstr "Rolf van Gelder"
+
+#~ msgid "http://cagewebdev.com"
+#~ msgstr "http://cagewebdev.com"

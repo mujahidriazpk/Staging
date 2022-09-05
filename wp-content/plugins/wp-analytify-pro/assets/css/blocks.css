@@ -1,0 +1,19 @@
+.analytify-shortcodes-block-advanced-panel .components-datetime {
+  padding: 0 !important; }
+
+.analytify-shortcodes-block-advanced-panel .components-datetime__time,
+.analytify-shortcodes-block-advanced-panel .components-datetime__date-help-button,
+.analytify-shortcodes-block-advanced-panel .toggle-postid-field {
+  display: none; }
+
+.analytify-shortcodes-block-advanced-panel .components-base-control__label,
+.analytify-shortcodes-block-simple-panel .components-base-control__label {
+  font-weight: 600; }
+
+.analytify-shortcodes-block-advanced-panel .analytify-date-picker-label,
+.analytify-shortcodes-block-simple-panel .analytify-date-picker-label {
+  font-weight: 600; }
+
+.analytify-shortcodes-block-advanced-panel .components-panel__row,
+.analytify-shortcodes-block-simple-panel .components-panel__row {
+  margin-top: 5px; }

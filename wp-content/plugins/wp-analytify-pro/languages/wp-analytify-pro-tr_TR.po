@@ -1,0 +1,1312 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Project-Id-Version: Analytify Pro\n"
+"POT-Creation-Date: 2018-12-07 12:36+0500\n"
+"PO-Revision-Date: 2021-01-25 10:47+0500\n"
+"Last-Translator: \n"
+"Language-Team: Türkçe\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wp-analytify-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: tr_TR\n"
+"X-Loco-Version: 2.4.6; wp-5.5.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/analytifypro_base.php:34 classes/analytifypro_base.php:41
+#: classes/analytifypro_base.php:48 classes/analytifypro_base.php:55
+#: classes/analytifypro_base.php:63 classes/analytifypro_base.php:79
+msgctxt "Delete license"
+msgid "Remove"
+msgstr "Kaldır"
+
+#: classes/analytifypro_base.php:273 classes/analytifypro_base.php:347
+#: classes/analytifypro_base.php:421 classes/analytifypro_base.php:494
+#: classes/analytifypro_base.php:567 classes/analytifypro_base.php:641
+#, php-format
+msgid ""
+"<strong>Activate Your License</strong> &mdash; Please <a href=\"%s\" class="
+"\"\">enter your license key</a> to enable priority support and plugin "
+"updates."
+msgstr ""
+"<strong>Lisansınızı Etkinleştirin</strong> &mdash; Öncelikli desteği ve "
+"eklenti güncellemelerini etkinleştirmek için <a href=\"%s\" class="
+"\"\">lütfen lisans anahtarınızı girin</a>."
+
+#: classes/analytifypro_base.php:294 classes/analytifypro_base.php:368
+#: classes/analytifypro_base.php:442 classes/analytifypro_base.php:515
+#: classes/analytifypro_base.php:588 classes/analytifypro_base.php:662
+msgid "Your License Has Expired"
+msgstr "Lisansınızın Süresi Doldu"
+
+#: classes/analytifypro_base.php:295 classes/analytifypro_base.php:369
+#: classes/analytifypro_base.php:443 classes/analytifypro_base.php:516
+#: classes/analytifypro_base.php:589 classes/analytifypro_base.php:663
+#, php-format
+msgid "Login to <a href=\"%s\">My Account</a> to renew. "
+msgstr "Yenilemek için <a href=\"%s\">My Account</a> giriş yapın."
+
+#: classes/analytifypro_base.php:299 classes/analytifypro_base.php:373
+#: classes/analytifypro_base.php:447 classes/analytifypro_base.php:520
+#: classes/analytifypro_base.php:593 classes/analytifypro_base.php:667
+msgid "Updates are only available to those with an active license. "
+msgstr "Güncellemeler yalnızca aktif lisansa sahip olanlara sunulur."
+
+#: classes/analytifypro_base.php:300 classes/analytifypro_base.php:374
+#: classes/analytifypro_base.php:448 classes/analytifypro_base.php:521
+#: classes/analytifypro_base.php:594 classes/analytifypro_base.php:668
+msgid "Only active licenses can submit support requests. "
+msgstr "Yalnızca aktif lisanslar destek talepleri gönderebilir."
+
+#: classes/analytifypro_base.php:301 classes/analytifypro_base.php:375
+#: classes/analytifypro_base.php:449 classes/analytifypro_base.php:522
+#: classes/analytifypro_base.php:595 classes/analytifypro_base.php:669
+msgid ""
+"All features will continue to work, but you won't be able to receive updates "
+"or email support. "
+msgstr ""
+"Tüm özellikler çalışmaya devam edecek, ancak güncelleme veya e-posta desteği "
+"alamayacaksınız."
+
+#: classes/analytifypro_base.php:313 classes/analytifypro_base.php:387
+#: classes/analytifypro_base.php:461 classes/analytifypro_base.php:534
+#: classes/analytifypro_base.php:607 classes/analytifypro_base.php:681
+#, php-format
+msgid ""
+"<strong>No Activations Left</strong> &mdash; Please visit <a href=\"%s\" "
+"target=\"_blank\">My Account</a> to upgrade your license or deactivate a "
+"previous activation."
+msgstr ""
+"<strong>Etkinleştirme Kalmadı</strong> &mdash; Lisansınızı yükseltmek veya "
+"önceki bir etkinleştirmeyi devre dışı bırakmak için lütfen <a href=\"%s\" "
+"target=\"_blank\">My Account</a> linkini lütfen ziyaret edin."
+
+#: classes/analytifypro_base.php:316 classes/analytifypro_base.php:390
+#: classes/analytifypro_base.php:464 classes/analytifypro_base.php:537
+#: classes/analytifypro_base.php:610 classes/analytifypro_base.php:684
+#, php-format
+msgid ""
+"<strong>Your License Was Not Found</strong> &mdash; Please visit <a href=\"%s"
+"\" target=\"_blank\">My Account</a> to double check your license key."
+msgstr ""
+"<strong>Lisansınız Bulunamadı</strong> &mdash; Lisans anahtarınızı çifte "
+"kontrol etmek için lütfen <a href=\"%s\" target=\"_blank\">My Account</a> "
+"linkini ziyaret edin."
+
+#: classes/analytifypro_base.php:319 classes/analytifypro_base.php:393
+#: classes/analytifypro_base.php:467 classes/analytifypro_base.php:540
+#: classes/analytifypro_base.php:613 classes/analytifypro_base.php:687
+msgid "<strong>Your License Was Not Found</strong> &mdash; "
+msgstr "<strong>Lisansınız Bulunamadı</strong> &mdash;"
+
+#: classes/analytifypro_base.php:324 classes/analytifypro_base.php:398
+#: classes/analytifypro_base.php:472 classes/analytifypro_base.php:545
+#: classes/analytifypro_base.php:618 classes/analytifypro_base.php:692
+#, php-format
+msgid ""
+"<strong>An Unexpected Error Occurred</strong> &mdash; Please contact us at "
+"<a href=\"%1$s\">%2$s</a> and quote the following:"
+msgstr ""
+"<strong> Beklenmeyen Bir Hata Oluştu </strong> &mdash; Lütfen <a href=\"%1$s"
+"\">%2$s</a> adresinden bizimle iletişime geçin ve aşağıdakileri belirtin:"
+
+#: classes/analytifypro_base.php:849 classes/class-wp-analytify-pro.php:2305
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Update Available %4$s &mdash; %9$s %10$s is now available. "
+"You currently have %11$s installed.  %5$s Changelog %6$s  %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s Güncelleme Var %4$s &mdash; %9$s %10$s artık kullanılabilir. "
+"Şu anda %11$s kurulu.  %5$s  Değişiklik kaydı %6$s  %7$s %8$s"
+
+#: classes/class-wp-analytify-pro.php:226
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Activate Your License %4$s &mdash; Please %5$senter your "
+"license key%6$s to enable support and plugin updates. %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s Lisansınızı Etkinleştirin %4$s &mdash; Desteği ve eklenti "
+"güncellemelerini etkinleştirmek için lütfen %5$s Lisans anahtarınızı%6$s "
+"girin. %7$s %8$s"
+
+#: classes/class-wp-analytify-pro.php:229
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Activate Your License %4$s &mdash; Please click on %5$s "
+"Activate License button %6$s to validate your license. %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s Lisansınızı Etkinleştirin %4$s &mdash; Lisansınızı doğrulamak "
+"için lütfen %5$sEtkinleştir düğmesini %6$s tıklayın. %7$s %8$s"
+
+#: classes/class-wp-analytify-pro.php:232
+#, php-format
+msgid ""
+"%1$s %2$s %3$s License Expired %4$s &mdash; Upgrade your license to enable "
+"support and plugin updates. Would you please checkout %5$s what we have "
+"improved %6$s so far ? %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s Lisans Süresi Doldu %4$s &mdash; Desteği ve eklenti "
+"güncellemelerini etkinleştirmek için lisansınızı yükseltin. Şu ana kadar "
+"%6$s geliştirdiklerimizi %5$s kontrol eder misiniz? %7$s %8$s"
+
+#: classes/class-wp-analytify-pro.php:235
+#, php-format
+msgid ""
+"%1$s %2$s %3$s Invalid License %4$s &mdash; Please %5$senter a valid license "
+"key%6$s to enable support and plugin updates. %7$s %8$s"
+msgstr ""
+"%1$s %2$s %3$s Geçersiz Lisans %4$s &mdash; Desteği ve eklenti "
+"güncellemelerini etkinleştirmek için lütfen %5$sgeçerli bir lisans anahtarı"
+"%6$s girin. %7$s %8$s"
+
+#: classes/class-wp-analytify-pro.php:246
+msgid "Dashboards"
+msgstr "Gösterge Tabloları"
+
+#: classes/class-wp-analytify-pro.php:249
+msgid "REAL TIME"
+msgstr "Gerçek Zamanlı"
+
+#: classes/class-wp-analytify-pro.php:250
+#: classes/class-wp-analytify-pro.php:2569
+msgid "Demographics"
+msgstr "Demografik Bilgiler"
+
+#: classes/class-wp-analytify-pro.php:252
+msgid "Search Terms"
+msgstr "Arama Terimleri"
+
+#: classes/class-wp-analytify-pro.php:348
+msgid "Top Ajax Errors"
+msgstr "En Önemli Ajax Hataları"
+
+#: classes/class-wp-analytify-pro.php:372
+msgid "Ajax errors"
+msgstr "Ajax hataları"
+
+#: classes/class-wp-analytify-pro.php:387
+msgid "Top 404 Pages Errors"
+msgstr "En Büyük 404 Sayfa Hataları"
+
+#: classes/class-wp-analytify-pro.php:411
+msgid "404 errors"
+msgstr "404 hataları"
+
+#: classes/class-wp-analytify-pro.php:426
+msgid "Top Javascript Errors"
+msgstr "Başlıca Javascript Hataları"
+
+#: classes/class-wp-analytify-pro.php:450
+msgid "JavaScript errors"
+msgstr "JavaScript hataları"
+
+#: classes/class-wp-analytify-pro.php:547
+msgid "Thank you!"
+msgstr "Teşekkür ederiz!"
+
+#: classes/class-wp-analytify-pro.php:550
+msgid ""
+"We appreciate you to upgrade to Pro version and supporting the development "
+"of this product."
+msgstr ""
+"Pro sürümüne yükselttiğiniz ve bu ürünün geliştirilmesini desteklediğiniz "
+"için teşekkür ederiz."
+
+#: classes/class-wp-analytify-pro.php:555
+msgid "made with ♥ by"
+msgstr "tarafından ♥ ile yapıldı"
+
+#: classes/class-wp-analytify-pro.php:668
+#: classes/class-wp-analytify-pro.php:2316
+msgid "Front"
+msgstr "Ön "
+
+#: classes/class-wp-analytify-pro.php:672
+#: classes/class-wp-analytify-pro.php:2329
+msgid "License"
+msgstr "Lisans "
+
+#: classes/class-wp-analytify-pro.php:834
+msgid ""
+"Enter your license key(s). It is important to have a valid license key for "
+"automatic plugin updates and support. After adding a license key, press the "
+"'Activate License' button."
+msgstr ""
+"Lisans anahtarlarınızı girin. Otomatik eklenti güncellemeleri ve desteği "
+"için geçerli bir lisans anahtarına sahip olmak önemlidir. Bir lisans "
+"anahtarı ekledikten sonra, 'Lisansı Etkinleştir' düğmesine basın."
+
+#: classes/class-wp-analytify-pro.php:840
+msgid "Analytify PRO (License Key):"
+msgstr "Analytify PRO (Lisans Anahtarı):"
+
+#: classes/class-wp-analytify-pro.php:856
+msgid "Activate License"
+msgstr "Lisansı Etkinleştir"
+
+#: classes/class-wp-analytify-pro.php:1122
+#, php-format
+msgid "%1$s Fetching Analytics from %2$s to %3$s %4$s"
+msgstr "%1$s %2$s ile %3$s arasındaki İstatistikler alınıyor %4$s "
+
+#: classes/class-wp-analytify-pro.php:1227
+#, php-format
+msgid "%1$s Settings %2$s | %3$s Dashboard %4$s | %5$s Help %6$s"
+msgstr "%1$s Ayarlar %2$s | %3$s Gösterge Tablosu %4$s | %5$s Yardımı %6$s"
+
+#: classes/class-wp-analytify-pro.php:1249
+#, php-format
+msgid "%1$s Getting Started %2$s"
+msgstr "%1$s Başlarken %2$s"
+
+#: classes/class-wp-analytify-pro.php:1250
+#, php-format
+msgid "%1$s Add Ons %2$s"
+msgstr "%1$s Eklentileri %2$s"
+
+#: classes/class-wp-analytify-pro.php:1320
+#, php-format
+msgid ""
+"Analytify is not active. Please %1$sAuthenticate%2$s in order to get started "
+"using this plugin."
+msgstr ""
+"Analytify etkin değil. Bu eklentiyi kullanmaya başlamak için lütfen "
+"%1$sDoğrula%2$s."
+
+#: classes/class-wp-analytify-pro.php:1324
+#, php-format
+msgid "%1$s Google Analytics Profile is not set. Set the %2$s Profile %3$s"
+msgstr ""
+"%1$s Google Analytics Profili ayarlanmadı. %2$s Profilini ayarlayın %3$s"
+
+#: classes/class-wp-analytify-pro.php:2206
+#, php-format
+msgid "There is a new version of %s available."
+msgstr "%s uygulamasının yeni bir sürümü var."
+
+#: classes/class-wp-analytify-pro.php:2208
+#, php-format
+msgid "View version %s details"
+msgstr "%s sürüm ayrıntılarını görüntüleyin"
+
+#: classes/class-wp-analytify-pro.php:2216
+msgctxt "Plugin configuration and preferences"
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: classes/class-wp-analytify-pro.php:2218
+#, php-format
+msgid ""
+"To update, go to %1$s and enter your license key. If you don't have a "
+"license key, you may <a href=\"%2$s\">purchase one</a>."
+msgstr ""
+"Güncellemek için %1$s adresine gidin ve lisans anahtarınızı girin. Lisans "
+"anahtarınız yoksa, <a href=\"%2$s\">bir tane satın alabilirsiniz</a>."
+
+#: classes/class-wp-analytify-pro.php:2220
+#, php-format
+msgid ""
+"To finish activating %1$s, please go to %2$s and enter your license key. If "
+"you don't have a license key, you may <a href=\"%3$s\">purchase one</a>."
+msgstr ""
+"%1$s'yi etkinleştirmeyi tamamlamak için lütfen %2$s adresine gidin ve lisans "
+"anahtarınızı girin. Lisans anahtarınız yoksa, <a href=\"%3$s\">bir tane "
+"satın alabilirsiniz</a>."
+
+#: classes/class-wp-analytify-pro.php:2223
+msgid "Check my license again"
+msgstr "Lisansımı tekrar kontrol et"
+
+#: classes/class-wp-analytify-pro.php:2317
+msgid ""
+"Following are the settings for front-end side. Google Analytics will appear "
+"under the posts, custom post types or pages at front-end."
+msgstr ""
+"Ön taraf için ayarlar aşağıdadır. Google Analytics, ön yüzdeki gönderilerin, "
+"özel yazı türlerinin veya sayfaların altında görünecektir."
+
+#: classes/class-wp-analytify-pro.php:2322
+#: views/default/admin/detail-demographic-stats.php:48
+#: views/default/admin/detail-realtime-stats.php:21
+#: views/default/admin/detail-search-terms-stats.php:49
+msgid "Dashboard"
+msgstr "Gösterge Tablosu"
+
+#: classes/class-wp-analytify-pro.php:2344
+msgid "Disable front-end"
+msgstr "Ön yüzü devre dışı bırak"
+
+#: classes/class-wp-analytify-pro.php:2345
+msgid ""
+"Enable this if you don't want Analytics to load at all. You can still use "
+"shortcodes."
+msgstr ""
+"Analytics'in hiç yüklenmesini istemiyorsanız bunu etkinleştirin. Yine de "
+"kısa kodları kullanabilirsiniz."
+
+#: classes/class-wp-analytify-pro.php:2359
+msgid "Enable analytics on post types"
+msgstr "Gönderi türlerinde analitiği etkinleştirin"
+
+#: classes/class-wp-analytify-pro.php:2360
+msgid "Show analytics below these post types only."
+msgstr "Analitiği yalnızca bu gönderi türlerinin altında gösterin."
+
+#: classes/class-wp-analytify-pro.php:2368
+msgid "Front-end analytics panels"
+msgstr "Ön yüz analiz panelleri"
+
+#: classes/class-wp-analytify-pro.php:2369
+msgid "Select which statistic panels you want to display on the front-end."
+msgstr "Ön yüzde hangi istatistik panellerini görüntülemek istediğinizi seçin."
+
+#: classes/class-wp-analytify-pro.php:2374
+msgid "Country Stats"
+msgstr "Ülke İstatistikleri"
+
+#: classes/class-wp-analytify-pro.php:2377
+msgid "Browser Stats"
+msgstr "Tarayıcı İstatistikleri"
+
+#: classes/class-wp-analytify-pro.php:2379
+msgid "Mobile devices Stats"
+msgstr "Mobil cihaz İstatistikleri"
+
+#: classes/class-wp-analytify-pro.php:2380
+msgid "Operating System Stats"
+msgstr "İşletim Sistemi İstatistikleri"
+
+#: classes/class-wp-analytify-pro.php:2381
+msgid "City Stats"
+msgstr "Şehir İstatistikleri"
+
+#: classes/class-wp-analytify-pro.php:2387
+msgid ""
+"Enter a comma separated list of the post/page ID's you do not want to show "
+"analytics for. Example: 21,44,66"
+msgstr ""
+"Analizlerini göstermek istemediğiniz yazı / sayfa kimliklerinin virgülle "
+"ayrılmış bir listesini girin. Örnek: 21,44,66"
+
+#: classes/class-wp-analytify-pro.php:2397
+msgid "Delete cache"
+msgstr "Önbelleği sil"
+
+#: classes/class-wp-analytify-pro.php:2398
+msgid ""
+"The Analytify dashboard (except real-time statistics) saves results for 24 "
+"hours. Enable this if you want to retrieve the current statistics."
+msgstr ""
+"Analytify gösterge tablosu (gerçek zamanlı istatistikler hariç) sonuçları 24 "
+"saat kaydeder. Mevcut istatistikleri almak istiyorsanız bunu etkinleştirin."
+
+#: classes/class-wp-analytify-pro.php:2404
+msgid "Show the Analytify dashboard to the above-selected user roles only."
+msgstr ""
+"Analytify gösterge tablosunda yalnızca yukarıda seçilen kullanıcı rollerine "
+"gösterin."
+
+#: classes/class-wp-analytify-pro.php:2412
+msgid "Dashboard analytics panels"
+msgstr "Gösterge tablosu analiz panelleri"
+
+#: classes/class-wp-analytify-pro.php:2413
+msgid "Choose the panels to display in Analytify dashboard."
+msgstr "Analytify gösterge tablosunda görüntülenecek panelleri seçin."
+
+#: classes/class-wp-analytify-pro.php:2417
+#: views/default/admin/detail-realtime-stats.php:34
+msgid "RealTime Stats"
+msgstr "Gerçek Zamanlı İstatistikler "
+
+#: classes/class-wp-analytify-pro.php:2418
+msgid "Comparison Stats"
+msgstr "Karşılaştırma İstatistikleri"
+
+#: classes/class-wp-analytify-pro.php:2420
+msgid "Top Pages Stats"
+msgstr "En İyi Sayfalar İstatistikleri"
+
+#: classes/class-wp-analytify-pro.php:2426
+msgid "Page entrance and exit stats"
+msgstr "Sayfa giriş ve çıkış istatistikleri"
+
+#: classes/class-wp-analytify-pro.php:2568
+msgid "Real Time"
+msgstr "Gerçek Zamanlı"
+
+#: classes/class-wp-analytify-pro.php:2581
+msgid "Export Top Pages"
+msgstr "En İyi Sayfaları Dışa Aktar"
+
+#: classes/class-wp-analytify-pro.php:2595
+msgid "Export Top Keywords"
+msgstr "En İyi Anahtar Kelimeleri Dışa Aktar"
+
+#: classes/class-wp-analytify-pro.php:2609
+msgid "Export Top Social Media"
+msgstr "En İyi Sosyal Medyayı Dışa Aktar"
+
+#: classes/class-wp-analytify-pro.php:2623
+msgid "Export Top Reffers"
+msgstr "En İyi Reffers'ı Dışa Aktar"
+
+#: classes/class-wp-analytify-pro.php:2636
+msgid "Export Stats"
+msgstr "İstatistikleri Dışa Aktar"
+
+#: classes/class-wp-analytify-pro.php:2650
+msgid "Export Top Mobile Device"
+msgstr "En İyi Mobil Cihazı Dışa Aktar"
+
+#: classes/class-wp-analytify-pro.php:2666
+msgid "Export Top Operating System"
+msgstr "En İyi İşletim Sistemini Dışa Aktar"
+
+#: classes/class-wp-analytify-pro.php:2682
+msgid "Export Top Browsers"
+msgstr "En İyi Tarayıcıları Dışa Aktar"
+
+#: classes/class-wp-analytify-pro.php:2698
+msgid "Export Top Cities"
+msgstr "En İyi Şehirleri Dışa Aktar"
+
+#: classes/class-wp-analytify-pro.php:2714
+msgid "Export Top Countries"
+msgstr "İhracat Yapan Ülkeler"
+
+#: inc/analytify-widgets.php:9
+msgid "Analytify Live Stats"
+msgstr "Analytify Canlı İstatistikleri"
+
+#: inc/analytify-widgets.php:10
+msgid "It shows Live Stats of your site."
+msgstr "Sitenizin Canlı İstatistiklerini gösterir."
+
+#: inc/analytify-widgets.php:28
+msgid "Title"
+msgstr "Başlık"
+
+#: inc/analytify-widgets.php:33
+msgid "Description:"
+msgstr "Açıklama:"
+
+#: inc/front-menus.php:20
+msgid "Top Countries"
+msgstr "En İyi Ülkeler"
+
+#: inc/front-menus.php:29 views/old/front/city-stats.php:7
+msgid "Top Cities"
+msgstr "En İyi Şehirler"
+
+#: inc/front-menus.php:38
+msgid "Top Operating Systems"
+msgstr "En İyi İşletim Sistemleri"
+
+#: inc/front-menus.php:56
+msgid "Top Keywords"
+msgstr "En iyi anahtar kelimeler "
+
+#: inc/front-menus.php:65
+msgid "SOCIAL MEDIA STATISTICS"
+msgstr "SOSYAL MEDYA İSTATİSTİKLERİ"
+
+#: inc/front-menus.php:73
+msgid "TOP BROWSERS"
+msgstr "EN İYİ TARAYICILAR"
+
+#: inc/shortcode.php:14
+msgid ""
+"Select metrics and dimensions, sort them with metrics and show stats to your "
+"visitors (roles)."
+msgstr ""
+"Metrikleri ve boyutları seçin, bunları metriklerle sıralayın ve "
+"ziyaretçilerinize (roller) istatistikleri gösterin."
+
+#: inc/shortcode.php:19
+msgid "Metrics: "
+msgstr "Metrikler:"
+
+#: inc/shortcode.php:20
+msgid "Select at least one Metric"
+msgstr "En az bir metrik seçin"
+
+#: inc/shortcode.php:21 inc/shortcode.php:51
+msgid "user"
+msgstr "kullanıcı"
+
+#: inc/shortcode.php:22
+msgid "Users"
+msgstr "Kullanıcılar"
+
+#: inc/shortcode.php:24 inc/shortcode.php:123
+msgid "Percent New Sessions"
+msgstr "Yeni Oturum Yüzdesi"
+
+#: inc/shortcode.php:26
+msgid "Session"
+msgstr "Oturum"
+
+#: inc/shortcode.php:28 inc/shortcode.php:124
+msgid "Bounces"
+msgstr "Hemen çıkma sayısı"
+
+#: inc/shortcode.php:30
+msgid "sessionDuration"
+msgstr "oturum süresi"
+
+#: inc/shortcode.php:31
+msgid "Avg SessionDuration"
+msgstr "Ort. Oturum Süresi"
+
+#: inc/shortcode.php:32 inc/shortcode.php:126
+#: views/default/admin/404-error.php:14 views/default/admin/ajax-error.php:13
+#: views/default/admin/javascript-error.php:13
+msgid "Hits"
+msgstr "İsabet Sayısı"
+
+#: inc/shortcode.php:34 inc/shortcode.php:85
+msgid "Page Tracking"
+msgstr "Sayfa Takibi"
+
+#: inc/shortcode.php:35 inc/shortcode.php:127
+msgid "Page Value"
+msgstr "Sayfa Değeri"
+
+#: inc/shortcode.php:36 inc/shortcode.php:128
+msgid "Entrances"
+msgstr "Girişler "
+
+#: inc/shortcode.php:37 inc/shortcode.php:129
+msgid "Pageviews"
+msgstr "Sayfa görüntülemeleri"
+
+#: inc/shortcode.php:38 inc/shortcode.php:130
+msgid "Unique Pageviews"
+msgstr "Benzersiz Sayfa Görüntülemeleri"
+
+#: inc/shortcode.php:39 inc/shortcode.php:131
+msgid "Exits"
+msgstr "Çıkışlar"
+
+#: inc/shortcode.php:40
+msgid "Exit Rate"
+msgstr "Çıkış Oranı"
+
+#: inc/shortcode.php:41 inc/shortcode.php:134
+msgid "Entrance Rate"
+msgstr "Giriş Oranı"
+
+#: inc/shortcode.php:42 inc/shortcode.php:133
+msgid "Pageviews Per Session"
+msgstr "Sayfa/Oturum"
+
+#: inc/shortcode.php:43 inc/shortcode.php:135
+msgid "Time On Page"
+msgstr "Sayfada Geçirilen Süre"
+
+#: inc/shortcode.php:44
+msgid "Avg Time On Page"
+msgstr "Sayfada Geçirilen Ort. Süre"
+
+#: inc/shortcode.php:49
+msgid "Dimensions: "
+msgstr "Boyutlar:"
+
+#: inc/shortcode.php:50
+msgid "Select at least one Dimension"
+msgstr "En az bir boyut seçin"
+
+#: inc/shortcode.php:52
+msgid "User Type"
+msgstr "Kullanıcı tipi"
+
+#: inc/shortcode.php:53
+msgid "Session Count"
+msgstr "Oturum Sayısı"
+
+#: inc/shortcode.php:54
+msgid "Days Since Last Session"
+msgstr "Son Oturumdan Beri Geçen Günler"
+
+#: inc/shortcode.php:55
+msgid "Session Duration Bucket"
+msgstr "Oturum Süresi Bölümü"
+
+#: inc/shortcode.php:57
+msgid "Traffic Sources"
+msgstr "Trafik Kaynakları"
+
+#: inc/shortcode.php:58
+msgid "Referral Path"
+msgstr "Yönlendirme Yolu"
+
+#: inc/shortcode.php:59
+msgid "Full Referrer"
+msgstr "Tam yönlendiren "
+
+#: inc/shortcode.php:60
+msgid "Source"
+msgstr "Kaynak"
+
+#: inc/shortcode.php:61
+msgid "Medium"
+msgstr "Orta"
+
+#: inc/shortcode.php:62
+msgid "Source Medium"
+msgstr "Kaynak Aracı"
+
+#: inc/shortcode.php:63
+msgid "Keyword"
+msgstr "Anahtar kelime "
+
+#: inc/shortcode.php:64
+msgid "Social Network"
+msgstr "Sosyal Ağ"
+
+#: inc/shortcode.php:65
+msgid "Country"
+msgstr "Ülke "
+
+#: inc/shortcode.php:66
+msgid "Country ISO Code"
+msgstr "Ülke ISO Kodu"
+
+#: inc/shortcode.php:68
+msgid "Platform or Device"
+msgstr "Platform veya Cihaz"
+
+#: inc/shortcode.php:69 views/old/front/browser-stats.php:17
+msgid "Browser"
+msgstr "Tarayıcı"
+
+#: inc/shortcode.php:70
+msgid "Browser Version"
+msgstr "Tarayıcı Sürümü"
+
+#: inc/shortcode.php:71
+msgid "Operating System"
+msgstr "İşletim Sistemi"
+
+#: inc/shortcode.php:72
+msgid "Operating System Version"
+msgstr "İşletim Sistemi Sürümü"
+
+#: inc/shortcode.php:73
+msgid "Mobile Device Branding"
+msgstr "Mobil Cihaz Markası"
+
+#: inc/shortcode.php:74
+msgid "Mobile Device Model"
+msgstr "Mobil Cihaz Modeli"
+
+#: inc/shortcode.php:75
+msgid "Mobile Input Selector"
+msgstr "Mobil Giriş Seçici"
+
+#: inc/shortcode.php:76
+msgid "Mobile Device Info"
+msgstr "Mobil Cihaz Bilgileri"
+
+#: inc/shortcode.php:77
+msgid "Mobile Device MarketingName"
+msgstr "Mobil Cihaz Pazarlama Adı"
+
+#: inc/shortcode.php:78
+msgid "Device Category"
+msgstr "Cihaz Kategorisi"
+
+#: inc/shortcode.php:79
+msgid "Flash Version"
+msgstr "Flash Sürümü"
+
+#: inc/shortcode.php:80
+msgid "Java Enabled"
+msgstr "Java Etkin"
+
+#: inc/shortcode.php:81
+msgid "Language"
+msgstr "Dil"
+
+#: inc/shortcode.php:82
+msgid "ScreenColors"
+msgstr "Ekran Renkleri"
+
+#: inc/shortcode.php:83
+msgid "ScreenResolution"
+msgstr "Ekran çözünürlüğü"
+
+#: inc/shortcode.php:86
+msgid "Hostname"
+msgstr "Ana bilgisayar adı"
+
+#: inc/shortcode.php:87
+msgid "Page Path"
+msgstr "Sayfa Yolu"
+
+#: inc/shortcode.php:88 views/default/admin/detail-realtime-stats.php:395
+msgid "Page Title"
+msgstr "Sayfa Başlığı"
+
+#: inc/shortcode.php:89
+msgid "Landing Page Path"
+msgstr "Açılış Sayfası Yolu"
+
+#: inc/shortcode.php:90
+msgid "secondPagePath"
+msgstr "ikinci Sayfa Yolu"
+
+#: inc/shortcode.php:91
+msgid "Exit Page Path"
+msgstr "Çıkış Sayfası Yolu"
+
+#: inc/shortcode.php:92
+msgid "Previous Page Path"
+msgstr "Önceki Sayfa Yolu"
+
+#: inc/shortcode.php:93
+msgid "Next Page Path"
+msgstr "Sonraki Sayfa Yolu"
+
+#: inc/shortcode.php:94
+msgid "Page Depth"
+msgstr "Sayfa Derinliği"
+
+#: inc/shortcode.php:99
+msgid "Visible to (roles) : "
+msgstr "Şunlara görünür (roller):"
+
+#: inc/shortcode.php:101
+msgid "Everyone"
+msgstr "Herkes "
+
+#: inc/shortcode.php:118
+msgid "Sort By: "
+msgstr "Göre sırala:"
+
+#: inc/shortcode.php:125
+msgid "BounceRate"
+msgstr "Hemen Çıkma Oranı"
+
+#: inc/shortcode.php:132
+msgid "EntranceRate"
+msgstr "Giriş Oranı"
+
+#: inc/shortcode.php:139
+msgid "Analytics for: "
+msgstr "Analizler:"
+
+#: inc/shortcode.php:141
+msgid "Current page"
+msgstr "Geçerli sayfa"
+
+#: inc/shortcode.php:142
+msgid "Full Site"
+msgstr "Bütün sayfa"
+
+#: inc/shortcode.php:143
+msgid "Page ID"
+msgstr "Sayfa Kimliği"
+
+#: inc/shortcode.php:148
+msgid "Page ID: "
+msgstr "Sayfa Kimliği:"
+
+#: inc/shortcode.php:152
+msgid "Date range: "
+msgstr "Tarih aralığı:"
+
+#: inc/shortcode.php:154
+msgid "Custom"
+msgstr "Özel"
+
+#: inc/shortcode.php:155
+msgid "Today"
+msgstr "Bugün"
+
+#: inc/shortcode.php:156
+msgid "Yesterday"
+msgstr "Dün"
+
+#: inc/shortcode.php:157
+msgid "Last 15 days"
+msgstr "Son 15 Gün"
+
+#: inc/shortcode.php:158
+msgid "Last 7 Days"
+msgstr "Son 7 Gün"
+
+#: inc/shortcode.php:159
+msgid "Last 30 Days"
+msgstr "Son 30 Gün"
+
+#: inc/shortcode.php:160
+msgid "This Year"
+msgstr "Bu Yıl"
+
+#: inc/shortcode.php:161
+msgid "Last Year"
+msgstr "Son Yıl"
+
+#: inc/shortcode.php:166
+msgid "Start Date: "
+msgstr "Başlangıç Tarihi:"
+
+#: inc/shortcode.php:170
+msgid "End Date: "
+msgstr "Bitiş tarihi:"
+
+#: inc/shortcode.php:175
+msgid "Max records: "
+msgstr "Maksimum kayıt:"
+
+#: inc/shortcode.php:180
+msgid "Ok"
+msgstr "Tamam"
+
+#: inc/shortcode.php:181
+msgid "Cancel"
+msgstr "İptal et"
+
+#: lib/ANALYTIFY_SL_Plugin_Updater.php:210 lib/EDD_SL_Plugin_Updater.php:210
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"%1$s yeni bir sürümü var. %2$s Sürümünün ayrıntılarını %3$s görüntüleyin"
+"%4$s ."
+
+#: lib/ANALYTIFY_SL_Plugin_Updater.php:218 lib/EDD_SL_Plugin_Updater.php:218
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: lib/ANALYTIFY_SL_Plugin_Updater.php:408 lib/EDD_SL_Plugin_Updater.php:408
+msgid "You do not have permission to install plugin updates"
+msgstr "Eklenti güncellemelerini yükleme izniniz yok"
+
+#: lib/ANALYTIFY_SL_Plugin_Updater.php:408 lib/EDD_SL_Plugin_Updater.php:408
+#: views/default/admin/javascript-error.php:11
+msgid "Error"
+msgstr "Hata"
+
+#: views/default/admin/404-error.php:13 views/default/admin/ajax-error.php:12
+#: views/default/admin/javascript-error.php:12
+msgid "URL"
+msgstr "URL"
+
+#: views/default/admin/detail-demographic-stats.php:50
+msgid "Demographic Statistics of the Site"
+msgstr "Sitenin Demografik İstatistikleri"
+
+#: views/default/admin/detail-demographic-stats.php:67
+#: views/default/admin/detail-search-terms-stats.php:68 views/help.php:145
+msgid "From:"
+msgstr "Kimden:"
+
+#: views/default/admin/detail-demographic-stats.php:70
+#: views/default/admin/detail-search-terms-stats.php:71
+msgid "To:"
+msgstr "Kime:"
+
+#: views/default/admin/detail-demographic-stats.php:75
+#: views/default/admin/detail-search-terms-stats.php:76
+msgid "View Stats"
+msgstr "İstatistikleri Görüntüle"
+
+#: views/default/admin/detail-demographic-stats.php:84
+#: views/default/admin/detail-demographic-stats.php:126
+msgid "Demographic Stats"
+msgstr "Demografik İstatistikler"
+
+#: views/default/admin/detail-demographic-stats.php:93
+msgid "Age"
+msgstr "Yaş"
+
+#: views/default/admin/detail-demographic-stats.php:94
+msgid "Gender"
+msgstr "Cinsiyet"
+
+#: views/default/admin/detail-demographic-stats.php:95
+#: views/default/admin/detail-search-terms-stats.php:95
+msgid "Total Views"
+msgstr "Toplam görüntülenme"
+
+#: views/default/admin/detail-realtime-stats.php:23
+msgid "Real-Time Statistics of the Site"
+msgstr "Sitenin Gerçek Zamanlı İstatistikleri"
+
+#: views/default/admin/detail-realtime-stats.php:49
+#: views/default/admin/realtime-stats.php:15
+msgid "Visitors online"
+msgstr "Etkin Kullanıcılar"
+
+#: views/default/admin/detail-realtime-stats.php:53
+#: views/default/admin/realtime-stats.php:19
+msgid "Referral"
+msgstr "Yönlendirmeler"
+
+#: views/default/admin/detail-realtime-stats.php:57
+#: views/default/admin/realtime-stats.php:23
+msgid "ORGANIC"
+msgstr "Organik"
+
+#: views/default/admin/detail-realtime-stats.php:61
+#: views/default/admin/realtime-stats.php:27
+msgid "social"
+msgstr "Sosyal"
+
+#: views/default/admin/detail-realtime-stats.php:65
+#: views/default/admin/realtime-stats.php:31
+msgid "direct"
+msgstr "doğrudan"
+
+#: views/default/admin/detail-realtime-stats.php:69
+#: views/default/admin/realtime-stats.php:35
+msgid "new"
+msgstr "Yeni"
+
+#: views/default/admin/detail-realtime-stats.php:73
+#: views/default/admin/realtime-stats.php:39
+msgid "Returning"
+msgstr "Geri gelenler "
+
+#: views/default/admin/detail-realtime-stats.php:78
+msgid "Top Active posts and pages"
+msgstr "En Aktif gönderiler ve sayfalar"
+
+#: views/default/admin/detail-realtime-stats.php:86
+msgid "Top active pages and posts users are currently at"
+msgstr "Şu anda en aktif sayfalar ve gönderiler kullanıcıları"
+
+#: views/default/admin/detail-realtime-stats.php:272
+msgid "REFERRALS"
+msgstr "REFERANSLAR"
+
+#: views/default/admin/detail-realtime-stats.php:275
+msgid "KEYWORDS"
+msgstr "ANAHTAR KELİMELER "
+
+#: views/default/admin/detail-realtime-stats.php:278
+msgid "SOCIAL"
+msgstr "Sosyal Ağ"
+
+#: views/default/admin/detail-realtime-stats.php:281
+msgid "DIRECT"
+msgstr "Doğrudan"
+
+#: views/default/admin/detail-realtime-stats.php:395
+#: views/default/admin/main-comparison-stats.php:487
+msgid "Visitors"
+msgstr "Kullanıcılar"
+
+#: views/default/admin/detail-search-terms-stats.php:51
+msgid "Search Terms Statistics of the Site"
+msgstr "Arama Terimleri Site İstatistikleri"
+
+#: views/default/admin/detail-search-terms-stats.php:85
+msgid "Search Terms Stats"
+msgstr "Arama Terimleri İstatistikleri"
+
+#: views/default/admin/detail-search-terms-stats.php:94
+msgid "Search Term"
+msgstr "Arama terimi"
+
+#: views/default/admin/detail-search-terms-stats.php:127
+msgid "List of the Search Terms Stats."
+msgstr "Arama Terimleri İstatistiklerinin Listesi."
+
+#: views/default/admin/main-comparison-stats.php:163
+#: views/default/admin/main-comparison-stats.php:245
+#: views/default/admin/main-comparison-stats.php:337
+#: views/default/admin/main-comparison-stats.php:418
+msgid "Line"
+msgstr "Hat"
+
+#: views/default/admin/main-comparison-stats.php:164
+#: views/default/admin/main-comparison-stats.php:246
+#: views/default/admin/main-comparison-stats.php:338
+#: views/default/admin/main-comparison-stats.php:419
+msgid "Bar"
+msgstr "Bar"
+
+#: views/default/admin/main-comparison-stats.php:166
+#: views/default/admin/main-comparison-stats.php:248
+#: views/default/admin/main-comparison-stats.php:340
+#: views/default/admin/main-comparison-stats.php:421
+msgid "Restore"
+msgstr "Onar"
+
+#: views/default/admin/main-comparison-stats.php:167
+#: views/default/admin/main-comparison-stats.php:249
+#: views/default/admin/main-comparison-stats.php:341
+#: views/default/admin/main-comparison-stats.php:422
+msgid "Save As Image"
+msgstr "Görüntü Olarak Kaydet"
+
+#: views/default/admin/main-comparison-stats.php:488
+msgid "Views"
+msgstr "Sayfa Görüntüleme Sayısı "
+
+#: views/default/admin/main-comparison-stats.php:495
+#: views/default/admin/main-comparison-stats.php:523
+msgid "Months"
+msgstr "Aylar"
+
+#: views/default/admin/main-comparison-stats.php:498
+#: views/default/admin/main-comparison-stats.php:526
+msgid "Years"
+msgstr "Yıllar"
+
+#: views/default/admin/main-comparison-stats.php:549
+msgid "Detailed Visitors and Views breakdown in months and years"
+msgstr "Aylar ve yıllar bazında Ayrıntılı Ziyaretçi ve Görüntüleme dökümü"
+
+#: views/default/admin/realtime-stats.php:11
+msgid "Real Time Stats"
+msgstr "Gerçek zamanlı"
+
+#: views/help.php:3
+msgid "Email Support"
+msgstr "E-posta Destek"
+
+#: views/help.php:8
+msgid "Fetching license details, please wait..."
+msgstr "Lisans ayrıntıları alınıyor, lütfen bekleyin..."
+
+#: views/help.php:10
+msgid ""
+"We couldn't find your license information. Please switch to the License tab "
+"and enter your license."
+msgstr ""
+"Lisans bilgilerinizi bulamadık. Lütfen Lisans sekmesine geçin ve lisansınızı "
+"girin."
+
+#: views/help.php:11
+msgid "Once completed, you may visit this tab to view your support details."
+msgstr ""
+"Tamamlandığında, destek ayrıntılarınızı görüntülemek için bu sekmeyi ziyaret "
+"edebilirsiniz."
+
+#: views/help.php:115
+#, php-format
+msgid ""
+"You have an %1$s active %2$s license. You will get front-of-the-line email "
+"support when submitting a support request below."
+msgstr ""
+"%1$s etkin bir %2$s lisansınız var. Aşağıda bir destek talebi gönderirken en "
+"önde e-posta desteği alacaksınız."
+
+#: views/help.php:119 views/help.php:174
+msgid "Success!"
+msgstr "Başarılı!"
+
+#: views/help.php:119 views/help.php:174
+msgid "Thanks for submitting your support request. We'll be in touch soon."
+msgstr ""
+"Destek talebinizi gönderdiğiniz için teşekkür ederiz. Yakında sizinle "
+"iletişime geçeceğiz."
+
+#: views/help.php:123 views/help.php:127 views/help.php:131 views/help.php:135
+#: views/help.php:139
+msgid "Error!"
+msgstr "Hata!"
+
+#: views/help.php:127
+msgid "There was a problem submitting your request:"
+msgstr "İsteğinizi gönderirken bir sorun oluştu:"
+
+#: views/help.php:131
+msgid "Please select your email address."
+msgstr "Lütfen e-posta adresinizi seçin."
+
+#: views/help.php:135
+msgid "Please enter a subject"
+msgstr "Lütfen bir konu girin"
+
+#: views/help.php:139
+msgid "Please enter a message."
+msgstr "Lütfen bir mesaj giriniz."
+
+#: views/help.php:147
+msgid "Select your email address"
+msgstr "E-posta adresinizi seçin"
+
+#: views/help.php:151
+#, php-format
+msgid ""
+"Replies will be sent to this email address. Update your name &amp; email in "
+"%1$s Your Account%2$s."
+msgstr ""
+"Cevaplar bu e-posta adresine gönderilecektir. %1$s Hesabınızda%2$s e-"
+"postanızı ve adınızı &amp; güncelleyin."
+
+#: views/help.php:168
+msgid "Include your diagnostic information and error log (shown below)"
+msgstr ""
+"Teşhis bilgilerinizi ve hata günlüğünüzü ekleyin (aşağıda gösterilmiştir)"
+
+#: views/help.php:178
+#, php-format
+msgid ""
+"Having trouble submitting the form? Email your support request to %1$s "
+"support@analytify.io%2$s instead."
+msgstr ""
+"Formu gönderirken sorun mu yaşıyorsunuz? Destek isteğinizi bunun yerine %1$s "
+"support@analytify.io%2$s adresine e-posta ile gönderin."
+
+#: views/old/front/browser-stats.php:8
+msgid "Top Browsers"
+msgstr "En iyi tarayıcılar"
+
+#: views/old/front/browser-stats.php:18
+msgid "OS"
+msgstr "İşletim Sistemi "
+
+#: views/old/front/browser-stats.php:44
+msgid "These are the top browsers of this page."
+msgstr "Bunlar, bu sayfanın en iyi tarayıcılarıdır."
+
+#: views/old/front/general-stats.php:9
+msgid "General Statistics"
+msgstr "Genel İstatistikler"
+
+#: views/old/front/general-stats.php:54
+msgid "AVERAGE PAGES"
+msgstr "ORTALAMA SAYFALAR"
+
+#: views/old/front/general-stats.php:88
+msgid "USER TYPE"
+msgstr "KULLANICI TİPİ"
+
+#: views/old/front/general-stats.php:107
+msgid "These are the general statistics of this page."
+msgstr "Bunlar, bu sayfanın genel istatistikleridir."
+
+#: views/old/front/keywords-stats.php:6
+msgid "TOP KEYWORDS"
+msgstr "EN İYİ ANAHTAR KELİMELER"
+
+#: views/old/front/keywords-stats.php:40
+msgid "These are the keywords people are searching for this page."
+msgstr "Bunlar, insanların bu sayfada aradığı anahtar sözcüklerdir."
+
+#: views/old/front/mobile-stats.php:7
+msgid "Mobile device Statistics"
+msgstr "Mobil cihaz İstatistikleri"
+
+#: views/old/front/mobile-stats.php:15 views/old/front/referrers-stats.php:15
+msgid "#"
+msgstr "#"
+
+#: views/old/front/mobile-stats.php:16
+msgid "Device"
+msgstr "Cihaz "
+
+#: views/old/front/mobile-stats.php:41
+msgid "Listing statistics of Mobile usage."
+msgstr "Mobil kullanım istatistiklerini listeleme."
+
+#: views/old/front/os-stats.php:18
+msgid "Operating System (Version)"
+msgstr "İşletim Sistemi (Sürüm)"
+
+#: views/old/front/os-stats.php:43
+msgid "Listing statistics of top Operating Systems."
+msgstr "En iyi İşletim Sistemlerinin istatistiklerini listeleme."
+
+#: views/old/front/referrers-stats.php:16
+msgid "Social referrer"
+msgstr "Sosyal yönlendiren"
+
+#: views/old/front/referrers-stats.php:46
+msgid "These are the top referrers of this page."
+msgstr "Bunlar, bu sayfanın en çok yönlendirenleridir."
+
+#: views/old/front/social-stats.php:8
+msgid "Social media Statistics"
+msgstr "Sosyal medya istatistikleri"
+
+#: views/old/front/social-stats.php:17
+msgid "Social"
+msgstr "Sosyal Ağ"
+
+#: views/old/front/social-stats.php:42
+msgid "These are the social media statistics of this page."
+msgstr "Bunlar, bu sayfanın sosyal medya istatistikleri."
+
+#: wp-analytify-pro.php:68
+msgid "The following required plugin is currently inactive &mdash; "
+msgstr "Aşağıdaki gerekli eklenti şu anda etkin değil &mdash; "
+
+#: wp-analytify-pro.php:68
+msgid "Click here to activate Analytify Core (Free)"
+msgstr "Analytify Core'u (Ücretsiz) etkinleştirmek için burayı tıklayın"
+
+#: wp-analytify-pro.php:79
+msgid ""
+"Please update Analytify Core to latest Free version to enable PRO features "
+"&mdash; "
+msgstr ""
+"PRO özelliklerini etkinleştirmek için lütfen Analytify Core'u en son "
+"Ücretsiz sürüme güncelleyin &mdash; "
+
+#: wp-analytify-pro.php:79
+msgid "Update now"
+msgstr "Şimdi Güncelle"
+
+#: wp-analytify-pro.php:90
+msgid "The following required plugin is not installed &mdash; "
+msgstr "Aşağıdaki gerekli eklenti yüklü değil &mdash; "
+
+#: wp-analytify-pro.php:90
+msgid "Install Analytify Core (Free) now"
+msgstr "Analytify Core'u (Ücretsiz) şimdi yükleyin"
+
+#. Plugin Name of the plugin/theme
+msgid "Analytify Pro"
+msgstr "Analytify Pro"
+
+#. Plugin URI of the plugin/theme
+msgid "https://analytify.io/"
+msgstr "https://analytify.io/"
+
+#. Description of the plugin/theme
+msgid ""
+"Analytify makes Google Analytics simple for everything in WordPress (posts,"
+"pages etc). It presents the statistics in a beautiful way under the "
+"WordPress Posts/Pages at front end, backend and in its own Dashboard. This "
+"provides Stats from Country, Referrers, Social media, General stats, New "
+"visitors, Returning visitors, Exit pages, Browser wise and Top keywords. "
+"This plugin provides the RealTime statistics in a new UI that is easy to "
+"understand and looks good."
+msgstr ""
+"Analytify, Google Analytics'i WordPress'teki her şey için (yazılar, sayfalar "
+"vb.) basitleştirir. İstatistikleri, Wordpress Yazı/Sayfa altlarında ön "
+"yüzde,\n"
+" editörde ve kendi gösterge panelinde güzel bir şekilde sunar. Ülkeden "
+"İstatistikler, Yönlendirenler, Sosyal medya, Genel istatistikler, Yeni "
+"ziyaretçiler, Geri gelen ziyaretçiler, Çıkış sayfaları, Tarayıcı açısından "
+"ve En iyi anahtar kelimeleri gösterge paneli sağlar. Bu eklenti, Gerçek "
+"Zamanlı istatistikleri anlaşılması kolay ve iyi görünen yeni bir kullanıcı "
+"ara yüzünde sağlar."
+
+#. Author of the plugin/theme
+msgid "WPBrigade"
+msgstr "WPBrigade"
+
+#. Author URI of the plugin/theme
+msgid "https://wpbrigade.com/"
+msgstr "https://wpbrigade.com/"

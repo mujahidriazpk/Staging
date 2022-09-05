@@ -1,0 +1,5 @@
+/*
+CSS fixes for WooCommerce
+*/
+.woocommerce-page #content div.product div.summary { width:100%; }
+.woocommerce table.cart .product-thumbnail { display:none; }

@@ -1,0 +1,273 @@
+<script type="text/x-handlebars-template" data-name="main">
+    <form class="form-horizontal mapsvg-view-padding">
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Filters</label>
+            <div class="col-sm-9">
+                <div style="margin-bottom: 10px;">
+                    <input type="checkbox" class="mapsvg-onoff" name="filters[on]"  {{#if filters.on}}checked{{/if}}  data-live="change" />
+                </div>
+                <p class="help-block">
+                    Edit filters by clicking on <i class="fa  fa-pencil-square-o"></i> button in the toolbar.
+                </p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">What to filter</label>
+            <div class="col-sm-9">
+                <div class="btn-group" data-toggle="buttons" id="mapsvg-directory-data-source">
+                    <label class="btn btn-default {{#ifeq filters.source 'regions'}}active{{/ifeq}}">
+                        <input type="radio" name="filters[source]" value="regions"  {{#ifeq filters.source 'regions'}}checked{{/ifeq}} data-live="change"/>
+                        Regions
+                    </label>
+                    <label class="btn btn-default {{#ifeq filters.source 'database'}}active{{/ifeq}}">
+                        <input type="radio" name="filters[source]" value="database"  {{#ifeq filters.source 'database'}}checked{{/ifeq}} data-live="change"/>
+                        Database
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div id="mapsvg-control-frs" class="form-group" {{#ifnoteq filters.source 'regions'}}style="display: none;"{{/ifnoteq}}>
+            <label class="col-sm-3 control-label">Change status of filtered out Regions to</label>
+            <div class="col-sm-9">
+                {{#if statuses}}
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="filters[filteredRegionsStatus]" value="" {{#ifeq filters.filteredRegionsStatus ''}}checked{{/ifeq}} data-live="change"/>
+                            Don't change
+                        </label>
+                    </div>
+                    {{#each statuses}}
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="filters[filteredRegionsStatus]" value="{{value}}" {{#ifeq ../filters.filteredRegionsStatus value}}checked{{/ifeq}} data-live="change"/>
+                                {{label}}
+                            </label>
+                        </div>
+                    {{/each}}
+                {{else}}
+                    <em>"Status" field is missing in Regions.</em>
+                {{/if}}
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Location</label>
+            <div class="col-sm-9">
+                <!--<div class="radio">-->
+                    <!--<label>-->
+                        <!--<input type="radio" name="filters[location]" value="mapContainer" {{#ifeq filters.location 'mapContainer'}}checked{{/ifeq}} data-live="change"/>-->
+                        <!--Map container-->
+                    <!--</label>-->
+                <!--</div>-->
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="filters[location]" value="leftSidebar" {{#ifeq filters.location 'leftSidebar'}}checked{{/ifeq}} data-live="change"/>
+                        Left sidebar
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="filters[location]" value="rightSidebar" {{#ifeq filters.location 'rightSidebar'}}checked{{/ifeq}} data-live="change"/>
+                        Right sidebar
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="filters[location]" value="header" {{#ifeq filters.location 'header'}}checked{{/ifeq}} data-live="change"/>
+                        Header
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="filters[location]" value="footer" {{#ifeq filters.location 'footer'}}checked{{/ifeq}} data-live="change"/>
+                        Footer
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="filters[location]" value="custom" {{#ifeq filters.location 'custom'}}checked{{/ifeq}} data-live="change"/>
+                        Custom container
+                    </label>
+                </div>
+                <p class="help-block">
+                    Manage containers in the <a href="#tab_settings" class="mapsvg-tab-link">Settings</a> tab.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="form-group" id="mapsvg-directory-container-id">
+            <label class="col-sm-3 control-label">Custom container ID</label>
+            <div class="col-sm-9">
+                <div class="input-group">
+                    <div class="input-group-addon">#</div>
+                    <input class="form-control" name="filters[containerId]" value="{{filters.containerId}}" data-live="keyup"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group" id="mapsvg-directory-container-id">
+            <label class="col-sm-3 control-label">Padding</label>
+            <div class="col-sm-9">
+                <input class="form-control" name="filters[padding]" value="{{filters.padding}}" data-live="keyup"/>
+                <p class="help-block">
+                    CSS format. Examples: <br />
+                    "10px" (top/left/right/bottom = 10px)<br />
+                    "5%" (top/left/right/bottom 5%)<br />
+                    "10px 20px" (top/bottom: 10px, left/right: 20px)<br />
+                    "10px 20px 10px 20px" (left 10px, top 20px, right 10px, bottom 20px)
+                </p>
+            </div>
+        </div>
+
+
+
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Compact mode on desktop</label>
+            <div class="col-sm-9">
+                <div style="margin-bottom: 10px;">
+                    <input type="checkbox" class="mapsvg-onoff" name="filters[hide]"  {{#if filters.hide}}checked{{/if}}  data-live="change" />
+                </div>
+                <p class="help-block">
+                    When compact mode is enabled - only "Search" field is showing all filters are replaced
+                    with a "Filters" button that opens up a modal window.
+                </p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Compact mode on mobiles</label>
+            <div class="col-sm-9">
+                <div style="margin-bottom: 10px;">
+                    <input type="checkbox" class="mapsvg-onoff" name="filters[hideOnMobile]"  {{#if filters.hideOnMobile}}checked{{/if}}  data-live="change" />
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Modal location</label>
+            <div class="col-sm-9">
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="filters[modalLocation]" value="mapContainer" {{#ifeq filters.modalLocation 'mapContainer'}}checked{{/ifeq}} data-live="change"/>
+                        Map container
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="filters[modalLocation]" value="leftSidebar" {{#ifeq filters.modalLocation 'leftSidebar'}}checked{{/ifeq}} data-live="change"/>
+                        Left sidebar
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="filters[modalLocation]" value="rightSidebar" {{#ifeq filters.modalLocation 'rightSidebar'}}checked{{/ifeq}} data-live="change"/>
+                        Right sidebar
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="filters[modalLocation]" value="header" {{#ifeq filters.modalLocation 'header'}}checked{{/ifeq}} data-live="change"/>
+                        Header
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="filters[modalLocation]" value="footer" {{#ifeq filters.modalLocation 'footer'}}checked{{/ifeq}} data-live="change"/>
+                        Footer
+                    </label>
+                </div>
+                <!--<div class="radio">-->
+                    <!--<label>-->
+                        <!--<input type="radio" name="filters[modalLocation]" value="custom" {{#ifeq filters.modalLocation 'custom'}}checked{{/ifeq}} data-live="change"/>-->
+                        <!--Custom container-->
+                    <!--</label>-->
+                <!--</div>-->
+                <p class="help-block">
+                    Manage containers in the <a href="#tab_settings" class="mapsvg-tab-link">Settings</a> tab.
+                </p>
+
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Modal width</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" value="{{filters.width}}" name="filters[width]" data-live="keyup" />
+                    <p class="help-block">Enter value in pixels (example: <i>200px</i>) or in percents (example: <i>100%</i>).</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">"Filters" button text</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" data-live="keyup" name="filters[showButtonText]" value="{{filters.showButtonText}}"/>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Add "Clear" button</label>
+            <div class="col-sm-9">
+                <div style="margin-bottom: 10px;">
+                    <input type="checkbox" class="mapsvg-onoff" name="filters[clearButton]"  {{#if filters.clearButton}}checked{{/if}}  data-live="change" />
+                    <p class="help-block">
+                        Button that resets all filters
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">"Clear" button text</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" data-live="keyup" name="filters[clearButtonText]" value="{{filters.clearButtonText}}"/>
+            </div>
+        </div>
+
+
+
+
+
+        <!--<div class="form-group">-->
+            <!--<label class="col-sm-3 control-label">Filters in a </label>-->
+            <!--<div class="col-sm-9">-->
+                <!--<div style="margin-bottom: 10px;">-->
+                    <!--<input type="checkbox" class="mapsvg-onoff" name="filters[collapsable]"  {{#if filters.collapsable}}checked{{/if}}  data-live="change" />-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="form-group">-->
+            <!--<label class="col-sm-3 control-label">Filters window location</label>-->
+            <!--<div class="col-sm-9">-->
+                <!--<div class="radio">-->
+                    <!--<label>-->
+                        <!--<input type="radio" name="detailsView[location]" value="top" {{#ifeq filters.location 'top'}}checked{{/ifeq}} data-live="change"/>-->
+                        <!--Above directory and map-->
+                    <!--</label>-->
+                    <!--<p class="help-block">-->
+                        <!--If you set <em>filters</em> width the same as <em>directory</em> then-->
+                        <!--<em>filters</em> will cover only <em>directory</em>.-->
+                        <!--If you set <em>filters</em> width = 100%, it will cover both <em>directory</em> and <em>map</em>.-->
+                    <!--</p>-->
+                <!--</div>-->
+                <!--<div class="radio">-->
+                    <!--<label>-->
+                        <!--<input type="radio" name="filters[location]" value="near" {{#ifeq filters.location 'near'}}checked{{/ifeq}} data-live="change"/>-->
+                        <!--Above map-->
+                    <!--</label>-->
+                    <!--<p class="help-block">-->
+                        <!--If you set <em>filters</em> width = 100% then-->
+                        <!--it would fully cover the map - but directory would stay visible.-->
+                    <!--</p>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+    </form>
+</script>

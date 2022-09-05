@@ -1,0 +1,10 @@
+2022-03-04T05:56:21-08:00 CRITICAL Uncaught Error: Call to undefined method Advanced_Ads_Tracking_Admin::has_tables() in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-tracking/admin/views/stats.php:18
+Stack trace:
+#0 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-tracking/admin/admin.php(1240): include()
+#1 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(307): Advanced_Ads_Tracking_Admin->display_stats_page('')
+#2 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-admin/admin.php(259): do_action('advanced-ads_pa...')
+#5 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/plugins/advanced-ads-tracking/admin/views/stats.php on line 18
+

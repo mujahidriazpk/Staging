@@ -1,0 +1,15 @@
+/* Dashboard Widgets Suite - Debug Log & Error Log */
+
+#dws-log-debug .dws-log,
+#dws-log-error .dws-log {
+	padding: 2px; background-color: #fafaf5; border: 1px solid #eee;
+	overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; overflow-x: hidden; overflow-y: auto;
+	}
+#dws-log-debug .dws-log ol,
+#dws-log-error .dws-log ol {
+	padding: 0; margin: 0;
+	}
+#dws-log-debug .dws-log li,
+#dws-log-error .dws-log li {
+	margin: 0; padding: 6px 4px; border-bottom: 1px solid #ececec; font-size: 11px;
+	}

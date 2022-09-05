@@ -1,0 +1,22 @@
+2022-06-30T02:44:05-07:00 CRITICAL Uncaught Error: Call to undefined function wp_handle_upload() in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php:1023
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php on line 1023
+
+2022-06-30T02:52:39-07:00 CRITICAL Uncaught Error: Call to undefined function wp_handle_upload() in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php:1023
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php on line 1023
+
+2022-06-30T03:16:33-07:00 CRITICAL Uncaught Error: Call to undefined function wp_handle_upload() in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php:1024
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php on line 1024
+
+2022-06-30T03:18:38-07:00 CRITICAL Uncaught Error: Call to undefined function wp_handle_upload() in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php:1024
+Stack trace:
+#0 {main}
+  thrown in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/ajax.php on line 1024
+
+2022-06-30T10:47:00+00:00 CRITICAL syntax error, unexpected ''iconi' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/642855.cloudwaysapps.com/zvdtvwubwd/public_html/wp-content/themes/dokan-child/functions.php on line 1246
+

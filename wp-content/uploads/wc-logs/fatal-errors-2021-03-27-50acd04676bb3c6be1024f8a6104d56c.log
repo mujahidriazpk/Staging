@@ -1,0 +1,10 @@
+2021-03-27T10:45:43+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_curent_bid() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/ajax.php:9
+Stack trace:
+#0 {main}
+  thrown in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/ajax.php on line 9
+
+2021-03-27T10:54:27+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_curent_bid() in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/ajax.php:9
+Stack trace:
+#0 {main}
+  thrown in /mnt/data/home/401140.cloudwaysapps.com/qcqkjmndhe/public_html/ajax.php on line 9
+

@@ -1,0 +1,503 @@
+# Translation of Selling Ads in French (France)
+# This file is distributed under the same license as the Selling Ads package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-07-10 10:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: fr_FR\n"
+"Project-Id-Version: Selling Ads\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-10 10:11+0000\n"
+"Last-Translator: admin <post@webzunft.de>\n"
+"Language-Team: French (France)\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: admin/admin.php:123 admin/admin.php:141
+msgid "Activate Now"
+msgstr "Activer maintenant"
+
+#: admin/admin.php:125 admin/admin.php:143
+msgid "Install Now"
+msgstr "Installer maintenant"
+
+#: admin/admin.php:129
+msgid ""
+"<em>Advanced Ads – Selling Ads</em> requires the <strong><a href=\"https:"
+"//wpadvancedads.com\" target=\"_blank\">Advanced Ads</a></strong> plugin to "
+"be installed and activated on your site."
+msgstr ""
+
+#: admin/admin.php:147
+msgid ""
+"<em>Advanced Ads – Selling Ads</em> requires the free <strong>"
+"WooCommerce</strong> to be installed and activated on your site."
+msgstr ""
+"<em>Advanced Ads – Selling Ads</em> nécessite l'installation gratuite de "
+"<strong>WooCommerce</strong> sur votre site."
+
+#: admin/admin.php:192
+msgid "Ad Store"
+msgstr "Magasin d'annonces"
+
+#: admin/admin.php:197
+msgid "Store admin email"
+msgstr "Adresse e-mail du magasin"
+
+#: admin/admin.php:201
+msgid "Store sender email"
+msgstr "E-mail de l'expéditeur du magasin"
+
+#: admin/admin.php:205
+msgid "Setup page"
+msgstr "Page de configuration"
+
+#: admin/admin.php:209
+msgid "Hide ad setup"
+msgstr "Masquer la configuration de l'annonce"
+
+#: admin/admin.php:213
+msgid "WooCommerce adjustments"
+msgstr ""
+
+#: classes/notifications.php:58
+#, php-format
+msgid "Edit your ads for order #%d"
+msgstr "Modifier vos annonces pour la commande #%d"
+
+#: classes/notifications.php:59
+msgid ""
+"Thank you for your order. You can already upload the content of your ads "
+"following the link below."
+msgstr ""
+"Nous vous remercions de votre commande. Vous pouvez déjà télécharger le "
+"contenu de vos annonces en suivant le lien ci-dessous."
+
+#: classes/notifications.php:61 classes/notifications.php:108
+#: classes/notifications.php:153 classes/notifications.php:198
+#, php-format
+msgid ""
+"Sincerely,\n"
+"Your ad team\n"
+"%s"
+msgstr ""
+"Cordialement,\n"
+" \n"
+"Votre équipe de publicité\n"
+" \n"
+"%s"
+
+#: classes/notifications.php:62 classes/notifications.php:154
+#: classes/notifications.php:199
+msgid ""
+"PS: If you want to contact the ad manager directly, just reply to this email."
+msgstr ""
+"PS: si vous souhaitez contacter directement le responsable de la publicité, "
+"répondez simplement à cet e-mail."
+
+#: classes/notifications.php:104
+#, php-format
+msgid "Ad #%d needs approval"
+msgstr "L'annonce #%d nécessite une approbation"
+
+#: classes/notifications.php:106
+#, php-format
+msgid ""
+"The ad content for ad #%d (order #%d) was submitted by the client. You can "
+"review it now using the following link."
+msgstr ""
+"Le contenu de l'annonce #%d (numéro de commande #%d) a été soumis par le "
+"client. Vous pouvez le consulter maintenant en utilisant le lien suivant."
+
+#: classes/notifications.php:109
+msgid ""
+"PS: If you want to contact the client directly, just reply to this email."
+msgstr ""
+"PS: Si vous souhaitez contacter directement le client, répondez simplement à "
+"cet e-mail."
+
+#: classes/notifications.php:151
+#, php-format
+msgid "Ad for order #%d was rejected"
+msgstr "L'annonce pour la commande #%d a été rejetée"
+
+#: classes/notifications.php:152
+#, php-format
+msgid "The ad content for ad #%s (order #%d) was rejected by the ad manager."
+msgstr ""
+"Le contenu de l'annonce #%s (numéro de commande #%d) a été rejeté par le "
+"gestionnaire de publicité."
+
+#: classes/notifications.php:196
+#, php-format
+msgid "An ad for order #%d was published"
+msgstr "Une annonce pour la commande #%d a été publiée"
+
+#: classes/notifications.php:197
+#, php-format
+msgid "An ad for order #%d was published."
+msgstr "Une annonce pour la commande #%d a été publiée."
+
+#: classes/plugin.php:74
+msgctxt "sales type"
+msgid "flat price"
+msgstr "prix fixe"
+
+#: classes/plugin.php:75
+msgctxt "sales type"
+msgid "days"
+msgstr "jours"
+
+#: classes/plugin.php:80
+msgctxt "sales type"
+msgid "impressions"
+msgstr "impressions"
+
+#: classes/plugin.php:81
+msgctxt "sales type"
+msgid "clicks"
+msgstr "clique"
+
+#: classes/plugin.php:159
+msgid "Advanced Ad"
+msgstr "Advanced Ad"
+
+#: public/public.php:300
+#, php-format
+msgid ""
+"You can manage the content of your ads on the <a href=\"%s\">ad setup "
+"page</a>."
+msgstr ""
+"Vous pouvez gérer le contenu de vos annonces sur la <a href=\"%s\">page de "
+"configuration des annonces</a>."
+
+#: public/public.php:424
+msgid "Extension not allowed, please choose a JPEG, PNG or GIF file."
+msgstr "Extension non autorisée, veuillez choisir un fichier JPEG, PNG ou GIF"
+
+#: public/public.php:428
+#, php-format
+msgid "The allowed file size is %s MB"
+msgstr "La taille de fichier autorisée est %s Mo"
+
+#: public/public.php:508 public/includes/ajax.php:43
+msgid "Ad content missing."
+msgstr "Contenu de l'annonce manquant"
+
+#: public/public.php:523 public/includes/ajax.php:58
+msgid "Error when submitting the ad. Please contact the site admin."
+msgstr ""
+"Erreur lors de la soumission de l'annonce. Veuillez contacter "
+"l'administrateur du site."
+
+#: admin/includes/ad-order-meta-box.php:45
+msgid "Order Data"
+msgstr "Données de commande"
+
+#: admin/includes/ad-product.php:70
+msgid "Ad Options"
+msgstr "Options d'annonce"
+
+#: admin/includes/ad-product.php:90
+msgctxt "ad type"
+msgid "html"
+msgstr "html"
+
+#: admin/includes/ad-product.php:91
+msgctxt "ad type"
+msgid "image"
+msgstr "image"
+
+#: admin/includes/ad-product.php:98 public/views/product-template.php:54
+msgid "Available ad types"
+msgstr "Types d'annonces disponibles"
+
+#: admin/includes/ad-product.php:103
+msgid "Customer can buy per …"
+msgstr "Le client peut acheter par ..."
+
+#: admin/includes/ad-product.php:108
+msgid "Price options"
+msgstr "Options de prix"
+
+#: admin/includes/ad-product.php:109 admin/includes/ad-product.php:111
+msgid ""
+"define label, value and price separated by |, e.g. 100.000 "
+"impressions|100000|20.00"
+msgstr ""
+"définir l'étiquette, la valeur et le prix séparés par |, par ex. 100.000 "
+"impressions|100000|20.00"
+
+#: admin/includes/ad-product.php:116
+msgid "Available placements"
+msgstr "Emplacements disponibles"
+
+#: admin/includes/order-page.php:41
+msgid "Ad Data"
+msgstr "Données d'annonce"
+
+#: admin/includes/order-page.php:91
+msgid "Ad"
+msgstr "Annonce"
+
+#: admin/includes/order-page.php:105 admin/views/ad-order-meta-box.php:7
+msgid "Pricing Value"
+msgstr "Valeur du prix"
+
+#: admin/includes/order-page.php:106 admin/views/ad-order-meta-box.php:8
+msgid "Pricing Label"
+msgstr "Étiquette de prix"
+
+#: admin/includes/order-page.php:107 admin/views/ad-order-meta-box.php:6
+msgid "Sales Type"
+msgstr "Type de vente"
+
+#: admin/includes/order-page.php:108 admin/views/ad-order-meta-box.php:5
+#: public/views/ad-setup-form.php:31
+msgid "Placement"
+msgstr "Placement"
+
+#: admin/includes/order-page.php:109
+msgid "Ad Types"
+msgstr "Types d'annonces"
+
+#: admin/includes/placements.php:49
+#, php-format
+msgid ""
+"When you press “Publish”, this ad will be published in the <strong>"
+"%2$s</strong> placement."
+msgstr ""
+"Lorsque vous appuyez sur \"Publier\", cette annonce sera publiée dans "
+"l'emplacement <strong>%2$s</strong>."
+
+#: admin/includes/placements.php:53
+#, php-format
+msgid ""
+"When you press “Publish”, this ad will be swapped against the currently "
+"assigned ad (<strong>%s</strong>) in the <strong>%2$s</strong> placement."
+msgstr ""
+"Lorsque vous appuyez sur \"Publier\", cette annonce sera échangée contre "
+"l'annonce actuellement attribuée (<strong>%s</strong>) dans l'emplacement "
+"<strong>%2$s</strong>."
+
+#: admin/includes/placements.php:57
+#, php-format
+msgid ""
+"When you press “Publish”, this ad will be added to the group <strong>"
+"%1$s</strong> in the <strong>%2$s</strong> placement."
+msgstr ""
+"Lorsque vous appuyez sur \"Publier\", cette annonce sera ajoutée au groupe "
+"<strong>%1$s</strong> dans l'emplacement <strong>%2$s</strong>."
+
+#: admin/includes/placements.php:64
+#, php-format
+msgid ""
+"This ad is going to <strong>expire %d days</strong> after being published."
+msgstr ""
+"Cette annonce va <strong>expire %d jours</strong> après sa publication."
+
+#: admin/views/ad-order-data.php:3
+msgid "Setup URL"
+msgstr "URL de configuration"
+
+#: admin/views/ad-order-meta-box.php:2
+#, php-format
+msgid "Order #%d"
+msgstr "Commande #%d"
+
+#: admin/views/ad-order-meta-box.php:3
+msgid "Public Ad Setup URL"
+msgstr "URL de configuration de l'annonce publique"
+
+#: admin/views/ad-order-meta-box.php:4
+msgid "Product"
+msgstr "Produit"
+
+#: admin/views/ad-store-widget.php:2
+msgid "New ad purchases"
+msgstr "Nouveaux achats d'annonces publicitaires"
+
+#: admin/views/ad-store-widget.php:11
+msgid "Pending ad purchases"
+msgstr "Achats d'annonces publicitaires en attente"
+
+#: admin/views/ad-store-widget.php:20
+msgid "No ad purchases to review"
+msgstr "Aucun achat d'annonce publicitaire à revoir"
+
+#: admin/views/setting-admin-email.php:2
+msgid "Enter the email used for communication about ads."
+msgstr ""
+"Entrez le courrier électronique utilisé pour la communication sur les "
+"annonces."
+
+#: admin/views/setting-hide-ad-setup.php:2
+msgid ""
+"Hide the link to the public ad setup page from the client and don‘t send out "
+"emails about the ad setup process."
+msgstr ""
+"Masquer le lien vers la page de configuration des annonces publiques à "
+"partir du client et ne pas envoyer de courrier électronique concernant le "
+"processus de configuration de l'annonce."
+
+#: admin/views/setting-sender-email.php:2
+msgid ""
+"Enter the email used as a sender of ad store specific emails. This works "
+"best if the email contains the store domain."
+msgstr ""
+"Entrez l'adresse e-mail utilisée en tant qu'expéditeur des e-mails "
+"spécifiques à la boutique. Cela fonctionne mieux si le courrier électronique "
+"contient le domaine de la boutique."
+
+#: admin/views/setting-setup-page.php:3
+msgid "(default)"
+msgstr "(défaut)"
+
+#: admin/views/setting-setup-page.php:9
+msgid ""
+"Choose the page on which you want to show the ad setup for the client after "
+"the purchase. Leave blank for the default layout."
+msgstr ""
+"Choisissez la page sur laquelle vous souhaitez afficher la configuration de "
+"l'annonce pour le client après l'achat. Laissez vide pour la mise en page "
+"par défaut."
+
+#: admin/views/setting-wc-fixes.php:2
+msgid ""
+"Applies the following changes to WooCommerce. Especially useful, when you "
+"don’t use WooCommerce for anything else than ads."
+msgstr ""
+
+#: admin/views/setting-wc-fixes.php:4
+msgid "Remove product images"
+msgstr "Supprimer les images du produit"
+
+#: public/includes/ajax.php:34
+msgid "Invalid request."
+msgstr "Requête invalide."
+
+#: public/includes/order.php:178
+msgid "Please enter a positive number of days."
+msgstr "Veuillez entrer un nombre de jours positif."
+
+#: public/includes/order.php:293
+msgid "Details"
+msgstr "Détails"
+
+#: public/views/ad-setup-form.php:3
+#, php-format
+msgid "Setup page for order #%d, %s"
+msgstr "Page de configuration pour la commande #%d, %s"
+
+#: public/views/ad-setup-form.php:3
+#, php-format
+msgid "%d item(s)"
+msgstr ""
+
+#: public/views/ad-setup-form.php:6
+msgid "purchased by"
+msgstr "acheté par"
+
+#: public/views/ad-setup-form.php:27
+#, php-format
+msgid "Item #%d"
+msgstr ""
+
+#: public/views/ad-setup-form.php:28
+msgid "Pricing option"
+msgstr "Option de prix"
+
+#: public/views/ad-setup-form.php:34
+msgid "Status"
+msgstr "Statut"
+
+#: public/views/ad-setup-form.php:37
+msgid ""
+"The content of this ad was already accepted and can no longer be changed."
+msgstr ""
+"Le contenu de cette annonce était déjà accepté et ne peut plus être modifié."
+
+#: public/views/ad-setup-form.php:39
+msgid "This ad is currently in review."
+msgstr "Cette annonce est en cours de révision."
+
+#: public/views/ad-setup-form.php:41
+msgid "Please complete the ad details so that we can process your order."
+msgstr ""
+"Veuillez compléter les détails de l'annonce afin que nous puissions traiter "
+"votre commande."
+
+#: public/views/ad-setup-form.php:50
+msgid "Ad Type"
+msgstr "Type d'annonce"
+
+#: public/views/ad-setup-form.php:65
+msgid "Ad Code"
+msgstr "Code d'annonce"
+
+#: public/views/ad-setup-form.php:70
+msgid ""
+"Please enter the ad code. HTML, JavaScript, CSS and plain text are allowed."
+msgstr ""
+"Veuillez entrer le code d'annonce. HTML, JavaScript, CSS et texte brut sont "
+"autorisés."
+
+#: public/views/ad-setup-form.php:79
+msgid "Image Upload"
+msgstr "Téléchargement d'images"
+
+#: public/views/ad-setup-form.php:84
+msgid "Max File Size : 1Mb"
+msgstr "Taille maximum du fichier: 1Mb"
+
+#: public/views/ad-setup-form.php:88
+msgid "Target URL"
+msgstr "Cible URL"
+
+#: public/views/ad-setup-form.php:98
+msgid "submit this ad"
+msgstr "soumettre cette annonce"
+
+#: public/views/ad-setup-form.php:101
+msgid ""
+"The ad could not be submitted. Please try later or contact the site admin."
+msgstr ""
+"L'annonce n'a pas pu être soumise. Veuillez réessayer plus tard ou contactez "
+"l'administrateur du site."
+
+#: public/views/ad-setup-form.php:103
+msgid "The ad was successfully submitted for review."
+msgstr "L'annonce a été soumise à l'examen avec succès."
+
+#: public/views/ad-setup-page.php:10
+msgid "Ad Setup"
+msgstr "Configuration de l'annonce"
+
+#: public/views/product-template.php:38
+msgid "Select a placement"
+msgstr "Sélectionnez un emplacement"
+
+#: public/views/product-template.php:64
+msgid "You will be able to submit the ad content after the purchase."
+msgstr "Vous pourrez soumettre le contenu de l'annonce après l'achat."
+
+#. Name of the plugin
+msgid "Advanced Ads – Selling Ads"
+msgstr "Advanced Ads – Selling Ads"
+
+#. Description of the plugin
+msgid "Let users purchase ads directly in the frontend of your site."
+msgstr ""
+"Laissez les utilisateurs acheter des annonces directement dans l'interface "
+"de votre site."
+
+#. URI of the plugin
+msgid "https://wpadvancedads.com/"
+msgstr "https://wpadvancedads.com/"
+
+#. Author of the plugin
+msgid "Thomas Maier"
+msgstr "Thomas Maier"
