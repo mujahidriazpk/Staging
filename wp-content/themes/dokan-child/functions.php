@@ -7739,6 +7739,7 @@ function loggedin_reached_limit_custom($reached, $user_id, $count ){
 	if((isset($_GET['mode']) && $_GET['mode']=='test')){
 		$reached='';
 	}
+	$reached='';
 	return $reached;
 }
 ?>
