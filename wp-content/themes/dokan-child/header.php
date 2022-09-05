@@ -184,7 +184,7 @@ window.addEventListener( "pageshow", function ( event ) {
            	Custom_popup("",auction_no,"col-md-4 col-md-offset-5 no-button");
      });
 	  jQuery('.ad-analytics-img_adver').bind("click",function(){
-			var auction_no = '<iframe width="450" height="515" src="https://woocommerce-642855-2866716.cloudwaysapps.com/ad-analytics/?period=last7days&mode=popup" frameborder="0" allowfullscreen></iframe>';
+			var auction_no = '<iframe width="450" height="515" src="<?php echo home_url('ad-analytics/?period=last7days&mode=popup'); ?>" frameborder="0" allowfullscreen></iframe>';
            	Custom_popup_iframe("",auction_no,"col-md-5 col-md-offset-4 no-button");
      });
 	 
