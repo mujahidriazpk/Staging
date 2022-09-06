@@ -6783,7 +6783,8 @@ function addUser(user_id,type){
 		var info_btn = '<img src="/wp-content/themes/dokan-child/icons8-info-26.png" alt="" border="" class="active_info" style="margin-left:5px;float:right;margin-top:-3px;" width="25px" height="25px"/>';
 	}
 	if(type=='client'){
-		var hideClass =' hide';
+		//var hideClass =' hide';
+		var hideClass ='';
 	}else{
 		var hideClass ='';
 	}
