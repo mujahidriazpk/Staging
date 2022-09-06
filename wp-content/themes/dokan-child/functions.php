@@ -6638,6 +6638,21 @@ function pw_loading_scripts_wrong() {
 	echo '<link rel="stylesheet" href="'.get_site_url().'/wp-content/themes/dokan/assets/css/bootstrap.css"><link rel="stylesheet" href="'.get_site_url().'/wp-content/plugins/wpforms/assets/css/wpforms-full_admin.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script><link rel="stylesheet" href="'.get_site_url().'/wp-content/themes/dokan-child/jQuery-Validation-Engine/css/validationEngine.jquery.css" type="text/css"/></script><script src="'.get_site_url().'/wp-content/themes/dokan-child/jQuery-Validation-Engine/js/languages/jquery.validationEngine-en.js" type="text/javascript" charset="utf-8"></script><script src="'.get_site_url().'/wp-content/themes/dokan-child/jQuery-Validation-Engine/js/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>';?>
 <script type="text/javascript">
+jQuery(document).ready(function(){
+		jQuery(".advads-stats-period").change(function () {
+			var val = jQuery(this).val();
+			jQuery('.advads-stats-from','.advads-stats-to').val('');
+			if(val=='custom'){
+				jQuery('.advads-stats-from').removeClass('hidden');
+				jQuery('.advads-stats-to').removeClass('hidden');
+				jQuery('.entry-title').css('width','23%');
+			}else{
+				jQuery('.advads-stats-from').addClass('hidden');
+				jQuery('.advads-stats-to').addClass('hidden');
+				jQuery('.entry-title').css('width','33%');
+			}
+		});
+});
 function viewUser(user_id,type){
 	 //alert("test");
 	 jQuery.ajax({	
