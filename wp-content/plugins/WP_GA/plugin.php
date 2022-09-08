@@ -733,9 +733,11 @@ class SP_Plugin_GA {
 						function getCellValue(row, index){ return $(row).children('td').eq(index).text() }
 						$(".period").on("change",function(){
 							if(jQuery(this).val()=='custom'){
-								if(to.val()!="" && from.val()!=""){
+                                to.val('');
+                                from.val('')
+								/*if(to.val()!="" && from.val()!=""){
 									$("#filterForm").submit();
-								}
+								}*/
 							}else{
 								$("#filterForm").submit();
 							}
