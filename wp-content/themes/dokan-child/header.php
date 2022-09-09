@@ -185,7 +185,7 @@ window.addEventListener( "pageshow", function ( event ) {
      });
 	  jQuery('.ad-analytics-img_adver').bind("click",function(){
 			var auction_no = '<iframe width="450" height="515" src="<?php echo home_url('ad-analytics/?period=last7days&mode=popup'); ?>" frameborder="0" allowfullscreen></iframe>';
-           	Custom_popup_iframe("",auction_no,"col-md-5 col-md-offset-4 no-button");
+           	Custom_popup_iframe("",auction_no,"col-md-5 col-md-offset-4 no-button",true);
      });
 	 
 	/* jQuery( ".rotation_main .my-ad" ).each(function( index ) {
@@ -901,11 +901,11 @@ function chooseProfile(id){
 				
 	});
 	//Custom_popup("Error!","","col-md-6 col-md-offset-3");
-	function Custom_popup_iframe(title,message,class_name){
+	function Custom_popup_iframe(title,message,class_name,closeIconflag){
 				jQuery.confirm({
 					title: '',
 					columnClass: class_name,
-					closeIcon: true, // hides the close icon.
+					closeIcon: closeIconflag, // hides the close icon.
 					onContentReady: function () {
 							
 							//jQuery(".jconfirm-content").html("text");	
@@ -1001,6 +1001,22 @@ function myFunction() {
 <style type="text/css">
 	.media-frame-menu,.media-frame-menu-heading{display:none !important;}
 </style>
+    <?php global $post;
+    if($post->ID==6797){?>
+    <style type="text/css">
+        .page-id-6797 .navbar-top-area.navbar{
+            z-index:100000000;
+        }
+        #post-6797 .entry-header{
+            display:none;
+        }
+    </style>
+    <script type="application/javascript">
+			var auction_no = '<iframe width="100%" height="515" src="<?php echo home_url('ad-analytics/?period=last7days&mode=popup'); ?>" frameborder="0" allowfullscreen></iframe>';
+           	Custom_popup_iframe("",auction_no,"col-md-8 col-md-offset-2 no-button",false);
+    </script>
+<?php }?>
+    
 </head>
 
 <body <?php body_class( 'woocommerce' ); ?>>

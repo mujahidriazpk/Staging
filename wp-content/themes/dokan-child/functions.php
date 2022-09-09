@@ -2484,7 +2484,7 @@ add_action( 'init', function() {
 			//deactivate_advertiser
 			$deactivate_advertiser = get_user_meta($user->ID, 'deactivate_advertiser',true);
 			if(strpos($_SERVER['REQUEST_URI'],"/ad-analytics")===false && $deactivate_advertiser=='Yes' ){
-				wp_redirect(home_url('/ad-analytics'));
+				wp_redirect(home_url('/ad-analytics-page'));
 				exit;
 			}
 		}
