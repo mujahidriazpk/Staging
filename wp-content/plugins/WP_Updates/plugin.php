@@ -255,11 +255,11 @@ class SP_Plugin_Updates {
   
   <h2>Updates</h2>
   <style type="text/css">
-  		#toplevel_page_admin-page-updates a{
+  		#toplevel_page_admin-page-updates ul.wp-submenu li.wp-first-item,#toplevel_page_admin-page-updates .wp-menu-name{
 			background: #2271b1 !important;
 			color: #fff !important;
 			}
-			#toplevel_page_admin-page-updates a:after {
+			#toplevel_page_admin-page-updates .wp-menu-name:after{
 			right: 0;
 			border: solid 8px transparent;
 			content: " ";

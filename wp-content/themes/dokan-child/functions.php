@@ -5755,10 +5755,15 @@ function ad_setting_admin_menu() {
 		add_submenu_page( '/admin.php?page=analytify-dashboard', 'Analytics', 'Analytics','manage_options', 'admin.php?page=Analytics');*/
 		//add_submenu_page( '/admin.php?page=analytify-dashboard', '<div id="wpse-66020">Analytics</div>', '<div id="wpse-66020">Analytics </div>','manage_options', 'https://analytics.google.com/analytics/web/#/report/content-event-events/a166289038w232260644p218158068/explorer-segmentExplorer.segmentId=analytics.eventLabel&_r.drilldown=analytics.eventCategory:Advanced%20Ads&explorer-table.plotKeys=%5B%5D');
 		
-		add_menu_page(__( 'Plug-ins/ Licenses/ IP', 'textdomain' ),'Plug-ins/ Licenses/ IP','shopadoc_admin_cap','upload.php','','dashicons-megaphone',13);
-		add_menu_page('<div id="wpse-66024">Updates - Plugins</div>','<div id="wpse-66024">Updates - Plugins</div>','shopadoc_admin_cap','/admin.php?page=updates','','dashicons-megaphone',14);
-		add_menu_page('<div id="wpse-66023">Updates - Code Changes</div>','<div id="wpse-66023">Updates - Code Changes</div>','shopadoc_admin_cap','https://github.com/ShopADoc6678','','dashicons-megaphone',15);
-		add_menu_page('<div id="wpse-66022">Staging</div>','<div id="wpse-66022">Staging</div>','shopadoc_admin_cap','https://staging.shopadoc.com/','','dashicons-megaphone',16);
+		add_menu_page(__( 'Plugins/ Licenses/ IP', 'textdomain' ),'Plugins/ Licenses/ IP','shopadoc_admin_cap','upload.php','','dashicons-megaphone',13);
+        add_menu_page('Updates', 'Updates', 'shopadoc_admin_cap', 'admin.php?page=updates','','dashicons-chart-bar',14);
+		//add_menu_page('ADVERTISERS', 'ADVERTISERS','shopadoc_admin_cap','admin.php?page=ADVERTISER','','dashicons-chart-bar',9);
+		add_submenu_page( 'admin.php?page=updates', '<div id="wpse-66024">Plugins</div>', '<div id="wpse-66024">Plugins</div>','shopadoc_admin_cap', '/admin.php?page=updates');
+		add_submenu_page( 'admin.php?page=updates', '<div id="wpse-66023">Code Changes</div>', '<div id="wpse-66023">Code Changes</div>','shopadoc_admin_cap', 'https://github.com/ShopADoc6678');
+        
+		//add_menu_page('<div id="wpse-66024">Updates - Plugins</div>','<div id="wpse-66024">Updates - Plugins</div>','shopadoc_admin_cap','/admin.php?page=updates','','dashicons-megaphone',14);
+		//add_menu_page('<div id="wpse-66023">Updates - Code Changes</div>','<div id="wpse-66023">Updates - Code Changes</div>','shopadoc_admin_cap','https://github.com/ShopADoc6678','','dashicons-megaphone',15);
+		//add_menu_page('<div id="wpse-66022">Staging</div>','<div id="wpse-66022">Staging</div>','shopadoc_admin_cap','https://staging.shopadoc.com/','','dashicons-megaphone',16);
 		add_menu_page(__( 'LOG OUT', 'textdomain' ),'LOG OUT','shopadoc_admin_cap',home_url('/?customer-logout=true'),'','dashicons-megaphone',17);
 		add_menu_page(__( '<div id="wpse-123">Clear Cache</div>', 'textdomain' ),'<div id="wpse-123">Clear Cache</div>','shopadoc_admin_cap',add_query_arg( '_wpnonce', wp_create_nonce( 'ccfm' ), admin_url() . '?ccfm=1' ),'','dashicons-megaphone',18);
 		
