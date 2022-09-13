@@ -4087,11 +4087,17 @@ function list_ads_stats_demo_func(){
 		<table style="width: 100%;">
       	<tbody>
         <tr>
-          <td align="right"><form method="get" id="period-form">
+          <td align="right">
+              <?php if(isset($_GET['mode'])&& $_GET['mode']=='popup'){?>
+              <form method="get" id="period-form" action="<?php echo home_url( '/ad-analytics/' );?>">
+                  <input type='hidden' name="mode" value="popup">
+              <?php }else{?>
+                  <form method="get" id="period-form">
+                <?php }?>
               <label>
                 <?php _e( 'Period', 'advanced-ads-tracking' ); ?>
                 :&nbsp;</label>
-                <?php if(isset($_GET['mode'])&& $_GET['mode']=='popup'){?>
+                <?php if(isset($_GET['mode'])&& $_GET['mode']=='popup'&&1==2){?>
                 	<input type="text"  id="period" name="period" class="advads-stats-period" value="LAST 7 DAYS" readonly="readonly" style="width: 145px;padding: 0px 10px; border: solid 2px #000; border-radius: 3px;"/>
                 <?php }else{?>
               <select id="period" name="period" class="advads-stats-period" onchange="selectDateField();">
@@ -4117,7 +4123,7 @@ function list_ads_stats_demo_func(){
                         <input type="text" id="to" name="to" class="advads-stats-to<?php
                             if($period !== 'custom') echo ' hidden'; ?>" value="<?php
                             echo $to; ?>" size="10" maxlength="10" placeholder="<?php _e( 'to', 'advanced-ads-tracking' ); ?>"/>
-                            <?php if(isset($_GET['mode'])&& $_GET['mode']=='popup'){?>
+                            <?php if(isset($_GET['mode'])&& $_GET['mode']=='popup' && 1==2){?>
 									
               					<input type="button" class="button button-primary" <?php echo $disable?> value="<?php echo esc_attr( __( 'Load', 'advanced-ads-tracking' ) ); ?>" />
 							<?php }else{?>
