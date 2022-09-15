@@ -539,7 +539,9 @@ function startSlide(current){
  function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
+ 
  function trackSlide(current){
+     if(window.location.href.indexOf('staging') == -1) {
 	 var set_ads = jQuery("#set_ads_"+current).val();
 	 var set_ads_ga = jQuery("#set_ads_ga_"+current).val();
 	 var tmp = set_ads_ga.split(",");
@@ -592,6 +594,7 @@ function startSlide(current){
 				success:function (data){}
 		
 				});
+     }
  }
 		function removecode(){
 			var code = jQuery("#wpforms-895-field_26").val();
