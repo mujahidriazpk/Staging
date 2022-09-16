@@ -477,6 +477,80 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
 				}
 			</style>
             <!--<div class="playBtnContainer"></div>-->
+            <style type="text/css">
+            /*#element {
+                margin: 40px auto 20px auto;
+                height: 200px;
+                width: 400px;
+                background-color: #e9e9e9;
+                font-size: 20px;
+                padding: 40px 0 0 0;
+                text-align: center;
+                box-sizing: border-box;
+            }*/
+
+            /*#go-button {
+                width: 200px;
+                display: block;
+                margin: 50px auto 0 auto;
+            }*/
+
+            /* webkit requires explicit width, height = 100% of sceeen */
+            /* webkit also takes margin into account in full screen also - so margin should be removed (otherwise black areas will be seen) */
+            #element:-webkit-full-screen {
+                width: 100%;
+                height: 100%;
+                background-image: url(/wp-content/themes/dokan-child/watermark.png);
+                background-repeat: no-repeat !important;
+                background-color: #F2F2F2 !important;
+                background-position: center 5% !important;
+                background-attachment: fixed !important;
+                background-size: auto;
+                -webkit-backface-visibility: visible !important;
+                margin: 0;
+                overflow-y: scroll;
+            }
+            #element:-webkit-full-screen .rotation_main,#element:-moz-full-screen .rotation_main,#element:-ms-fullscreen .rotation_main,#element:fullscreen .rotation_main{
+                    height: auto !important;
+            }
+            #element:-moz-full-screen {
+                 background-image: url(/wp-content/themes/dokan-child/watermark.png);
+                background-repeat: no-repeat !important;
+                background-color: #F2F2F2 !important;
+                background-position: center 5% !important;
+                background-attachment: fixed !important;
+                background-size: auto;
+                -webkit-backface-visibility: visible !important;
+                margin: 0;
+                overflow-y: scroll;
+            }
+
+            #element:-ms-fullscreen {
+                 background-image: url(/wp-content/themes/dokan-child/watermark.png);
+                background-repeat: no-repeat !important;
+                background-color: #F2F2F2 !important;
+                background-position: center 5% !important;
+                background-attachment: fixed !important;
+                background-size: auto;
+                -webkit-backface-visibility: visible !important;
+                margin: 0;
+                overflow-y: scroll;
+            }
+
+            /* W3C proposal that will eventually come in all browsers */
+            #element:fullscreen { 
+                 background-image: url(/wp-content/themes/dokan-child/watermark.png);
+                background-repeat: no-repeat !important;
+                background-color: #F2F2F2 !important;
+                background-position: center 5% !important;
+                background-attachment: fixed !important;
+                background-size: auto;
+                -webkit-backface-visibility: visible !important;
+                margin: 0;
+                overflow-y: scroll;
+            }
+            </style>
+
             <script type="text/javascript">
                
 					//audio-5486-1_html5
@@ -526,13 +600,19 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
 										jQuery(".rotation_main").css('position',"inherit").css('z-index','100000001');
 										//jQuery(".jconfirm .jconfirm-cell").css("vertical-align","top");width="300px" 
 								},
-								content: '<img src="<?php echo home_url('/wp-content/themes/dokan-child/play_btn_black.png');?>" class="play_btn_black" align="center" style="float:none;display:none;margin:0 auto;" onclick="jQuery(\'.jconfirm-buttons button\').click();"/>',
+								content: '<img src="<?php echo home_url('/wp-content/themes/dokan-child/play_btn_black.png');?>" id="go-button" class="play_btn_black" align="center" style="float:none;display:none;margin:0 auto;" onclick="jQuery(\'.jconfirm-buttons button\').click();"/>',
 								buttons: {
 									Yes: {
 										text: "ENTER",
 										btnClass: 'btn-blue hide',
 										keys: ['enter'],
 										action: function(){
+                                            //alert("true");
+                                            if(IsFullScreenCurrently()){
+                                                GoOutFullscreen();
+                                            }else{
+                                                GoInFullscreen(jQuery("#element").get(0));
+                                            }
 											jQuery(".mejs-play").click();
 											jQuery(".rotation_main").css('position',"inherit").css('z-index','auto');
 											jQuery(".play_btn_black").css('display',"none");
@@ -546,6 +626,67 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
 							});
 						}
 					}, 1);
+
+
+/* Get into full screen */
+function GoInFullscreen(element) {
+	if(element.requestFullscreen)
+		element.requestFullscreen();
+	else if(element.mozRequestFullScreen)
+		element.mozRequestFullScreen();
+	else if(element.webkitRequestFullscreen)
+		element.webkitRequestFullscreen();
+	else if(element.msRequestFullscreen)
+		element.msRequestFullscreen();
+}
+
+/* Get out of full screen */
+function GoOutFullscreen() {
+	if(document.exitFullscreen)
+		document.exitFullscreen();
+	else if(document.mozCancelFullScreen)
+		document.mozCancelFullScreen();
+	else if(document.webkitExitFullscreen)
+		document.webkitExitFullscreen();
+	else if(document.msExitFullscreen)
+		document.msExitFullscreen();
+}
+
+/* Is currently in full screen or not */
+function IsFullScreenCurrently() {
+	var full_screen_element = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement || null;
+	// If no element is in full-screen
+	if(full_screen_element === null)
+		return false;
+	else
+		return true;
+}
+
+/*jQuery("#go-button").on('click', function() {
+	if(IsFullScreenCurrently())
+		GoOutFullscreen();
+	else
+		GoInFullscreen(jQuery("#element").get(0));
+});*/
+
+jQuery(document).on('fullscreenchange webkitfullscreenchange mozfullscreenchange MSFullscreenChange', function() {
+   if(IsFullScreenCurrently()) {
+		jQuery('.rotation_main').css('height','auto');
+	}else {
+		jQuery('.rotation_main').css('height','100%');
+	}
+	/*if(IsFullScreenCurrently()) {
+		jQuery("#element span").text('Full Screen Mode Enabled');
+		jQuery("#go-button").text('Disable Full Screen');
+	}
+	else {
+		jQuery("#element span").text('Full Screen Mode Disabled');
+		jQuery("#go-button").text('Enable Full Screen');
+	}*/
+});
+jQuery(document).ready(function(){
+    //GoInFullscreen(jQuery("#element").get(0));
+});
 					<?php } ?>
        				 //CountDownNew('<?php echo strtotime(date("Y-m-d H:i:s",strtotime($_auction_dates_to)));?>','<?php echo $auction_detail_class;?>');
 					 jQuery( document ).ready(function() {

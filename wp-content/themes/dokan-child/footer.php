@@ -1323,4 +1323,5 @@ if(isMobile.any()){
 <div id="yith-wcwl-popup-message" style="display:none;">
   <div id="yith-wcwl-message"></div>
 </div>
+</div>
 </body></html>
