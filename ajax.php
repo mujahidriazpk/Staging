@@ -909,7 +909,7 @@ if(isset($_REQUEST['mode']) && $_REQUEST['mode']=='saveAdPosition'){
 }
 if(isset($_REQUEST['mode']) && $_REQUEST['mode']=='submitAD'){
 	if($_POST['selected_ad'] !=''){
-
+                global $today_date_time_seconds;
 	 			//[COMPANY]_[START DATE MMDDYY]-[ENDDATE MMDDYY]
 				$post_id= $_POST['selected_ad'];
 				$advanced_ads_ad_options = maybe_unserialize(get_post_meta($post_id, 'advanced_ads_ad_options', true ));
@@ -921,6 +921,10 @@ if(isset($_REQUEST['mode']) && $_REQUEST['mode']=='submitAD'){
 				$title = $_POST['type']." ".$ad_demo_company_name." ".$_POST['column'].$_POST['rotation'].'&nbsp;'.date('m/d/y',strtotime($_POST['start_date'])).' - '.date('m/d/y',strtotime($_POST['end_date']));
 	
 				$post_date_gmt = date("Y-m-d H:i:s",  strtotime($_POST['start_date']));
+                $post_status = 'publish';
+                if(strtotime($today_date_time_seconds) >= $_POST['start_date']){
+                    $post_status = 'advanced_ads_expired';
+                }
 				$my_post = array(
 										   'ID'    =>$post_id,
 										  'post_author'=>$_POST['company'],
@@ -930,7 +934,7 @@ if(isset($_REQUEST['mode']) && $_REQUEST['mode']=='submitAD'){
 										  'post_excerpt'    => $_POST['type'],
 										  'post_date'    => $post_date_gmt,
 										  'post_date_gmt'    => $post_date_gmt,
-										  'post_status'   => 'publish',
+										  'post_status'   => $post_status,
 										  'post_type'     =>'advanced_ads',
 										);
 

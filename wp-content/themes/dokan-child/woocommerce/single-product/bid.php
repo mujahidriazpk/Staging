@@ -182,7 +182,7 @@ function CountDownNew2(tillData,type){
 }
 function CountDownNew(tillData,type){
 	//var countDownDate = new Date("Jan 21, 2022 15:37:25").getTime();
-	/*var countDownDate = Date.parse(tillData)/1000;
+	/*var countDownDate = Date.parse(tillData)/1000; 
 	const str = new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles' ,hour12: false });
 	var now = Date.parse(str)/1000;*/
 /*	var start = '<?php echo microtime(TRUE);?>';
@@ -574,6 +574,14 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
 										//jQuery(".jconfirm.jconfirm-white .jconfirm-bg, .jconfirm.jconfirm-light .jconfirm-bg").css('background-color','rgba(255, 255, 255, 0.1)').css('opacity','1').css('opacity','1').css('opacity','1');
 										
 										jQuery( ".jconfirm-bg,.jconfirm-cell" ).click(function() {
+                                            if(windowsize > 850){
+                                                
+                                                if(IsFullScreenCurrently()){
+                                                    GoOutFullscreen();
+                                                }else{
+                                                    GoInFullscreen(jQuery("#element").get(0));
+                                                }
+                                            }
 											jQuery(".mejs-play").click();
 											jQuery(".rotation_main").css('position',"inherit").css('z-index','auto');
 											jQuery(".play_btn_black").css('display',"none");
@@ -608,10 +616,12 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
 										keys: ['enter'],
 										action: function(){
                                             //alert("true");
-                                            if(IsFullScreenCurrently()){
-                                                GoOutFullscreen();
-                                            }else{
-                                                GoInFullscreen(jQuery("#element").get(0));
+                                           if(windowsize > 850){
+                                                if(IsFullScreenCurrently()){
+                                                    GoOutFullscreen();
+                                                }else{
+                                                    GoInFullscreen(jQuery("#element").get(0));
+                                                }
                                             }
 											jQuery(".mejs-play").click();
 											jQuery(".rotation_main").css('position',"inherit").css('z-index','auto');
@@ -671,9 +681,9 @@ function IsFullScreenCurrently() {
 
 jQuery(document).on('fullscreenchange webkitfullscreenchange mozfullscreenchange MSFullscreenChange', function() {
    if(IsFullScreenCurrently()) {
-		jQuery('.rotation_main').css('height','auto');
+		//jQuery('.rotation_main').css('height','auto');
 	}else {
-		jQuery('.rotation_main').css('height','100%');
+		//jQuery('.rotation_main').css('height','100%');
 	}
 	/*if(IsFullScreenCurrently()) {
 		jQuery("#element span").text('Full Screen Mode Enabled');

@@ -15,6 +15,7 @@
 <!-- .row -->
 </div>
 <?php /*?>
+
 <style type="text/css">
 	.sgpb-content-1640,.sgpb-popup-overlay-1640{display:none !important;}
 </style>
@@ -608,7 +609,8 @@ ul.panel-icon li {
 	 display:flex;
 	}
 	<?php if(my_phone_or_tablet() !="tab"){?>
-	.rotation_main,.rotation_set,.rotation_ad.div[id^="advads-"],.rotation_set img{height:100% !important;}
+	/*.rotation_main,.rotation_set,.rotation_ad.div[id^="advads-"],.rotation_set img{height:100% !important;}*/
+   .rotation_ad.div[id^="advads-"],.rotation_set img{height:100% !important;}
 	<?php }?>
 }
 </style>
