@@ -418,7 +418,7 @@ class SP_Plugin_ADS {
 		?>
 <link rel="stylesheet" href="https://getbootstrap.com/docs/4.2/dist/css/bootstrap.min.css" type="text/css" />
 <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-<script src="/wp-content/plugins/WP_ADS/js/select2.js"></script>
+<script src="<?php echo home_url();?>/wp-content/plugins/WP_ADS/js/select2.js"></script>
 <?php /*?>
 <select style="width:300px" id="source">
                <optgroup label="Alaskan/Hawaiian Time Zone">
