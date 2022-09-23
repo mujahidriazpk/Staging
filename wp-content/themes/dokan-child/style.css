@@ -5,7 +5,7 @@
  Author:       Tareq Hasan
  Author URI:   http://tareq.weDevs.com
  Template:     dokan
- Version:      1.6.32
+ Version:      1.6.35
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:  dokan-child
@@ -62,6 +62,9 @@
     display: block !important;
 	transform:none !important;
 }*/
+#billing_state_field .select2-container--default.select2-container--disabled .select2-selection--single{background:#fdfdfd !important;border: 1px solid #EDEDED !important;}
+#billing_state_field .select2-container--default.select2-container--disabled .select2-selection--single .select2-selection__rendered{color:#767676 !important;}
+#billing_state_field .select2-container--default.select2-container--disabled .select2-selection--single .select2-selection__arrow{display:none !important;}
 .media-frame-menu,.media-frame-menu-heading{display:none !important;}
 .media-frame-router,.media-frame-content,.media-frame-toolbar{left:0 !important;}
 #wpforms-4017-field_5-container{padding-top:0 !important;}
