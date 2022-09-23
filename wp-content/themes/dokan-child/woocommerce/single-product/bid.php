@@ -681,6 +681,11 @@ function IsFullScreenCurrently() {
 
 jQuery(document).on('fullscreenchange webkitfullscreenchange mozfullscreenchange MSFullscreenChange', function() {
    if(IsFullScreenCurrently()) {
+	   <?php if($user_role=='seller'){?>
+	   		window.location.href = "<?php echo home_url('auction-activity/auction/');?>";
+	   <?php }else{?>
+	   		window.location.href = "<?php echo home_url('shopadoc-auction-activity/');?>";
+	   <?php }?>
 		//jQuery('.rotation_main').css('height','auto');
 	}else {
 		//jQuery('.rotation_main').css('height','100%');
@@ -698,7 +703,7 @@ jQuery(document).ready(function(){
     //GoInFullscreen(jQuery("#element").get(0));
 });
 					<?php } ?>
-       				 //CountDownNew('<?php echo strtotime(date("Y-m-d H:i:s",strtotime($_auction_dates_to)));?>','<?php echo $auction_detail_class;?>');
+       			//CountDownNew('<?php echo strtotime(date("Y-m-d H:i:s",strtotime($_auction_dates_to)));?>','<?php echo $auction_detail_class;?>');
 					 jQuery( document ).ready(function() {
                    // setTimeout('jQuery(".mejs-play button").click();',1000); 
 						
