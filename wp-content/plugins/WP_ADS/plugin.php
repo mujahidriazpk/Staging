@@ -874,6 +874,7 @@ class SP_Plugin_ADS {
 						#<?php echo $option_name1."_main"?> .select2-container{height: 100%;}
 						#<?php echo $option_name1."_main"?> .selection{height: 100%;width:100%;float:left;}
 						#<?php echo $option_name1."_main"?> .select2-selection--single{height: 100%;display: flex;align-items: center; justify-content: center;}
+						#<?php echo $option_name1."_main"?> .select2-selection__arrow{display:block !important;width:100%;z-index: 11111;opacity: 0;top: 5px;}
 						</style>
                         <script type="text/javascript">
 						jQuery(document).ready(function() {
@@ -903,6 +904,7 @@ class SP_Plugin_ADS {
 						#<?php echo $option_name2."_main"?> .select2-container{height: 100%;}
 						#<?php echo $option_name2."_main"?> .selection{height: 100%;width:100%;float:left;}
 						#<?php echo $option_name2."_main"?> .select2-selection--single{height: 100%;display: flex;align-items: center; justify-content: center;}
+						#<?php echo $option_name2."_main"?> .select2-selection__arrow{display:block !important;width:100%;z-index: 11111;opacity: 0;top: 5px;}
 						</style>
                         <script type="text/javascript">
 						jQuery(document).ready(function() {
@@ -932,6 +934,7 @@ class SP_Plugin_ADS {
 						#<?php echo $option_name3."_main"?> .select2-container{height: 100%;}
 						#<?php echo $option_name3."_main"?> .selection{height: 100%;width:100%;float:left;}
 						#<?php echo $option_name3."_main"?> .select2-selection--single{height: 100%;display: flex;align-items: center; justify-content: center;}
+						#<?php echo $option_name3."_main"?> .select2-selection__arrow{display:block !important;width:100%;z-index: 11111;opacity: 0;top: 5px;}
 						</style>
                         <script type="text/javascript">
 							jQuery(document).ready(function() {
@@ -961,6 +964,7 @@ class SP_Plugin_ADS {
 						#<?php echo $option_name4."_main"?> .select2-container{height: 100%;}
 						#<?php echo $option_name4."_main"?> .selection{height: 100%;width:100%;float:left;}
 						#<?php echo $option_name4."_main"?> .select2-selection--single{height: 100%;display: flex;align-items: center; justify-content: center;}
+						#<?php echo $option_name4."_main"?> .select2-selection__arrow{display:block !important;width:100%;z-index: 11111;opacity: 0;top: 5px;}
 						</style>
                         <script type="text/javascript">
 							jQuery(document).ready(function() {
@@ -1169,6 +1173,7 @@ class SP_Plugin_ADS {
 						#<?php echo $option_name1."_main"?> .select2-container{height: 100%;}
 						#<?php echo $option_name1."_main"?> .selection{height: 100%;width:100%;float:left;}
 						#<?php echo $option_name1."_main"?> .select2-selection--single{height: 100%;display: flex;align-items: center; justify-content: center;}
+						#<?php echo $option_name1."_main"?> .select2-selection__arrow{display:block !important;width:100%;z-index: 11111;opacity: 0;top: 5px;}
 						</style>
                         <script type="text/javascript">
 							jQuery(document).ready(function() {
@@ -1198,6 +1203,7 @@ class SP_Plugin_ADS {
 						#<?php echo $option_name2."_main"?> .select2-container{height: 100%;}
 						#<?php echo $option_name2."_main"?> .selection{height: 100%;width:100%;float:left;}
 						#<?php echo $option_name2."_main"?> .select2-selection--single{height: 100%;display: flex;align-items: center; justify-content: center;}
+						#<?php echo $option_name2."_main"?> .select2-selection__arrow{display:block !important;width:100%;z-index: 11111;opacity: 0;top: 5px;}
 						</style>
                         <script type="text/javascript">
 							jQuery(document).ready(function() {
@@ -1227,6 +1233,7 @@ class SP_Plugin_ADS {
 						#<?php echo $option_name3."_main"?> .select2-container{height: 100%;}
 						#<?php echo $option_name3."_main"?> .selection{height: 100%;width:100%;float:left;}
 						#<?php echo $option_name3."_main"?> .select2-selection--single{height: 100%;display: flex;align-items: center; justify-content: center;}
+						#<?php echo $option_name3."_main"?> .select2-selection__arrow{display:block !important;width:100%;z-index: 11111;opacity: 0;top: 5px;}
 						</style>
                         <script type="text/javascript">
 							jQuery(document).ready(function() {
@@ -1256,6 +1263,7 @@ class SP_Plugin_ADS {
 						#<?php echo $option_name4."_main"?> .select2-container{height: 100%;}
 						#<?php echo $option_name4."_main"?> .selection{height: 100%;width:100%;float:left;}
 						#<?php echo $option_name4."_main"?> .select2-selection--single{height: 100%;display: flex;align-items: center; justify-content: center;}
+						#<?php echo $option_name4."_main"?> .select2-selection__arrow{display:block !important;width:100%;z-index: 11111;opacity: 0;top: 5px;}
 						</style>
                         <script type="text/javascript">
 							jQuery(document).ready(function() {
@@ -1419,6 +1427,7 @@ class SP_Plugin_ADS {
 						#<?php echo $option_name1."_main"?> .select2-container{height: 100%;}
 						#<?php echo $option_name1."_main"?> .selection{height: 100%;width:100%;float:left;}
 						#<?php echo $option_name1."_main"?> .select2-selection--single{height: 100%;display: flex;align-items: center; justify-content: center;}
+						#<?php echo $option_name1."_main"?> .select2-selection__arrow{display:block !important;width:100%;z-index: 11111;opacity: 0;top: 5px;}
 						</style>
                         <script type="text/javascript">
 							jQuery(document).ready(function() {
@@ -1448,6 +1457,7 @@ class SP_Plugin_ADS {
 						#<?php echo $option_name2."_main"?> .select2-container{height: 100%;}
 						#<?php echo $option_name2."_main"?> .selection{height: 100%;width:100%;float:left;}
 						#<?php echo $option_name2."_main"?> .select2-selection--single{height: 100%;display: flex;align-items: center; justify-content: center;}
+						#<?php echo $option_name2."_main"?> .select2-selection__arrow{display:block !important;width:100%;z-index: 11111;opacity: 0;top: 5px;}
 						</style>
                         <script type="text/javascript">
 							jQuery(document).ready(function() {
@@ -1477,6 +1487,7 @@ class SP_Plugin_ADS {
 						#<?php echo $option_name3."_main"?> .select2-container{height: 100%;}
 						#<?php echo $option_name3."_main"?> .selection{height: 100%;width:100%;float:left;}
 						#<?php echo $option_name3."_main"?> .select2-selection--single{height: 100%;display: flex;align-items: center; justify-content: center;}
+						#<?php echo $option_name3."_main"?> .select2-selection__arrow{display:block !important;width:100%;z-index: 11111;opacity: 0;top: 5px;}
 						</style>
                         <script type="text/javascript">
 							jQuery(document).ready(function() {
@@ -1506,6 +1517,7 @@ class SP_Plugin_ADS {
 						#<?php echo $option_name4."_main"?> .select2-container{height: 100%;}
 						#<?php echo $option_name4."_main"?> .selection{height: 100%;width:100%;float:left;}
 						#<?php echo $option_name4."_main"?> .select2-selection--single{height: 100%;display: flex;align-items: center; justify-content: center;}
+						#<?php echo $option_name4."_main"?> .select2-selection__arrow{display:block !important;width:100%;z-index: 11111;opacity: 0;top: 5px;}
 						</style>
                         <script type="text/javascript">
 							jQuery(document).ready(function() {
@@ -1684,6 +1696,7 @@ class SP_Plugin_ADS {
 						#<?php echo $option_name1."_main"?> .select2-container{height: 100%;}
 						#<?php echo $option_name1."_main"?> .selection{height: 100%;width:100%;float:left;}
 						#<?php echo $option_name1."_main"?> .select2-selection--single{height: 100%;display: flex;align-items: center; justify-content: center;}
+						#<?php echo $option_name1."_main"?> .select2-selection__arrow{display:block !important;width:100%;z-index: 11111;opacity: 0;top: 5px;}
 						</style>
                         <script type="text/javascript">
 							jQuery(document).ready(function() {
@@ -1713,6 +1726,7 @@ class SP_Plugin_ADS {
 						#<?php echo $option_name2."_main"?> .select2-container{height: 100%;}
 						#<?php echo $option_name2."_main"?> .selection{height: 100%;width:100%;float:left;}
 						#<?php echo $option_name2."_main"?> .select2-selection--single{height: 100%;display: flex;align-items: center; justify-content: center;}
+						#<?php echo $option_name2."_main"?> .select2-selection__arrow{display:block !important;width:100%;z-index: 11111;opacity: 0;top: 5px;}
 						</style>
                         <script type="text/javascript">
 							jQuery(document).ready(function() {
@@ -1742,6 +1756,7 @@ class SP_Plugin_ADS {
 						#<?php echo $option_name3."_main"?> .select2-container{height: 100%;}
 						#<?php echo $option_name3."_main"?> .selection{height: 100%;width:100%;float:left;}
 						#<?php echo $option_name3."_main"?> .select2-selection--single{height: 100%;display: flex;align-items: center; justify-content: center;}
+						#<?php echo $option_name3."_main"?> .select2-selection__arrow{display:block !important;width:100%;z-index: 11111;opacity: 0;top: 5px;}
 						</style>
                         <script type="text/javascript">
 							jQuery(document).ready(function() {
@@ -1771,6 +1786,7 @@ class SP_Plugin_ADS {
 						#<?php echo $option_name4."_main"?> .select2-container{height: 100%;}
 						#<?php echo $option_name4."_main"?> .selection{height: 100%;width:100%;float:left;}
 						#<?php echo $option_name4."_main"?> .select2-selection--single{height: 100%;display: flex;align-items: center; justify-content: center;}
+						#<?php echo $option_name4."_main"?> .select2-selection__arrow{display:block !important;width:100%;z-index: 11111;opacity: 0;top: 5px;}
 						</style>
                         <script type="text/javascript">
 							jQuery(document).ready(function() {
