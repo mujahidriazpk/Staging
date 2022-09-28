@@ -574,13 +574,15 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
 										//jQuery(".jconfirm.jconfirm-white .jconfirm-bg, .jconfirm.jconfirm-light .jconfirm-bg").css('background-color','rgba(255, 255, 255, 0.1)').css('opacity','1').css('opacity','1').css('opacity','1');
 										
 										jQuery( ".jconfirm-bg,.jconfirm-cell" ).click(function() {
+											
+											var windowsize = jQuery(window).width();
                                             if(windowsize > 850){
-                                                
-                                                if(IsFullScreenCurrently()){
+												GoInFullscreen(jQuery("#element").get(0));
+                                                /*if(IsFullScreenCurrently()){
                                                     GoOutFullscreen();
                                                 }else{
                                                     GoInFullscreen(jQuery("#element").get(0));
-                                                }
+                                                }*/
                                             }
 											jQuery(".mejs-play").click();
 											jQuery(".rotation_main").css('position',"inherit").css('z-index','auto');
@@ -615,13 +617,14 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
 										btnClass: 'btn-blue hide',
 										keys: ['enter'],
 										action: function(){
-                                            //alert("true");
+                                           var windowsize = jQuery(window).width();
                                            if(windowsize > 850){
-                                                if(IsFullScreenCurrently()){
+												GoInFullscreen(jQuery("#element").get(0));
+                                                /*if(IsFullScreenCurrently()){
                                                     GoOutFullscreen();
                                                 }else{
                                                     GoInFullscreen(jQuery("#element").get(0));
-                                                }
+                                                }*/
                                             }
 											jQuery(".mejs-play").click();
 											jQuery(".rotation_main").css('position',"inherit").css('z-index','auto');
@@ -681,13 +684,13 @@ function IsFullScreenCurrently() {
 
 jQuery(document).on('fullscreenchange webkitfullscreenchange mozfullscreenchange MSFullscreenChange', function() {
    if(IsFullScreenCurrently()) {
-	   <?php if($user_role=='seller'){?>
+	   //jQuery('.rotation_main').css('height','auto');
+	}else {
+		<?php if($user_role=='seller'){?>
 	   		window.location.href = "<?php echo home_url('auction-activity/auction/');?>";
 	   <?php }else{?>
 	   		window.location.href = "<?php echo home_url('shopadoc-auction-activity/');?>";
 	   <?php }?>
-		//jQuery('.rotation_main').css('height','auto');
-	}else {
 		//jQuery('.rotation_main').css('height','100%');
 	}
 	/*if(IsFullScreenCurrently()) {
