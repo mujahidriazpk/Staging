@@ -474,7 +474,7 @@ class SP_Plugin_ADVERTISER {
 	 */
 	public function plugin_settings_page() {
 		?>
-
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type='text/css'>
 <div class="wrap">
   <h2>ADVERTISERS<br /><span style="font-weight:normal">Current Runs</span></h2>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>-child/autosuggest/js/bsn.AutoSuggest_2.1.3.js" charset="utf-8"></script>

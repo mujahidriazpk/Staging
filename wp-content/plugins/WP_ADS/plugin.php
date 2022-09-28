@@ -416,6 +416,7 @@ class SP_Plugin_ADS {
 			$firstDateOfNextMonth =strtotime('first day of next month') ;
 			$next_date_option_label = "_".date('m_y', $firstDateOfNextMonth);
 		?>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type='text/css'>
 <link rel="stylesheet" href="https://getbootstrap.com/docs/4.2/dist/css/bootstrap.min.css" type="text/css" />
 <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 <script src="<?php echo home_url();?>/wp-content/plugins/WP_ADS/js/select2.js"></script>
