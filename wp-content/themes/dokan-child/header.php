@@ -1022,8 +1022,8 @@ function myFunction() {
     
 </head>
 
-<body <?php body_class( 'woocommerce' ); ?>>
-    <div id="element">
+<body id="element" <?php body_class( 'woocommerce' ); ?>>
+    <div id="element-inner">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58LBM3N"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

@@ -497,7 +497,7 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
 
             /* webkit requires explicit width, height = 100% of sceeen */
             /* webkit also takes margin into account in full screen also - so margin should be removed (otherwise black areas will be seen) */
-            #element:-webkit-full-screen {
+            body:-webkit-full-screen #element-inner{
                 width: 100%;
                 height: 100%;
                 background-image: url(/wp-content/themes/dokan-child/watermark.png);
@@ -513,7 +513,7 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
             #element:-webkit-full-screen .rotation_main,#element:-moz-full-screen .rotation_main,#element:-ms-fullscreen .rotation_main,#element:fullscreen .rotation_main{
                     height: auto !important;
             }
-            #element:-moz-full-screen {
+            body:-moz-full-screen #element-inner{
                  background-image: url(/wp-content/themes/dokan-child/watermark.png);
                 background-repeat: no-repeat !important;
                 background-color: #F2F2F2 !important;
@@ -525,7 +525,7 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
                 overflow-y: scroll;
             }
 
-            #element:-ms-fullscreen {
+            body:-ms-fullscreen #element-inner{
                  background-image: url(/wp-content/themes/dokan-child/watermark.png);
                 background-repeat: no-repeat !important;
                 background-color: #F2F2F2 !important;
@@ -538,8 +538,8 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
             }
 
             /* W3C proposal that will eventually come in all browsers */
-            #element:fullscreen { 
-                 background-image: url(/wp-content/themes/dokan-child/watermark.png);
+            #body:fullscreen #element-inner{ 
+                 background-image: url(/wp-content/themes/dokan-child/watermark.png) !important;
                 background-repeat: no-repeat !important;
                 background-color: #F2F2F2 !important;
                 background-position: center 5% !important;
