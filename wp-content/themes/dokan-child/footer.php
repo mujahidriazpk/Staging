@@ -607,6 +607,7 @@ ul.panel-icon li {
 	 height: 35.5% !important;
 	 float:none;
 	 display:flex;
+	 overflow: visible;
 	}
 	<?php if(my_phone_or_tablet() !="tab"){?>
 	/*.rotation_main,.rotation_set,.rotation_ad.div[id^="advads-"],.rotation_set img{height:100% !important;}*/
