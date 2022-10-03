@@ -6472,7 +6472,7 @@ function dsourc_hide_notices(){
             $('#wpse-66020').parent().attr('target','_blank');  
 			$('#wpse-66021').parent().parent().attr('target','_blank');  
 			$('#wpse-66022').parent().parent().attr('target','_blank');  
-			$('#wpse-66023').parent().parent().attr('target','_blank');  
+			$('#wpse-66023').parent().attr('target','_blank');  
 			$('#wpse-123').closest("a").attr('id','wp-admin-bar-ccfm-link');  
         });
     </script>
