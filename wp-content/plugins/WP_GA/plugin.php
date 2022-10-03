@@ -83,8 +83,6 @@ public static function initializeAnalytics()
   // change the key file location if necessary.
   global $wp;
   $current_url =  home_url( $wp->request );
-  $pos = strpos($mystring, $findme);
-
 // Note our use of ===.  Simply == would not work as expected
 // because the position of 'a' was the 0th (first) character.
   if (strpos($current_url,'staging') === false) {
@@ -111,8 +109,13 @@ public static function initializeAnalytics()
 public static function getReport($analytics,$start,$end,$period) {
 
   // Replace with your view ID, for example XXXX.
-
-  $VIEW_ID = "218158068";
+  global $wp;
+  $current_url =  home_url( $wp->request );
+  if (strpos($current_url,'staging') === false) {
+  	$VIEW_ID = "218158068";
+  }else{
+  	$VIEW_ID = "276111095";
+  }
   // Create the DateRange object.
   $dateRange = new Google_Service_AnalyticsReporting_DateRange();
  /* $dateRange->setStartDate("90daysAgo");
