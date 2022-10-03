@@ -542,13 +542,17 @@ function startSlide(current){
  
  function trackSlide(current){
      if(window.location.href.indexOf('staging') == -1) {
+		var UA_ID = 'UA-166289038-1';
+	 }else{
+		var UA_ID = 'UA-166289038-2'; 
+	 }
 	 var set_ads = jQuery("#set_ads_"+current).val();
 	 var set_ads_ga = jQuery("#set_ads_ga_"+current).val();
 	 var tmp = set_ads_ga.split(",");
 	 var HOST_URL = '';
 	 var trackBaseData = {
 				v: 1,
-				tid: 'UA-166289038-1',
+				tid: UA_ID,
 				cid: '1379762423.1647958985',
 				t: 'event',
 				ni: 1,
@@ -594,7 +598,6 @@ function startSlide(current){
 				success:function (data){}
 		
 				});
-     }
  }
 		function removecode(){
 			var code = jQuery("#wpforms-895-field_26").val();

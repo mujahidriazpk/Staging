@@ -81,8 +81,17 @@ public static function initializeAnalytics()
   // Use the developers console and download your service account
   // credentials in JSON format. Place them in this directory or
   // change the key file location if necessary.
-  $KEY_FILE_LOCATION = $_SERVER['DOCUMENT_ROOT']. '/service-account-credentials.json';
+  global $wp;
+  $current_url =  home_url( $wp->request );
+  $pos = strpos($mystring, $findme);
 
+// Note our use of ===.  Simply == would not work as expected
+// because the position of 'a' was the 0th (first) character.
+  if (strpos($current_url,'staging') === false) {
+	$KEY_FILE_LOCATION = $_SERVER['DOCUMENT_ROOT']. '/service-account-credentials.json'; 
+  }else{
+  	$KEY_FILE_LOCATION = $_SERVER['DOCUMENT_ROOT']. '/service-account-credentials-staging.json';
+  }
   // Create and configure a new client object.
   $client = new Google_Client();
   $client->setApplicationName("Hello Analytics Reporting");
@@ -650,11 +659,18 @@ class SP_Plugin_GA {
 		$analytics = GA_List::initializeAnalytics();
 		
 		$response = GA_List::getReport($analytics,$from,$to,$period);
+		global $wp;
+		$current_url =  home_url( $wp->request );
+		if (strpos($current_url,'staging') === false) {
+			$event_id = 'a166289038w232260644p218158068';
+		}else{
+			$event_id = 'a166289038w333468439p276111095';
+		}
 		?>
 
 <div class="wrap">
 	<div class="GA_logo"><img src="/wp-content/plugins/WP_GA/Google-Analytics-Logo_web.png" align="left" alt="" title="Google-Analytics-Logo" />
-    <a href="javascript:" class="not_print print" style="float:right;"><img src="/wp-content/plugins/WP_GA/print.png" align="right" title="print" width="20px" class="print_icon"/></a><span style="float:right;">&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="https://analytics.google.com/analytics/web/#/report/content-event-events/a166289038w232260644p218158068/explorer-segmentExplorer.segmentId=analytics.eventLabel&_r.drilldown=analytics.eventCategory:Advanced%20Ads&explorer-table.plotKeys=%5B%5D" class="not_print" style="float:right;" target="_blank">Google Analytics Dashboard</a>
+    <a href="javascript:" class="not_print print" style="float:right;"><img src="/wp-content/plugins/WP_GA/print.png" align="right" title="print" width="20px" class="print_icon"/></a><span style="float:right;">&nbsp;&nbsp;|&nbsp;&nbsp;</span><a href="https://analytics.google.com/analytics/web/#/report/content-event-events/<?php echo $event_id;?>/explorer-segmentExplorer.segmentId=analytics.eventLabel&_r.drilldown=analytics.eventCategory:Advanced%20Ads&explorer-table.plotKeys=%5B%5D" class="not_print" style="float:right;" target="_blank">Google Analytics Dashboard</a>
     </div>
  <!-- <h2>Google Analytics</h2>-->
   <style type="text/css">
