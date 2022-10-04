@@ -541,6 +541,7 @@ function startSlide(current){
 }
  
  function trackSlide(current){
+if(window.location.href.indexOf('localhost') == -1) {
      if(window.location.href.indexOf('staging') == -1) {
 		var UA_ID = 'UA-166289038-1';
 	 }else{
@@ -598,6 +599,7 @@ function startSlide(current){
 				success:function (data){}
 		
 				});
+ }
  }
 		function removecode(){
 			var code = jQuery("#wpforms-895-field_26").val();
