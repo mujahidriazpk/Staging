@@ -18,6 +18,9 @@
 defined( 'ABSPATH' ) || exit;
 
 do_action( 'woocommerce_before_edit_account_form' ); ?>
+<?php if((isset($_GET['redirect'])&&$_GET['redirect']=='checkout')){?>
+<a href="<?php echo home_url('/checkout/')?>" style="font-size:17px !important;" class="dokan-btn dokan-btn-theme btn-primary" title="back">Back to Checkout</a>
+<?php }?>
  <?php 
   $btn_text = 'Save changes';
  if($user->roles[0] =='advanced_ads_user'){
@@ -32,12 +35,11 @@ do_action( 'woocommerce_before_edit_account_form' ); ?>
  <?php }?>
 <?php if(isset($_GET['mode']) && $_GET['mode']=='update'){?>
 <div class="woocommerce-notices-wrapper">
-	<div class="woocommerce-message" role="alert">
-		Account details changed successfully.	</div>
+	<div class="woocommerce-message" role="alert">Account details changed successfully. Any changes to your information will become effective the following auction cycle.</div>
 </div>
 <?php }?>
 
-<form class="woocommerce-EditAccountForm edit-account" action="" method="post" <?php do_action( 'woocommerce_edit_account_form_tag' ); ?> >
+<form class="woocommerce-EditAccountForm edit-account" action="" method="post" <?php do_action( 'woocommerce_edit_account_form_tag' ); ?> autocomplete="off">
 
 	<?php do_action( 'woocommerce_edit_account_form_start' ); ?>
     <?php /*?>
@@ -76,7 +78,7 @@ do_action( 'woocommerce_before_edit_account_form' ); ?>
 	<?php }?>
 		<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row form-row-first">
 			<label for="password_current"><?php esc_html_e( 'Current password (leave blank to leave unchanged)', 'woocommerce' ); ?></label>
-			<input type="password" class="woocommerce-Input woocommerce-Input--password input-text" name="password_current" id="password_current" autocomplete="off" />
+			<input type="password" class="woocommerce-Input woocommerce-Input--password input-text" name="password_current" id="password_current12" autocomplete="new-password"/>
             <span toggle="#password_current" class="myacount fa fa-fw fa-eye field-icon toggle-password"></span>
 		</p>
 		<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row form-row-first clear">

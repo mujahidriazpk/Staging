@@ -1268,7 +1268,66 @@ function my_woocommerce_order_status_completed( $order_id ) {
 	}
 	
 }
-
+add_action( 'woocommerce_checkout_billing', 'woocommerce_checkout_billing_custom_func');
+function woocommerce_checkout_billing_custom_func(){
+  global $US_state;
+  $user_id = get_current_user_id();
+  $user = get_userdata( $user_id );
+if($user->roles[0]=='seller'){
+  $field_array = array(
+				 'client_street'=>'Street',
+				'client_apt_no'=>'Suite #' ,
+				 'client_city'=>'City',
+				 'client_state'=>'State',
+				 'client_zip_code'=>'Zip Code',
+				 'client_cell_ph'=>'Mobile <i class="fa fa-phone icon">&nbsp;</i>',
+				 'client_home_ph'=>'Home <i class="fa fa-phone icon">&nbsp;</i>',);
+	if(get_user_meta( $user_id,"client_street_future", true)){
+		$client_street = get_user_meta( $user_id, "client_street_future", true );	
+	}else{
+		$client_street = get_user_meta( $user_id, "client_street", true );	
+	}
+	if(get_user_meta( $user_id,"client_apt_no_future", true)){
+		$client_apt_no = get_user_meta( $user_id, "client_apt_no_future", true );	
+	}else{
+		$client_apt_no = get_user_meta( $user_id, "client_apt_no", true );	
+	}
+	if(get_user_meta( $user_id,"client_city_future", true)){
+		$client_city = get_user_meta( $user_id, "client_city_future", true );	
+	}else{
+		$client_city = get_user_meta( $user_id, "client_city", true );	
+	}
+	if(get_user_meta( $user_id,"client_state_future", true)){
+		$client_state = get_user_meta( $user_id, "client_state_future", true );	
+	}else{
+		$client_state = get_user_meta( $user_id, "client_state", true );	
+	}
+	if(get_user_meta( $user_id,"client_zip_code_future", true)){
+		$client_zip_code = get_user_meta( $user_id, "client_zip_code_future", true );	
+	}else{
+		$client_zip_code = get_user_meta( $user_id, "client_zip_code", true );	
+	}
+	if(get_user_meta( $user_id,"client_cell_ph_future", true)){
+		$client_cell_ph = get_user_meta( $user_id, "client_cell_ph_future", true );	
+	}else{
+		$client_cell_ph = get_user_meta( $user_id, "client_cell_ph", true );	
+	}
+	if(get_user_meta( $user_id,"client_home_ph_future", true)){
+		$client_home_ph = get_user_meta( $user_id, "client_home_ph_future", true );	
+	}else{
+		$client_home_ph = get_user_meta( $user_id, "client_home_ph", true );	
+	}
+	echo '<h3>Origin of Auction</h3>';
+	echo '<address>';
+	  echo $user->first_name.' '.$user->last_name.'<a href="'.home_url('/my-account/edit-account/?redirect=checkout').'" title="" style="float:right;">Change</a><br />';
+	  echo $client_street." ".$client_apt_no.'<br />';
+	  echo $client_city.", ".$client_state." ".$client_zip_code.'<br />';
+	  echo '<p class="woocommerce-customer-details--phone">'.$client_cell_ph.'</p>';
+	  echo '</address>';
+	echo '<h3 class="hide_billing">Billing Address </h3>';
+	echo '<address class="hide_billing"><span style="float:let;">Same as above</span><a href="javascript:" onclick="jQuery(\'.woocommerce-billing-fields\').toggle();jQuery(\'.hide_billing\').hide();" title="" style="float:right;">Change</a></address>';	echo '<style>.woocommerce-billing-fields{display:none;}address,.woocommerce-billing-fields__field-wrapper {margin-bottom: 20px;font-style: normal;line-height: 1.428571429;border: 1px solid #DBDBDB;border-radius: 5px;padding: 10px;}.woocommerce-page .col2-set .col-1{width:100%;}</style>';
+}
+}
 
 add_action( 'woocommerce_edit_account_form', 'my_woocommerce_edit_account_form' );
 function my_woocommerce_edit_account_form() {
@@ -1326,7 +1385,7 @@ function my_woocommerce_edit_account_form() {
 	
   }elseif($user->roles[0]=='seller'){
 	  $active_status = my_active_auction_status();
-	  if($active_status=='active'){
+	  if($active_status=='active' && 1==2){
 		  $disable_array = array('client_street','client_apt_no','client_city','client_state','client_zip_code');
 	  }else{
 		  $disable_array = array();
@@ -1362,7 +1421,11 @@ function my_woocommerce_edit_account_form() {
 		if($val=='label'){
 			echo '<legend class="blue_text">'.$key.'</legend>';
 		}elseif($val=='State'){
-			$value = get_user_meta( $user_id, $key, true );
+			if($value = get_user_meta( $user_id, $key."_future", true)){
+				$value = get_user_meta( $user_id, $key."_future", true );	
+			}else{
+				$value = get_user_meta( $user_id, $key, true );	
+			}
 			echo '<p class="form-row form-row-thirds">
                   <label for="street">'.$val.'</label>';
 				  if(in_array($key,$disable_array)){
@@ -1383,7 +1446,11 @@ function my_woocommerce_edit_account_form() {
 			?>
 			
 		<?php }elseif($val=='Designation'&& 1==2){}else{
-			$value = get_user_meta( $user_id, $key, true );	
+			if($value = get_user_meta( $user_id, $key."_future", true)){
+				$value = get_user_meta( $user_id, $key."_future", true );	
+			}else{
+				$value = get_user_meta( $user_id, $key, true );	
+			}
 		  ?>
 			<p class="form-row form-row-thirds">
 			  <label for="street"><?php echo $val;?></label>
@@ -1629,15 +1696,20 @@ function my_woocommerce_save_account_details( $user_id ) {
 					 'dentist_home_state'=>'State',
 					 'dentist_home_zip'=>'Zip Code',
 					 'state_dental_license_no'=>'State Dental License #',);
+	 foreach($field_array as $key => $val){
+		if(!in_array($key,$disable_array)){				 
+			update_user_meta( $user_id,$key, htmlentities( $_POST[ $key ] ) );
+		}
+	  }
 	
   }elseif($user->roles[0]=='seller'){
 	  $active_status = my_active_auction_status();
-	  if($active_status=='active'){
+	  if($active_status=='active' && 1==2){
 		  $disable_array = array('client_street','client_apt_no','client_city','client_state','client_zip_code');
 	  }else{
 		  $disable_array = array();
 	  }
-	  $field_array = array(
+	 $field_array = array(
 					 'client_street'=>'Street',
 					'client_apt_no'=>'Suite #' ,
 					 'client_city'=>'City',
@@ -1645,30 +1717,49 @@ function my_woocommerce_save_account_details( $user_id ) {
 					 'client_zip_code'=>'Zip Code',
 					 'client_cell_ph'=>'Client cell ph.',
 					 'client_home_ph'=>'Client home ph.',);
-					 
-	$shopname = $user->user_login;
-	$submitted = $_POST['wpforms']['fields'];
-	//print_r($submitted);die;
-	$phone = $_POST['client_home_ph'];
-	$dokan_settings = array(
-		'store_name'     => sanitize_text_field( wp_unslash($shopname)),
-		'social'         => array(),
-		'payment'        => array(),
-		'phone'          => sanitize_text_field( wp_unslash($phone) ),
-		'address'        => array(
-						"street_1"=>strip_tags($_POST['client_street']),
-						"street_2"=>strip_tags($_POST['client_apt_no']),
-						"city"=>strip_tags($_POST['client_city']),
-						"state"=>strip_tags($US_state[$_POST['client_state']]),
-						"zip"=>strip_tags($_POST['client_zip_code']),
-						"country"=>'US'),
-		'show_email'     => 'no',
-		'location'       => '',
-		'find_address'   => '',
-		'dokan_category' => '',
-		'banner'         => 0,
-	);
-	update_user_meta( $user_id, 'dokan_profile_settings', $dokan_settings );				 
+	date_default_timezone_set('America/Los_Angeles');
+	$monday_next_week = date("Y-m-d",strtotime( "monday next week" ))." 08:30";
+	$flash_cycle_end = date('Y-m-d', strtotime( 'friday this week' ) )." 10:30";
+	$today_date_time = date('Y-m-d H:i');
+	if ($today_date_time > $flash_cycle_end && $today_date_time < $monday_next_week) {
+		foreach($field_array as $key => $val){
+			if(!in_array($key,$disable_array)){				 
+				update_user_meta( $user_id,$key, htmlentities( $_POST[ $key ] ) );
+			}
+	  	}
+		$shopname = $user->user_login;
+		$submitted = $_POST['wpforms']['fields'];
+		//print_r($submitted);die;
+		$phone = $_POST['client_home_ph'];
+		$dokan_settings = array(
+			'store_name'     => sanitize_text_field( wp_unslash($shopname)),
+			'social'         => array(),
+			'payment'        => array(),
+			'phone'          => sanitize_text_field( wp_unslash($phone) ),
+			'address'        => array(
+							"street_1"=>strip_tags($_POST['client_street']),
+							"street_2"=>strip_tags($_POST['client_apt_no']),
+							"city"=>strip_tags($_POST['client_city']),
+							"state"=>strip_tags($US_state[$_POST['client_state']]),
+							"zip"=>strip_tags($_POST['client_zip_code']),
+							"country"=>'US'),
+			'show_email'     => 'no',
+			'location'       => '',
+			'find_address'   => '',
+			'dokan_category' => '',
+			'banner'         => 0,
+		);
+		update_user_meta( $user_id, 'dokan_profile_settings', $dokan_settings );
+	}else{
+		foreach($field_array as $key => $val){
+			if(!in_array($key,$disable_array)){
+				$user_field_value = get_user_meta($user_id, $key, true );
+				if($user_field_value != htmlentities($_POST[ $key ])){
+					update_user_meta( $user_id,$key."_future",htmlentities($_POST[ $key ]));
+				}
+			}
+	  	}
+	}					 
   }elseif($user->roles[0]=='advanced_ads_user'){
 	  $field_array = array(
 	  				 'Change Address' => 'label',
@@ -1683,11 +1774,7 @@ function my_woocommerce_save_account_details( $user_id ) {
  }else{
 	  $field_array =array();
   }
-  foreach($field_array as $key => $val){
-	if(!in_array($key,$disable_array)){				 
-  		update_user_meta( $user_id,$key, htmlentities( $_POST[ $key ] ) );
-	}
-  }
+  
 }
 function my_user_after_updating_profile_custom( $user_id, $fields, $form_data, $userdata ) {
 	global $US_state;
@@ -2413,6 +2500,7 @@ add_filter('woocommerce_checkout_get_value', function($input, $key ) {
 	$client_cell_ph = get_user_meta( $user_id, 'client_cell_ph', true );
 	$client_home_ph = get_user_meta( $user_id, 'client_home_ph', true );
 	$client_state = $US_state[$client_state];*/
+	
     switch ($key) :
 	    case 'billing_first_name':
         case 'shipping_first_name':
@@ -2424,24 +2512,55 @@ add_filter('woocommerce_checkout_get_value', function($input, $key ) {
             return $current_user->last_name;
         break;
 		case 'billing_address_1':
+			if(get_user_meta( $user_id,"client_street_future", true)){
+				$client_street = get_user_meta( $user_id, "client_street_future", true );	
+			}else{
+				$client_street = get_user_meta( $user_id, "client_street", true );	
+			}
             return $client_street;
         break;
 		case 'billing_address_2':
+			if(get_user_meta( $user_id,"client_apt_no_future", true)){
+				$client_apt_no = get_user_meta( $user_id, "client_apt_no_future", true );	
+			}else{
+				$client_apt_no = get_user_meta( $user_id, "client_apt_no", true );	
+			}
             return $client_apt_no;
         break;
 		case 'billing_city':
+			if(get_user_meta( $user_id,"client_city_future", true)){
+				$client_city = get_user_meta( $user_id, "client_city_future", true );	
+			}else{
+				$client_city = get_user_meta( $user_id, "client_city", true );	
+			}
             return $client_city;
         break;
 		case 'billing_state':
+			if(get_user_meta( $user_id,"client_state_future", true)){
+				$client_state = get_user_meta( $user_id, "client_state_future", true );	
+			}else{
+				$client_state = get_user_meta( $user_id, "client_state", true );	
+			}
+			$client_state = $US_state[$client_state];
             return $client_state;
         break;
 		case 'billing_postcode':
+			if(get_user_meta( $user_id,"client_zip_code_future", true)){
+				$client_zip_code = get_user_meta( $user_id, "client_zip_code_future", true );	
+			}else{
+				$client_zip_code = get_user_meta( $user_id, "client_zip_code", true );	
+			}
             return $client_zip_code;
         break;
         case 'billing_email':
             return $current_user->user_email;
         break;
         case 'billing_phone':
+			if(get_user_meta( $user_id,"client_cell_ph_future", true)){
+				$client_cell_ph = get_user_meta( $user_id, "client_cell_ph_future", true );	
+			}else{
+				$client_cell_ph = get_user_meta( $user_id, "client_cell_ph", true );	
+			}
             return $client_cell_ph;
         break;
     endswitch;
@@ -3687,7 +3806,11 @@ function custom_profile_redirect() {
 		if (!is_admin() && strpos($_SERVER['HTTP_REFERER'],'/checkout') === false && strpos($_SERVER['HTTP_REFERER'],'/lost-password') === false) {
 			$user = wp_get_current_user();
 			my_woocommerce_save_account_details($user->ID);
-			wp_redirect(home_url('/my-account/edit-account/').'?mode=update');
+			if(isset($_GET['redirect'])&&$_GET['redirect']=='checkout'){
+				wp_redirect(home_url('/my-account/edit-account/?mode=update&redirect=checkout'));
+			}else{
+				wp_redirect(home_url('/my-account/edit-account/').'?mode=update');
+			}
 			exit;
 		}
 	}
