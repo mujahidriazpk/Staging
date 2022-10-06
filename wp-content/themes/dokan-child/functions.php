@@ -384,11 +384,39 @@ function getDentistAddress(){
 		$user = wp_get_current_user();
 		if($user->roles[0]=='seller'){
 			$user_id = dokan_get_current_user_id();
-			$client_street = get_user_meta( $user_id, 'client_street', true);
+			/*$client_street = get_user_meta( $user_id, 'client_street', true);
 			$client_apt_no = get_user_meta( $user_id, 'client_apt_no', true);
 			$client_city = get_user_meta( $user_id, 'client_city', true);
 			$client_state = get_user_meta( $user_id, 'client_state', true);
-			$client_zip_code = get_user_meta( $user_id, 'client_zip_code', true);
+			$client_zip_code = get_user_meta( $user_id, 'client_zip_code', true);*/
+			
+			if(get_user_meta( $user_id,"client_street_future", true)){
+				$client_street = get_user_meta( $user_id, "client_street_future", true );	
+			}else{
+				$client_street = get_user_meta( $user_id, "client_street", true );	
+			}
+			if(get_user_meta( $user_id,"client_apt_no_future", true)){
+				$client_apt_no = get_user_meta( $user_id, "client_apt_no_future", true );	
+			}else{
+				$client_apt_no = get_user_meta( $user_id, "client_apt_no", true );	
+			}
+			if(get_user_meta( $user_id,"client_city_future", true)){
+				$client_city = get_user_meta( $user_id, "client_city_future", true );	
+			}else{
+				$client_city = get_user_meta( $user_id, "client_city", true );	
+			}
+			if(get_user_meta( $user_id,"client_state_future", true)){
+				$client_state = get_user_meta( $user_id, "client_state_future", true );	
+			}else{
+				$client_state = get_user_meta( $user_id, "client_state", true );	
+			}
+			if(get_user_meta( $user_id,"client_zip_code_future", true)){
+				$client_zip_code = get_user_meta( $user_id, "client_zip_code_future", true );	
+			}else{
+				$client_zip_code = get_user_meta( $user_id, "client_zip_code", true );	
+			}
+			
+			
 			$address = $client_street." ".$client_apt_no." ".$client_city." ".$client_state." ".$client_zip_code;
 		}else{
 			$user_id = dokan_get_current_user_id();
@@ -5100,6 +5128,7 @@ table thead th {
 								$auction_location = get_post_meta($post->ID, '_auction_location',true);
 								$dentist_office_address = getDentistAddress();
 								$_auction_dates_from =  get_post_meta($post->ID, '_auction_dates_from_org', true );
+								
 								$Distance = 0;
 								if(trim($dentist_office_address) !="" && trim($auction_location) !=""){
 									//echo $dentist_office_address."==".$auction_location."<br />";
