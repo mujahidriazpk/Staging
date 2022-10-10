@@ -627,7 +627,7 @@ class SP_Plugin_GA {
 		$to = '';
 		if($period=='yesterday'){
 			$from =date('m/d/y',strtotime("-1 days"));
-			$to = date('m/d/y',strtotime("-1 days"));
+			$to = date('m/d/y');
 		}elseif($period=='7days'){
 			$from = date("m/d/y",strtotime( "monday this week" ));
 			$to = date('m/d/y', strtotime( 'friday this week' ) );
@@ -651,7 +651,7 @@ class SP_Plugin_GA {
 			$from_GA = date('m/d/y');
 			$to_GA = date('m/d/y');
 		}
-		if($period=='today' || $period=='yesterday')
+		if($period=='today')
 		{$to = '';}
 		if($_POST['period']=='custom'){
 			$from = ( isset( $_POST['mishaDateFrom'] ) && $_POST['mishaDateFrom'] ) ? $_POST['mishaDateFrom'] : '';
