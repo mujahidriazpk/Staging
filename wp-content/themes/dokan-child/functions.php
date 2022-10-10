@@ -2542,42 +2542,42 @@ add_filter('woocommerce_checkout_get_value', function($input, $key ) {
 		case 'billing_address_1':
 			if(get_user_meta( $user_id,"client_street_future", true)){
 				$client_street = get_user_meta( $user_id, "client_street_future", true );	
-			}else{
+			}/*else{
 				$client_street = get_user_meta( $user_id, "client_street", true );	
-			}
+			}*/
             return $client_street;
         break;
 		case 'billing_address_2':
 			if(get_user_meta( $user_id,"client_apt_no_future", true)){
 				$client_apt_no = get_user_meta( $user_id, "client_apt_no_future", true );	
-			}else{
+			}/*else{
 				$client_apt_no = get_user_meta( $user_id, "client_apt_no", true );	
-			}
+			}*/
             return $client_apt_no;
         break;
 		case 'billing_city':
 			if(get_user_meta( $user_id,"client_city_future", true)){
 				$client_city = get_user_meta( $user_id, "client_city_future", true );	
-			}else{
+			}/*else{
 				$client_city = get_user_meta( $user_id, "client_city", true );	
-			}
+			}*/
             return $client_city;
         break;
 		case 'billing_state':
 			if(get_user_meta( $user_id,"client_state_future", true)){
-				$client_state = get_user_meta( $user_id, "client_state_future", true );	
-			}else{
+				$client_state = get_user_meta( $user_id, "client_state_future", true );
+				$client_state = $US_state[$client_state];
+			}/*else{
 				$client_state = get_user_meta( $user_id, "client_state", true );	
-			}
-			$client_state = $US_state[$client_state];
+			}*/
             return $client_state;
         break;
 		case 'billing_postcode':
 			if(get_user_meta( $user_id,"client_zip_code_future", true)){
 				$client_zip_code = get_user_meta( $user_id, "client_zip_code_future", true );	
-			}else{
+			}/*else{
 				$client_zip_code = get_user_meta( $user_id, "client_zip_code", true );	
-			}
+			}*/
             return $client_zip_code;
         break;
         case 'billing_email':
@@ -2586,9 +2586,9 @@ add_filter('woocommerce_checkout_get_value', function($input, $key ) {
         case 'billing_phone':
 			if(get_user_meta( $user_id,"client_cell_ph_future", true)){
 				$client_cell_ph = get_user_meta( $user_id, "client_cell_ph_future", true );	
-			}else{
+			}/*else{
 				$client_cell_ph = get_user_meta( $user_id, "client_cell_ph", true );	
-			}
+			}*/
             return $client_cell_ph;
         break;
     endswitch;
