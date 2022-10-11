@@ -6954,11 +6954,13 @@ function addUser(user_id,type){
 	 if(freeze_status=='' || freeze_status == 'No'){
 		 var label_freeze = 'Suspend Acct';
 		 var class_freeze = '';
-		 var info_btn = '<img src="/wp-content/themes/dokan-child/icons8-info-26.png" alt="" border="" class="suspend_info" style="margin-left:5px;float:right;margin-top:-3px;" width="25px" height="25px"/>';
+		 //var info_btn = '<img src="/wp-content/themes/dokan-child/icons8-info-26.png" alt="" border="" class="suspend_info" style="margin-left:5px;float:right;margin-top:-3px;" width="25px" height="25px"/>';
+		 var info_btn = '<a class="suspend_info" style="margin-left:5px;float:right;margin-top:-3px;" width="25px" height="25px">'+label_freeze+'</a>';
 	}else{
 		var label_freeze = 'Reactivate Acct';
 		 var class_freeze = 'btn-blue';
-		var info_btn = '<img src="/wp-content/themes/dokan-child/icons8-info-26.png" alt="" border="" class="active_info" style="margin-left:5px;float:right;margin-top:-3px;" width="25px" height="25px"/>';
+		//var info_btn = '<img src="/wp-content/themes/dokan-child/icons8-info-26.png" alt="" border="" class="active_info" style="margin-left:5px;float:right;margin-top:-3px;" width="25px" height="25px"/>';
+		var info_btn = '<a class="active_info" style="margin-left:5px;float:right;margin-top:-3px;" width="25px" height="25px">'+label_freeze+'</a>';
 	}
 	if(type=='client'){
 		//var hideClass =' hide';
@@ -7032,12 +7034,12 @@ function addUser(user_id,type){
 								 jQuery.ajax({	
 										url:'<?php echo get_site_url();?>/ajax.php',	
 										type:'POST',
-										data:{'mode':'getSuspendPopup','user_id':user_id,'type':type},
+										data:{'mode':'getSuspendPopup','user_id':user_id,'type':type,'freeze_status':freeze_status},
 										beforeSend: function() {},
 										complete: function() {},
 										success:function (data){
 											jQuery.confirm({
-																title:'<strong>'+label_freeze+'</strong>',
+																title:'<strong>Acct Status Ledger</strong>',
 																content: data,
 																closeIcon: true,
 																columnClass: 'col-md-12 suspendPopUp',
@@ -7066,6 +7068,11 @@ function addUser(user_id,type){
 																		}
 																	},
 																	//cancel: function () {},
+																},
+																onClose: function () {
+																	// before the modal is hidden.
+																	window.location.replace(window.location.href + "&firstname="+jQuery('#firstname').val()+ "&lastname="+jQuery('#lastname').val());
+																	return true;
 																},
 																onContentReady: function () {
 																	//jQuery('.jconfirm-content-pane').attr('style','height:475px;max-height:100%;overflow-y:scroll;');
@@ -7107,7 +7114,7 @@ function addUser(user_id,type){
 										}
 									});
 							}
-						},somethingElse: {
+						}/*,somethingElse: {
 							text:label_freeze ,
 							btnClass: 'btn-blue no_bg'+hideClass,
 							keys: ['enter', 'shift'],
@@ -7127,7 +7134,7 @@ function addUser(user_id,type){
 												}
 								});
 							}
-						}
+						}*/
 					}
 
 				});

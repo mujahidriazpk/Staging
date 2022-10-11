@@ -1701,6 +1701,11 @@ if(isset($_POST['mode']) && $_POST['mode']=='submitSuspendReason'){
 	die;
 }
 if(isset($_POST['mode']) && $_POST['mode']=='getSuspendPopup'){
+	if($_POST['freeze_status'] ==''|| $_POST['freeze_status'] =='No'){
+		 update_user_meta($_POST['user_id'], 'deactivate_CD','Yes');
+	}else{
+		update_user_meta($_POST['user_id'], 'deactivate_CD','No');
+	}
 	//$SuspendDate = get_user_meta($_POST['user_id'], 'SuspendDate', true);
 	$SuspendReason = get_user_meta($_POST['user_id'], 'SuspendReason', true);
 	$SuspendReason = date('m/d/y').'&nbsp;';
