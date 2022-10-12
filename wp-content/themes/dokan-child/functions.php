@@ -5900,8 +5900,8 @@ function ad_setting_admin_menu() {
 		add_submenu_page( 'admin.php?page=advanced-ads-stats', 'Ad Analytics', 'Ad Analytics','shopadoc_admin_cap', '/admin.php?page=advanced-ads-stats');
 		add_submenu_page( 'admin.php?page=advanced-ads-stats', 'Google Analytics', 'Google Analytics','shopadoc_admin_cap', '/admin.php?page=analytify-dashboard');*/
 		
-		add_menu_page(__( 'ShopADoc Analytics', 'textdomain' ),'ShopADoc Analytics','shopadoc_admin_cap','/admin.php?page=advanced-ads-stats','','dashicons-chart-bar',11);
-		
+		//add_menu_page(__( 'ShopADoc Analytics', 'textdomain' ),'ShopADoc Analytics','shopadoc_admin_cap','/admin.php?page=advanced-ads-stats','','dashicons-chart-bar',11);
+		add_menu_page(__( 'ShopADoc Analytics', 'textdomain' ),'ShopADoc Analytics','shopadoc_admin_cap','/admin.php?page=AD_Stats','','dashicons-chart-bar',11);
 		add_menu_page(__( 'Google Analytics', 'textdomain' ),'Google Analytics','shopadoc_admin_cap','/admin.php?page=Analytics','','dashicons-chart-bar',12);
 		/*add_submenu_page( '/admin.php?page=analytify-dashboard', 'Dashboard', 'Dashboard','shopadoc_admin_cap', '/admin.php?page=analytify-dashboard');
 		add_submenu_page( '/admin.php?page=analytify-dashboard', 'Analytics', 'Analytics','manage_options', 'admin.php?page=Analytics');*/
