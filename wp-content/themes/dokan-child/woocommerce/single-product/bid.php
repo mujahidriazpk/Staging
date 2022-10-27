@@ -1985,7 +1985,14 @@ if((is_user_logged_in() && $post->post_author == $current_user->ID) || ($custome
 	});
 	</script>
     <?php }else{?>
-    <?php if(isset($_GET['screen']) && $_GET['screen']=='client'){
+    <?php global $current_user;
+		$company = 'AD DEMO';
+		if($current_user->roles[0]=='shopadoc_admin'){
+			if(isset($_GET['screen']) && $_GET['screen']=='advertiser'){
+				$company = 'ADVERTISER';
+			}
+		}
+		if(isset($_GET['screen']) && $_GET['screen']=='client'){
 			$ad_text = 'CLIENT ADS';
 		}else{
 			$ad_text = 'DENTIST ADS';
@@ -2056,17 +2063,17 @@ if((is_user_logged_in() && $post->post_author == $current_user->ID) || ($custome
 		jQuery(".demo_ad_txt .demo_ad_title").attr('style','width:'+img_width+'px !important');
 		var windowsize = jQuery(window).width();
 		if(windowsize <= 850 && windowsize > 448){
-			jQuery(".biding_form").html('<div class="demo_txt "><div class="price priceBox"><h1 class="center ad_demo">AD DEMO</h1></div></div>');
+			jQuery(".biding_form").html('<div class="demo_txt "><div class="price priceBox"><h1 class="center ad_demo"><?php echo $company;?></h1></div></div>');
 			jQuery(".biding_form,.demo_txt,.price.priceBox").css('height','100%');
 			jquery(".price.priceBox").attr('style','margin-bottom:0px !important');
 		}else if(windowsize <= 448){
 			jQuery(".demo_ad_txt .demo_ad_title").attr('style','width:100% !important');
 			//jQuery( '<div class="demo_txt "><div class="price priceBox"><h1 class="center ad_demo">AD DEMO</h1></div></div>' ).insertAfter( ".product" );
-			jQuery(".biding_form").html('<div class="demo_txt "><div class="price priceBox"><h1 class="center ad_demo">AD DEMO</h1></div></div>');
+			jQuery(".biding_form").html('<div class="demo_txt "><div class="price priceBox"><h1 class="center ad_demo"><?php echo $company;?></h1></div></div>');
 			jQuery(".biding_form,.demo_txt,.price.priceBox").css('height','100%');
 			jquery(".price.priceBox").attr('style','margin-bottom:0px !important');
 		}else{
-			jQuery( '<div class="demo_txt "><div class="price priceBox"><h1 class="center ad_demo">AD DEMO</h1></div></div>' ).insertAfter( ".product" );
+			jQuery( '<div class="demo_txt "><div class="price priceBox"><h1 class="center ad_demo"><?php echo $company;?></h1></div></div>' ).insertAfter( ".product" );
 		}
 		//jQuery(".biding_form").html('<div class="price priceBox"><h1 class="center realtime">AD DEMO</h1></div>');
 	</script>

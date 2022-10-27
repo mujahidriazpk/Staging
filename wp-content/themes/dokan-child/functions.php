@@ -2627,7 +2627,7 @@ add_action( 'init', function() {
 		global $wp;
 		$current_url =  home_url( $wp->request );
 		$user = wp_get_current_user();
-		if($user->roles[0]=='advanced_ads_user' && strpos($_SERVER['REQUEST_URI'],"logout")===false){
+		if($user->roles[0]=='advanced_ads_user' && $user->roles[0] !='shopadoc_admin' && strpos($_SERVER['REQUEST_URI'],"logout")===false){
 			//deactivate_advertiser
 			$deactivate_advertiser = get_user_meta($user->ID, 'deactivate_advertiser',true);
 			if(strpos($_SERVER['REQUEST_URI'],"/ad-analytics")===false && $deactivate_advertiser=='Yes' ){
@@ -5884,11 +5884,13 @@ function ad_setting_admin_menu() {
 		
 		//add_menu_page(__( 'AD DEMO', 'textdomain' ),'AD DEMO','shopadoc_admin_cap','users.php?role=ad_demo','','dashicons-megaphone',8);
 		add_menu_page('AD DEMO', 'AD DEMO', 'shopadoc_admin_cap', 'admin.php?page=ADDEMO','','dashicons-chart-bar',8);
+		add_submenu_page( 'admin.php?page=ADDEMO', 'Demo View', 'Demo View','shopadoc_admin_cap', home_url('/auction-3977/demo-auction/'));
 		
 		add_menu_page('ADVERTISERS', 'ADVERTISERS', 'shopadoc_admin_cap', '#','','dashicons-chart-bar',9);
 		//add_menu_page('ADVERTISERS', 'ADVERTISERS','shopadoc_admin_cap','admin.php?page=ADVERTISER','','dashicons-chart-bar',9);
 		add_submenu_page( '#', 'Current Runs', 'Current Runs','shopadoc_admin_cap', 'admin.php?page=ADVERTISER');
 		add_submenu_page( '#', 'Past Runs', 'Past Runs','shopadoc_admin_cap', 'admin.php?page=ADVERTISER_PAST_RUN');
+		add_submenu_page( '#', 'Advertiser View', 'Advertiser View','shopadoc_admin_cap', home_url('/auction-3977/demo-auction/?screen=advertiser'));
 		
 		add_menu_page('ADS', 'ADS', 'shopadoc_admin_cap', 'admin.php?page=ADS','','dashicons-chart-bar',10);
 		
