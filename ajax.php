@@ -1694,8 +1694,12 @@ if(isset($_POST['mode']) && $_POST['mode']=='submitSuspendReason'){
 	$html1 = '';
 	foreach($results as $row){
 		$tmp = explode('&nbsp;',htmlentities($row->log_data));
-		$log_data = '<span style="color:red;">'.$tmp[0].'</span> '.$tmp[1];
-		$html1 .='<div class="col-12 col-sm-6 col-md-12" style="padding:0;">'.$log_data.'</div><!--<div class="col-6 col-md-3" >Edit</div>-->';
+		preg_match_all('/\d{2}\/\d{2}\/\d{2}/',htmlentities($row->log_data),$matches);
+		//print_r($matches[0][0]);
+		if($matches[0][0]){
+			$log_data = '<span style="color:red;">'.$matches[0][0].'</span> '.str_replace($matches[0][0],'',str_replace('&nbsp;','',htmlentities($row->log_data)));
+			$html1 .='<div class="col-12 col-sm-6 col-md-12" style="padding:0;">'.$log_data.'</div><!--<div class="col-6 col-md-3" >Edit</div>-->';
+		}
 	}
 	echo html_entity_decode(date('m/d/y').'&nbsp;').'##'.$html1;
 	die;
@@ -1714,8 +1718,12 @@ if(isset($_POST['mode']) && $_POST['mode']=='getSuspendPopup'){
 	$html1 = '';
 	foreach($results as $row){
 		$tmp = explode('&nbsp;',htmlentities($row->log_data));
-		$log_data = '<span style="color:red;">'.$tmp[0].'</span> '.$tmp[1];
-		$html1 .='<div class="col-12 col-sm-6 col-md-12" style="padding:0;">'.$log_data.'</div><!--<div class="col-6 col-md-3" >Edit</div>-->';
+		preg_match_all('/\d{2}\/\d{2}\/\d{2}/',htmlentities($row->log_data),$matches);
+		//print_r($matches[0][0]);
+		if($matches[0][0]){
+			$log_data = '<span style="color:red;">'.$matches[0][0].'</span> '.str_replace($matches[0][0],'',str_replace('&nbsp;','',htmlentities($row->log_data)));
+			$html1 .='<div class="col-12 col-sm-6 col-md-12" style="padding:0;">'.$log_data.'</div><!--<div class="col-6 col-md-3" >Edit</div>-->';
+		}
 	}
 	echo '<div class="wpforms-container wpforms-container-full" id="wpforms-6724"><form id="wpforms-form-6724" class="wpforms-validate wpforms-form" data-formid="6724" method="post" enctype="multipart/form-data" action="#" novalidate="novalidate"><div class="wpforms-field-container"><!--<div id="wpforms-6724-field_1-container" class="wpforms-field wpforms-field-date-time" data-field-id="1"><label class="wpforms-field-label" for="wpforms-6724-field_1" >Date / Time <span class="wpforms-required-label">*</span></label><input type="text" id="SuspendDate" class="wpforms-field-date-time-date wpforms-datepicker wpforms-field-required wpforms-field-large flatpickr-input validate[required]" data-date-format="m/d/Y" name="SuspendDate" value="'.$SuspendDate.'" required="" aria-required="true" readonly="readonly"></div>--><div id="wpforms-6724-field_2-container" class="wpforms-field wpforms-field-textarea" data-field-id="2"><label class="wpforms-field-label" for="wpforms-6724-field_2" style="font-weight: normal;">Date / Details <span class="wpforms-required-label">*</span></label><textarea id="SuspendReason" class="wpforms-field-medium wpforms-field-required validate[required]" name="SuspendReason" required="" aria-required="true" style="resize: none;font-weight: bold;height:185px;">'.$SuspendReason.'</textarea><button type="button" class="btn btn-blue" id="submitSuspend" style="position:relative;top:10px;">Save</button></div>
 	<style>.suspendListArea{height:475px !important;overflow-y:scroll !important;max-height: 100% !important;}</style>
