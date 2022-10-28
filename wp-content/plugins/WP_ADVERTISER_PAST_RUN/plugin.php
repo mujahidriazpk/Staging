@@ -1342,8 +1342,9 @@ input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focu
 	$query = "SELECT * FROM wp_posts where post_author = '".$user->ID."'and (post_status = 'publish' or post_status = 'future') and post_type = 'advanced_ads' and ( post_title like '% ".$_POST['type']."%' or post_excerpt = '".$_POST['type']."' ) ORDER BY ID ASC";
 	
 	$query = "SELECT option_name FROM `wp_options` where option_value = '".$post_id."' ORDER BY option_id desc limit 1";
-	$option_name = $wpdb->get_var($query);
+	$option_name = $wpdb->get_var($query);	
 	if($option_name !=''){
+		$option_name = str_replace('old_','',$option_name);
 		$tmp = explode("_",$option_name);
 		$position = str_replace("position","",$tmp[0]);
 		$col = str_replace("col","",$tmp[1]);
