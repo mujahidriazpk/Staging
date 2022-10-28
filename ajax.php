@@ -922,7 +922,8 @@ if(isset($_REQUEST['mode']) && $_REQUEST['mode']=='submitAD'){
 	
 				$post_date_gmt = date("Y-m-d H:i:s",  strtotime($_POST['start_date']));
                 $post_status = 'publish';
-                if(strtotime($today_date_time_seconds) >= $_POST['start_date']){
+				//echo $today_date_time_seconds.'=='.$_POST['end_date'];die;
+                if(strtotime($today_date_time_seconds) >= strtotime($_POST['end_date'])){
                     $post_status = 'advanced_ads_expired';
                 }
 				$my_post = array(
@@ -1091,6 +1092,9 @@ if(isset($_REQUEST['mode']) && $_REQUEST['mode']=='submitAD'){
 						delete_option($option_name_delete);
 					}
 				}
+				if(strtotime($today_date_time_seconds) >= strtotime($_POST['end_date'])){
+                    $wpdb->query("DELETE FROM wp_options where option_value =".$post_id);
+                }
 	
 	}else{
 	 			//[COMPANY]_[START DATE MMDDYY]-[ENDDATE MMDDYY]
