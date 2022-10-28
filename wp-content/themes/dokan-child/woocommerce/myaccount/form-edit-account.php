@@ -16,7 +16,7 @@
  */
 
 defined( 'ABSPATH' ) || exit;
-
+global $current_user;
 do_action( 'woocommerce_before_edit_account_form' ); ?>
 <?php if((isset($_GET['redirect'])&&$_GET['redirect']=='checkout')){?>
 <a href="<?php echo home_url('/checkout/')?>" style="font-size:17px !important;" class="dokan-btn dokan-btn-theme btn-primary" title="back">Back to Checkout</a>
@@ -69,7 +69,11 @@ do_action( 'woocommerce_before_edit_account_form' ); ?>
 	<div class="clear"></div>
 
 	<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide<?php echo $display_class;?>">
-		<label for="account_email"><?php esc_html_e( 'Email address', 'woocommerce' ); ?>&nbsp;<span class="required">*</span></label>
+		<?php if($current_user->roles[0]=='customer'){?>
+			<label for="account_email"><?php esc_html_e( 'Personal email', 'woocommerce' ); ?>&nbsp;<span class="required">*</span></label>
+		<?php }else{?>
+			<label for="account_email"><?php esc_html_e( 'Email address', 'woocommerce' ); ?>&nbsp;<span class="required">*</span></label>
+		<?php }?>
 		<input type="email" class="woocommerce-Input woocommerce-Input--email input-text" name="account_email" id="account_email" autocomplete="email" value="<?php echo esc_attr( $user->user_email ); ?>" />
 	</p>
 	<fieldset>
@@ -116,4 +120,5 @@ jQuery(document).ready(function() {
 		window.history.pushState(null, "", window.location.href);
 	};
 });
+jQuery('#post-46 h1.entry-title').append('&nbsp;<span class="tooltips" style="display:inline-block;float:none !important;" title="Any changes to your information will become effective the following auction cycle.">i</span>');
 </script>

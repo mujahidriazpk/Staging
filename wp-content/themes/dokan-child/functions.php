@@ -425,6 +425,33 @@ function getDentistAddress(){
 			$dentist_office_city = get_user_meta( $user_id, 'dentist_office_city', true);
 			$dentist_office_state = get_user_meta( $user_id, 'dentist_office_state', true);
 			$dentist_office_zip_code = get_user_meta( $user_id, 'dentist_office_zip_code', true);
+			
+			/*if(get_user_meta( $user_id,"dentist_office_street_future", true)){
+				$dentist_office_street = get_user_meta( $user_id, "dentist_office_street_future", true );	
+			}else{
+				$dentist_office_street = get_user_meta( $user_id, 'dentist_office_street', true);
+			}
+			if(get_user_meta( $user_id,"dentist_office_apt_no_future", true)){
+				$dentist_office_apt_no = get_user_meta( $user_id, "dentist_office_apt_no_future", true );	
+			}else{
+				$dentist_office_apt_no = get_user_meta( $user_id, 'dentist_office_apt_no', true);
+			}
+			if(get_user_meta( $user_id,"dentist_office_city_future", true)){
+				$dentist_office_city = get_user_meta( $user_id, "dentist_office_city_future", true );	
+			}else{
+				$dentist_office_city = get_user_meta( $user_id, 'dentist_office_city', true);	
+			}
+			if(get_user_meta( $user_id,"dentist_office_state_future", true)){
+				$dentist_office_state = get_user_meta( $user_id, "dentist_office_state_future", true );	
+			}else{
+				$dentist_office_state = get_user_meta( $user_id, "dentist_office_state", true );	
+			}
+			if(get_user_meta( $user_id,"dentist_office_zip_code_future", true)){
+				$dentist_office_zip_code = get_user_meta( $user_id, "dentist_office_zip_code_future", true );	
+			}else{
+				$dentist_office_zip_code = get_user_meta( $user_id, "dentist_office_zip_code", true );	
+			}*/
+			
 			$address = $dentist_office_street." ".$dentist_office_apt_no." ".$dentist_office_city." ".$dentist_office_state." ".$dentist_office_zip_code;
 		}
 	}else{
@@ -1298,63 +1325,65 @@ function my_woocommerce_order_status_completed( $order_id ) {
 }
 add_action( 'woocommerce_checkout_billing', 'woocommerce_checkout_billing_custom_func');
 function woocommerce_checkout_billing_custom_func(){
-  global $US_state;
-  $user_id = get_current_user_id();
-  $user = get_userdata( $user_id );
-if($user->roles[0]=='seller'){
-  $field_array = array(
-				 'client_street'=>'Street',
-				'client_apt_no'=>'Suite #' ,
-				 'client_city'=>'City',
-				 'client_state'=>'State',
-				 'client_zip_code'=>'Zip Code',
-				 'client_cell_ph'=>'Mobile <i class="fa fa-phone icon">&nbsp;</i>',
-				 'client_home_ph'=>'Home <i class="fa fa-phone icon">&nbsp;</i>',);
-	if(get_user_meta( $user_id,"client_street_future", true)){
-		$client_street = get_user_meta( $user_id, "client_street_future", true );	
-	}else{
-		$client_street = get_user_meta( $user_id, "client_street", true );	
+	global $US_state;
+	$user_id = get_current_user_id();
+	$user = get_userdata( $user_id );
+	if($user->roles[0]=='seller'){
+		$field_array = array(
+					 'client_street'=>'Street',
+					'client_apt_no'=>'Suite #' ,
+					 'client_city'=>'City',
+					 'client_state'=>'State',
+					 'client_zip_code'=>'Zip Code',
+					 'client_cell_ph'=>'Mobile <i class="fa fa-phone icon">&nbsp;</i>',
+					 'client_home_ph'=>'Home <i class="fa fa-phone icon">&nbsp;</i>',);
+		if(get_user_meta( $user_id,"client_street_future", true)){
+			$client_street = get_user_meta( $user_id, "client_street_future", true );	
+		}else{
+			$client_street = get_user_meta( $user_id, "client_street", true );	
+		}
+		if(get_user_meta( $user_id,"client_apt_no_future", true)){
+			$client_apt_no = get_user_meta( $user_id, "client_apt_no_future", true );	
+		}else{
+			$client_apt_no = get_user_meta( $user_id, "client_apt_no", true );	
+		}
+		if(get_user_meta( $user_id,"client_city_future", true)){
+			$client_city = get_user_meta( $user_id, "client_city_future", true );	
+		}else{
+			$client_city = get_user_meta( $user_id, "client_city", true );	
+		}
+		if(get_user_meta( $user_id,"client_state_future", true)){
+			$client_state = get_user_meta( $user_id, "client_state_future", true );	
+		}else{
+			$client_state = get_user_meta( $user_id, "client_state", true );	
+		}
+		if(get_user_meta( $user_id,"client_zip_code_future", true)){
+			$client_zip_code = get_user_meta( $user_id, "client_zip_code_future", true );	
+		}else{
+			$client_zip_code = get_user_meta( $user_id, "client_zip_code", true );	
+		}
+		if(get_user_meta( $user_id,"client_cell_ph_future", true)){
+			$client_cell_ph = get_user_meta( $user_id, "client_cell_ph_future", true );	
+		}else{
+			$client_cell_ph = get_user_meta( $user_id, "client_cell_ph", true );	
+		}
+		if(get_user_meta( $user_id,"client_home_ph_future", true)){
+			$client_home_ph = get_user_meta( $user_id, "client_home_ph_future", true );	
+		}else{
+			$client_home_ph = get_user_meta( $user_id, "client_home_ph", true );	
+		}
+		echo '<h3>Origin of Auction</h3>';
+		echo '<address>';
+		  echo $user->first_name.' '.$user->last_name.'<a href="'.home_url('/my-account/edit-account/?redirect=checkout').'" title="" style="float:right;">Change</a><br />';
+		  echo $client_street." ".$client_apt_no.'<br />';
+		  echo $client_city.", ".$client_state." ".$client_zip_code.'<br />';
+		  echo '<p class="woocommerce-customer-details--phone">'.$client_cell_ph.'</p>';
+		  echo '</address>';
+		echo '<h3 class="hide_billing">Billing Address </h3>';
+		echo '<address class="hide_billing"><span style="float:let;">Same as above</span><a href="javascript:" onclick="jQuery(\'.woocommerce-billing-fields\').toggle();jQuery(\'.hide_billing\').hide();" title="" style="float:right;">Change</a></address>';	echo '<style>.woocommerce-billing-fields{display:none;}address,.woocommerce-billing-fields__field-wrapper {margin-bottom: 20px;font-style: normal;line-height: 1.428571429;border: 1px solid #DBDBDB;border-radius: 5px;padding: 10px;}.woocommerce-page .col2-set .col-1{width:100%;}</style>';
 	}
-	if(get_user_meta( $user_id,"client_apt_no_future", true)){
-		$client_apt_no = get_user_meta( $user_id, "client_apt_no_future", true );	
-	}else{
-		$client_apt_no = get_user_meta( $user_id, "client_apt_no", true );	
+	if($user->roles[0]=='customer'){
 	}
-	if(get_user_meta( $user_id,"client_city_future", true)){
-		$client_city = get_user_meta( $user_id, "client_city_future", true );	
-	}else{
-		$client_city = get_user_meta( $user_id, "client_city", true );	
-	}
-	if(get_user_meta( $user_id,"client_state_future", true)){
-		$client_state = get_user_meta( $user_id, "client_state_future", true );	
-	}else{
-		$client_state = get_user_meta( $user_id, "client_state", true );	
-	}
-	if(get_user_meta( $user_id,"client_zip_code_future", true)){
-		$client_zip_code = get_user_meta( $user_id, "client_zip_code_future", true );	
-	}else{
-		$client_zip_code = get_user_meta( $user_id, "client_zip_code", true );	
-	}
-	if(get_user_meta( $user_id,"client_cell_ph_future", true)){
-		$client_cell_ph = get_user_meta( $user_id, "client_cell_ph_future", true );	
-	}else{
-		$client_cell_ph = get_user_meta( $user_id, "client_cell_ph", true );	
-	}
-	if(get_user_meta( $user_id,"client_home_ph_future", true)){
-		$client_home_ph = get_user_meta( $user_id, "client_home_ph_future", true );	
-	}else{
-		$client_home_ph = get_user_meta( $user_id, "client_home_ph", true );	
-	}
-	echo '<h3>Origin of Auction</h3>';
-	echo '<address>';
-	  echo $user->first_name.' '.$user->last_name.'<a href="'.home_url('/my-account/edit-account/?redirect=checkout').'" title="" style="float:right;">Change</a><br />';
-	  echo $client_street." ".$client_apt_no.'<br />';
-	  echo $client_city.", ".$client_state." ".$client_zip_code.'<br />';
-	  echo '<p class="woocommerce-customer-details--phone">'.$client_cell_ph.'</p>';
-	  echo '</address>';
-	echo '<h3 class="hide_billing">Billing Address </h3>';
-	echo '<address class="hide_billing"><span style="float:let;">Same as above</span><a href="javascript:" onclick="jQuery(\'.woocommerce-billing-fields\').toggle();jQuery(\'.hide_billing\').hide();" title="" style="float:right;">Change</a></address>';	echo '<style>.woocommerce-billing-fields{display:none;}address,.woocommerce-billing-fields__field-wrapper {margin-bottom: 20px;font-style: normal;line-height: 1.428571429;border: 1px solid #DBDBDB;border-radius: 5px;padding: 10px;}.woocommerce-page .col2-set .col-1{width:100%;}</style>';
-}
 }
 
 add_action( 'woocommerce_edit_account_form', 'my_woocommerce_edit_account_form' );
@@ -1394,8 +1423,9 @@ function my_woocommerce_edit_account_form() {
 			 
 	}
   if($user->roles[0]=='customer'){
-	$disable_array = array('dentist_office_street','dentist_office_apt_no','dentist_office_city','dentist_office_state','dentist_office_zip_code','dentist_office_email','dentist_personal_cell','state_dental_license_no');
-  	$field_array = array('<span class="tooltip_New">Change office address where treatment is administered&nbsp;<span class="tooltips" title="Please <span>contact</span> ShopADoc® admin to request any change to office address where treatment is rendered.">i</span>' => 'label',
+	//$disable_array = array('dentist_office_street','dentist_office_apt_no','dentist_office_city','dentist_office_state','dentist_office_zip_code','dentist_office_email','dentist_personal_cell','state_dental_license_no');
+	$disable_array = array('state_dental_license_no');
+  	$field_array = array('<span class="tooltip_New">Change office address where services are rendered<!--&nbsp;<span class="tooltips" title="Please <span>contact</span> ShopADoc® admin to request any change to office address where treatment is rendered.">i</span>-->' => 'label',
 					 'dentist_office_street'=>'Street',
 					'dentist_office_apt_no'=>'Suite #' ,
 					 'dentist_office_city'=>'City',
@@ -1706,7 +1736,8 @@ function my_woocommerce_save_account_details( $user_id ) {
   if ( !$user )
     	return;
  if($user->roles[0]=='customer'){
-	 $disable_array = array('dentist_office_street','dentist_office_apt_no','dentist_office_city','dentist_office_state','dentist_office_zip_code','dentist_office_email','dentist_personal_cell','state_dental_license_no');
+	// $disable_array = array('dentist_office_street','dentist_office_apt_no','dentist_office_city','dentist_office_state','dentist_office_zip_code','dentist_office_email','dentist_personal_cell','state_dental_license_no');
+	$disable_array =array('state_dental_license_no');
   	$field_array = array('new_auction_notification'=>'New Auction Notification',
 					 'designation'=>'Designation',
 					 'Office address' => 'label',
@@ -1724,12 +1755,26 @@ function my_woocommerce_save_account_details( $user_id ) {
 					 'dentist_home_state'=>'State',
 					 'dentist_home_zip'=>'Zip Code',
 					 'state_dental_license_no'=>'State Dental License #',);
-	 foreach($field_array as $key => $val){
-		if(!in_array($key,$disable_array)){				 
-			update_user_meta( $user_id,$key, htmlentities( $_POST[ $key ] ) );
-		}
-	  }
-	
+	date_default_timezone_set('America/Los_Angeles');
+	$monday_next_week = date("Y-m-d",strtotime( "monday next week" ))." 08:30";
+	$flash_cycle_end = date('Y-m-d', strtotime( 'friday this week' ) )." 10:30";
+	$today_date_time = date('Y-m-d H:i');
+	if ($today_date_time > $flash_cycle_end && $today_date_time < $monday_next_week) {
+		foreach($field_array as $key => $val){
+			if(!in_array($key,$disable_array)){				 
+				update_user_meta( $user_id,$key, htmlentities( $_POST[ $key ] ) );
+			}
+	  	}
+	}else{
+		foreach($field_array as $key => $val){
+			if(!in_array($key,$disable_array)){
+				$user_field_value = get_user_meta($user_id, $key, true );
+				if($user_field_value != htmlentities($_POST[ $key ])){
+					update_user_meta( $user_id,$key."_future",htmlentities($_POST[ $key ]));
+				}
+			}
+	  	}
+	}
   }elseif($user->roles[0]=='seller'){
 	  $active_status = my_active_auction_status();
 	  if($active_status=='active' && 1==2){
@@ -2542,7 +2587,11 @@ add_filter('woocommerce_checkout_get_value', function($input, $key ) {
 		case 'billing_address_1':
 			if(get_user_meta( $user_id,"client_street_future", true)){
 				$client_street = get_user_meta( $user_id, "client_street_future", true );	
-			}/*else{
+			}
+			if(get_user_meta( $user_id,"dentist_office_street_future", true)){
+				$client_street = get_user_meta( $user_id, "dentist_office_street_future", true );	
+			}
+			/*else{
 				$client_street = get_user_meta( $user_id, "client_street", true );	
 			}*/
             return $client_street;
@@ -2550,7 +2599,11 @@ add_filter('woocommerce_checkout_get_value', function($input, $key ) {
 		case 'billing_address_2':
 			if(get_user_meta( $user_id,"client_apt_no_future", true)){
 				$client_apt_no = get_user_meta( $user_id, "client_apt_no_future", true );	
-			}/*else{
+			}
+			if(get_user_meta( $user_id,"dentist_office_apt_no_future", true)){
+				$client_apt_no = get_user_meta( $user_id, "dentist_office_apt_no_future", true );	
+			}
+			/*else{
 				$client_apt_no = get_user_meta( $user_id, "client_apt_no", true );	
 			}*/
             return $client_apt_no;
@@ -2558,6 +2611,9 @@ add_filter('woocommerce_checkout_get_value', function($input, $key ) {
 		case 'billing_city':
 			if(get_user_meta( $user_id,"client_city_future", true)){
 				$client_city = get_user_meta( $user_id, "client_city_future", true );	
+			}
+			if(get_user_meta( $user_id,"dentist_office_city_future", true)){
+				$client_city = get_user_meta( $user_id, "dentist_office_city_future", true );	
 			}/*else{
 				$client_city = get_user_meta( $user_id, "client_city", true );	
 			}*/
@@ -2567,7 +2623,12 @@ add_filter('woocommerce_checkout_get_value', function($input, $key ) {
 			if(get_user_meta( $user_id,"client_state_future", true)){
 				$client_state = get_user_meta( $user_id, "client_state_future", true );
 				$client_state = $US_state[$client_state];
-			}/*else{
+			}
+			if(get_user_meta( $user_id,"dentist_office_state_future", true)){
+				$client_state = get_user_meta( $user_id, "dentist_office_state_future", true );
+				$client_state = $US_state[$client_state];
+			}
+			/*else{
 				$client_state = get_user_meta( $user_id, "client_state", true );	
 			}*/
             return $client_state;
@@ -2575,7 +2636,11 @@ add_filter('woocommerce_checkout_get_value', function($input, $key ) {
 		case 'billing_postcode':
 			if(get_user_meta( $user_id,"client_zip_code_future", true)){
 				$client_zip_code = get_user_meta( $user_id, "client_zip_code_future", true );	
-			}/*else{
+			}
+			if(get_user_meta( $user_id,"dentist_office_zip_code_future", true)){
+				$client_zip_code = get_user_meta( $user_id, "dentist_office_zip_code_future", true );	
+			}
+			/*else{
 				$client_zip_code = get_user_meta( $user_id, "client_zip_code", true );	
 			}*/
             return $client_zip_code;
@@ -2586,7 +2651,11 @@ add_filter('woocommerce_checkout_get_value', function($input, $key ) {
         case 'billing_phone':
 			if(get_user_meta( $user_id,"client_cell_ph_future", true)){
 				$client_cell_ph = get_user_meta( $user_id, "client_cell_ph_future", true );	
-			}/*else{
+			}
+			if(get_user_meta( $user_id,"dentist_personal_cell_future", true)){
+				$client_cell_ph = get_user_meta( $user_id, "dentist_personal_cell_future", true );	
+			}
+			/*else{
 				$client_cell_ph = get_user_meta( $user_id, "client_cell_ph", true );	
 			}*/
             return $client_cell_ph;
@@ -5128,7 +5197,7 @@ table thead th {
 								$auction_location = get_post_meta($post->ID, '_auction_location',true);
 								$dentist_office_address = getDentistAddress();
 								$_auction_dates_from =  get_post_meta($post->ID, '_auction_dates_from_org', true );
-								
+								//echo $dentist_office_address."<br />";
 								$Distance = 0;
 								if(trim($dentist_office_address) !="" && trim($auction_location) !=""){
 									//echo $dentist_office_address."==".$auction_location."<br />";
