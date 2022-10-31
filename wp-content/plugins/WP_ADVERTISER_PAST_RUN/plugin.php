@@ -513,6 +513,22 @@ function submitUser(){
 }
 </script>
  <style type="text/css">
+	 #toplevel_page_admin-page-ADS a.menu-top{
+			background: #2271b1 !important;
+			color: #fff !important;
+			}
+			#toplevel_page_admin-page-ADS a.menu-top:after {
+			right: 0;
+			border: solid 8px transparent;
+			content: " ";
+			height: 0;
+			width: 0;
+			position: absolute;
+			pointer-events: none;
+			border-right-color: #f0f0f1;
+			top: 50%;
+			margin-top: -8px;
+			}
  .form-table th {
 	padding:4px 0 !important;
 }

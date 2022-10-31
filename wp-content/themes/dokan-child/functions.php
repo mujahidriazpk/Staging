@@ -5957,11 +5957,13 @@ function ad_setting_admin_menu() {
 		
 		add_menu_page('ADVERTISERS', 'ADVERTISERS', 'shopadoc_admin_cap', '#','','dashicons-chart-bar',9);
 		//add_menu_page('ADVERTISERS', 'ADVERTISERS','shopadoc_admin_cap','admin.php?page=ADVERTISER','','dashicons-chart-bar',9);
-		add_submenu_page( '#', 'Current Runs', 'Current Runs','shopadoc_admin_cap', 'admin.php?page=ADVERTISER');
-		add_submenu_page( '#', 'Past Runs', 'Past Runs','shopadoc_admin_cap', 'admin.php?page=ADVERTISER_PAST_RUN');
+		add_submenu_page( '#', 'Company Roster', 'Company Roster','shopadoc_admin_cap', 'admin.php?page=ADVERTISER');
+		//add_submenu_page( '#', 'Past Runs', 'Past Runs','shopadoc_admin_cap', 'admin.php?page=ADVERTISER_PAST_RUN');
 		add_submenu_page( '#', 'Advertiser View', 'Advertiser View','shopadoc_admin_cap', home_url('/auction-3977/demo-auction/?screen=advertiser'));
 		
 		add_menu_page('ADS', 'ADS', 'shopadoc_admin_cap', 'admin.php?page=ADS','','dashicons-chart-bar',10);
+		add_submenu_page( 'admin.php?page=ADS', 'Current Runs', 'Current Runs','shopadoc_admin_cap', 'admin.php?page=ADS');
+		add_submenu_page( 'admin.php?page=ADS', 'Past Runs', 'Past Runs','shopadoc_admin_cap', 'admin.php?page=ADVERTISER_PAST_RUN');
 		
 		/*add_menu_page(__( 'ADS', 'textdomain' ),'ADS','shopadoc_admin_cap','edit.php?post_type=advanced_ads&adtype=image','','dashicons-chart-bar',9);
 		add_submenu_page( 'edit.php?post_type=advanced_ads&adtype=image', 'Ads Manager', 'Ads Manager','manage_options', 'edit.php?post_type=advanced_ads&adtype=image');

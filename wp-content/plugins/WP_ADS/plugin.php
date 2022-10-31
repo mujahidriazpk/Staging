@@ -497,11 +497,11 @@ class SP_Plugin_ADS {
   
  <div style="float:left;width:100%;"><h2 class="pull-left main_heading">ADS</h2> <a href="javascript:addUser('','Advertiser');" title="addUser" style="float:right" class="btn btn-primary">Add Company</a></p>
   <style type="text/css">
-  			#toplevel_page_admin-page-ADS a{
+  			#toplevel_page_admin-page-ADS a.menu-top{
 			background: #2271b1 !important;
 			color: #fff !important;
 			}
-			#toplevel_page_admin-page-ADS a:after {
+			#toplevel_page_admin-page-ADS a.menu-top:after {
 			right: 0;
 			border: solid 8px transparent;
 			content: " ";
