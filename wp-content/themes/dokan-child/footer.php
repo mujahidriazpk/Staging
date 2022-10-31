@@ -1224,13 +1224,13 @@ jQuery(document).ready(function() {
 		$( 'body' ).on( 'updated_checkout', function() {
 			<?php if(isset($_GET['lang']) && $_GET['lang']=='es'){?>
 				 $("#place_order").text('Realizar pedido');
-				// $("#checkout_tooltip").html('<span class="tooltip_New checkout"><span class="tooltips" title="Por favor, revise la pestaña Bandeja de entrada, correo no deseado, correo no deseado y promociones para ver los recibos y la correspondencia de ShopADoc.">&nbsp;</span></span>');
-				$("#checkout_tooltip").html('<span class="tooltip_New checkout"><span class="tooltips custom_m_bubble" style="float:left !important;">&nbsp;</span><span class="tooltip_text">Por favor, revise la pestaña Bandeja de entrada, correo no deseado, correo no deseado y promociones para ver los recibos<br>y la correspondencia de ShopADoc.</span>');
+				$("#checkout_tooltip").html('<span class="tooltip_New checkout"><span class="tooltips" title="Por favor, revise la pestaña Bandeja de entrada, correo no deseado, correo no deseado y promociones para ver los recibos y la correspondencia de ShopADoc.">&nbsp;</span></span>');
+				//$("#checkout_tooltip").html('<span class="tooltip_New checkout"><span class="tooltips custom_m_bubble" style="float:left !important;">&nbsp;</span><span class="tooltip_text">Por favor, revise la pestaña Bandeja de entrada, correo no deseado, correo no deseado y promociones para ver los recibos<br>y la correspondencia de ShopADoc.</span>');
 				
 			<?php }else{?>
 			//jQuery("#billing_full_name_field_2 label").append('<span id="checkout_tooltip_new">Please check your Inbox, Spam, Junk, &amp; Promotions tab for receipts &amp; correspondence from ShopADoc.</span>');
-		  //$("#checkout_tooltip").html('<span class="tooltip_New checkout"><span class="tooltips" title="Please check your Inbox, Spam, Junk, & Promotions tab for receipts & correspondence from ShopADoc.">&nbsp;</span></span>');
-		  $("#checkout_tooltip").html('<span class="tooltip_New checkout"><span class="tooltips custom_m_bubble" style="float:left !important;">&nbsp;</span><span class="tooltip_text">Please check your Inbox, Spam, Junk, & Promotions tab for receipts & correspondence <br class="only_print">from ShopADoc.</span>');
+		  $("#checkout_tooltip").html('<span class="tooltip_New checkout"><span class="tooltips" title="Please check your Inbox, Spam, Junk, & Promotions tab for receipts & correspondence from ShopADoc.">&nbsp;</span></span>');
+		  //$("#checkout_tooltip").html('<span class="tooltip_New checkout"><span class="tooltips custom_m_bubble" style="float:left !important;">&nbsp;</span><span class="tooltip_text">Please check your Inbox, Spam, Junk, & Promotions tab for receipts & correspondence <br class="only_print">from ShopADoc.</span>');
 		<?php	}?>
 		
 		/*$('#billing_full_name').focusin(  
