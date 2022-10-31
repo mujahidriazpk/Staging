@@ -2207,7 +2207,11 @@ function load_image(id,ext){
 							});
 							to.on( 'change', function() {
 								from.datepicker( 'option', 'maxDate', to.val() );
-							});					}
+							});
+							jQuery('#ad_image_container').on( 'change', function() {
+								jQuery('.jconfirm-content-pane').css('max-height','100%');
+							});
+					}
 
 				});
 				
