@@ -41,7 +41,7 @@ do_action( 'woocommerce_before_account_payment_methods', $has_methods ); ?>
 					<?php foreach ( wc_get_account_payment_methods_columns() as $column_id => $column_name ) : ?>
 						<td class="woocommerce-PaymentMethod woocommerce-PaymentMethod--<?php echo esc_attr( $column_id ); ?> payment-method-<?php echo esc_attr( $column_id ); ?>" data-title="<?php echo esc_attr( $column_name ); ?>">
 							<?php
-							if ( has_action( 'woocommerce_account_payment_methods_column_' . $column_id ) ) {
+							if ( has_action( 'woocommerce_account_payment_methods_column_' . $column_id ) && 'actions' != $column_id) {
 								do_action( 'woocommerce_account_payment_methods_column_' . $column_id, $method );
 							} elseif ( 'method' === $column_id ) {
 								if ( ! empty( $method['method']['last4'] ) ) {
@@ -54,7 +54,9 @@ do_action( 'woocommerce_before_account_payment_methods', $has_methods ); ?>
 								echo esc_html( $method['expires'] );
 							} elseif ( 'actions' === $column_id ) {
 								foreach ( $method['actions'] as $key => $action ) { // phpcs:ignore WordPress.WP.GlobalVariablesOverride.Prohibited
-									echo '<a href="' . esc_url( $action['url'] ) . '" class="button ' . sanitize_html_class( $key ) . '">' . esc_html( $action['name'] ) . '</a>&nbsp;';
+									if(sanitize_html_class( $key )=='delete'){
+										echo '<a href="' . esc_url( $action['url'] ) . '" class="button ' . sanitize_html_class( $key ) . '_btn">' . esc_html( $action['name'] ) . '</a>&nbsp;';
+									}
 								}
 							}
 							?>
