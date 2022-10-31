@@ -516,11 +516,11 @@ function submitUser(){
   <style type="text/css">
   div.wpforms-container-full .wpforms-form input:disabled, div.wpforms-container-full .wpforms-form textarea:disabled, div.wpforms-container-full .wpforms-form select:disabled{color:#333 !important;}
   div.wpforms-container-full .wpforms-form .wpforms-field-label{font-weight:normal !important}
-  #toplevel_page_admin-page-ADDEMO a{
+  #toplevel_page_admin-page-ADDEMO a.menu-top{
 			background: #2271b1 !important;
 			color: #fff !important;
 			}
-			#toplevel_page_admin-page-ADDEMO a:after {
+			#toplevel_page_admin-page-ADDEMO a.menu-top:after {
 			right: 0;
 			border: solid 8px transparent;
 			content: " ";
