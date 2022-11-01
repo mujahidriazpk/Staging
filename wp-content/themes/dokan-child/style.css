@@ -1414,12 +1414,13 @@ ul.custom_service li {
 .elementor-widget-video .elementor-custom-embed-image-overlay img{
 	width:50px !important;
 }
-.navbar-nav .open .dropdown-menu {
-	left:-100px;
+.navbar-nav .open .dropdown-menu,.lang_es .navbar-nav .open .dropdown-menu {
+	left:unset;
+	right: 0px;
 }
-.lang_es .navbar-nav .open .dropdown-menu {
+/*.lang_es .navbar-nav .open .dropdown-menu {
 	left:-120px;
-}
+}*/
 .woocommerce .blockUI.blockOverlay:before,.woocommerce .loader:before{
 	position:fixed !important;
 	margin-left:0 !important;
