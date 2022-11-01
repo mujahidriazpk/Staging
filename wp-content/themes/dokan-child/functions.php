@@ -2838,13 +2838,13 @@ function enroll_student( $order_id ) {
 		if($auction_id){
 			echo '<a href="'.get_permalink( $auction_id ).'" class="bid_button button alt" >Return to Auction Listing</a>&nbsp;';
 		}
-    	echo '<a href="'.site_url().'/shopadoc-auction-activity/" class="bid_button button alt proceed_to_auction" id="not_print">Proceed to Auction</a><span id="checkout_tooltip" ><span class="tooltip_New checkout"><span class="tooltips custom_m_bubble"  style="float:left !important;">&nbsp;</span><span class="tooltip_text">Please check your Inbox, Spam, Junk, & Promotions tab for receipts & correspondence <br class="only_print">from ShopADoc.</span></span></span>';
+    	echo '<a href="'.site_url().'/shopadoc-auction-activity/" class="bid_button button alt proceed_to_auction" id="not_print">Proceed to Auction</a><span id="checkout_tooltip" ><span class="tooltip_New checkout"><span class="tooltips custom_m_bubble"  style="float:left !important;">&nbsp;</span><span class="tooltip_text" style="font-size:85%;">Please check your Inbox, Spam, Junk, & Promotions tab for receipts & correspondence <br class="only_print">from ShopADoc.</span></span></span>';
 		echo "</p>";
 	}
 	$user = wp_get_current_user();
 	if($user->roles[0]=='seller'){
 		echo '<p style="width:100%;float:left;" >';
-		echo '<a href="'.get_permalink( $auction_id ).'" style="padding:15px 30px;font-weight:bold;" class="bid_button button alt proceed_to_auction not_print"  id="not_print" >Proceed to Auction</a><span id="checkout_tooltip"><span class="tooltip_New checkout"><span class="tooltips custom_m_bubble"  style="float:left !important;">&nbsp;</span><span class="tooltip_text">Please check your Inbox, Spam, Junk, & Promotions tab for receipts & correspondence <br class="only_print">from ShopADoc.</span></span></span><!--&nbsp;<a href="'.dokan_get_navigation_url('auction').'" class="bid_button button alt" >Auction Activity</a>-->';
+		echo '<a href="'.get_permalink( $auction_id ).'" style="padding:15px 30px;font-weight:bold;" class="bid_button button alt proceed_to_auction not_print"  id="not_print" >Proceed to Auction</a><span id="checkout_tooltip"><span class="tooltip_New checkout"><span class="tooltips custom_m_bubble"  style="float:left !important;">&nbsp;</span><span class="tooltip_text" style="font-size:85%;">Please check your Inbox, Spam, Junk, & Promotions tab for receipts & correspondence <br class="only_print">from ShopADoc.</span></span></span><!--&nbsp;<a href="'.dokan_get_navigation_url('auction').'" class="bid_button button alt" >Auction Activity</a>-->';
 			echo "</p>";
 	}
 
@@ -3744,7 +3744,7 @@ add_action( 'init', function() {
             <h1>You now have access to view and bid on all auctions within your service area.</h1>
             <h1>Best of Luck!</h1>
             <div class="wpforms-confirmation-container-full wpforms-confirmation-scroll" id="wpforms-confirmation-154">
-<div class="buttons" id="not_print"><a href="<?php echo site_url(); ?>/shopadoc-auction-activity/ " title="View Auctions" class="button button-primary proceed_to_auction"><?php esc_html_e( 'Proceed to Auction', 'wpforms-lite' ); ?></a><span id="checkout_tooltip" class="not_print"><span class="tooltip_New checkout"><span class="tooltips custom_m_bubble"  style="float:left !important;">&nbsp;</span><span class="tooltip_text">Please check your Inbox, Spam, Junk, & Promotions tab for receipts & correspondence from ShopADoc.</span></span></span></div>
+<div class="buttons" id="not_print"><a href="<?php echo site_url(); ?>/shopadoc-auction-activity/ " title="View Auctions" class="button button-primary proceed_to_auction"><?php esc_html_e( 'Proceed to Auction', 'wpforms-lite' ); ?></a><span id="checkout_tooltip" class="not_print"><span class="tooltip_New checkout"><span class="tooltips custom_m_bubble"  style="float:left !important;">&nbsp;</span><span class="tooltip_text" style="font-size:85%;">Please check your Inbox, Spam, Junk, & Promotions tab for receipts & correspondence from ShopADoc.</span></span></span></div>
 <?php
 		//print_r($_SERVER);
 		
