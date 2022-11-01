@@ -1074,7 +1074,7 @@ if(isset($_REQUEST['mode']) && $_REQUEST['mode']=='submitAD'){
 					$option_name_old =$option_name_new;
 					$option_name_new = 'position'.$_POST['rotation_new'].'_col'.$_POST['column_new'].'_'.$tmp[2];
 				}
-				$wpdb->query("DELETE FROM wp_options where option_name like '%".$option_name_new."%' and option_value =".$post_id);
+				//$wpdb->query("DELETE FROM wp_options where option_name like '%".$option_name_new."%' and option_name not like '%old%' and option_value =".$post_id);
 				
 				$start = new DateTime(date("Y-m-d",strtotime($_POST['start_date'])));
 				$interval = new DateInterval('P1M');
@@ -1093,7 +1093,11 @@ if(isset($_REQUEST['mode']) && $_REQUEST['mode']=='submitAD'){
 					}
 				}
 				if(strtotime($today_date_time_seconds) >= strtotime($_POST['end_date'])){
-                    $wpdb->query("DELETE FROM wp_options where option_value =".$post_id);
+					$option_name = $_POST['id'];
+					$oldRotation = get_option($option_name);
+					add_option("old_".$option_name, $oldRotation);
+					
+                    $wpdb->query("DELETE FROM wp_options where option_name not like '%old%' and option_value =".$post_id);
                 }
 	
 	}else{
