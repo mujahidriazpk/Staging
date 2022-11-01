@@ -5953,6 +5953,7 @@ function ad_setting_admin_menu() {
 		
 		//add_menu_page(__( 'AD DEMO', 'textdomain' ),'AD DEMO','shopadoc_admin_cap','users.php?role=ad_demo','','dashicons-megaphone',8);
 		add_menu_page('AD DEMO', 'AD DEMO', 'shopadoc_admin_cap', 'admin.php?page=ADDEMO','','dashicons-chart-bar',8);
+		add_submenu_page( 'admin.php?page=ADDEMO', 'Prospects', 'Prospects','shopadoc_admin_cap', 'admin.php?page=ADDEMO');
 		add_submenu_page( 'admin.php?page=ADDEMO', 'Demo View', 'Demo View','shopadoc_admin_cap', home_url('/auction-3977/demo-auction/'));
 		
 		add_menu_page('ADVERTISERS', 'ADVERTISERS', 'shopadoc_admin_cap', '#','','dashicons-chart-bar',9);

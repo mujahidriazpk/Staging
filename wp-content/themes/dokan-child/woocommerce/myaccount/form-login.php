@@ -22,13 +22,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 <?php wc_print_notices(); ?>
 <?php do_action( 'woocommerce_before_customer_login_form' ); ?>
 <?php if ( get_option( 'woocommerce_enable_myaccount_registration' ) === 'yes' ) : ?>
-<?php if(isset($_GET['login'])&&$_GET['login']=='failed' && !isset($_GET['pr-errors'])){?>
+<?php if(isset($_GET['login'])&&$_GET['login']=='failed'){?>
 
 <div class="woocommerce-notices-wrapper" >
-  <div class="woocommerce-message woocommerce-error" style="margin:0;" role="alert"><?php echo __('Email Address / Password not recognized. Please check and try again.', 'wc_simple_auctions');?></div>
+  <div class="woocommerce-message woocommerce-error" style="margin:0;" role="alert"><?php echo __('Email / Password not recognized. Please check and try again.', 'wc_simple_auctions');?></div>
 </div>
 <?php }?>
-<?php if(isset($_GET['login'])&&$_GET['login']=='failed' && isset($_GET['pr-errors'])){
+<?php if(isset($_GET['login'])&&$_GET['login']=='failed' && isset($_GET['pr-errors']) && 1==2){
 	$error = json_decode(base64_decode($_GET['pr-errors']));
 	?>
 <div class="woocommerce-notices-wrapper" >
@@ -55,7 +55,7 @@ if ( ! defined( 'ABSPATH' ) ) {
       <?php do_action( 'woocommerce_login_form_start' ); ?>
       <p class="form-row form-row-wide">
         <label for="username">
-          <?php esc_html_e( 'Username or email address', 'dokan-theme' ); ?>
+          <?php esc_html_e( 'Email', 'dokan-theme' ); ?>
           <span class="required">*</span></label>
         <input type="text" class="input-text form-control" name="username" id="username" autocomplete="username"/>
       </p>
