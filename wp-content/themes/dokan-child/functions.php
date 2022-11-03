@@ -2323,7 +2323,7 @@ function dokan_header_user_menu_custom() {
 				}
 				
 				
-				if($current_user->roles[0]=='advanced_ads_user' || $current_user->roles[0]=='ad_demo'){
+				if($current_user->roles[0]=='advanced_ads_user' || $current_user->roles[0]=='ad_demo' || $current_user->roles[0]=='shopadoc_admin'){
 						$display_name = '<span style="text-transform:lowercase">hello!</span>';
 				}
 				?>
@@ -2335,7 +2335,7 @@ function dokan_header_user_menu_custom() {
 						<li><a href="<?php echo dokan_get_navigation_url( 'new-auction-product' ); ?>"><?php _e( 'List My Service', 'dokan-theme' ); ?></a></li>
 						<li><a href="<?php echo wc_customer_edit_account_url(); ?>"><?php _e( 'Edit Contact Info', 'dokan-theme' ); ?></a></li>	
 						<?php }else{?>
-						<?php if($current_user->roles[0]=='advanced_ads_user'){?>
+						<?php if($current_user->roles[0]=='advanced_ads_user' || ($current_user->roles[0]=='shopadoc_admin' && isset($_GET['screen']) && $_GET['screen'] == 'advertiser')){?>
 						<?php 
 							$dentist_ad = getActiveAds('D');
 							$client_ad =  getActiveAds('C');
@@ -2426,7 +2426,7 @@ function dokan_header_user_menu_custom() {
                        		<li><a href="<?php echo wc_customer_edit_account_url(); ?>"><?php _e( 'Change Password', 'dokan-theme' ); ?></a></li>	
 							<li><a href="<?php echo site_url(); ?>/contact-support/"><?php _e( 'Contact', 'dokan-theme' ); ?></a></li>
 						<?php }?>
-						<?php }elseif($current_user->roles[0]=='ad_demo'){?>
+						<?php }elseif($current_user->roles[0]=='ad_demo' || $current_user->roles[0]=='shopadoc_admin'){?>
 						<li><a href="/"><?php _e( 'ShopADoc® homepage', 'dokan-theme' ); ?></a></li>
 						<li><a href="<?php echo site_url(); ?>/auction-3977/demo-auction/?screen=client" ><?php _e( 'Client Ads', 'dokan-theme' ); ?></a></li>
 						<li><a href="<?php echo site_url(); ?>/auction-3977/demo-auction/" ><?php _e( 'Dentist Ads', 'dokan-theme' ); ?></a></li>
@@ -3278,7 +3278,9 @@ add_action( 'init', function() {
 										$role_array = array("C"=>"Client","D"=>"Dentist");
 										$temp = explode(" ",htmlspecialchars_decode(get_the_title($ad)));
 										$temp2 = explode("&nbsp;",$temp[2]);
-										$rotation_output .= "<span style='position: absolute; color: #fff;font-size:15px;font-weight: bold;margin-left: 10px;left:0;'>".$role_array[$temp[0]]." ".$temp2[0]."</span>";
+										if($user->roles[0]=='shopadoc_admin'){
+											$rotation_output .= "<span style='position: absolute; color: #fff;font-size:15px;font-weight: bold;margin-left: 10px;left:0;'>".$role_array[$temp[0]]." ".$temp2[0]."</span>";
+										}
 										$rotation_output .= get_ad($ad);
 										$ad_ga = '['.$ad.'] '.str_replace("–","-",str_replace("&nbsp;"," ",get_the_title($ad)));
 										array_push($set_ads_ga,$ad_ga);

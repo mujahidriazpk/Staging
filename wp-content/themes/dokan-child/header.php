@@ -1083,6 +1083,12 @@ if it's not present, don't show loader */
                              </div>
                              
                                       <?php echo do_shortcode('[aps-social id="1"]')?>
+							
+							<?php $user = wp_get_current_user(); 
+								if($user->roles[0]=='shopadoc_admin'){
+										echo '<a href="'.home_url('/wp-admin/admin.php?page=home_performance').'" style="position:relative;z-index:555;font-size:13px !important;margin-left:5px;" class="dokan-btn dokan-btn-theme btn-primary" title="Back">Back</a>';
+								}
+							?>
                             
                         </div>
                         <?php

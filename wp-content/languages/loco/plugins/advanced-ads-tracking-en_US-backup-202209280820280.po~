@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-03 18:36+0000\n"
 "POT-Revision-Date: Tue Jul 19 2016 14:27:01 GMT+0200 (CEST)\n"
-"PO-Revision-Date: 2022-07-22 11:05+0000\n"
+"PO-Revision-Date: 2022-07-22 11:06+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
@@ -258,7 +258,7 @@ msgstr ""
 
 #: admin/admin.php:485 public/views/ad-stats.php:204
 msgid "ctr"
-msgstr "CTR"
+msgstr "<span class='sort'></span>CTR"
 
 #: admin/views/metabox.php:122
 msgid "current"

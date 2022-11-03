@@ -94,9 +94,9 @@ navbar-top-area .navbar-nav > li > a {
 					display:block;
 				  }
 }
-.rotation_ad span{
+/*.rotation_ad span{
 	display:none;
-}
+}*/
 .detail_section{float:left;width:100%;}
 .woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary{
 	width:51%;
