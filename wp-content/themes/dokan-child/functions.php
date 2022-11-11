@@ -7128,15 +7128,17 @@ function addUser(user_id,type){
 																					return false;
 																				}*/
 																				var vars = jQuery("#wpforms-form-6724").serialize();
+																				var ledger_id = jQuery('#ledger_id').val();
 																				jQuery.ajax({	
 																								url:'<?php echo get_site_url();?>/ajax.php',	
 																								type:'POST',
-																								data:{'mode':'submitSuspendReason','vars':vars,'user_id':user_id},
+																								data:{'mode':'submitSuspendReason','vars':vars,'user_id':user_id,'ledger_id':ledger_id},
 																								beforeSend: function() {},
 																								complete: function() {
 																									
 																								},
 																								success:function (data){
+																									jQuery('#ledger_id').val('');
 																								}
 																				});
 							
@@ -7157,10 +7159,11 @@ function addUser(user_id,type){
 																		// if the user submits the form by pressing enter in the field.
 																		e.preventDefault();
 																		var vars = jQuery("#wpforms-form-6724").serialize();
+																		var ledger_id = jQuery('#ledger_id').val();
 																			jQuery.ajax({	
 																					url:'<?php echo get_site_url();?>/ajax.php',	
 																					type:'POST',
-																					data:{'mode':'submitSuspendReason','vars':vars,'user_id':user_id},
+																					data:{'mode':'submitSuspendReason','vars':vars,'user_id':user_id,'ledger_id':ledger_id},
 																					beforeSend: function() {},
 																					complete: function() {
 																						
@@ -7169,6 +7172,7 @@ function addUser(user_id,type){
 																						var tmp = data.split('##');
 																						jQuery('#SuspendReason').val(tmp[0]);
 																						jQuery('#resultList').html(tmp[1]);
+																						jQuery('#ledger_id').val('');
 																						//jQuery('.suspendPopUp .jconfirm-content-pane').attr('style','height:100%;max-height:100%;overflow-y:scroll;');
 																					}
 																			});

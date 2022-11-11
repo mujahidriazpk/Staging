@@ -641,6 +641,21 @@ class SP_Plugin_CDUSER {
   </div>
 </div>
 <script type="text/javascript">
+			function editLedger(id){
+				jQuery.ajax({	
+				url:'<?php echo get_site_url();?>/ajax.php',	
+				type:'POST',
+				data:{'mode':'getLedger','id':id,'type':'edit'},
+				beforeSend: function() {},
+				complete: function() {
+				},
+				success:function (data){
+					jQuery('#SuspendReason').val(data);
+					jQuery('#ledger_id').val(id);
+				}
+		
+				});
+			}
 			var options = {
 						script:"/autosuggest.php?json=true&field=city&",
 						varname:"input",
