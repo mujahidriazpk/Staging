@@ -611,7 +611,7 @@ function submitUser(){
 						echo '<div id="message" class="updated is-dismissible"><p>User updated.</p></div>';
 					}
 					if(trim($params['update'])=='approveUser'){
-						echo '<div id="message" class="updated is-dismissible"><p>user approved.</p></div>';
+						echo '<div id="message" class="updated is-dismissible"><p>Reactivate Acct.</p></div>';
 					}
 					if(trim($params['update'])=='resetpassword'){
 						echo '<div id="message" class="updated is-dismissible"><p>Password reset link sent.</p></div>';
@@ -682,9 +682,9 @@ function submitUser(){
                 <!--  <span class="delete"><a class="submitdelete" href="<?php echo wp_nonce_url('admin.php?page=ADVERTISER&action=delete&user='.$user->ID);?>">Delete</a> | </span>-->
                   <!--<span class="view"><a href="javascript:viewUser('<?php echo $user->ID;?>','view');" aria-label="View posts by ADVERTISER">View</a> | </span> <span class="resetpassword"><a class="resetpassword" href="<?php echo wp_nonce_url( "users.php?action=resetpassword&user=".$user->ID."&wp_http_referer=/wp-admin/admin.php?page=ADVERTISER&update=resetpassword", 'bulk-users' );?>">Send password reset</a></span>-->
                     <?php if($deactivate_advertiser=='Yes'){?>
-                    <!--<span class="wpforms-approve"><a class="submitapprove" href="<?php echo wp_nonce_url('admin.php?page=ADVERTISER&action=approve&user='.$user->ID);?>"> | Renew</a></span>-->
+                    <span class="wpforms-approve"><a class="submitapprove" href="<?php echo wp_nonce_url('admin.php?page=ADVERTISER&action=approve&user='.$user->ID);?>"> | Reactivate Acct</a></span>
                     <?php }else{?>
-                    <!--<span class="wpforms-deactive"><a class="submitdeactive" href="<?php echo wp_nonce_url('admin.php?page=ADVERTISER&action=deactive&user='.$user->ID);?>"> | Deactivate</a></span>-->
+                    <span class="wpforms-deactive"><a class="submitdeactive" href="<?php echo wp_nonce_url('admin.php?page=ADVERTISER&action=deactive&user='.$user->ID);?>"> | Deactivate</a></span>
                     <?php }?>
                    <!-- <span class="wpforms-upgrade"><a class="upgrade" href="<?php echo wp_nonce_url('admin.php?page=ADVERTISER&action=upgrade&user='.$user->ID);?>" style="color:#10C168;"> | Upgrade to Advertiser</a></span>-->
                   </div></td>
