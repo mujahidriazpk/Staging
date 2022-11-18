@@ -538,6 +538,7 @@ function pay_for_plan($auction_id,$type){
 		WC()->cart->add_to_cart($product_id, '1', '0', array(), $custom_data); 
 	}
 	//echo "here";die;
+
 	//check if product already in cart
 	//if ( WC()->cart->get_cart_contents_count() == 0 ) {
 		// if no products in cart, add it
@@ -1833,6 +1834,7 @@ function my_woocommerce_save_account_details( $user_id ) {
 			}
 	  	}
 	}					 
+
   }elseif($user->roles[0]=='advanced_ads_user'){
 	  $field_array = array(
 	  				 'Change Address' => 'label',
@@ -2363,12 +2365,12 @@ function dokan_header_user_menu_custom() {
                             while ($product_query->have_posts()) {*/
 							$client_ad = getActiveAD_id("C ",get_current_user_id());
 							$dentist_ad = getActiveAD_id("D ",get_current_user_id());
-							if($client_ad==0 ){
+							if($client_ad==0 && $current_user->roles[0] !='shopadoc_admin'){
 								$client_class = 'availability_popup';
 							}else{
 								$client_class = '';
 							}
-							if($dentist_ad==0){
+							if($dentist_ad==0 && $current_user->roles[0] !='shopadoc_admin'){
 								$dentist_class = 'availability_popup';
 							}else{
 								$dentist_class = '';
@@ -3178,7 +3180,7 @@ add_action( 'init', function() {
 		if($user->roles[0]=='seller'){
 			$rotations_client = $rotations_client;
 		}else{
-			if($user->roles[0]=='ad_demo'){
+			if($user->roles[0]=='ad_demo' || $user->roles[0]=='shopadoc_admin'){
 				if(isset($_GET['screen']) && $_GET['screen']=='client'){
 					$rotations_client = $rotations_client;
 				}else{
@@ -3278,8 +3280,8 @@ add_action( 'init', function() {
 										$role_array = array("C"=>"Client","D"=>"Dentist");
 										$temp = explode(" ",htmlspecialchars_decode(get_the_title($ad)));
 										$temp2 = explode("&nbsp;",$temp[2]);
-										if($user->roles[0]=='shopadoc_admin'){
-											$rotation_output .= "<span style='position: absolute; color: #fff;font-size:15px;font-weight: bold;margin-left: 10px;left:0;'>".$role_array[$temp[0]]." ".$temp2[0]."</span>";
+										if($user->roles[0]=='shopadoc_admin' && $_GET['screen'] != 'advertiser'){
+											$rotation_output .= "<span style='position: absolute; color: #fff;font-size:15px;font-weight: bold;margin-left: 10px;right:5px;'>".$role_array[$temp[0]]." ".$temp2[0]."</span>";
 										}
 										$rotation_output .= get_ad($ad);
 										$ad_ga = '['.$ad.'] '.str_replace("–","-",str_replace("&nbsp;"," ",get_the_title($ad)));
@@ -4430,6 +4432,7 @@ function list_ads_stats_demo_func(){
 					case 'lastyear' :
 						// timestamp from first day of previous year
 						$start = $util->get_timestamp( mktime(0, 0, 0, 1, 1, date('Y') - 1) );
+
 						$end = $now - $now % Advanced_Ads_Tracking_Util::MOD_MONTH;
 						break;
 					case 'custom' :
