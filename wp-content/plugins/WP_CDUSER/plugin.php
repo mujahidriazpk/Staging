@@ -579,6 +579,7 @@ class SP_Plugin_CDUSER {
 						}else{
 							$Order_Array[0]['status'] =  '<span class="circle_green">&nbsp;</span>';
 						}
+						 $Order_Array[0]['popup_ledger'] = '&nbsp;<a onClick="openLedger(\''. $userArray->ID.'\',\'client\');" href="javascript:"><img src="'.home_url('wp-content/plugins/WP_CDUSER/spiral_bookle.png').'" alt="spiral_bookle" title="spiral_bookle" height="" width="18px" /></a>';
 					}
 					if($userArray->roles[0]=='customer'){
 						$Order_Array[0]['popup']  = '<a onClick="openUserCD(\''. $userArray->ID.'\',\'dentist\',\''. $deactivate_CD.'\');" href="javascript:"><strong>D</strong></a>';
@@ -588,6 +589,7 @@ class SP_Plugin_CDUSER {
 						}else{
 							$Order_Array[0]['status'] = '<span class="circle_green">&nbsp;</span>';
 						}
+						$Order_Array[0]['popup_ledger'] = '&nbsp;<a onClick="openLedger(\''. $userArray->ID.'\',\'dentist\');" href="javascript:"><img src="'.home_url('wp-content/plugins/WP_CDUSER/spiral_bookle.png').'" alt="spiral_bookle" title="spiral_bookle" height="" width="18px" /></a>';
 					}			
 				}
 				
@@ -602,7 +604,7 @@ class SP_Plugin_CDUSER {
                                 <td align="center"><?php echo $order['Date'];?></td>
                                 <td align="center"><?php if($order['Auction_id']!=""){?><a href="admin.php?page=auctions&search_str=<?php echo $order['Auction_id'];?>" title="<?php echo $order['Auction_id'];?>" target="_new"><?php echo $order['Auction_id'];?></a><?php }else{?>&mdash;<?php }?></td>
                                 <td align="center"><?php echo $order['popup'];?></td>
-                                <td align="center"><?php echo $order['status'];?></td>
+                                <td align="center"><?php echo $order['status'];?><?php echo $order['popup_ledger'];?></td>
                           </tr>
                       <?php }?>
                   <?php }?>
@@ -610,9 +612,11 @@ class SP_Plugin_CDUSER {
 					  $deactivate_CD =  get_user_meta($userArray->ID, 'deactivate_CD', true );
 					  if($userArray->roles[0]=='seller'){
 						  $popup = '<a onClick="openUserCD(\''. $userArray->ID.'\',\'client\',\''. $deactivate_CD.'\');" href="javascript:"><strong>C</strong></a>';
+						  $popup_ledger = '&nbsp;<a onClick="openLedger(\''. $userArray->ID.'\',\'client\');" href="javascript:"><img src="'.home_url('wp-content/plugins/WP_CDUSER/spiral_bookle.png').'" alt="spiral_bookle" title="spiral_bookle" height="" width="18px" /></a>';
 					  }
 					  if($userArray->roles[0]=='customer'){
 						  $popup = '<a onClick="openUserCD(\''. $userArray->ID.'\',\'dentist\',\''. $deactivate_CD.'\');" href="javascript:"><strong>D</strong></a>';
+						  $popup_ledger = '&nbsp;<a onClick="openLedger(\''. $userArray->ID.'\',\'dentist\');" href="javascript:"><img src="'.home_url('wp-content/plugins/WP_CDUSER/spiral_bookle.png').'" alt="spiral_bookle" title="spiral_bookle" height="" width="18px" /></a>';
 					  }
 					if($deactivate_CD=='Yes'){
 						$status =  '<span class="circle_red">&nbsp;</span>';
@@ -626,7 +630,7 @@ class SP_Plugin_CDUSER {
                             <td align="center">&mdash;</td>
                             <td align="center">&mdash;</td>
                             <td align="center"><?php echo $popup;?></td>
-                            <td align="center"><?php echo $status;?></td>
+                            <td align="center"><?php echo $status;?><?php echo $popup_ledger;?></td>
                       </tr>
                   <?php }?>
               <?php }?>

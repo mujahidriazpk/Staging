@@ -7028,6 +7028,79 @@ function addUser(user_id,type){
 			}
 		});
  }
+ function openLedger(user_id,type){
+	jQuery.ajax({	
+				url:'<?php echo get_site_url();?>/ajax.php',	
+				type:'POST',
+				data:{'mode':'getSuspendPopup','access':'page','user_id':user_id,'type':type},
+				beforeSend: function() {},
+				complete: function() {},
+				success:function (data){
+					jQuery.confirm({
+										title:'<strong>Status Ledger</strong>',
+										content: data,
+										closeIcon: true,
+										columnClass: 'col-md-12 suspendPopUp',
+										buttons: {
+											formSubmit: {
+												text: 'Save',
+												btnClass: 'btn-blue hide',
+												action: function () {
+														var vars = jQuery("#wpforms-form-6724").serialize();
+														var ledger_id = jQuery('#ledger_id').val();
+														jQuery.ajax({	
+																		url:'<?php echo get_site_url();?>/ajax.php',	
+																		type:'POST',
+																		data:{'mode':'submitSuspendReason','vars':vars,'user_id':user_id,'ledger_id':ledger_id},
+																		beforeSend: function() {},
+																		complete: function() {
+
+																		},
+																		success:function (data){
+																			jQuery('#ledger_id').val('');
+																		}
+														});
+
+
+												}
+											},
+											//cancel: function () {},
+										},
+										onClose: function () {
+											// before the modal is hidden.
+											//window.location.replace(window.location.href + "&firstname="+jQuery('#firstname').val()+ "&lastname="+jQuery('#lastname').val());
+											return true;
+										},
+										onContentReady: function () {
+											//jQuery('.jconfirm-content-pane').attr('style','height:475px;max-height:100%;overflow-y:scroll;');
+											jQuery('.jconfirm-content-pane').addClass('suspendListArea');
+											jQuery("#submitSuspend").on('click', function (e) {
+												// if the user submits the form by pressing enter in the field.
+												e.preventDefault();
+												var vars = jQuery("#wpforms-form-6724").serialize();
+												var ledger_id = jQuery('#ledger_id').val();
+													jQuery.ajax({	
+															url:'<?php echo get_site_url();?>/ajax.php',	
+															type:'POST',
+															data:{'mode':'submitSuspendReason','vars':vars,'user_id':user_id,'ledger_id':ledger_id},
+															beforeSend: function() {},
+															complete: function() {
+
+															},
+															success:function (data){
+																var tmp = data.split('##');
+																jQuery('#SuspendReason').val(tmp[0]);
+																jQuery('#resultList').html(tmp[1]);
+																jQuery('#ledger_id').val('');
+																//jQuery('.suspendPopUp .jconfirm-content-pane').attr('style','height:100%;max-height:100%;overflow-y:scroll;');
+															}
+													});
+											});
+										}
+									});
+				}
+			});
+ } 
  function openUserCD(user_id,type,freeze_status){
 	 //alert("test");
 	 if(freeze_status=='' || freeze_status == 'No'){
@@ -7113,12 +7186,12 @@ function addUser(user_id,type){
 								 jQuery.ajax({	
 										url:'<?php echo get_site_url();?>/ajax.php',	
 										type:'POST',
-										data:{'mode':'getSuspendPopup','user_id':user_id,'type':type,'freeze_status':freeze_status},
+										data:{'mode':'getSuspendPopup','access':'statusUpdate','user_id':user_id,'type':type,'freeze_status':freeze_status},
 										beforeSend: function() {},
 										complete: function() {},
 										success:function (data){
 											jQuery.confirm({
-																title:'<strong>Acct Status Ledger</strong>',
+																title:'<strong>Status Ledger</strong>',
 																content: data,
 																closeIcon: true,
 																columnClass: 'col-md-12 suspendPopUp',
