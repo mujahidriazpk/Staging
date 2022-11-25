@@ -3223,7 +3223,7 @@ add_action( 'init', function() {
 					
 			}
 		}
-		global $wp;
+		global $wp,$wpdb;
 		$current_url =  home_url($wp->request);
 		if(is_404() && strpos($current_url,"/auction-") > 0){
 			$expired_listing = 'yes';
@@ -3247,6 +3247,7 @@ add_action( 'init', function() {
 		}
 		if($expired_listing=='no'){
 						$i = 1;
+						$alphabet = array('1'=>'A','2'=>'B','3'=>'C','4'=>'D');
 						foreach($rotations_client as $rotation_str){
 								if($i == 1 && 1==2){
 									$style =' style = "display:block;"'; 
@@ -3281,7 +3282,18 @@ add_action( 'init', function() {
 										$temp = explode(" ",htmlspecialchars_decode(get_the_title($ad)));
 										$temp2 = explode("&nbsp;",$temp[2]);
 										if($user->roles[0]=='shopadoc_admin' && $_GET['screen'] != 'advertiser'){
-											$rotation_output .= "<span style='position: absolute; color: #fff;font-size:15px;font-weight: bold;margin-left: 10px;right:5px;'>".$role_array[$temp[0]]." ".$temp2[0]."</span>";
+											$query = "SELECT option_name FROM `wp_options` where option_value = '".$ad."' ORDER BY option_id desc limit 1";
+											$option_name = $wpdb->get_var($query);	
+											if($option_name !=''){
+												$option_name = str_replace('old_','',$option_name);
+												$tmp = explode("_",$option_name);
+												$position = str_replace("position","",$tmp[0]);
+												$col = str_replace("col","",$tmp[1]);
+											}else{
+												$position='';
+												$col = '';
+											}
+											$rotation_output .= "<span style='position: absolute; color: #fff;font-size:15px;font-weight: bold;margin-left: 10px;right:5px;'>".$role_array[$temp[0]]." ".$alphabet[$col].$position."</span>";
 										}
 										$rotation_output .= get_ad($ad);
 										$ad_ga = '['.$ad.'] '.str_replace("–","-",str_replace("&nbsp;"," ",get_the_title($ad)));

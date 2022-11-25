@@ -695,7 +695,7 @@ class SP_Plugin_AD_Stats {
 <script src="<?php echo home_url();?>/wp-content/plugins/WP_ADS/js/select2.js"></script>
           <script src='/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
           <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-          <table style="width: 100%;">
+          <table style="width: 100%;" class="not_print" >
             <tbody>
               <tr>
                 <td align="right"><form method="get" id="period-form" action="<?php echo home_url('/wp-admin/admin.php?page=AD_Stats');?>">
@@ -843,6 +843,11 @@ class SP_Plugin_AD_Stats {
 	</script>
 			<style type="text/css">
 				@media print {
+					@page 
+					{
+						size: auto;   /* auto is the initial value */
+						margin: 0mm;  /* this affects the margin in the printer settings */
+					}
     				body {
 							background-image: url(<?php echo home_url('/wp-content/themes/dokan-child/watermark.png');?>) !important;
 							background-repeat: no-repeat !important;
@@ -850,13 +855,27 @@ class SP_Plugin_AD_Stats {
 							background-position: center 5% !important;
 							/*background-attachment: fixed !important;*/
 							background-size: auto;
+      						 -webkit-print-color-adjust: exact !important;   /* Chrome, Safari, Edge */
+   							 color-adjust: exact !important;                 /*Firefox*/
 						}
+					.entry-title{
+						padding-bottom: 10px;
+						margin-bottom: 10px;
+						margin-top: 0;
+						font-family: 'Cinzel' !important;
+						text-transform: none !important;
+						font-size: 28px;
+						color: #222;
+						font-weight: 500;
+						line-height: 1.1;
+						left:10px !important;
+					}
 					#menu-management .menu-edit, #menu-settings-column .accordion-container, .comment-ays, .feature-filter, .imgedit-group, .manage-menus, .menu-item-handle, .popular-tags, .stuffbox, .widget-inside, .widget-top, .widgets-holder-wrap, .wp-editor-container, p.popular-tags, table.widefat {
 						border: none !important;
 						box-shadow: 0 1px 1px rgba(0,0,0,.0) !important;
 					}
 					th{text-transform: uppercase;}
-					.footer_print{width: 100%;background-color: #000;color: #fff;padding: 5px 15px;font-size: 13px;display: block !important;position: absolute;bottom: 0px;}
+					.footer_print{width: 100%;background-color: #000;color: #fff;padding: 5px 15px;font-size: 13px;display: block !important;position: absolute;bottom: 0px;height:20px;background: #000;width: 100%;background-color: #000;}
 					.wrap{height: 87vh !important;float:left;width: 100%;}
 				}
 			</style>
@@ -1000,10 +1019,10 @@ class SP_Plugin_AD_Stats {
     <br class="clear">
   </div>
 </div>
-<!--<div class="col-md-12 footer_print" style="display: none;">
+<div class="col-md-12 footer_print" style="display: none;height:20px;bottom: 40px;left:10px;">
           <img src="<?php echo home_url('/wp-content/themes/dokan-child/google_by_logo.png');?>" alt="google_data_logo" style="width:195px;margin-left:-8px;">
         </div>
-<div class="col-md-12 footer_print" style="display:none;">© 2018-2022 ShopADoc Inc. All Rights Reserved</div>-->
+<div class="col-md-12 footer_print" style="display:none;">© 2018-2022 ShopADoc Inc. All Rights Reserved</div>
 <?php
 
 }
