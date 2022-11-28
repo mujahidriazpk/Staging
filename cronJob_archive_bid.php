@@ -33,6 +33,7 @@ foreach($posts as $post) {
 		$my_post = array('ID' =>$post->ID,'post_status'   => 'private',);
 		wp_update_post( $my_post );
 		//Delete Thumbnails
+		/*
 		$_thumbnail_id = get_post_meta($post->ID, '_thumbnail_id', true );
 		$_product_image_gallery = get_post_meta($post->ID, '_product_image_gallery', true );
 		$images = array();
@@ -46,6 +47,7 @@ foreach($posts as $post) {
 					//wp_delete_attachment($image,true);
 				}
 		}
+		*/
 	}
 	
 }
