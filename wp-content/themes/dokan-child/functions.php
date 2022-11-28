@@ -1389,7 +1389,7 @@ function woocommerce_checkout_billing_custom_func(){
 
 add_action( 'woocommerce_edit_account_form', 'my_woocommerce_edit_account_form' );
 function my_woocommerce_edit_account_form() {
-  global $US_state;
+  global $US_state,$wpdb;
   $user_id = get_current_user_id();
   $user = get_userdata( $user_id );
   if ( !$user )
@@ -1527,6 +1527,12 @@ function my_woocommerce_edit_account_form() {
 			//get_user_meta( $user_id, 'dentist_account_status', true );
 			//if(!add_user_meta($user_id,'dentist_account_status',$_GET['mode'])) {
 				update_user_meta ($user_id,'dentist_account_status',$_GET['mode']);
+			
+				$SuspendReason = date('m/d/y').'&nbsp;Dentist deactivated account';
+				$data = array('user_id' =>$user_id, 'log_data' =>html_entity_decode($SuspendReason), 'status' =>1,);
+				$format = array('%d','%s','%d');
+				$wpdb->insert('wp_user_CD_log',$data,$format);
+			
 				if($_GET['mode']=='de-active' &&1==2){
 					/* global $current_user;
 					$subscriptions_users = YWSBS_Subscription_Helper()->get_subscriptions_by_user($current_user->ID);

@@ -79,6 +79,7 @@ do_action( 'woocommerce_before_account_payment_methods', $has_methods ); ?>
 	<a class="button" href="<?php echo esc_url( wc_get_endpoint_url( 'add-payment-method' ) ); ?>"><?php esc_html_e( 'Add payment method', 'woocommerce' ); ?></a>
 <?php endif; ?>
 <?php
+global $wpdb;
 $user_id = get_current_user_id();
 $user = get_userdata( $user_id );
 if($user->roles[0]=='customer'){
@@ -86,6 +87,12 @@ if($user->roles[0]=='customer'){
 			//get_user_meta( $user_id, 'dentist_account_status', true );
 			//if(!add_user_meta($user_id,'dentist_account_status',$_GET['mode'])) {
 				update_user_meta ($user_id,'dentist_account_status',$_GET['mode']);
+			
+				$SuspendReason = date('m/d/y').'&nbsp;Dentist deactivated account';
+				$data = array('user_id' =>$user_id, 'log_data' =>html_entity_decode($SuspendReason), 'status' =>1,);
+				$format = array('%d','%s','%d');
+				$wpdb->insert('wp_user_CD_log',$data,$format);
+			
 				if($_GET['mode']=='de-active' &&1==2){
 					/* global $current_user;
 					$subscriptions_users = YWSBS_Subscription_Helper()->get_subscriptions_by_user($current_user->ID);
@@ -155,6 +162,9 @@ if($user->roles[0]=='customer'){
 ?>
 
 <?php $dentist_account_status = get_user_meta(get_current_user_id(), 'dentist_account_status', true );
+$plan_orderid =get_plan_orderid();
+$plan_status = get_post_meta($plan_orderid,'_plan_status',true);
+$status = get_post_meta($plan_orderid,'status',true);
 if($dentist_account_status =='unsubscribe' || $dentist_account_status=='de-active' || $dentist_account_status =='de-active-sub-reg' || $dentist_account_status =='de-active-sub-reg-intial'){
 	//echo '<a href="'.get_site_url().'/?action=add_to_cart&type=register&auction_id=" class="" style="float:right;">Reactivate account</a>';
 	echo '<a href="'.get_site_url().'/?action=add_to_cart&type=register&auction_id=" class="" style="float:right;">&nbsp;</a>';
