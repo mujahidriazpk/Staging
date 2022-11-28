@@ -1,7 +1,21 @@
 <?php
 define('WP_USE_THEMES', true);
 require('/home/642855.cloudwaysapps.com/gddwwykpfm/public_html/wp-load.php');
-global $wpdb;
+global $wpdb,$demo_listing;
+function CheckImage($image){
+		global $wpdb;
+		$results = $wpdb->get_results("SELECT Distinct(post_id) FROM wp_postmeta WHERE (meta_key =  '_thumbnail_id' and meta_value ='".$image."')  or (meta_key =  '_product_image_gallery' and meta_value like '%".$image."%') ");
+		foreach ($results as $result) {
+			//print_r($result);
+			$status = get_post_status($result->post_id);
+			if($status=='publish'){
+				return 'in_use';
+				break;
+			}else{
+			}
+		}
+		return '';
+}
 $args = array('post_status'         => array('private'),
 				'posts_per_page'      => -1,
 				'tax_query'           => array( array( 'taxonomy' => 'product_type', 'field' => 'slug', 'terms' => 'auction' ) ),
@@ -30,7 +44,10 @@ foreach($posts as $post) {
 		}
 		array_push($images,$_thumbnail_id);
 		foreach($images as $image){
-			wp_delete_attachment($image,true);
+			$image_status = CheckImage($image);
+			if($image_status !='in_use'){
+				wp_delete_attachment($image,true);
+			}
 		}
 		//wp_delete_post($post->ID, true);
 	}
