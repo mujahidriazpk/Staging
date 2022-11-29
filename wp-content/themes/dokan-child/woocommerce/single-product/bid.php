@@ -4,6 +4,7 @@
  *
  */
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+global $current_user;
 $dentist_account_status = get_user_meta(get_current_user_id(), 'dentist_account_status', true );
 if($dentist_account_status =='de-active'){
 	wp_redirect( home_url( '/my-account/edit-account/' ) );
@@ -552,7 +553,6 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
             </style>
 
             <script type="text/javascript">
-               
 					//audio-5486-1_html5
 					<?php if(isset($_GET['action']) && $_GET['action']=='extended' && 1==2){}else{?>
 					setTimeout(function(){
@@ -577,7 +577,9 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
 											
 											var windowsize = jQuery(window).width();
                                             if(windowsize > 850){
-												GoInFullscreen(jQuery("#element").get(0));
+												<?php if($current_user->roles[0]!='shopadoc_admin'){?>
+													GoInFullscreen(jQuery("#element").get(0));
+												<?php }?>
                                                 /*if(IsFullScreenCurrently()){
                                                     GoOutFullscreen();
                                                 }else{
@@ -619,7 +621,9 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
 										action: function(){
                                            var windowsize = jQuery(window).width();
                                            if(windowsize > 850){
-												GoInFullscreen(jQuery("#element").get(0));
+												<?php if($current_user->roles[0]!='shopadoc_admin'){?>
+													GoInFullscreen(jQuery("#element").get(0));
+												<?php }?>
                                                 /*if(IsFullScreenCurrently()){
                                                     GoOutFullscreen();
                                                 }else{
