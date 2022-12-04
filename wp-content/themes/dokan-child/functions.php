@@ -469,6 +469,7 @@ function getDentistAddress(){
 	return $address;
 }
 function get_plan_dates($product_id){
+	global $monday,$thursday,$auction_expired_date_time,$flash_cycle_start,$flash_cycle_end;
 	$user_id = dokan_get_current_user_id();
 	$subscriptions_users = YWSBS_Subscription_Helper()->get_subscriptions_by_user($user_id);
 	$active_cancelled_flag = 'no';
@@ -499,6 +500,14 @@ function get_plan_dates($product_id){
 	if($this_monday==""){
 		$this_monday = date("Y-m-d",strtotime( "monday this week" ))." 08:30";
 		$this_friday = date('Y-m-d', strtotime( 'friday this week' ) )." 10:30";
+	}
+	
+	$today_date_time = date('Y-m-d H:i');
+	$friday_sunscribe_by = date("Y-m-d",strtotime("friday this week"))." 10:30";
+	//$this_saturday = date('Y-m-d', strtotime( 'saturday this week' ) )." 10:30";
+	if ($today_date_time > $friday_sunscribe_by) {
+		$this_monday = date("Y-m-d",strtotime( "monday next week" ))." 08:30";
+		$this_friday = date('Y-m-d', strtotime( 'friday next week' ) )." 10:30";
 	}
 	return $this_monday."##".$this_friday;
 }
