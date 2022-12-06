@@ -67,6 +67,7 @@
     margin: -20px 0px 15px 0px !important;
 }
 }
+.wc-terms-and-conditions{float: left;width: 100%;}
 .rotation_ad img{height: 250px;}
 input:focus{outline-color:#0A7BE2 !important;}
 #billing_state_field .select2-container--default.select2-container--disabled .select2-selection--single{background:#fdfdfd !important;border: 1px solid #EDEDED !important;}
