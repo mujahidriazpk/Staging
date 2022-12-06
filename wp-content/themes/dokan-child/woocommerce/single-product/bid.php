@@ -583,18 +583,13 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
 												  enterFullScreen(videoEle);
 												});
 
-												document.addEventListener('fullscreenchange', (event) => {
+												/*document.addEventListener('fullscreenchange webkitfullscreenchange mozfullscreenchange MSFullscreenChange', (event) => {
 												  if (document.fullscreenElement) {
-													//console.log('Entered fullscreen:', document.fullscreenElement);
+													console.log('Entered fullscreen:', document.fullscreenElement);
 												  } else {
-													//console.log('Exited fullscreen.');
-													  <?php if($user_role=='seller'){?>
-															window.location.href = "<?php echo home_url('auction-activity/auction/');?>";
-													   <?php }else{?>
-															window.location.href = "<?php echo home_url('shopadoc-auction-activity/');?>";
-													   <?php }?>
+													  alert("Exited fullscreen.");
 												  }
-												});
+												});*/
 												//GoInFullscreen(jQuery("#element").get(0));
                                                 /*if(IsFullScreenCurrently()){
                                                     GoOutFullscreen();
@@ -682,48 +677,16 @@ function enterFullScreen(element) {
 	element.msRequestFullscreen();      // IE/Edge
   }
 };
-/* Get into full screen */
-/*function GoInFullscreen(element) {
-	if(element.requestFullscreen)
-		element.requestFullscreen();
-	else if(element.mozRequestFullScreen)
-		element.mozRequestFullScreen();
-	else if(element.webkitRequestFullscreen)
-		element.webkitRequestFullscreen();
-	else if(element.msRequestFullscreen)
-		element.msRequestFullscreen();
-}*/
-
-/* Get out of full screen */
-/*function GoOutFullscreen() {
-	if(document.exitFullscreen)
-		document.exitFullscreen();
-	else if(document.mozCancelFullScreen)
-		document.mozCancelFullScreen();
-	else if(document.webkitExitFullscreen)
-		document.webkitExitFullscreen();
-	else if(document.msExitFullscreen)
-		document.msExitFullscreen();
-}*/
-
 /* Is currently in full screen or not */
-/*function IsFullScreenCurrently() {
+function IsFullScreenCurrently() {
 	var full_screen_element = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement || null;
 	// If no element is in full-screen
 	if(full_screen_element === null)
 		return false;
 	else
 		return true;
-}*/
-
-/*jQuery("#go-button").on('click', function() {
-	if(IsFullScreenCurrently())
-		GoOutFullscreen();
-	else
-		GoInFullscreen(jQuery("#element").get(0));
-});*/
-
-/*jQuery(document).on('fullscreenchange webkitfullscreenchange mozfullscreenchange MSFullscreenChange', function() {
+}
+jQuery(document).on('fullscreenchange webkitfullscreenchange mozfullscreenchange MSFullscreenChange', function() {
    if(IsFullScreenCurrently()) {
 	   //jQuery('.rotation_main').css('height','auto');
 	}else {
@@ -733,7 +696,7 @@ function enterFullScreen(element) {
 	   		window.location.href = "<?php echo home_url('shopadoc-auction-activity/');?>";
 	   <?php }?>
 	}
-});*/
+});
 					<?php } ?>
        			//CountDownNew('<?php echo strtotime(date("Y-m-d H:i:s",strtotime($_auction_dates_to)));?>','<?php echo $auction_detail_class;?>');
 					 jQuery( document ).ready(function() {
