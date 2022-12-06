@@ -4,7 +4,6 @@
  *
  */
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
-global $current_user;
 $dentist_account_status = get_user_meta(get_current_user_id(), 'dentist_account_status', true );
 if($dentist_account_status =='de-active'){
 	wp_redirect( home_url( '/my-account/edit-account/' ) );
@@ -553,6 +552,7 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
             </style>
 
             <script type="text/javascript">
+               
 					//audio-5486-1_html5
 					<?php if(isset($_GET['action']) && $_GET['action']=='extended' && 1==2){}else{?>
 					setTimeout(function(){
@@ -577,9 +577,25 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
 											
 											var windowsize = jQuery(window).width();
                                             if(windowsize > 850){
-												<?php if($current_user->roles[0]!='shopadoc_admin'){?>
-													GoInFullscreen(jQuery("#element").get(0));
-												<?php }?>
+												let btn = document.getElementById("element");
+												btn.addEventListener("click", function(){
+												  let videoEle = document.querySelector('body');
+												  enterFullScreen(videoEle);
+												});
+
+												document.addEventListener('fullscreenchange', (event) => {
+												  if (document.fullscreenElement) {
+													//console.log('Entered fullscreen:', document.fullscreenElement);
+												  } else {
+													//console.log('Exited fullscreen.');
+													  <?php if($user_role=='seller'){?>
+															window.location.href = "<?php echo home_url('auction-activity/auction/');?>";
+													   <?php }else{?>
+															window.location.href = "<?php echo home_url('shopadoc-auction-activity/');?>";
+													   <?php }?>
+												  }
+												});
+												//GoInFullscreen(jQuery("#element").get(0));
                                                 /*if(IsFullScreenCurrently()){
                                                     GoOutFullscreen();
                                                 }else{
@@ -621,9 +637,20 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
 										action: function(){
                                            var windowsize = jQuery(window).width();
                                            if(windowsize > 850){
-												<?php if($current_user->roles[0]!='shopadoc_admin'){?>
-													GoInFullscreen(jQuery("#element").get(0));
-												<?php }?>
+												/*let btn = document.getElementById("element");
+												btn.addEventListener("click", function(){
+												  let videoEle = document.querySelector('body');
+												  enterFullScreen(videoEle);
+												});
+
+												document.addEventListener('fullscreenchange', (event) => {
+												  if (document.fullscreenElement) {
+													console.log('Entered fullscreen:', document.fullscreenElement);
+												  } else {
+													console.log('Exited fullscreen.');
+												  }
+												});*/
+												//GoInFullscreen(jQuery("#element").get(0));
                                                 /*if(IsFullScreenCurrently()){
                                                     GoOutFullscreen();
                                                 }else{
@@ -644,9 +671,19 @@ if(is_user_logged_in() && $post->post_author == $current_user->ID && ($_auction_
 						}
 					}, 1);
 
-
+function enterFullScreen(element) {
+  if(element.requestFullscreen) {
+	element.requestFullscreen();
+  }else if (element.mozRequestFullScreen) {
+	element.mozRequestFullScreen();     // Firefox
+  }else if (element.webkitRequestFullscreen) {
+	element.webkitRequestFullscreen();  // Safari
+  }else if(element.msRequestFullscreen) {
+	element.msRequestFullscreen();      // IE/Edge
+  }
+};
 /* Get into full screen */
-function GoInFullscreen(element) {
+/*function GoInFullscreen(element) {
 	if(element.requestFullscreen)
 		element.requestFullscreen();
 	else if(element.mozRequestFullScreen)
@@ -655,10 +692,10 @@ function GoInFullscreen(element) {
 		element.webkitRequestFullscreen();
 	else if(element.msRequestFullscreen)
 		element.msRequestFullscreen();
-}
+}*/
 
 /* Get out of full screen */
-function GoOutFullscreen() {
+/*function GoOutFullscreen() {
 	if(document.exitFullscreen)
 		document.exitFullscreen();
 	else if(document.mozCancelFullScreen)
@@ -667,17 +704,17 @@ function GoOutFullscreen() {
 		document.webkitExitFullscreen();
 	else if(document.msExitFullscreen)
 		document.msExitFullscreen();
-}
+}*/
 
 /* Is currently in full screen or not */
-function IsFullScreenCurrently() {
+/*function IsFullScreenCurrently() {
 	var full_screen_element = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement || null;
 	// If no element is in full-screen
 	if(full_screen_element === null)
 		return false;
 	else
 		return true;
-}
+}*/
 
 /*jQuery("#go-button").on('click', function() {
 	if(IsFullScreenCurrently())
@@ -686,7 +723,7 @@ function IsFullScreenCurrently() {
 		GoInFullscreen(jQuery("#element").get(0));
 });*/
 
-jQuery(document).on('fullscreenchange webkitfullscreenchange mozfullscreenchange MSFullscreenChange', function() {
+/*jQuery(document).on('fullscreenchange webkitfullscreenchange mozfullscreenchange MSFullscreenChange', function() {
    if(IsFullScreenCurrently()) {
 	   //jQuery('.rotation_main').css('height','auto');
 	}else {
@@ -695,20 +732,8 @@ jQuery(document).on('fullscreenchange webkitfullscreenchange mozfullscreenchange
 	   <?php }else{?>
 	   		window.location.href = "<?php echo home_url('shopadoc-auction-activity/');?>";
 	   <?php }?>
-		//jQuery('.rotation_main').css('height','100%');
 	}
-	/*if(IsFullScreenCurrently()) {
-		jQuery("#element span").text('Full Screen Mode Enabled');
-		jQuery("#go-button").text('Disable Full Screen');
-	}
-	else {
-		jQuery("#element span").text('Full Screen Mode Disabled');
-		jQuery("#go-button").text('Enable Full Screen');
-	}*/
-});
-jQuery(document).ready(function(){
-    //GoInFullscreen(jQuery("#element").get(0));
-});
+});*/
 					<?php } ?>
        			//CountDownNew('<?php echo strtotime(date("Y-m-d H:i:s",strtotime($_auction_dates_to)));?>','<?php echo $auction_detail_class;?>');
 					 jQuery( document ).ready(function() {
