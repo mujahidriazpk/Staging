@@ -3378,6 +3378,10 @@ div[class^="advads-place-"] {
 }*/
 
 @media only screen and (max-width: 850px) {
+.demo_txt h2{
+	margin-top: -8px;
+	padding-bottom: 10px;
+}
 .rotation_ad img{height: auto;}
 .navbar-top-area .navbar-nav > li > a{
 	line-height:normal !important;
