@@ -799,6 +799,21 @@ function get_plan_orderid(){
 	}
 	return $plan_order_id;
 }
+function get_active_plan_id(){
+	$active_plan = '';
+	$subscriptions = YWSBS_Subscription_Helper()->get_subscriptions_by_user( get_current_user_id() );
+	$status = ywsbs_get_status();
+	$flag = false;
+	foreach ( $subscriptions as $subscription_post ) :
+	$subscription = ywsbs_get_subscription( $subscription_post->ID );
+	//if(($status[$subscription->status]=='active' || $status[$subscription->status] == 'expired') && $subscription->product_id != 1141):
+	if(($status[$subscription->status]=='active') && $subscription->product_id != 1141){
+		$flag = true;
+		$active_plan = $subscription->product_id;
+	}
+	endforeach;
+	return $active_plan;
+}
 function get_plan_status(){
 	if (is_user_logged_in() ){
 		$current_user = wp_get_current_user();
@@ -1405,7 +1420,7 @@ function my_woocommerce_edit_account_form() {
     	return;
   $url = $user->user_url;
   if($user->roles[0]=='customer'){
-		/*$new_auction_notification = get_user_meta( $user_id, 'new_auction_notification', true );
+	  	/*$new_auction_notification = get_user_meta( $user_id, 'new_auction_notification', true );
 		$checked = '';
 		if($new_auction_notification=='yes'){
 			$checked = ' checked="checked" ';
@@ -1771,11 +1786,15 @@ function my_woocommerce_save_account_details( $user_id ) {
 					 'dentist_home_state'=>'State',
 					 'dentist_home_zip'=>'Zip Code',
 					 'state_dental_license_no'=>'State Dental License #',);
-	date_default_timezone_set('America/Los_Angeles');
+	$plan_id = get_active_plan_id();
+	$plan_status = get_plan_status();
+	//echo $plan_id."==".$plan_status;
+	/*date_default_timezone_set('America/Los_Angeles');
 	$monday_next_week = date("Y-m-d",strtotime( "monday next week" ))." 08:30";
 	$flash_cycle_end = date('Y-m-d', strtotime( 'friday this week' ) )." 10:30";
 	$today_date_time = date('Y-m-d H:i');
-	if ($today_date_time > $flash_cycle_end && $today_date_time < $monday_next_week) {
+	if ($today_date_time > $flash_cycle_end && $today_date_time < $monday_next_week) {*/
+	if($plan_status == 'inactive' || $plan_status == ''){
 		foreach($field_array as $key => $val){
 			if(!in_array($key,$disable_array)){				 
 				update_user_meta( $user_id,$key, htmlentities( $_POST[ $key ] ) );

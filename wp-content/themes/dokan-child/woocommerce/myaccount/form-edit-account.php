@@ -35,7 +35,26 @@ do_action( 'woocommerce_before_edit_account_form' ); ?>
  <?php }?>
 <?php if(isset($_GET['mode']) && $_GET['mode']=='update'){?>
 <div class="woocommerce-notices-wrapper">
-	<div class="woocommerce-message" role="alert">Account details changed successfully. Any changes to your information will become effective the following auction cycle.</div>
+	<?php if($user->roles[0] =='customer'){
+		$plan_status = get_plan_status();
+		if($plan_status == 'inactive' || $plan_status == ''){
+		?>
+			<div class="woocommerce-message" role="alert">You’ve successfully edited your contact information.</div>
+		<?php }else{?>
+			<div class="woocommerce-message" role="alert">You’ve successfully edited your contact information. Changes reflected in the following auction cycle.</div>
+		<?php }?>
+	<?php }else{?>
+		<?php 
+			date_default_timezone_set('America/Los_Angeles');
+			$monday_next_week = date("Y-m-d",strtotime( "monday next week" ))." 08:30";
+			$flash_cycle_end = date('Y-m-d', strtotime( 'friday this week' ) )." 10:30";
+			$today_date_time = date('Y-m-d H:i');
+			if ($today_date_time > $flash_cycle_end && $today_date_time < $monday_next_week) {?>
+				<div class="woocommerce-message" role="alert">You’ve successfully edited your contact information.</div>
+			<?php }else{?>
+				<div class="woocommerce-message" role="alert">You’ve successfully edited your contact information. Changes reflected in the following auction cycle.</div>
+			<?php }?>
+		<?php }?>
 </div>
 <?php }?>
 
