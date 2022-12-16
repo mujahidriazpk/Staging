@@ -1028,6 +1028,26 @@ function myFunction() {
 </head>
 
 <body id="element" <?php body_class( 'woocommerce' ); ?>>
+	<style type="text/css">
+		 /*body.fullscreen .topExit{
+			 display: block !important;
+			 float:left;width:100%;height:60px;
+			 position: absolute;top: 0px;
+			 color: #fff;
+			text-align: center;
+			 z-index: 10001;
+		 }*/
+		 body.fullscreen .topExitInner{
+			width: 45px;
+			text-align: center;
+			 position: absolute;
+			 top: 48px;
+			 z-index: 10001;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		 }
+	 </style>
+		 <div class="topExitInner" style="display: none;"><a href="" id="exitBtn" title="click Here to exit full screen"><img src="<?php echo home_url('wp-content/themes/dokan-child/exit.png'); ?>" alt="click Here to exit full screen" title="exit" width="45px"/></a></div>
     <div id="element-inner">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58LBM3N"

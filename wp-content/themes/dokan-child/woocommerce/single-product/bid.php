@@ -697,6 +697,17 @@ jQuery(document).on('fullscreenchange webkitfullscreenchange mozfullscreenchange
 	   <?php }?>
 	}
 });
+	   jQuery(document).on('webkitfullscreenchange', function() {
+			if(navigator.platform.indexOf('Mac') > -1){
+   				  jQuery('body').addClass('fullscreen');
+				  jQuery('.topExit,.topExitInner').css({"display":"block"});
+				  <?php if($user_role=='seller'){?>
+						jQuery('a#exitBtn').attr('href',"<?php echo home_url('auction-activity/auction/');?>");
+				  <?php }else{?>
+						jQuery('a#exitBtn').attr('href',"<?php echo home_url('shopadoc-auction-activity/');?>");
+				   <?php }?>
+			}
+		});
 					<?php } ?>
        			//CountDownNew('<?php echo strtotime(date("Y-m-d H:i:s",strtotime($_auction_dates_to)));?>','<?php echo $auction_detail_class;?>');
 					 jQuery( document ).ready(function() {
