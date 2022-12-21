@@ -1198,7 +1198,9 @@ if(isset($_REQUEST['mode']) && $_REQUEST['mode']=='submitAD'){
                     }
 
                 } 			
-					
+				if(isset($_POST['ad_img']) && $_POST['ad_img'] !=""){
+					$attach_id = $_POST['ad_img'];
+				}
 				//$attachmentId = media_handle_sideload($_FILES, $post_id);
 				$advanced_ads_ad_options = array();
 				$advanced_ads_ad_options['visitor'] ='';
@@ -1578,7 +1580,7 @@ if(isset($_POST['mode']) && $_POST['mode']=='getAddADPopup'){
 					<div class="wpforms-field-container">
 					  <div id="wpforms-185-field_3-container" class="wpforms-field wpforms-field-Company wpforms-one-half wpforms-first" >
 						<label class="wpforms-field-label" for="Company">Company <span class="wpforms-required-label">*</span></label>
-						<select name="company" id="company" class="wpforms-field-medium validate[required]" style="display:block !important;">
+						<select name="company" id="company" class="wpforms-field-medium validate[required]" style="display:block !important;" onChange="getAdImages(this.value)">
 						  <option value="">- select Company -</option>
 						  '.$userDropdown.'
 						</select>
@@ -1631,8 +1633,17 @@ if(isset($_POST['mode']) && $_POST['mode']=='getAddADPopup'){
 					  </div>
 					  <div id="ad_image_container" class="wpforms-field wpforms-field-text" data-field-id="22" '.$display_image.'>
 						<label class="wpforms-field-label" for="wpforms-185-field_22">Creative<span class="wpforms-required-label">*</span></label>
+						
+						
+						<div class="main_div">
+						<div class="div1">
 						<img src="'.$src.'" id="ad_image_src" style="width:300px;height:250px;"/>
+						</div>
+						<div class="div2">
 						<input type="file" id="ad_image" class="wpforms-field-medium" name="ad_image" value="" onChange="load_image(this.id,this.value)" />
+						</div>
+						<div class="div3" id="pastimages"></div>
+						</div>
 					  </div>
 					</div>
 				  </form>
@@ -1648,7 +1659,7 @@ if(isset($_POST['mode']) && $_POST['mode']=='getAddADPopup'){
 					<div class="wpforms-field-container">
 					  <div id="wpforms-185-field_3-container" class="wpforms-field wpforms-field-Company wpforms-one-half wpforms-first" >
 						<label class="wpforms-field-label" for="Company">Company <span class="wpforms-required-label">*</span></label>
-						<select name="company" id="company" class="wpforms-field-medium validate[required]" style="display:block !important;">
+						<select name="company" id="company" class="wpforms-field-medium validate[required]" style="display:block !important;" onChange="getAdImages(this.value)">
 						  <option value="">- select Company -</option>
 						  '.$userDropdown.'
 						</select>
@@ -1678,15 +1689,45 @@ if(isset($_POST['mode']) && $_POST['mode']=='getAddADPopup'){
 					  </div>
 					  <div id="ad_image_container" class="wpforms-field wpforms-field-text" data-field-id="22">
 						<label class="wpforms-field-label" for="wpforms-185-field_22">Creative<span class="wpforms-required-label">*</span></label>
+						<div class="main_div">
+						<div class="div1">
 						<img src="" id="ad_image_src" style="width:300px;height:250px;display:none;"/>
-						<input type="file" id="ad_image" class="wpforms-field-medium validate[required]" name="ad_image" value="" onChange="load_image(this.id,this.value)"/>
-						
+						</div>
+						<div class="div2">
+						<input type="file" id="ad_image" class="wpforms-field-medium" name="ad_image" value="" onChange="load_image(this.id,this.value)"/>
+						</div>
+						<div class="div3" id="pastimages"></div>
+						</div>
 					  </div>
 					</div>
 				  </form>
 				</div>';die;
 		
 		}
+}
+if(isset($_POST['mode']) && $_POST['mode']=='getPastAd'){
+	$args = array(
+				'fields' => 'ids',
+				'post_status'         => array('publish','advanced_ads_expired'),
+				'posts_per_page'      => -1,
+				'post_type'     => 'advanced_ads',
+				//Custom Field Parameters
+				'meta_key'       => 'ad_user',
+				'meta_value'     => $_POST['userid'],
+				'meta_compare'   => '=',
+              );
+			$query = new WP_Query($args );
+			$postids = $query->posts;
+	$images_str = '';
+	foreach($postids as $postid){
+		$advanced_ads_ad_options = maybe_unserialize(get_post_meta($postid,'advanced_ads_ad_options',TRUE));
+		$image_id = $advanced_ads_ad_options['output']['image_id'];
+		$image = wp_get_attachment_image_src($image_id,'single-post-thumbnail');
+		$images_str .='<li><input type="radio" name="ad_img" id="ad_img_'.$image_id.'"  value="'.$image_id.'" />&nbsp;<img src="'.$image[0].'" width="20px"></li>';
+	}
+	echo $images_str;
+	//print_r($posts);
+	die;
 }
 if(isset($_POST['mode']) && $_POST['mode']=='submitSuspendReason'){
 	$params = array();

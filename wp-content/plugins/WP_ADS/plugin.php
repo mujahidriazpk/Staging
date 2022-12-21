@@ -1872,8 +1872,34 @@ class SP_Plugin_ADS {
         line-height: 27px !important;
 	}	
 }
+	.main_div{float:left;width: 100%;}
+	.div1{float:left;width: 33%;}
+	.div2{float:left;width: 33%;}
+	.div3{float:left;width: 33%;max-height: 250px;overflow-y: scroll;}
+	.div3 ul{
+		float: left;
+		width: 100%;
+	}
+	.div3 ul li{
+		float: left;
+		width: 20%;
+	}
 </style>
 <script type="text/javascript">
+function getAdImages(userid){
+	jQuery.ajax({	
+				url:'<?php echo get_site_url();?>/ajax.php',	
+				type:'POST',
+				data:{'mode':'getPastAd','userid':userid},
+				beforeSend: function() {},
+				complete: function() {
+				},
+				success:function (data){
+					jQuery('#pastimages').html('<ul>'+data+'</ul>');
+				}
+				
+		});
+}
 function SelectAdType(id,value){
 	jQuery(".jconfirm-content-pane").css("height","auto");
 	jQuery(".jconfirm-content-pane").css("max-height","auto");
@@ -2144,6 +2170,7 @@ function load_image(id,ext){
 								}
 								//jQuery("#wpforms-form-ad").submit();
 								
+						var ad_img = jQuery('input[name="ad_img"]:checked').val();
 						var company = jQuery('#company').val();
 						var ad_link = jQuery('#ad_link').val();
 						var start_date = jQuery('#start_date').val();
@@ -2163,6 +2190,7 @@ function load_image(id,ext){
                         form_data.append('ad_link', ad_link);
                         form_data.append('start_date', start_date);
                         form_data.append('end_date', end_date);
+						form_data.append('ad_img',ad_img);
 						form_data.append('id', id);
 						form_data.append('type', type);
 						form_data.append('selected_ad', selected_ad);

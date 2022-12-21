@@ -2682,7 +2682,12 @@ add_filter('woocommerce_checkout_get_value', function($input, $key ) {
             return $client_zip_code;
         break;
         case 'billing_email':
-            return $current_user->user_email;
+			if($user->roles[0]=='customer'){
+				$dentist_office_email = get_user_meta( $user_id, 'dentist_office_email', true);
+            	return $dentist_office_email;
+			}else{
+				return $current_user->user_email;
+			}
         break;
         case 'billing_phone':
 			if(get_user_meta( $user_id,"client_cell_ph_future", true)){
@@ -2718,9 +2723,17 @@ function dokan_register_scripts_custom() {
 // Removes Order Notes Title - Additional Information & Notes Field
 add_filter( 'woocommerce_enable_order_notes_field', '__return_false', 9999 );
 // Remove Order Notes Field
-add_filter( 'woocommerce_checkout_fields' , 'remove_order_notes' );
+add_filter( 'woocommerce_checkout_fields' , 'remove_order_notes' , 9999, 1);
 function remove_order_notes( $fields ) {
      unset($fields['order']['order_comments']);
+	$user = wp_get_current_user();
+	if($user->roles[0]=='customer'){
+		$fields['billing']['billing_email']['label'] = 'Office Email';
+		$fields['billing']['billing_address_1']['custom_attributes'] = array('readonly'=>'readonly');
+		$fields['billing']['billing_address_2']['custom_attributes'] = array('readonly'=>'readonly');
+		$fields['billing']['billing_city']['custom_attributes'] = array('readonly'=>'readonly');
+		$fields['billing']['billing_postcode']['custom_attributes'] = array('readonly'=>'readonly');
+	}
      return $fields;
 }
 add_action( 'init', function() {

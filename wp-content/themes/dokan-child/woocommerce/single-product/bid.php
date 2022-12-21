@@ -702,9 +702,9 @@ jQuery(document).on('fullscreenchange webkitfullscreenchange mozfullscreenchange
    				  jQuery('body').addClass('fullscreen');
 				  jQuery('.topExit,.topExitInner').css({"display":"block"});
 				  <?php if($user_role=='seller'){?>
-						jQuery('a#exitBtn').attr('href',"<?php echo home_url('auction-activity/auction/');?>");
+						jQuery('a#exitBtn').attr('data-href',"<?php echo home_url('auction-activity/auction/');?>");
 				  <?php }else{?>
-						jQuery('a#exitBtn').attr('href',"<?php echo home_url('shopadoc-auction-activity/');?>");
+						jQuery('a#exitBtn').attr('data-href',"<?php echo home_url('shopadoc-auction-activity/');?>");
 				   <?php }?>
 			}
 		});

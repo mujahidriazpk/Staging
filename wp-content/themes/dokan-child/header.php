@@ -1024,7 +1024,17 @@ function myFunction() {
            	Custom_popup_iframe("",auction_no,"col-md-8 col-md-offset-2 no-button",false);
     </script>
 <?php }?>
-    
+<script type="text/javascript">
+	function redirectTolist(){
+		jQuery('.container_loader').show();
+		//alert(jQuery('a#exitBtn').attr('data-href'));
+		//jQuery('a#exitBtn').attr('data-href');
+		window.setTimeout(function(){
+			// Move to a new location or you can do something else
+			window.location.href = jQuery('a#exitBtn').attr('data-href');
+		}, 3000);
+	}
+</script>
 </head>
 
 <body id="element" <?php body_class( 'woocommerce' ); ?>>
@@ -1047,7 +1057,7 @@ function myFunction() {
 			transform: translate(-50%, -50%);
 		 }
 	 </style>
-		 <div class="topExitInner" style="display: none;"><a href="" id="exitBtn" title="click Here to exit full screen"><img src="<?php echo home_url('wp-content/themes/dokan-child/exit.png'); ?>" alt="click Here to exit full screen" title="exit" width="45px"/></a></div>
+		 <div class="topExitInner" style="display: none;"><a href="javascript:redirectTolist()" id="exitBtn" title="click Here to exit full screen" ><img src="<?php echo home_url('wp-content/themes/dokan-child/exit.png'); ?>" alt="exit" title="exit" width="45px"/></a></div>
     <div id="element-inner">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58LBM3N"
