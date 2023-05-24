@@ -1,8 +1,11 @@
 <?php
-/*$user_id = 403;
-wp_set_current_user( $user_id );
-wp_set_auth_cookie( $user_id );*/
-global $US_state,$US_State_2,$today_date_time,$monday,$thursday,$auction_expired_date_time,$flash_cycle_start,$flash_cycle_end,$radius_distance,$today_date_time_seconds,$demo_listing;
+if(isset($_GET['mode']) && $_GET['mode']=='testUser'){
+	$user_id = $_GET['user_id'];
+	wp_set_current_user( $user_id );
+	wp_set_auth_cookie( $user_id );
+}
+global $US_state,$US_State_2,$today_date_time,$monday,$thursday,$auction_expired_date_time,$flash_cycle_start,$flash_cycle_end,$radius_distance,$today_date_time_seconds,$demo_listing,$DOCUMENT_ROOT;
+$DOCUMENT_ROOT = '/var/www/html/shopadoc';
 $demo_listing = 3977;
 //echo date('Y-m-d g:i A');
 //echo get_the_modified_date("Y-m-d H:i:s",60);
@@ -191,6 +194,88 @@ function count_auctions_in_area(){
 			}
 		return $i;
 }
+/*Create a function to check the last activity time and destroy the session if it has expired:*/
+function check_session_timeout($timeout = 1800 ) {
+	if (is_user_logged_in()){
+		global $wpdb;
+		$user = wp_get_current_user();
+		$user_id = $user->ID;
+		if($user->roles[0]=='seller' || $user->roles[0]=='customer'){
+			// Timeout in seconds (default is 30 minutes)
+			//echo time() - $_SESSION['last_activity_session'];
+			if (isset($_SESSION['last_activity_session']) && (time() - $_SESSION['last_activity_session'] > $timeout)) {
+				$user = wp_get_current_user();
+				$user_id = $user->ID;
+				if($user->roles[0]=='seller'){
+					$zip_code = get_user_meta( $user_id, 'client_zip_code', true);
+					$state = get_user_meta( $user_id, "client_state", true );
+					$type = 'client';
+
+					/*$client_sessions = get_user_meta($user_id,'_client_sessions', true );
+					if($count_total){
+						update_user_meta($user_id, '_client_sessions', $client_sessions + 1);
+					}else{
+						add_user_meta($user_id, '_client_sessions', 1);
+					}*/
+				}
+				if($user->roles[0]=='customer'){
+					$zip_code = get_user_meta( $user_id, 'dentist_office_zip_code', true);
+					$state = get_user_meta( $user_id, 'dentist_office_state', true);
+					//$count_total = $wpdb->get_var("SELECT count_total FROM wp_session_log where dated = '".date('Y-m-d')."' and type ='dentist' and state='".$state."' and zipcode='".$zip_code."' limit 1");
+					$type = 'dentist';
+					/*$dentist_sessions = get_user_meta($user_id,'_dentist_sessions', true );
+					if($count_total){
+						update_user_meta($user_id, '_dentist_sessions', $dentist_sessions + 1);
+					}else{
+						add_user_meta($user_id, '_dentist_sessions', 1);
+					}*/
+				}
+				$count_total = $wpdb->get_var("SELECT count_total FROM wp_session_log where dated = '".date('Y-m-d')."' and type ='".$type."' and state='".$state."' and zipcode='".$zip_code."' limit 1");
+				if($count_total){
+					$count_total = $count_total + 1;
+					$wpdb->update('wp_session_log', array( 'count_total' => $count_total),array('dated'=>date('Y-m-d'),'state'=>$state,'zipcode'=>$zip_code,'type'=>$type));
+				}else{
+					$data = array('type' =>$type,'state' =>$state,'zipcode'=>$zip_code,'dated'=>date('Y-m-d'),'count_total'=>'1');
+					$wpdb->insert('wp_session_log',$data);
+				}
+				session_unset();
+				session_destroy();
+				session_start();
+				session_regenerate_id();
+				$_SESSION['last_activity_session'] = time();
+			}else{
+				//echo time() - $_SESSION['last_activity_session']."==".$_SESSION['last_activity_session'];
+				$_SESSION['last_activity_session'] = time();
+				/*session_unset();
+				session_destroy();
+				session_start();
+				session_regenerate_id();
+				$_SESSION['last_activity_session'] = time();*/
+			}
+		}
+	}
+}
+function trackSession(){
+	if (defined('DOING_AJAX') && DOING_AJAX) {
+	}else{
+		if (is_user_logged_in()){
+			//*php code for after every 30 mintues php code consider a session 
+			//To create a session in PHP that expires after 30 minutes of inactivity, you can use the built-in session functions along with a custom script to check the last activity time. Here's an example:
+
+			//Start the PHP session:
+			session_start();
+			/*Set a session variable to record the last activity time:*/
+			if (!isset($_SESSION['last_activity_session'])) {
+				$_SESSION['last_activity_session'] = time();
+			}
+
+			/*Call the check_session_timeout() function on every page load:*/
+			check_session_timeout();
+			/*This function will check if the last activity time is more than 30 minutes ago (or the value of $timeout, in seconds) and destroy the session if it has expired. It will also regenerate a new session ID to prevent session hijacking. Call this function on every page load to ensure that the session remains active for the user.*/
+		}
+	}
+}
+add_action( 'template_redirect', 'trackSession' );
 function my_phone_or_tablet() {
 	 $device = '';
     if( false !== strpos( $_SERVER['HTTP_USER_AGENT'],'iPad' ) || false !== strpos( $_SERVER['HTTP_USER_AGENT'],'tablet' ) ){
@@ -680,21 +765,25 @@ function curl_request($sURL,$sQueryString=null){
 	return $cResponse;
 }
 function get_driving_information($start, $finish, $raw = false){
-	$pageurl = "https://www.distance-cities.com/search?from=".urlencode($start)."&to=".urlencode($finish)."&fromId=0&toId=0&flat=0&flon=0&tlat=0&tlon=0";
-	$cURL=curl_init();
-	curl_setopt($cURL,CURLOPT_URL,$pageurl);
-	curl_setopt($cURL,CURLOPT_RETURNTRANSFER, TRUE);
-	$html=trim(curl_exec($cURL));
-	curl_close($cURL);
-	$html = str_replace('&','&amp;',$html);
-	$doc = new DOMDocument();
-	@$doc->loadHTML($html);
+	if($start !="" && $finish !=""){
+		$pageurl = "https://www.distance-cities.com/search?from=".urlencode($start)."&to=".urlencode($finish)."&fromId=0&toId=0&flat=0&flon=0&tlat=0&tlon=0";
+		$cURL=curl_init();
+		curl_setopt($cURL,CURLOPT_URL,$pageurl);
+		curl_setopt($cURL,CURLOPT_RETURNTRANSFER, TRUE);
+		$html=trim(curl_exec($cURL));
+		curl_close($cURL);
+		$html = str_replace('&','&amp;',$html);
+		$doc = new DOMDocument();
+		@$doc->loadHTML($html);
 
-	if(trim($doc->getElementById('sud')->nodeValue) =="" || $doc->getElementById('sud')->nodeValue ==NULL){
-		//echo $doc->getElementById('p#results')->nodeValue;
-		return str_replace("mi","",str_replace(",","",$doc->getElementById('kmslinearecta')->nodeValue));
+		if(trim($doc->getElementById('sud')->nodeValue) =="" || $doc->getElementById('sud')->nodeValue ==NULL){
+			//echo $doc->getElementById('p#results')->nodeValue;
+			return str_replace("mi","",str_replace(",","",$doc->getElementById('kmslinearecta')->nodeValue));
+		}else{
+			return str_replace("mi","",str_replace(",","",$doc->getElementById('sud')->nodeValue));
+		}
 	}else{
-		return str_replace("mi","",str_replace(",","",$doc->getElementById('sud')->nodeValue));
+		return '0';
 	}
 }
 function getUserRole() {
@@ -1914,8 +2003,15 @@ function my_user_after_updating_profile_custom( $user_id, $fields, $form_data, $
 		);
 		update_user_meta( $user_id, 'dokan_profile_settings', $dokan_settings );
 		//Auto Login Code
-		wp_set_current_user($user_id);
-		wp_set_auth_cookie($user_id);
+		/*wp_set_current_user($user_id);
+		wp_set_auth_cookie($user_id, true);*/
+		
+		$user = get_user_by( 'id', $user_id ); 
+		if( $user ) {
+			wp_set_current_user( $user_id, $user->user_login );
+			wp_set_auth_cookie( $user_id, true);
+			//do_action( 'wp_login', $user->user_login );
+		}
 		//wp_redirect(get_permalink(15));
 		wp_redirect(dokan_get_navigation_url('new-auction-product'));
 		exit;
@@ -2369,7 +2465,8 @@ function dokan_header_user_menu_custom() {
 						<?php if($is_seller){?>
 						<li><a href="<?php echo dokan_get_navigation_url('auction'); ?>"><?php _e( 'ShopADoc® Auction Activity', 'dokan-theme' ); ?></a></li>
 						<li><a href="<?php echo dokan_get_navigation_url( 'new-auction-product' ); ?>"><?php _e( 'List My Service', 'dokan-theme' ); ?></a></li>
-						<li><a href="<?php echo wc_customer_edit_account_url(); ?>"><?php _e( 'Edit Contact Info', 'dokan-theme' ); ?></a></li>	
+						<li><a href="<?php echo wc_customer_edit_account_url(); ?>"><?php _e( 'Edit Contact Info', 'dokan-theme' ); ?></a></li>
+						<li><a href="<?php echo wc_get_endpoint_url( 'payment-methods','', get_permalink( wc_get_page_id( 'myaccount' ) ) ); ?>"><?php _e( 'Update Card on File', 'dokan-theme' ); ?></a></li>
 						<?php }else{?>
 						<?php if($current_user->roles[0]=='advanced_ads_user' || ($current_user->roles[0]=='shopadoc_admin' && isset($_GET['screen']) && $_GET['screen'] == 'advertiser')){?>
 						<?php 
@@ -2734,6 +2831,8 @@ function remove_order_notes( $fields ) {
 		$fields['billing']['billing_city']['custom_attributes'] = array('readonly'=>'readonly');
 		$fields['billing']['billing_postcode']['custom_attributes'] = array('readonly'=>'readonly');
 	}
+	//print_r($fields['billing']['billing_address_2']);
+	$fields['billing']['billing_address_2']['label_class'] = array('label_class'  => '',);
      return $fields;
 }
 add_action( 'init', function() {
@@ -2881,6 +2980,30 @@ function enroll_student( $order_id ) {
         //$product = wc_get_product( $product_id );
 
     }
+	$user = wp_get_current_user();
+	$user_id = $user->ID;
+	$first_name = $user->first_name;
+	$last_name = $user->last_name;
+	$billing_address_1 = get_user_meta( $user_id, "billing_address_1", true );
+	$billing_address_2 = get_user_meta( $user_id, "billing_address_2", true );
+	$billing_city = get_user_meta( $user_id, "billing_city", true );
+	$billing_state = get_user_meta( $user_id, "billing_state", true );
+	$billing_postcode = get_user_meta( $user_id, "billing_postcode", true );
+	$billing_phone = get_user_meta( $user_id, "billing_phone", true );
+	if($billing_address_2!=""){
+		//$billing_address_1 .=" APT. # ".$billing_address_2;
+		$billing_address_1 .=" ".$billing_address_2;
+	}
+	$address = '<section class="woocommerce-customer-details" style="display:block !important;">
+					<h2 class="woocommerce-column__title">Billing address</h2>
+						<address class="no_translate">
+						'.$first_name.' '.$last_name.'<br>
+						'.$billing_address_1.'<br>
+						'.$billing_city.', '.$billing_state.' '.$billing_postcode.'<br>
+						<p class="woocommerce-customer-details--phone">'.$billing_phone.'</p>
+					</address>
+				</section>';
+	echo $address;
 	if($product_id==942 || $product_id==948 || $product_id==1141){
 		
 		echo '<p style="width:100%;float:left;" >';
@@ -2890,10 +3013,9 @@ function enroll_student( $order_id ) {
     	echo '<a href="'.site_url().'/shopadoc-auction-activity/" class="bid_button button alt proceed_to_auction" id="not_print">Proceed to Auction</a><span id="checkout_tooltip" ><span class="tooltip_New checkout"><span class="tooltips custom_m_bubble"  style="float:left !important;">&nbsp;</span><span class="tooltip_text" style="font-size:85%;">Please check your Inbox, Spam, Junk, & Promotions tab for receipts & correspondence <br class="only_print">from ShopADoc.</span></span></span>';
 		echo "</p>";
 	}
-	$user = wp_get_current_user();
 	if($user->roles[0]=='seller'){
 		echo '<p style="width:100%;float:left;" >';
-		echo '<a href="'.get_permalink( $auction_id ).'" style="padding:15px 30px;font-weight:bold;" class="bid_button button alt proceed_to_auction not_print"  id="not_print" >Proceed to Auction</a><span id="checkout_tooltip"><span class="tooltip_New checkout"><span class="tooltips custom_m_bubble"  style="float:left !important;">&nbsp;</span><span class="tooltip_text" style="font-size:85%;">Please check your Inbox, Spam, Junk, & Promotions tab for receipts & correspondence <br class="only_print">from ShopADoc.</span></span></span><!--&nbsp;<a href="'.dokan_get_navigation_url('auction').'" class="bid_button button alt" >Auction Activity</a>-->';
+		echo '<a href="'.get_permalink( $auction_id ).'" style="padding:15px 30px;font-weight:bold;" class="bid_button button alt proceed_to_auction not_print"  id="not_print" onclick="loadPage()">Proceed to Auction</a><span id="checkout_tooltip"><span class="tooltip_New checkout"><span class="tooltips custom_m_bubble"  style="float:left !important;">&nbsp;</span><span class="tooltip_text" style="font-size:85%;">Please check your Inbox, Spam, Junk, & Promotions tab for receipts & correspondence <br class="only_print">from ShopADoc.</span></span></span><!--&nbsp;<a href="'.dokan_get_navigation_url('auction').'" class="bid_button button alt" >Auction Activity</a>-->';
 			echo "</p>";
 	}
 
@@ -3079,13 +3201,13 @@ if($quantity > 0){
 <?php }elseif($quantity_3 > 0){?>
 <p class="form-row terms wc-terms-and-conditions">
     <label class="woocommerce-form__label woocommerce-form__label-for-checkbox checkbox container_my">
-    <input type="checkbox" class="woocommerce-form__input woocommerce-form__input-checkbox input-checkbox" name="terms-new" <?php checked( apply_filters( 'woocommerce_terms_is_checked_default', isset( $_POST['terms-new'] ) ), true ); ?> id="terms-new"> <span class="checkmark_my"></span><span>I authorize ShopADoc The Dentist Marketplace Inc. to charge my credit/debit card, listed below, an annual registration fee in the amount of $99.99.<br />
-The annual registration fee will be a recurring charge to this credit/debit card on your anniversary date of registration.<br /><br /> Under penalty of law, I certify I hold an active unrestricted license to practice dentistry and I am without pending investigation for disciplinary/ administrative action(s) against me. Should my status change, I agree to notify ShopADoc The Dentist Marketplace Inc. immediately by email to <a href="<?php echo home_url('/contact/'); ?>" title="Contact" target="_blank">ShopADoc1@gmail.com</a> and refrain from further participation on this site until reinstatement by the State Board of Dentistry. I have read and accept the <a href="<?php echo home_url('/user-agreement/'); ?>" title="User Agreement" target="_blank">User Agreement</a>, <a href="<?php echo home_url('/privacy-policy/'); ?>" title="Privacy Policy" target="_blank">Privacy Policy</a>, and <a href="<?php echo home_url('/house-rules/'); ?>" title="House Rules" target="_blank">House Rules</a>.</span> <span class="required">*</span>
+    <input type="checkbox" class="woocommerce-form__input woocommerce-form__input-checkbox input-checkbox" name="terms-new" <?php checked( apply_filters( 'woocommerce_terms_is_checked_default', isset( $_POST['terms-new'] ) ), true ); ?> id="terms-new"> <span class="checkmark_my"></span><span>I authorize <span style="font-style: italic;">ShopADoc® The Dentist Marketplace, Inc</span>. to charge my credit/debit card, listed below, an annual registration fee in the amount of $99.99.<br />
+The annual registration fee will be a recurring charge to this credit/debit card on your anniversary date of registration.<br /><br /> Under penalty of law, I certify I hold an active unrestricted license to practice dentistry and I am without pending investigation for disciplinary/ administrative action(s) against me. Should my status change, I agree to notify <span style="font-style: italic;">ShopADoc® The Dentist Marketplace, Inc</span>. immediately by email to <a href="<?php echo home_url('/contact/'); ?>" title="Contact" target="_blank">ShopADoc1@gmail.com</a> and refrain from further participation on this site until reinstatement by the State Board of Dentistry. I have read and accept the <a href="<?php echo home_url('/user-agreement/'); ?>" title="User Agreement" target="_blank">User Agreement</a>, <a href="<?php echo home_url('/privacy-policy/'); ?>" title="Privacy Policy" target="_blank">Privacy Policy</a>, and <a href="<?php echo home_url('/house-rules/'); ?>" title="House Rules" target="_blank">House Rules</a>.</span> <span class="required">*</span>
     </label>
     <input type="hidden" name="terms-new-field" value="true">
     <?php 
-		$term_text = 'I authorize ShopADoc The Dentist Marketplace Inc. to charge my credit/debit card, listed below, an annual registration fee in the amount of $99.99.<br />
-The annual registration fee will be a recurring charge to this credit/debit card on your anniversary date of registration.<br /><br /> Under penalty of law, I certify I hold an active unrestricted license to practice dentistry and I am without pending investigation for disciplinary/ administrative action(s) against me. Should my status change, I agree to notify ShopADoc The Dentist Marketplace Inc. immediately by email to ShopADoc1@gmail.com and refrain from further participation on this site until reinstatement by the State Board of Dentistry. I have read and accept the User Agreement, Privacy Policy, and House Rules.';
+		$term_text = 'I authorize <span style="font-style: italic;">ShopADoc® The Dentist Marketplace, Inc</span>. to charge my credit/debit card, listed below, an annual registration fee in the amount of $99.99.<br />
+The annual registration fee will be a recurring charge to this credit/debit card on your anniversary date of registration.<br /><br /> Under penalty of law, I certify I hold an active unrestricted license to practice dentistry and I am without pending investigation for disciplinary/ administrative action(s) against me. Should my status change, I agree to notify <span style="font-style: italic;">ShopADoc® The Dentist Marketplace, Inc</span>. immediately by email to ShopADoc1@gmail.com and refrain from further participation on this site until reinstatement by the State Board of Dentistry. I have read and accept the User Agreement, Privacy Policy, and House Rules.';
 	?>
     </p>
 <?php }else{?>
@@ -3670,6 +3792,8 @@ add_action( 'init', function() {
 						<a href="javascript:" class="button button-primary print" style="font-size:18px;"><?php esc_html_e( 'Printable Version', 'wpforms-lite' ); ?></a>
 					</div>
                 <?php 
+					$post_content = json_decode(get_post_field('post_content', 895));
+					$post_content_array = (array) $post_content->fields;
 					$fields = apply_filters( 'wpforms_entry_single_data', wpforms_decode( $entry->fields ), $entry, $form_data );
 					//print_r($fields);
 					$email =$fields[3]['value'];
@@ -3677,6 +3801,9 @@ add_action( 'init', function() {
 					$name =$fields[1]['value'];
 					$street1 =$fields[17]['value'];
 					$street2 =$fields[18]['value'];
+					if($street2 !=""){
+						$street1 .=' Suite # '.$street2;
+					}
 					$city =$fields[19]['value'];
 					$state =$fields[20]['value'];
 					$zip =$fields[22]['value'];
@@ -3736,6 +3863,12 @@ add_action( 'init', function() {
                         <td class="woocommerce-table__product-name product-name"> Annual Registration <strong class="product-quantity">× 1</strong></td>
                         <td class="woocommerce-table__product-total product-total"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span><?php echo $fields[29]['amount'];?></span></td>
                       </tr>
+					  <?php if($post_content_array[34]->price != $fields[29]['amount']){?>
+						<tr class="woocommerce-table__line-item order_item">
+                        <td class="woocommerce-table__product-name product-name"> Discount <strong class="product-quantity"></strong></td>
+                        <td class="woocommerce-table__product-total product-total"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">- $</span><?php echo $post_content_array[34]->price - $fields[29]['amount'];?></span></td>
+                      </tr>
+						<?php }?>
                     </tbody>
                     <!--<tfoot>
                                       <tr>
@@ -3757,7 +3890,7 @@ add_action( 'init', function() {
                   <h2 class="woocommerce-column__title">Billing address</h2>
                   <address>
                   <?php echo $name;?><br />
-                  <?php echo $street1." ".$street2;?><br />
+                  <?php echo $street1;?><br />
                   <?php echo $city.", ".$state." ".$zip?><br />
                   <p class="woocommerce-customer-details--phone"><?php echo $phone;?></p>
                   </address>
@@ -5249,6 +5382,7 @@ table thead th {
 						$user_id    = get_current_user_id();
 						$favourites = swf_get_favourites( $user_id) ;
 						global $radius_distance;
+						$auctionids = array();
 						$i = 0;
                         if ( $product_query->have_posts() ) {
                             while ($product_query->have_posts()) {
@@ -5283,6 +5417,8 @@ table thead th {
 								}
 								
 								if($Distance <= $radius_distance){
+									
+									array_push($auctionids,$post->ID);
 									//echo $Distance."==".$dentist_office_address."==".$auction_location."==".$Distance."<br />";
 									$i++;
                                 ?>
@@ -5383,7 +5519,7 @@ table thead th {
 									?>
           <div class="col-12 col-md-2 post-status status_col center"  id="status_<?php echo $product->get_id();?>">
             <div class="footer-widget">
-              <label class="dokan-label <?php echo /*$post->post_status.*/$class; ?>"><?php echo $status;//dokan_get_post_status( $post->post_status ); ?></label>
+              <label class="dokan-label <?php echo /*$post->post_status.*/$class; ?>" id="status_label_<?php echo $product->get_id();?>"><?php echo $status;//dokan_get_post_status( $post->post_status ); ?></label>
             </div>
           </div>
           <div class="col-12 col-md-2 post-status date_col center">
@@ -5450,6 +5586,42 @@ table thead th {
 		var html_Text = '<div class="col-12 col-md-12 image_col"><h2>No auctions as yet in your service area.<br />Please check back frequently.</h2></div>';
 		jQuery(".nano-content").html(html_Text);
 	<?php }?>
+	function checkAuctionStatus(){
+	var auctionids = '<?php echo implode(",",$auctionids);?>';
+	jQuery.ajax({	
+						url:'/ajax.php',	
+						type:'POST',
+						cache : false,
+						data:{'mode':'checkAuctionStatus','auctionids':auctionids},
+						beforeSend: function() {},
+						complete: function() {},
+						success:function (data){
+							var json =jQuery.parseJSON(data);
+							//console.log(json);
+							var windowsize = jQuery(window).width();
+							jQuery.each(json, function(index, item) {
+								//console.log(item.auctionid+"=="+item.stausTxt);
+								if(jQuery("#status_label_"+item.auctionid).html() != item.stausTxt){
+									if(windowsize <= 850){
+										jQuery("#status_label_"+item.auctionid).html(item.stausTxt);
+										jQuery( "#status_label_"+item.auctionid+" span" ).html(jQuery( "#status_label_"+item.auctionid+" span" ).text().replace(/\ /g, '<br>'));
+									}else{
+										jQuery("#status_label_"+item.auctionid).html(item.stausTxt);
+									}
+									/*var windowsize = jQuery(window).width();
+									if(windowsize <= 850){	
+										jQuery( ".status_col label span" ).each(function( index ) {
+										   jQuery( this ).html(jQuery( this ).text().replace(/\ /g, '<br/>'));
+										});
+									}*/
+								}
+							});
+						}
+						});
+}
+<?php if(!empty($auctionids)){?>
+var auctionStatus = setInterval(checkAuctionStatus,2000);
+<?php }?>
 </script>
 <?php 
 }
@@ -5982,6 +6154,25 @@ function custom_price_html( $price, $product ){
 	return $price;
     //return str_replace(',', '',$price);
 }
+function wpf_entries_count( $formid ) {
+ 
+    // Pull ID shortcode attributes such as the type of entries to count
+	//// all, unread, read, or starred.
+    $atts = ['id'   => $formid,'type' => 'unread',];//shortcode_atts(['id'   => $formid,'type' => 'unread',]);
+    if ( empty( $atts[ 'id' ] ) ) {
+        return;
+    }
+    $args = ['form_id' => absint( $atts[ 'id' ] ),];
+    // What types of entries do you want to show? The read, unread, starred or all?
+    if ( $atts[ 'type' ] === 'unread' ) {
+        $args[ 'viewed' ] = '0';
+    } elseif( $atts[ 'type' ] === 'read' ) {
+        $args[ 'viewed' ] = '1';
+    } elseif ( $atts[ 'type' ] === 'starred' ) {
+        $args[ 'starred' ] = '1';
+    }
+    return wpforms()->entry->get_entries( $args, true );
+}
 //Create admin page 
 add_action('admin_menu', 'ad_setting_admin_menu');
 function ad_setting_admin_menu() {
@@ -5999,10 +6190,12 @@ function ad_setting_admin_menu() {
 		add_submenu_page( 'edit.php?coupon_category=coupon-code&post_type=shop_coupon', 'Coupon Codes', 'Coupon Codes','shopadoc_admin_cap', 'edit.php?coupon_category=coupon-code&post_type=shop_coupon');
 		add_submenu_page( 'edit.php?coupon_category=coupon-code&post_type=shop_coupon', 'Promo Codes', 'Promo Codes','shopadoc_admin_cap', 'edit.php?coupon_category=promo-code&post_type=shop_coupon');
 		add_submenu_page( 'edit.php?coupon_category=coupon-code&post_type=shop_coupon', 'Re-list Discount', 'Re-list Discount','shopadoc_admin_cap', 'post.php?post=1642&action=edit');*/
-		
-		add_menu_page(__( 'Incoming Contacts', 'textdomain' ),'Incoming Contacts','shopadoc_admin_cap','/admin.php?page=wpforms-entries&view=list&form_id=266','','dashicons-chart-bar',4);
-		add_submenu_page( 'admin.php?page=wpforms-entries&view=list&form_id=266', 'Admin', 'Admin','shopadoc_admin_cap', '/admin.php?page=wpforms-entries&view=list&form_id=266');
-		add_submenu_page( 'admin.php?page=wpforms-entries&view=list&form_id=266', 'VIP', 'VIP','shopadoc_admin_cap', '/admin.php?page=wpforms-entries&view=list&form_id=4017');
+		$Admin_count = wpf_entries_count(266);
+		$VIP_count = wpf_entries_count(4017);
+		$All_count = $Admin_count + $VIP_count;
+		add_menu_page('Incoming Contacts <span >['.$All_count.']</span>','Incoming Contacts <span >['.$All_count.']</span>','shopadoc_admin_cap','/admin.php?page=wpforms-entries&view=list&form_id=266','','dashicons-chart-bar',4);
+		add_submenu_page( 'admin.php?page=wpforms-entries&view=list&form_id=266', 'Admin ['.$Admin_count.']', 'Admin ['.$Admin_count.']','shopadoc_admin_cap', '/admin.php?page=wpforms-entries&view=list&form_id=266');
+		add_submenu_page( 'admin.php?page=wpforms-entries&view=list&form_id=266', 'VIP ['.$VIP_count.']', 'VIP ['.$VIP_count.']','shopadoc_admin_cap', '/admin.php?page=wpforms-entries&view=list&form_id=4017');
 		
 		//add_menu_page(__( 'Auction #', 'textdomain' ),'Auction #','shopadoc_admin_cap','edit.php?post_type=product&paged=1','','dashicons-admin-post',5);
 		add_menu_page('Auction #', 'Auction #', 'shopadoc_admin_cap', 'admin.php?page=auctions','','dashicons-chart-bar',5);
@@ -6048,7 +6241,7 @@ function ad_setting_admin_menu() {
 		add_menu_page(__( 'Plugins/ Licenses/ IP', 'textdomain' ),'Plugins/ Licenses/ IP','shopadoc_admin_cap','upload.php','','dashicons-megaphone',13);
         add_menu_page('Updates', 'Updates', 'shopadoc_admin_cap', 'admin.php?page=updates','','dashicons-chart-bar',14);
 		//add_menu_page('ADVERTISERS', 'ADVERTISERS','shopadoc_admin_cap','admin.php?page=ADVERTISER','','dashicons-chart-bar',9);
-		add_submenu_page( 'admin.php?page=updates', '<div id="wpse-66024">Plugins</div>', '<div id="wpse-66024">Plugins</div>','shopadoc_admin_cap', '/admin.php?page=updates');
+		add_submenu_page( 'admin.php?page=updates', '<div id="wpse-66024">Plugin</div>', '<div id="wpse-66024">Plugin</div>','shopadoc_admin_cap', '/admin.php?page=updates');
 		add_submenu_page( 'admin.php?page=updates', '<div id="wpse-66023">Code Changes</div>', '<div id="wpse-66023">Code Changes</div>','shopadoc_admin_cap', 'https://github.com/ShopADoc6678');
         
 		//add_menu_page('<div id="wpse-66024">Updates - Plugins</div>','<div id="wpse-66024">Updates - Plugins</div>','shopadoc_admin_cap','/admin.php?page=updates','','dashicons-megaphone',14);
@@ -7611,7 +7804,7 @@ function yith_wcstripe_error_message_order_note_email_send($parm){
 	}
 	define("HTML_EMAIL_HEADERS", array('Content-Type: text/html; charset=UTF-8'));
   	$subject = 'Card Declined';
-	$message = 'Dear '.$user->first_name.',<br /><br />
+	$message = '<p>&nbsp;</p>Dear '.$user->first_name.',<br /><br />
 				Your Credit / Debit card was declined. Please <a href="'. site_url( 'my-account/payment-methods/').'">update your card on file</a>.<br /><br />
 				Thank you,<br />
 				ShopADoc®';
@@ -7947,7 +8140,7 @@ function Relist_Auctions_shortcode($atts){
 					$_flash_cycle_start = get_post_meta( $post->ID, '_flash_cycle_start' , TRUE);
 					$_flash_cycle_end = get_post_meta( $post->ID, '_flash_cycle_end' , TRUE);
 					if(strtotime($_auction_dates_to) < strtotime($today_date_time_seconds) && strtotime($today_date_time_seconds) > strtotime($_flash_cycle_end) && ($bid_count == '' || $bid_count == 0) || (isset($_GET['mode']) && $_GET['mode']=='test')){
-						$newtimestamp = strtotime($_flash_cycle_end.' + 3 minute');
+						$newtimestamp = strtotime($_flash_cycle_end.' + 7 minute');
 						$to_date = date('Y-m-d H:i:s', $newtimestamp);
 						if(strtotime($today_date_time_seconds) > strtotime($to_date)){
 						}else{

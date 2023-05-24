@@ -222,8 +222,8 @@ if((( $deactivate_CD=='No' ||  $deactivate_CD=='')) || strpos($current_url,"/che
               <?php
                             $footer_text = get_theme_mod( 'footer_text' );
 
-                            if ( empty( $footer_text ) ) {
-                                printf( __( '&copy; 2018-%d, %s. All rights are reserved.', 'dokan-theme' ), date( 'Y' ), 'ShopADoc® The Dentist Marketplace, Inc');
+                            if ( empty( $footer_text ) && 1==2) {
+                                printf( __( '&copy; 2018-%d, %s. All rights are reserved.', 'dokan-theme' ), date( 'Y' ), 'ShopADoc® Inc');
                                 printf( __( 'Powered by <a href="%s" target="_blank">GrossiWeb</a>', 'dokan-theme' ), esc_url( 'http://grossiweb.com' ));
                             } else {
                                 echo str_replace("[year]",date('Y'),$footer_text);
@@ -833,7 +833,7 @@ var windowsize = jQuery(window).width();
 if(windowsize <= 850){
 	var orientation = (screen.orientation || {}).type || screen.mozOrientation || screen.msOrientation;
 	//alert(orientation);
-	jQuery(".site-info").text('<?php echo "© 2018-".date("Y")." ShopADoc Inc. All Rights Reserved"?>');
+	//jQuery(".site-info").text('<?php echo "© 2018-".date("Y")." ShopADoc Inc. All Rights Reserved"?>');
 	 var gallery = jQuery(".woocommerce-product-gallery");
 	 var abuse = jQuery(".abuse");
 	 jQuery(".auction-user,h1.product_title,p.auction-start").css('margin-bottom','0px');
@@ -1041,7 +1041,7 @@ jQuery(document).ready(function() {
 		   jQuery( this ).html(jQuery( this ).text().replace(/\ /g, '<br/>'));
 		});
 		jQuery( "th.ask_fee" ).html(jQuery( "th.ask_fee" ).text().replace(/\ /g, '<br/>'));
-		jQuery(".site-info").text('<?php echo "© 2018-".date("Y")." ShopADoc Inc. All Rights Reserved"?>');
+		//jQuery(".site-info").text('<?php echo "© 2018-".date("Y")." ShopADoc Inc. All Rights Reserved"?>');
 		
 		var navbarHeight = jQuery('.navbar').height();
 		

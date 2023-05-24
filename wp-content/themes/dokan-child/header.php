@@ -1,27 +1,50 @@
 <?php
 /**
-   * The Header for our theme.
+ * The Header for our theme.
  *
  * Displays all of the <head> section and everything up till <div id="main">
  *
  * @package dokan
  * @package dokan - 2014 1.0
  */
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<!-- Google Tag Manager -->
+<style type="text/css">
+.media-frame-menu, .media-frame-menu-heading {
+    display: none!important;
+}
+.dokan-new-product-area .dokan-btn:hover, .dokan-new-product-area .dokan-btn:focus {
+    color: #000 !important;
+    border-color: transparent !important;
+    background-color: transparent !important;
+    outline: thin dotted #333 !important;
+}
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166289038-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-166289038-1');
+</script>
+<!-- Google Tag Manager --> 
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-58LBM3N');</script>
+})(window,document,'script','dataLayer','GTM-58LBM3N');</script> 
 <!-- End Google Tag Manager -->
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
 <meta name = "viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
-<title><?php wp_title( '|', true, 'right' ); ?></title>
+<title>
+<?php wp_title( '|', true, 'right' ); ?>
+</title>
 <meta http-equiv='cache-control' content='no-cache'>
 <meta http-equiv='expires' content='0'>
 <meta http-equiv='pragma' content='no-cache'>
@@ -32,10 +55,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/html5.js" type="text/javascript"></script>
 <![endif]-->
 <?php wp_head(); ?>
-<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>-child/jquery.maskedinput.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script> 
+<script src="<?php echo get_template_directory_uri(); ?>-child/jquery.maskedinput.js"></script> 
 <script type="text/javascript">
 function playVideoIcon(){
 		jQuery(".jconfirm-closeIcon").click();		
@@ -489,7 +512,19 @@ function startSlide(current){
 		// current++;
 		 var time = new Date();
 		 var seconds = time.getSeconds();
-		 
+		 if (navigator.userAgent.includes("Mac")) {
+			  // Do something if the browser is running on iOS
+			  //console.log("This browser is running on iOS");
+				if(seconds >= 58){
+					seconds = 0;
+				}else{
+					seconds = seconds + 2;
+				}
+				
+			} else {
+			  // Do something if the browser is not running on iOS
+			  //console.log("This browser is not running on iOS");
+			}
 		 if(seconds>=0 && seconds <= 6){
 			current_sec = 6 - seconds;
 			current = 1;
@@ -517,8 +552,8 @@ function startSlide(current){
 		}else if(seconds>=49 && seconds<=54){
 			current_sec = 54 - seconds;
 			current = 9;
-		}else if(seconds>=55 && seconds<=59){
-			current_sec = 60 - seconds;
+		}else if(seconds>=55 && seconds<=58){
+			current_sec = 58 - seconds;
 			current = 10;
 		}
 		if(current_sec==0){
@@ -971,13 +1006,19 @@ function chooseProfile(id){
 	}
 </script>
 <?php if(is_front_page()) {?>
-	<style type="text/css">
-		.responsive-menu-label.responsive-menu-label-home{
-			display:block !important;right:-37px;top:22px;
-		}
-		#responsive-menu-button.is-active .responsive-menu-label.responsive-menu-label-home{display:none !important;}
-		.responsive-menu-label.responsive-menu-label-home .responsive-menu-button-text{color:#fff;}
-	</style>
+<style type="text/css">
+.responsive-menu-label.responsive-menu-label-home {
+    display: block !important;
+    right: -37px;
+    top: 22px;
+}
+#responsive-menu-button.is-active .responsive-menu-label.responsive-menu-label-home {
+    display: none !important;
+}
+.responsive-menu-label.responsive-menu-label-home .responsive-menu-button-text {
+    color: #fff;
+}
+</style>
 <?php }?>
 <script>
 function myFunction() {
@@ -988,7 +1029,7 @@ function myFunction() {
     x.style.display = "none";
   }
 }
-</script>
+</script> 
 <script type="text/javascript">
  jQuery(document).ready(function(){
 	 var post_id = jQuery(".variation dd.variation-Auctionid").text();
@@ -1000,26 +1041,33 @@ function myFunction() {
 	 });
 	 jQuery('.media-frame-menu').attr('style','display:none !important;');
 </script>
-	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
-    <?php global $class_lang; if(isset($_GET['lang']) && $_GET['lang']=='es'){
-			$class_lang = "lang_es";
-	 }else{
-		 	$class_lang = "lang_en";
-	}?>
+<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+<?php
+global $class_lang;
+if ( isset( $_GET[ 'lang' ] ) && $_GET[ 'lang' ] == 'es' ) {
+  $class_lang = "lang_es";
+} else {
+  $class_lang = "lang_en";
+}
+?>
 <style type="text/css">
-	.media-frame-menu,.media-frame-menu-heading{display:none !important;}
+.media-frame-menu, .media-frame-menu-heading {
+    display: none !important;
+}
 </style>
-    <?php global $post;
-    if($post->ID==6797){?>
-    <style type="text/css">
-        .page-id-6797 .navbar-top-area.navbar{
-            z-index:100000000;
-        }
-        #post-6797 .entry-header{
-            display:none;
-        }
-    </style>
-    <script type="application/javascript">
+<?php
+global $post;
+if ( $post->ID == 6797 ) {
+  ?>
+<style type="text/css">
+.page-id-6797 .navbar-top-area.navbar {
+    z-index: 100000000;
+}
+#post-6797 .entry-header {
+    display: none;
+}
+</style>
+<script type="application/javascript">
 			var auction_no = '<iframe width="100%" height="515" src="<?php echo home_url('ad-analytics/?period=last7days&mode=popup'); ?>" frameborder="0" allowfullscreen></iframe>';
            	Custom_popup_iframe("",auction_no,"col-md-8 col-md-offset-2 no-button",false);
     </script>
@@ -1038,7 +1086,7 @@ function myFunction() {
 </head>
 
 <body id="element" <?php body_class( 'woocommerce' ); ?>>
-	<style type="text/css">
+<style type="text/css">
 		 /*body.fullscreen .topExit{
 			 display: block !important;
 			 float:left;width:100%;height:60px;
@@ -1048,29 +1096,26 @@ function myFunction() {
 			 z-index: 10001;
 		 }*/
 		 body.fullscreen .topExitInner{
-			width: 45px;
+			width: 28px;
 			text-align: center;
 			 position: absolute;
-			 top: 48px;
-			 z-index: 10001;
+			 top: 20px;
+			 z-index: 101;
 			left: 50%;
 			transform: translate(-50%, -50%);
 		 }
 	 </style>
-		 <div class="topExitInner" style="display: none;"><a href="javascript:redirectTolist()" id="exitBtn" title="click Here to exit full screen" ><img src="<?php echo home_url('wp-content/themes/dokan-child/exit.png'); ?>" alt="exit" title="exit" width="45px"/></a></div>
-    <div id="element-inner">
+<div class="topExitInner" style="display: none;"><a href="javascript:redirectTolist()" id="exitBtn" title="click Here to exit full screen" ><img src="<?php echo home_url('wp-content/themes/dokan-child/exit.png'); ?>" alt="exit" title="exit" width="28px"/></a></div>
+<div id="element-inner">
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58LBM3N"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58LBM3N"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
 <!-- End Google Tag Manager (noscript) -->
-<?php if(isset($_GET['mode'])&& $_GET['mode']=='popup'){?>
-<!-- Paste this code after body tag -->
-	<div class="se-pre-con"></div>
-	<!-- Ends -->
-    <style>
-/* Paste this css to your style sheet file or under head tag */
-/* This only works with JavaScript, 
-if it's not present, don't show loader */
+<?php if((isset($_GET['mode'])&& $_GET['mode']=='popup')){?>
+<div class="se-pre-con"></div>
+<style>
 .navbar{ display: none !important;  }
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
@@ -1084,121 +1129,155 @@ if it's not present, don't show loader */
 	background: url(/wp-content/themes/dokan-child/ajax_loader.gif) center no-repeat #fff;
 }
 </style>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script> 
 <script>
-	//paste this code under head tag or in a seperate js file.
-	// Wait for window load
-	jQuery(window).load(function() {
-		// Animate loader off screen
-		jQuery(".se-pre-con").fadeOut("slow");;
-	});
+jQuery(window).load(function() {
+	jQuery(".se-pre-con").fadeOut("slow");;
+});
 </script>
 <?php }?>
-    <div id="page" class="hfeed site module <?php echo $class_lang;?>">
-        <?php do_action( 'before' ); ?>
-
-        <nav class="navbar navbar-inverse navbar-top-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-5">
-                           
-                        <div class="navbar-header">
-                   
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-top-collapse">
-                                <span class="sr-only"><?php _e( 'Toggle navigation', 'dokan-theme' ); ?></span>
-                                <i class="fa fa-bars"></i>
-                            </button>
-                             <div class="translation_div">
-							 <?php dynamic_sidebar('smartslider_area_1'); ?>
-                             </div>
-                             
-                            <?php 
-							if(is_front_page()){
-								echo do_shortcode('[aps-social id="1"]');
-							}
-							?>
-							
-							<?php $user = wp_get_current_user(); 
-								if($user->roles[0]=='shopadoc_admin'&&is_product()){
-										echo '<a href="'.home_url('/wp-admin/admin.php?page=home_performance').'" style="position:relative;z-index:555;font-size:13px !important;margin-left:5px;" class="dokan-btn dokan-btn-theme btn-primary" title="Back">Back</a>';
-								}
-							?>
-                            
-                        </div>
-                        <?php
-                            wp_nav_menu( array(
-                                'theme_location'    => 'top-left',
-                                'depth'             => 0,
-                                'container'         => 'div',
-                                'container_class'   => 'collapse navbar-collapse navbar-top-collapse',
-                                'menu_class'        => 'nav navbar-nav',
-                                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-                                'walker'            => new wp_bootstrap_navwalker())
-                            );
-                        ?>
-                        
-                    </div>
-
-                    <div class="col-md-6 col-sm-7 menu-div">
-                        <div class="collapse navbar-collapse navbar-top-collapse">
-                        	<?php echo do_shortcode('[responsive_menu]');?>
-                            <?php dokan_header_user_menu_custom(); ?>
-                        </div>
-                    </div>
-                </div> <!-- .row -->
-            </div> <!-- .container -->
-        </nav>
-
-        <header id="masthead" class="site-header" role="banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-5">
-                        <hgroup>
-                            <h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?> <small> - <?php bloginfo( 'description' ); ?></small></a></h1>
-                        </hgroup>
-                    </div><!-- .col-md-6 -->
-
-                    <div class="col-md-8 col-sm-7 clearfix">
-                        <?php dynamic_sidebar( 'sidebar-header' ) ?>
-                    </div>
-                </div><!-- .row -->
-            </div><!-- .container -->
-
-            <div class="menu-container">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <nav role="navigation" class="site-navigation main-navigation clearfix">
-                                <h1 class="assistive-text"><i class="icon-reorder"></i> <?php _e( 'Menu', 'dokan-theme' ); ?></h1>
-                                <div class="assistive-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'dokan-theme' ); ?>"><?php _e( 'Skip to content', 'dokan-theme' ); ?></a></div>
-                                    <nav class="navbar navbar-default" role="navigation">
-                                        <div class="navbar-header">
-                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                                                <span class="sr-only"><?php _e( 'Toggle navigation', 'dokan-theme' ); ?></span>
-                                                <i class="fa fa-bars"></i>
-                                            </button>
-                                            <a class="navbar-brand" href="<?php echo home_url(); ?>"><i class="fa fa-home"></i> <?php _e( 'Home', 'dokan-theme' ); ?></a>
-                                        </div>
-                                        <div class="collapse navbar-collapse navbar-main-collapse">
-                                            <?php
-                                                wp_nav_menu( array(
-                                                    'theme_location'    => 'primary',
-                                                    'container'         => 'div',
-                                                    'container_class'   => 'collapse navbar-collapse navbar-main-collapse',
-                                                    'menu_class'        => 'nav navbar-nav',
-                                                    'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-                                                    'walker'            => new wp_bootstrap_navwalker())
-                                                );
-                                            ?>
-                                        </div>
-                                    </nav>
-                            </nav><!-- .site-navigation .main-navigation -->
-                        </div><!-- .span12 -->
-                    </div><!-- .row -->
-                </div><!-- .container -->
-            </div> <!-- .menu-container -->
-        </header><!-- #masthead .site-header -->
-        <style type="text/css">
+<div id="page" class="hfeed site module <?php echo $class_lang;?>">
+<?php do_action( 'before' ); ?>
+<nav class="navbar navbar-inverse navbar-top-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-5">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-top-collapse"> <span class="sr-only">
+          <?php _e( 'Toggle navigation', 'dokan-theme' ); ?>
+          </span> <i class="fa fa-bars"></i> </button>
+          <div class="translation_div">
+            <?php dynamic_sidebar('smartslider_area_1'); ?>
+          </div>
+          <?php
+          if ( is_front_page() ) {
+            //echo do_shortcode('[aps-social id="1"]');
+            ?>
+          <div class="aps-social-icon-wrapper">
+            <div class="aps-group-horizontal">
+              <div class="aps-each-icon icon-1-1" style="margin:px;" data-aps-tooltip="Facebook" data-aps-tooltip-enabled="0" data-aps-tooltip-bg="#000" data-aps-tooltip-color="#fff"> <a href="https://www.facebook.com/2073258272773518/photos/2073258336106845/" target="&quot;_blank&quot;" class="aps-icon-link animated " data-animation-class=""> <img src="https://staging.shopadoc.com/wp-content/uploads/2019/06/facebook.png" alt="Facebook"> </a> <span class="aps-icon-tooltip aps-icon-tooltip-bottom" style="display: none;"></span>
+                <style class="aps-icon-front-style">
+.icon-1-1 img{height:20px;width:20px;opacity:1;-moz-box-shadow:0px 0px 0px 0 ;-webkit-box-shadow:0px 0px 0px 0 ;box-shadow:0px 0px 0px 0 ;padding:px;}.icon-1-1 .aps-icon-tooltip:before{border-color:#000}
+</style>
+              </div>
+              <div class="aps-each-icon icon-1-2" style="margin:px;" data-aps-tooltip="instagram" data-aps-tooltip-enabled="0" data-aps-tooltip-bg="#000" data-aps-tooltip-color="#fff"> <a href="http://instagram.com/ShopADoc" target="&quot;_blank&quot;" class="aps-icon-link animated " data-animation-class=""> <img src="https://staging.shopadoc.com/wp-content/uploads/2019/05/serveimage-1.png" alt="instagram"> </a> <span class="aps-icon-tooltip aps-icon-tooltip-bottom" style="display: none;"></span>
+                <style class="aps-icon-front-style">
+.icon-1-2 img{height:20px;width:20px;opacity:1;-moz-box-shadow:0px 0px 0px 0 ;-webkit-box-shadow:0px 0px 0px 0 ;box-shadow:0px 0px 0px 0 ;padding:px;}.icon-1-2 .aps-icon-tooltip:before{border-color:#000}
+</style>
+              </div>
+              <div class="aps-each-icon icon-1-3" style="margin:px;" data-aps-tooltip="Twitter" data-aps-tooltip-enabled="0" data-aps-tooltip-bg="#000" data-aps-tooltip-color="#fff"> <a href="https://twitter.com/realShopADoc" target="&quot;_blank&quot;" class="aps-icon-link animated " data-animation-class=""> <img src="https://staging.shopadoc.com/wp-content/uploads/2019/06/twitter.png" alt="Twitter"> </a> <span class="aps-icon-tooltip aps-icon-tooltip-bottom" style="display: none;"></span>
+                <style class="aps-icon-front-style">
+.icon-1-3 img{height:20px;width:20px;opacity:1;-moz-box-shadow:0px 0px 0px 0 ;-webkit-box-shadow:0px 0px 0px 0 ;box-shadow:0px 0px 0px 0 ;padding:px;}.icon-1-3 .aps-icon-tooltip:before{border-color:#000}
+</style>
+              </div>
+              <div class="aps-each-icon icon-1-4" style="margin:px;" data-aps-tooltip="Youtube" data-aps-tooltip-enabled="0" data-aps-tooltip-bg="#000" data-aps-tooltip-color="#fff"> <a href="https://youtube.com" target="&quot;_blank&quot;" class="aps-icon-link animated " data-animation-class=""> <img src="https://staging.shopadoc.com/wp-content/uploads/2022/11/youtube.png" alt="Youtube"> </a> <span class="aps-icon-tooltip aps-icon-tooltip-bottom" style="display: none;"></span>
+                <style class="aps-icon-front-style">
+.icon-1-4 img{height:20px;width:px;opacity:1;-moz-box-shadow:0px 0px 0px 0 ;-webkit-box-shadow:0px 0px 0px 0 ;box-shadow:0px 0px 0px 0 ;padding:px;}.icon-1-4 .aps-icon-tooltip:before{border-color:#000}
+</style>
+              </div>
+            </div>
+          </div>
+          <div class="app_div pull-left only_shown_desktop" style="margin-top:0;">
+            <div class="andriod_app pull-left" style="margin:0 5px;"> <a href="#" title="Google-play"><img src="/wp-content/themes/dokan-child/Google-play.png" alt="Google-play" border="0" width="100px"/></a> </div>
+            <div class="ios_app pull-left"> <a href="" title="IOS"><img src="/wp-content/themes/dokan-child/App-Store.png" alt="IOS" border="0" width="100px"/></a> </div>
+          </div>
+          <?php
+          }
+          ?>
+          <?php
+          $user = wp_get_current_user();
+          if ( $user->roles[ 0 ] == 'shopadoc_admin' && is_product() ) {
+            echo '<a href="' . home_url( '/wp-admin/admin.php?page=home_performance' ) . '" style="position:relative;z-index:555;font-size:13px !important;margin-left:5px;" class="dokan-btn dokan-btn-theme btn-primary" title="Back">Back</a>';
+          }
+          ?>
+        </div>
+        <?php
+        wp_nav_menu( array(
+          'theme_location' => 'top-left',
+          'depth' => 0,
+          'container' => 'div',
+          'container_class' => 'collapse navbar-collapse navbar-top-collapse',
+          'menu_class' => 'nav navbar-nav',
+          'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
+          'walker' => new wp_bootstrap_navwalker() ) );
+        ?>
+      </div>
+      <div class="col-md-6 col-sm-7 menu-div">
+        <div class="collapse navbar-collapse navbar-top-collapse"> <?php echo do_shortcode('[responsive_menu]');?>
+          <?php dokan_header_user_menu_custom(); ?>
+        </div>
+      </div>
+    </div>
+    <!-- .row --> 
+  </div>
+  <!-- .container --> 
+</nav>
+<header id="masthead" class="site-header" role="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-5">
+        <hgroup>
+          <h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+            <?php bloginfo( 'name' ); ?>
+            <small> -
+            <?php bloginfo( 'description' ); ?>
+            </small></a></h1>
+        </hgroup>
+      </div>
+      <!-- .col-md-6 -->
+      
+      <div class="col-md-8 col-sm-7 clearfix">
+        <?php dynamic_sidebar( 'sidebar-header' ) ?>
+      </div>
+    </div>
+    <!-- .row --> 
+  </div>
+  <!-- .container -->
+  
+  <div class="menu-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav role="navigation" class="site-navigation main-navigation clearfix">
+            <h1 class="assistive-text"><i class="icon-reorder"></i>
+              <?php _e( 'Menu', 'dokan-theme' ); ?>
+            </h1>
+            <div class="assistive-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'dokan-theme' ); ?>">
+              <?php _e( 'Skip to content', 'dokan-theme' ); ?>
+              </a></div>
+            <nav class="navbar navbar-default" role="navigation">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <span class="sr-only">
+                <?php _e( 'Toggle navigation', 'dokan-theme' ); ?>
+                </span> <i class="fa fa-bars"></i> </button>
+                <a class="navbar-brand" href="<?php echo home_url(); ?>"><i class="fa fa-home"></i>
+                <?php _e( 'Home', 'dokan-theme' ); ?>
+                </a> </div>
+              <div class="collapse navbar-collapse navbar-main-collapse">
+                <?php
+                wp_nav_menu( array(
+                  'theme_location' => 'primary',
+                  'container' => 'div',
+                  'container_class' => 'collapse navbar-collapse navbar-main-collapse',
+                  'menu_class' => 'nav navbar-nav',
+                  'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
+                  'walker' => new wp_bootstrap_navwalker() ) );
+                ?>
+              </div>
+            </nav>
+          </nav>
+          <!-- .site-navigation .main-navigation --> 
+        </div>
+        <!-- .span12 --> 
+      </div>
+      <!-- .row --> 
+    </div>
+    <!-- .container --> 
+  </div>
+  <!-- .menu-container --> 
+</header>
+<!-- #masthead .site-header -->
+<style type="text/css">
 .container_loader {
     position: absolute;
     height: 300px;
@@ -1221,10 +1300,12 @@ if it's not present, don't show loader */
     justify-content: center;
     align-items: center;
 }
+.aps-each-icon {
+    display: inline-block;
+    position: relative;
+}
 </style>
-<div class="container_loader">
-    <img src="<?php echo home_url('/wp-content/themes/dokan-child/ajax_loader.gif');?>" class="loader">
-</div>
-        <div id="main" class="site-main">
-            <div class="container content-wrap">
-                <div class="row">
+<div class="container_loader"> <img src="<?php echo home_url('/wp-content/themes/dokan-child/ajax_loader.gif');?>" class="loader"> </div>
+<div id="main" class="site-main">
+<div class="container content-wrap">
+<div class="row">
